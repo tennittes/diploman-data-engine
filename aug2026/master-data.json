@@ -26,7 +26,7 @@
     "headline": "Kaduna State Advances Security Reinforcement, Strategic Infrastructure Coordination and Healthcare Partnership",
     "psi": 8.7,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Kaduna State Advances Security Reinforcement, Strategic Infrastructure Coordination and Healthcare Partnership",
       "whatHappened": "The Kaduna State Government undertook three significant executive actions during the reporting period, covering internal security reinforcement, strategic infrastructure coordination and healthcare system development. Together, the initiatives demonstrate a coordinated governance approach aimed at strengthening public safety, improving economic connectivity and enhancing public service delivery through institutional partnerships. The first executive action was the passing-out parade of more than 1,000 Armed Forest Guards at the Department of State Services Development Centre in Afaka on 1 August 2026. Governor Uba Sani described the programme as a major milestone in strengthening Kaduna State's security architecture through collaboration with the Office of the National Security Adviser (ONSA) and the Department of State Services (DSS). The newly trained personnel were drawn from the Kaduna Vigilance Service (KADVS), where 1,000 officers were selected from an existing workforce of approximately 7,000 personnel and underwent specialised training to improve operational capability. According to the Governor, the Armed Forest Guards will function as community-based first responders working alongside conventional security agencies to improve surveillance, strengthen intelligence gathering and prevent criminal groups from using forest environments as operational bases. Under the approved operational framework, the personnel will be equipped with higher-grade firearms than those previously issued to members of the Kaduna Vigilance Service. Their deployment to their respective communities is intended to improve intelligence collection by leveraging their familiarity with local terrain while enabling faster identification of emerging security threats. The Governor further disclosed that Kaduna State had formally requested the training of an additional 1,000 Armed Forest Guards following the completion of the pioneer programme. The second executive action focused on strategic transport infrastructure. Ahead of the planned groundbreaking ceremony for the reconstruction of the 122-kilometre Mando–Birnin Gwari Road, Governor Uba Sani met with the Minister of Works, Senator David Umahi, and the Minister of State for Works, Rt. Hon. Bello Muhammad Goronyo, to review project readiness and conclude implementation arrangements. The discussions centred on ensuring the successful commencement of the project and supporting the timely delivery of a highway expected to restore an important transport corridor linking Birnin Gwari and surrounding communities. The Governor stated that the project is designed to improve regional connectivity, facilitate the movement of people and goods, strengthen security along the corridor and stimulate agricultural production, commercial activities and broader economic growth. The third executive action involved strengthening Kaduna State's strategic partnership with the Gates Foundation to advance healthcare delivery and sustainable development. During a meeting with the Foundation's delegation led by its Nigeria Country Director, Mr. Uche Amaonwu, the administration reviewed ongoing collaboration in health sector development and discussed measures to deepen future cooperation. The Governor highlighted achievements supported through the partnership, including improvements in the state's health system, expansion of Universal Health Coverage, revitalisation of Primary Healthcare Centres and establishment of a Data Intelligence Unit to support evidence-based planning and policy implementation. The administration also outlined wider healthcare investments undertaken within the state, including the upgrade of at least 255 Primary Healthcare Centres to Level II status, the commissioning of the 300-bed Bola Ahmed Tinubu Specialist Hospital, the renovation of General Hospitals and ongoing expansion of health insurance coverage for vulnerable populations. Both parties agreed to institutionalise quarterly strategic review meetings to strengthen accountability, sustain implementation momentum and improve development outcomes.",
@@ -74,7 +74,7 @@
     "headline": "Abia State Advances Regional Security Cooperation and Expands Defence Infrastructure Through Strategic Executive Actions",
     "psi": 8.9,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Abia State Advances Regional Security Cooperation and Expands Defence Infrastructure Through Strategic Executive Actions",
       "whatHappened": "The Abia State Government undertook two closely related executive security initiatives during the reporting period, reinforcing both regional security collaboration and the state's institutional security infrastructure through partnerships with the Federal Government and the Nigerian Armed Forces. The first executive action was the hosting of the First South East Regional Security Summit 2026 at the International Conference Centre in Umuahia. The summit, themed \"Collaborative Approaches to Strengthening Security and Regional Stability,\" brought together representatives of South East state governments, senior federal officials, defence institutions, members of the security community and other stakeholders to deliberate on approaches to improving peace and security across the region. Governor Alex Otti stated that the summit reaffirmed his administration's commitment to strengthening regional cooperation, emphasising that security remains the foundation for sustainable economic development and social stability. Discussions highlighted the importance of collaboration among governments, intelligence sharing and coordinated institutional responses to shared security challenges within the South East. The second executive action was the official commissioning and handover of the first Nigerian Air Force Administrative Complex in Umuahia to the Federal Government. The facility was formally handed over to the Minister of Defence and the Chief of the Air Staff during a ceremony held on 31 July 2026. According to the state government, the project forms part of a broader strategy to strengthen the state's security architecture by completing the presence of the nation's three armed services within Abia State, complementing the existing Nigerian Army formation in Ohafia and the Nigerian Navy presence in Owerinta. Governor Otti stated that security remains a fundamental responsibility of government and described the project as evidence of effective collaboration between the Federal Government and sub-national administrations. Beyond constructing the administrative complex, the state government disclosed that it had allocated 120 hectares of land within the ongoing Abia Airport project at Nsulu for the future establishment of a permanent Nigerian Air Force Base. The administration also confirmed that residential accommodation had been secured for Air Force personnel to facilitate their deployment and operational readiness within the state. The government further indicated that it intends to expand cooperation with the Nigerian Air Force beyond security operations into education and human capital development. During the ceremony, the Chief of the Air Staff described the project as a significant contribution to national security infrastructure and noted that the new facilities would strengthen operational effectiveness within the South East. The Minister of Defence similarly commended the state's investment in security infrastructure while encouraging deployed personnel to maintain professionalism and contribute positively to the state's development. Government officials explained that the complex includes administrative offices, an auditorium, conference hall, clinic, armoury, registry, operational support facilities and associated infrastructure designed to support Air Force operations.",
@@ -137,7 +137,7 @@
     "displayDate": "Monday, August 3, 2026",
     "headline": "Lagos State Advances Energy Infrastructure, Healthcare Reform and Water Supply Modernisation",
     "psi": 9.1,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Lagos State Advances Energy Infrastructure, Healthcare Reform and Water Supply Modernisation",
@@ -169,7 +169,7 @@
     "displayDate": "Monday, August 3, 2026",
     "headline": "Ondo State Advances Coastal Infrastructure, Education Administration and Agricultural Investment",
     "psi": 9.3,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Ondo State Advances Coastal Infrastructure, Education Administration and Agricultural Investment",
@@ -297,7 +297,7 @@
     "displayDate": "Monday, August 3, 2026",
     "headline": "Osun State Commissions 10.4km Edunabon-Tonkere Road to Improve Connectivity and Advance Equitable Infrastructure Development",
     "psi": 7.4,
-    "intensity": "MODERATE",
+    "intensity": "HIGH",
     "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Osun State Commissions 10.4km Edunabon-Tonkere Road to Improve Connectivity and Advance Equitable Infrastructure Development",
@@ -306,7 +306,6 @@
     },
     "intent": "Eliminating multi-decade rural isolation through targeted transport corridor rehabilitation."
   },
-[
   {
     "dayNumber": 4,
     "stateKey": "NIGER",
@@ -314,7 +313,7 @@
     "displayDate": "Tuesday, August 4, 2026",
     "headline": "Niger State Launches Enrollment Drive to Add 65,000 Vulnerable Citizens to Health Scheme",
     "psi": 9.0,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Niger State Launches Enrollment Drive to Add 65,000 Vulnerable Citizens to Health Scheme",
@@ -331,7 +330,7 @@
     "headline": "Jigawa State Enacts Open Government Action Plan III and Appointees Oath of Office",
     "psi": 8.8,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Jigawa State Enacts Open Government Action Plan III and Appointees Oath of Office",
       "whatHappened": "The Jigawa State Government undertook two major executive governance actions during the reporting period, reinforcing administrative capacity through strategic appointments while advancing institutional reforms aimed at strengthening transparency, accountability and citizen participation. The first executive action was the swearing-in of one Technical Adviser and five Special Advisers by Governor Umar Namadi. During the ceremony, the Governor stated that the appointments followed careful assessment of the appointees' competence, integrity, experience and standing within their respective communities. Administering the Oath of Office, Governor Namadi reminded the new appointees that public office is a position of trust requiring integrity, accountability and dedicated service. The second executive action focused on institutional governance reform. Governor Namadi formally signed the Jigawa State Open Government Partnership (OGP) State Action Plan III (2026–2027) following the presentation of the validated framework by the Deputy Governor and Chairman of the State OGP Steering Committee, Engr. Aminu Usman. According to the Governor, the Action Plan demonstrates the administration's commitment to institutionalising transparency, accountability, citizen participation and responsive governance. He directed all Ministries, Departments and Agencies (MDAs) to accord implementation of the Action Plan the highest priority by integrating its commitments into their annual work programmes and service delivery activities. Officials disclosed that the Action Plan is built around four strategic governance priorities: fiscal transparency and accountability, access to justice, climate action, and anti-corruption and asset disclosure.",
@@ -483,7 +482,6 @@
     },
     "intent": "Providing targeted social welfare and educational support to reward civic engagement."
   },
-[
   {
     "dayNumber": 5,
     "stateKey": "OGUN",
@@ -491,7 +489,7 @@
     "displayDate": "Wednesday, August 5, 2026",
     "headline": "Ogun State Strengthens Integrated Security Architecture with Police Air Support Deployment",
     "psi": 9.1,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Ogun State Strengthens Integrated Security Architecture with Police Air Support Deployment",
@@ -508,7 +506,7 @@
     "headline": "Benue State Pledges Full Support for Operational Takeoff of New Army 5 Division Headquarters",
     "psi": 8.9,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Benue State Pledges Full Support for Operational Takeoff of New Army 5 Division Headquarters",
       "whatHappened": "The Benue State Government has pledged comprehensive institutional and logistical support for the establishment of the newly approved Nigerian Army 5 Division Headquarters in Makurdi. Governor Rev. Fr. Hyacinth Iormem Alia made the commitment while receiving the Army Headquarters Implementation Committee led by Major General Raymond T. Utsaha. The Governor assured the Nigerian Army that the state government would allocate land, support the construction and furnishing of the headquarters, and provide operational logistics. He expressed appreciation to President Bola Ahmed Tinubu and the Chief of Army Staff for locating the 5 Division Headquarters in Benue State, noting that it covers operations across Benue, Nasarawa, and Kogi States under the military's nationwide expansion.",
@@ -652,7 +650,7 @@
     "headline": "Niger Presents University Vehicles and Opens Talks for Statewide CNG Ecosystem Investment",
     "psi": 7.3,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Niger Presents University Vehicles and Opens Talks for Statewide CNG Ecosystem Investment",
       "whatHappened": "Governor Mohammed Umaru Bago presented official administrative vehicles to the management team of Abdulkadir Kure University, Minna (AKUM), to boost operational efficiency. Separately, the Governor held investment discussions with Hiter-Stata Energy Investment Ltd to establish a comprehensive Compressed Natural Gas (CNG) ecosystem, including refuelling stations and vehicle conversion centres across Niger State.",
@@ -668,7 +666,7 @@
     "headline": "Nasarawa Hosts Nigeria-Colombia Counter-Extremism Mission on Reintegration and Peacebuilding",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Nasarawa Hosts Nigeria-Colombia Counter-Extremism Mission on Reintegration and Peacebuilding",
       "whatHappened": "Governor Abdullahi A. Sule received a joint delegation from the National Counter Terrorism Centre (NCTC-ONSA) and the Republic of Colombia in Lafia. Led by Ambassador Abimbola Wonosikou and Mariano Hernandez, the mission focused on bilateral knowledge exchange regarding post-conflict reintegration, community reconciliation, and the inclusion of women in non-kinetic peacebuilding.",
@@ -708,7 +706,6 @@
     },
     "intent": "Improving municipal urban road connectivity through local government infrastructure execution."
   },
-[
   {
     "dayNumber": 6,
     "stateKey": "BENUE",
@@ -716,7 +713,7 @@
     "displayDate": "Thursday, August 6, 2026",
     "headline": "Benue State Releases N130 Million for Teaching Hospital Staff Welfare and Residency Funds",
     "psi": 9.0,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Benue State Releases N130 Million for Teaching Hospital Staff Welfare and Residency Funds",
@@ -733,7 +730,7 @@
     "headline": "Borno State Unveils AI Educational Humanoid Robot and Inducts 100 Data Fellows",
     "psi": 8.9,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Borno State Unveils AI Educational Humanoid Robot and Inducts 100 Data Fellows",
       "whatHappened": "The Borno State Information and Communication Technology Development Agency (BICTDA) unveiled an indigenous AI educational humanoid robot named 'Mazi Zulum', graduated participants from a six-month AI Bootcamp, and inducted 100 Data Analytics and AI (DAAI) Fellows. BICTDA also announced plans for a Faculty of Computing and noted the operationalization of 22 Digital Literacy Centres across the state.",
@@ -925,7 +922,7 @@
     "headline": "Lagos Trains Local Government Officers, Boosts LAWMA Evacuation, and Inducts 300 Youth",
     "psi": 7.4,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Lagos Trains Local Government Officers, Boosts LAWMA Evacuation, and Inducts 300 Youth",
       "whatHappened": "Lagos State executed three initiatives: OLGE&T commenced capacity training for local government officers across 57 councils; LAWMA reported evacuating 18,660 metric tonnes of waste in a week following Olusosun platform upgrades; and DSVA inducted 300 students into child safeguarding clubs.",
@@ -941,7 +938,7 @@
     "headline": "Akwa Ibom Reaffirms ARISE Agenda Focus on Housing and Model Schools Following Media Award",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Akwa Ibom Reaffirms ARISE Agenda Focus on Housing and Model Schools Following Media Award",
       "whatHappened": "Governor Umo Eno received the Daily Times leadership award delegation led by Fidelis Anosike, framing the recognition as a call to deepen service delivery. He reaffirmed commitment to the ARISE Agenda, highlighting the ARISE Compassionate Homes program for vulnerable citizens and Model Primary Schools.",
@@ -957,7 +954,7 @@
     "headline": "Adamawa Hands Over Security Infrastructure at Fintiri Estate and Inspects Flood Locations",
     "psi": 7.1,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Adamawa Hands Over Security Infrastructure at Fintiri Estate and Inspects Flood Locations",
       "whatHappened": "Housing Commissioner Abdullahi Adamu Prambe certified and handed over a gatehouse, perimeter fence, and police station at Fintiri 1000 Housing Units in Malkohi. Separately, Deputy Governor Kaletapwa Farauta led inspections of flood-affected communities across Yola North and South.",
@@ -973,7 +970,7 @@
     "headline": "Oyo Reaffirms Governance Partnership with Faith Institutions at Methodist Conference",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Oyo Reaffirms Governance Partnership with Faith Institutions at Methodist Conference",
       "whatHappened": "Governor Seyi Makinde opened the 50th/15th Biennial Conference of the Methodist Church Nigeria in Ibadan, commending the church's historical investments in healthcare, education, and social development while calling for sustained government-faith collaboration.",
@@ -1029,7 +1026,6 @@
     },
     "intent": "Maintaining civil service cost-of-living welfare disbursements while defending public financial management."
   },
-[
   {
     "dayNumber": 7,
     "stateKey": "TARABA",
@@ -1037,7 +1033,7 @@
     "displayDate": "Friday, August 7, 2026",
     "headline": "Taraba State Presents Five-Year Internally Generated Revenue Strategy to Executive Council",
     "psi": 9.1,
-    "intensity": "HIGH",
+    "intensity": "OPTIMUM",
     "momentum": "Accelerating",
     "impactMatrix": {
       "headline": "Taraba State Presents Five-Year Internally Generated Revenue Strategy to Executive Council",
@@ -1054,7 +1050,7 @@
     "headline": "Abia State Deploys 20 Additional Electric Buses and Extends Road Safety Operations",
     "psi": 8.9,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Abia State Deploys 20 Additional Electric Buses and Extends Road Safety Operations",
       "whatHappened": "Governor Alex Otti commissioned 20 additional electric buses under the Abia Green Shuttle Service in Umuahia, expanding the fleet to 40 vehicles with integrated disability accessibility features. Concurrently, the Governor directed traffic management agencies to extend enforcement operations until 10:00 p.m. daily.",
@@ -1294,7 +1290,7 @@
     "headline": "Edo Commits to NYSC Youth Welfare and Inspects Industrial Accident Site in Ikpoba-Okha",
     "psi": 7.4,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Edo Commits to NYSC Youth Welfare and Inspects Industrial Accident Site in Ikpoba-Okha",
       "whatHappened": "Governor Monday Okpebholo reaffirmed welfare support for 1,996 deployed NYSC corps members in Okada. Separately, the Ministry of Environment inspected Rongtai New Materials Co. following a fatal workplace accident to enforce occupational safety standards.",
@@ -1310,7 +1306,7 @@
     "headline": "Borno Named to Federal Delegation for Nigeria Diaspora Investment Conference in Canada",
     "psi": 7.3,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Borno Named to Federal Delegation for Nigeria Diaspora Investment Conference in Canada",
       "whatHappened": "The Federal Government approved Governor Babagana Umara Zulum's participation in an official Nigerian delegation to the Nigeria Diaspora Investment Economic Conference (NDIEC) in Toronto, Canada.",
@@ -1326,7 +1322,7 @@
     "headline": "Gombe Internal Revenue Service Hits 80% Target and Recovers Stolen Vehicles via Registration",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Gombe Internal Revenue Service Hits 80% Target and Recovers Stolen Vehicles via Registration",
       "whatHappened": "GIRS Chairperson Aisha Adamu announced that the agency achieved 80% of its annual revenue target while leveraging its digitized vehicle registration database to help recover 4 stolen vehicles across state lines.",
@@ -1342,7 +1338,7 @@
     "headline": "Ekiti Advocates Disability Rights Legislation and Calls for Direct World Bank-State Frameworks",
     "psi": 7.1,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Ekiti Advocates Disability Rights Legislation and Calls for Direct World Bank-State Frameworks",
       "whatHappened": "Governor Biodun Oyebanji declared a structured revolution for Persons with Disabilities (PWDs) at a national conference and advocated for direct World Bank partnerships with state governments tailored to local priorities.",
@@ -1358,7 +1354,7 @@
     "headline": "Akwa Ibom Reaffirms ARISE Agenda Commitments at Yoruba Tennis Club Centenary Lecture",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Akwa Ibom Reaffirms ARISE Agenda Commitments at Yoruba Tennis Club Centenary Lecture",
       "whatHappened": "Governor Umo Eno delivered a keynote address at the Yoruba Tennis Club Centenary in Lagos, emphasizing democratic accountability, civic responsibility, and the implementation of the ARISE Agenda in Akwa Ibom.",
@@ -1414,7 +1410,6 @@
     },
     "intent": "Advocating constitutional due process and non-partisan conduct by federal regulatory and security agencies."
   },
-[
   {
     "dayNumber": 10,
     "stateKey": "GOMBE",
@@ -1423,7 +1418,7 @@
     "headline": "Gombe State Executive Council Approves Over N15 Billion for Kaltungo and Billiri Township Roads",
     "psi": 8.8,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Gombe State Executive Council Approves Over N15 Billion for Kaltungo and Billiri Township Roads",
       "whatHappened": "The Gombe SEC approved ₦7.29B for Kaltungo township roads and ₦8.75B for Billiri township roads, alongside ₦1.08B for city-centre solar lighting, ₦839M for airport renovations, ₦998M for boarding school bedding, adoption of the GOBEST education framework, and the Gombe State Strategic Youth Policy.",
@@ -1583,7 +1578,7 @@
     "headline": "Plateau State Disseminates 2025 National Health Facility Survey to Drive Data-Driven Planning",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Plateau State Disseminates 2025 National Health Facility Survey to Drive Data-Driven Planning",
       "whatHappened": "Plateau State Ministry of Health convened a dissemination workshop for the 2025 National Health Facility Survey and VASA reports in Jos, with Commissioner Dr. Nicholas Ba'amlong highlighting maternal mortality reductions achieved via the Emergency Medical Ambulance System in Riyom and Jos East.",
@@ -1623,7 +1618,6 @@
     },
     "intent": "Fostering regional counter-terrorism cooperation and intelligence sharing across Sahelian nations."
   },
-[
   {
     "dayNumber": 11,
     "stateKey": "GOMBE",
@@ -1632,7 +1626,7 @@
     "headline": "Gombe Governor Advocates Early Start for Gombe-Biu Super Highway and Appoints 19 Permanent Secretaries",
     "psi": 8.7,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Gombe Governor Advocates Early Start for Gombe-Biu Super Highway and Appoints 19 Permanent Secretaries",
       "whatHappened": "Governor Inuwa Yahaya met Works Minister David Umahi in Abuja to advocate early construction on the Gombe-Biu axis of the Akwanga-Maiduguri Super Highway and proposed city bypasses. Separately, the Governor approved 19 new Permanent Secretaries across 11 LGAs.",
@@ -1680,7 +1674,7 @@
     "headline": "Adamawa State Reaffirms Infrastructure Support for Nigerian Law School Yola Campus",
     "psi": 7.3,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Adamawa State Reaffirms Infrastructure Support for Nigerian Law School Yola Campus",
       "whatHappened": "Governor Ahmadu Umaru Fintiri received Nigerian Law School DG Dr. Olugbemi Sola, highlighting four newly constructed hostel blocks, subsidised land title processing, and a 2 MW rural electrification project to supply 23 hours of daily power.",
@@ -1712,7 +1706,7 @@
     "headline": "Bauchi State Commissions 18 Township Road Projects Worth N13.7 Billion Across Metropolis",
     "psi": 8.8,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Bauchi State Commissions 18 Township Road Projects Worth N13.7 Billion Across Metropolis",
       "whatHappened": "Governor Bala Mohammed hosted former President Goodluck Jonathan to commission 18 newly completed township road projects spanning 49.7 km across Bauchi metropolis, constructed at a cost of ₦13.7 billion with solar lighting and drainages.",
@@ -1744,7 +1738,7 @@
     "headline": "Ekiti State Inducts 1,800 Newly Appointed Teachers and Staff in Public Secondary Schools",
     "psi": 7.1,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Ekiti State Inducts 1,800 Newly Appointed Teachers and Staff in Public Secondary Schools",
       "whatHappened": "Ekiti State Teaching Service Commission commenced a three-day induction programme for 1,800 newly recruited teaching and non-teaching staff across public secondary schools.",
@@ -1808,7 +1802,7 @@
     "headline": "Abia State Civil Service Commission Opens Recruitment for Medical and Dental Consultants",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Abia State Civil Service Commission Opens Recruitment for Medical and Dental Consultants",
       "whatHappened": "Abia State Civil Service Commission and Ministry of Health declared online vacancies for Medical Officers, Dental Officers, and full-time/part-time Consultants to strengthen public health facilities.",
@@ -1840,7 +1834,7 @@
     "headline": "Plateau State Trains MSMEs on Export Readiness Under SABER DLI 6 and Distributes Sanitation Kits",
     "psi": 7.4,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Plateau State Trains MSMEs on Export Readiness Under SABER DLI 6 and Distributes Sanitation Kits",
       "whatHappened": "Plateau Commerce Ministry hosted an MSME Export Readiness Workshop under SABER DLI 6 in Jos. Separately, PRUWASSA delivered toilet finishing kits to 170 households in Langtang North under SURWASH.",
@@ -1856,7 +1850,7 @@
     "headline": "Niger State Commences Payment of Gratuities and Death Benefits to Pensioners",
     "psi": 7.6,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Niger State Commences Payment of Gratuities and Death Benefits to Pensioners",
       "whatHappened": "Niger State Pension Board commenced cheque disbursements for State Gratuity Batch 12, State Death Gratuity Batch 1, and Local Government Gratuity Batch 3 across Minna, Bida, and Kontagora.",
@@ -1888,7 +1882,7 @@
     "headline": "Kwara Governor Addresses Troops Deployed to New Omu-Aran Army Battalion",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Kwara Governor Addresses Troops Deployed to New Omu-Aran Army Battalion",
       "whatHappened": "Governor AbdulRahman AbdulRazaq addressed troops of the Nigerian Army deployed to the new Omu-Aran Battalion before their departure from 9 Division, Sobi, Ilorin, to boost regional security.",
@@ -1920,7 +1914,7 @@
     "headline": "Edo State Clarifies 2026 Performance Index Context and Benchmarks Health Regulations in US",
     "psi": 7.4,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Edo State Clarifies 2026 Performance Index Context and Benchmarks Health Regulations in US",
       "whatHappened": "Information Commissioner Prince Kassim Afegbua clarified that 2026 pSPI ratings reflect inherited conditions. Separately, EDOHERMA CEO Dr. Adesuwa Urhoghide-Edigin completed an international US study visit on health regulation.",
@@ -1928,7 +1922,6 @@
     },
     "intent": "Benchmarking healthcare regulatory standards and defending administration policy performance."
   },
-[
   {
     "dayNumber": 12,
     "stateKey": "GOMBE",
@@ -1937,7 +1930,7 @@
     "headline": "Gombe State Governor Rolls Out Landmark Youth Policy and Digital Skills Framework",
     "psi": 8.8,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Gombe State Governor Rolls Out Landmark Youth Policy and Digital Skills Framework",
       "whatHappened": "Governor Inuwa Yahaya marked International Youth Day by rolling out the Gombe State Youth Policy following Executive Council approval, highlighting partnerships with OTNI that trained over 2,000 youth in digital outsourcing.",
@@ -1985,7 +1978,7 @@
     "headline": "FCT Minister Wike Closes Sales of FG Houses Secretariat and Shifts Operations to Land Department",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "FCT Minister Wike Closes Sales of FG Houses Secretariat and Shifts Operations to Land Department",
       "whatHappened": "FCT Minister Nyesom Wike directed the immediate closure of the Ad-hoc Secretariat on Sales of FG Houses, transferring all residual functions to a dedicated division in the Department of Land Administration.",
@@ -2049,7 +2042,7 @@
     "headline": "Sokoto Governor Joins Muslim World League Security and National Unity Conference",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Sokoto Governor Joins Muslim World League Security and National Unity Conference",
       "whatHappened": "Governor Ahmed Aliyu joined Senator Aliyu Wamakko at the MWL/JIBWIS International Conference on Security and National Unity in Abuja, engaging MWL Secretary-General Sheikh Al-Issa on West African peacebuilding.",
@@ -2113,7 +2106,7 @@
     "headline": "Bayelsa State Governor Charges New Ijaw Youth Council Executive on Skills Database and Investment Growth",
     "psi": 7.1,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Bayelsa State Governor Charges New Ijaw Youth Council Executive on Skills Database and Investment Growth",
       "whatHappened": "Governor Douye Diri received 10th IYC President Dr. Doubra Okotete, charging the youth leadership to build a youth skills database, protect Niger Delta resources, and avoid anti-investment social media campaigns.",
@@ -2177,7 +2170,7 @@
     "headline": "Ondo State Governor Declares Open Traditional Rulers Conflict Management Workshop",
     "psi": 7.3,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Ondo State Governor Declares Open Traditional Rulers Conflict Management Workshop",
       "whatHappened": "Governor Lucky Aiyedatiwa declared open a 3-day capacity workshop for traditional rulers on conflict management, legal frameworks, security cooperation, and community administration.",
@@ -2193,7 +2186,7 @@
     "headline": "Kebbi State Governor Pledges Support for Fallen Officers' Families Following Sakaba Attack",
     "psi": 7.5,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Kebbi State Governor Pledges Support for Fallen Officers' Families Following Sakaba Attack",
       "whatHappened": "Governor Nasir Idris received a Police IG delegation after 10 officers and civilians were killed in a terrorist attack in Sakaba LGA, pledging state welfare support and uncompromising security operations.",
@@ -2217,23 +2210,6 @@
     },
     "intent": "Transforming commercial agriculture and expanding technical vocational education capacity."
   },
-  {
-    "dayNumber": 12,
-    "stateKey": "DORMANT",
-    "stateName": "Routine Administrative Operations",
-    "displayDate": "Wednesday, August 12, 2026",
-    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-    "psi": 3.0,
-    "intensity": "LOW",
-    "momentum": "Stable",
-    "impactMatrix": {
-      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-      "whatHappened": "No verified executive-government action meeting Diploman Times editorial criteria was recorded for the jurisdiction during the active reporting window.",
-      "whyItMatters": "Routine administrative continuity provides institutional stability even when no major executive policy intervention or strategic programme is announced."
-    },
-    "intent": "Maintenance of routine civil service cycles and baseline executive bureaucracy."
-  },
-[
   {
     "dayNumber": 13,
     "stateKey": "JIGAWA",
@@ -2386,7 +2362,7 @@
     "headline": "Bayelsa Governor Hands Over Fire Truck to Airport and Honors World Chess Champion",
     "psi": 7.7,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Bayelsa Governor Hands Over Fire Truck to Airport and Honors World Chess Champion",
       "whatHappened": "Governor Douye Diri handed over a German state-of-the-art firefighting truck to Bayelsa International Airport, appointed Rose Angalapele SA on Happiness, and honored 14-year-old World Rapid Chess Champion Goodness Ekunke.",
@@ -2402,7 +2378,7 @@
     "headline": "Gombe NEDC Pads to Prosperity Initiative Graduates 280 Women in Enterprise Skills",
     "psi": 7.5,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Gombe NEDC Pads to Prosperity Initiative Graduates 280 Women in Enterprise Skills",
       "whatHappened": "NEDC Gombe Coordinator Usman Muhammad graduated 280 women from four pilot LGAs under the Pads to Prosperity Community Pad-Making Enterprise Programme, establishing a 6-month monitoring framework.",
@@ -2418,7 +2394,7 @@
     "headline": "Kebbi Governor Receives Primary Teachers Salary Review Committee Report",
     "psi": 7.3,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Kebbi Governor Receives Primary Teachers Salary Review Committee Report",
       "whatHappened": "Governor Nasir Idris received the report of the Primary School Teachers' Salary Review Committee from Chairman Prof. Malami Shehu Gulumbe, pledging to correct wage anomalies and improve teacher welfare.",
@@ -2434,7 +2410,7 @@
     "headline": "Anambra Governor Soludo Engages Diaspora Leaders at Economic Summit in Canada",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Anambra Governor Soludo Engages Diaspora Leaders at Economic Summit in Canada",
       "whatHappened": "Governor Chukwuma Charles Soludo was received by Ndi Anambra in Canada during the Nigeria Diaspora Economic Development Summit, advocating diaspora capital investment in Anambra's economy.",
@@ -2450,7 +2426,7 @@
     "headline": "Oyo Ibadan North Local Government Completes 3.5 km Ikolaba Road Network",
     "psi": 7.0,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Oyo Ibadan North Local Government Completes 3.5 km Ikolaba Road Network",
       "whatHappened": "Ibadan North Local Government Council completed the reconstruction of the 3.5 km Ikolaba (Main) Road Network in Ibadan metropolis.",
@@ -2475,23 +2451,6 @@
     "intent": "Upgrading teaching workforce capacity and aligning classroom instruction with global standards."
   },
   {
-    "dayNumber": 13,
-    "stateKey": "DORMANT",
-    "stateName": "Routine Administrative Operations",
-    "displayDate": "Thursday, August 13, 2026",
-    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-    "psi": 3.0,
-    "intensity": "LOW",
-    "momentum": "Stable",
-    "impactMatrix": {
-      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-      "whatHappened": "No verified executive-government action meeting Diploman Times editorial criteria was recorded for the jurisdiction during the active reporting window.",
-      "whyItMatters": "Routine administrative continuity provides institutional stability even when no major executive policy intervention or strategic programme is announced."
-    },
-    "intent": "Maintenance of routine civil service cycles and baseline executive bureaucracy."
-  },
-[
-  {
     "dayNumber": 14,
     "stateKey": "LAGOS",
     "stateName": "Lagos State",
@@ -2499,7 +2458,7 @@
     "headline": "Lagos State Governor Sanwo-Olu Commissioned 7,000-sqm Mid-Level Agro-Produce Hub in Agege",
     "psi": 8.8,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Lagos State Governor Sanwo-Olu Commissioned 7,000-sqm Mid-Level Agro-Produce Hub in Agege",
       "whatHappened": "Governor Babajide Sanwo-Olu commissioned the Mid-Level Agro-Produce Hub at Pen Cinema, Agege, establishing a direct farm-to-table supply network to eliminate middlemen and reduce post-harvest losses.",
@@ -2515,7 +2474,7 @@
     "headline": "Akwa Ibom Governor Meets SAMCO and Airbus in Montreal on Victor Attah Airport MRO Facility",
     "psi": 8.7,
     "intensity": "HIGH",
-    "momentum": "Accelerating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Akwa Ibom Governor Meets SAMCO and Airbus in Montreal on Victor Attah Airport MRO Facility",
       "whatHappened": "Governor Pastor Umo Eno held high-level meetings in Canada with SAMCO Group Europe and Airbus, finalizing technical partnerships for the Victor Attah Airport MRO facility and inspecting Ibom Air's new A220-300 aircraft.",
@@ -2627,7 +2586,7 @@
     "headline": "Edo State Enforces Adoption and Land Due Process and Welcomes New Mining Commissioner",
     "psi": 7.6,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Edo State Enforces Adoption and Land Due Process and Welcomes New Mining Commissioner",
       "whatHappened": "Information Commissioner Prince Kassim Afegbua and EdoGIS MD Vincent Bello outlined mandatory due process for child adoption and 30-day C-of-O land processing. Separately, Mining Commissioner Ariabekhai Kayode assumed office.",
@@ -2643,7 +2602,7 @@
     "headline": "Adamawa Swears in 10 Permanent Secretaries Charged on Civil Service Merit",
     "psi": 7.4,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Adamawa Swears in 10 Permanent Secretaries Charged on Civil Service Merit",
       "whatHappened": "Deputy Governor Prof. Kaletapwa Farauta, representing Governor Ahmadu Fintiri, swore in 10 new Permanent Secretaries appointed through a transparent merit-based examination process.",
@@ -2659,7 +2618,7 @@
     "headline": "Abia State Leadership Academy Cohort 2 Conducts Manufacturing Study Tour of Tonimas Oil Plant in Aba",
     "psi": 7.2,
     "intensity": "HIGH",
-    "momentum": "Consolidating",
+    "momentum": "Advancing",
     "impactMatrix": {
       "headline": "Abia State Leadership Academy Cohort 2 Conducts Manufacturing Study Tour of Tonimas Oil Plant in Aba",
       "whatHappened": "ASLA Cohort 2 participants toured the Tonimas Oil and Lubricating Plant in Aba, where MD Chief Louis Enukeme urged young leaders to embrace practical manufacturing and business succession.",
@@ -2667,24 +2626,7 @@
     },
     "intent": "Fostering youth entrepreneurship education and practical manufacturing capacity."
   },
-  {
-    "dayNumber": 14,
-    "stateKey": "DORMANT",
-    "stateName": "Routine Administrative Operations",
-    "displayDate": "Friday, August 14, 2026",
-    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-    "psi": 3.0,
-    "intensity": "LOW",
-    "momentum": "Stable",
-    "impactMatrix": {
-      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-      "whatHappened": "No verified executive-government action meeting Diploman Times editorial criteria was recorded for the jurisdiction during the active reporting window.",
-      "whyItMatters": "Routine administrative continuity provides institutional stability even when no major executive policy intervention or strategic programme is announced."
-    },
-    "intent": "Maintenance of routine civil service cycles and baseline executive bureaucracy."
-  },
-[
-  {
+   {
     "dayNumber": 17,
     "stateKey": "ANAMBRA",
     "stateName": "Anambra State",
@@ -2892,24 +2834,7 @@
     },
     "intent": "Maintaining public communication transparency and environmental safety assurance."
   },
-  {
-    "dayNumber": 17,
-    "stateKey": "DORMANT",
-    "stateName": "Routine Administrative Operations",
-    "displayDate": "Monday, August 17, 2026",
-    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-    "psi": 3.0,
-    "intensity": "LOW",
-    "momentum": "Stable",
-    "impactMatrix": {
-      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
-      "whatHappened": "No verified executive-government action meeting Diploman Times editorial criteria was recorded for the jurisdiction during the active reporting window.",
-      "whyItMatters": "Routine administrative continuity provides institutional stability even when no major executive policy intervention or strategic programme is announced."
-    },
-    "intent": "Maintenance of routine civil service cycles and baseline executive bureaucracy."
-  },
-[
-  {
+   {
     "dayNumber": 18,
     "stateKey": "LAGOS",
     "stateName": "Lagos State",
@@ -3133,7 +3058,7 @@
     },
     "intent": "Promoting social welfare support for police families and expanding women community empowerment."
   },
-{
+  {
     "dayNumber": 20,
     "stateKey": "OGUN",
     "stateName": "Ogun State",
@@ -3501,7 +3426,7 @@
     },
     "intent": "Commissioning electronic banking channels and ATM roll-outs for state mortgage institutions."
   },
-{
+  {
     "dayNumber": 21,
     "stateKey": "LAGOS",
     "stateName": "Lagos State",
@@ -3901,7 +3826,7 @@
     },
     "intent": "Presenting election certificates of return to federal executive leadership to foster intergovernmental stability."
   },
-]
+
   "globalCodeData_B3": [
   {
     "dayNumber": 3,
@@ -4507,7 +4432,7 @@
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   },
-{
+  {
     "dayNumber": 5,
     "stateName": "Abia",
     "zone": "South-East",
@@ -4840,7 +4765,7 @@
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   },
-{
+  {
     "dayNumber": 6,
     "stateName": "Abia",
     "zone": "South-East",
@@ -5173,7 +5098,7 @@
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   },
-{
+  {
     "dayNumber": 7,
     "stateName": "Abia",
     "zone": "South-East",
@@ -5506,7 +5431,7 @@
     "focus": "Mabushi, Kugbo & CBD Terminals Operationalization",
     "dailyBrief": "Operationalized newly completed bus/taxi terminals at Mabushi, Kugbo, and the CBD to eliminate illegal roadside motor parks."
   },
-{
+  {
     "dayNumber": 10,
     "stateName": "Abia",
     "zone": "South-East",
@@ -6172,7 +6097,7 @@
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   },
-{
+  {
     "dayNumber": 12,
     "stateName": "Abia",
     "zone": "South-East",
@@ -7504,7 +7429,7 @@
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   },
-{
+  {
     "dayNumber": 18,
     "stateName": "Abia",
     "zone": "South-East",
@@ -8170,7 +8095,7 @@
     "focus": "Inner Southern Expressway (ISEX 2) December Deadline",
     "dailyBrief": "FCT Minister Wike inspected ISEX 2 expressway projects, reiterating a strict December 2026 completion deadline under full funding."
   },
-{
+  {
     "dayNumber": 20,
     "stateName": "Abia",
     "zone": "South-East",
@@ -8503,7 +8428,7 @@
     "focus": "Waterway Demolitions & Green Area Car Lot Ban",
     "dailyBrief": "FCT Minister Wike expanded waterway demolitions across Abuja, banned car sales on green spaces, and inspected CCECC airport road extensions."
   },
-{
+  {
     "dayNumber": 21,
     "stateName": "Abia",
     "zone": "South-East",
