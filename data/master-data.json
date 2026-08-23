@@ -1,0 +1,690 @@
+{
+  "lastUpdated": "2026-08-20",
+  "globalCodeData_B1": [
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "First Lady Senator Oluremi Tinubu Commissions 250-Bed Gateway Medical Centre of Excellence",
+      "psi": 8.9,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "First Lady Senator Oluremi Tinubu Commissions 250-Bed Gateway Medical Centre of Excellence",
+        "whatHappened": "First Lady Sen. Oluremi Tinubu and Governor Dapo Abiodun commissioned the 250-bed Gateway Medical Centre of Excellence in Ogun State to provide advanced tertiary healthcare.",
+        "whyItMatters": "Expands state tertiary clinical capacity, modernizes health infrastructure, and reduces the need for citizens to travel abroad for specialized treatment."
+      },
+      "intent": "Commissioning state-of-the-art tertiary hospital infrastructure to reduce outbound medical tourism."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Ongoing Demolition of Structures on Waterways in Maitama to Extend to Other Parts of Abuja – Says FCT Minister",
+      "psi": 8.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Ongoing Demolition of Structures on Waterways in Maitama to Extend to Other Parts of Abuja – Says FCT Minister",
+        "whatHappened": "FCT Minister Nyesom Wike expanded waterway demolitions across Abuja, banned car sales on green spaces/parks, set up an enforcement task force, and inspected CCECC airport access road extensions.",
+        "whyItMatters": "Enforces urban master plan compliance, prevents severe seasonal flooding, and protects public infrastructure and recreational green zones."
+      },
+      "intent": "Enforcing urban master plan compliance and removing illegal waterway encroachments to prevent urban flooding."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Borno Invests Over ₦12.6bn in Scholarships, Approves Fresh Support for Foreign Students",
+      "psi": 8.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Borno Invests Over ₦12.6bn in Scholarships, Approves Fresh Support for Foreign Students",
+        "whatHappened": "Governor Babagana Zulum welcomed 294 returning foreign scholarship graduates, approved ₦2.65B fresh release for 158 scholars, doubled local scholarship allowances, and opened UNIMAID postgraduate grants.",
+        "whyItMatters": "Builds STEM professional workforce, expands tertiary educational access, and strengthens public institutions in Borno State."
+      },
+      "intent": "Financing high-impact foreign and domestic tertiary scholarships to expand STEM human capital."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Enugu Goes Digital With Land Records! Resumes Survey Revalidation and Digitisation Exercise",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Enugu Goes Digital With Land Records! Resumes Survey Revalidation and Digitisation Exercise",
+        "whatHappened": "Enugu State Government resumed its Continuous Survey Revalidation and Digitisation Exercise across five centers to build a geospatial land registry and issue Digital Land Identity Cards.",
+        "whyItMatters": "Eliminates land title fraud, streamlines property documentation, and enhances commercial real estate investment confidence."
+      },
+      "intent": "Digitizing state land administration records and issuing Digital Land Identity Cards to property owners."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Zamfara Government Awards 81 Projects and Contracts to Boost Infrastructure, Security and Local Government Development",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Zamfara Government Awards 81 Projects and Contracts to Boost Infrastructure, Security and Local Government Development",
+        "whatHappened": "Governor Dauda Lawal awarded 81 projects across 14 LGAs, covering the 14.2km Kwatarkwashi-Mada Road, 14 LGA secretariats, CPG/Hisbah offices, and Emirs' Palaces.",
+        "whyItMatters": "Accelerates local government infrastructure, strengthens community security logistics, and modernizes traditional institutions."
+      },
+      "intent": "Awarding multi-sectoral local government infrastructure contracts to accelerate rural development."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Gov Eno Returns from Aircraft Inspection, Warns Against Divisive, Inflammatory Tendencies",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov Eno Returns from Aircraft Inspection, Warns Against Divisive, Inflammatory Tendencies",
+        "whatHappened": "Governor Umo Eno returned from Canada following pre-delivery inspection of Ibom Air's 3rd Airbus A220-300, warned against divisive politics, and detailed progress on the Aviation Village and MRO facility.",
+        "whyItMatters": "Expands state aviation fleet assets, promotes political cohesion, and advances aviation maintenance infrastructure to drive economic growth."
+      },
+      "intent": "Expanding state aviation fleet assets while promoting social cohesion and aviation MRO infrastructure."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Gov. Aliyu Flags Off Subsidized Sale of 550 Truckloads of Food Items in Bodinga LGA",
+      "psi": 8.6,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov. Aliyu Flags Off Subsidized Sale of 550 Truckloads of Food Items in Bodinga LGA",
+        "whatHappened": "Governor Ahmed Aliyu flagged off subsidized sale of 550 truckloads of grains in Bodinga LGA with Budget Minister Bagudu, selling rice at ₦30,000 vs ₦53,375 market price, and detailed 62 armored vehicles.",
+        "whyItMatters": "Provides direct food inflation relief to rural dwellers and civil servants while highlighting federal revenue funding and anti-banditry security equipment."
+      },
+      "intent": "Deploying subsidized food interventions and highlighting federal revenue support and security logistics."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Fubara Advocates Shift to Vocational Technical Education, Delivers Three Legacy Projects at Elechi Amadi Poly",
+      "psi": 8.6,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Fubara Advocates Shift to Vocational Technical Education, Delivers Three Legacy Projects at Elechi Amadi Poly",
+        "whatHappened": "Governor Siminalayi Fubara advocated a national shift to Vocational and Technical Education (VTE) and commissioned three legacy projects at Captain Elechi Amadi Polytechnic.",
+        "whyItMatters": "Realigns educational curriculum with practical technical skills, reduces youth unemployment, and expands polytechnic infrastructure."
+      },
+      "intent": "Promoting vocational technical education reform and delivering polytechnic legacy infrastructure."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Radda Flags Off 90,000 Bags of Grains to Vulnerable Households in Katsina",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Radda Flags Off 90,000 Bags of Grains to Vulnerable Households in Katsina",
+        "whatHappened": "Governor Dikko Umaru Radda flagged off distribution of 90,000 100kg grain bags across 34 LGAs via Community Level Committees, pairing relief with solar/petrol irrigation inputs.",
+        "whyItMatters": "Relieves food price pressures for vulnerable families while building long-term agricultural production capacity through irrigation support."
+      },
+      "intent": "Executing large-scale food distribution alongside long-term agricultural irrigation investments."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Inuwa Yahaya Approves ₦148.76m Monthly Subvention Increase for Gombe State University",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Inuwa Yahaya Approves ₦148.76m Monthly Subvention Increase for Gombe State University",
+        "whatHappened": "Governor Inuwa Yahaya approved a 56% monthly subvention increase (N148.76M) for GSU to implement the Consolidated Academic Tool Allowance (CATA) and clear ASUU arrears.",
+        "whyItMatters": "Ensures university industrial harmony, clears staff wage arrears, and guarantees uninterrupted academic activities."
+      },
+      "intent": "Increasing state university subventions to implement enhanced staff salary structures and maintain industrial harmony."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Chairman Lake Chad Basin Governors' Forum Gov. Mai Mala Buni Visits Nigerian Refugees in Kaya, Chad",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Chairman Lake Chad Basin Governors' Forum Gov. Mai Mala Buni Visits Nigerian Refugees in Kaya, Chad",
+        "whatHappened": "Governor Mai Mala Buni visited Nigerian refugees in Kaya, Lac Province, Chad Republic, assessing welfare and coordinating voluntary repatriation with LCBC and Chadian authorities.",
+        "whyItMatters": "Strengthens regional humanitarian response, assesses refugee living conditions, and establishes structured repatriation frameworks."
+      },
+      "intent": "Coordinating sub-regional refugee welfare assessment and voluntary repatriation mechanisms."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Lagos Empowers 100 Young People With Event Planning Skills and LASCOPA Warns Over Expired Products",
+      "psi": 8.4,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Lagos Empowers 100 Young People With Event Planning Skills and LASCOPA Warns Over Expired Products",
+        "whatHappened": "Lagos Wealth Creation Ministry graduated 100 youth event planners with Zapphire Training School, while LASCOPA launched enforcement against falsified expired product date-coding.",
+        "whyItMatters": "Fosters youth entrepreneurship in the event value chain while enforcing consumer health safety and product labeling compliance."
+      },
+      "intent": "Fostering youth entrepreneurship skills and enforcing consumer safety against falsified product date-coding."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "TRCN Ranks Kwara Best in Northern Nigeria's Teachers' Qualifying Examination",
+      "psi": 8.4,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "TRCN Ranks Kwara Best in Northern Nigeria's Teachers' Qualifying Examination",
+        "whatHappened": "TRCN ranked Kwara State 1st in Northern Nigeria in the Teachers' Professional Qualifying Examination with a 93.8% pass rate across 616 candidates.",
+        "whyItMatters": "Validates Kwara's merit-based teacher recruitment, improves public classroom instruction quality, and strengthens teacher professional development."
+      },
+      "intent": "Validating merit-based teacher recruitment and public education quality through national professional accreditation."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Adeleke Honoured with Green Leadership Award at WIGSE-26",
+      "psi": 8.3,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Adeleke Honoured with Green Leadership Award at WIGSE-26",
+        "whatHappened": "Governor Ademola Adeleke received the Green Leadership Award at WIGSE-26 in Lagos for Osun's Climate Action Plan, IMOLE solar lanterns, and electric motorbike transit agenda.",
+        "whyItMatters": "Highlights sub-national climate action leadership, promotes renewable energy adoption, and integrates women into the green economy transition."
+      },
+      "intent": "Promoting sub-national climate action policies, solar energy deployment, and circular economy transitions."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Delta Approves Conversion of Omadino College to Federal Poly Campus and Trains 1,000 Agribusiness Youths",
+      "psi": 8.3,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Delta Approves Conversion of Omadino College to Federal Poly Campus and Trains 1,000 Agribusiness Youths",
+        "whatHappened": "Delta approved converting Model Technical College Omadino to Federal Poly Orogun Omadino Campus, and equipped 1,000 youths with agribusiness tools and 120,000 seedlings.",
+        "whyItMatters": "Expands federal tertiary education access while driving youth agricultural commercialization across cocoa, cotton, coffee, and ginger value chains."
+      },
+      "intent": "Facilitating federal tertiary campus expansion and equipping youth agribusiness entrepreneurs with farm inputs."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Edo State Govt Partners Diaspora Nurses on Strengthening Healthcare Delivery",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Edo State Govt Partners Diaspora Nurses on Strengthening Healthcare Delivery",
+        "whatHappened": "Edo Ministry of Health hosted a 5-day Nursing Leadership Summit with North American Diaspora Nurses (NANNA) to advance digital nursing, leadership, and Daisy Awards.",
+        "whyItMatters": "Leverages diaspora medical expertise to upgrade nursing education, digital health records, and patient-centered care standards across Edo hospitals."
+      },
+      "intent": "Engaging medical diaspora experts to strengthen nursing leadership, digital health, and clinical care standards."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Bassey Otu Directs Withdrawal of Complaint Against Youth Critic Denis Odama",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Bassey Otu Directs Withdrawal of Complaint Against Youth Critic Denis Odama",
+        "whatHappened": "Governor Bassey Otu directed his aides and Attorney General to withdraw complaints and discontinue prosecution against critic Denis Odama, upholding Section 39 free speech rights.",
+        "whyItMatters": "Protects constitutional free speech rights, demonstrates tolerant political leadership, and reduces judicial overreach against public commentators."
+      },
+      "intent": "Upholding constitutional free speech rights and discontinuing judicial prosecution against public critics."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Adamawa Deputy Governor Receives NEMA, ADSEMA Delegation on Flood Preparedness",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Adamawa Deputy Governor Receives NEMA, ADSEMA Delegation on Flood Preparedness",
+        "whatHappened": "Deputy Governor Prof. Kaletapwa Farauta received NEMA and ADSEMA officials launching a Full-Scale Simulation Exercise (SIMEX) on flood disaster response in Yola.",
+        "whyItMatters": "Strengthens community flood emergency response readiness, early warning communication, and inter-agency disaster management coordination."
+      },
+      "intent": "Executing multi-agency flood disaster simulation exercises to enhance emergency response readiness."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Nwifuru Forges Strategic Housing Partnership with Federal Mortgage Bank of Nigeria",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Nwifuru Forges Strategic Housing Partnership with Federal Mortgage Bank of Nigeria",
+        "whatHappened": "Governor Francis Nwifuru met FMBN Executive Director Chinenye Anosike to forge a strategic partnership for sustainable public housing expansion in Ebonyi State.",
+        "whyItMatters": "Expands affordable public housing access, improves shelter dignity, and attracts mortgage infrastructure funding into Ebonyi State."
+      },
+      "intent": "Partnering federal mortgage institutions to expand affordable public housing development."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Gov. Agbu Kefas Urges Church to Remain Conscience of Society at CAN Ministers' Conference",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov. Agbu Kefas Urges Church to Remain Conscience of Society at CAN Ministers' Conference",
+        "whatHappened": "Governor Agbu Kefas addressed the CAN Ministers' Conference in Jalingo, urging the Church to maintain moral oversight, speak truth to power, and avoid partisan politics.",
+        "whyItMatters": "Strengthens interfaith civil-state collaboration, promotes moral guidance against social vices, and fosters peaceful co-existence in Taraba State."
+      },
+      "intent": "Encouraging religious institutions to provide moral oversight and partner with government in peacebuilding."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Mutfwang to Inaugurate Three New Commissioners in Jos",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Mutfwang to Inaugurate Three New Commissioners in Jos",
+        "whatHappened": "Governor Caleb Mutfwang prepared to inaugurate three new Executive Council Commissioners for Bokkos, Bassa, and Quanpan LGAs at Government House, Jos.",
+        "whyItMatters": "Expands cabinet governance capacity, strengthens public service delivery, and ensures balanced geographical representation in Plateau State Government."
+      },
+      "intent": "Expanding state executive cabinet capacity to enhance public service delivery across local government areas."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Highlights of Decisions Taken at the Sixth Meeting (2026) of the Ekiti State Executive Council",
+      "psi": 7.9,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Highlights of Decisions Taken at the Sixth Meeting (2026) of the Ekiti State Executive Council",
+        "whatHappened": "Ekiti State Executive Council held its 6th meeting of 2026 under Governor Biodun Oyebanji, approving strategic policy initiatives and infrastructure projects.",
+        "whyItMatters": "Drives sub-national policy implementation, strengthens institutional capacity, and accelerates socio-economic growth across Ekiti State."
+      },
+      "intent": "Approving strategic state executive policy initiatives and public infrastructure projects."
+    },
+    {
+      "dayNumber": 20,
+      "displayDate": "Thursday, August 20, 2026",
+      "headline": "Governor Nasir Idris Commissions ATM Card Roll-Out for Kebbi Home Savings & Loans",
+      "psi": 7.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Nasir Idris Commissions ATM Card Roll-Out for Kebbi Home Savings & Loans",
+        "whatHappened": "Governor Nasir Idris officially launched the ATM Card roll-out and electronic banking channels for Kebbi State Home Savings & Loans Limited.",
+        "whyItMatters": "Promotes sub-national financial inclusion, digitizes primary mortgage banking services, and reduces over-the-counter transaction dependence."
+      },
+      "intent": "Commissioning electronic banking channels and ATM roll-outs for state mortgage institutions."
+    }
+  ],
+  "globalCodeData_B2": [
+    {
+      "dayNumber": "OGUN",
+      "displayDate": "Ogun State",
+      "headline": "First Lady Senator Oluremi Tinubu Commissions 250-Bed Gateway Medical Centre of Excellence",
+      "psi": 8.9,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "First Lady Senator Oluremi Tinubu Commissions 250-Bed Gateway Medical Centre of Excellence",
+        "whatHappened": "First Lady Sen. Oluremi Tinubu and Governor Dapo Abiodun commissioned the 250-bed Gateway Medical Centre of Excellence in Ogun State to provide advanced tertiary healthcare.",
+        "whyItMatters": "Expands state tertiary clinical capacity, modernizes health infrastructure, and reduces the need for citizens to travel abroad for specialized treatment."
+      },
+      "intent": "Commissioning state-of-the-art tertiary hospital infrastructure to reduce outbound medical tourism."
+    },
+    {
+      "dayNumber": "FCT ABUJA",
+      "displayDate": "FCT Abuja",
+      "headline": "Ongoing Demolition of Structures on Waterways in Maitama to Extend to Other Parts of Abuja – Says FCT Minister",
+      "psi": 8.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Ongoing Demolition of Structures on Waterways in Maitama to Extend to Other Parts of Abuja – Says FCT Minister",
+        "whatHappened": "FCT Minister Nyesom Wike expanded waterway demolitions across Abuja, banned car sales on green spaces/parks, set up an enforcement task force, and inspected CCECC airport access road extensions.",
+        "whyItMatters": "Enforces urban master plan compliance, prevents severe seasonal flooding, and protects public infrastructure and recreational green zones."
+      },
+      "intent": "Enforcing urban master plan compliance and removing illegal waterway encroachments to prevent urban flooding."
+    },
+    {
+      "dayNumber": "BORNO",
+      "displayDate": "Borno State",
+      "headline": "Borno Invests Over ₦12.6bn in Scholarships, Approves Fresh Support for Foreign Students",
+      "psi": 8.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Borno Invests Over ₦12.6bn in Scholarships, Approves Fresh Support for Foreign Students",
+        "whatHappened": "Governor Babagana Zulum welcomed 294 returning foreign scholarship graduates, approved ₦2.65B fresh release for 158 scholars, doubled local scholarship allowances, and opened UNIMAID postgraduate grants.",
+        "whyItMatters": "Builds STEM professional workforce, expands tertiary educational access, and strengthens public institutions in Borno State."
+      },
+      "intent": "Financing high-impact foreign and domestic tertiary scholarships to expand STEM human capital."
+    },
+    {
+      "dayNumber": "ENUGU",
+      "displayDate": "Enugu State",
+      "headline": "Enugu Goes Digital With Land Records! Resumes Survey Revalidation and Digitisation Exercise",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Enugu Goes Digital With Land Records! Resumes Survey Revalidation and Digitisation Exercise",
+        "whatHappened": "Enugu State Government resumed its Continuous Survey Revalidation and Digitisation Exercise across five centers to build a geospatial land registry and issue Digital Land Identity Cards.",
+        "whyItMatters": "Eliminates land title fraud, streamlines property documentation, and enhances commercial real estate investment confidence."
+      },
+      "intent": "Digitizing state land administration records and issuing Digital Land Identity Cards to property owners."
+    },
+    {
+      "dayNumber": "ZAMFARA",
+      "displayDate": "Zamfara State",
+      "headline": "Zamfara Government Awards 81 Projects and Contracts to Boost Infrastructure, Security and Local Government Development",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Zamfara Government Awards 81 Projects and Contracts to Boost Infrastructure, Security and Local Government Development",
+        "whatHappened": "Governor Dauda Lawal awarded 81 projects across 14 LGAs, covering the 14.2km Kwatarkwashi-Mada Road, 14 LGA secretariats, CPG/Hisbah offices, and Emirs' Palaces.",
+        "whyItMatters": "Accelerates local government infrastructure, strengthens community security logistics, and modernizes traditional institutions."
+      },
+      "intent": "Awarding multi-sectoral local government infrastructure contracts to accelerate rural development."
+    },
+    {
+      "dayNumber": "AKWA IBOM",
+      "displayDate": "Akwa Ibom State",
+      "headline": "Gov Eno Returns from Aircraft Inspection, Warns Against Divisive, Inflammatory Tendencies",
+      "psi": 8.7,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov Eno Returns from Aircraft Inspection, Warns Against Divisive, Inflammatory Tendencies",
+        "whatHappened": "Governor Umo Eno returned from Canada following pre-delivery inspection of Ibom Air's 3rd Airbus A220-300, warned against divisive politics, and detailed progress on the Aviation Village and MRO facility.",
+        "whyItMatters": "Expands state aviation fleet assets, promotes political cohesion, and advances aviation maintenance infrastructure to drive economic growth."
+      },
+      "intent": "Expanding state aviation fleet assets while promoting social cohesion and aviation MRO infrastructure."
+    },
+    {
+      "dayNumber": "SOKOTO",
+      "displayDate": "Sokoto State",
+      "headline": "Gov. Aliyu Flags Off Subsidized Sale of 550 Truckloads of Food Items in Bodinga LGA",
+      "psi": 8.6,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov. Aliyu Flags Off Subsidized Sale of 550 Truckloads of Food Items in Bodinga LGA",
+        "whatHappened": "Governor Ahmed Aliyu flagged off subsidized sale of 550 truckloads of grains in Bodinga LGA with Budget Minister Bagudu, selling rice at ₦30,000 vs ₦53,375 market price, and detailed 62 armored vehicles.",
+        "whyItMatters": "Provides direct food inflation relief to rural dwellers and civil servants while highlighting federal revenue funding and anti-banditry security equipment."
+      },
+      "intent": "Deploying subsidized food interventions and highlighting federal revenue support and security logistics."
+    },
+    {
+      "dayNumber": "RIVERS",
+      "displayDate": "Rivers State",
+      "headline": "Fubara Advocates Shift to Vocational Technical Education, Delivers Three Legacy Projects at Elechi Amadi Poly",
+      "psi": 8.6,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Fubara Advocates Shift to Vocational Technical Education, Delivers Three Legacy Projects at Elechi Amadi Poly",
+        "whatHappened": "Governor Siminalayi Fubara advocated a national shift to Vocational and Technical Education (VTE) and commissioned three legacy projects at Captain Elechi Amadi Polytechnic.",
+        "whyItMatters": "Realigns educational curriculum with practical technical skills, reduces youth unemployment, and expands polytechnic infrastructure."
+      },
+      "intent": "Promoting vocational technical education reform and delivering polytechnic legacy infrastructure."
+    },
+    {
+      "dayNumber": "KATSINA",
+      "displayDate": "Katsina State",
+      "headline": "Governor Radda Flags Off 90,000 Bags of Grains to Vulnerable Households in Katsina",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Radda Flags Off 90,000 Bags of Grains to Vulnerable Households in Katsina",
+        "whatHappened": "Governor Dikko Umaru Radda flagged off distribution of 90,000 100kg grain bags across 34 LGAs via Community Level Committees, pairing relief with solar/petrol irrigation inputs.",
+        "whyItMatters": "Relieves food price pressures for vulnerable families while building long-term agricultural production capacity through irrigation support."
+      },
+      "intent": "Executing large-scale food distribution alongside long-term agricultural irrigation investments."
+    },
+    {
+      "dayNumber": "GOMBE",
+      "displayDate": "Gombe State",
+      "headline": "Governor Inuwa Yahaya Approves ₦148.76m Monthly Subvention Increase for Gombe State University",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Inuwa Yahaya Approves ₦148.76m Monthly Subvention Increase for Gombe State University",
+        "whatHappened": "Governor Inuwa Yahaya approved a 56% monthly subvention increase (N148.76M) for GSU to implement the Consolidated Academic Tool Allowance (CATA) and clear ASUU arrears.",
+        "whyItMatters": "Ensures university industrial harmony, clears staff wage arrears, and guarantees uninterrupted academic activities."
+      },
+      "intent": "Increasing state university subventions to implement enhanced staff salary structures and maintain industrial harmony."
+    },
+    {
+      "dayNumber": "YOBE",
+      "displayDate": "Yobe State",
+      "headline": "Chairman Lake Chad Basin Governors' Forum Gov. Mai Mala Buni Visits Nigerian Refugees in Kaya, Chad",
+      "psi": 8.5,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Chairman Lake Chad Basin Governors' Forum Gov. Mai Mala Buni Visits Nigerian Refugees in Kaya, Chad",
+        "whatHappened": "Governor Mai Mala Buni visited Nigerian refugees in Kaya, Lac Province, Chad Republic, assessing welfare and coordinating voluntary repatriation with LCBC and Chadian authorities.",
+        "whyItMatters": "Strengthens regional humanitarian response, assesses refugee living conditions, and establishes structured repatriation frameworks."
+      },
+      "intent": "Coordinating sub-regional refugee welfare assessment and voluntary repatriation mechanisms."
+    },
+    {
+      "dayNumber": "LAGOS",
+      "displayDate": "Lagos State",
+      "headline": "Lagos Empowers 100 Young People With Event Planning Skills and LASCOPA Warns Over Expired Products",
+      "psi": 8.4,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Lagos Empowers 100 Young People With Event Planning Skills and LASCOPA Warns Over Expired Products",
+        "whatHappened": "Lagos Wealth Creation Ministry graduated 100 youth event planners with Zapphire Training School, while LASCOPA launched enforcement against falsified expired product date-coding.",
+        "whyItMatters": "Fosters youth entrepreneurship in the event value chain while enforcing consumer health safety and product labeling compliance."
+      },
+      "intent": "Fostering youth entrepreneurship skills and enforcing consumer safety against falsified product date-coding."
+    },
+    {
+      "dayNumber": "KWARA",
+      "displayDate": "Kwara State",
+      "headline": "TRCN Ranks Kwara Best in Northern Nigeria's Teachers' Qualifying Examination",
+      "psi": 8.4,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "TRCN Ranks Kwara Best in Northern Nigeria's Teachers' Qualifying Examination",
+        "whatHappened": "TRCN ranked Kwara State 1st in Northern Nigeria in the Teachers' Professional Qualifying Examination with a 93.8% pass rate across 616 candidates.",
+        "whyItMatters": "Validates Kwara's merit-based teacher recruitment, improves public classroom instruction quality, and strengthens teacher professional development."
+      },
+      "intent": "Validating merit-based teacher recruitment and public education quality through national professional accreditation."
+    },
+    {
+      "dayNumber": "OSUN",
+      "displayDate": "Osun State",
+      "headline": "Governor Adeleke Honoured with Green Leadership Award at WIGSE-26",
+      "psi": 8.3,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Adeleke Honoured with Green Leadership Award at WIGSE-26",
+        "whatHappened": "Governor Ademola Adeleke received the Green Leadership Award at WIGSE-26 in Lagos for Osun's Climate Action Plan, IMOLE solar lanterns, and electric motorbike transit agenda.",
+        "whyItMatters": "Highlights sub-national climate action leadership, promotes renewable energy adoption, and integrates women into the green economy transition."
+      },
+      "intent": "Promoting sub-national climate action policies, solar energy deployment, and circular economy transitions."
+    },
+    {
+      "dayNumber": "DELTA",
+      "displayDate": "Delta State",
+      "headline": "Delta Approves Conversion of Omadino College to Federal Poly Campus and Trains 1,000 Agribusiness Youths",
+      "psi": 8.3,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Delta Approves Conversion of Omadino College to Federal Poly Campus and Trains 1,000 Agribusiness Youths",
+        "whatHappened": "Delta approved converting Model Technical College Omadino to Federal Poly Orogun Omadino Campus, and equipped 1,000 youths with agribusiness tools and 120,000 seedlings.",
+        "whyItMatters": "Expands federal tertiary education access while driving youth agricultural commercialization across cocoa, cotton, coffee, and ginger value chains."
+      },
+      "intent": "Facilitating federal tertiary campus expansion and equipping youth agribusiness entrepreneurs with farm inputs."
+    },
+    {
+      "dayNumber": "EDO",
+      "displayDate": "Edo State",
+      "headline": "Edo State Govt Partners Diaspora Nurses on Strengthening Healthcare Delivery",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Edo State Govt Partners Diaspora Nurses on Strengthening Healthcare Delivery",
+        "whatHappened": "Edo Ministry of Health hosted a 5-day Nursing Leadership Summit with North American Diaspora Nurses (NANNA) to advance digital nursing, leadership, and Daisy Awards.",
+        "whyItMatters": "Leverages diaspora medical expertise to upgrade nursing education, digital health records, and patient-centered care standards across Edo hospitals."
+      },
+      "intent": "Engaging medical diaspora experts to strengthen nursing leadership, digital health, and clinical care standards."
+    },
+    {
+      "dayNumber": "CROSS RIVER",
+      "displayDate": "Cross River State",
+      "headline": "Governor Bassey Otu Directs Withdrawal of Complaint Against Youth Critic Denis Odama",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Bassey Otu Directs Withdrawal of Complaint Against Youth Critic Denis Odama",
+        "whatHappened": "Governor Bassey Otu directed his aides and Attorney General to withdraw complaints and discontinue prosecution against critic Denis Odama, upholding Section 39 free speech rights.",
+        "whyItMatters": "Protects constitutional free speech rights, demonstrates tolerant political leadership, and reduces judicial overreach against public commentators."
+      },
+      "intent": "Upholding constitutional free speech rights and discontinuing judicial prosecution against public critics."
+    },
+    {
+      "dayNumber": "ADAMAWA",
+      "displayDate": "Adamawa State",
+      "headline": "Adamawa Deputy Governor Receives NEMA, ADSEMA Delegation on Flood Preparedness",
+      "psi": 8.1,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Adamawa Deputy Governor Receives NEMA, ADSEMA Delegation on Flood Preparedness",
+        "whatHappened": "Deputy Governor Prof. Kaletapwa Farauta received NEMA and ADSEMA officials launching a Full-Scale Simulation Exercise (SIMEX) on flood disaster response in Yola.",
+        "whyItMatters": "Strengthens community flood emergency response readiness, early warning communication, and inter-agency disaster management coordination."
+      },
+      "intent": "Executing multi-agency flood disaster simulation exercises to enhance emergency response readiness."
+    },
+    {
+      "dayNumber": "EBONYI",
+      "displayDate": "Ebonyi State",
+      "headline": "Governor Nwifuru Forges Strategic Housing Partnership with Federal Mortgage Bank of Nigeria",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Nwifuru Forges Strategic Housing Partnership with Federal Mortgage Bank of Nigeria",
+        "whatHappened": "Governor Francis Nwifuru met FMBN Executive Director Chinenye Anosike to forge a strategic partnership for sustainable public housing expansion in Ebonyi State.",
+        "whyItMatters": "Expands affordable public housing access, improves shelter dignity, and attracts mortgage infrastructure funding into Ebonyi State."
+      },
+      "intent": "Partnering federal mortgage institutions to expand affordable public housing development."
+    },
+    {
+      "dayNumber": "TARABA",
+      "displayDate": "Taraba State",
+      "headline": "Gov. Agbu Kefas Urges Church to Remain Conscience of Society at CAN Ministers' Conference",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Gov. Agbu Kefas Urges Church to Remain Conscience of Society at CAN Ministers' Conference",
+        "whatHappened": "Governor Agbu Kefas addressed the CAN Ministers' Conference in Jalingo, urging the Church to maintain moral oversight, speak truth to power, and avoid partisan politics.",
+        "whyItMatters": "Strengthens interfaith civil-state collaboration, promotes moral guidance against social vices, and fosters peaceful co-existence in Taraba State."
+      },
+      "intent": "Encouraging religious institutions to provide moral oversight and partner with government in peacebuilding."
+    },
+    {
+      "dayNumber": "PLATEAU",
+      "displayDate": "Plateau State",
+      "headline": "Governor Mutfwang to Inaugurate Three New Commissioners in Jos",
+      "psi": 8.0,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Mutfwang to Inaugurate Three New Commissioners in Jos",
+        "whatHappened": "Governor Caleb Mutfwang prepared to inaugurate three new Executive Council Commissioners for Bokkos, Bassa, and Quanpan LGAs at Government House, Jos.",
+        "whyItMatters": "Expands cabinet governance capacity, strengthens public service delivery, and ensures balanced geographical representation in Plateau State Government."
+      },
+      "intent": "Expanding state executive cabinet capacity to enhance public service delivery across local government areas."
+    },
+    {
+      "dayNumber": "EKITI",
+      "displayDate": "Ekiti State",
+      "headline": "Highlights of Decisions Taken at the Sixth Meeting (2026) of the Ekiti State Executive Council",
+      "psi": 7.9,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Highlights of Decisions Taken at the Sixth Meeting (2026) of the Ekiti State Executive Council",
+        "whatHappened": "Ekiti State Executive Council held its 6th meeting of 2026 under Governor Biodun Oyebanji, approving strategic policy initiatives and infrastructure projects.",
+        "whyItMatters": "Drives sub-national policy implementation, strengthens institutional capacity, and accelerates socio-economic growth across Ekiti State."
+      },
+      "intent": "Approving strategic state executive policy initiatives and public infrastructure projects."
+    },
+    {
+      "dayNumber": "KEBBI",
+      "displayDate": "Kebbi State",
+      "headline": "Governor Nasir Idris Commissions ATM Card Roll-Out for Kebbi Home Savings & Loans",
+      "psi": 7.8,
+      "intensity": "HIGH",
+      "momentum": "Advancing",
+      "impactMatrix": {
+        "headline": "Governor Nasir Idris Commissions ATM Card Roll-Out for Kebbi Home Savings & Loans",
+        "whatHappened": "Governor Nasir Idris officially launched the ATM Card roll-out and electronic banking channels for Kebbi State Home Savings & Loans Limited.",
+        "whyItMatters": "Promotes sub-national financial inclusion, digitizes primary mortgage banking services, and reduces over-the-counter transaction dependence."
+      },
+      "intent": "Commissioning electronic banking channels and ATM roll-outs for state mortgage institutions."
+    }
+  ],
+  "globalCodeData_B3": [
+    { "stateName": "Abia", "zone": "South-East", "psi": 3.0, "sis": 2.2, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Adamawa", "zone": "North-East", "psi": 8.1, "sis": 2.5, "focus": "Full-Scale Flood SIMEX Exercise with NEMA", "dailyBrief": "Deputy Governor Prof. Kaletapwa Farauta received NEMA/ADSEMA officials launching a Full-Scale Simulation Exercise (SIMEX) on flood response." },
+    { "stateName": "Akwa Ibom", "zone": "South-South", "psi": 8.7, "sis": 2.1, "focus": "Ibom Air Fleet Expansion & Aviation MRO Infrastructure", "dailyBrief": "Governor Umo Eno returned from Canada Airbus inspection, warned against divisive politics, and detailed progress on the Aviation Village and MRO." },
+    { "stateName": "Anambra", "zone": "South-East", "psi": 3.0, "sis": 2.2, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Bauchi", "zone": "North-East", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Bayelsa", "zone": "South-South", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Benue", "zone": "North-Central", "psi": 3.0, "sis": 7.8, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Borno", "zone": "North-East", "psi": 8.8, "sis": 6.2, "focus": "₦12.64B Scholarship Investment & ₦2.65B Release", "dailyBrief": "Governor Zulum welcomed 294 foreign graduates, approved ₦2.65B for 158 foreign scholars, and doubled local scholarship allowances." },
+    { "stateName": "Cross River", "zone": "South-South", "psi": 8.1, "sis": 2.5, "focus": "Section 39 Free Speech & Critic Prosecution Discontinuance", "dailyBrief": "Governor Bassey Otu directed Attorney General to discontinue prosecution against youth critic Denis Odama, upholding Section 39 free speech." },
+    { "stateName": "Delta", "zone": "South-South", "psi": 8.3, "sis": 2.5, "focus": "Federal Poly Campus Conversion & Agribusiness Youths", "dailyBrief": "Converted Omadino College to Federal Poly Orogun campus and equipped 1,000 youths with agribusiness tools and 120,000 seedlings." },
+    { "stateName": "Ebonyi", "zone": "South-East", "psi": 8.0, "sis": 2.5, "focus": "FMBN Strategic Partnership for Public Housing Expansion", "dailyBrief": "Governor Francis Nwifuru met FMBN ED Chinenye Anosike to forge a strategic partnership for sustainable public housing expansion." },
+    { "stateName": "Edo", "zone": "South-South", "psi": 8.1, "sis": 2.4, "focus": "Edo Nursing Leadership Summit & NANNA Collaboration", "dailyBrief": "Hosted 5-day Nursing Leadership Summit with North American Diaspora Nurses (NANNA) to advance digital nursing and Daisy Awards." },
+    { "stateName": "Ekiti", "zone": "South-West", "psi": 7.9, "sis": 2.1, "focus": "6th State Executive Council Policy & Project Approvals", "dailyBrief": "Held 6th State Executive Council meeting of 2026, approving strategic policy initiatives and infrastructure projects." },
+    { "stateName": "Enugu", "zone": "South-East", "psi": 8.7, "sis": 2.2, "focus": "Continuous Survey Revalidation & Digital Land ID Cards", "dailyBrief": "Resumed survey revalidation exercise across 5 centers to build a digital geospatial registry and issue Digital Land Identity Cards." },
+    { "stateName": "Gombe", "zone": "North-East", "psi": 8.5, "sis": 2.3, "focus": "GSU 56% Subvention Increase & ASUU CATA Arrears", "dailyBrief": "Governor Inuwa Yahaya approved a 56% subvention increase (N148.76M) for GSU to implement CATA salary structure and clear ASUU arrears." },
+    { "stateName": "Imo", "zone": "South-East", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Jigawa", "zone": "North-West", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Kaduna", "zone": "North-West", "psi": 3.0, "sis": 5.8, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Kano", "zone": "North-West", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Katsina", "zone": "North-West", "psi": 8.5, "sis": 3.9, "focus": "90,000 Bags Grain Distribution & Irrigation Support", "dailyBrief": "Governor Dikko Umaru Radda flagged off distribution of 90,000 100kg grain bags across 34 LGAs while expanding solar/petrol irrigation inputs." },
+    { "stateName": "Kebbi", "zone": "North-West", "psi": 7.8, "sis": 2.5, "focus": "Kebbi Homes Savings & Loans ATM Card Roll-Out", "dailyBrief": "Governor Nasir Idris officially launched ATM card roll-out and electronic banking channels for Kebbi State Home Savings & Loans." },
+    { "stateName": "Kogi", "zone": "North-Central", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Kwara", "zone": "North-Central", "psi": 8.4, "sis": 2.2, "focus": "TRCN 1st Rank in Northern Nigeria Teachers' PQE", "dailyBrief": "TRCN ranked Kwara State 1st in Northern Nigeria in Teachers' PQE with a 93.8% pass rate, validating merit-based recruitment." },
+    { "stateName": "Lagos", "zone": "South-West", "psi": 8.4, "sis": 1.2, "focus": "Youth Event Planning Empowerment & LASCOPA Enforcement", "dailyBrief": "Graduated 100 youth event planners with Zapphire Training School and launched enforcement against falsified expired product date-coding." },
+    { "stateName": "Nasarawa", "zone": "North-Central", "psi": 3.0, "sis": 2.4, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Niger", "zone": "North-Central", "psi": 3.0, "sis": 3.2, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Ogun", "zone": "South-West", "psi": 8.9, "sis": 2.1, "focus": "Gateway Medical Centre 250-Bed Commissioning", "dailyBrief": "First Lady Sen. Oluremi Tinubu and Gov Dapo Abiodun commissioned the 250-bed Gateway Medical Centre of Excellence." },
+    { "stateName": "Ondo", "zone": "South-West", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Osun", "zone": "South-West", "psi": 8.3, "sis": 2.5, "focus": "WIGSE-26 Green Leadership Award & Climate Action", "dailyBrief": "Governor Adeleke received the Green Leadership Award at WIGSE-26 in Lagos for Osun's Climate Action Plan and solar initiatives." },
+    { "stateName": "Oyo", "zone": "South-West", "psi": 3.0, "sis": 2.5, "focus": "Routine Civil Service Maintenance", "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today." },
+    { "stateName": "Plateau", "zone": "North-Central", "psi": 8.0, "sis": 3.8, "focus": "Plateau Executive Council Cabinet Expansion", "dailyBrief": "Governor Caleb Mutfwang prepared to inaugurate three new Commissioners for Bokkos, Bassa, and Quanpan LGAs." },
+    { "stateName": "Rivers", "zone": "South-South", "psi": 8.6, "sis": 2.8, "focus": "Elechi Amadi Poly 3 Legacy VTE Projects Commissioning", "dailyBrief": "Advocated national VTE curriculum shift and commissioned School of Engineering, Entrepreneurship Center, and Council Building." },
+    { "stateName": "Sokoto", "zone": "North-West", "psi": 8.6, "sis": 4.2, "focus": "550 Truckloads Grain Subsidy & Federal Funding", "dailyBrief": "Flagged off subsidized sale of 550 truckloads of food items with Minister Bagudu, praising President Tinubu's funding support." },
+    { "stateName": "Taraba", "zone": "North-East", "psi": 8.0, "sis": 2.5, "focus": "CAN Ministers' Conference & Moral Oversight Call", "dailyBrief": "Governor Agbu Kefas urged the Church to remain the moral conscience of society and avoid partisan political interference." },
+    { "stateName": "Yobe", "zone": "North-East", "psi": 8.5, "sis": 4.8, "focus": "Lake Chad Basin Refugees Assessment & Repatriation", "dailyBrief": "Governor Mai Mala Buni visited Nigerian refugees in Kaya, Chad Republic, coordinating voluntary repatriation with LCBC." },
+    { "stateName": "Zamfara", "zone": "North-West", "psi": 8.7, "sis": 7.8, "focus": "81 Local Govt Projects: 14.2km Road & Secretariats", "dailyBrief": "Governor Dauda Lawal awarded 81 projects across 14 LGAs covering 14.2km road, 14 secretariats, CPG offices, and Emirs' Palaces." },
+    { "stateName": "FCT Abuja", "zone": "North-Central", "psi": 8.8, "sis": 1.4, "focus": "Waterway Demolitions & Green Area Car Lot Ban", "displayBrief": "FCT Minister Wike expanded waterway demolitions across Abuja, banned car sales on green spaces, and inspected CCECC airport road extensions." }
+  ]
+}
