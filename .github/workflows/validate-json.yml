@@ -1,0 +1,67 @@
+name: Validate and Clean Master Data JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/*.json'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/*.json'
+
+jobs:
+  validate-and-clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Sanitizer & Schema Validator
+        run: |
+          node -e '
+          const fs = require("fs");
+          const filePath = "./data/master-data.json";
+
+          if (!fs.existsSync(filePath)) {
+            console.error("Target file not found!");
+            process.exit(1);
+          }
+
+          let content = fs.readFileSync(filePath, "utf8");
+          content = content.replace(/\/\*[\s\S]*?\*\//g, "").replace(/(^|[^\\:])\/\/.*/g, "$1");
+
+          let data;
+          try {
+            data = JSON.parse(content);
+          } catch(e) {
+            console.error("JSON Parsing Error:", e.message);
+            process.exit(1);
+          }
+
+          const required = ["lastUpdated", "activeMonth", "globalCodeData_B1", "globalCodeData_B2", "globalCodeData_B3"];
+          for (const key of required) {
+            if (!(key in data)) {
+              console.error(`Missing root key: ${key}`);
+              process.exit(1);
+            }
+          }
+
+          fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+          console.log("Successfully validated and stripped comments from master-data.json");
+          '
+
+      - name: Commit & Push Clean JSON (If Modified)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/master-data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: strip comments and format master-data.json" && git push)
