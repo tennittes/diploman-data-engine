@@ -3059,6 +3059,262 @@
     "intent": "Promoting social welfare support for police families and expanding women community empowerment."
   },
   {
+    "dayNumber": 19,
+    "stateKey": "FCT",
+    "stateName": "Federal Capital Territory",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "FCT Minister Reiterates Commitment to December Deadline for Completion of Key Ongoing Projects",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "FCT Minister Reiterates Commitment to December Deadline for Completion of Key Ongoing Projects",
+      "whatHappened": "FCT Minister Nyesom Wike inspected the 12-year-old Inner Southern Expressway (ISEX 2) and Southern Parkway projects, confirming a strict December 2026 completion deadline following complete funding releases.",
+      "whyItMatters": "Accelerates arterial transit infrastructure across the Federal Capital City, resolves long-standing contractor mobilization delays, and improves urban mobility."
+    },
+    "intent": "Accelerating arterial expressway completion to improve urban mobility and commercial transit."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "JIGAWA",
+    "stateName": "Jigawa State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Jigawa State Executive Council Approves ₦3.44 Billion Across Medical Scholarships, Exam Fees, and Road Infrastructure",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Jigawa State Executive Council Approves ₦3.44 Billion Across Medical Scholarships, Exam Fees, and Road Infrastructure",
+      "whatHappened": "Jigawa SEC approved ₦891.66M for 193 medical students in Cyprus, ₦1.056B for 40,210 national exam fees (NECO/NABTEB/NBAIS), ₦1.096B for road drainage in Miga/Babura LGAs, and ₦405M for classroom renovations.",
+      "whyItMatters": "Protects basic education access, expands state medical human capital, mitigates seasonal rural flooding, and modernizes public school facilities."
+    },
+    "intent": "Executing comprehensive capital approvals across foreign medical scholarships, basic education, and flood control."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Zulum Pledges Stronger UMTH, Partners’ Collaboration to Transform Borno Healthcare",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zulum Pledges Stronger UMTH, Partners’ Collaboration to Transform Borno Healthcare",
+      "whatHappened": "Governor Babagana Zulum donated ₦100M at the UMTH book launch, pledged deeper federal health collaboration, and joined NEDC in commissioning a new Fertility Care Center and Maternity Complex.",
+      "whyItMatters": "Expands specialist maternal and fertility care in the North-East, strengthens medical research infrastructure, and deepens sub-national health sector partnerships."
+    },
+    "intent": "Strengthening specialist healthcare partnerships, maternal health infrastructure, and medical research funding."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Niger State Government Unveils ₦100M Hospital Equipment in Bida and Allocates Land for Small Arms Control Centre",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Niger State Government Unveils ₦100M Hospital Equipment in Bida and Allocates Land for Small Arms Control Centre",
+      "whatHappened": "Governor Umaru Bago unveiled ₦100M in hospital equipment at Bida General Hospital serving 2M citizens, and directed land allocation in Minna for the Small Arms Control Zonal Centre.",
+      "whyItMatters": "Improves maternal and newborn care capacity across Bida catchment areas while supporting federal efforts to curb small arms proliferation."
+    },
+    "intent": "Upgrading secondary healthcare facilities and supporting federal arms control infrastructure."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Governor Fubara Inaugurates Reconstructed 12.3km Egwi-Afara-Mba Road in Etche LGA",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Fubara Inaugurates Reconstructed 12.3km Egwi-Afara-Mba Road in Etche LGA",
+      "whatHappened": "Governor Siminalayi Fubara inaugurated the reconstructed 12.3km Egwi-Afara-Mba Road in Etche LGA and committed to building a modern Zonal Hospital for Etche and Omuma LGAs.",
+      "whyItMatters": "Improves agricultural transit and inter-community mobility across Etche LGA while committing to regional secondary healthcare expansion."
+    },
+    "intent": "Delivering rural road infrastructure and committing to regional healthcare facility development."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Governor Alia Inspects Iorchia Ayu Road Reconstruction and Storm-Water Drainage Works in Makurdi",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Alia Inspects Iorchia Ayu Road Reconstruction and Storm-Water Drainage Works in Makurdi",
+      "whatHappened": "Governor Hyacinth Alia inspected ongoing reconstruction of the Iorchia Ayu Road and storm-water drainage channels designed to direct floodwaters into the River Benue.",
+      "whyItMatters": "Mitigates seasonal urban flooding in Makurdi, protects commercial properties, and delivers durable drainage infrastructure."
+    },
+    "intent": "Constructing modern urban drainage systems to mitigate seasonal flooding along commercial corridors."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Katsina MBBS Scholarship Beneficiary Develops Innovative 'Diabetes Coach AI' Technology in Egypt",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Katsina MBBS Scholarship Beneficiary Develops Innovative 'Diabetes Coach AI' Technology in Egypt",
+      "whatHappened": "Governor Dikko Umaru Radda received state MBBS scholar Alhassan Nasir, who developed an AI tool titled 'Diabetes Coach AI' during his studies at Nahda University in Egypt.",
+      "whyItMatters": "Validates merit-based foreign scholarship programs, fosters medical AI innovation, and strengthens Katsina's future healthcare human capital."
+    },
+    "intent": "Fostering merit-based foreign medical education and leveraging AI technological innovation."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Bayelsa Govt Approves Establishment of Six New Schools and Community School Takeover",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Bayelsa Govt Approves Establishment of Six New Schools and Community School Takeover",
+      "whatHappened": "Governor Douye Diri approved six new public schools across Kolokuma/Opokuma, Brass, and Yenagoa LGAs, and took over a community secondary school in Southern Ijaw LGA.",
+      "whyItMatters": "Relieves student overpopulation in existing public schools, expands basic/secondary education access, and integrates community-built school infrastructure."
+    },
+    "intent": "Expanding public basic and secondary school capacity to address student overpopulation."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Edo State Govt Begins Fertilizer and Cocoa Seedling Distribution to Over 14,000 Farmers",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo State Govt Begins Fertilizer and Cocoa Seedling Distribution to Over 14,000 Farmers",
+      "whatHappened": "Edo Ministry of Agriculture began direct distribution of 8,000 fertilizer bags and 30,000 cocoa seedlings to over 14,000 verified smallholder farmers under the SHINE Agenda.",
+      "whyItMatters": "Bypasses administrative intermediaries to deliver free agricultural inputs directly to farmers, boosting crop yields and food security."
+    },
+    "intent": "Distributing agricultural inputs directly to verified smallholder farmers to boost food productivity."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "ADSU Clears Major Hurdle, Approved to Admit Law Students",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "ADSU Clears Major Hurdle, Approved to Admit Law Students",
+      "whatHappened": "Adamawa State University (ADSU), Mubi, secured Council of Legal Education approval to commence admissions into its LL.B Bachelor of Laws program.",
+      "whyItMatters": "Expands professional legal education opportunities in Adamawa State, strengthening state university academic accreditation and program diversity."
+    },
+    "intent": "Expanding state university professional degree accreditations under higher education reform."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Governor Oborevwori Approves Constitution of Governing Councils for Three State Universities",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Oborevwori Approves Constitution of Governing Councils for Three State Universities",
+      "whatHappened": "Governor Sheriff Oborevwori appointed Governing Councils for University of Delta Agbor, Dennis Osadebay University, and Southern Delta University.",
+      "whyItMatters": "Institutionalizes governance oversight, policy direction, and academic leadership across Delta State's tertiary institutions."
+    },
+    "intent": "Constituting state university governing councils to strengthen tertiary institution oversight."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Plateau Flags Off 2027 Bilateral Budget Reviews and Condemns Mangu LGA Attack",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Flags Off 2027 Bilateral Budget Reviews and Condemns Mangu LGA Attack",
+      "whatHappened": "Plateau Ministry of Budget flagged off 2027 bilateral MDA review sessions to fix spending discrepancies, while government condemned an attack in Bin Mper, Mangu LGA, directing security patrols.",
+      "whyItMatters": "Enforces fiscal discipline and revenue-backed budgeting while mobilizing security agencies to protect vulnerable rural communities."
+    },
+    "intent": "Enforcing realistic revenue-backed budgeting and mobilizing rural security interventions."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "KASU Management Refutes ASUU Resignation Claims, Outlines ₦800M Staff Welfare Funding",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "KASU Management Refutes ASUU Resignation Claims, Outlines ₦800M Staff Welfare Funding",
+      "whatHappened": "KASU Management refuted ASUU claims of 200 lecturer resignations, detailing Governor Uba Sani's ₦800M staff welfare releases, ₦50M monthly standing support, and ₦300M NUC accreditation grants.",
+      "whyItMatters": "Maintains tertiary industrial harmony through transparent financial disclosures and sustained state funding."
+    },
+    "intent": "Promoting industrial harmony and transparent financial management in state university administration."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Lagos Hosts 2026 Isese Day Seminar and Joins World Sango Festival at Aafin Oyo",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Hosts 2026 Isese Day Seminar and Joins World Sango Festival at Aafin Oyo",
+      "whatHappened": "Lagos Arts and Culture Council hosted the 2026 Isese Day seminar with AATREN in Alimosho and participated in the 2026 World Sango Festival at Aafin Oyo.",
+      "whyItMatters": "Promotes indigenous cultural heritage, interfaith inclusion, and regional cultural exchange between Lagos and Oyo States."
+    },
+    "intent": "Promoting indigenous cultural heritage preservation and regional inter-state cultural exchange."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "Oyo East Local Government Reconstructs 2km Internal Road Network",
+    "psi": 7.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Oyo East Local Government Reconstructs 2km Internal Road Network",
+      "whatHappened": "Oyo East Local Government Council commenced reconstruction of a 2km road network spanning Balogun-Alalubosa, Apara, Oke Apo, and Ajagba-Ogese Roads.",
+      "whyItMatters": "Improves local municipal access, reduces neighborhood transit friction, and enhances intra-LGA trade."
+    },
+    "intent": "Upgrading local municipal road infrastructure to facilitate intra-LGA movement."
+  },
+  {
+    "dayNumber": 19,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Wednesday, August 19, 2026",
+    "headline": "NAPPMED Gombe Pays Courtesy Visit to PCN to Enforce 200-Metre Premise Distance Compliance",
+    "psi": 6.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "NAPPMED Gombe Pays Courtesy Visit to PCN to Enforce 200-Metre Premise Distance Compliance",
+      "whatHappened": "NAPPMED Gombe State Executive Council visited the PCN Gombe Office to reinforce compliance with the 200-meter distance rule between medicine premises and proper vendor licensing.",
+      "whyItMatters": "Enhances pharmaceutical regulatory compliance, reduces disputes among medicine vendors, and protects public health."
+    },
+    "intent": "Strengthening pharmaceutical premise regulation and enforcement of statutory spacing rules."
+  },
+  {
     "dayNumber": 20,
     "stateKey": "OGUN",
     "stateName": "Ogun State",
