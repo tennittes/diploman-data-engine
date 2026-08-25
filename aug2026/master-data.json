@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-25",
   "activeMonth": "August 2026",
   "globalCodeData_B1": [
   {
@@ -4081,7 +4081,439 @@
       "whyItMatters": "This 7.2 PSI High Signal diplomatic outreach reinforces bipartisan executive alignment between sub-national and federal authorities. Establishing intergovernmental stability supports policy continuity and civil service administration."
     },
     "intent": "Presenting election certificates of return to federal executive leadership to foster intergovernmental stability."
-    } 
+    }, 
+      {
+    dayNumber: 24,
+    stateKey: "DELTA",
+    stateName: "Delta State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Delta Steel Revival Boosted by $1.3bn Private Capital and Sublease Deal",
+    psi: 9.3,
+    intensity: "OPTIMUM",
+    momentum: "Accelerating",
+    impactMatrix: {
+      headline: "Delta Steel Revival Boosted by $1.3bn Private Capital and Sublease Deal",
+      whatHappened: "The Federal Government signed a Sublease and Operations Agreement with Premium Steel and Mines Limited, committing $1.3bn to modernize the Delta Steel Company in Ovwian-Aladja and restore 1m-tonne annual capacity.",
+      whyItMatters: "This 9.3 PSI Optimum Signal industrial intervention revitalizes a major national steel asset, creating 25,000 direct and indirect jobs. Securing raw iron ore supply chains expands local manufacturing and sub-national GDP."
+    },
+    intent: "Securing mega-scale private investment agreements to modernize heavy steel manufacturing plants and generate industrial employment."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "RIVERS",
+    stateName: "Rivers State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Rivers State Governor Siminalayi Fubara Commissions Zonal Hospital in Omoku",
+    psi: 8.9,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Rivers State Governor Siminalayi Fubara Commissions Zonal Hospital in Omoku",
+      whatHappened: "Rivers State Governor Siminalayi Fubara officially inaugurated the state-of-the-art Zonal Hospital in Omoku, completing one of three major regional tertiary health projects in the Rivers West Senatorial District.",
+      whyItMatters: "This 8.9 PSI High Signal action expands secondary and tertiary healthcare density across the Orashi region. Investing in regional medical hubs decentralizes clinical care, reducing patient travel time and health costs."
+    },
+    intent: "Inaugurating regional zonal hospital facilities to expand tertiary healthcare density across sub-national districts."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "FCT ABUJA",
+    stateName: "FCT Abuja",
+    displayDate: "Monday, August 24, 2026",
+    headline: "FCT Minister Nyesom Wike Inspects Apo-Karshi Road and Bwari Corridor Infrastructure",
+    psi: 8.8,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "FCT Minister Nyesom Wike Inspects Apo-Karshi Road and Bwari Corridor Infrastructure",
+      whatHappened: "FCT Minister Nyesom Wike inspected major satellite town road corridors, including the Apo-Karshi and Bwari-Kubwa roads, confirming a November-December 2026 completion timeline and enforcing traffic order in green areas.",
+      whyItMatters: "This 8.8 PSI High Signal infrastructure inspection accelerates the completion of long-abandoned transit corridors. Connecting satellite towns to central commercial districts drastically reduces commuter friction and urban congestion."
+    },
+    intent: "Accelerating satellite town road construction corridors and enforcing urban transport compliance."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "NIGER",
+    stateName: "Niger State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Niger State Flags Off NG-CARES Inputs and Machinery to 15,922 Farmers Across 25 LGAs",
+    psi: 8.8,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Niger State Flags Off NG-CARES Inputs and Machinery to 15,922 Farmers Across 25 LGAs",
+      whatHappened: "Niger State Governor Mohammed Umaru Bago flagged off wet season agricultural inputs to 15,922 farmers under NG-CARES 2.0, distributing 2,350 tons of fertilizer, improved seeds, and tractors across all 25 LGAs.",
+      whyItMatters: "This 8.8 PSI High Signal intervention deploys large-scale farm inputs and mechanical assets to boost cereal crop yields. Subsidizing production inputs directly lowers food inflation and expands rural agrarian wealth."
+    },
+    intent: "Distributing subsidized farm inputs, machinery, and fertilizer to smallholders across all local government areas."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "ABIA",
+    stateName: "Abia State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Abia State Graduates 850 TechRise Youth Innovators and Grants Automatic Employment",
+    psi: 8.8,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Abia State Graduates 850 TechRise Youth Innovators and Grants Automatic Employment",
+      whatHappened: "Abia State Governor Alex Otti celebrated the graduation of 850 TechRise Cohort 3 ICT trainees, granting automatic state civil service employment to the top 19 graduates, ₦100,000 cash gifts, and laptops to all graduands.",
+      whyItMatters: "This 8.8 PSI High Signal human capital intervention accelerates sub-national digital transformation. Absorbing top tech talent into government service, creating specialized salary scales, and commercializing local drone prototypes builds a sustainable tech ecosystem."
+    },
+    intent: "Integrating trained ICT youth innovators into public service and commercializing local technology prototypes."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "KATSINA",
+    stateName: "Katsina State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Katsina Governor Dikko Radda Flags Off $1.7m Medical Supplies and Equipment",
+    psi: 8.7,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Katsina Governor Dikko Radda Flags Off $1.7m Medical Supplies and Equipment",
+      whatHappened: "Katsina State Governor Dikko Umaru Radda launched the distribution of $1.7m in medical supplies and equipment—donated by Baitulmaal ($1.5m) and the Federal SWAp Programme ($200k)—across hospitals and PHCs state-wide.",
+      whyItMatters: "This 8.7 PSI High Signal health intervention equips primary and secondary care facilities with essential consumables and diagnostics. Partnering with international NGOs de-risks health budgets and expands care quality."
+    },
+    intent: "Distributing donated international medical consumables and federal equipment across state public hospitals."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "AKWA IBOM",
+    stateName: "Akwa Ibom State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Akwa Ibom Governor Umo Eno Declares September Month of Gratitude for 39 Projects",
+    psi: 8.6,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Akwa Ibom Governor Umo Eno Declares September Month of Gratitude for 39 Projects",
+      whatHappened: "Akwa Ibom State Governor Umo Eno declared September 2026 a Month of Gratitude, announcing the commissioning of 39 major projects across the state to mark Akwa Ibom's 39th anniversary, with President Tinubu expected to visit.",
+      whyItMatters: "This 8.6 PSI High Signal developmental milestone aligns state project delivery with anniversary celebrations. Commissioning 39 infrastructure assets expands state asset capacity and public service delivery."
+    },
+    intent: "Scheduling the official commissioning of 39 completed public infrastructure projects to mark state anniversary."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "JIGAWA",
+    stateName: "Jigawa State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Jigawa State Governor Umar Namadi Flags Off Learning Support for 48,300 Female Students",
+    psi: 8.6,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Jigawa State Governor Umar Namadi Flags Off Learning Support for 48,300 Female Students",
+      whatHappened: "Jigawa State Governor Umar Namadi flagged off the distribution of educational support materials—including 48,300 uniforms, 15,000 bags, and 40,000 sanitary pads—to female post-basic students in Jahun to boost retention.",
+      whyItMatters: "This 8.6 PSI High Signal intervention removes socio-economic barriers to girl-child education and reduces family schooling costs. Distributing uniforms, sanitary items, and books drives school retention and learning outcomes state-wide."
+    },
+    intent: "Distributing targeted educational support materials to female post-basic students to improve school retention."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "LAGOS",
+    stateName: "Lagos State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "LSWMO and LASWARCO Harmonize Wastewater and Faecal Sludge Rates for Lagos State",
+    psi: 8.5,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "LSWMO and LASWARCO Harmonize Wastewater and Faecal Sludge Rates for Lagos State",
+      whatHappened: "The Lagos State Wastewater Management Office (LSWMO) presented proposed wastewater and faecal sludge management rates and charges to LASWARCO to establish a transparent, sustainable regulatory and tariff framework.",
+      whyItMatters: "This 8.5 PSI High Signal regulatory alignment establishes a predictable tariff structure for environmental sanitation. Harmonizing wastewater charges improves private service provider compliance and protects public health across urban centers."
+    },
+    intent: "Harmonizing sub-national wastewater management tariff structures to improve environmental sanitation compliance."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "BAYELSA",
+    stateName: "Bayelsa State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Bayelsa Govt Receives Twon-Brass Draft Constitution and Intervenes in Otakeme Tussle",
+    psi: 8.2,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Bayelsa Govt Receives Twon-Brass Draft Constitution and Intervenes in Otakeme Tussle",
+      whatHappened: "Bayelsa State Deputy Governor Peter Akpe received the final draft constitution of Twon-Brass Kingdom, inaugurating a 5-man ratification committee, while directing feuding factions in Otakeme community to submit to traditional arbitration.",
+      whyItMatters: "This 8.2 PSI High Signal governance intervention establishes codification frameworks for traditional chieftaincy institutions. Strengthening communal constitutions and peacebuilding mechanisms prevents local security disruptions in oil-producing coastal areas."
+    },
+    intent: "Codifying traditional kingdom constitutions and mediating chieftaincy disputes to ensure communal peace."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "CROSS RIVER",
+    stateName: "Cross River State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Cross River Govt Sympathises With SPAR and Dispatches Emergency Relief Teams to Mall Fire",
+    psi: 8.1,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Cross River Govt Sympathises With SPAR and Dispatches Emergency Relief Teams to Mall Fire",
+      whatHappened: "Cross River State Government commiserated with operators of SPAR Mall in Calabar following a major fire outbreak, directing SEMA to conduct immediate damage assessments and deploy emergency relief for affected businesses.",
+      whyItMatters: "This 8.1 PSI High Signal emergency response de-risks commercial enterprise losses and protects urban investments. Rapid deployment of state relief frameworks safeguards private sector confidence during major market disruptions."
+    },
+    intent: "Deploying emergency state relief assessments to de-risk private commercial losses following urban market fires."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "IMO",
+    stateName: "Imo State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Imo State Governor Uzodimma Distributes Campaign Operational Buses to 27 LGA Chairmen",
+    psi: 7.8,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Imo State Governor Uzodimma Distributes Campaign Operational Buses to 27 LGA Chairmen",
+      whatHappened: "Imo State Governor Hope Uzodimma distributed brand-new operational buses to APC Chairmen across all 27 Local Government Areas at the EIICC in Owerri to strengthen party structures and drive grassroots sensitization.",
+      whyItMatters: "This 7.8 PSI High Signal mobilization initiative deploys grassroots transport assets to align local political leadership. Strengthening sub-national logistics channels reinforces party structure and administrative outreach."
+    },
+    intent: "Distributing operational vehicles to local government party leadership to strengthen grassroots structures."
+  },
+  {
+    dayNumber: 24,
+    stateKey: "OSUN",
+    stateName: "Osun State",
+    displayDate: "Monday, August 24, 2026",
+    headline: "Osun State Government Warns Against Disruption and Calls for Reconciliation",
+    psi: 7.6,
+    intensity: "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Osun State Government Warns Against Disruption and Calls for Reconciliation",
+      whatHappened: "Osun State Government issued a formal warning against post-election disruptions, directing security agencies to enforce law and order across local councils and motor parks while calling for state-wide reconciliation.",
+      whyItMatters: "This 7.6 PSI High Signal directive stabilizes public transport hubs and local government administration. Enforcing rule-based security prevents commercial disruptions, maintaining public safety and institutional stability."
+    },
+    intent: "Directing law enforcement agencies to prevent post-election disruptions across transport terminals and local councils."
+  },
+    {
+    "dayNumber": 25,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Ogun State Flag-Off Dualisation of Strategic Ibadan–Ijebu Ode Trade Corridor",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Ogun State Flag-Off Dualisation of Strategic Ibadan–Ijebu Ode Trade Corridor",
+      "whatHappened": "Ogun State Government participated in the official flag-off of the Ibadan–Ijebu Ode Road dualisation, a major inter-state corridor linking Ogun and Oyo States, supporting industrial clusters, and enhancing access to Gateway Airport.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal infrastructure expansion enhances South-West regional trade logistics. Dualising key transport corridors reduces transit times, boosts industrial cluster productivity, and accelerates agricultural freight movement."
+    },
+    "intent": "Flagging off inter-state highway dualisation corridors to strengthen regional trade logistics and industrial cluster access."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Lagos Disburses ₦92 Billion in Accrued Rights to Over 25,000 Retirees Since 2019",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Disburses ₦92 Billion in Accrued Rights to Over 25,000 Retirees Since 2019",
+      "whatHappened": "Lagos State Pension Commission (LASPEC) detailed its pension performance, revealing ₦92bn disbursed in accrued rights to 25,000 retirees since 2019, ₦4bn paid to 1,862 retirees in 2026, and an upcoming ₦1bn payout to 700 pensioners.",
+      "whyItMatters": "This 8.8 PSI High Signal financial settlement de-risks sub-national public sector pension liabilities. Expediting accrued rights payments and raising employer contribution rates to 10% ensures long-term social welfare stability."
+    },
+    "intent": "Disbursing cumulative accrued rights pension payments to public sector retirees and matching federal wage increase awards."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Bayelsa Commences 60MW Gas Turbine Power Evacuation and Disburses ₦90m Grants",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Bayelsa Commences 60MW Gas Turbine Power Evacuation and Disburses ₦90m Grants",
+      "whatHappened": "Bayelsa State commenced evacuation of its 60MW gas turbines with free prepaid meter rollouts via BYERA, while Governor Douye Diri disbursed ₦90m (₦150,000 each) and POS terminals to 600 young entrepreneurs.",
+      "whyItMatters": "This 8.8 PSI High Signal dual achievement establishes state-wide energy independence while capitalizing micro-enterprises. Supplying 24/7 turbine power cuts business production costs and accelerates industrialization."
+    },
+    "intent": "Evacuating gas turbine grid power with prepaid meter rollouts while disbursing micro-enterprise grants and POS assets."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "SOKOTO",
+    "stateName": "Sokoto State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Sokoto Donates Over ₦100m to Bandit Attack and Boat Mishap Victims Across 3 LGAs",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Sokoto Donates Over ₦100m to Bandit Attack and Boat Mishap Victims Across 3 LGAs",
+      "whatHappened": "Sokoto State Government donated over ₦100m and 408 food bags to families affected by bandit attacks and a 65-victim boat mishap in Wurno, Goronyo, and Sabon Birni LGAs, while enforcing bans on boat overloading and deploying 62 armoured vehicles.",
+      "whyItMatters": "This 8.7 PSI High Signal intervention delivers financial and food relief to vulnerable rural communities while imposing water transport safety regulations. Deploying 62 newly acquired armoured patrol vehicles improves rural security stability."
+    },
+    "intent": "Donating disaster relief funds to affected families, enforcing waterway transport safety limits, and deploying armoured patrol assets."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Yobe Governor Mai Mala Buni Visits Displaced Nigerian Refugees in Kaya, Chad",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Yobe Governor Mai Mala Buni Visits Displaced Nigerian Refugees in Kaya, Chad",
+      "whatHappened": "Yobe State Governor and Chairman of Lake Chad Basin Governors' Forum Mai Mala Buni visited Nigerian refugees in Kaya, Chad, assessing living conditions, pledging LCBC repatriation coordination, and opening waterways.",
+      whyItMatters: "This 8.7 PSI High Signal cross-border intervention initiates structured repatriation planning for displaced citizens. Coordinating with Chadian authorities and LCBC strengthens regional security and trade waterways."
+    },
+    "intent": "Conducting cross-border diplomatic visits to assess refugee welfare and coordinate voluntary repatriation frameworks."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Taraba Governor Agbu Kefas Receives Reports on Zonal Security and Land Acquisition",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba Governor Agbu Kefas Receives Reports on Zonal Security and Land Acquisition",
+      whatHappened": "Taraba State Governor Agbu Kefas received final reports from the Zonal Security Summit Committee chaired by the Assembly Speaker, and the Land Acquisition/Compensation Committee for Government House expansion chaired by Rev. Jolly Nyame.",
+      "whyItMatters": "This 8.6 PSI High Signal dual report reception advances evidence-based security strategies and state capital urban renewal. Implementing zonal security recommendations de-risks rural LGAs while equitable land compensation ensures smooth infrastructure upgrades."
+    },
+    "intent": "Receiving state zonal security summit recommendations and land acquisition reports to guide capital infrastructure upgrades."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Edo Governor Grants Employment to Deceased Official's Children and Enforces Environmental Laws",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Edo Governor Grants Employment to Deceased Official's Children and Enforces Environmental Laws",
+      whatHappened: "Edo Governor Monday Okpebholo approved automatic civil service jobs for two children of the late Permanent Secretary Lawrence Ibuzugbe, while Environment Commissioner Nosa Adams inspected NIFOR, PRESCO, and Okomu Oil for eco-compliance.",
+      whyItMatters: "This 8.6 PSI High Signal dual action reinforces public sector welfare commitments while enforcing environmental protection standards across major agro-industrial facilities, safeguarding ecosystem health and host communities."
+    },
+    "intent": "Granting automatic civil service employment to bereaved public officer families and inspecting industrial oil palm facilities for environmental compliance."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Rivers Governor Siminalayi Fubara Commissions 8.6km Omademe Road in Ikwerre LGA",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Rivers Governor Siminalayi Fubara Commissions 8.6km Omademe Road in Ikwerre LGA",
+      whatHappened: "Rivers State Governor Siminalayi Fubara inaugurated the 8.6km Omademe Internal Road in Ikwerre Local Government Area to improve community connectivity and facilitate the movement of agricultural produce to urban markets.",
+      whyItMatters: "This 8.5 PSI High Signal infrastructure commissioning reduces post-harvest losses and transit costs for agrarian communities. Connecting rural farming hubs to regional market corridors boosts local food supply chains and trade."
+    },
+    "intent": "Inaugurating rural internal road corridors to improve community transit and facilitate agricultural produce transportation."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Kaduna Governor Uba Sani Approves ₦300 Million Earned Academic Allowance for KASU Staff",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Kaduna Governor Uba Sani Approves ₦300 Million Earned Academic Allowance for KASU Staff",
+      whatHappened: "Kaduna State Governor Uba Sani approved a ₦300 million one-off payment for Earned Academic Allowance (EAA) to Kaduna State University (KASU) staff to resolve lingering industrial labor disputes.",
+      whyItMatters: "This 8.5 PSI High Signal intervention restores industrial harmony across state tertiary institutions. Allocating ₦300m for academic staff allowances prevents academic disruptions and stabilizes higher education delivery."
+    },
+    "intent": "Approving earned academic allowance funds for state university staff to resolve industrial labor disputes."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Plateau Ministry Evaluates Roads, Health, and Sports Projects Across Three Zones",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Plateau Ministry Evaluates Roads, Health, and Sports Projects Across Three Zones",
+      whatHappened: "The Plateau State Ministry of Budget and Economic Planning conducted a comprehensive monitoring tour across road corridors, tertiary health institutions, and the 12,500-capacity Rwang Pam Township Stadium to evaluate progress and revise cost scopes.",
+      whyItMatters: "This 8.4 PSI High Signal project evaluation enforces fiscal compliance across key capital investments. Monitoring road corridors and upgrading sports infrastructure ensures public funds yield durable physical assets."
+    },
+    "intent": "Executing comprehensive monitoring and evaluation tours across state capital road, health, and sports project sites."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Cross River Governor Bassey Otu Warns Traditional Rulers Over Communal Violence",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Cross River Governor Bassey Otu Warns Traditional Rulers Over Communal Violence",
+      whatHappened: "Cross River State Governor Bassey Otu issued a stern warning to traditional rulers across the state, threatening immediate dethronement and prosecution for any monarch found abetting or failing to prevent communal violence in their domains.",
+      whyItMatters: "This 8.3 PSI High Signal enforcement action holds traditional institutions directly accountable for local security. Strict administrative sanctions on local rulers deter land skirmishes, protecting rural supply chains and agrarian stability."
+    },
+    "intent": "Issuing administrative warnings to traditional rulers regarding dethronement and prosecution over communal violence."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Osun Governor Adeleke Names Speaker Egbedun Chair of ₦500m Victim Relief Board",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Osun Governor Adeleke Names Speaker Egbedun Chair of ₦500m Victim Relief Board",
+      whatHappened: "Osun State Governor Ademola Adeleke constituted a 10-member Election Violence Victims Committee chaired by Assembly Speaker Adewale Egbedun to verify claims and disburse the ₦500m Election Violence Victims Relief Endowment Fund.",
+      whyItMatters: "This 8.2 PSI High Signal institutional intervention establishes an equitable relief mechanism for political violence victims. Multi-stakeholder oversight involving security agencies and CSOs strengthens post-election peacebuilding."
+    },
+    "intent": "Constituting a multi-stakeholder committee to verify claims and disburse relief funds to election violence victims."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "IMO",
+    "stateName": "Imo State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Imo State Governor Hope Uzodimma Supports Zion City Project to Boost Tourism",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Imo State Governor Hope Uzodimma Supports Zion City Project to Boost Tourism",
+      whatHappened: "Imo State Governor Hope Uzodimma attended the Grand Finale of the Zion Prayer Movement Outreach Global Crusade at Zion City, Ngor Okpala, reaffirming land allocation support and highlighting its impact on religious tourism and local trade.",
+      whyItMatters: "This 7.9 PSI High Signal intervention leverages religious pilgrimage and institutional land grants to drive local commerce. Supporting large-scale host community infrastructure expands sub-national service sector trade and state revenue."
+    },
+    "intent": "Supporting religious pilgrimage site development and land allocations to expand sub-national tourism and commerce."
+  },
+  {
+    "dayNumber": 25,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Tuesday, August 25, 2026",
+    "headline": "Benue Governor Hyacinth Alia Appoints New PSA on Local Government and Tarka GLO",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    momentum: "Advancing",
+    impactMatrix: {
+      headline: "Benue Governor Hyacinth Alia Appoints New PSA on Local Government and Tarka GLO",
+      whatHappened: "Benue State Governor Hyacinth Alia approved the appointments of Mr. Nathan Angwe as Principal Special Assistant on Local Government Affairs and Mr. Benjamin Ikyereve as Gubernatorial Liaison Officer for Tarka Local Government.",
+      whyItMatters: "This 7.8 PSI High Signal administrative restructuring strengthens coordination between the executive and local government councils. Leveraging experienced civil service veterans improves policy execution and grassroots administrative oversight."
+    },
+    "intent": "Appointing senior special assistants and liaison officers to strengthen executive coordination across local government councils."
+  }
   ],
   "globalCodeData_B3": [
   {
@@ -9016,6 +9448,681 @@
     "sis": 1.4,
     "focus": "Arterial Road N16 Inspection & IBB Golf Club Reopening",
     "dailyBrief": "Inspected major arterial and rural road projects and confirmed the December reopening of the rehabilitated IBB Golf Club."
+  },
+    {
+    "dayNumber": 24,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 8.8,
+    "sis": 2.5,
+    "focus": "TechRise ICT Graduation & Civil Service Employment",
+    "dailyBrief": "Graduated 850 TechRise ICT innovators, granting automatic civil service jobs to top graduates and commercializing local drone prototypes."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.1,
+    "focus": "39th Anniversary Projects Commissioning Declaration",
+    "dailyBrief": "Declared September a Month of Gratitude to commission 39 completed public projects, anticipating an official visit by President Tinubu."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.2,
+    "sis": 2.5,
+    "focus": "Twon-Brass Kingdom Constitution & Otakeme Arbitration",
+    "dailyBrief": "Received the draft Twon-Brass constitution, inaugurated a 5-man ratification committee, and mediated the Otakeme chieftaincy tussle."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 7.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 6.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.1,
+    "sis": 2.5,
+    "focus": "Calabar SPAR Mall Fire Emergency Relief",
+    "dailyBrief": "Commiserated with SPAR Mall operators in Calabar and dispatched SEMA relief teams following a major commercial fire outbreak."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 9.3,
+    "sis": 2.5,
+    "focus": "$1.3bn Delta Steel Company Modernization Agreement",
+    "dailyBrief": "Signed a $1.3bn Sublease Agreement with Premium Steel to modernize the Ovwian-Aladja steel plant and generate 25,000 jobs."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 7.8,
+    "sis": 2.5,
+    "focus": "LGA Campaign Operational Buses Distribution",
+    "dailyBrief": "Distributed brand-new operational campaign buses to APC Chairmen across all 27 LGAs at the EIICC in Owerri."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "Girl-Child Educational Support Distribution in Jahun",
+    "dailyBrief": "Flagged off uniforms, bags, and sanitary materials for 48,300 female post-basic students to improve school retention."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 5.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.7,
+    "sis": 3.9,
+    "focus": "$1.7m Medical Supplies & Equipment Distribution",
+    "dailyBrief": "Flagged off the distribution of $1.7m in donated Baitulmaal consumables and federal SWAp equipment across hospitals and PHCs."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 1.2,
+    "focus": "LSWMO & LASWARCO Wastewater Tariff Harmonization",
+    "dailyBrief": "Presented proposed wastewater and faecal sludge management charges to LASWARCO to establish a transparent tariff structure."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 2.5,
+    "focus": "NG-CARES 2.0 Wet Season Farm Inputs & Machinery",
+    "dailyBrief": "Flagged off 2,350 tons of fertilizer, improved seeds, and tractors to 15,922 farmers across all 25 LGAs."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 7.6,
+    "sis": 2.5,
+    "focus": "Post-Election Public Peace Warning & Motor Parks Order",
+    "dailyBrief": "Warned against post-election disruptions and directed security agencies to enforce law and order across motor parks and local councils."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 8.9,
+    "sis": 2.8,
+    "focus": "Omoku Zonal Hospital Official Commissioning",
+    "dailyBrief": "Inaugurated the modern Zonal Hospital in Omoku to expand regional tertiary clinical healthcare access across the Orashi region."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 7.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 1.4,
+    "focus": "Apo-Karshi & Bwari Satellite Town Road Inspections",
+    "dailyBrief": "Inspected Apo-Karshi and Bwari-Kubwa road projects, confirming late 2026 completion dates and enforcing green area compliance."
+  }, 
+    {
+    "dayNumber": 25,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.5,
+    "focus": "60MW Gas Turbine Power Evacuation & Enterprise Grants",
+    "dailyBrief": "Commenced evacuation of state 60MW gas turbine power with prepaid meters and disbursed ₦90m grants to 600 young entrepreneurs."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 7.8,
+    "sis": 7.8,
+    "focus": "Local Government PSA & Tarka Liaison Appointments",
+    "dailyBrief": "Appointed Mr. Nathan Angwe as PSA on Local Government Affairs and Mr. Benjamin Ikyereve as Gubernatorial Liaison Officer for Tarka LGA."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 6.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.3,
+    "sis": 2.5,
+    "focus": "Traditional Rulers Communal Violence Dethronement Warning",
+    "dailyBrief": "Warned traditional rulers of immediate dethronement and prosecution if found abetting or failing to prevent communal violence."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.4,
+    "focus": "Deceased Officer Family Jobs & Agro-Industrial Eco Checks",
+    "dailyBrief": "Approved automatic civil service employment for a late official's children and inspected NIFOR, PRESCO, and Okomu Oil for eco-compliance."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 7.9,
+    "sis": 2.5,
+    "focus": "Zion City Global Crusade & Religious Tourism Support",
+    "dailyBrief": "Attended the Zion Prayer Movement crusade at Ngor Okpala, reaffirming land allocation support to drive religious tourism and trade."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 8.5,
+    "sis": 5.8,
+    "focus": "KASU Earned Academic Allowance ₦300m Approval",
+    "dailyBrief": "Approved a ₦300m one-off payment for Earned Academic Allowance to KASU staff to resolve industrial labor disputes."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.8,
+    "sis": 1.2,
+    "focus": "₦92bn Retiree Accrued Rights Disbursements & Pensions",
+    "dailyBrief": "Confirmed ₦92bn disbursed in accrued rights to 25,000 retirees since 2019, paying ₦4bn in 2026 and matching federal wage increases."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 9.0,
+    "sis": 2.1,
+    "focus": "Ibadan–Ijebu Ode Road Dualisation Flag-Off",
+    "dailyBrief": "Flagged off the dualisation of the Ibadan–Ijebu Ode trade corridor connecting Ogun and Oyo States to Gateway Airport and industrial clusters."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 8.2,
+    "sis": 2.5,
+    "focus": "Election Violence Victims Relief Board Constitution",
+    "dailyBrief": "Constituted a 10-member committee chaired by Speaker Egbedun to disburse the ₦500m Election Violence Victims Relief Fund."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.4,
+    "sis": 3.8,
+    "focus": "Capital Projects Monitoring Tour Across Three Zones",
+    "dailyBrief": "Evaluated road corridors, nursing schools, and the 12,500-capacity Rwang Pam Stadium to enforce budgetary scope compliance."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.8,
+    "focus": "8.6km Omademe Internal Road Commissioning in Ikwerre",
+    "dailyBrief": "Inaugurated the 8.6km Omademe Internal Road in Ikwerre LGA to connect agrarian communities to regional urban markets."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 8.7,
+    "sis": 4.2,
+    "focus": "₦100m Victim Relief, Boat Safety & Armoured Vehicles",
+    "dailyBrief": "Donated over ₦100m to disaster victims, enforced bans on boat overloading, and deployed 62 newly acquired armoured patrol vehicles."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "Zonal Security & Land Acquisition Reports Reception",
+    "dailyBrief": "Received final reports from the Zonal Security Summit Committee and Land Acquisition Committee for Government House expansion."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 8.7,
+    "sis": 4.8,
+    "focus": "Displaced Refugees Welfare Visit in Kaya, Chad",
+    "dailyBrief": "Visited Nigerian refugees in Kaya, Chad, assessing living conditions and coordinating voluntary repatriation with LCBC and Chadian authorities."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 7.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 25,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
   }
  ]
 }
