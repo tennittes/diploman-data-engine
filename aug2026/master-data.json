@@ -4699,10 +4699,10 @@
     "psi": 7.7,
     "intensity": "HIGH",
     "momentum": "Advancing",
-    impactMatrix: {
-      headline: "Yobe Government Clarifies ₦300m JIBWIS University Donation as Personal Executive Gift",
-      whatHappened: "Yobe State Government issued a formal clarification regarding a ₦300m pledge to JIBWIS University in Jos, confirming it was a private personal donation by Governor Mai Mala Buni and not funded from state government revenues.",
-      whyItMatters: "This 7.7 PSI High Signal transparency response draws a clear boundary between executive private philanthropy and sub-national public treasury funds. Publicly clarifying donation sources preserves fiscal accountability and trust."
+    "impactMatrix": {
+      "headline": "Yobe Government Clarifies ₦300m JIBWIS University Donation as Personal Executive Gift",
+      "whatHappened": "Yobe State Government issued a formal clarification regarding a ₦300m pledge to JIBWIS University in Jos, confirming it was a private personal donation by Governor Mai Mala Buni and not funded from state government revenues.",
+      "whyItMatters": "This 7.7 PSI High Signal transparency response draws a clear boundary between executive private philanthropy and sub-national public treasury funds. Publicly clarifying donation sources preserves fiscal accountability and trust."
     },
     "intent": "Issuing public clarifications confirming that executive university donations are funded privately rather than from state coffers."
   },
@@ -4715,10 +4715,10 @@
     "psi": 7.7,
     "intensity": "HIGH",
     "momentum": "Advancing",
-    impactMatrix: {
-      headline: "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
-      whatHappened: "Katsina State Governor Dikko Umaru Radda announced his decision to personally fund the construction of a guest house for the Madinatul Ahbab Zawiyya in Daura during the annual Maulid event, urging clerics to sustain prayers for peace.",
-      whyItMatters: "This 7.7 PSI High Signal intervention utilizes non-governmental personal funding to support Islamic institutions. Engaging religious leaders without expanding state fiscal liabilities fosters social cohesion and inter-communal stability."
+    "impactMatrix": {
+      "headline": "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda announced his decision to personally fund the construction of a guest house for the Madinatul Ahbab Zawiyya in Daura during the annual Maulid event, urging clerics to sustain prayers for peace.",
+      "whyItMatters": "This 7.7 PSI High Signal intervention utilizes non-governmental personal funding to support Islamic institutions. Engaging religious leaders without expanding state fiscal liabilities fosters social cohesion and inter-communal stability."
     },
     "intent": "Financing religious institution infrastructure privately to promote inter-communal peace and faith-based partnership."
   }
