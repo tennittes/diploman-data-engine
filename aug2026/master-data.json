@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "activeMonth": "August 2026",
   "globalCodeData_B1": [
   {
@@ -4529,6 +4529,198 @@
       "whyItMatters": "This 7.8 PSI High Signal administrative restructuring strengthens coordination between the executive and local government councils. Leveraging experienced civil service veterans improves policy execution and grassroots administrative oversight."
     },
     "intent": "Appointing senior special assistants and liaison officers to strengthen executive coordination across local government councils."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Abia Begins Settlement of ₦61.8bn Gratuity Backlog and Resolves ABSU ASUU Strike",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Abia Begins Settlement of ₦61.8bn Gratuity Backlog and Resolves ABSU ASUU Strike",
+      "whatHappened": "Abia State Governor Alex Otti commenced tech-driven payments for an inherited ₦61.8bn gratuity liability spanning 2001–2025 via TSA platform, while resolving the ABSU ASUU strike through check-off dues and new salary scales.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal dual breakthrough resolves a 24-year pension backlog while restoring tertiary academic stability. Digitizing gratuity disbursements via TSA eliminates phantom claims and restores public confidence."
+    },
+    "intent": "Disbursing TSA-verified inherited gratuity backlogs to retirees and resolving tertiary university labor disputes."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Rivers Governor Siminalayi Fubara Commissions Ndele-Agba Road and Bridge Corridor",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Rivers Governor Siminalayi Fubara Commissions Ndele-Agba Road and Bridge Corridor",
+      "whatHappened": "Rivers State Governor Siminalayi Fubara commissioned the Ndele-Agba/Ndele-Otari/Omaraka road and bridge project connecting Emohua and Abua/Odual LGAs to improve inter-community mobility and agricultural trade.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal infrastructure delivery resolves long-standing inter-LGA transit barriers. Connecting agricultural produce hubs directly to urban markets reduces post-harvest losses and boosts regional commerce."
+    },
+    "intent": "Commissioning inter-LGA road and bridge corridors to connect agrarian communities to urban trade centers."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Ekiti Governor Oyebanji Appoints Accountant General and Advances Indoor Sports Hall",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti Governor Oyebanji Appoints Accountant General and Advances Indoor Sports Hall",
+      "whatHappened": "Ekiti Governor Biodun Oyebanji re-appointed Mrs. Titilayo Olayinka as Accountant General to lead fiscal transparency reforms, while inspecting steady progress on the 900-seater Indoor Sports Hall project.",
+      "whyItMatters": "This 8.8 PSI High Signal governance action preserves fiscal auditing continuity following top-tier BudgIT transparency rankings. Concurrently advancing indoor sports infrastructure boosts youth talent development and state asset value."
+    },
+    "intent": "Re-appointing fiscal auditing leadership and inspecting modern indoor sports hall construction progress."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Taraba Governor Agbu Kefas Pledges Support for Annual STEAM Summer Camp Expansion",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba Governor Agbu Kefas Pledges Support for Annual STEAM Summer Camp Expansion",
+      "whatHappened": "Taraba State Governor Agbu Kefas received the 2026 STEAM Summer Team-led by Prof. Hauwa Ibrahim of Harvard and AIG Aishatu Baju-pledging state sponsorship to expand the 4-week science and arts camp across all 3 senatorial zones.",
+      "whyItMatters": "This 8.7 PSI High Signal educational commitment integrates international academic partnerships into state youth development. Expanding STEAM initiatives deters social vices and builds digital innovation capacity on the Mambilla Plateau."
+    },
+    "intent": "Sponsoring and expanding youth STEAM innovation camps across all state senatorial zones."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Lagos Aligns Traditional Birth Attendants and Announces Oke-Afa Bridge Transit Diversion",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Aligns Traditional Birth Attendants and Announces Oke-Afa Bridge Transit Diversion",
+      "whatHappened": "Lagos State Health District III partnered with Traditional Birth Attendants (TBAs) in Ibeju-Lekki to prevent maternal deaths, while Ministry of Transportation issued a 3-week diversion plan for the Oke-Afa Bridge rehabilitation.",
+      "whyItMatters": "This 8.7 PSI High Signal dual policy intervention reduces maternal mortality risks while maintaining urban traffic flow during key bridge repairs. Synchronizing community health referrals and transit management protects public safety."
+    },
+    "intent": "Strengthening traditional birth attendant maternal referral networks and rolling out urban traffic diversion plans for bridge repairs."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Akwa Ibom State Disburses Grants to Pitch Winners of ARISE Youth Skills Week 2026",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Akwa Ibom State Disburses Grants to Pitch Winners of ARISE Youth Skills Week 2026",
+      "whatHappened": "Akwa Ibom State Government hosted the official prize and grant presentation ceremony for pitch winners of the ARISE Youth Skills Week 2026, delivering startup capital and business toolkits to young innovators.",
+      "whyItMatters": "This 8.6 PSI High Signal human capital initiative directly capitalizes youth micro-enterprises. Providing merit-based business seed funds transforms vocational training into scalable commercial enterprises across the state."
+    },
+    "intent": "Disbursing business seed capital grants and toolkits to youth enterprise pitch winners."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Delta Governor Sheriff Oborevwori Commissions Modern Market in Oporoza, Gbaramatu Kingdom",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta Governor Sheriff Oborevwori Commissions Modern Market in Oporoza, Gbaramatu Kingdom",
+      "whatHappened": "Delta State Governor Sheriff Oborevwori, represented by Assembly Speaker Rt. Hon. Emomotimi Guwor, commissioned a modern market in Oporoza comprising 48 lock-up and open shops, solar water, and sanitation facilities.",
+      "whyItMatters": "This 8.6 PSI High Signal infrastructure intervention expands commercial capacity in riverine oil-producing areas. Provision of solar-powered trade assets supports micro-enterprises and strengthens grassroots economic stability."
+    },
+    "intent": "Commissioning modern commercial market facilities with solar utilities in riverine host communities."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Benue Governor Hyacinth Alia Enforces Illegal Mining Ban and Announces Army Units",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Benue Governor Hyacinth Alia Enforces Illegal Mining Ban and Announces Army Units",
+      "whatHappened": "Benue State Governor Hyacinth Alia condemned illegal gold mining during a town hall in Adikpo, warning traditional rulers against selling ancestral lands while confirming new 5th Division Army units in Adikpo and Anwase.",
+      "whyItMatters": "This 8.4 PSI High Signal security directive curbs environmental degradation and security threats tied to illegal solid mineral extraction. Establishing forward military bases protects rural LGAs and stabilizes agrarian activity."
+    },
+    "intent": "Enforcing illegal mining bans, warning traditional rulers against land sales, and securing new forward military units."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Plateau Budget Commissioner Ishaku Maren Assumes Duty and Mandates Strict Monitoring",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Budget Commissioner Ishaku Maren Assumes Duty and Mandates Strict Monitoring",
+      "whatHappened": "Newly appointed Plateau State Commissioner for Budget and Economic Planning, Ishaku Maren, officially assumed office, mandating zero-tolerance for project cost inflation and directing strict field monitoring for all capital expenditures.",
+      "whyItMatters": "This 8.1 PSI High Signal cabinet transition strengthens sub-national financial planning controls. Mandating rigorous project monitoring ensures state capital allocations translate directly into durable physical infrastructure."
+    },
+    "intent": "Mandating zero-tolerance for project cost inflation and directing strict capital project monitoring."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Cross River State Government Trains Local Filmmakers to Boost Creative Economy",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River State Government Trains Local Filmmakers to Boost Creative Economy",
+      "whatHappened": "Cross River State Government launched a targeted capacity-building and skill acquisition program for local filmmakers to enhance storytelling quality, digital production capabilities, and creative industry commercialization across the state.",
+      "whyItMatters": "This 8.0 PSI High Signal intervention strengthens sub-national creative industry infrastructure. Upskilling local media professionals expands youth employment in entertainment and positions the state as a regional film production hub."
+    },
+    "intent": "Training local film producers and creative practitioners to boost sub-national media entertainment."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Yobe Government Clarifies ₦300m JIBWIS University Donation as Personal Executive Gift",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Yobe Government Clarifies ₦300m JIBWIS University Donation as Personal Executive Gift",
+      whatHappened: "Yobe State Government issued a formal clarification regarding a ₦300m pledge to JIBWIS University in Jos, confirming it was a private personal donation by Governor Mai Mala Buni and not funded from state government revenues.",
+      whyItMatters: "This 7.7 PSI High Signal transparency response draws a clear boundary between executive private philanthropy and sub-national public treasury funds. Publicly clarifying donation sources preserves fiscal accountability and trust."
+    },
+    "intent": "Issuing public clarifications confirming that executive university donations are funded privately rather than from state coffers."
+  },
+  {
+    "dayNumber": 26,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Wednesday, August 26, 2026",
+    "headline": "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    impactMatrix: {
+      headline: "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
+      whatHappened: "Katsina State Governor Dikko Umaru Radda announced his decision to personally fund the construction of a guest house for the Madinatul Ahbab Zawiyya in Daura during the annual Maulid event, urging clerics to sustain prayers for peace.",
+      whyItMatters: "This 7.7 PSI High Signal intervention utilizes non-governmental personal funding to support Islamic institutions. Engaging religious leaders without expanding state fiscal liabilities fosters social cohesion and inter-communal stability."
+    },
+    "intent": "Financing religious institution infrastructure privately to promote inter-communal peace and faith-based partnership."
   }
   ],
   "globalCodeData_B3": [
@@ -10133,6 +10325,339 @@
   },
   {
     "dayNumber": 25,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.2,
+    "sis": 2.5,
+    "focus": "₦61.8bn Gratuity Settlement & ABSU ASUU Accord",
+    "dailyBrief": "Commenced TSA-backed payments for an inherited ₦61.8bn gratuity backlog and resolved the ABSU ASUU strike via new salary scales."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.1,
+    "focus": "ARISE Youth Skills Week Pitch Grants Disbursement",
+    "dailyBrief": "Presented business seed capital grants and toolkits to pitch winners of the ARISE Youth Skills Week 2026."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 8.4,
+    "sis": 7.8,
+    "focus": "Illegal Mining Ban Enforcement & Army Forward Units",
+    "dailyBrief": "Condemned illegal gold mining in Kwande, warned traditional rulers against land sales, and announced new Army forward bases."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 6.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.0,
+    "sis": 2.5,
+    "focus": "Local Filmmakers Capacity Building & Training",
+    "dailyBrief": "Launched a specialized capacity-building program for local filmmakers to upskill media creators and boost the creative economy."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "Oporoza Modern Market Commissioning in Gbaramatu",
+    "dailyBrief": "Commissioned a modern market in Oporoza comprising 48 shops, solar water schemes, and sanitation facilities in Gbaramatu Kingdom."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 8.8,
+    "sis": 2.1,
+    "focus": "Accountant General Appointment & Sports Hall Inspection",
+    "dailyBrief": "Re-appointed Mrs. Titilayo Olayinka as Accountant General and inspected progress on the 900-seater Indoor Sports Hall."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 5.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 7.7,
+    "sis": 3.9,
+    "focus": "Daura Zawiyya Guest House Personal Financing",
+    "dailyBrief": "Announced personal funding for a guest house at Madinatul Ahbab Zawiyya in Daura during the annual Maulid event."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.2,
+    "focus": "TBA Maternal Health Alignment & Oke-Afa Bridge Diversion",
+    "dailyBrief": "Partnered with TBAs in Ibeju-Lekki to reduce maternal deaths and issued a 3-week diversion plan for Oke-Afa Bridge repairs."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.1,
+    "sis": 3.8,
+    "focus": "Budget Ministry Handover & Project Monitoring Mandate",
+    "dailyBrief": "Assumed office as Budget Commissioner, mandating zero-tolerance for project inflation and directing strict field monitoring."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 9.1,
+    "sis": 2.8,
+    "focus": "Ndele-Agba Road and Bridge Corridor Commissioning",
+    "dailyBrief": "Commissioned the Ndele-Agba/Ndele-Otari/Omaraka road and bridge project connecting Emohua and Abua/Odual LGAs."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.7,
+    "sis": 2.5,
+    "focus": "STEAM Summer Camp Expansion Across 3 Zones",
+    "dailyBrief": "Pledged state sponsorship to expand Harvard-partnered STEAM summer camps for youth across all 3 senatorial zones."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 7.7,
+    "sis": 4.8,
+    "focus": "JIBWIS University Donation Fiscal Clarification",
+    "dailyBrief": "Clarified that Governor Buni's ₦300m pledge to JIBWIS University was a personal contribution, not funded from state coffers."
+  },
+  {
+    "dayNumber": 26,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 7.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 26,
     "stateName": "FCT Abuja",
     "zone": "North-Central",
     "psi": 3.0,
