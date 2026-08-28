@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "activeMonth": "August 2026",
   "globalCodeData_B1": [
   {
@@ -4721,6 +4721,246 @@
       "whyItMatters": "This 7.7 PSI High Signal intervention utilizes non-governmental personal funding to support Islamic institutions. Engaging religious leaders without expanding state fiscal liabilities fosters social cohesion and inter-communal stability."
     },
     "intent": "Financing religious institution infrastructure privately to promote inter-communal peace and faith-based partnership."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Abia Governor Alex Otti Commissions Digital 80-Bed Chima Ubani General Hospital",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Abia Governor Alex Otti Commissions Digital 80-Bed Chima Ubani General Hospital",
+      "whatHappened": "Abia State Governor Alex Otti commissioned the newly remodeled, digitally equipped 80-bed Obingwa General Hospital in Mgboko, renaming it after human rights activist Chima Ubani and linking it to 277 primary health centers statewide.",
+      "whyItMatters": "This 9.3 PSI Optimum Signal healthcare milestone establishes a technology-driven clinical referral network. Operating a 24/7 digital general hospital backed by 301 total health projects drastically reduces maternal and infant mortality."
+    },
+    "intent": "Commissioning digitally integrated 24/7 general hospital infrastructure linked to primary health centers statewide."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
+      "whatHappened": "Benue Governor Hyacinth Alia hosted town hall meetings across Jechira and Buruku Federal Constituencies, unveiling 52km Awajir-Oju road, University of Agriculture Ihugh projects, Buruku Bridge compensations, and monarch salary hikes.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal comprehensive development rollout expands agrarian connectivity across rural LGAs. Financing federal bridge right-of-way acquisitions and raising traditional ruler stipends stabilizes rural security."
+    },
+    "intent": "Unveiling major inter-LGA road networks, school rehabilitations, and increasing traditional ruler remuneration."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Edo Enacts Revenue Consolidation Law and Inspects Benin–Agbor Road Corridor",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo Enacts Revenue Consolidation Law and Inspects Benin–Agbor Road Corridor",
+      "whatHappened": "Edo State Governor Monday Okpebholo signed the Revenue Consolidation Account Law 2026, mandating all MDAs to close operational accounts within 14 days and remit into a Treasury Single Account, while inspecting Benin–Agbor Road with Works Minister David Umahi.",
+      "whyItMatters": "This 8.9 PSI High Signal fiscal reform eliminates revenue leakages and unauthorized agency spending through centralized EIRS collection. Concurrently coordinating federal road repairs de-risks inter-state logistics along key South-South transport hubs."
+    },
+    "intent": "Enacting revenue consolidation account legislation for single account remittances and inspecting federal trade highways."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Nasarawa Governor Sule Unveils ACReSAL Heavy Machinery and Swears In 8 Commissioners",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Nasarawa Governor Sule Unveils ACReSAL Heavy Machinery and Swears In 8 Commissioners",
+      "whatHappened": "Nasarawa State Governor Abdullahi Sule commissioned World Bank-backed ACReSAL heavy machinery (graders, bulldozers, low-bed cranes) to combat gully erosion, swore in 8 Commissioners and 11 SAs, and engaged Chinese mining investors for Kokona LGA.",
+      "whyItMatters": "This 8.8 PSI High Signal multi-sector push enhances state capacity for direct flood mitigation without third-party contractors. Restructuring executive cabinet leadership alongside foreign mining investments accelerates sub-national growth."
+    },
+    "intent": "Commissioning heavy land machinery for climate erosion adaptation, swearing in cabinet members, and engaging foreign mining investors."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "LSETF Expands Micro-Loans in Ikorodu as LASISMA Reclaims Setbacks in Ojo",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "LSETF Expands Micro-Loans in Ikorodu as LASISMA Reclaims Setbacks in Ojo",
+      "whatHappened": "LSETF conducted an Application Readiness Exercise in Igbe-Ilaara, Ikorodu, to sensitize entrepreneurs on business loan access, while LASISMA served 7-day contravention notices to illegal occupants around Ojo General Hospital.",
+      "whyItMatters": "This 8.7 PSI High Signal dual policy intervention expands micro-enterprise liquidity while safeguarding health infrastructure corridors. Protecting statutory setbacks around hospitals maintains emergency access and urban planning order."
+    },
+    "intent": "Expanding micro-enterprise loan access at grassroots levels and serving enforcement notices on illegal statutory setback occupants."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Cross River Enforces Aviation Secrecy Rules and Upgrades Calabar Stadium for AfCFTA",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River Enforces Aviation Secrecy Rules and Upgrades Calabar Stadium for AfCFTA",
+      "whatHappened": "Cross River State Government issued a strict dismissal warning to aviation staff over official secrecy breaches, while Governor Bassey Otu launched the Calabar Stadium upgrade for AfCFTA trade and set a 10-movie production target.",
+      "whyItMatters": "This 8.6 PSI High Signal multi-sector push tightens public sector confidentiality in state aviation assets while transforming sports infrastructure into a regional commerce hub, positioning Calabar to capture continental trade flows."
+    },
+    "intent": "Enforcing civil service secrecy in aviation management and transforming sports stadium infrastructure for AfCFTA trade."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Taraba Governor Agbu Kefas Inaugurates Drug Control Council and Land Recovery Task Force",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba Governor Agbu Kefas Inaugurates Drug Control Council and Land Recovery Task Force",
+      "whatHappened": "Taraba State Governor Agbu Kefas inaugurated the Governor's Council on Drug Control and Social Renewal alongside the Task Force on Recovery and Confiscation of Government Lands to combat youth drug abuse and reclaim illegally occupied public lands.",
+      "whyItMatters": "This 8.5 PSI High Signal dual policy action tackles public health risks and asset encroachment. Reclaiming state lands restores urban planning authority, while multi-agency drug control frameworks safeguard youth human capital across LGAs."
+    },
+    "intent": "Inaugurating state drug control councils and public land recovery task forces to protect social welfare and state assets."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Ekiti TESCOM Commends Governor Oyebanji and Announces TRCN Examination Policy",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti TESCOM Commends Governor Oyebanji and Announces TRCN Examination Policy",
+      "whatHappened": "Ekiti State TESCOM Chairman Mrs. Rhoda Ojo praised Governor Biodun Oyebanji for continuous school grants, zero exam malpractice, and prompt salaries, while revealing that non-TRCN registered teachers will be barred from national exams.",
+      "whyItMatters": "This 8.5 PSI High Signal educational reform enforces professional standards across public secondary schools. Coupling regular operational funding with strict TRCN teacher accreditation safeguards instructional quality and student performance."
+    },
+    "intent": "Enforcing TRCN teacher registration compliance for national examination participation and sustaining public school grants."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Kebbi Governor Nasir Idris Upgrades General Hospital Danko Wasagu With Modern Equipment",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kebbi Governor Nasir Idris Upgrades General Hospital Danko Wasagu With Modern Equipment",
+      "whatHappened": "Kebbi State Governor Nasir Idris completed extensive structural rehabilitation and installed modern clinical diagnostic equipment at General Hospital Danko Wasagu as part of a statewide LGA healthcare infrastructure overhaul.",
+      "whyItMatters": "This 8.4 PSI High Signal healthcare intervention expands secondary clinical capacity in rural frontier LGAs. Upgrading medical facilities and diagnostic tools drastically lowers maternal-child mortality and health travel burdens."
+    },
+    "intent": "Rehabilitating secondary general hospitals and deploying modern clinical diagnostic equipment in rural LGAs."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "IMO",
+    "stateName": "Imo State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "ISOPADEC Trains Imo Oil Community Youth on Climate-Smart Agribusiness",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "ISOPADEC Trains Imo Oil Community Youth on Climate-Smart Agribusiness",
+      "whatHappened": "The Imo State Oil Producing Areas Development Commission (ISOPADEC) hosted an Agro Business Training themed 'From Soil to Sales' as part of its Youth Summit, training youth on climate-smart pepper, onion, and mushroom farming.",
+      "whyItMatters": "This 8.2 PSI High Signal intervention redirects oil-bearing community youth toward commercial agriculture. Equipping participants with processing, packaging, and cooperative skills de-risks rural security and builds sustainable non-oil livelihoods."
+    },
+    "intent": "Training oil-producing community youth in climate-smart agribusiness and value chain commercialization."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Niger Governor Bago Directs Security Manhunt Following Bandit Attack on Galla Palace",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Niger Governor Bago Directs Security Manhunt Following Bandit Attack on Galla Palace",
+      "whatHappened": "Niger State Governor Mohammed Umaru Bago expressed deep sadness over the killing of Galla Village Head Alhaji Ahmed Yusuf in Borgu Emirate by bandits, directing security agencies to apprehend and prosecute the perpetrators.",
+      "whyItMatters": "This 8.1 PSI High Signal security directive highlights ongoing threats to traditional grassroots administrative structures. Heightened military-police coordination in Borgu Emirate is critical to protect agrarian communities."
+    },
+    "intent": "Directing security manhunts to apprehend perpetrators of bandit attacks on traditional community leaders."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Borno Governor Zulum Commends Outgoing Head of Service Walson-Jack's Legacy",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Borno Governor Zulum Commends Outgoing Head of Service Walson-Jack's Legacy",
+      "whatHappened": "Borno State Governor Babagana Zulum attended the book launch of retiring Head of the Civil Service of the Federation Didi Walson-Jack, procuring copies for ₦30m to integrate her public service insights into state civil service reforms.",
+      "whyItMatters": "This 7.9 PSI High Signal administrative engagement leverages federal civil service institutional memory for sub-national governance. Investing in public administration literature strengthens Borno's bureaucratic capacity building."
+    },
+    "intent": "Procuring federal civil service literature to integrate public administration lessons into state civil service capacity building."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Adamawa Deputy Governor Farauta Inspects Permanent NYSC Camp Following National Award",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Deputy Governor Farauta Inspects Permanent NYSC Camp Following National Award",
+      "whatHappened": "Adamawa State Government received an award of appreciation from the NYSC National Headquarters, after which Deputy Governor Prof. Kaletapwa Farauta inspected ongoing construction at the permanent orientation camp in Malkohi, Yola South.",
+      "whyItMatters": "This 7.8 PSI High Signal institutional engagement strengthens state-federal youth integration programs. Upgrading permanent orientation camp infrastructure de-risks youth corps welfare and boosts sub-national public service capacity."
+    },
+    "intent": "Inspecting permanent NYSC orientation camp infrastructure following national recognition awards."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Katsina Governor Dikko Radda Personally Finances Guest House for Daura Zawiyya",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda announced his decision to personally fund the construction of a guest house for the Madinatul Ahbab Zawiyya in Daura during the annual Maulid event, urging clerics to sustain prayers for peace.",
+      "whyItMatters": "This 7.7 PSI High Signal intervention utilizes non-governmental personal funding to support Islamic institutions. Engaging religious leaders without expanding state fiscal liabilities fosters social cohesion and inter-communal stability."
+    },
+    "intent": "Financing religious institution infrastructure privately to promote inter-communal peace and faith-based partnership."
+  },
+  {
+    "dayNumber": 27,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, August 27, 2026",
+    "headline": "Zamfara Governor Approves Appointment of Key State House of Assembly Officials",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Governor Approves Appointment of Key State House of Assembly Officials",
+      "whatHappened": "Zamfara State Government approved senior administrative appointments for the State House of Assembly, appointing Muhammad Bukkuyum as Service Commission Secretary, alongside Yusuf Tsafe and Bashir Gusau as Deputy Clerks.",
+      "whyItMatters": "This 7.5 PSI High Signal legislative administration update strengthens lawmaking and legal drafting frameworks. Appointing seasoned legal and legislative officers enhances sub-national statutory oversight and institutional stability."
+    },
+    "intent": "Approving senior administrative and legal appointments to strengthen state assembly service commission capacity."
   }
   ],
   "globalCodeData_B3": [
@@ -10658,6 +10898,339 @@
   },
   {
     "dayNumber": 26,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+   {
+    "dayNumber": 27,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.3,
+    "sis": 2.5,
+    "focus": "Chima Ubani 80-Bed Digital General Hospital Commissioning",
+    "dailyBrief": "Commissioned the 24/7 digital 80-bed Obingwa General Hospital in Mgboko, renaming it after Chima Ubani and linking it to 277 PHCs."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.8,
+    "sis": 2.5,
+    "focus": "Malkohi Permanent NYSC Orientation Camp Inspection",
+    "dailyBrief": "Received national NYSC award and inspected ongoing construction at the Malkohi permanent orientation camp in Yola South."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 9.0,
+    "sis": 7.8,
+    "focus": "52km Awajir-Oju Road & Monarch Salary Upgrades",
+    "dailyBrief": "Unveiled the 52km Awajir-Oju road, University of Agriculture projects, and announced salary increases for traditional rulers."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 7.9,
+    "sis": 6.2,
+    "focus": "Civil Service Literature Procurement & HCSF Mentorship",
+    "dailyBrief": "Commended retiring HCSF Walson-Jack and procured 100 copies of her public service books for ₦30m to guide state civil service reforms."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "Aviation Secrecy Warning & Calabar Stadium AfCFTA Upgrade",
+    "dailyBrief": "Warned aviation staff over secrecy breaches, launched Calabar Stadium upgrades for AfCFTA trade, and set a 10-movie production target."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.9,
+    "sis": 2.4,
+    "focus": "Revenue Consolidation Account Law & Benin-Agbor Inspection",
+    "dailyBrief": "Enacted the Revenue Consolidation Account Law 2026 for single EIRS remittances and inspected Benin-Agbor Road with Federal Minister."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 2.1,
+    "focus": "TESCOM TRCN Teacher Registration Exam Requirement",
+    "dailyBrief": "Announced that teachers lacking TRCN registration will be barred from national exams while sustaining regular public school grants."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 8.2,
+    "sis": 2.5,
+    "focus": "ISOPADEC Climate-Smart Agribusiness Youth Training",
+    "dailyBrief": "Hosted 'From Soil to Sales' agribusiness training for oil community youth focused on pepper, onion, and mushroom farming."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 5.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 7.7,
+    "sis": 3.9,
+    "focus": "Daura Zawiyya Guest House Personal Financing",
+    "dailyBrief": "Announced personal funding for a guest house at Madinatul Ahbab Zawiyya in Daura during the annual Maulid event."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 8.4,
+    "sis": 2.5,
+    "focus": "General Hospital Danko Wasagu Rehabilitation & Equipping",
+    "dailyBrief": "Completed structural repairs and installed modern diagnostic equipment at General Hospital Danko Wasagu."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.2,
+    "focus": "LSETF Micro-Loan Sensitization & LASISMA Setback Enforcement",
+    "dailyBrief": "Sensitized 51 Ikorodu entrepreneurs on LSETF business loans and served 7-day clearing notices around Ojo General Hospital."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 2.4,
+    "focus": "ACReSAL Heavy Machinery Unveiling & Cabinet Swearing-In",
+    "dailyBrief": "Unveiled World Bank-backed ACReSAL heavy equipment for gully erosion control and swore in 8 Commissioners and 11 Special Advisers."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.1,
+    "sis": 6.8,
+    "focus": "Galla Village Head Palace Attack Security Manhunt",
+    "dailyBrief": "Directed security manhunts following the bandit killing of Galla Village Head Alhaji Ahmed Yusuf in Borgu Emirate."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.5,
+    "sis": 2.5,
+    "focus": "Drug Control Council & Government Land Recovery Task Force",
+    "dailyBrief": "Inaugurated the Council on Drug Control and the Task Force on Recovery and Confiscation of Government Lands."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 27,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 7.5,
+    "sis": 7.8,
+    "focus": "State House of Assembly Service Commission Appointments",
+    "dailyBrief": "Approved appointments for Service Commission Secretary and two Deputy Clerks for the State House of Assembly."
+  },
+  {
+    "dayNumber": 27,
     "stateName": "FCT Abuja",
     "zone": "North-Central",
     "psi": 3.0,
