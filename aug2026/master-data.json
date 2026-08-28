@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "activeMonth": "August 2026",
   "globalCodeData_B1": [
   {
@@ -4961,6 +4961,358 @@
       "whyItMatters": "This 7.5 PSI High Signal legislative administration update strengthens lawmaking and legal drafting frameworks. Appointing seasoned legal and legislative officers enhances sub-national statutory oversight and institutional stability."
     },
     "intent": "Approving senior administrative and legal appointments to strengthen state assembly service commission capacity."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Lagos Hosts Thailand Business Forum, Flags Off Rural Roads, and Partners NIFST",
+    "psi": 9.4,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Lagos Hosts Thailand Business Forum, Flags Off Rural Roads, and Partners NIFST",
+      "whatHappened": "Lagos State Governor Babajide Sanwo-Olu declared readiness for bilateral partnerships at the Thailand-Nigeria Business Forum, flagged off the 670m Adebayo-Akinade Road in Igbogbo-Baiyeku, and engaged NIFST for commercial food processing.",
+      "whyItMatters": "This 9.4 PSI Optimum Signal multi-sector policy push expands international trade, rural connectivity, and food security. Partnering with Thailand on agro-processing and deploying local road infrastructure accelerates sub-national growth."
+    },
+    "intent": "Hosting international bilateral business forums for foreign trade investment and flagging off rural road construction projects."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Rivers Governor Fubara Unveils 100-Bed Rehab Center and Air Force Base Runway",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Rivers Governor Fubara Unveils 100-Bed Rehab Center and Air Force Base Runway",
+      "whatHappened": "Rivers State Governor Siminalayi Fubara commissioned a remodeled 100-bed Neuropsychiatric Hospital with a drug rehabilitation center and a new General Hospital in Rumuigbo, alongside the newly rehabilitated Port Harcourt NAF Base runway.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal dual rollout addresses acute psychiatric care needs while boosting regional defense infrastructure. Expanding drug rehab facilities curbs youth addiction, and securing air tactical operations de-risks oil corridors."
+    },
+    "intent": "Commissioning specialized neuropsychiatric drug rehabilitation facilities and rehabilitating defense air force base runways."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Kaduna Graduates 4,050 KIVTSD Trainees as Federal Ministry Adopts State TVET Manuals",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Kaduna Graduates 4,050 KIVTSD Trainees as Federal Ministry Adopts State TVET Manuals",
+      "whatHappened": "Kaduna Governor Uba Sani celebrated the graduation of 4,050 trainees from the Kaduna State Institute of Vocational Training and Skills Development, backed by ₦810m startup grants, with the Federal Ministry adopting its TVET manuals nationwide.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal human capital breakthrough positions Kaduna as Nigeria's premier sub-national TVET benchmark. Providing seed capital directly to 4,050 vocational graduates converts technical training into micro-enterprises."
+    },
+    "intent": "Graduating technical vocational trainees with seed startup grants and establishing national reference TVET manuals."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Abia Signs MoU With NRC for Railway Access Corridor and Transport Hub",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Abia Signs MoU With NRC for Railway Access Corridor and Transport Hub",
+      "whatHappened": "Abia State Governor Alex Otti received a delegation from the Nigerian Railway Corporation led by MD Dr. Kayode Opeifa, signing a Memorandum of Understanding to construct an access road across the railway corridor linking Okpara Square to Bende Road in Umuahia.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal transport infrastructure agreement integrates rail, bus, and urban road networks into a centralized capital transport hub. Expanding rail corridors eases urban traffic congestion and accelerates inter-state freight logistics."
+    },
+    "intent": "Signing MoUs with national railway corporations to construct access corridors and build integrated capital transport hubs."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
+      "whatHappened": "Benue Governor Hyacinth Alia hosted town hall meetings across Jechira and Buruku Federal Constituencies, unveiling 52km Awajir-Oju road, University of Agriculture Ihugh projects, Buruku Bridge compensations, and monarch salary hikes.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal comprehensive development rollout expands agrarian connectivity across rural LGAs. Financing federal bridge right-of-way acquisitions and raising traditional ruler stipends stabilizes rural security."
+    },
+    "intent": "Unveiling major inter-LGA road networks, school rehabilitations, and increasing traditional ruler remuneration."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Taraba Governor Agbu Kefas Unveils State Development and Water Master Plans",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba Governor Agbu Kefas Unveils State Development and Water Master Plans",
+      "whatHappened": "At a Gala Night marking Taraba State's 35th Anniversary, Governor Agbu Kefas officially launched the Taraba State Development Master Plan and Water Plan, supported by Information Minister Mohammed Idris Malagi.",
+      "whyItMatters": "This 8.9 PSI High Signal policy unveiling establishes a multi-decade physical and water resource roadmap. Clear spatial planning and water security frameworks de-risk agrarian investments and guide future capital allocation."
+    },
+    "intent": "Unveiling multi-decade physical development master plans and state water management frameworks."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Katsina Governor Dikko Radda Unveils 11 Million Tree Drive and ₦828.6bn Budget Proposal",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Katsina Governor Dikko Radda Unveils 11 Million Tree Drive and ₦828.6bn Budget Proposal",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda inaugurated a 4-tier implementation committee targeting 11m trees by 2030, while the State Executive Council approved the ₦828.6bn 2027 Budget proposal alongside cancer center equipment procurements.",
+      "whyItMatters": "This 8.9 PSI High Signal dual action establishes a massive anti-desertification framework while committing 77% of the 2027 budget to capital development. Equipping the GARSH Cancer Centre curtails costly medical tourism."
+    },
+    "intent": "Inaugurating statewide reforestation implementation structures and approving annual budget proposals with heavy capital focus."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "KANO",
+    "stateName": "Kano State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Kano Procurement Bureau Inspects ₦6.6bn Infrastructure Projects Across Tsanyawa and Bichi",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kano Procurement Bureau Inspects ₦6.6bn Infrastructure Projects Across Tsanyawa and Bichi",
+      "whatHappened": "Kano State Ministry for Public Procurement Projects Monitoring and Evaluation inspected 31 projects executed by Governor Abba Kabir Yusuf across Tsanyawa LGA (14 projects, ₦4.1bn) and Bichi LGA (17 projects, ₦2.5bn).",
+      "whyItMatters": "This 8.8 PSI High Signal project monitoring exercise enforces rigorous public fund accounting across local government areas. Value-for-money audits ensure contractors adhere to engineering specifications and delivery timelines."
+    },
+    "intent": "Executing public procurement project monitoring and auditing multi-billion naira infrastructure projects across LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Nasarawa Governor Sule Engages Chinese Mining Investors and Inspects Flyovers",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Nasarawa Governor Sule Engages Chinese Mining Investors and Inspects Flyovers",
+      "whatHappened": "Nasarawa State Governor Abdullahi Sule met with Chinese mining investors interested in Kokona LGA, before inspecting ongoing construction of strategic urban flyovers in Mararaba (Karu LGA) and Keffi LGA.",
+      "whyItMatters": "This 8.8 PSI High Signal dual economic push attracts foreign capital into the solid minerals sector while decongesting Abuja-border transport corridors. Upgrading urban flyover infrastructure accelerates trade logistics."
+    },
+    "intent": "Engaging foreign mining investors and inspecting strategic urban flyover construction projects."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Delta Governor Sheriff Oborevwori Inspects Tatcha and Amity Farms for PPP Deals",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta Governor Sheriff Oborevwori Inspects Tatcha and Amity Farms for PPP Deals",
+      "whatHappened": "Following the Delta State Economic & Investment Summit, Governor Sheriff Oborevwori inspected Tatcha Farms in Okuloho (Okpe LGA) and Amity Global Farms in Ohorhe (Uvwie LGA) to finalize agricultural PPP arrangements.",
+      "whyItMatters": "This 8.7 PSI High Signal post-summit execution converts investment pledges into commercial agro-processing ventures. Supporting large-scale poultry, feed production, and cassava-starch value chains expands sub-national food security."
+    },
+    "intent": "Inspecting commercial agricultural facilities to finalize public-private partnership arrangements."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Cross River Launches REACH Project for Out-of-School Children and Partners Surveyors",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River Launches REACH Project for Out-of-School Children and Partners Surveyors",
+      "whatHappened": "Cross River State SUBEB flagged off the REACH programme to return out-of-school children to classrooms, while the State Government partnered with estate surveyors to modernize land administration and urban planning.",
+      "whyItMatters": "This 8.6 PSI High Signal dual policy drive tackles basic education deficits and land titling bottlenecks. Re-enrolling out-of-school youths builds foundational human capital, while transparent land administration unlocks real estate asset value."
+    },
+    "intent": "Flagging off out-of-school children re-enrollment programs and partnering with estate surveyors for land administration."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Adamawa Completes 4.6km Army Barracks Road and Partners Federal Government on Livestock",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Completes 4.6km Army Barracks Road and Partners Federal Government on Livestock",
+      "whatHappened": "Adamawa State Governor Ahmadu Umaru Fintiri completed a 4.6km internal road within the Army Barracks, while Deputy Governor Kaletapwa Farauta received Livestock Development Minister Dr. Mukhtar Maiha to launch a 40m-dose vaccine storage facility.",
+      "whyItMatters": "This 8.6 PSI High Signal dual intervention strengthens state security collaboration and rural economic growth. Upgrading military transport networks improves rapid response capabilities, while modernizing livestock vaccine storage protects sub-national food security."
+    },
+    "intent": "Completing internal military barracks roads and partnering with federal ministries on livestock vaccine facilities."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Plateau Clarifies ₦10.11bn Public Travel Spending and Partners CSOs on Emergency WASH",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Clarifies ₦10.11bn Public Travel Spending and Partners CSOs on Emergency WASH",
+      "whatHappened": "Plateau State Government clarified that ₦10.11bn H1 travel expenditure covered statewide MDA trainings, pilgrimages, and foreign scholarships, while Ministry of Water Resources and SEMA partnered with CSOs on a data-driven WASH emergency response.",
+      "whyItMatters": "This 8.5 PSI High Signal dual action enforces fiscal transparency while modernizing disaster management. Standardizing digital KoboToolbox reporting and inter-agency WASH data unlocks international donor funding for displaced communities."
+    },
+    "intent": "Clarifying public service travel expenditure and partnering with CSOs on digital WASH emergency response networks."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Edo State Ministry Aligns Market Sanitation and Commences NEMA Flood Relief Audit",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo State Ministry Aligns Market Sanitation and Commences NEMA Flood Relief Audit",
+      "whatHappened": "Edo State Ministry of Environment partnered with market women leaders under the SHINE Agenda for metropolitan sanitation, while EdoSEMA and NEMA commenced enumeration of 667 flood victim households across 18 LGAs.",
+      "whyItMatters": "This 8.5 PSI High Signal civic-governmental initiative enhances urban public health and disaster management. Enforcing market hygiene prevents disease outbreaks, while transparent flood relief auditing ensures targeted federal aid."
+    },
+    "intent": "Partnering with market women for urban sanitation and executing joint flood relief beneficiary enumeration."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Zamfara Concludes 18-Day Teacher Training and Prepares for State Business Summit",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Concludes 18-Day Teacher Training and Prepares for State Business Summit",
+      "whatHappened": "Zamfara State Ministry of Education concluded an intensive 18-day GTTP/EQAA capacity-building workshop for teachers at ZACAST Gusau, while Commerce Commissioner Tasi'u Shinkafi hosted business leaders ahead of the State Business Summit.",
+      "whyItMatters": "This 8.5 PSI High Signal multi-sector policy drive elevates classroom instruction standards and private sector participation. Upskilling school administrators improves learning outcomes, while structuring business summits attracts trade investments."
+    },
+    "intent": "Concluding teacher quality assurance workshops and hosting business stakeholder meetings ahead of state summits."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Kebbi Governor Nasir Idris Upgrades General Hospital Danko Wasagu With Modern Equipment",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kebbi Governor Nasir Idris Upgrades General Hospital Danko Wasagu With Modern Equipment",
+      "whatHappened": "Kebbi State Governor Nasir Idris completed extensive structural rehabilitation and installed modern clinical diagnostic equipment at General Hospital Danko Wasagu as part of a statewide LGA healthcare infrastructure overhaul.",
+      "whyItMatters": "This 8.4 PSI High Signal healthcare intervention expands secondary clinical capacity in rural frontier LGAs. Upgrading medical facilities and diagnostic tools drastically lowers maternal-child mortality and health travel burdens."
+    },
+    "intent": "Rehabilitating secondary general hospitals and deploying modern clinical diagnostic equipment in rural LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Ondo State Partners Traditional Rulers to Drive Technical and Vocational Education",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ondo State Partners Traditional Rulers to Drive Technical and Vocational Education",
+      "whatHappened": "Ondo State Government, through BATVE and SSA Tayo Oluyi, engaged the Council of Obas to destigmatize vocational learning, mobilize youth enrollment, and attract CSR investments across 5 technical colleges and 23 skill centers.",
+      "whyItMatters": "This 8.4 PSI High Signal institutional partnership leverages traditional monarch influence to accelerate youth technical skilling. Aligning royal authority with modern TVET curricula addresses youth unemployment and industrial labor needs."
+    },
+    "intent": "Partnering with traditional rulers to drive technical vocational education and destigmatize practical skills."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Osun Relief Board Convenes as Governor Adeleke Reconstitutes UNIOSUN Council",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Osun Relief Board Convenes as Governor Adeleke Reconstitutes UNIOSUN Council",
+      "whatHappened": "Osun State Election Violence Relief Committee held its inaugural sitting to verify claims and disburse relief funds, while Governor Ademola Adeleke reconstituted the Osun State University Governing Council under Prof. Adewale Oladipo.",
+      "whyItMatters": "This 8.3 PSI High Signal governance action institutionalizes victim compensation and safeguards tertiary education stability. Pairing multi-stakeholder violence relief with university council oversight promotes institutional trust."
+    },
+    "intent": "Convening election violence relief committees and reconstituting state university governing councils."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Akwa Ibom State Outlaws and Criminalizes Use of Ambulances for Transporting Corpses",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Akwa Ibom State Outlaws and Criminalizes Use of Ambulances for Transporting Corpses",
+      "whatHappened": "Akwa Ibom State Health Commissioner Dr. Ekem Emmanuel John announced at a ministerial media briefing that the state has officially criminalized the use of emergency medical ambulances for conveying human corpses.",
+      "whyItMatters": "This 8.3 PSI High Signal healthcare directive preserves emergency medical response vehicles exclusively for living patient care. Strict regulatory enforcement prevents cross-contamination and optimizes emergency transport assets."
+    },
+    "intent": "Outlawing and criminalizing the misuse of emergency medical ambulances for conveying human corpses."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "IMO",
+    "stateName": "Imo State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "ISOPADEC Trains Imo Oil Community Youth on Climate-Smart Agribusiness",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "ISOPADEC Trains Imo Oil Community Youth on Climate-Smart Agribusiness",
+      "whatHappened": "The Imo State Oil Producing Areas Development Commission (ISOPADEC) hosted an Agro Business Training themed 'From Soil to Sales' as part of its Youth Summit, training youth on climate-smart pepper, onion, and mushroom farming.",
+      "whyItMatters": "This 8.2 PSI High Signal intervention redirects oil-bearing community youth toward commercial agriculture. Equipping participants with processing, packaging, and cooperative skills de-risks rural security and builds sustainable non-oil livelihoods."
+    },
+    "intent": "Training oil-producing community youth in climate-smart agribusiness and value chain commercialization."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Yobe State to Host 400-Participant Digital Media Summit in Damaturu",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Yobe State to Host 400-Participant Digital Media Summit in Damaturu",
+      "whatHappened": "Yobe State Government announced a statewide media summit scheduled for September 5, 2026, in Damaturu, gathering 400 mainstream journalists and social media practitioners across 17 LGAs to leverage digital tools for community impact.",
+      "whyItMatters": "This 8.1 PSI High Signal communication initiative enhances sub-national transparency and digital journalism capabilities. Training local content creators across 17 LGAs improves development reporting and counters misinformation."
+    },
+    "intent": "Organizing statewide digital media summits for journalists and social media practitioners across LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Friday, August 28, 2026",
+    "headline": "Gombe Information Commissioner Urges Youth to Embrace Business Entrepreneurship",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gombe Information Commissioner Urges Youth to Embrace Business Entrepreneurship",
+      "whatHappened": "Gombe State Commissioner for Information, Strategy and Culture, Hon. Moses Kyari Bolda, received a delegation of the Fellowship of Christian Students (FCS), calling on youths to leverage state business infrastructure for self-reliance.",
+      "whyItMatters": "This 7.8 PSI High Signal civic engagement encourages youth enterprise diversification beyond limited public sector jobs. Partnering with youth faith organizations fosters moral leadership and economic independence across the state."
+    },
+    "intent": "Advocating youth business entrepreneurship and partnering with faith-based student organizations."
   }
   ],
   "globalCodeData_B3": [
@@ -11231,6 +11583,348 @@
   },
   {
     "dayNumber": 27,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.0,
+    "sis": 2.5,
+    "focus": "Umuahia Railway Access Corridor MoU & Transport Hub",
+    "dailyBrief": "Signed an MoU with the Nigerian Railway Corporation for an access road corridor linking Okpara Square to Bende Road in Umuahia."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "4.6km Army Barracks Road & Livestock Vaccine Hub",
+    "dailyBrief": "Completed a 4.6km internal road within the Army Barracks and partnered with the Federal Government on a 40m-dose vaccine storage facility."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.3,
+    "sis": 2.1,
+    "focus": "Ambulance Corpse Transport Misuse Ban",
+    "dailyBrief": "Officially outlawed and criminalized the use of emergency medical ambulances for conveying human corpses."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 9.0,
+    "sis": 7.8,
+    "focus": "52km Awajir-Oju Road & Traditional Ruler Salary Upgrades",
+    "dailyBrief": "Unveiled the 52km Awajir-Oju road, University of Agriculture projects, and announced salary increases for traditional rulers."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 6.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "REACH Out-of-School Children Drive & Land Surveyors",
+    "dailyBrief": "Flagged off the REACH program for out-of-school children and partnered with estate surveyors to modernize land administration."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.7,
+    "sis": 2.5,
+    "focus": "Tatcha and Amity Farms PPP Inspections",
+    "dailyBrief": "Inspected Tatcha Farms and Amity Global Farms to finalize post-summit agricultural public-private partnership deals."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.4,
+    "focus": "Market Sanitation Alignment & Flood Relief Enumeration",
+    "dailyBrief": "Partnered with market women for urban sanitation and commenced NEMA enumeration of 667 flood victim households across 18 LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 7.8,
+    "sis": 2.3,
+    "focus": "Youth Entrepreneurship & FCS Faith Engagement",
+    "dailyBrief": "Urged young people to leverage state business infrastructure for self-reliance during a visit by the Fellowship of Christian Students."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 8.2,
+    "sis": 2.5,
+    "focus": "ISOPADEC Climate-Smart Agribusiness Youth Training",
+    "dailyBrief": "Hosted 'From Soil to Sales' agribusiness training for oil community youth focused on pepper, onion, and mushroom farming."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 9.1,
+    "sis": 5.8,
+    "focus": "KIVTSD 4,050 Trainee Graduation & ₦810m Grants",
+    "dailyBrief": "Graduated 4,050 vocational trainees backed by ₦810m startup grants, with KIVTSD manuals adopted nationwide for TVET."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 2.5,
+    "focus": "₦6.6bn Infrastructure Project Audit Across Tsanyawa and Bichi",
+    "dailyBrief": "Inspected 31 capital projects worth ₦6.6bn executed across Tsanyawa (₦4.1bn) and Bichi (₦2.5bn) LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.9,
+    "sis": 3.9,
+    "focus": "11 Million Tree Reforestation & ₦828.6bn 2027 Budget Proposal",
+    "dailyBrief": "Inaugurated a 4-tier committee for the 11m tree drive and approved the ₦828.6bn 2027 budget proposal with 77% capital allocation."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 8.4,
+    "sis": 2.5,
+    "focus": "General Hospital Danko Wasagu Structural & Equipment Upgrade",
+    "dailyBrief": "Completed structural repairs and installed modern diagnostic equipment at General Hospital Danko Wasagu."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.4,
+    "sis": 1.2,
+    "focus": "Thailand-Nigeria Business Forum & Rural Road Projects",
+    "dailyBrief": "Hosted Thai Deputy PM for bilateral trade expansion, flagged off rural roads in Igbogbo-Baiyeku, and engaged NIFST on food tech."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 2.4,
+    "focus": "Chinese Mining FDI & Mararaba/Keffi Flyovers Inspection",
+    "dailyBrief": "Met with Chinese mining investors for Kokona LGA and inspected ongoing construction of urban flyovers in Mararaba and Keffi."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 6.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 8.4,
+    "sis": 2.1,
+    "focus": "TVET Enrollment Drive & Royal Obas Partnership",
+    "dailyBrief": "Engaged the Council of Obas to destigmatize vocational education and boost youth enrollment across 5 technical colleges."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 8.3,
+    "sis": 2.5,
+    "focus": "Election Violence Relief Sitting & UNIOSUN Council Reconstitution",
+    "dailyBrief": "Held the inaugural Election Violence Relief Committee sitting and reconstituted the Osun State University Governing Council."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.5,
+    "sis": 3.8,
+    "focus": "₦10.11bn Travel Clarification & CSO Emergency WASH Grid",
+    "dailyBrief": "Clarified H1 travel expenditure and partnered with CSOs to establish a data-driven WASH emergency network using KoboToolbox."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 9.2,
+    "sis": 2.8,
+    "focus": "100-Bed Neuropsychiatric Rehab Center & NAF Runway",
+    "dailyBrief": "Commissioned a 100-bed Neuropsychiatric Hospital, drug rehab center, General Hospital in Rumuigbo, and NAF Base runway."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.9,
+    "sis": 2.5,
+    "focus": "35th Anniversary Development & Water Master Plans",
+    "dailyBrief": "Unveiled the Taraba State Development Master Plan and Water Plan during the 35th Anniversary Gala Night in Jalingo."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 8.1,
+    "sis": 4.8,
+    "focus": "400-Participant Digital Media Summit Announcement",
+    "dailyBrief": "Announced a 400-participant media summit in Damaturu to train journalists and social media actors across 17 LGAs."
+  },
+  {
+    "dayNumber": 28,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.5,
+    "sis": 7.8,
+    "focus": "18-Day Teacher Training & Business Summit Stakeholders Meeting",
+    "dailyBrief": "Concluded an 18-day GTTP/EQAA teacher training workshop and hosted business stakeholders ahead of the State Business Summit."
+  },
+  {
+    "dayNumber": 28,
     "stateName": "FCT Abuja",
     "zone": "North-Central",
     "psi": 3.0,
