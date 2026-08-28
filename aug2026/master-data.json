@@ -5026,23 +5026,23 @@
     },
     "intent": "Signing MoUs with national railway corporations to construct access corridors and build integrated capital transport hubs."
   },
-  {
-    "dayNumber": 28,
-    "stateKey": "BENUE",
-    "stateName": "Benue State",
-    "displayDate": "Friday, August 28, 2026",
-    "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
-    "psi": 9.0,
-    "intensity": "OPTIMUM",
-    "momentum": "Accelerating",
-    "impactMatrix": {
-      "headline": "Benue Governor Alia Unveils Major Road, School Projects and Raises Monarch Salaries",
-      "whatHappened": "Benue Governor Hyacinth Alia hosted town hall meetings across Jechira and Buruku Federal Constituencies, unveiling 52km Awajir-Oju road, University of Agriculture Ihugh projects, Buruku Bridge compensations, and monarch salary hikes.",
-      "whyItMatters": "This 9.0 PSI Optimum Signal comprehensive development rollout expands agrarian connectivity across rural LGAs. Financing federal bridge right-of-way acquisitions and raising traditional ruler stipends stabilizes rural security."
-    },
-    "intent": "Unveiling major inter-LGA road networks, school rehabilitations, and increasing traditional ruler remuneration."
+ {
+  "dayNumber": 28,
+  "stateKey": "BENUE",
+  "stateName": "Benue State",
+  "displayDate": "Friday, August 28, 2026",
+  "headline": "Benue Governor Alia Unveils 52km Awajir–Oju Road and Buruku Infrastructure Projects",
+  "psi": 8.7,
+  "intensity": "HIGH",
+  "momentum": "Advancing",
+  "impactMatrix": {
+    "headline": "Benue Governor Alia Unveils 52km Awajir–Oju Road and Buruku Infrastructure Projects",
+    "whatHappened": "Benue Governor Hyacinth Alia hosted town hall meetings across Jechira and Buruku Federal Constituencies, unveiling the ongoing 52km Awajir-Oju road, University of Agriculture Ihugh projects, and Buruku Bridge right-of-way compensations.",
+    "whyItMatters": "This 8.7 PSI High Signal infrastructure rollout expands agrarian connectivity across rural LGAs. Financing federal bridge right-of-way acquisitions and delivering inter-LGA road networks optimizes agricultural logistics across key farming corridors."
   },
-  {
+  "intent": "Unveiling major inter-LGA road networks, University of Agriculture infrastructure, and right-of-way bridge compensation." 
+},
+ {
     "dayNumber": 28,
     "stateKey": "TARABA",
     "stateName": "Taraba State",
@@ -11648,10 +11648,10 @@
     "dayNumber": 28,
     "stateName": "Benue",
     "zone": "North-Central",
-    "psi": 9.0,
+    "psi": 8.7,
     "sis": 7.8,
-    "focus": "52km Awajir-Oju Road & Traditional Ruler Salary Upgrades",
-    "dailyBrief": "Unveiled the 52km Awajir-Oju road, University of Agriculture projects, and announced salary increases for traditional rulers."
+    "focus": "52km Awajir-Oju Road & Buruku Constituency Infrastructure",
+    "dailyBrief": "Unveiled the 52km Awajir-Oju agrarian road corridor, University of Agriculture projects, and Buruku Bridge right-of-way compensations."
   },
   {
     "dayNumber": 28,
