@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-31",
   "activeMonth": "August 2026",
   "globalCodeData_B1": [
   {
@@ -5313,6 +5313,246 @@
       "whyItMatters": "This 7.8 PSI High Signal civic engagement encourages youth enterprise diversification beyond limited public sector jobs. Partnering with youth faith organizations fosters moral leadership and economic independence across the state."
     },
     "intent": "Advocating youth business entrepreneurship and partnering with faith-based student organizations."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Lagos Wins Governance Prize in Washington, Receives US Envoy, and Unveils PHC Plan",
+    "psi": 9.5,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Lagos Wins Governance Prize in Washington, Receives US Envoy, and Unveils PHC Plan",
+      "whatHappened": "Lagos Governor Babajide Sanwo-Olu received the 2026 Global Transformation Prize in Washington, welcomed US Consul General Brandon Hudspeth in Ikoyi, and launched a costed 3-year Primary Health Care strategic plan with the World Bank.",
+      "whyItMatters": "This 9.5 PSI Optimum Signal multi-sector push elevates sub-national governance globally. Securing international trade ties while deploying a World Bank-backed PHC strategy positions Lagos to achieve universal health coverage and attract capital."
+    },
+    "intent": "Receiving global governance awards in Washington DC, welcoming foreign diplomats, and launching costed 3-year primary healthcare strategic plans."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Rivers Governor Fubara Reconstructs Bonny Grammar School and Awards Scholarships",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Rivers Governor Fubara Reconstructs Bonny Grammar School and Awards Scholarships",
+      "whatHappened": "Rivers State Governor Siminalayi Fubara inaugurated the fully reconstructed Bonny National Grammar School, complete with modern science labs, ICT center, and solar power, while awarding full scholarships to Team Rivers' debate winners.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal human capital investment upgrades coastal educational infrastructure in a key energy corridor. Coupling physical school reconstruction with academic debate scholarships fosters skilled local manpower for NLNG operations."
+    },
+    "intent": "Inaugurating reconstructed coastal secondary school infrastructure with modern laboratories and awarding tertiary debate scholarships."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Benue Governor Alia Completes 11-Constituency Town Hall Tour to Render Account",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Benue Governor Alia Completes 11-Constituency Town Hall Tour to Render Account",
+      "whatHappened": "Benue State Governor Hyacinth Alia concluded a unscripted 11-constituency town hall tour across all 4 senatorial zones, presenting project records on 176km roads, school storey-buildings, teacher recruitments, and ₦100bn Benue South projects.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal governance transparency initiative subjects executive performance directly to grassroots scrutiny. Open town hall accounting counters political neglect narratives and builds public trust for ongoing capital projects."
+    },
+    "intent": "Executing unscripted statewide 11-constituency town hall engagement tours to account for capital infrastructure delivery."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Plateau Governor Mutfwang Bans Unauthorized Hisba Group and Sets Up Drug Production Panel",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Governor Mutfwang Bans Unauthorized Hisba Group and Sets Up Drug Production Panel",
+      "whatHappened": "Plateau State Governor Caleb Mutfwang halted unauthorized Hisba operations in Jos North, directing security agencies to prosecute illegal enforcement groups, while inaugurating a cabinet committee to drive local pharmaceutical manufacturing.",
+      "whyItMatters": "This 8.9 PSI High Signal dual action enforces constitutional order and health sector self-reliance. Eliminating parallel security enforcement preserves civic peace, while leveraging local medicinal plants for drug manufacturing secures health supply chains."
+    },
+    "intent": "Prohibiting unauthorized parallel enforcement groups and inaugurating cabinet committees for local pharmaceutical drug manufacturing."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Delta Governor Oborevwori Commends NDDC Flag-Off of Benin–Sapele Expressway",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta Governor Oborevwori Commends NDDC Flag-Off of Benin–Sapele Expressway",
+      "whatHappened": "Delta State Governor Sheriff Oborevwori, represented by Works Commissioner Charles Aniagwu, commended the NDDC for flagging off the rigid concrete reconstruction of the 15.4km Benin–Sapele Expressway in Amukpe.",
+      "whyItMatters": "This 8.9 PSI High Signal infrastructure landmark de-risks a major regional oil logistics corridor. Deploying dual contractors for rigid concrete pavement accelerates completion and complements Delta's ₦300 billion federal road investments."
+    },
+    "intent": "Flagging off rigid concrete pavement reconstruction of failed federal highway sections in collaboration with regional commissions."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Abia Governor Alex Otti Graduates 1,086 Youth Leaders at State Leadership Academy",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Abia Governor Alex Otti Graduates 1,086 Youth Leaders at State Leadership Academy",
+      "whatHappened": "Abia State Governor Alex Otti addressed 1,086 youth graduates at the 2026 Abia State Leadership Academy Boot Camp in Umuahia, executed in partnership with Pan-Atlantic University, charging them to lead community innovation and mentoring clusters.",
+      "whyItMatters": "This 8.8 PSI High Signal human capital milestone equips youth with enterprise and governance skills. Institutionalizing structured mentorship networks strengthens civic engagement and aligns youth capacity with the state's economic transformation agenda."
+    },
+    "intent": "Graduating youth leadership academy boot camp cohorts in partnership with enterprise development centers."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Akwa Ibom Governor Eno Woos South Korea for AI Technology and Maritime Hub Deals",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Akwa Ibom Governor Eno Woos South Korea for AI Technology and Maritime Hub Deals",
+      "whatHappened": "Akwa Ibom State Governor Umo Eno, represented by Deputy Governor Akon Eyakenyi, hosted South Korean Ambassador Jeong Yo-An at UniUyo, seeking partnerships in AI skilling, oil palm processing, and the Oron Beach maritime hub.",
+      "whyItMatters": "This 8.8 PSI High Signal bilateral engagement aligns state development with Asian tech and maritime expertise. Leveraging South Korea's Saemaul Undong model accelerates blue economy projects along Akwa Ibom's 129km coastline."
+    },
+    "intent": "Engaging foreign diplomatic envoys for bilateral partnerships in artificial intelligence, digital youth centers, and blue economy maritime hubs."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "ENUGU",
+    "stateName": "Enugu State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Enugu Hosts 3,000 Athletes at 2nd International Marathon to Boost Sports Tourism",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Enugu Hosts 3,000 Athletes at 2nd International Marathon to Boost Sports Tourism",
+      "whatHappened": "Enugu State hosted over 3,000 global and local athletes for the 2nd Enugu City International Marathon, with Kenya's Edwin Kipyogo and Ethiopia's Zennebe Aberu winning the 42km races, as Deputy Governor Ifeanyi Ossai reaffirmed sports expansion plans.",
+      "whyItMatters": "This 8.8 PSI High Signal sports economy milestone positions Coal City as Africa's emerging athletic hub. Leveraging international marathons drives hospitality revenue, attracts private sponsorship, and expands youth economic opportunities."
+    },
+    "intent": "Hosting international marathon sporting events to expand youth economic opportunities and position the state as a sports capital."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Taraba State Receives 188 Completed Federal Housing Units for Military Formations",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba State Receives 188 Completed Federal Housing Units for Military Formations",
+      "whatHappened": "Taraba State Governor Agbu Kefas officially took delivery of 188 completed housing units under the Muhammadu Buhari National Housing Programme from Housing Minister Dr. Muttaqha Rabe Darma, allocating them to personnel of new military formations.",
+      "whyItMatters": "This 8.7 PSI High Signal asset handover addresses critical accommodation shortages for defense personnel. Becoming the first state to take over federal housing units de-risks military logistics and strengthens regional security cooperation."
+    },
+    "intent": "Taking delivery of completed national housing units from federal ministries to accommodate military personnel."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Osun Governor Adeleke Signs Executive Order Setting Up Panel on Ikire Shootings",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Osun Governor Adeleke Signs Executive Order Setting Up Panel on Ikire Shootings",
+      "whatHappened": "Osun State Governor Ademola Adeleke issued an Executive Order establishing a Judicial Coroner Inquest/Panel of Inquiry led by Magistrate Ayokunle Shiyanbola to investigate the killings and violence at Naira and Kobo Junction in Ikire.",
+      "whyItMatters": "This 8.6 PSI High Signal legal accountability measure addresses public order disruptions in motor park corridors. Mandating a forensic panel to examine security agencies and political actors restores public confidence and prevents recurrence."
+    },
+    "intent": "Issuing executive orders establishing judicial coroner inquest panels to investigate motor park shootings and public violence."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Cross River Partners Federal Government to Train 110 Teachers and Expands HIV Care",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River Partners Federal Government to Train 110 Teachers and Expands HIV Care",
+      "whatHappened": "Cross River State Government partnered with the Federal Government to train 110 primary school teachers on quality assurance, while deepening grassroots HIV response to bring prevention, testing, and treatment closer to local communities.",
+      "whyItMatters": "This 8.5 PSI High Signal dual policy intervention strengthens foundational education and public health capacity. Upskilling teachers raises instructional quality, while decentralizing HIV care reduces community transmission risks."
+    },
+    "intent": "Partnering with federal agencies to train primary school teachers and decentralizing community health treatment services."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "IGP Disu Visits Niger State to Boost Borgu Hostage Rescue Operations",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "IGP Disu Visits Niger State to Boost Borgu Hostage Rescue Operations",
+      "whatHappened": "Inspector-General of Police Tunji Disu paid an assessment visit to Niger State, meeting Deputy Governor Yakubu Garba to reinforce ongoing tactical operations for rescuing kidnapped victims in Borgu LGA.",
+      "whyItMatters": "This 8.4 PSI High Signal security engagement aligns federal police command with state non-kinetic security initiatives. Coordinating intelligence-led rescue missions in Borgu LGA stabilizes agrarian trade corridors."
+    },
+    "intent": "Hosting the Inspector-General of Police to align federal-state tactical and non-kinetic security operations for hostage rescue."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "BAUCHI",
+    "stateName": "Bauchi State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Bauchi Information Ministry Partners BACATMA to Distribute 5 Million Mosquito Nets",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Bauchi Information Ministry Partners BACATMA to Distribute 5 Million Mosquito Nets",
+      "whatHappened": "Bauchi State Ministry of Information and Communication pledged full media and LGA information officer support to BACATMA ahead of its September–October 2026 distribution of 5 million long-lasting insecticidal nets across 20 LGAs.",
+      "whyItMatters": "This 8.4 PSI High Signal public health initiative deploys community radio and LGA communications officers to maximize grassroots net adoption. Mobilizing 5 million nets drastically lowers malaria morbidity across rural households."
+    },
+    "intent": "Partnering with state disease control agencies to coordinate public communication for statewide mosquito net distribution."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Nasarawa Governor Sule Endorses AA Sule Tennis Foundation and Rewards Athletes",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Nasarawa Governor Sule Endorses AA Sule Tennis Foundation and Rewards Athletes",
+      "whatHappened": "Nasarawa State Governor Abdullahi Sule received junior tennis athletes following the ITF J30 World Tennis Tournament, donating ₦10 million alongside $100 per player and establishing the A.A. Sule Tennis Foundation for youth talent development.",
+      "whyItMatters": "This 8.2 PSI High Signal sports development policy institutionalizes youth talent scouting. Funding junior athletes and building dedicated sports foundations fosters youth social inclusion and builds sub-national athletic talent pipelines."
+    },
+    "intent": "Endorsing state sports foundations and providing cash grants to junior international tournament athletes."
+  },
+  {
+    "dayNumber": 31,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Monday, August 31, 2026",
+    "headline": "Adamawa Government Warns Public Against Fraudsters Over Jimeta Shopping Mall",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Government Warns Public Against Fraudsters Over Jimeta Shopping Mall",
+      "whatHappened": "Adamawa State Ministry of Commerce, Trade and Industry issued an official fraud advisory through Commissioner Joab Haggai Sahma, warning the public against extortion schemes claiming to allocate shops at Jimeta Ultra-Modern Shopping Mall.",
+      "whyItMatters": "This 7.8 PSI High Signal consumer protection warning safeguards public commercial assets from racketeering. Enforcing transparent allocation procedures protects micro-entrepreneurs and maintains integrity across state markets."
+    },
+    "intent": "Issuing public advisories warning against fraudulent racketeering schemes surrounding state commercial shopping mall shop allocations."
   }
   ],
   "globalCodeData_B3": [
@@ -11931,6 +12171,339 @@
     "sis": 1.4,
     "focus": "Routine Civil Service Maintenance",
     "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
-  }
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 8.8,
+    "sis": 2.5,
+    "focus": "Abia Leadership Academy 1,086 Youth Boot Camp Graduation",
+    "dailyBrief": "Addressed 1,086 youth graduates at the Abia State Leadership Academy Boot Camp in Umuahia, executed with Pan-Atlantic University."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.8,
+    "sis": 2.5,
+    "focus": "Jimeta Ultra-Modern Shopping Mall Fraud Advisory",
+    "dailyBrief": "Issued an official commerce ministry warning against fraudulent racketeering schemes surrounding shop allocations at Jimeta Shopping Mall."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.1,
+    "focus": "South Korea AI Technology & Maritime Hub Partnership",
+    "dailyBrief": "Hosted South Korean Ambassador Jeong Yo-An at UniUyo to advance AI skilling centers, oil palm processing, and Oron Beach maritime hub."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 8.4,
+    "sis": 2.5,
+    "focus": "BACATMA 5 Million Mosquito Net Distribution Media Campaign",
+    "dailyBrief": "Pledged full media and LGA information officer support to BACATMA for distributing 5m mosquito nets across 20 LGAs."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 9.1,
+    "sis": 7.8,
+    "focus": "11-Constituency Unscripted Statewide Town Hall Accountability Tour",
+    "dailyBrief": "Concluded a statewide 11-constituency town hall tour presenting project accounts on 176km of roads, primary schools, and health centers."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 6.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.5,
+    "focus": "Teacher Quality Assurance Training & Grassroots HIV Care",
+    "dailyBrief": "Partnered with FG to train 110 primary teachers on quality assurance and expanded community-level HIV prevention and treatment."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.9,
+    "sis": 2.5,
+    "focus": "Benin-Sapele Expressway 15.4km Concrete Flag-Off",
+    "dailyBrief": "Commended the NDDC for flagging off rigid concrete reconstruction on the 15.4km failed section of Benin-Sapele Expressway in Amukpe."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 8.8,
+    "sis": 2.2,
+    "focus": "2nd Enugu City International Marathon Sports Tourism",
+    "dailyBrief": "Hosted over 3,000 global and local athletes for the 2nd Enugu City International Marathon, winning international athletic acclaim."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 5.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.5,
+    "sis": 1.2,
+    "focus": "Global Transformation Prize DC, US Envoy & World Bank PHC Plan",
+    "dailyBrief": "Received 2026 Global Transformation Award in DC, welcomed US Consul General, and launched costed 3-year Primary Healthcare plan."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.2,
+    "sis": 2.4,
+    "focus": "AA Sule Tennis Foundation & ITF Junior Athlete Grants",
+    "dailyBrief": "Donated ₦10m to junior ITF tennis athletes, $100 per player, and established the AA Sule Tennis Foundation."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.4,
+    "sis": 6.8,
+    "focus": "IGP Disu Borgu Hostage Rescue Tactical Operations Visit",
+    "dailyBrief": "Met with IGP Tunji Disu to reinforce joint tactical operations for rescuing kidnapped victims in Borgu LGA."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "Ikire Motor Park Shootings Judicial Coroner Inquest Panel",
+    "dailyBrief": "Issued an Executive Order establishing a Judicial Coroner Inquest Panel led by Magistrate Shiyanbola into Ikire killings."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.9,
+    "sis": 3.8,
+    "focus": "Unauthorized Hisba Ban & Local Drug Production Committee",
+    "dailyBrief": "Halted illegal Hisba activities in Jos North and inaugurated a cabinet committee for local pharmaceutical manufacturing."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 9.1,
+    "sis": 2.8,
+    "focus": "Bonny National Grammar School Reconstruction & Scholarships",
+    "dailyBrief": "Inaugurated reconstructed Bonny National Grammar School with modern labs and awarded full scholarships to debate champions."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.7,
+    "sis": 2.5,
+    "focus": "188 Federal Housing Units Delivery for Military Formations",
+    "dailyBrief": "Took delivery of 188 completed federal housing units from Housing Minister Dr. Darma to accommodate military personnel."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  },
+  {
+    "dayNumber": 31,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 7.8,
+    "focus": "Routine Civil Service Maintenance",
+    "dailyBrief": "Baseline administrative operations maintained across state ministries with no strategic executive policy signal recorded today."
+  }    
  ]
 }
