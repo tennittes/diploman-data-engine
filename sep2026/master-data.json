@@ -1,0 +1,525 @@
+  {
+    "dayNumber": 1,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Borno: Zulum Pledges Accelerated Reconstruction of Malam Fatori Town, Sacks Village and Ward Heads Over Absence",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Borno: Zulum Pledges Accelerated Reconstruction of Malam Fatori Town, Sacks Village and Ward Heads Over Absence",
+      "whatHappened": "Borno State Governor Babagana Umara Zulum visited Mallam-Fatori in Abadam LGA, ordering the immediate construction of primary, secondary, and Islamiyya schools, alongside a hospital, while sacking non-resident village and ward heads.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal action accelerates post-conflict reconstruction in a war-damaged border town. Rebuilding public infrastructure and replacing absent traditional leaders directly restores civic governance and community stability for returning displaced populations."
+    },
+    "intent": "Accelerating post-conflict infrastructure reconstruction and enforcing local administrative accountability in border communities."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Diphtheria outbreak: Katsina set to establish three new isolation centres, vaccinates 150,346 people to contain spread",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Diphtheria outbreak: Katsina set to establish three new isolation centres, vaccinates 150,346 people to contain spread",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda’s administration vaccinated 150,346 people in five days across five high-risk LGAs, established three new isolation facilities, and secured 650,000 vaccine doses to fight a diphtheria outbreak across 29 LGAs.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal emergency health response mitigates a major biological threat across 29 LGAs. Rapid vaccine distribution, expanded isolation capacity, and cross-border surveillance effectively prevent mass casualties and safeguard human capital."
+    },
+    "intent": "Deploying emergency public health interventions and expanding isolation infrastructure to contain disease outbreaks."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "EDOHERMA Seals Health Facilities Training Auxiliary Nurses; Governor Okpebholo Signs Strategic Development Partnership with African Diaspora State",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "EDOHERMA Seals Health Facilities Training Auxiliary Nurses; Governor Okpebholo Signs Strategic Development Partnership with African Diaspora State",
+      "whatHappened": "EDOHERMA sealed unlicensed health facilities in Ikpoba Okha LGA for illegally training auxiliary nurses, while Governor Monday Okpebholo signed a strategic investment partnership with the State of the African Diaspora covering seaports, railways, and agriculture.",
+      "whyItMatters": "This 8.6 PSI High Signal consolidated action pairs rigorous internal regulatory enforcement with international investment attraction. Eliminating quackery protects patient health, while foreign diaspora capital commitments strengthen long-term infrastructure development."
+    },
+    "intent": "Enforcing healthcare regulatory compliance while mobilizing international diaspora capital for strategic infrastructure projects."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "GOVERNOR ALIA CALLS FOR COMMUNITY-CENTRED SECURITY TO TACKLE NORTH CENTRAL CRISIS",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "GOVERNOR ALIA CALLS FOR COMMUNITY-CENTRED SECURITY TO TACKLE NORTH CENTRAL CRISIS",
+      "whatHappened": "Benue State Governor Hyacinth Alia hosted the North Central Regional Security Summit in Makurdi, bringing together federal ministers, governors, and security chiefs to establish community-centered intelligence and collaborative regional defense mechanisms.",
+      "whyItMatters": "This 8.5 PSI High Signal regional initiative addresses acute security vulnerabilities impacting national food production. Institutionalizing grass-roots intelligence sharing and inter-state security coordination protects agrarian communities and critical supply chains."
+    },
+    "intent": "Mobilizing regional executive alignment and community-centered intelligence frameworks to secure agrarian trade corridors."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Gov. Diri commissions 2nd Premium Trust bank branch in Yenagoa; Inaugurates State Advisory Council",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov. Diri commissions 2nd Premium Trust bank branch in Yenagoa; Inaugurates State Advisory Council",
+      "whatHappened": "Bayelsa State Governor Douye Diri commissioned Premium Trust Bank's second branch in Yenagoa, linked commercial growth to the state's 60MW Independent Power Plant, and inaugurated an all-inclusive State Advisory Council.",
+      "whyItMatters": "This 8.4 PSI High Signal dual executive event demonstrates growing private financial sector confidence backed by state power infrastructure. Deepening financial inclusion while inaugurating an inclusive advisory council stabilizes governance and boosts enterprise."
+    },
+    "intent": "Expanding commercial financial inclusion and institutionalizing broad-based stakeholder advisory frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "GOV KEFAS, ALAKE CHART NEW COURSE FOR MINERAL INVESTMENT IN TARABA",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "GOV KEFAS, ALAKE CHART NEW COURSE FOR MINERAL INVESTMENT IN TARABA",
+      "whatHappened": "Taraba State Governor Agbu Kefas met with Solid Minerals Development Minister Dele Alake in Abuja to establish a secure, investor-friendly regulatory framework for developing Taraba's vast mineral wealth.",
+      "whyItMatters": "This 8.4 PSI High Signal bilateral engagement aligns subnational resource governance with federal mining policy. Creating a secure regulatory environment attracts credible private capital while safeguarding host community environmental and economic interests."
+    },
+    "intent": "Structuring federal-subnational partnerships to attract private investment into solid mineral extraction."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Governor Sule Leads Nasarawa Security Chiefs and Traditional Rulers to North Central Zonal Security Summit in Makurdi",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sule Leads Nasarawa Security Chiefs and Traditional Rulers to North Central Zonal Security Summit in Makurdi",
+      "whatHappened": "Nasarawa State Governor Abdullahi Sule led state security heads, traditional rulers, and key stakeholders to participate in the North Central Zonal Security Summit hosted in Makurdi, Benue State.",
+      "whyItMatters": "This 8.2 PSI High Signal inter-state collaboration strengthens cross-border security management. Engaging traditional leadership and security agencies mitigates farmer-herder tensions and protects interstate commercial transit corridors."
+    },
+    "intent": "Strengthening inter-state security collaboration and integrating traditional institutions into regional border defense."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "BUDGET MINISTRY CONTINUES VISIT TO PROJECT SITES; GOVERNOR MUTFWANG CALLS FOR STRATEGIC EFFORTS TO END INSECURITY ACROSS NORTH CENTRAL",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "BUDGET MINISTRY CONTINUES VISIT TO PROJECT SITES; GOVERNOR MUTFWANG CALLS FOR STRATEGIC EFFORTS TO END INSECURITY ACROSS NORTH CENTRAL",
+      "whatHappened": "Plateau State Ministry of Budget inspected major road projects, campus hostels, and Langtang dam dredging, while Governor Caleb Mutfwang advocated joint regional security operations at the North Central Security Summit in Makurdi.",
+      "whyItMatters": "This 7.9 PSI High Signal consolidated effort maintains rigorous executive monitoring of capital projects worth over N45 billion while actively shaping regional security strategies to protect agricultural communities."
+    },
+    "intent": "Enforcing project accountability through physical audits while participating in regional security architecture formulation."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Deputy Governor Odey Launches N100m 40-Bed Facility for Mbube Community; Pension Board Trains New Staff",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Deputy Governor Odey Launches N100m 40-Bed Facility for Mbube Community; Pension Board Trains New Staff",
+      "whatHappened": "Cross River State Deputy Governor Peter Odey launched a N100 million 40-bed healthcare facility in Mbube, Ogoja LGA, while the State Pension Board conducted specialized training for newly deployed staff.",
+      "whyItMatters": "This 7.8 PSI High Signal consolidated release expands rural healthcare infrastructure while strengthening administrative capacity in pension management, enhancing civil service efficiency and grassroots public welfare."
+    },
+    "intent": "Expanding rural primary healthcare facilities and upskilling civil service administrative personnel."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "The Gombe State Government Engages Newly Elected Local Government Chairmen on Primary Health Care Programme Implementation",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "The Gombe State Government Engages Newly Elected Local Government Chairmen on Primary Health Care Programme Implementation",
+      "whatHappened": "Gombe State SPHCDA and the Ministry for Local Government held an orientation engagement for newly elected LGA Chairmen in Bauchi on primary healthcare financing, maternal health trends, and ward-level facility operational guidelines.",
+      "whyItMatters": "This 7.7 PSI High Signal administrative alignment secures local council commitment to primary healthcare funding and implementation, strengthening grassroots health governance and maternal-child health outcomes."
+    },
+    "intent": "Aligning local government executive leadership with state primary healthcare financing and operational frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "Oke Ero LGA: BMGS Odo Owa Gets New Classrooms, Digital Literacy Centre",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Oke Ero LGA: BMGS Odo Owa Gets New Classrooms, Digital Literacy Centre",
+      "whatHappened": "Kwara State Governor Abdulrahman Abdulrazaq completed a block of three classrooms with offices and installed a Digital Literacy Centre at BMGS Junior Secondary School, Odo Owa in Oke Ero LGA.",
+      "whyItMatters": "This 7.5 PSI High Signal educational intervention combines physical school construction with digital skills infrastructure, expanding modern technology access and human capital development in rural communities."
+    },
+    "intent": "Modernizing basic educational infrastructure and integrating digital literacy facilities in rural schools."
+  },
+  {
+    "dayNumber": 1,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Tuesday, September 1, 2026",
+    "headline": "LSFVCB MOURNS VICTIM OF LEKKI CINEMA SECURITY INCIDENT",
+    "psi": 6.2,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "LSFVCB MOURNS VICTIM OF LEKKI CINEMA SECURITY INCIDENT",
+      "whatHappened": "Lagos State Film and Video Censors Board issued an official statement following a fatal security incident at a Lekki cinema, offering condolences and directing operators to review safety protocols.",
+      "whyItMatters": "This 6.2 PSI Moderate Signal regulatory engagement underscores administrative oversight of public entertainment venues, reinforcing the necessity of standardized security measures across commercial leisure facilities."
+    },
+    "intent": "Reinforcing public safety protocols and regulatory compliance across entertainment and leisure facilities."
+  }
+  {
+    "dayNumber": 1,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.4,
+    "sis": 2.7,
+    "focus": "Commercial Banking & Energy Infrastructure",
+    "dailyBrief": "Commissioned Premium Trust Bank's 2nd Yenagoa branch and inaugurated State Advisory Council."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 8.5,
+    "sis": 3.9,
+    "focus": "Regional Security & Agrarian Protection",
+    "dailyBrief": "Hosted North Central Security Summit advocating community-led defense and border security."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 9.1,
+    "sis": 5.2,
+    "focus": "Post-Conflict Reconstruction & Civic Governance",
+    "dailyBrief": "Pledged accelerated reconstruction of schools and hospital in Mallam-Fatori; restructured local ward heads."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 7.8,
+    "sis": 1.9,
+    "focus": "Healthcare Infrastructure & Civil Service Training",
+    "dailyBrief": "Launched N100m 40-bed health facility in Mbube and conducted pension staff training."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.4,
+    "focus": "Healthcare Regulation & Diaspora Investment",
+    "dailyBrief": "Sealed non-compliant auxiliary nurse training clinics and signed African Diaspora development partnership."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 7.7,
+    "sis": 2.1,
+    "focus": "Primary Healthcare Administration",
+    "dailyBrief": "Engaged newly elected LGA Chairmen on PHC funding, operational guidelines, and ward-level delivery."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.0,
+    "sis": 4.1,
+    "focus": "Epidemic Containment & Emergency Healthcare",
+    "dailyBrief": "Vaccinated 150,346 people in 5 days against diphtheria, secured 650k vaccine doses, and opened 3 isolation centers."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 7.5,
+    "sis": 1.7,
+    "focus": "Digital Literacy & Basic Education Infrastructure",
+    "dailyBrief": "Completed 3-classroom block and installed Digital Literacy Centre at BMGS Junior Secondary, Odo Owa."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 6.2,
+    "sis": 1.2,
+    "focus": "Public Safety & Entertainment Venue Regulation",
+    "dailyBrief": "LSFVCB issued safety compliance guidelines following Lekki cinema incident."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.2,
+    "sis": 2.6,
+    "focus": "Regional Security Coordination & Border Defense",
+    "dailyBrief": "Mobilized security heads and traditional rulers to Makurdi Regional Security Summit."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 7.9,
+    "sis": 3.6,
+    "focus": "Capital Infrastructure Audit & Regional Security",
+    "dailyBrief": "Inspected 61.5km road and dam dredging projects while participating in Makurdi Security Summit."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.4,
+    "sis": 3.6,
+    "focus": "Solid Mineral Investment & Regulatory Framework",
+    "dailyBrief": "Engaged Ministry of Solid Minerals to chart secure investor framework for mineral development."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  }
