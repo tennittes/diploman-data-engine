@@ -1,5 +1,5 @@
  {
-  "lastUpdated": "2026-09-1",
+  "lastUpdated": "2026-09-2",
   "activeMonth": "September 2026",
   "globalCodeData_B1": [
  {
@@ -193,6 +193,358 @@
       "whyItMatters": "This 6.2 PSI Moderate Signal regulatory engagement underscores administrative oversight of public entertainment venues, reinforcing the necessity of standardized security measures across commercial leisure facilities."
     },
     "intent": "Reinforcing public safety protocols and regulatory compliance across entertainment and leisure facilities."
+  },
+     {
+    "dayNumber": 2,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Umo Eno Receives Brand-New Airbus A220-300 Aircraft for Ibom Air Fleet at Victor Attah International Airport",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Umo Eno Receives Brand-New Airbus A220-300 Aircraft for Ibom Air Fleet at Victor Attah International Airport",
+      "whatHappened": "Akwa Ibom State Governor Umo Eno hosted a water cannon reception ceremony for a new Airbus A220-300 aircraft for Ibom Air, noting that 14 out of 30 pilots in the airline are state indigenous professionals.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal action expands state aviation infrastructure, boosts regional commercial connectivity, and accelerates local technical capacity building in West Africa's maritime and aviation transport sectors."
+    },
+    "intent": "Expanding commercial aviation fleet infrastructure and advancing technical capacity building for indigenous pilots."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Ondo State Government Launches 5-Year SENTINEL 2.0 One Health Genomic Surveillance Project; Reaffirms Neutrality in Oba Selection",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Ondo State Government Launches 5-Year SENTINEL 2.0 One Health Genomic Surveillance Project; Reaffirms Neutrality in Oba Selection",
+      "whatHappened": "Ondo State Government launched the 5-year SENTINEL 2.0 One Health genomic surveillance project across livestock, abattoirs, and wildlife habitats to detect emerging zoonotic pathogens, while assuring complete neutrality in chieftaincy selection in Oba-Ile.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal dual release establishes an advanced public health genomic early-warning network to contain epidemics before human spillovers occur, while maintaining chieftaincy regulatory neutrality."
+    },
+    "intent": "Establishing integrated genomic public health surveillance frameworks and maintaining transparent chieftaincy governance."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Agriculture: Katsina Leads Nigerian States with N12.01bn Spending in Q1 2026 to Boost Food Security",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Agriculture: Katsina Leads Nigerian States with N12.01bn Spending in Q1 2026 to Boost Food Security",
+      "whatHappened": "NGF/TheCable Index data revealed Katsina State as Nigeria's highest spending state in agriculture during Q1 2026, allocating N12.01 billion under Governor Dikko Umaru Radda to drive food production and economic growth.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal fiscal performance demonstrates record subnational capital allocation toward agricultural inputs, irrigation, and extension services, securing food supply chains across the Northern corridor."
+    },
+    "intent": "Prioritizing massive agricultural capital allocation to strengthen food security and agrarian economic expansion."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Zamfara Health Ministry Commences Digital Automation of Tertiary and General Hospitals; Governor Lawal Speaks at 2026 CEO Forum",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Health Ministry Commences Digital Automation of Tertiary and General Hospitals; Governor Lawal Speaks at 2026 CEO Forum",
+      "whatHappened": "Zamfara State commenced digital automation of tertiary and general hospitals to streamline patient records and data collection, while Governor Dauda Lawal delivered a policy address at the 2026 CEO Forum in Lagos to unlock private investment.",
+      "whyItMatters": "This 8.8 PSI High Signal consolidated effort modernizes public health administration through digital record management while actively positioning the state for institutional private capital investment."
+    },
+    "intent": "Digitizing hospital health data management and engaging corporate business leaders to attract private investment."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov Diri Sues For Ijaw Unity, Recognises Igbadiwe-led INC at Mega Unity Reception in Yenagoa",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Diri Sues For Ijaw Unity, Recognises Igbadiwe-led INC at Mega Unity Reception in Yenagoa",
+      "whatHappened": "Bayelsa State Governor Douye Diri hosted a Mega Unity Reception in Yenagoa, formally resolving electoral disputes within the Ijaw National Congress (INC) and recognizing the Chief Macdonald Igbadiwe-led executive.",
+      "whyItMatters": "This 8.7 PSI High Signal peace building initiative restores socio-political cohesion across oil-producing host communities, unifying subnational leadership to safeguard regional stability and economic development."
+    },
+    "intent": "Institutionalizing socio-political reconciliation and unifying ethnic leadership across host communities."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov Uba Sani Presents CNG Buses to Professional Bodies; Donates Operational Vehicle and Land Allocation to National Eye Centre",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Uba Sani Presents CNG Buses to Professional Bodies; Donates Operational Vehicle and Land Allocation to National Eye Centre",
+      "whatHappened": "Kaduna State Governor Uba Sani presented CNG buses to NMA, NBA, NUJ, NCS, and KASU, while donating an operational vehicle, security reinforcement, and staff housing land allocation to the National Eye Centre.",
+      "whyItMatters": "This 8.6 PSI High Signal consolidated executive release improves public institutional mobility through clean energy buses while strengthening specialized medical infrastructure and health worker welfare."
+    },
+    "intent": "Enhancing institutional mobility via green energy transport and supporting specialized healthcare infrastructure."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Sanwo-Olu Commissions Permanent 8-Storey FRC Headquarters in Ikeja; Inaugurates 44 Sports Association Chairmen",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sanwo-Olu Commissions Permanent 8-Storey FRC Headquarters in Ikeja; Inaugurates 44 Sports Association Chairmen",
+      "whatHappened": "Lagos State Governor Babajide Sanwo-Olu commissioned the 8-storey Financial Reporting Council headquarters in Ikeja and inaugurated 44 sports association chairmen to drive grassroots talent development.",
+      "whyItMatters": "This 8.5 PSI High Signal release strengthens commercial financial regulation transparency in Nigeria's economic capital while building grassroots institutional systems for youth employment and sports development."
+    },
+    "intent": "Strengthening financial regulatory infrastructure and building structured grassroots sports development systems."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Edo Govt Enforces Health Standards in Orphanages, Empowers 300 Women Entrepreneurs, and Engages HOSTCOM on Gas Investments",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo Govt Enforces Health Standards in Orphanages, Empowers 300 Women Entrepreneurs, and Engages HOSTCOM on Gas Investments",
+      "whatHappened": "Edo State EDOHERMA commenced health inspections of orphanages, the Office of the First Lady disbursed micro-grants to 300 women, and the Ministry of Oil and Gas engaged HOSTCOM on gas investment and pipeline safety.",
+      "whyItMatters": "This 8.4 PSI High Signal multi-sector release enforces child social welfare health standards, expands grassroots women micro-enterprise, and secures oil and gas pipeline infrastructure through host community partnership."
+    },
+    "intent": "Enforcing social welfare health compliance, empowering women micro-entrepreneurs, and securing gas pipeline assets."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Oborevwori Advocates Delta Hosting Headquarters of New 83 Division of Nigerian Army",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Oborevwori Advocates Delta Hosting Headquarters of New 83 Division of Nigerian Army",
+      "whatHappened": "Delta State Governor Sheriff Oborevwori received the Army implementation delegation for the new 83 Division, advocating that Delta host the headquarters and offering land, facilities, and co-funding support.",
+      "whyItMatters": "This 8.3 PSI High Signal strategic engagement aims to secure critical national oil, gas, aviation, and maritime assets in the Niger Delta by co-funding and hosting expanded military division formations."
+    },
+    "intent": "Securing critical subnational energy and maritime infrastructure through military division headquarters co-hosting."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Plateau Government Distributes Medical Equipment and Digital X-Rays to 19 Secondary Health Facilities",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Government Distributes Medical Equipment and Digital X-Rays to 19 Secondary Health Facilities",
+      "whatHappened": "Plateau State Government commenced distributing 350 mattresses, 7 digital X-ray machines, 10 laptops, ambulances, and essential supplies to 19 secondary hospitals across the state.",
+      "whyItMatters": "This 8.2 PSI High Signal health sector overhaul delivers the first comprehensive hospital re-equipping in four decades, significantly expanding diagnostic capacity and rural patient care quality."
+    },
+    "intent": "Upgrading secondary healthcare facilities with modern diagnostic equipment and essential hospital supplies."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov. Buni Lauds Yobe Microfinance Bank as Capital Base Grows from N14m to Over N800m",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov. Buni Lauds Yobe Microfinance Bank as Capital Base Grows from N14m to Over N800m",
+      "whatHappened": "Yobe State Governor Mai Mala Buni launched Business Community Development Day as state-owned Microfinance Bank expanded its capital base to over N800m, launching electric motorcycles, solar kits, POS channels, and ATM cards.",
+      "whyItMatters": "This 8.1 PSI High Signal initiative deepens grassroots financial inclusion and green business mobility, transforming a previously distressed state micro-bank into a thriving commercial driver for small businesses."
+    },
+    "intent": "Expanding grassroots microfinance capital and deploying renewable energy and digital banking channels."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gombe Receives Laptops for WASH Database Development; Public Health Committee Reviews Outbreak Emergency Response",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gombe Receives Laptops for WASH Database Development; Public Health Committee Reviews Outbreak Emergency Response",
+      "whatHappened": "Gombe State Ministry of Water Resources received IT hardware under the NG-SURWASH program to build a real-time WASH database down to ward levels, while the Public Health Committee reviewed outbreak emergency responses.",
+      "whyItMatters": "This 8.0 PSI High Signal consolidated release digitizes water and sanitation data collection for evidence-based resource allocation while actively managing public health responses to diphtheria and rabies."
+    },
+    "intent": "Establishing digital WASH data systems for evidence-based resource allocation and reviewing health emergency preparedness."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov. Kefas Sponsors Second Batch of Taraba State Officials for Leadership and Peace Management Course at Jaji",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov. Kefas Sponsors Second Batch of Taraba State Officials for Leadership and Peace Management Course at Jaji",
+      "whatHappened": "Taraba State Governor Agbu Kefas sponsored a second batch of commissioners, judges, security personnel, and religious leaders for a 1-week leadership and peace management course at Jaji, Kaduna State.",
+      "whyItMatters": "This 7.9 PSI High Signal capacity building investment equips senior state officials and civil society leaders with institutional conflict management skills to preserve peace and governance stability."
+    },
+    "intent": "Institutionalizing peacebuilding and executive leadership capacity building for senior government and civil leaders."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ANAMBRA",
+    "stateName": "Anambra State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov Soludo Issues Certificates of Recognition to New Traditional Rulers of Nsugbe and Adazi-Nnukwu",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Soludo Issues Certificates of Recognition to New Traditional Rulers of Nsugbe and Adazi-Nnukwu",
+      "whatHappened": "Anambra State Governor Chukwuma Soludo presented Certificates of Recognition to Igwe John Nzekwesili Nweke of Nsugbe and Igwe Ethelbert Muoka of Adazi-Nnukwu, while proposing a New Community Administration Law.",
+      "whyItMatters": "This 7.8 PSI High Signal institutional reform formalizes traditional ruler succession while drafting legislative structures to eliminate chieftaincy rivalries and strengthen grassroots governance."
+    },
+    "intent": "Formalizing traditional ruler succession and drafting legislative frameworks for orderly community administration."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Nasir Idris Advances Construction of Comprehensive School Jega to Modernize Basic Education Infrastructure",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Nasir Idris Advances Construction of Comprehensive School Jega to Modernize Basic Education Infrastructure",
+      "whatHappened": "Kebbi State Governor Nasir Idris advanced the ongoing construction of the Comprehensive School, Jega, to provide modern learning facilities for basic education.",
+      "whyItMatters": "This 7.7 PSI High Signal educational investment expands quality public school infrastructure in Gwandu emirate, improving human capital development access for children."
+    },
+    "intent": "Investing in modern basic education school infrastructure to enhance learning environments."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "EBONYI",
+    "stateName": "Ebonyi State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Nwifuru Swears In Newly Elected Chairmen and Vice Chairmen for 13 Local Government Areas",
+    "psi": 7.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Nwifuru Swears In Newly Elected Chairmen and Vice Chairmen for 13 Local Government Areas",
+      "whatHappened": "Ebonyi State Governor Francis Nwifuru swore in newly elected Chairmen and Vice Chairmen across all 13 Local Government Areas at the Christian Ecumenical Centre in Abakaliki.",
+      "whyItMatters": "This 7.6 PSI High Signal administrative event restores democratic local government leadership across Ebonyi State, charging local councils with grassroots policy implementation and fiscal integrity."
+    },
+    "intent": "Restoring democratically elected local government leadership to drive grassroots development."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Gov Otu Pledges Infrastructure and Medical Varsity for Cross River North; LG Auditor General Tasks Staff on Ethics",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Otu Pledges Infrastructure and Medical Varsity for Cross River North; LG Auditor General Tasks Staff on Ethics",
+      "whatHappened": "Cross River State Governor Bassey Otu pledged road infrastructure and a new Medical University for Cross River North, while the Local Government Auditor General oriented staff on professional work ethics.",
+      "whyItMatters": "This 7.5 PSI High Signal commitment targets regional economic expansion and specialized tertiary healthcare education in northern senatorial districts while enforcing civil service ethical discipline."
+    },
+    "intent": "Promising specialized healthcare university infrastructure and enforcing civil service audit work ethics."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Adamawa Completes Construction of Sarkin Kano Street; Commerce Commissioner Meets Jimeta Market Leaders",
+    "psi": 7.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Completes Construction of Sarkin Kano Street; Commerce Commissioner Meets Jimeta Market Leaders",
+      "whatHappened": "Adamawa State completed the construction of Sarkin Kano Street in Yola town, while the Ministry of Commerce met Jimeta Ultra-Modern Market leaders on shop record updates and drainage rehabilitation.",
+      "whyItMatters": "This 7.4 PSI High Signal release improves urban transport connectivity in Yola metropolis while resolving drainage flood risks and revenue documentation at Jimeta market."
+    },
+    "intent": "Completing urban road construction and rehabilitating commercial market drainage infrastructure."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Fubara Receives GOC 6 Division Nigerian Army to Strengthen Joint Security Partnership",
+    "psi": 7.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Fubara Receives GOC 6 Division Nigerian Army to Strengthen Joint Security Partnership",
+      "whatHappened": "Rivers State Governor Siminalayi Fubara hosted the new GOC 6 Division Nigerian Army, Maj. Gen. Everest Ifeanyi Okoro, pledging continued state support to protect critical infrastructure and peace.",
+      "whyItMatters": "This 7.2 PSI High Signal engagement reinforces subnational military-civilian security coordination to protect critical petroleum pipelines, maritime assets, and commercial transport corridors."
+    },
+    "intent": "Strengthening military security partnerships to protect critical state and national petroleum assets."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Governor Abdulrahman Coordinates Rescue and Medical Support Following Tragic Building Collapse in Ilorin",
+    "psi": 7.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Abdulrahman Coordinates Rescue and Medical Support Following Tragic Building Collapse in Ilorin",
+      "whatHappened": "Kwara State Governor Abdulrahman Abdulrazaq visited victims of a 3-storey building collapse in Popo Giwa, Ilorin, directing state medical coverage for the injured and reiterating strict construction safety enforcement.",
+      "whyItMatters": "This 7.0 PSI High Signal emergency response provides immediate state medical care for victims while signaling zero tolerance for non-compliant urban building construction."
+    },
+    "intent": "Providing emergency state medical intervention for disaster victims and enforcing urban construction safety standards."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Osun State Government Alerts Public to Fraudulent \"Osun State Sports Trust Fund\" Website",
+    "psi": 6.5,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Osun State Government Alerts Public to Fraudulent \"Osun State Sports Trust Fund\" Website",
+      "whatHappened": "Osun State Government issued an official public disclaimer warning citizens and sports donors that the website osunsportstrustfund.com is fraudulent and unauthorized by the state.",
+      "whyItMatters": "This 6.5 PSI Moderate Signal public alert protects state financial integrity and prevents citizens from falling victim to digital fundraising scams."
+    },
+    "intent": "Protecting public financial integrity by disclaiming fraudulent state fundraising websites."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Wednesday, September 2, 2026",
+    "headline": "Oyo State Government Sustains Upgrade Works at LAUTECH Teaching Hospital Oyo Annexe",
+    "psi": 6.4,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Oyo State Government Sustains Upgrade Works at LAUTECH Teaching Hospital Oyo Annexe",
+      "whatHappened": "Oyo State Government sustained ongoing capital renovation and facility upgrading works at the LAUTECH Teaching Hospital Oyo Annexe.",
+      "whyItMatters": "This 6.4 PSI Moderate Signal project execution sustains public health infrastructure expansion, improving tertiary medical facilities for Oyo zone residents."
+    },
+    "intent": "Upgrading tertiary healthcare facility infrastructure to improve medical service delivery."
   }
   ],
   "globalCodeData_B3": [
@@ -528,6 +880,339 @@
     "sis": 4.8,
     "focus": "Baseline Administration",
     "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.4,
+    "sis": 3.2,
+    "focus": "Urban Transport Infrastructure & Market Drainage",
+    "dailyBrief": "Completed Sarkin Kano Street in Yola and rehabilitated Jimeta market drainage systems."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 9.2,
+    "sis": 1.8,
+    "focus": "Aviation Logistics & Blue Economy Transport",
+    "dailyBrief": "Received brand-new Airbus A220-300 aircraft for Ibom Air, advancing local pilot development."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 7.8,
+    "sis": 3.1,
+    "focus": "Chieftaincy Governance & Local Administration",
+    "dailyBrief": "Recognized new Igwes of Nsugbe and Adazi-Nnukwu; announced New Community Administration Law."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.7,
+    "sis": 2.7,
+    "focus": "Socio-Political Reconciliation & Energy Safety",
+    "dailyBrief": "Hosted INC Mega Unity Reception in Yenagoa, resolving electoral leadership disputes."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 7.5,
+    "sis": 1.9,
+    "focus": "Specialized Medical Education & Civil Service Audit",
+    "dailyBrief": "Pledged Medical Varsity for Cross River North and trained local government audit personnel."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.3,
+    "sis": 2.6,
+    "focus": "Military Security Infrastructure & Asset Defense",
+    "dailyBrief": "Advocated Delta hosting Headquarters of Army 83 Division, offering land and co-funding."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 7.6,
+    "sis": 2.5,
+    "focus": "Grassroots Local Government Governance",
+    "dailyBrief": "Swore in elected Chairmen and Vice Chairmen across all 13 Local Government Areas."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.4,
+    "sis": 2.4,
+    "focus": "Social Welfare Health Standards & Gas Investments",
+    "dailyBrief": "Inspected orphanages for health compliance, empowered 300 women, and engaged HOSTCOM."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 8.0,
+    "sis": 2.1,
+    "focus": "Digital WASH Data Systems & Health Preparedness",
+    "dailyBrief": "Received hardware for WASH database development; reviewed public health emergency response."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 8.6,
+    "sis": 3.8,
+    "focus": "CNG Transport Mobility & Eye Hospital Support",
+    "dailyBrief": "Distributed CNG buses to institutions and presented staff housing land to National Eye Centre."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.0,
+    "sis": 4.1,
+    "focus": "Agrarian Fiscal Expenditure & Food Security",
+    "dailyBrief": "Emerged top spending state in agriculture with N12.01bn allocation in Q1 2026."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 7.7,
+    "sis": 2.7,
+    "focus": "Basic Education School Infrastructure",
+    "dailyBrief": "Advanced ongoing construction of Comprehensive School Jega to improve learning facilities."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 7.0,
+    "sis": 1.7,
+    "focus": "Urban Building Safety & Emergency Response",
+    "dailyBrief": "Coordinated medical care and rescue following Ilorin building collapse; enforced safety rules."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 1.2,
+    "focus": "Financial Regulation HQ & Sports Talent Development",
+    "dailyBrief": "Commissioned 8-storey FRC headquarters in Ikeja and inaugurated 44 sports association chairmen."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 9.1,
+    "sis": 1.6,
+    "focus": "Genomic Health Surveillance & Chieftaincy Integrity",
+    "dailyBrief": "Launched 5-year SENTINEL 2.0 genomic surveillance project; maintained Oba selection neutrality."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 6.5,
+    "sis": 1.6,
+    "focus": "Cyber-Fraud Prevention & Sports Fund Protection",
+    "dailyBrief": "Alerted public to fraudulent 'Osun State Sports Trust Fund' website to protect citizens."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 6.4,
+    "sis": 1.7,
+    "focus": "Tertiary Healthcare Hospital Expansion",
+    "dailyBrief": "Sustained ongoing upgrade and capital renovation works at LAUTECH Teaching Hospital Oyo Annexe."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.2,
+    "sis": 3.6,
+    "focus": "Secondary Hospital Diagnostic Re-Equipping",
+    "dailyBrief": "Distributed 350 mattresses, 7 digital X-ray machines, and ambulances to 19 secondary hospitals."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 7.2,
+    "sis": 2.8,
+    "focus": "Joint Military Security Partnership",
+    "dailyBrief": "Received GOC 6 Division Army leadership to reinforce joint security protecting petroleum assets."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 7.9,
+    "sis": 3.6,
+    "focus": "Institutional Peacebuilding & Executive Training",
+    "dailyBrief": "Sponsored second batch of state officials for 1-week leadership and peace course at Jaji."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 8.1,
+    "sis": 4.5,
+    "focus": "Microfinance Expansion & Green Energy POS",
+    "dailyBrief": "Yobe Microfinance Bank expanded capital to N800m, deploying electric bikes and home solar kits."
+  },
+  {
+    "dayNumber": 2,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 4.8,
+    "focus": "Hospital Digital Automation & Private Investment",
+    "dailyBrief": "Commenced health data digital automation in general hospitals; Governor spoke at 2026 CEO Forum."
   }
  ]
 }
