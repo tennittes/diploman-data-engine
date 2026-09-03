@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -546,7 +546,247 @@
         "whyItMatters": "This 6.4 PSI Moderate Signal project execution sustains public health infrastructure expansion, improving tertiary medical facilities for Oyo zone residents."
       },
       "intent": "Upgrading tertiary healthcare facility infrastructure to improve medical service delivery."
-    }
+    },
+    {
+    "dayNumber": 3,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Governor Sanwo-Olu Joins SGF George Akume to Launch Lagos International Financial Centre Steering Committee; WAPA Graduates 6,190 Residents",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Sanwo-Olu Joins SGF George Akume to Launch Lagos International Financial Centre Steering Committee; WAPA Graduates 6,190 Residents",
+      "whatHappened": "Lagos State Governor Babajide Sanwo-Olu joined SGF George Akume in Abuja for the inaugural National Steering Committee meeting of the Lagos International Financial Centre (LIFC), while WAPA graduated 6,190 residents from its 20 skills acquisition centers.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal dual achievement establishes an inter-agency federal coordination framework to position Lagos as Africa's financial and green fintech hub, while equipping thousands of citizens with self-sustaining micro-enterprise skills."
+    },
+    "intent": "Establishing continental financial hub governance frameworks and driving mass grassroots vocational empowerment."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Gov. Otu Commissions Egbe-Mbube Health Centre; Odey Adopts 1,000 Mbube Indigenes for Health Insurance as State Sustains 95% Immunisation",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Gov. Otu Commissions Egbe-Mbube Health Centre; Odey Adopts 1,000 Mbube Indigenes for Health Insurance as State Sustains 95% Immunisation",
+      "whatHappened": "Cross River State Governor Bassey Otu commissioned the Egbe-Mbube Health Centre, Deputy Governor Peter Odey funded health insurance enrollment for 1,000 Mbube indigenes, and the Ministry of Information confirmed a 95% sustained state-wide immunization coverage rate.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal health delivery expansion improves rural medical access in Ogoja LGA, removes financial barriers for vulnerable households, and fortifies preventive health protection across remote communities."
+    },
+    "intent": "Expanding rural primary healthcare facilities, deepening health insurance coverage, and sustaining immunisation benchmarks."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Adamawa Cabinet Approves N5.6bn for Post-Primary Schools Board, Fertilizer Procurement, Hong Science School, and Counter-Terrorism Base",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Adamawa Cabinet Approves N5.6bn for Post-Primary Schools Board, Fertilizer Procurement, Hong Science School, and Counter-Terrorism Base",
+      "whatHappened": "Adamawa State Executive Council approved N5.6 billion for major capital projects, including N1.7bn for Post-Primary Schools Board office blocks, N2.95bn for fertilizers and crop chemicals, N627.7m for Hong Science School utilities, and N381m for a counter-terrorism base in Gulak.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal multi-sectoral fund release modernizes basic education management, secures agricultural input supply chains for farmers, and fortifies frontier counter-terrorism defense in Madagali LGA."
+    },
+    "intent": "Deploying state capital across education management infrastructure, agricultural input supply, and counter-terrorism facilities."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "FCT ABUJA",
+    "stateName": "FCT Abuja",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "FCTA Begins Investigation Into Airport Road and Lokogoma Flooding as Minister Wike Vows Strict Enforcement of Abuja Masterplan",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "FCTA Begins Investigation Into Airport Road and Lokogoma Flooding as Minister Wike Vows Strict Enforcement of Abuja Masterplan",
+      "whatHappened": "FCT Minister Nyesom Wike launched a high-level task force investigation into Airport Road and Lokogoma flooding, ordering the removal of structures blocking waterways and confirming 76 out of 107 awarded road projects are complete.",
+      "whyItMatters": "This 8.9 PSI High Signal action enforces urban masterplan discipline and civil service accountability regarding illegal land allocations, while confirming rapid delivery of critical metropolitan transit infrastructure."
+    },
+    "intent": "Enforcing urban masterplan regulations, clearing flood waterways, and completing capital road infrastructure."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Gov Aiyedatiwa Flags Off Payment of N3.82b Gratuities to 2020 Retirees and Outstanding Beneficiaries",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Aiyedatiwa Flags Off Payment of N3.82b Gratuities to 2020 Retirees and Outstanding Beneficiaries",
+      "whatHappened": "Ondo State Governor Lucky Aiyedatiwa flagged off N3.82 billion in gratuity payments to 985 public service retirees, covering the 2020 batch and outstanding beneficiaries from 2015 to 2019.",
+      "whyItMatters": "This 8.8 PSI High Signal fiscal intervention clears inherited state pension arrears, providing full lump-sum payouts to retired civil servants, teachers, and parastatal workers under the administration's OUR EASE agenda."
+    },
+    "intent": "Clearing inherited state pension liabilities and boosting senior citizens' social welfare."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Niger State Government to Partner Russia on Gold Recovery and Mining Joint Venture via Zuma Minerals",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Niger State Government to Partner Russia on Gold Recovery and Mining Joint Venture via Zuma Minerals",
+      "whatHappened": "Niger State Governor Mohammed Umaru Bago hosted Russian investors to finalize a joint venture agreement with state-owned Zuma Minerals for establishing a gold recovery and mining enterprise.",
+      "whyItMatters": "This 8.7 PSI High Signal economic partnership attracts international capital and technology to commercialize state solid mineral reserves, boosting Internally Generated Revenue (IGR) and job creation."
+    },
+    "intent": "Attracting foreign direct investment and technology to commercialize state solid mineral resources."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Oyo State Government Increases Monthly Gratuity Disbursement to N3 Billion to Clear Retiree Payments Before May 2027",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Oyo State Government Increases Monthly Gratuity Disbursement to N3 Billion to Clear Retiree Payments Before May 2027",
+      "whatHappened": "Oyo State Government increased its monthly allocation for worker gratuity payments from N1 billion to N3 billion to liquidate all outstanding retiree entitlements before May 29, 2027.",
+      "whyItMatters": "This 8.7 PSI High Signal financial commitment accelerates pension debt liquidation by 200%, injecting liquidity into the local economy and restoring social security dignity for public sector retirees."
+    },
+    "intent": "Tripling fiscal allocations for retiree gratuity liquidation to clear all public sector pension debt."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Delta State Commences Moves to Establish First Neuropsychiatric Facility and NCDC-Standard Public Health Lab",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta State Commences Moves to Establish First Neuropsychiatric Facility and NCDC-Standard Public Health Lab",
+      "whatHappened": "Delta State Commissioner for Health Dr. Joseph Onojaeme confirmed construction of the state's first neuropsychiatric facility and an NCDC-standard public health laboratory equipped with PCR machines, targeting March 2027 completion.",
+      "whyItMatters": "This 8.5 PSI High Signal health infrastructure development addresses long-standing gaps in specialized mental healthcare while building local PCR diagnostic capability for Lassa fever and infectious outbreak responses."
+    },
+    "intent": "Constructing specialized mental health facilities and NCDC-compliant public health laboratories for disease surveillance."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Gov. Radda Pledges General Hospital for Danja Local Government in 2027 Budget; Enhances Ranks of Traditional Rulers",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov. Radda Pledges General Hospital for Danja Local Government in 2027 Budget; Enhances Ranks of Traditional Rulers",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda announced the establishment of a new General Hospital in Danja LGA under the 2027 budget, while enhancing salaries and allowances for District and Village Heads.",
+      "whyItMatters": "This 8.4 PSI High Signal commitment expands secondary healthcare infrastructure to underserved rural populations while empowering traditional institutions as key partners in community peace and security."
+    },
+    "intent": "Expanding rural secondary healthcare infrastructure and institutionalizing financial support for traditional security partners."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Zamfara Anti-Corruption Commission and Ministry for Local Government Partner to Protect Livestock Corridors and Grazing Reserves",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Anti-Corruption Commission and Ministry for Local Government Partner to Protect Livestock Corridors and Grazing Reserves",
+      "whatHappened": "Zamfara State Anti-Corruption Commission and Ministry for Local Government established an enforcement framework across 14 LGAs and 17 Emirate Councils to curb illegal land allocations, protect grazing reserves, and preserve cattle routes (burtali).",
+      "whyItMatters": "This 8.3 PSI High Signal inter-agency initiative targets root causes of rural insecurity by enforcing land-use compliance, preserving traditional migration corridors, and mitigating farmer-herder conflicts."
+    },
+    "intent": "Protecting gazetted grazing reserves and cattle corridors to eliminate land encroachment and farmer-herder conflict."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Governor Mutfwang Convenes State Security Council Meeting Following Mangu Incidents; Confirms Arrests Made",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Mutfwang Convenes State Security Council Meeting Following Mangu Incidents; Confirms Arrests Made",
+      "whatHappened": "Plateau State Governor Caleb Mutfwang convened a State Security Council meeting in Jos following attacks in Mangu, confirming suspect arrests, national security agency collaboration, and tech-backed intelligence tracking.",
+      "whyItMatters": "This 8.3 PSI High Signal security intervention reinforces proactive intelligence-led operations, inter-agency coordination, and preventive border monitoring to protect agricultural communities and commercial stability."
+    },
+    "intent": "Strengthening inter-agency security coordination and tech-backed intelligence tracking to protect rural communities."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Edo State Govt Partners Stakeholders on Preserving Historic Benin Moat as Sustainable Tourism Site",
+    "psi": 7.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo State Govt Partners Stakeholders on Preserving Historic Benin Moat as Sustainable Tourism Site",
+      "whatHappened": "Edo State Tourism Agency convened multi-departmental stakeholders to establish a community-led rehabilitation and conservation plan for the historic Benin Moat, scheduling a major clean-up exercise for September 8.",
+      "whyItMatters": "This 7.4 PSI High Signal cultural initiative prevents urban encroachment and refuse dumping on an ancient national monument, creating a structured framework for eco-tourism development and heritage preservation."
+    },
+    "intent": "Conserving ancient heritage monuments and developing community-centered sustainable tourism infrastructure."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Adeleke Inaugurates Commission of Inquiry into Pre- and Post-Election Violence and Coroner on Ikire Killings",
+    "psi": 6.8,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Adeleke Inaugurates Commission of Inquiry into Pre- and Post-Election Violence and Coroner on Ikire Killings",
+      "whatHappened": "Osun State Government inaugurated a judicial Commission of Inquiry into pre- and post-governorship election violence and a Coroner panel on Ikire killings, chaired by Justice Abdurazaq Abdulkareem and Magistrate Ayokunle Shiyanbola.",
+      "whyItMatters": "This 6.8 PSI Moderate Signal judicial process establishes an official fact-finding mechanism to determine criminal responsibility, compensate victims, and reinforce public order and democratic accountability."
+    },
+    "intent": "Inaugurating judicial commissions of inquiry to investigate electoral violence and uphold public justice."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Abia State Government Clarifies Quantity-Entry Error in 2025 Accountant-General's Report Regarding Toyota Hilux Purchase",
+    "psi": 6.2,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Abia State Government Clarifies Quantity-Entry Error in 2025 Accountant-General's Report Regarding Toyota Hilux Purchase",
+      "whatHappened": "Abia State Government issued a public clarification explaining a typographical error on page 401 of the 2025 Accountant-General's Report, confirming that N1.003 billion was spent on 12 Toyota Hilux vehicles rather than 2.",
+      "whyItMatters": "This 6.2 PSI Moderate Signal financial disclosure corrects public records, providing full procurement breakdowns to demonstrate civil service transparency and open government accounting."
+    },
+    "intent": "Correcting public financial reporting errors and upholding open government accounting transparency."
+  },
+  {
+    "dayNumber": 3,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Thursday, September 3, 2026",
+    "headline": "Gov. Nasir Idris Appoints Sagiru Haliru Muhammad as Director-General of Protocol Affairs",
+    "psi": 4.5,
+    "intensity": "LOW",
+    "momentum": "Stable",
+    "impactMatrix": {
+      "headline": "Gov. Nasir Idris Appoints Sagiru Haliru Muhammad as Director-General of Protocol Affairs",
+      "whatHappened": "Kebbi State Governor Nasir Idris approved the appointment of Sagiru Haliru Muhammad as Director-General of the Directorate of Protocol Affairs, effective September 2, 2026.",
+      "whyItMatters": "This 4.5 PSI Low Signal administrative appointment fills a key executive vacancy to maintain civil service efficiency and state protocol operations."
+    },
+    "intent": "Fulfilling routine executive administrative appointments to sustain civil service protocol operations."
+  }
   ],
 
   "globalCodeData_B2": {
@@ -1283,6 +1523,333 @@
           "securityAnalysis": null
         }
       ]
+    },
+   "03": {
+    "date": "2026-09-03",
+    "formattedDate": "September 3, 2026",
+    "metadata": {
+      "compositePsi": 8.1,
+      "activeJurisdictionsCount": 18,
+      "unlistedJurisdictionsCount": 19,
+      "unlistedNote": "The 19 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 18 Active Jurisdictions Across Nigeria",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & State Impact Score (SIS) Daily Briefing",
+        "summary": "Subnational executive momentum on September 3, 2026, recorded a high 8.1 PSI average, led by Lagos launching the national financial center committee, Cross River expanding rural health insurance, Adamawa approving N5.6bn across sectors, and FCT enforcing masterplan flood controls."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Highlights Prime Alpha Hubs and Secure Transit Corridors Across Commercial Centers",
+        "summary": "Subnational investment risk briefing for September 3, 2026, analyzing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and private capital allocation across Nigeria's commercial, energy, and agricultural hubs."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Hits 8.1 Net PSI Composite as Lagos Financial Hub and Cross River Healthcare Scale Up",
+        "summary": "Nigeria’s state governors record an 8.1 net PSI composite average on September 3, 2026, driven by Lagos International Financial Centre inauguration, Cross River health expansion, and Adamawa's N5.6bn capital deployment."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory achieved a strong composite average of 8.1 on the Policy Signal Index (PSI) during the active reporting window ending September 3, 2026. This performance underscores a high-velocity focus on sovereign economic positioning, structural healthcare infrastructure, emergency public health diagnostics, urban masterplan enforcement, and multi-sectoral fiscal capital deployment.\n\nState executives and administrative bodies demonstrated significant policy execution by translating governance mandates into tangible outcomes. From the launching of national steering committees for continental financial hubs and multi-billion naira civil service pension clearances to the establishment of specialized neuropsychiatric centers, state governments continue to drive sustainable subnational development.",
+        "emergingPatterns": "The active reporting cycle highlights strong policy convergence toward institutional accountability, public finance transparency, rural infrastructure expansion, and regional security alignment. State executives are increasingly prioritizing structural debt resolution—such as Oyo State's 300% increase in monthly pension disbursements and Ondo State's N3.82bn gratuity flag-off—alongside proactive regulatory oversight in urban building safety, anti-corruption grazing route protection, and disaster preparedness.",
+        "strategicOutlook": "Maintaining current subnational velocity requires sustained inter-governmental alignment, continuous public financial management reforms, and strict enforcement of urban planning regulations. States that combine capital expenditure with transparent fiscal reporting will successfully mitigate macroeconomic volatility and attract institutional private investment.",
+        "conclusion": "The subnational executive governance landscape for September 3, 2026, reflects measurable administrative progress and strategic alignment across Nigeria's six geopolitical zones. By embedding governance in public asset creation, human capital development, and transparent public accounting, state executives are fortifying the structural foundation of the national economy."
+      },
+      "security": {
+        "introduction": "The subnational investment and operational risk landscape across Nigeria’s 36 States and the Federal Capital Territory for September 3, 2026, reflects solid operational stability across primary economic corridors. Institutional investors, development finance partners, and corporate decision-makers can access high-alpha returns in green finance, commercial agriculture, logistics, and healthcare infrastructure within jurisdictions maintaining low operational friction and robust safety profiles.\n\nUtilizing the compulsory B3 State Advisory Data framework, jurisdictions are evaluated across their Policy Signal Index (PSI), raw Security Incident Score (SIS), Risk Indicator classification, and derived Investment Decision Profile. This multi-dimensional framework offers clear strategic guidance for deploying equity, trade finance, and municipal infrastructure capital.",
+        "emergingPatterns": "Subnational security mapping indicates that coastal commercial centers, financial hubs, and southern transport corridors maintain highly stable SECURE (SIS < 3.0) operational environments, making them ideal for long-term equity, green bonds, and commercial infrastructure. Northern logistics and mining corridors require active risk management (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in solid minerals and commercial agriculture must be paired with local security coordination and supply chain hedges.",
+        "strategicOutlook": "Private capital deployment over the upcoming operational window will yield superior risk-adjusted returns when aligned with verified subnational priorities—specifically independent power, digital healthcare automation, solid mineral joint ventures, and municipal transport infrastructure. Public-private partnerships backed by clear executive policy signals remain the premier capital vehicle.",
+        "conclusion": "Navigating Nigeria’s subnational markets requires metric-anchored risk evaluation. By matching capital deployment with verified Policy Signal Index ratings and Security Incident Scores, institutional investors can achieve rapid asset scaling while ensuring maximum capital preservation."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Commercial Capital, Green Finance, and Metropolitan Hubs",
+        "states": ["Lagos", "FCT Abuja"]
+      },
+      {
+        "groupTitle": "Coastal Energy, Maritime Logistics, and Healthcare Expansion",
+        "states": ["Cross River", "Delta"]
+      },
+      {
+        "groupTitle": "Agrarian Corridors, Mining Investments, and Regional Security",
+        "states": ["Niger", "Adamawa", "Plateau", "Katsina"]
+      },
+      {
+        "groupTitle": "Financial Restructuring, Grazing Route Protection, and Civic Order",
+        "states": ["Oyo", "Ondo", "Zamfara", "Osun", "Abia", "Edo", "Kebbi"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 9.2,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sanwo-Olu Joins SGF George Akume to Launch Lagos International Financial Centre Steering Committee; WAPA Graduates 6,190 Residents",
+        "impactVector": "Lagos State established federal-state coordination for Africa's green finance hub while celebrating 6,190 tuition-free vocational skills graduates to drive youth micro-entrepreneurship.",
+        "policyBreakdown": {
+          "category": "International Financial Hub Architecture and Grassroots Vocational Empowerment",
+          "body": "In Lagos State, Governor Babajide Sanwo-Olu joined the Secretary to the Government of the Federation (SGF) in Abuja to inaugurate the National Steering Committee for the Lagos International Financial Centre (LIFC), establishing a federal-state coordination mechanism to position Lagos as Africa’s green finance and fintech capital. Concurrently, the state celebrated the graduation of 6,190 residents from its tuition-free Ministry of Women Affairs and Poverty Alleviation (WAPA) skills acquisition centers. Registering an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum), Lagos State seamlessly combines global financial architecture with mass grassroots economic capacity building."
+        },
+        "securityAnalysis": "Lagos State (9.2 PSI / Optimum Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) reinforces its dominant position as Africa's premier capital destination following the inauguration of the National Steering Committee for the Lagos International Financial Centre (LIFC) alongside mass vocational empowerment."
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Gov. Otu Commissions Egbe-Mbube Health Centre; Odey Adopts 1,000 Mbube Indigenes for Health Insurance as State Sustains 95% Immunisation",
+        "impactVector": "Cross River State expanded rural public health infrastructure in Ogoja LGA, funded health insurance for 1,000 indigenes, and sustained 95% state-wide immunization coverage.",
+        "policyBreakdown": {
+          "category": "Rural Healthcare Access, Health Insurance Adoption, and Outbreak Preparedness",
+          "body": "Cross River State Governor Bassey Otu commissioned the Egbe-Mbube Health Centre in Ogoja LGA while Deputy Governor Peter Odey facilitated the health insurance adoption of 1,000 Mbube indigenes through a N100 million commitment. The administration sustained a 95% immunization coverage rate state-wide while deploying resources to close vaccine access gaps in remote riverine and border communities. Earning an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum), Cross River State establishes a model for integrated rural health infrastructure, financial risk protection, and preventive disease control."
+        },
+        "securityAnalysis": "Cross River State (9.1 PSI / Optimum Signal / SIS 1.9 / SECURE / Growth-Oriented / Balanced Expansion) offers high operational stability as the state expands rural healthcare coverage in Mbube and sustains 95% immunization coverage."
+      },
+      {
+        "state": "Adamawa",
+        "governor": "Ahmadu Umaru Fintiri",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Adamawa Cabinet Approves N5.6bn for Post-Primary Schools Board, Fertilizer Procurement, Hong Science School, and Counter-Terrorism Base",
+        "impactVector": "Governor Fintiri's administration released N5.6 billion across critical sectors, funding N2.95bn in agricultural inputs, school infrastructure modernization, and a counter-terrorism base in Gulak.",
+        "policyBreakdown": {
+          "category": "Capital Project Procurement, School Modernization, and Counter-Terrorism Base",
+          "body": "Adamawa State Governor Ahmadu Umaru Fintiri presided over the State Executive Council's approval of N5.6 billion for major development projects. The fiscal allocation covers N1.7 billion for new Post-Primary Schools Management Board office blocks, N2.95 billion for 36,300 bags of fertilizer and agro-chemicals, N627.7 million for internal infrastructure at the Mega Science School in Hong LGA, and N381 million for a counter-terrorism base in Gulak. Generating an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum), Adamawa State demonstrates high-capacity fiscal deployment across basic education, agrarian inputs, and frontier security."
+        },
+        "securityAnalysis": "In Adamawa State (9.0 PSI / Optimum Signal / SIS 3.2 / MONITORED / Growth-Oriented / Caution), Governor Ahmadu Umaru Fintiri approved N5.6 billion across agriculture, school construction, and a counter-terrorism base in Gulak, balancing high-yield agrarian investments with active security risk mitigation."
+      },
+      {
+        "state": "FCT Abuja",
+        "governor": "Nyesom Wike (Minister)",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "FCTA Begins Investigation Into Airport Road and Lokogoma Flooding as Minister Wike Vows Strict Enforcement of Abuja Masterplan",
+        "impactVector": "FCT Minister Wike deployed an executive task force to clear waterway encroachments while confirming 76 of 107 awarded road projects have been completed across the territory.",
+        "policyBreakdown": {
+          "category": "Urban Masterplan Restoration, Flood Control Investigation, and Public Asset Delivery",
+          "body": "FCT Minister Nyesom Wike dispatched a high-level task force led by the FCDA Executive Secretary to investigate severe flooding along the Airport Road axis and Lokogoma District, vowing strict enforcement of the Abuja Masterplan and the removal of unauthorized structures on waterways. Concurrently, the administration confirmed the completion of 76 out of 107 awarded road projects and 23 inherited legacy projects across the territory. Earning a HIGH SIGNAL (8.9 PSI / Advancing Momentum), the FCTA enforces structural discipline while maintaining aggressive infrastructure project execution."
+        },
+        "securityAnalysis": "The Federal Capital Territory (8.9 PSI / High Signal / SIS 1.5 / SECURE / High-Alpha / Prime Alpha Opportunity) demonstrates robust institutional control as Minister Nyesom Wike enforces the Abuja masterplan against waterway encroachments while completing 76 major road corridors, offering optimal safety for commercial real estate and urban logistics investments."
+      },
+      {
+        "state": "Ondo",
+        "governor": "Lucky Aiyedatiwa",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Gov Aiyedatiwa Flags Off Payment of N3.82b Gratuities to 2020 Retirees and Outstanding Beneficiaries",
+        "impactVector": "Ondo State disbursed N3.82 billion to 985 public service retirees, clearing inherited pension arrears across civil service, secondary schools, and parastatals.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Niger",
+        "governor": "Mohammed Umaru Bago",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.0,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Niger State Government to Partner Russia on Gold Recovery and Mining Joint Venture via Zuma Minerals",
+        "impactVector": "Governor Bago finalized a joint venture partnership with Russian investors to establish a gold recovery company, attracting foreign capital to unlock state mineral potential.",
+        "policyBreakdown": null,
+        "securityAnalysis": "Niger State (8.7 PSI / High Signal / SIS 4.0 / MONITORED / Growth-Oriented / Caution) opened high-yield mining opportunities through a joint venture agreement with Russian investors for gold recovery via Zuma Minerals."
+      },
+      {
+        "state": "Oyo",
+        "governor": "Seyi Makinde",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Oyo State Government Increases Monthly Gratuity Disbursement to N3 Billion to Clear Retiree Payments Before May 2027",
+        "impactVector": "Oyo State boosted monthly gratuity disbursements by 300% from N1bn to N3bn to clear all outstanding worker retirement claims ahead of 2027.",
+        "policyBreakdown": null,
+        "securityAnalysis": "Oyo State (8.7 PSI / High Signal / SIS 1.7 / SECURE / High-Alpha / Prime Alpha Opportunity) boosted state financial liquidity and retiree purchasing power by tripling monthly gratuity releases to N3 billion."
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Delta State Commences Moves to Establish First Neuropsychiatric Facility and NCDC-Standard Public Health Lab",
+        "impactVector": "Delta State initiated construction of a specialized neuropsychiatric center and PCR-equipped public health lab targeted for March 2027 completion to strengthen epidemic readiness.",
+        "policyBreakdown": null,
+        "securityAnalysis": "In Delta State (8.5 PSI / High Signal / SIS 2.6 / SECURE / Growth-Oriented / Balanced Expansion), Health Commissioner Dr. Joseph Onojaeme confirmed the March 2027 completion target for the state's first neuropsychiatric facility and NCDC-standard public health laboratory, creating a secure environment for medical technology and healthcare PPP investments."
+      },
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.1,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Gov. Radda Pledges General Hospital for Danja Local Government in 2027 Budget; Enhances Ranks of Traditional Rulers",
+        "impactVector": "Governor Radda captured a new General Hospital for Danja LGA in the 2027 budget while boosting salaries for District and Village Heads to solidify community security.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Zamfara Anti-Corruption Commission and Ministry for Local Government Partner to Protect Livestock Corridors and Grazing Reserves",
+        "impactVector": "Zamfara State aligned 14 LGAs and 17 Emirates to curb illegal land allocations and preserve traditional cattle migration routes (burtali) to prevent farmer-herder conflicts.",
+        "policyBreakdown": null,
+        "securityAnalysis": "In Zamfara State (8.3 PSI / High Signal / SIS 4.8 / MONITORED / Growth-Oriented / Caution), the Anti-Corruption Commission and Ministry for Local Government partnered across 14 LGAs and 17 Emirates to protect gazetted grazing reserves and burtali migration routes, mitigating farmer-herder friction in agrarian zones."
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Mutfwang Convenes State Security Council Meeting Following Mangu Incidents; Confirms Arrests Made",
+        "impactVector": "Governor Mutfwang reviewed Plateau's security architecture with security chiefs and traditional leaders, directing tech-backed investigations and preventive inter-agency deployments.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 7.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Edo State Govt Partners Stakeholders on Preserving Historic Benin Moat as Sustainable Tourism Site",
+        "impactVector": "Edo State Tourism Agency convened multi-agency stakeholders to execute a community-centered restoration plan and waterway channeling for the ancient Benin Moat monument.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Osun",
+        "governor": "Ademola Adeleke",
+        "metrics": {
+          "psiScore": 6.8,
+          "psiSignalLevel": "MODERATE SIGNAL",
+          "psiMomentum": "Consolidating",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Adeleke Inaugurates Commission of Inquiry into Pre- and Post-Election Violence and Coroner on Ikire Killings",
+        "impactVector": "Osun State inaugurated a judicial fact-finding commission and coroner panel to investigate election violence, identify culpable parties, and strengthen public order.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 6.2,
+          "psiSignalLevel": "MODERATE SIGNAL",
+          "psiMomentum": "Consolidating",
+          "sisScore": 2.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Abia State Government Clarifies Quantity-Entry Error in 2025 Accountant-General's Report Regarding Toyota Hilux Purchase",
+        "impactVector": "Abia State issued a public financial correction clarifying that N1.003bn was expended on 12 Toyota Hilux operational vehicles rather than 2, demonstrating open government accounting.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kebbi",
+        "governor": "Nasir Idris",
+        "metrics": {
+          "psiScore": 4.5,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Stable",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Gov. Nasir Idris Appoints Sagiru Haliru Muhammad as Director-General of Protocol Affairs",
+        "impactVector": "Kebbi State approved a routine administrative executive appointment to manage state protocol affairs based on civil service merit.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      }
+     ]
     }
   },
 
@@ -1952,6 +2519,339 @@
       "sis": 4.8,
       "focus": "Hospital Digital Automation & Private Investment",
       "dailyBrief": "Commenced health data digital automation in general hospitals; Governor spoke at 2026 CEO Forum."
-    }
-  ]
+    },
+    {
+    "dayNumber": 3,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 6.2,
+    "sis": 2.9,
+    "focus": "Financial Accounting Transparency & Procurement Audit",
+    "dailyBrief": "Clarified quantity-entry error in 2025 Accountant-General report, confirming N1.003bn for 12 Hilux vehicles."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 9.0,
+    "sis": 3.2,
+    "focus": "Agrarian Supply, Education HQ & Counter-Terrorism",
+    "dailyBrief": "Approved N5.6bn across SEC resolutions for farm fertilizers, school board offices, and Gulak defense base."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 9.1,
+    "sis": 1.9,
+    "focus": "Rural Healthcare Delivery & Insurance Adoption",
+    "dailyBrief": "Commissioned Egbe-Mbube Health Centre, adopted 1,000 indigenes into health insurance, and kept 95% immunisation."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.6,
+    "focus": "Neuropsychiatric Hospital & PCR Public Health Lab",
+    "dailyBrief": "Commenced construction of first state neuropsychiatric facility and NCDC-standard PCR lab targeting March 2027."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 7.4,
+    "sis": 2.4,
+    "focus": "Benin Moat Heritage Preservation & Tourism",
+    "dailyBrief": "Engaged multi-agency stakeholders to execute a community-centered restoration plan for the ancient Benin Moat."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 8.9,
+    "sis": 1.5,
+    "focus": "Abuja Masterplan Flood Enforcement & Roads",
+    "dailyBrief": "Dispatched task force to clear waterway encroachments while confirming 76 of 107 road projects are completed."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.4,
+    "sis": 4.1,
+    "focus": "Danja General Hospital & Traditional Rulers Salary",
+    "dailyBrief": "Captured Danja General Hospital in 2027 budget and enhanced allowances for District and Village Heads."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 4.5,
+    "sis": 2.7,
+    "focus": "Civil Service Protocol Directorate",
+    "dailyBrief": "Appointed Sagiru Haliru Muhammad as Director-General of Protocol Affairs."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.2,
+    "sis": 1.2,
+    "focus": "International Financial Hub & Vocational Skills",
+    "dailyBrief": "Inaugurated National Steering Committee for LIFC with SGF; WAPA graduated 6,190 residents."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.7,
+    "sis": 4.0,
+    "focus": "Russian Gold Mining Joint Venture",
+    "dailyBrief": "Finalized joint venture partnership with Russian investors via Zuma Minerals for gold recovery."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 8.8,
+    "sis": 1.6,
+    "focus": "Pension Backlog Clearance & Civil Service Welfare",
+    "dailyBrief": "Disbursed N3.82 billion in gratuities to 985 retirees across mainstream civil service and teaching staff."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 6.8,
+    "sis": 1.6,
+    "focus": "Judicial Election Violence Panel & Ikire Coroner",
+    "dailyBrief": "Inaugurated Commission of Inquiry into governorship election violence and Coroner on Ikire killings."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.7,
+    "focus": "Monthly Pension Disbursement Tripling",
+    "dailyBrief": "Tripled monthly gratuity releases from N1bn to N3bn to clear all outstanding worker pension claims before May 2027."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.3,
+    "sis": 3.6,
+    "focus": "State Security Council Review & Mangu Arrests",
+    "dailyBrief": "Convened State Security Council following Mangu attacks, directing tech-backed investigations and suspect tracking."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administration",
+    "dailyBrief": "Routine administrative cycle operating under baseline civil service frameworks."
+  },
+  {
+    "dayNumber": 3,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.3,
+    "sis": 4.8,
+    "focus": "Grazing Reserves & Cattle Migration Route Defense",
+    "dailyBrief": "Anti-Corruption Commission and LG Ministry partnered across 14 LGAs and 17 Emirates to protect burtali routes."
+  }
+ ]
 }
