@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -786,6 +786,342 @@
       "whyItMatters": "This 4.5 PSI Low Signal administrative appointment fills a key executive vacancy to maintain civil service efficiency and state protocol operations."
     },
     "intent": "Fulfilling routine executive administrative appointments to sustain civil service protocol operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Lagos Leads Investment Drive as Governor Sanwo-Olu Unveils Strategic Partnerships and Deal Book at Invest Nigeria 4.0",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Lagos Leads Investment Drive as Governor Sanwo-Olu Unveils Strategic Partnerships and Deal Book at Invest Nigeria 4.0",
+      "whatHappened": "Lagos State Governor Babajide Sanwo-Olu, represented by Commerce Commissioner Folashade Ambrose-Medebem, unveiled the Lagos Investment Deal Book at Invest Nigeria 4.0, outlining bankable projects across transport, healthcare, energy, and digital governance.",
+      "whyItMatters": "This 9.3 PSI Optimum Signal intervention shifts state investment strategy from abstract promotion to concrete project financing, securing private equity participation across critical urban infrastructure."
+    },
+    "intent": "Unveiling structured deal books and PPP frameworks to attract private capital and position Lagos as Africa's premier investment hub."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Gov Fubara Signs 2026 Appropriation Bill into Law, Hails New Era of Cooperation",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Gov Fubara Signs 2026 Appropriation Bill into Law, Hails New Era of Cooperation",
+      "whatHappened": "Rivers State Governor Siminalayi Fubara signed the 2026 State Appropriation Bill into law at Government House, Port Harcourt, praising legislative cooperation and committing to people-centred implementation.",
+      "whyItMatters": "Enacting the state budget generates an Optimum 9.3 PSI signal by establishing statutory spending authorization, ensuring uninterrupted public project execution and fiscal certainty."
+    },
+    "intent": "Enacting the state budget to drive public infrastructure delivery, civic welfare, and administrative stability."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Otti’s 900-Bed Tertiary Healthcare Revolution: Decentralising Universal Healthcare Delivery in Abia",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Otti’s 900-Bed Tertiary Healthcare Revolution: Decentralising Universal Healthcare Delivery in Abia",
+      "whatHappened": "Governor Alex Otti's administration advanced the construction of a 900-bed decentralized tertiary healthcare network comprising Umunnato Specialist Hospital (200 beds), Amachara Specialist Hospital (350 beds), and ABSUTH Phase II (350 beds) across Abia's three senatorial zones.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal infrastructure expansion decentralizes specialist medical care, ensuring equitable healthcare access and establishing Abia as a regional medical tourism hub."
+    },
+    "intent": "Decentralizing specialist healthcare delivery and expanding hospital capacity across all senatorial districts."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Ondo State Earmarks ₦18M for Widows Care and Pays New Subvention Arrears to Tertiary Institutions",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Ondo State Earmarks ₦18M for Widows Care and Pays New Subvention Arrears to Tertiary Institutions",
+      "whatHappened": "Ondo State Government released ₦18 million for vulnerable widows across three LGAs under the O'Datiwa Widows' Care Initiative and effected August arrears payment featuring a 60% subvention increment to state tertiary institutions.",
+      "whyItMatters": "Combining targeted grassroots social welfare grants with subvention releases yields a 9.1 PSI Optimum Signal, mitigating economic hardship while stabilizing academic labor relations."
+    },
+    "intent": "Expanding social welfare safety nets and implementing tertiary subvention increases to ensure educational stability."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Uba Sani Commissions Nasarawa–Flour Mills Road Connecting Kaduna South and Chikun LGAs",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Uba Sani Commissions Nasarawa–Flour Mills Road Connecting Kaduna South and Chikun LGAs",
+      "whatHappened": "Kaduna State Governor Uba Sani commissioned the completed Nasarawa–Flour Mills Road connecting Kaduna South and Chikun LGAs, which was previously abandoned at 15% completion.",
+      "whyItMatters": "Rescuing and completing critical urban-rural transport infrastructure generates a 9.1 PSI Optimum Signal, unblocking commercial corridors and driving inclusive economic growth."
+    },
+    "intent": "Rescuing abandoned road assets and expanding urban-rural connectivity across industrial corridors."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Otu Re-Activates Newspaper Corporation, Commissions Government Printing Press and Signs Health Quackery Law",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Otu Re-Activates Newspaper Corporation, Commissions Government Printing Press and Signs Health Quackery Law",
+      "whatHappened": "Governor Prince Bassey Otu re-activated the Cross River State Newspaper Corporation, commissioned the remodelled Cross River Information Hub, and signed the Health Quackery Prohibition Law.",
+      "whyItMatters": "This dual executive intervention delivers a 9.0 PSI Optimum Signal by establishing statutory medical regulatory standards while modernizing state public communications infrastructure."
+    },
+    "intent": "Enforcing health sector clinical standards and upgrading public media and information infrastructure."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "SOKOTO",
+    "stateName": "Sokoto State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Aliyu Hosts Nasarawa Governor Abdullahi Sule to Commission Silame Bridge and Garin Magaji Rural Road",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Aliyu Hosts Nasarawa Governor Abdullahi Sule to Commission Silame Bridge and Garin Magaji Rural Road",
+      "whatHappened": "Sokoto State Governor Ahmed Aliyu hosted Nasarawa Governor Abdullahi Sule to commission the landmark Silame Bridge and the 9.4-kilometre Garin Magaji–Gittarana rural road.",
+      "whyItMatters": "Delivering key bridge and road infrastructure achieves a 9.0 PSI Optimum Signal by unlocking rural agricultural corridors and improving access to regional trade markets."
+    },
+    "intent": "Expanding rural road networks and agricultural transit bridges to stimulate grassroots economic growth."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Delta State Unveils Grassroots Economic Stimulus Package and Proposes 13th-Month Salary Framework",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Delta State Unveils Grassroots Economic Stimulus Package and Proposes 13th-Month Salary Framework",
+      "whatHappened": "Delta State Government unveiled economic measures including rural road infrastructure investments, proposed institutionalization of a 13th-month salary, and expanded empowerment programs.",
+      "whyItMatters": "Deploying direct grassroots economic stimulus earns a 9.0 PSI Optimum Signal by increasing household disposable income, mitigating inflation, and driving local business growth."
+    },
+    "intent": "Deploying economic stimulus packages and social welfare protections to strengthen household purchasing power."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Umo Eno Commissions 6.475-km Amanyam–Mbiaso Road with 12.95-km Drainage in Ikot Ekpene",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Umo Eno Commissions 6.475-km Amanyam–Mbiaso Road with 12.95-km Drainage in Ikot Ekpene",
+      "whatHappened": "Governor Umo Eno commissioned the 6.475-kilometre Amanyam–Mbiaso Road in Ikot Ekpene LGA, featuring 12.95 kilometres of side drains as part of the state's 39th anniversary projects.",
+      "whyItMatters": "Commissioning fully drained transport corridors generates an 8.9 PSI High Signal by connecting agrarian communities, preventing flood damage, and accelerating local trade."
+    },
+    "intent": "Executing engineered rural road networks to improve trade mobility and community access."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Plateau Partners NEPC to Boost Non-Oil Exports Targeting $12M Earnings as Governor Mutfwang Receives Hajj Report",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Partners NEPC to Boost Non-Oil Exports Targeting $12M Earnings as Governor Mutfwang Receives Hajj Report",
+      "whatHappened": "Plateau State Government aligned with NEPC to expand potato, horticulture, and tin exports toward a $12M target while Governor Caleb Mutfwang received the 2026 Hajj report.",
+      "whyItMatters": "Structuring export clusters under the One State One Product framework achieves an 8.8 PSI High Signal, creating direct international trade channels for local farmers and miners."
+    },
+    "intent": "Expanding non-oil export value chains and promoting inclusive, bipartisan governance for social stability."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Okpebholo Inaugurates Four Statutory Boards as Oil Ministry Engages Petroleum Task Force",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Okpebholo Inaugurates Four Statutory Boards as Oil Ministry Engages Petroleum Task Force",
+      "whatHappened": "Governor Monday Okpebholo inaugurated four boards including RARA and Consumer Protection, while the Oil and Gas Ministry partnered with the Petroleum Task Force on sector standards.",
+      "whyItMatters": "Inaugurating key statutory oversight bodies registers an 8.8 PSI High Signal, institutionalizing accountability across rural road maintenance, consumer rights, and petroleum safety."
+    },
+    "intent": "Strengthening administrative governance structures and enforcing regulatory compliance in the oil and gas sector."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Abdullahi Sule Receives Daily Times Centenary Outstanding Governor of the Year Award",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Abdullahi Sule Receives Daily Times Centenary Outstanding Governor of the Year Award",
+      "whatHappened": "Nasarawa State Governor Abdullahi A. Sule received the Daily Times Centenary Outstanding Governor of the Year Award in Abuja and hosted state executive council members at Governor's Lodge.",
+      "whyItMatters": "National recognition for governance performance yields an 8.7 PSI High Signal, reflecting sustained administrative momentum, regional security leadership, and investment promotion."
+    },
+    "intent": "Consolidating state administrative performance and maintaining high executive alignment across governance teams."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Radda Engages Former National Assembly Members on Katsina State Development Strategy",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Radda Engages Former National Assembly Members on Katsina State Development Strategy",
+      "whatHappened": "Katsina State Governor Dikko Umaru Radda hosted former National Assembly members from 1970 to date for a strategic consultative meeting at Government House, Katsina.",
+      "whyItMatters": "Tapping into legislative institutional memory generates an 8.6 PSI High Signal, broadening policy consensus and aligning political stakeholders around state development goals."
+    },
+    "intent": "Mobilizing institutional legislative experience to enhance policy formulation and state development strategy."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Oyo State Advances Reconstruction of 30-km Okaka Junction–Otu–Igbojaiye–KAP Film Village Road",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Oyo State Advances Reconstruction of 30-km Okaka Junction–Otu–Igbojaiye–KAP Film Village Road",
+      "whatHappened": "Oyo State Government progressed with the ongoing reconstruction and rehabilitation of the 30-kilometre Okaka Junction–Otu–Igbojaiye–KAP Film Village Road in Itesiwaju LGA.",
+      "whyItMatters": "Executing strategic arterial road rehabilitations yields an 8.5 PSI High Signal, linking agrarian farming zones directly with creative economy and film tourism infrastructure."
+    },
+    "intent": "Upgrading rural-urban transport arteries to boost agricultural logistics and creative economy tourism."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Dauda Lawal Receives Daily Times Centenary Outstanding Governor Award for North-West Region",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Dauda Lawal Receives Daily Times Centenary Outstanding Governor Award for North-West Region",
+      "whatHappened": "Zamfara State Governor Dauda Lawal received the Outstanding Governor Award (North-West) at the Daily Times Nigeria Centenary Heroes Award ceremony in Abuja.",
+      "whyItMatters": "Earning top regional public service honors delivers an 8.4 PSI High Signal, validating executive efforts in public financial management, security advocacy, and urban renewal."
+    },
+    "intent": "Validating subnational public service reforms and strengthening institutional governance in Zamfara State."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Farmer Governor Umaru Bago Bagged Daily Times Governor of the Year Award at Centenary Celebration",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Farmer Governor Umaru Bago Bagged Daily Times Governor of the Year Award at Centenary Celebration",
+      "whatHappened": "Niger State Governor Farmer Mohammed Umaru Bago received the Daily Times Governor of the Year Award in Abuja for achievements in agricultural revolution and infrastructure.",
+      "whyItMatters": "Securing national recognition for agricultural transformation yields an 8.4 PSI High Signal, underscoring state-led investments in food security, mechanization, and urban roads."
+    },
+    "intent": "Driving large-scale agricultural transformation, agribusiness support, and urban infrastructure renewal."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Agbu Kefas Honoured with Daily Times Centenary Outstanding Governor (North East) Award",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Agbu Kefas Honoured with Daily Times Centenary Outstanding Governor (North East) Award",
+      "whatHappened": "Taraba State Governor Dr. Agbu Kefas was honoured with the Daily Times @100 Outstanding Governor (North East) Award at ThisDay Dome, Abuja.",
+      "whyItMatters": "Receiving regional leadership honors generates an 8.3 PSI High Signal, recognizing executive accomplishments in free primary/secondary education, healthcare, and infrastructure."
+    },
+    "intent": "Advancing educational reforms, social development initiatives, and human capital growth."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Ekiti L-PRES Intervention Boosts Livestock Production and Regional Economic Growth",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti L-PRES Intervention Boosts Livestock Production and Regional Economic Growth",
+      "whatHappened": "Ekiti State L-PRES technical committee reviewed major infrastructure interventions, veterinary extension support, and livestock production facilities across the state.",
+      "whyItMatters": "Deploying livestock support infrastructure registers an 8.2 PSI High Signal, strengthening animal protein production, agribusiness capacity, and rural livelihood resilience."
+    },
+    "intent": "Upgrading livestock infrastructure, extension services, and commercial agribusiness capacity."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Governor Nasir Idris Completes Renovation of Darika Central Mosque in Danko-Wasagu LGA",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Nasir Idris Completes Renovation of Darika Central Mosque in Danko-Wasagu LGA",
+      "whatHappened": "Kebbi State Government completed the directive-led renovation of Darika Central Mosque in Waje Ward, Danko-Wasagu LGA, following executive approval by Governor Nasir Idris.",
+      "whyItMatters": "Executing community religious infrastructure upgrades yields an 8.1 PSI High Signal, reinforcing civic cohesion, mutual respect, and peaceful coexistence across grassroots communities."
+    },
+    "intent": "Upgrading community civic assets and fostering peaceful social co-existence across rural local government areas."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "Bayelsa State Government Suspends Implementation of Alleged New School Fees Policy at Niger Delta University",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Bayelsa State Government Suspends Implementation of Alleged New School Fees Policy at Niger Delta University",
+      "whatHappened": "Bayelsa State Government issued an executive directive suspending the alleged new school fees policy at Niger Delta University, Wilberforce Island, Amassoma.",
+      "whyItMatters": "Decisive executive intervention halts campus tension, generating an 8.0 PSI High Signal by preserving academic order, protecting student welfare, and restoring calm."
+    },
+    "intent": "Intervening in higher education administrative policies to maintain social order and protect student welfare."
+  },
+  {
+    "dayNumber": 4,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Friday, September 4, 2026",
+    "headline": "KWASAA Clarifies Billboard Enforcement at Geri Alimi Underpass, Reaffirms Non-Partisan Oversight",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "KWASAA Clarifies Billboard Enforcement at Geri Alimi Underpass, Reaffirms Non-Partisan Oversight",
+      "whatHappened": "Kwara State Signage and Advertisement Agency (KWASAA) clarified its enforcement action on an unapproved billboard structure at the Geri Alimi Underpass bridge framework.",
+      "whyItMatters": "Enforcing outdoor advertising structural safety yields a 7.8 PSI High Signal, safeguarding municipal transport infrastructure and protecting public safety regardless of political affiliation."
+    },
+    "intent": "Enforcing municipal advertising regulations and protecting public bridge infrastructure safety."
   }
   ],
 
@@ -1848,6 +2184,506 @@
         "impactVector": "Kebbi State approved a routine administrative executive appointment to manage state protocol affairs based on civil service merit.",
         "policyBreakdown": null,
         "securityAnalysis": null
+        }
+      ]
+     },
+    "04": {
+    "date": "2026-09-04",
+    "formattedDate": "September 4, 2026",
+    "metadata": {
+      "compositePsi": 8.2,
+      "activeJurisdictionsCount": 21,
+      "unlistedJurisdictionsCount": 16,
+      "unlistedNote": "The 16 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal commitment, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at State Trackers Hub."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Lagos Leads 21 Active Jurisdictions September 4, 2026 Governance Intelligence Headlines",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & Security Incident Score (SIS) Daily Briefing",
+        "summary": "Subnational executive momentum on September 4, 2026, recorded a strong 8.2 PSI average, led by budget enactments in Rivers, healthcare expansion in Abia, investment deal books in Lagos, and road corridor commissioning in Kaduna, Sokoto, and Akwa Ibom."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Highlights High-Alpha Investment Opportunities and Secure Commercial Corridors",
+        "summary": "Analysis of Nigeria’s subnational investment climate for September 4, 2026, detailing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and strategic asset allocation across commercial, industrial, and agricultural corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Accelerates Across Health, Infrastructure and Security Corridors at 8.2 PSI",
+        "summary": "Nigeria’s state executives record an 8.2 net PSI average as Lagos, Rivers, Abia, and Ondo drive optimum policy signals across statutory budget approvals, hospital networks, welfare grants, and transport links."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory demonstrated high-capacity operational interventions during the active reporting window ending September 4, 2026. The 37-jurisdiction subnational net Policy Signal Index (PSI) baseline settled at a strong composite average of 8.2, reflecting sustained executive momentum in transitioning policy directives into direct physical execution, infrastructure rehabilitation, healthcare system safeguards, and statutory budget enactments.",
+        "emergingPatterns": "The active reporting window reveals strong subnational policy convergence around public infrastructure protection, regulatory modernization, and decentralized service delivery. State executives are increasingly bypassing traditional administrative lag by deploying direct executive oversight, establishing targeted agencies, and forging bilateral partnerships with federal ministries and international institutions.",
+        "strategicOutlook": "Looking ahead, the sustainability of current subnational momentum depends on institutionalizing asset maintenance, expanding local government implementation capacity, and maintaining rigorous fiscal discipline.",
+        "conclusion": "The subnational executive governance landscape for September 4, 2026, reflects measurable structural progress driven by decisive gubernatorial leadership."
+      },
+      "security": {
+        "introduction": "The subnational investment landscape across Nigeria’s 36 States and the Federal Capital Territory for September 4, 2026, demonstrates high operational stability, with strategic commercial zones displaying robust security metrics and strong capital protection frameworks.",
+        "emergingPatterns": "Subnational risk metrics reflect a clear bifurcation: commercial megacities, maritime ports, and southern agricultural corridors maintain highly stable SECURE (SIS < 3.0) environments ideal for equity deployment.",
+        "strategicOutlook": "Subnational investment returns over the upcoming operational cycles will favor investors who align capital deployment with state-level executive priorities.",
+        "conclusion": "Navigating Nigeria’s subnational market requires precise, metric-driven risk mapping."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Commercial Mega-Hubs & Public-Private Partnerships",
+        "states": ["Lagos"]
+      },
+      {
+        "groupTitle": "Statutory Budget Enactments & Fiscal Management",
+        "states": ["Rivers"]
+      },
+      {
+        "groupTitle": "Decentralized Healthcare Expansion & Medical Infrastructure",
+        "states": ["Abia", "Cross River"]
+      },
+      {
+        "groupTitle": "Social Welfare Protections & Tertiary Subvention Allocations",
+        "states": ["Ondo", "Delta"]
+      },
+      {
+        "groupTitle": "Transport Connectivity & Inter-State Corridor Development",
+        "states": ["Kaduna", "Sokoto", "Akwa Ibom", "Oyo"]
+      },
+      {
+        "groupTitle": "Non-Oil Export Expansion & Agribusiness Value Chains",
+        "states": ["Plateau", "Ekiti"]
+      },
+      {
+        "groupTitle": "Statutory Board Inaugurations & Sector Regulation",
+        "states": ["Edo", "Kwara"]
+      },
+      {
+        "groupTitle": "Centenary Leadership Awards & Consultative Governance",
+        "states": ["Nasarawa", "Katsina", "Zamfara", "Niger", "Taraba"]
+      },
+      {
+        "groupTitle": "Community Civic Infrastructure & Grassroots Security",
+        "states": ["Kebbi", "Bayelsa"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Lagos Leads Investment Drive as Governor Sanwo-Olu Unveils Strategic Partnerships and Deal Book at Invest Nigeria 4.0",
+        "impactVector": "Unveiling bankable PPP project profiles moves state investment engagement from abstract rhetoric to direct asset financing across transport, health, and sustainable energy corridors.",
+        "policyBreakdown": {
+          "category": "Commercial Mega-Hubs & Public-Private Partnerships",
+          "body": "Lagos State Governor Babajide Sanwo-Olu, represented by Commerce Commissioner Folashade Ambrose-Medebem, presented the Lagos Investment Deal Book at Invest Nigeria 4.0. The presentation outlined structured PPP opportunities across transport, health, sustainable energy, and digital governance, achieving an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Rivers",
+        "governor": "Siminalayi Fubara",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Gov Fubara Signs 2026 Appropriation Bill into Law, Hails New Era of Cooperation",
+        "impactVector": "Formal signing of the statutory budget provides immediate fiscal backing for state-wide public procurement, infrastructure projects, and civil service welfare.",
+        "policyBreakdown": {
+          "category": "Statutory Budget Enactments & Fiscal Management",
+          "body": "Rivers State Governor Siminalayi Fubara signed the 2026 State Appropriation Bill into law at Government House, Port Harcourt, after swift legislative passage. The statutory clearance registered an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 9.2,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Otti’s 900-Bed Tertiary Healthcare Revolution: Decentralising Universal Healthcare Delivery in Abia",
+        "impactVector": "Constructing three specialist hospitals across Abia's senatorial zones physically expands tertiary care capacity and eliminates travel bottlenecks for specialized medical care.",
+        "policyBreakdown": {
+          "category": "Decentralized Healthcare Expansion & Medical Infrastructure",
+          "body": "Governor Alex Otti's administration advanced the construction of a 900-bed decentralized tertiary healthcare network across Abia's three senatorial zones, recording an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ondo",
+        "governor": "Lucky Aiyedatiwa",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Ondo State Earmarks ₦18M for Widows Care and Pays New Subvention Arrears to Tertiary Institutions",
+        "impactVector": "Releasing ₦18 million in direct welfare grants alongside a 60% subvention increment for tertiary schools directly mitigates economic vulnerability and restores tertiary educational stability.",
+        "policyBreakdown": {
+          "category": "Social Welfare Protections & Tertiary Subvention Allocations",
+          "body": "Ondo State Government released ₦18M for vulnerable widows and paid subvention arrears with a 60% increment to four state-owned tertiary institutions, registering an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kaduna",
+        "governor": "Uba Sani",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Uba Sani Commissions Nasarawa–Flour Mills Road Connecting Kaduna South and Chikun LGAs",
+        "impactVector": "Rescuing and completing a previously abandoned road project restores urban-rural transport connectivity and reduces freight movement friction between key commercial hubs.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity & Inter-State Corridor Development",
+          "body": "Governor Uba Sani commissioned the Nasarawa–Flour Mills Road connecting Kaduna South and Chikun LGAs, rescuing an asset abandoned at 15% completion to achieve an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Otu Re-Activates Newspaper Corporation, Commissions Government Printing Press and Signs Health Quackery Law",
+        "impactVector": "Enforcing strict clinical regulatory penalties protects public health while modernizing state information infrastructure expands public sector communication.",
+        "policyBreakdown": {
+          "category": "Decentralized Healthcare Expansion & Medical Infrastructure",
+          "body": "Governor Prince Bassey Otu signed the Health Quackery Prohibition Law and commissioned the remodelled Cross River Information Hub, earning an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Sokoto",
+        "governor": "Ahmed Aliyu",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 4.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Aliyu Hosts Nasarawa Governor Abdullahi Sule to Commission Silame Bridge and Garin Magaji Rural Road",
+        "impactVector": "Commissioning key bridge and rural road assets directly links agrarian farming communities to commercial markets, reducing post-harvest losses and transit times.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity & Inter-State Corridor Development",
+          "body": "Governor Ahmed Aliyu hosted Nasarawa Governor Abdullahi Sule to commission the Silame Bridge and 9.4-km Garin Magaji–Gittarana road, recording an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Delta State Unveils Grassroots Economic Stimulus Package and Proposes 13th-Month Salary Framework",
+        "impactVector": "Expanding public infrastructure spending and institutionalizing bonus salary structures boosts household disposable income and stimulates local commerce.",
+        "policyBreakdown": {
+          "category": "Social Welfare Protections & Tertiary Subvention Allocations",
+          "body": "Delta State Government unveiled grassroots economic stimulus measures including rural road investments and a proposed 13th-month salary, logging an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Akwa Ibom",
+        "governor": "Umo Eno",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Umo Eno Commissions 6.475-km Amanyam–Mbiaso Road with 12.95-km Drainage in Ikot Ekpene",
+        "impactVector": "Delivering engineered road corridors with extensive side drainage prevents flood damage and secures rural trade mobility across agricultural communities.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity & Inter-State Corridor Development",
+          "body": "Governor Umo Eno commissioned the 6.475-km Amanyam–Mbiaso Road with 12.95 km of side drains in Ikot Ekpene LGA, registering a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Plateau Partners NEPC to Boost Non-Oil Exports Targeting $12M Earnings as Governor Mutfwang Receives Hajj Report",
+        "impactVector": "Structuring export clusters for potato, horticulture, and tin directly integrates local producers into international trade networks while promoting civic peace.",
+        "policyBreakdown": {
+          "category": "Non-Oil Export Expansion & Agribusiness Value Chains",
+          "body": "Plateau State Government aligned with NEPC to expand non-oil exports toward a $12M target while Governor Caleb Mutfwang received the 2026 Hajj report, yielding a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Okpebholo Inaugurates Four Statutory Boards as Oil Ministry Engages Petroleum Task Force",
+        "impactVector": "Establishing rural road and consumer protection agencies alongside strict petroleum task force oversight strengthens public service delivery and environmental safety.",
+        "policyBreakdown": {
+          "category": "Statutory Board Inaugurations & Sector Regulation",
+          "body": "Governor Monday Okpebholo inaugurated four key statutory boards while the Oil Ministry aligned with the Petroleum Task Force, recording a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Nasarawa",
+        "governor": "Abdullahi Sule",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Abdullahi Sule Receives Daily Times Centenary Outstanding Governor of the Year Award",
+        "impactVector": "National recognition underscores sustained subnational leadership, regional security coordination, and institutional governance stability.",
+        "policyBreakdown": {
+          "category": "Centenary Leadership Awards & Consultative Governance",
+          "body": "Governor Abdullahi A. Sule received the Daily Times Centenary Outstanding Governor of the Year Award in Abuja, logging a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.1,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Radda Engages Former National Assembly Members on Katsina State Development Strategy",
+        "impactVector": "Tapping institutional legislative experience enhances policy formulation and aligns regional security and development initiatives.",
+        "policyBreakdown": {
+          "category": "Centenary Leadership Awards & Consultative Governance",
+          "body": "Governor Dikko Umaru Radda hosted former National Assembly members for a strategic development consultative meeting, earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Oyo",
+        "governor": "Seyi Makinde",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Oyo State Advances Reconstruction of 30-km Okaka Junction–Otu–Igbojaiye–KAP Film Village Road",
+        "impactVector": "Upgrading major arterial links directly connects agrarian zones and creative economy hubs to regional market centers.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity & Inter-State Corridor Development",
+          "body": "Oyo State Government progressed with the reconstruction of the 30-km Okaka Junction–Film Village Road, achieving a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Defensive",
+          "investmentDecision": "Defensive Preservation"
+        },
+        "headline": "Governor Dauda Lawal Receives Daily Times Centenary Outstanding Governor Award for North-West Region",
+        "impactVector": "Regional recognition reflects ongoing public service reforms, institutional rebuilding, and state security advocacy.",
+        "policyBreakdown": {
+          "category": "Centenary Leadership Awards & Consultative Governance",
+          "body": "Governor Dauda Lawal was honoured with the Outstanding Governor Award (North-West) at the Daily Times Centenary Celebration, recording a HIGH SIGNAL (8.4 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Niger",
+        "governor": "Mohammed Umaru Bago",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.0,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Farmer Governor Umaru Bago Bagged Daily Times Governor of the Year Award at Centenary Celebration",
+        "impactVector": "National recognition highlights large-scale agricultural investments, urban renewal, and subnational infrastructure expansion.",
+        "policyBreakdown": {
+          "category": "Centenary Leadership Awards & Consultative Governance",
+          "body": "Farmer Governor Mohammed Umaru Bago received the Daily Times Governor of the Year Award in Abuja, logging a HIGH SIGNAL (8.4 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Taraba",
+        "governor": "Agbu Kefas",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Governor Agbu Kefas Honoured with Daily Times Centenary Outstanding Governor (North East) Award",
+        "impactVector": "Award recognition reinforces executive achievements in educational reform, youth empowerment, and regional development.",
+        "policyBreakdown": {
+          "category": "Centenary Leadership Awards & Consultative Governance",
+          "body": "Governor Dr. Agbu Kefas was awarded the Daily Times Outstanding Governor (North East) Award in Abuja, registering a HIGH SIGNAL (8.3 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ekiti",
+        "governor": "Biodun Oyebanji",
+        "metrics": {
+          "psiScore": 8.2,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Ekiti L-PRES Intervention Boosts Livestock Production and Regional Economic Growth",
+        "impactVector": "Infrastructure deployment and extension support in the livestock sector increases animal protein production and rural agribusiness resilience.",
+        "policyBreakdown": {
+          "category": "Non-Oil Export Expansion & Agribusiness Value Chains",
+          "body": "Ekiti State L-PRES technical committee evaluated key infrastructure interventions boosting livestock production across the state, yielding a HIGH SIGNAL (8.2 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kebbi",
+        "governor": "Nasir Idris",
+        "metrics": {
+          "psiScore": 8.1,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Nasir Idris Completes Renovation of Darika Central Mosque in Danko-Wasagu LGA",
+        "impactVector": "Restoring community religious infrastructure promotes social cohesion, civic peace, and grassroots stability.",
+        "policyBreakdown": {
+          "category": "Community Civic Infrastructure & Grassroots Security",
+          "body": "Kebbi State Government completed the renovation of Darika Central Mosque in Danko-Wasagu LGA, logging a HIGH SIGNAL (8.1 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Bayelsa",
+        "governor": "Douye Diri",
+        "metrics": {
+          "psiScore": 8.0,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Bayelsa State Government Suspends Implementation of Alleged New School Fees Policy at Niger Delta University",
+        "impactVector": "Proactive executive intervention halts student discontent, protecting academic order and campus stability.",
+        "policyBreakdown": {
+          "category": "Community Civic Infrastructure & Grassroots Security",
+          "body": "Bayelsa State Government suspended the implementation of an alleged new school fee policy at Niger Delta University, earning a HIGH SIGNAL (8.0 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kwara",
+        "governor": "Abdulrahman Abdulrazaq",
+        "metrics": {
+          "psiScore": 7.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "KWASAA Clarifies Billboard Enforcement at Geri Alimi Underpass, Reaffirms Non-Partisan Oversight",
+        "impactVector": "Enforcing structural safety standards on public transport bridges prevents infrastructure damage and hazards for road users.",
+        "policyBreakdown": {
+          "category": "Statutory Board Inaugurations & Sector Regulation",
+          "body": "KWASAA clarified its non-partisan structural safety enforcement on an unapproved billboard framework at Geri Alimi Underpass, recording a HIGH SIGNAL (7.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
       }
      ]
     }
@@ -2852,6 +3688,195 @@
     "sis": 4.8,
     "focus": "Grazing Reserves & Cattle Migration Route Defense",
     "dailyBrief": "Anti-Corruption Commission and LG Ministry partnered across 14 LGAs and 17 Emirates to protect burtali routes."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.3,
+    "sis": 1.2,
+    "focus": "PPP Deal Book & Investment Partnerships",
+    "dailyBrief": "Unveiled Lagos Investment Deal Book at Invest Nigeria 4.0, outlining bankable project profiles across transit, healthcare, and energy."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 9.3,
+    "sis": 2.8,
+    "focus": "Statutory Budget Enactment & Fiscal Stability",
+    "dailyBrief": "Signed 2026 State Appropriation Bill into law, establishing statutory spending authorization for capital projects and public services."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.2,
+    "sis": 2.9,
+    "focus": "Decentralized 900-Bed Tertiary Healthcare Network",
+    "dailyBrief": "Advanced construction of 900-bed specialist hospital network in Umunnato, Amachara, and ABSUTH Aba to expand regional care."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 9.1,
+    "sis": 1.5,
+    "focus": "Widows Welfare Grants & Tertiary Subvention Arrears",
+    "dailyBrief": "Released ₦18M for O'Datiwa Widows Care and paid August subvention arrears with a 60% increment to 4 state tertiary institutions."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 9.1,
+    "sis": 3.8,
+    "focus": "Urban Road Infrastructure Completion",
+    "dailyBrief": "Commissioned the newly completed Nasarawa–Flour Mills Road connecting Kaduna South and Chikun LGAs."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 9.0,
+    "sis": 1.9,
+    "focus": "Health Quackery Law & Printing Press Commissioning",
+    "dailyBrief": "Signed Health Quackery Prohibition Law and commissioned the remodelled Newspaper Corporation and Government Printing Press."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 9.0,
+    "sis": 4.2,
+    "focus": "Silame Bridge & Rural Access Road Commissioning",
+    "dailyBrief": "Partnered with Nasarawa Governor Sule to commission Silame Bridge and 9.4-km Garin Magaji–Gittarana rural road."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 9.0,
+    "sis": 2.6,
+    "focus": "Grassroots Economic Stimulus & Welfare Framework",
+    "dailyBrief": "Unveiled economic stimulus measures and proposed 13th-month salary institutionalization to boost household purchasing power."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.9,
+    "sis": 1.8,
+    "focus": "6.475-km Road Corridor Commissioning",
+    "dailyBrief": "Commissioned the 6.475-km Amanyam–Mbiaso Road with 12.95-km drainage in Ikot Ekpene LGA."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 3.6,
+    "focus": "Non-Oil Export Expansion & Hajj Peace Investment",
+    "dailyBrief": "Partnered with NEPC to target $12M non-oil export earnings in potato/tin and received 2026 Hajj report promoting civic peace."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.4,
+    "focus": "Statutory Board Inaugurations & Petroleum Oversight",
+    "dailyBrief": "Inaugurated 4 boards including Rural Access Roads Agency and aligned Oil Ministry with Petroleum Task Force on safety standards."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.7,
+    "sis": 2.6,
+    "focus": "Centenary Award & Executive Alignment",
+    "dailyBrief": "Received Daily Times Centenary Outstanding Governor Award and hosted state executive council members at Governor's Lodge."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.6,
+    "focus": "Legislative Consultative Governance",
+    "sis": 4.1,
+    "dailyBrief": "Hosted former National Assembly members serving from 1970 to date for strategic state development consultations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 1.7,
+    "focus": "30-km Okaka Junction–Film Village Road Reconstruction",
+    "dailyBrief": "Advanced ongoing reconstruction of 30-km Okaka Junction–Otu–Igbojaiye–KAP Film Village Road."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.4,
+    "sis": 4.8,
+    "focus": "North-West Centenary Leadership Award",
+    "dailyBrief": "Received Daily Times Centenary Outstanding Governor Award for North-West region in Abuja."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.4,
+    "sis": 4.0,
+    "focus": "Daily Times Governor of the Year Award",
+    "dailyBrief": "Honoured as Governor of the Year at Daily Times Centenary Celebration for achievements in agriculture and infrastructure."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 8.3,
+    "sis": 3.6,
+    "focus": "North-East Centenary Outstanding Governor Award",
+    "dailyBrief": "Received Daily Times Centenary Outstanding Governor (North East) Award recognizing development achievements."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 8.2,
+    "sis": 1.5,
+    "focus": "L-PRES Livestock Production & Extension Infrastructure",
+    "dailyBrief": "Reviewed L-PRES interventions boosting livestock production and infrastructure across state agricultural zones."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 8.1,
+    "sis": 2.7,
+    "focus": "Darika Central Mosque Community Renovation",
+    "dailyBrief": "Completed directive-led renovation of Darika Central Mosque in Waje Ward, Danko-Wasagu LGA."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.0,
+    "sis": 2.7,
+    "focus": "University Fee Policy Executive Intervention",
+    "dailyBrief": "Ordered immediate suspension of alleged new school fees policy at Niger Delta University to maintain campus stability."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 7.8,
+    "sis": 1.7,
+    "focus": "Signage Safety Enforcement & Infrastructure Protection",
+    "dailyBrief": "KWASAA enforced structural safety compliance on billboards at Geri Alimi Underpass to protect road users."
   }
  ]
 }
