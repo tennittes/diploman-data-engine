@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-07",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -1122,6 +1122,390 @@
       "whyItMatters": "Enforcing outdoor advertising structural safety yields a 7.8 PSI High Signal, safeguarding municipal transport infrastructure and protecting public safety regardless of political affiliation."
     },
     "intent": "Enforcing municipal advertising regulations and protecting public bridge infrastructure safety."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Federal Government Backs Lagos International Financial Centre, Sets Q1 2027 Soft Launch",
+    "psi": 9.4,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Federal Government Backs Lagos International Financial Centre, Sets Q1 2027 Soft Launch",
+      "whatHappened": "The Federal Government, Lagos State Government, and EnterpriseNGR inaugurated the National Steering Committee for the Lagos International Financial Centre (LIFC) in Abuja, setting a soft launch for Q1 2027.",
+      "whyItMatters": "This 9.4 PSI Optimum Signal initiative establishes national regulatory, legal, and fiscal alignment, positioning Lagos as Africa's premier gateway for global capital and supporting a $1T economy."
+    },
+    "intent": "Establishing an internationally competitive financial hub to mobilize global private capital and deepen financial intermediation."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Benue State Approves $250M+ Agro-Industrial Partnership for 30,000-Hectare National Food City Complex",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Benue State Approves $250M+ Agro-Industrial Partnership for 30,000-Hectare National Food City Complex",
+      "whatHappened": "Benue State Executive Council approved a 25-year DBOT PPP deal with Rexzodeneh Group and M.K International (South Korea) for a 30,000-hectare National Food City Complex in Otukpo, Obi, and Ado LGAs.",
+      "whyItMatters": "Mobilizing $250M+ in private capital at zero Treasury debt earns a 9.3 PSI Optimum Signal, creating 20,000 direct jobs, integrating 40,000 farmers, and building 5 major processing mills."
+    },
+    "intent": "Transforming state agriculture from subsistence farming into a mechanized, high-value export agro-industrial hub."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Borno School Enrolment Hits Record 1.8 Million as State Clears ₦622.3M NECO Fees",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Borno School Enrolment Hits Record 1.8 Million as State Clears ₦622.3M NECO Fees",
+      "whatHappened": "Borno State unveiled the 2024–2026 Annual School Census Report showing a record 1,801,295 learners and presented ₦622.3M to NECO covering 2026 SSCE fees for 27,599 final-year public school students.",
+      "whyItMatters": "Rebuilding public confidence to achieve a 1.8M pupil surge alongside ₦5.98B cumulative exam fee subsidies delivers a 9.2 PSI Optimum Signal, removing economic barriers to basic education."
+    },
+    "intent": "Rebuilding post-conflict basic education systems, expanding teacher capacity, and guaranteeing universal examination access."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Eno Inspects Ibom International Hospital Site and Commissions Model Health Centre in Abak",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Eno Inspects Ibom International Hospital Site and Commissions Model Health Centre in Abak",
+      "whatHappened": "Governor Umo Eno conducted an inspection of the Ibom International Hospital project targeting pre-June 2027 delivery, while commissioning a Model Primary Health Centre in Abak LGA.",
+      "whyItMatters": "Fast-tracking world-class specialized hospital infrastructure alongside grassroots primary health centers yields a 9.1 PSI Optimum Signal, expanding diagnostic capacity and health insurance uptake."
+    },
+    "intent": "Expanding tertiary specialized clinical infrastructure and primary healthcare facilities across local communities."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Uba Sani Awards ₦3M Grants to Tech Innovators and Unveils 2026 Peugeot Models",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Uba Sani Awards ₦3M Grants to Tech Innovators and Unveils 2026 Peugeot Models",
+      "whatHappened": "Governor Uba Sani awarded ₦3 million grants each to standout youth tech innovators at the International Youth Day Conference and visited Dangote Peugeot Automobile Nigeria to unveil 2026 models.",
+      "whyItMatters": "Direct grant capital for youth tech ventures combined with industrial support for local automotive assembly delivers a 9.1 PSI Optimum Signal, driving job creation and manufacturing."
+    },
+    "intent": "Fostering youth technological entrepreneurship and strengthening local automotive industrial assembly capacity."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Cross River Secures Federal Approval for Rail Link and Receives ₦515M Relief Intervention",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Cross River Secures Federal Approval for Rail Link and Receives ₦515M Relief Intervention",
+      "whatHappened": "Cross River secured Federal backing for the Uyo–Calabar rail link and revived The Chronicle, while First Lady Senator Oluremi Tinubu disbursed ₦515M in SPAR fire relief and launched the South-South Foodbank.",
+      "whyItMatters": "Securing interstate rail logistics while distributing ₦450M in direct grants to 18 fire-affected business owners earns a 9.1 PSI Optimum Signal, restoring commercial livelihoods."
+    },
+    "intent": "Expanding regional rail transport networks and providing direct financial relief to fire-disaster business victims."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "EBONYI",
+    "stateName": "Ebonyi State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Nwifuru Partners Presidential Initiative on CNG/EVs and Completes 43 School Blocks",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Nwifuru Partners Presidential Initiative on CNG/EVs and Completes 43 School Blocks",
+      "whatHappened": "Governor Francis Nwifuru hosted the Presidential Initiative on CNG and EVs to expand clean mobility, while completing 43 units of 12-classroom blocks in primary schools across Ebonyi.",
+      "whyItMatters": "Expanding clean energy public transport alongside constructing 43 primary school blocks generates an 8.9 PSI High Signal, reducing transit costs and upgrading educational facilities."
+    },
+    "intent": "Deploying clean energy transit alternatives and executing statewide primary education classroom construction."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Ogun State Expands Patient Capacity at 250-Bed Gateway Medical Centre of Excellence",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ogun State Expands Patient Capacity at 250-Bed Gateway Medical Centre of Excellence",
+      "whatHappened": "Governor Dapo Abiodun highlighted operational expansions at the 250-bed Gateway Medical Centre of Excellence in Abeokuta, which has attended to over 600 patients and is scaling to 4,000.",
+      "whyItMatters": "Operationalizing a 10-bed ICU, four advanced operating theatres, and specialized radiodiagnostics delivers an 8.9 PSI High Signal, providing world-class tertiary care locally."
+    },
+    "intent": "Expanding multi-specialty clinical infrastructure and diagnostic capacity to meet international care standards."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KANO",
+    "stateName": "Kano State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Kano Ministry Inspects 14 Capital Infrastructure Projects Valued at ₦36.8 Billion",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kano Ministry Inspects 14 Capital Infrastructure Projects Valued at ₦36.8 Billion",
+      "whatHappened": "Ministry for Public Procurement, Projects Monitoring and Evaluation inspected 14 active projects valued at ₦36.8 billion across Nasarawa, Tarauni, Fagge, Dala, and Gwale LGAs.",
+      "whyItMatters": "Executing rigorous physical project monitoring across ₦36.8B in urban infrastructure yields an 8.8 PSI High Signal, enforcing procurement quality and timely public asset delivery."
+    },
+    "intent": "Enforcing project monitoring, quality standards, and procurement compliance across major urban capital works."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Radda Showcases 400-Tractor Mechanization Hub and 30MW Solar Mini-Grids to NEC",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Radda Showcases 400-Tractor Mechanization Hub and 30MW Solar Mini-Grids to NEC",
+      "whatHappened": "Governor Dikko Umaru Radda received the National Economic Council monitoring team, showcasing a 400-tractor agricultural mechanization center, 250 renovated PHCs, and 30MW solar mini-grids.",
+      "whyItMatters": "Deploying 30MW in clean energy mini-grids alongside large-scale tractor mechanization earns an 8.8 PSI High Signal, lowering institutional energy costs and expanding crop production."
+    },
+    "intent": "Accelerating agricultural mechanization, renewable energy deployment, and healthcare facility upgrades."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Okpebholo Swears In 18 LGA Chairmen and Inaugurates Civil Service Rules Review Committee",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Okpebholo Swears In 18 LGA Chairmen and Inaugurates Civil Service Rules Review Committee",
+      "whatHappened": "Governor Monday Okpebholo swore in 18 newly elected LGA Chairmen and inaugurated a committee to review 2,000 Extant Civil Service Rules, while Women Affairs partnered with NCoS on inmate rehabilitation.",
+      "whyItMatters": "Inaugurating local council leadership alongside updating 20-year-old civil service regulations registers an 8.8 PSI High Signal, modernizing public administration."
+    },
+    "intent": "Strengthening grassroots local government administration and modernizing civil service regulatory frameworks."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "SOKOTO",
+    "stateName": "Sokoto State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Aliyu Commissions Kware–Gidan Madi Road Project to Boost Rural Economic Connectivity",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Aliyu Commissions Kware–Gidan Madi Road Project to Boost Rural Economic Connectivity",
+      "whatHappened": "Governor Ahmed Aliyu hosted Ambassador Gada to commission the newly completed Kware–Gidan Madi Road project, expanding transport access across rural farming communities.",
+      "whyItMatters": "Commissioning key rural road infrastructure yields an 8.8 PSI High Signal, connecting agricultural producers directly to commercial markets and lowering haulage costs."
+    },
+    "intent": "Expanding rural road networks to unlock agricultural potential and improve trade logistics."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Plateau Orders Temporary Closure of Schools Over Diphtheria and Reinstates Reckna of Bashar",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Orders Temporary Closure of Schools Over Diphtheria and Reinstates Reckna of Bashar",
+      "whatHappened": "Governor Caleb Mutfwang ordered the temporary closure of all schools effective Sept 7 to contain Diphtheria, reinstated the Reckna of Bashar to resolve traditional disputes, and pledged support for LUN Demsa.",
+      "whyItMatters": "Decisive school closures protect public health during epidemics, while resolving traditional chiefdom disputes in Wase LGA achieves an 8.7 PSI High Signal for civic peace."
+    },
+    "intent": "Enforcing emergency epidemic containment measures and resolving traditional chiefdom leadership disputes."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Adamawa Promotes Good Agricultural Practices with NEPC and Suspends Education Board Chief",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Promotes Good Agricultural Practices with NEPC and Suspends Education Board Chief",
+      "whatHappened": "Adamawa Government partnered with NEPC to train 60+ farmers on pesticide management and GAP, inspected capital road projects, and suspended the Executive Secretary of Post Primary Schools Management Board.",
+      "whyItMatters": "Training farmers on pesticide residue standards for export compliance alongside inspecting capital road networks earns an 8.7 PSI High Signal, boosting trade and administrative discipline."
+    },
+    "intent": "Promoting agricultural export compliance, monitoring urban road projects, and enforcing administrative discipline."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Sule Inspects Panda Road Terrain in Karu LGA and Directs Immediate Construction",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sule Inspects Panda Road Terrain in Karu LGA and Directs Immediate Construction",
+      "whatHappened": "Governor Abdullahi A. Sule conducted an on-the-spot inspection of the Panda Road in Karu LGA, issuing immediate directives to the Ministry of Works and contractors to commence construction.",
+      "whyItMatters": "Direct gubernatorial assessment and immediate deployment orders for critical suburban roads yields an 8.6 PSI High Signal, expanding suburban trade routes near the FCT."
+    },
+    "intent": "Accelerating rural-suburban road construction to enhance trade mobility and economic integration."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Makinde Reaffirms Completion of 48-km Ido–Eruwa Road and Agribusiness Centre",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Makinde Reaffirms Completion of 48-km Ido–Eruwa Road and Agribusiness Centre",
+      "whatHappened": "Governor Seyi Makinde accepted the chieftaincy title of Aare Asoludero of Ibarapaland, assuring residents that the ongoing 48-km Ido–Eruwa Road and Eruwa Agribusiness Centre will be completed.",
+      "whyItMatters": "Reaffirming execution commitments on a 48-km arterial road connecting agricultural zones to urban centers earns an 8.6 PSI High Signal, boosting regional trade."
+    },
+    "intent": "Delivering key inter-municipal transport corridors and expanding agribusiness transformation infrastructure."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Alex Otti Engages Houston Diaspora on Infrastructure Projects, Nsulu Airport, and Starpaper Mill",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Alex Otti Engages Houston Diaspora on Infrastructure Projects, Nsulu Airport, and Starpaper Mill",
+      "whatHappened": "Governor Alex Otti conducted a strategic townhall with Ngwa diaspora leaders in Houston, detailing the 2027 Nsulu Airport runway completion, Starpaper Mill acquisition, and Aba road rehabilitations.",
+      "whyItMatters": "Direct diaspora engagement presenting verified infrastructure progress and private asset acquisitions generates an 8.9 PSI High Signal, attracting external investment."
+    },
+    "intent": "Mobilizing diaspora capital, clarifying co-funded airport infrastructure timelines, and promoting state asset acquisitions."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Delta State Re-Awards Abandoned DELSU Senate Building and Approves New Student Hostels",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta State Re-Awards Abandoned DELSU Senate Building and Approves New Student Hostels",
+      "whatHappened": "Delta State Government re-awarded the long-abandoned Senate Building project at Delta State University (DELSU), Abraka, and approved the construction of new student hostel facilities.",
+      "whyItMatters": "Rescuing abandoned university administrative assets and expanding campus housing yields an 8.8 PSI High Signal, improving tertiary learning conditions."
+    },
+    "intent": "Rescuing abandoned higher education infrastructure and expanding tertiary student housing facilities."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Diri Hands Over Rescued Fishermen to São Tomé and Príncipe Ambassador",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Diri Hands Over Rescued Fishermen to São Tomé and Príncipe Ambassador",
+      "whatHappened": "Governor Douye Diri formally handed over two rescued fishermen from São Tomé and Príncipe to Ambassador Carlos Manuel Moreno in Sampou after they were rescued at sea in Ekeremor LGA.",
+      "whyItMatters": "Diplomatic coordination and humanitarian care for international fishermen lost at sea delivers an 8.5 PSI High Signal, strengthening Gulf of Guinea regional bilateral ties."
+    },
+    "intent": "Strengthening international diplomatic ties and providing maritime humanitarian emergency response."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Lawal Appoints Shehu Baraya as Head of Service; RUWATSAN Partners UNICEF on WASH",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Lawal Appoints Shehu Baraya as Head of Service; RUWATSAN Partners UNICEF on WASH",
+      "whatHappened": "Governor Dauda Lawal appointed Alhaji Shehu Baraya as the new Head of Service, while RUWATSAN strengthened technical collaboration with UNICEF on SDG 6 WASH infrastructure.",
+      "whyItMatters": "Appointing experienced civil service leadership while advancing UNICEF partnerships for fecal sludge management and water monitoring earns an 8.5 PSI High Signal, improving public health."
+    },
+    "intent": "Strengthening public service administrative leadership and expanding rural water and sanitation infrastructure."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Buni Approves Fresh Digital Media Training for 400 Youth Practitioners",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Buni Approves Fresh Digital Media Training for 400 Youth Practitioners",
+      "whatHappened": "Governor Mai Mala Buni approved the training of a second batch of 400 media actors across 17 LGAs, scaling Yobe's digital communication and literacy initiative to 800 total practitioners.",
+      "whyItMatters": "Institutionalizing digital media literacy and responsible communication across 800 youth practitioners generates an 8.3 PSI High Signal, countering misinformation."
+    },
+    "intent": "Building youth digital communication capacity, promoting media literacy, and countering public misinformation."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Ekiti SUBEB Flags Off Greening Schools Climate Education as Fiscal Commission Reports Discipline",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti SUBEB Flags Off Greening Schools Climate Education as Fiscal Commission Reports Discipline",
+      "whatHappened": "Ekiti SUBEB and UBEC flagged off the 2025 Greening Schools and Climate Change Education Programme, while the Fiscal Responsibility Commission reported improved budget monitoring.",
+      "whyItMatters": "Integrating environmental education in primary schools while enforcing fiscal compliance rules yields an 8.2 PSI High Signal, protecting public resources and environmental health."
+    },
+    "intent": "Institutionalizing climate change education in basic schools and enforcing statutory fiscal responsibility compliance."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Kwara Deploys Military Troops to Apado Community and Approves Outstanding Allowances for State Counsels",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kwara Deploys Military Troops to Apado Community and Approves Outstanding Allowances for State Counsels",
+      "whatHappened": "Governor AbdulRahman AbdulRazaq directed 22 Armoured Brigade to deploy troops to Apado in Ilorin East LGA to flush out bandits, while approving outstanding furniture and robe allowances for State Counsels.",
+      "whyItMatters": "Deploying military operations to clear criminal elements while settling judicial legal officer allowances registers an 8.1 PSI High Signal, securing rural communities."
+    },
+    "intent": "Enhancing rural security operational deployments and addressing public sector worker allowance entitlements."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ENUGU",
+    "stateName": "Enugu State",
+    "displayDate": "Monday, September 7, 2026",
+    "headline": "Governor Mbah Commends Youth Anti-Crime Rally and Reaffirms Support for Peace Initiatives",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Mbah Commends Youth Anti-Crime Rally and Reaffirms Support for Peace Initiatives",
+      "whatHappened": "Governor Peter Mbah commended Enugu youth organizations at the 'Unite Against Crime and Terrorism' rally, pledging continued support for youth empowerment and peace initiatives.",
+      "whyItMatters": "Partnering with youth groups on anti-crime advocacy achieves an 8.0 PSI High Signal, strengthening grassroots security and providing productive alternatives to violence."
+    },
+    "intent": "Mobilizing youth partnerships for community crime prevention and social peace."
   }
   ],
 
@@ -2686,6 +3070,554 @@
         "securityAnalysis": null
       }
      ]
+    },
+        "07": {
+    "date": "2026-09-07",
+    "formattedDate": "September 7, 2026",
+    "metadata": {
+      "compositePsi": 8.4,
+      "activeJurisdictionsCount": 24,
+      "unlistedJurisdictionsCount": 13,
+      "unlistedNote": "The 13 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal commitment, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at State Trackers Hub."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Lagos Leads 24 Active Jurisdictions September 7, 2026 Governance Intelligence Headlines",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & Security Incident Score (SIS) Daily Briefing",
+        "summary": "Subnational executive momentum on September 7, 2026, recorded a strong 8.4 PSI average, led by financial hub launch architectures in Lagos, a $250M agro-industrial PPP in Benue, 1.8M pupil enrolment in Borno, and specialized hospital developments in Akwa Ibom and Ogun."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Highlights High-Alpha Financial Assets and Secure Maritime Corridors",
+        "summary": "Analysis of Nigeria’s subnational investment climate for September 7, 2026, detailing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and strategic asset allocation across commercial, industrial, and agricultural corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Accelerates Across Health, Infrastructure and Security Corridors at 8.4 PSI",
+        "summary": "Nigeria’s state executives record an 8.4 net PSI average as Lagos, Benue, Borno, and Akwa Ibom drive optimum policy signals across mega-PPP deals, financial centers, education surges, and hospital networks."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory demonstrated high-capacity operational interventions during the active reporting window ending September 7, 2026. The 37-jurisdiction subnational net Policy Signal Index (PSI) baseline settled at a strong composite average of 8.4, reflecting sustained executive momentum in transitioning policy directives into direct physical execution, multi-billion naira PPP concessions, healthcare system safeguards, and major education expansions.",
+        "emergingPatterns": "The active reporting window reveals strong subnational policy convergence around public infrastructure protection, agro-industrial value chains, and decentralized service delivery. State executives are increasingly bypassing traditional administrative lag by deploying direct executive oversight, establishing targeted agencies, and forging bilateral partnerships with federal ministries and private equity consortia.",
+        "strategicOutlook": "Looking ahead, the sustainability of current subnational momentum depends on institutionalizing asset maintenance, expanding local government implementation capacity, and maintaining rigorous fiscal discipline.",
+        "conclusion": "The subnational executive governance landscape for September 7, 2026, reflects measurable structural progress driven by decisive gubernatorial leadership."
+      },
+      "security": {
+        "introduction": "The subnational investment landscape across Nigeria’s 36 States and the Federal Capital Territory for September 7, 2026, demonstrates high operational stability, with strategic commercial zones displaying robust security metrics and strong capital protection frameworks.",
+        "emergingPatterns": "Subnational risk metrics reflect a clear bifurcation: commercial megacities, maritime ports, and southern agricultural corridors maintain highly stable SECURE (SIS < 3.0) environments ideal for equity deployment.",
+        "strategicOutlook": "Subnational investment returns over the upcoming operational cycles will favor investors who align capital deployment with state-level executive priorities.",
+        "conclusion": "Navigating Nigeria’s subnational market requires precise, metric-driven risk mapping."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Commercial Mega-Hubs & International Financial Centers",
+        "states": ["Lagos"]
+      },
+      {
+        "groupTitle": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
+        "states": ["Benue", "Katsina", "Adamawa", "Oyo"]
+      },
+      {
+        "groupTitle": "Educational Rebuilding, Youth Innovation & Tech Grants",
+        "states": ["Borno", "Kaduna", "Ebonyi", "Yobe", "Ekiti"]
+      },
+      {
+        "groupTitle": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
+        "states": ["Akwa Ibom", "Ogun", "Delta"]
+      },
+      {
+        "groupTitle": "Transport Connectivity, Rail Links & Capital Projects",
+        "states": ["Cross River", "Kano", "Sokoto", "Nasarawa"]
+      },
+      {
+        "groupTitle": "Civil Service Governance, Administrative Rules & Civic Peace",
+        "states": ["Edo", "Plateau", "Abia", "Bayelsa", "Zamfara", "Kwara", "Enugu"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 9.4,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Federal Government Backs Lagos International Financial Centre, Sets Q1 2027 Soft Launch",
+        "impactVector": "Establishing a national steering committee with Federal and private sector backing transitions the financial center from design to execution, creating a trusted gateway for global capital.",
+        "policyBreakdown": {
+          "category": "Commercial Mega-Hubs & International Financial Centers",
+          "body": "Lagos State Governor Babajide Sanwo-Olu, alongside SGF George Akume and EnterpriseNGR Chairman Aigboje Aig-Imoukhuede, inaugurated the National Steering Committee for the Lagos International Financial Centre (LIFC) targeting a Q1 2027 soft launch, logging an OPTIMUM SIGNAL (9.4 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Benue",
+        "governor": "Hyacinth Alia",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Benue State Approves $250M+ Agro-Industrial Partnership for 30,000-Hectare National Food City Complex",
+        "impactVector": "Approving a 25-year DBOT concession mobilizes $250M+ in private capital at zero Treasury debt, creating 20,000 direct jobs and integrating 40,000 smallholder farmers.",
+        "policyBreakdown": {
+          "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
+          "body": "Benue State Executive Council approved a 25-year DBOT PPP deal for a 30,000-hectare National Food City Complex across Otukpo, Obi, and Ado LGAs, securing an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Borno",
+        "governor": "Babagana Umara Zulum",
+        "metrics": {
+          "psiScore": 9.2,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 5.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "High-Yield Special Risk"
+        },
+        "headline": "Borno School Enrolment Hits Record 1.8 Million as State Clears ₦622.3M NECO Fees",
+        "impactVector": "Expanding school enrolment to 1.8M pupils and subsidizing SSCE fees for 27,599 students removes financial barriers to basic education in post-conflict zones.",
+        "policyBreakdown": {
+          "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
+          "body": "Governor Babagana Umara Zulum's administration unveiled record enrolment figures of 1,801,295 learners and presented ₦622.3M to NECO for final-year students, earning an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Akwa Ibom",
+        "governor": "Umo Eno",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Eno Inspects Ibom International Hospital Site and Commissions Model Health Centre in Abak",
+        "impactVector": "Fast-tracking tertiary hospital construction alongside model primary health centers expands specialized diagnostic capacity and reduces medical tourism.",
+        "policyBreakdown": {
+          "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
+          "body": "Governor Umo Eno inspected the ongoing Ibom International Hospital construction site in Uyo and commissioned a Model Primary Health Centre in Abak LGA, achieving an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kaduna",
+        "governor": "Uba Sani",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Uba Sani Awards ₦3M Grants to Tech Innovators and Unveils 2026 Peugeot Models",
+        "impactVector": "Direct financial grants for youth tech ventures combined with industrial support for local automotive assembly strengthens industrial capacity and employment.",
+        "policyBreakdown": {
+          "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
+          "body": "Governor Uba Sani awarded ₦3M grants to youth innovators and backed Dangote Peugeot Automobile Nigeria for local manufacturing expansion, registering an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Cross River Secures Federal Approval for Rail Link and Receives ₦515M Relief Intervention",
+        "impactVector": "Securing Federal backing for the Uyo-Calabar rail link and disbursing ₦450M to fire-affected business owners restores commercial livelihoods and regional transport links.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity, Rail Links & Capital Projects",
+          "body": "Governor Bassey Otu secured Federal backing for the Uyo–Calabar rail link while First Lady Senator Oluremi Tinubu disbursed ₦515M in relief funds, earning an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ebonyi",
+        "governor": "Francis Nwifuru",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Nwifuru Partners Presidential Initiative on CNG/EVs and Completes 43 School Blocks",
+        "impactVector": "Expanding clean energy transit options while constructing 43 units of 12-classroom school blocks improves basic education capacity and lowers transit costs.",
+        "policyBreakdown": {
+          "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
+          "body": "Governor Francis Nwifuru partnered with the Presidential Initiative on CNG/EVs and completed 43 primary school blocks across Ebonyi State, yielding a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ogun",
+        "governor": "Dapo Abiodun",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Ogun State Expands Patient Capacity at 250-Bed Gateway Medical Centre of Excellence",
+        "impactVector": "Operationalizing multi-specialty radiodiagnostic and ICU infrastructure provides world-class clinical care locally for thousands of residents.",
+        "policyBreakdown": {
+          "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
+          "body": "Governor Dapo Abiodun highlighted patient capacity expansions at the 250-bed Gateway Medical Centre of Excellence in Abeokuta, logging a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kano",
+        "governor": "Abba Kabir Yusuf",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.1,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Kano Ministry Inspects 14 Capital Infrastructure Projects Valued at ₦36.8 Billion",
+        "impactVector": "Rigorous project monitoring across five metropolitan LGAs ensures procurement compliance, quality control, and timely delivery of public works.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity, Rail Links & Capital Projects",
+          "body": "Kano Ministry for Public Procurement and Projects Monitoring inspected 14 active infrastructure projects worth ₦36.8B across 5 LGAs, recording a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.1,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Radda Showcases 400-Tractor Mechanization Hub and 30MW Solar Mini-Grids to NEC",
+        "impactVector": "Deploying 30MW renewable power and 400 tractors lowers operational costs for hospitals and expands mechanized agricultural yields.",
+        "policyBreakdown": {
+          "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
+          "body": "Governor Dikko Umaru Radda hosted the NEC monitoring team, showcasing a 400-tractor mechanization hub, 250 renovated PHCs, and 30MW solar mini-grids, achieving a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Okpebholo Swears In 18 LGA Chairmen and Inaugurates Civil Service Rules Review Committee",
+        "impactVector": "Swearing in local chairmen and reviewing 2,000 civil service rules modernizes public administration and strengthens grassroots governance accountability.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Monday Okpebholo swore in 18 LGA Chairmen and inaugurated a committee to review 2,000 Civil Service Rules, registering a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Sokoto",
+        "governor": "Ahmed Aliyu",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Aliyu Commissions Kware–Gidan Madi Road Project to Boost Rural Economic Connectivity",
+        "impactVector": "Delivering key asphalt road corridors connects agrarian communities directly to trade markets, reducing post-harvest losses.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity, Rail Links & Capital Projects",
+          "body": "Governor Ahmed Aliyu commissioned the completed Kware–Gidan Madi Road project alongside Ambassador Gada, logging a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Plateau Orders Temporary Closure of Schools Over Diphtheria and Reinstates Reckna of Bashar",
+        "impactVector": "Immediate health closure prevents biological epidemic spread while resolving traditional chiefdom disputes restores communal peace in Wase LGA.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Caleb Mutfwang ordered temporary school closures to curb Diphtheria and reinstated the Reckna of Bashar, securing a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Adamawa",
+        "governor": "Ahmadu Umaru Fintiri",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Adamawa Promotes Good Agricultural Practices with NEPC and Suspends Education Board Chief",
+        "impactVector": "Enforcing pesticide safety standards expands agricultural export eligibility while administrative suspensions uphold sector transparency.",
+        "policyBreakdown": {
+          "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
+          "body": "Adamawa Government partnered with NEPC on GAP pesticide training, inspected capital road projects, and suspended the Post Primary Schools board chief, earning a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Nasarawa",
+        "governor": "Abdullahi Sule",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sule Inspects Panda Road Terrain in Karu LGA and Directs Immediate Construction",
+        "impactVector": "Executive field inspection and immediate construction directives unlock vital suburban trade corridors near the FCT border.",
+        "policyBreakdown": {
+          "category": "Transport Connectivity, Rail Links & Capital Projects",
+          "body": "Governor Abdullahi A. Sule inspected the Panda Road terrain in Karu LGA and issued immediate construction directives, registering a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Oyo",
+        "governor": "Seyi Makinde",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Makinde Reaffirms Completion of 48-km Ido–Eruwa Road and Agribusiness Centre",
+        "impactVector": "Accelerating major arterial road construction directly connects regional agricultural hubs to commercial processing centers.",
+        "policyBreakdown": {
+          "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
+          "body": "Governor Seyi Makinde accepted the chieftaincy title of Aare Asoludero of Ibarapaland, confirming completion timelines for the 48-km Ido–Eruwa Road, yielding a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Alex Otti Engages Houston Diaspora on Infrastructure Projects, Nsulu Airport, and Starpaper Mill",
+        "impactVector": "Direct diaspora engagement mobilizes private capital for state asset acquisitions while clarifying co-funded airport and road timelines.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Alex Otti conducted a strategic townhall with Ngwa diaspora leaders in Houston detailing Aba infrastructure, Starpaper Mill, and Nsulu Airport runway timelines, earning a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Delta State Re-Awards Abandoned DELSU Senate Building and Approves New Student Hostels",
+        "impactVector": "Rescuing abandoned university administrative assets and expanding student housing improves academic environment and campus living standards.",
+        "policyBreakdown": {
+          "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
+          "body": "Delta State Government re-awarded the long-abandoned DELSU Senate Building and approved new student hostel facilities, logging a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Bayelsa",
+        "governor": "Douye Diri",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Diri Hands Over Rescued Fishermen to São Tomé and Príncipe Ambassador",
+        "impactVector": "Swift diplomatic handling and humanitarian care for international maritime victims strengthens regional Gulf of Guinea relations.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Douye Diri formally handed over two rescued fishermen from São Tomé and Príncipe to Ambassador Carlos Manuel Moreno, earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Defensive",
+          "investmentDecision": "Defensive Preservation"
+        },
+        "headline": "Governor Lawal Appoints Shehu Baraya as Head of Service; RUWATSAN Partners UNICEF on WASH",
+        "impactVector": "Appointing seasoned leadership to the civil service alongside UNICEF WASH partnerships accelerates SDG 6 water and sanitation access.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Dauda Lawal appointed Shehu Baraya as Head of Service while RUWATSAN strengthened UNICEF technical collaboration, achieving a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Yobe",
+        "governor": "Mai Mala Buni",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.5,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Buni Approves Fresh Digital Media Training for 400 Youth Practitioners",
+        "impactVector": "Expanding digital communication capacity to 800 total practitioners counters misinformation and strengthens public governance literacy.",
+        "policyBreakdown": {
+          "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
+          "body": "Governor Mai Mala Buni approved training for a second batch of 400 media actors across 17 LGAs, recording a HIGH SIGNAL (8.3 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ekiti",
+        "governor": "Biodun Oyebanji",
+        "metrics": {
+          "psiScore": 8.2,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Ekiti SUBEB Flags Off Greening Schools Climate Education as Fiscal Commission Reports Discipline",
+        "impactVector": "Integrating climate education in primary schools while enforcing fiscal compliance rules protects natural resources and public funds.",
+        "policyBreakdown": {
+          "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
+          "body": "Ekiti SUBEB flagged off the Greening Schools climate education programme as the Fiscal Responsibility Commission confirmed budget compliance, logging a HIGH SIGNAL (8.2 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kwara",
+        "governor": "Abdulrahman Abdulrazaq",
+        "metrics": {
+          "psiScore": 8.1,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Kwara Deploys Military Troops to Apado Community and Approves Outstanding Allowances for State Counsels",
+        "impactVector": "Direct military deployment flushes out criminal elements while settling long-standing legal staff allowances boosts judicial morale.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor AbdulRahman AbdulRazaq directed military troop deployments to Apado and approved outstanding allowances for State Counsels, registering a HIGH SIGNAL (8.1 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Enugu",
+        "governor": "Peter Mbah",
+        "metrics": {
+          "psiScore": 8.0,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Mbah Commends Youth Anti-Crime Rally and Reaffirms Support for Peace Initiatives",
+        "impactVector": "Partnering with youth organizations on anti-crime campaigns strengthens grassroots security and offers productive social alternatives.",
+        "policyBreakdown": {
+          "category": "Civil Service Governance, Administrative Rules & Civic Peace",
+          "body": "Governor Peter Mbah commended youth groups at the 'Unite Against Crime and Terrorism' rally, achieving a HIGH SIGNAL (8.0 PSI / Advancing Momentum)."
+        },
+        "securityAnalysis": null
+      }
+     ]
     }
   },
 
@@ -3877,6 +4809,339 @@
     "sis": 1.7,
     "focus": "Signage Safety Enforcement & Infrastructure Protection",
     "dailyBrief": "KWASAA enforced structural safety compliance on billboards at Geri Alimi Underpass to protect road users."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.4,
+    "sis": 1.2,
+    "focus": "International Financial Centre Steering Architecture",
+    "dailyBrief": "Inaugurated National Steering Committee for LIFC with Federal and private sector backing, targeting Q1 2027 soft launch."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 9.3,
+    "sis": 3.9,
+    "focus": "$250M Agro-Industrial Food City Complex PPP",
+    "dailyBrief": "Approved 25-year DBOT concession deal for 30,000-hectare National Food City Complex across Otukpo, Obi, and Ado LGAs."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 9.2,
+    "sis": 5.2,
+    "focus": "Record 1.8M School Enrolment & NECO Fee Subsidies",
+    "dailyBrief": "Unveiled school census report showing 1,801,295 learners and cleared ₦622.3M in SSCE fees for 27,599 public school students."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 9.1,
+    "sis": 1.8,
+    "focus": "Ibom International Hospital Construction & Health Insurance",
+    "dailyBrief": "Inspected Ibom International Hospital project targeting pre-June 2027 delivery and commissioned Model Primary Health Centre in Abak."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 9.1,
+    "sis": 3.8,
+    "focus": "Youth Tech Innovation Grants & Automotive Industrial Partnership",
+    "dailyBrief": "Awarded ₦3M grants to youth tech innovators and backed Dangote Peugeot Automobile Nigeria for local manufacturing expansion."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 9.1,
+    "sis": 1.9,
+    "focus": "Uyo-Calabar Rail Link Approval & SPAR Fire Disaster Relief",
+    "dailyBrief": "Secured Federal approval for Uyo-Calabar rail link and disbursed ₦515M in relief intervention to fire-affected business owners."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 8.9,
+    "sis": 2.9,
+    "focus": "Houston Diaspora Engagement & Nsulu Airport Runway Project",
+    "dailyBrief": "Engaged Ngwa diaspora in Houston on Aba road rehabilitations, Starpaper Mill acquisition, and 2027 Nsulu Airport runway completion."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 8.9,
+    "sis": 2.5,
+    "focus": "CNG/EV Clean Mobility & 43 School Block Completions",
+    "dailyBrief": "Partnered with Presidential Initiative on CNG/EVs and completed 43 units of 12-classroom blocks across primary schools."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 8.9,
+    "sis": 1.4,
+    "focus": "Gateway Medical Centre Clinical Capacity Expansion",
+    "dailyBrief": "Expanded clinical care capacity at 250-bed multi-specialty Gateway Medical Centre of Excellence in Abeokuta."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 2.1,
+    "focus": "₦36.8B Metropolitan Infrastructure Quality Monitoring",
+    "dailyBrief": "Inspected 14 capital infrastructure projects worth ₦36.8 billion across Nasarawa, Tarauni, Fagge, Dala, and Gwale LGAs."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 4.1,
+    "focus": "Agricultural Mechanization Hub & 30MW Clean Energy Mini-Grids",
+    "dailyBrief": "Showcased 400-tractor mechanization hub, 250 renovated PHCs, and 30MW solar mini-grids to NEC Implementation Committee."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.4,
+    "focus": "LGA Leadership Swearing-in & Civil Service Rules Review",
+    "dailyBrief": "Swore in 18 elected LGA Chairmen and inaugurated a committee to review 2,000 Extant Civil Service Rules."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 4.2,
+    "focus": "Kware–Gidan Madi Rural Road Corridor Commissioning",
+    "dailyBrief": "Commissioned Kware–Gidan Madi Road project alongside Ambassador Gada to expand rural agricultural logistics."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.6,
+    "focus": "DELSU Senate Building Re-Award & Student Hostel Construction",
+    "dailyBrief": "Re-awarded long-abandoned DELSU Senate Building project in Abraka and approved new student hostel facilities."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.7,
+    "sis": 3.6,
+    "focus": "Diphtheria Epidemic Containment & Traditional Leadership Reinstatement",
+    "dailyBrief": "Ordered temporary school closures over Diphtheria outbreak and reinstated Reckna of Bashar to resolve Wase LGA chiefdom dispute."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 8.7,
+    "sis": 3.2,
+    "focus": "GAP Farmer Pesticide Training & Capital Road Inspections",
+    "dailyBrief": "Partnered with NEPC on farmer pesticide safety training, inspected capital roads, and suspended Education Board Executive Secretary."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.6,
+    "sis": 2.6,
+    "focus": "Panda Road Inspection & Immediate Construction Directive",
+    "dailyBrief": "Inspected Panda Road terrain in Karu LGA and issued immediate construction directives to Works Ministry and contractors."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 8.6,
+    "sis": 1.7,
+    "focus": "48-km Ido–Eruwa Highway & Agribusiness Hub Completion",
+    "dailyBrief": "Accepted Ibarapa chieftaincy title and confirmed completion commitment for 48-km Ido–Eruwa Road and Eruwa Agribusiness Centre."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.7,
+    "focus": "Maritime Humanitarian Rescues & Diplomatic Handover",
+    "dailyBrief": "Handed over two rescued international fishermen from Ekeremor LGA to the Ambassador of São Tomé and Príncipe."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.5,
+    "sis": 4.8,
+    "focus": "Head of Service Appointment & UNICEF WASH Partnership",
+    "dailyBrief": "Appointed Shehu Baraya as Head of Service and strengthened technical collaboration with UNICEF on SDG 6 WASH infrastructure."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 8.3,
+    "sis": 4.5,
+    "focus": "Digital Media Capacity Building for 400 Practitioners",
+    "dailyBrief": "Approved second batch training for 400 youth media actors across 17 LGAs under state digital communication initiative."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 8.2,
+    "sis": 1.5,
+    "focus": "Greening Schools Climate Education & Fiscal Discipline Oversight",
+    "dailyBrief": "Flagged off SUBEB-UBEC Greening Schools climate education programme as Fiscal Responsibility Commission confirmed budget monitoring."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 8.1,
+    "sis": 1.7,
+    "focus": "Apado Security Operational Deployments & State Counsel Allowances",
+    "dailyBrief": "Directed military troop deployment to Apado community to clear bandits and approved outstanding furniture/robe allowances for State Counsels."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 8.0,
+    "sis": 2.2,
+    "focus": "Youth Anti-Crime Partnership & Community Peace Advocacy",
+    "dailyBrief": "Commended youth groups at 'Unite Against Crime and Terrorism' rally, pledging continued support for youth empowerment."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline municipal service delivery and routine security surveillance across commercial hubs."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline civil service operations and agricultural logistics tracking across local government areas."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained Federal Capital Territory municipal management, traffic surveillance, and routine public administration."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Continued baseline public infrastructure monitoring and routine state civil service administration."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline administrative functions and security patrol operations across urban centers."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine public service operations and agricultural extension monitoring across rural communities."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained routine state civil service administrative workflows and local government coordination."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Continued baseline public health and road corridor security surveillance across central transit arteries."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine governance operations and rural security monitoring under baseline administrative maintenance."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline public service administration and routine educational infrastructure tracking."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Continued baseline civil service operations and routine healthcare delivery monitoring."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline administrative governance and maritime security surveillance across port zones."
+  },
+  {
+    "dayNumber": 7,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine public administration and agricultural community monitoring under standard baseline protocols."
   }
  ]
 }
