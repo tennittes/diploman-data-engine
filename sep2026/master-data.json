@@ -3351,7 +3351,7 @@
       }
      ]
     },
-     "07": {
+      "07": {
     "date": "2026-09-07",
     "formattedDate": "September 7, 2026",
     "metadata": {
@@ -3433,12 +3433,9 @@
         "impactVector": "Establishing a national steering committee with Federal and private sector backing transitions the financial center from design to execution, creating a trusted gateway for global capital.",
         "policyBreakdown": {
           "category": "Commercial Mega-Hubs & International Financial Centers",
-          "body": "Lagos State Governor Babajide Sanwo-Olu, alongside SGF George Akume and EnterpriseNGR Chairman Aigboje Aig-Imoukhuede, inaugurated the National Steering Committee for the Lagos International Financial Centre (LIFC) targeting a Q1 2027 soft launch, logging an OPTIMUM SIGNAL (9.4 PSI / Accelerating Momentum)."
+          "body": "Lagos State Governor Babajide Sanwo-Olu, alongside SGF George Akume and EnterpriseNGR Chairman Aigboje Aig-Imoukhuede, inaugurated the National Steering Committee for the Lagos International Financial Centre (LIFC) targeting a Q1 2027 soft launch."
         },
-        "securityAnalysis": {
-          "category": "Commercial Mega-Hubs & Financial Centers",
-          "body": "Lagos State maintains its standing as Africa's premier financial destination (SIS 1.2 SECURE), supported by Federal steering backing for the Lagos International Financial Centre and steady pension bond disbursements, providing an exceptional environment for equity deployment."
-        }
+        "securityAnalysis": "Lagos State maintains its standing as Africa's premier financial destination (SIS 1.2 SECURE), supported by Federal steering backing for the Lagos International Financial Centre and steady pension bond disbursements."
       },
       {
         "state": "Benue",
@@ -3456,12 +3453,9 @@
         "impactVector": "Approving a 25-year DBOT concession mobilizes $250M+ in private capital at zero Treasury debt, creating 20,000 direct jobs and integrating 40,000 smallholder farmers.",
         "policyBreakdown": {
           "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
-          "body": "Benue State Executive Council approved a 25-year DBOT PPP deal for a 30,000-hectare National Food City Complex across Otukpo, Obi, and Ado LGAs, securing an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
+          "body": "Benue State Executive Council approved a 25-year DBOT PPP deal for a 30,000-hectare National Food City Complex across Otukpo, Obi, and Ado LGAs."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Benue State presents a massive $250M+ agro-industrial investment profile under the DBOT framework with a MONITORED security score (SIS 3.9), requiring standard supply chain security oversight alongside state-backed drainage and watershed protection."
-        }
+        "securityAnalysis": "Benue State presents a massive $250M+ agro-industrial investment profile under the DBOT framework with a MONITORED security score (SIS 3.9), requiring standard supply chain security oversight alongside state-backed drainage and watershed protection."
       },
       {
         "state": "Borno",
@@ -3479,12 +3473,9 @@
         "impactVector": "Expanding school enrolment to 1.8M pupils and subsidizing SSCE fees for 27,599 students removes financial barriers to basic education in post-conflict zones.",
         "policyBreakdown": {
           "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
-          "body": "Governor Babagana Umara Zulum's administration unveiled record enrolment figures of 1,801,295 learners and presented ₦622.3M to NECO for final-year students, earning an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum)."
+          "body": "Governor Babagana Umara Zulum's administration unveiled record enrolment figures of 1,801,295 learners and presented ₦622.3M to NECO for final-year students."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Borno State combines historic education enrolment records with active frontier security monitoring (SIS 5.2 MONITORED), delivering high-yield special risk opportunities for institutional development capital."
-        }
+        "securityAnalysis": "Borno State combines historic education enrolment records with active frontier security monitoring (SIS 5.2 MONITORED), delivering high-yield special risk opportunities for institutional development capital."
       },
       {
         "state": "Akwa Ibom",
@@ -3502,12 +3493,9 @@
         "impactVector": "Fast-tracking tertiary hospital construction alongside model primary health centers expands specialized diagnostic capacity and reduces medical tourism.",
         "policyBreakdown": {
           "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
-          "body": "Governor Umo Eno inspected the ongoing Ibom International Hospital construction site in Uyo and commissioned a Model Primary Health Centre in Abak LGA, achieving an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+          "body": "Governor Umo Eno inspected the ongoing Ibom International Hospital construction site in Uyo and commissioned a Model Primary Health Centre in Abak LGA."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Akwa Ibom State maintains exceptional operational stability (SIS 1.8 SECURE), providing strong logistics reliability for maritime trade and healthcare infrastructure growth."
-        }
+        "securityAnalysis": "Akwa Ibom State maintains exceptional operational stability (SIS 1.8 SECURE), providing strong logistics reliability for maritime trade and healthcare infrastructure growth."
       },
       {
         "state": "Kaduna",
@@ -3525,12 +3513,9 @@
         "impactVector": "Direct financial grants for youth tech ventures combined with industrial support for local automotive assembly strengthens industrial capacity and employment.",
         "policyBreakdown": {
           "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
-          "body": "Governor Uba Sani awarded ₦3M grants to youth innovators and backed Dangote Peugeot Automobile Nigeria for local manufacturing expansion, registering an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+          "body": "Governor Uba Sani awarded ₦3M grants to youth innovators and backed Dangote Peugeot Automobile Nigeria for local manufacturing expansion."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Kaduna State exhibits MONITORED operational conditions (SIS 3.8), where high-yield industrial partnerships in automotive manufacturing and tech innovation are supported by targeted state security deployments."
-        }
+        "securityAnalysis": "Kaduna State exhibits MONITORED operational conditions (SIS 3.8), where high-yield industrial partnerships in automotive manufacturing and tech innovation are supported by targeted state security deployments."
       },
       {
         "state": "Cross River",
@@ -3548,12 +3533,9 @@
         "impactVector": "Securing Federal backing for the Uyo-Calabar rail link and disbursing ₦450M to fire-affected business owners restores commercial livelihoods and regional transport links.",
         "policyBreakdown": {
           "category": "Transport Connectivity, Rail Links & Capital Projects",
-          "body": "Governor Bassey Otu secured Federal backing for the Uyo–Calabar rail link while First Lady Senator Oluremi Tinubu disbursed ₦515M in relief funds, earning an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+          "body": "Governor Bassey Otu secured Federal backing for the Uyo–Calabar rail link while First Lady Senator Oluremi Tinubu disbursed ₦515M in relief funds."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Cross River State presents a highly secure investment environment (SIS 1.9 SECURE), reinforced by Federal relief interventions, port security, and expanding rail/marine transport networks."
-        }
+        "securityAnalysis": "Cross River State presents a highly secure investment environment (SIS 1.9 SECURE), reinforced by Federal relief interventions, port security, and expanding rail/marine transport networks."
       },
       {
         "state": "Ebonyi",
@@ -3571,12 +3553,9 @@
         "impactVector": "Expanding clean energy transit options while constructing 43 units of 12-classroom school blocks improves basic education capacity and lowers transit costs.",
         "policyBreakdown": {
           "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
-          "body": "Governor Francis Nwifuru partnered with the Presidential Initiative on CNG/EVs and completed 43 primary school blocks across Ebonyi State, yielding a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+          "body": "Governor Francis Nwifuru partnered with the Presidential Initiative on CNG/EVs and completed 43 primary school blocks across Ebonyi State."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Ebonyi State maintains a SECURE risk rating (SIS 2.5), driving steady capital deployment into municipal school infrastructure and clean-energy transit systems."
-        }
+        "securityAnalysis": "Ebonyi State maintains a SECURE risk rating (SIS 2.5), driving steady capital deployment into municipal school infrastructure and clean-energy transit systems."
       },
       {
         "state": "Ogun",
@@ -3594,12 +3573,9 @@
         "impactVector": "Operationalizing multi-specialty radiodiagnostic and ICU infrastructure provides world-class clinical care locally for thousands of residents.",
         "policyBreakdown": {
           "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
-          "body": "Governor Dapo Abiodun highlighted patient capacity expansions at the 250-bed Gateway Medical Centre of Excellence in Abeokuta, logging a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+          "body": "Governor Dapo Abiodun highlighted patient capacity expansions at the 250-bed Gateway Medical Centre of Excellence in Abeokuta."
         },
-        "securityAnalysis": {
-          "category": "Commercial Mega-Hubs & Financial Centers",
-          "body": "Ogun State offers exceptional industrial and commercial security (SIS 1.4 SECURE), providing a prime low-risk environment for healthcare and manufacturing investments."
-        }
+        "securityAnalysis": "Ogun State offers exceptional industrial and commercial security (SIS 1.4 SECURE), providing a prime low-risk environment for healthcare and manufacturing investments."
       },
       {
         "state": "Kano",
@@ -3617,12 +3593,9 @@
         "impactVector": "Rigorous project monitoring across five metropolitan LGAs ensures procurement compliance, quality control, and timely delivery of public works.",
         "policyBreakdown": {
           "category": "Transport Connectivity, Rail Links & Capital Projects",
-          "body": "Kano Ministry for Public Procurement and Projects Monitoring inspected 14 active infrastructure projects worth ₦36.8B across 5 LGAs, recording a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "body": "Kano Ministry for Public Procurement and Projects Monitoring inspected 14 active infrastructure projects worth ₦36.8B across 5 LGAs."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Kano State maintains a SECURE urban profile (SIS 2.1), supporting large-scale municipal project execution and commercial trading stability across its metropolitan corridors."
-        }
+        "securityAnalysis": "Kano State maintains a SECURE urban profile (SIS 2.1), supporting large-scale municipal project execution and commercial trading stability across its metropolitan corridors."
       },
       {
         "state": "Katsina",
@@ -3640,12 +3613,9 @@
         "impactVector": "Deploying 30MW renewable power and 400 tractors lowers operational costs for hospitals and expands mechanized agricultural yields.",
         "policyBreakdown": {
           "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
-          "body": "Governor Dikko Umaru Radda hosted the NEC monitoring team, showcasing a 400-tractor mechanization hub, 250 renovated PHCs, and 30MW solar mini-grids, achieving a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "body": "Governor Dikko Umaru Radda hosted the NEC monitoring team, showcasing a 400-tractor mechanization hub, 250 renovated PHCs, and 30MW solar mini-grids."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Katsina State offers high-yield agricultural mechanization and 30MW solar mini-grid assets under MONITORED security conditions (SIS 4.1), backed by active community development programs."
-        }
+        "securityAnalysis": "Katsina State offers high-yield agricultural mechanization and 30MW solar mini-grid assets under MONITORED security conditions (SIS 4.1), backed by active community development programs."
       },
       {
         "state": "Edo",
@@ -3663,12 +3633,9 @@
         "impactVector": "Swearing in local chairmen and reviewing 2,000 civil service rules modernizes public administration and strengthens grassroots governance accountability.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Monday Okpebholo swore in 18 LGA Chairmen and inaugurated a committee to review 2,000 Civil Service Rules, registering a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "body": "Governor Monday Okpebholo swore in 18 LGA Chairmen and inaugurated a committee to review 2,000 Civil Service Rules."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Edo State demonstrates high operational stability (SIS 2.4 SECURE), facilitating administrative governance overhauls and correctional rehabilitation partnerships."
-        }
+        "securityAnalysis": "Edo State demonstrates high operational stability (SIS 2.4 SECURE), facilitating administrative governance overhauls and correctional rehabilitation partnerships."
       },
       {
         "state": "Sokoto",
@@ -3686,12 +3653,9 @@
         "impactVector": "Delivering key asphalt road corridors connects agrarian communities directly to trade markets, reducing post-harvest losses.",
         "policyBreakdown": {
           "category": "Transport Connectivity, Rail Links & Capital Projects",
-          "body": "Governor Ahmed Aliyu commissioned the completed Kware–Gidan Madi Road project alongside Ambassador Gada, logging a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "body": "Governor Ahmed Aliyu commissioned the completed Kware–Gidan Madi Road project alongside Ambassador Gada."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Sokoto State operates under MONITORED security frameworks (SIS 4.2), focusing infrastructure investments on critical road corridors to safeguard agrarian trade logistics."
-        }
+        "securityAnalysis": "Sokoto State operates under MONITORED security frameworks (SIS 4.2), focusing infrastructure investments on critical road corridors to safeguard agrarian trade logistics."
       },
       {
         "state": "Plateau",
@@ -3709,12 +3673,9 @@
         "impactVector": "Immediate health closure prevents biological epidemic spread while resolving traditional chiefdom disputes restores communal peace in Wase LGA.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Caleb Mutfwang ordered temporary school closures to curb Diphtheria and reinstated the Reckna of Bashar, securing a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+          "body": "Governor Caleb Mutfwang ordered temporary school closures to curb Diphtheria and reinstated the Reckna of Bashar."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Plateau State combines non-oil export assets with MONITORED security and health conditions (SIS 3.6), actively mitigating risk through traditional chiefdom reconciliations and epidemic containment."
-        }
+        "securityAnalysis": "Plateau State combines non-oil export assets with MONITORED security and health conditions (SIS 3.6), actively mitigating risk through traditional chiefdom reconciliations and epidemic containment."
       },
       {
         "state": "Adamawa",
@@ -3732,12 +3693,9 @@
         "impactVector": "Enforcing pesticide safety standards expands agricultural export eligibility while administrative suspensions uphold sector transparency.",
         "policyBreakdown": {
           "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
-          "body": "Adamawa Government partnered with NEPC on GAP pesticide training, inspected capital road projects, and suspended the Post Primary Schools board chief, earning a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+          "body": "Adamawa Government partnered with NEPC on GAP pesticide training, inspected capital road projects, and suspended the Post Primary Schools board chief."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Adamawa State exhibits a MONITORED security rating (SIS 3.2), using targeted NEPC capacity building and urban road monitoring to secure agricultural trade chains."
-        }
+        "securityAnalysis": "Adamawa State exhibits a MONITORED security rating (SIS 3.2), using targeted NEPC capacity building and urban road monitoring to secure agricultural trade chains."
       },
       {
         "state": "Nasarawa",
@@ -3755,12 +3713,9 @@
         "impactVector": "Executive field inspection and immediate construction directives unlock vital suburban trade corridors near the FCT border.",
         "policyBreakdown": {
           "category": "Transport Connectivity, Rail Links & Capital Projects",
-          "body": "Governor Abdullahi A. Sule inspected the Panda Road terrain in Karu LGA and issued immediate construction directives, registering a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+          "body": "Governor Abdullahi A. Sule inspected the Panda Road terrain in Karu LGA and issued immediate construction directives."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Nasarawa State maintains a SECURE rating (SIS 2.6) along its FCT-adjacent corridors, enabling rapid transport infrastructure development around Karu LGA."
-        }
+        "securityAnalysis": "Nasarawa State maintains a SECURE rating (SIS 2.6) along its FCT-adjacent corridors, enabling rapid transport infrastructure development around Karu LGA."
       },
       {
         "state": "Oyo",
@@ -3778,12 +3733,9 @@
         "impactVector": "Accelerating major arterial road construction directly connects regional agricultural hubs to commercial processing centers.",
         "policyBreakdown": {
           "category": "Agro-Industrial PPP Deals & Agricultural Processing Hubs",
-          "body": "Governor Seyi Makinde accepted the chieftaincy title of Aare Asoludero of Ibarapaland, confirming completion timelines for the 48-km Ido–Eruwa Road, yielding a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+          "body": "Governor Seyi Makinde accepted the chieftaincy title of Aare Asoludero of Ibarapaland, confirming completion timelines for the 48-km Ido–Eruwa Road."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Oyo State features high operational security (SIS 1.7 SECURE), providing an ideal environment for long-term arterial road and agribusiness hub investments."
-        }
+        "securityAnalysis": "Oyo State features high operational security (SIS 1.7 SECURE), providing an ideal environment for long-term arterial road and agribusiness hub investments."
       },
       {
         "state": "Abia",
@@ -3801,12 +3753,9 @@
         "impactVector": "Direct diaspora engagement mobilizes private capital for state asset acquisitions while clarifying co-funded airport and road timelines.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Alex Otti conducted a strategic townhall with Ngwa diaspora leaders in Houston detailing Aba infrastructure, Starpaper Mill, and Nsulu Airport runway timelines, earning a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+          "body": "Governor Alex Otti conducted a strategic townhall with Ngwa diaspora leaders in Houston detailing Aba infrastructure, Starpaper Mill, and Nsulu Airport runway timelines."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Abia State maintains a SECURE operational rating (SIS 2.9 SECURE), supporting expanded commercial opportunities backed by diaspora engagements and infrastructure capital."
-        }
+        "securityAnalysis": "Abia State maintains a SECURE operational rating (SIS 2.9 SECURE), supporting expanded commercial opportunities backed by diaspora engagements and infrastructure capital."
       },
       {
         "state": "Delta",
@@ -3824,12 +3773,9 @@
         "impactVector": "Rescuing abandoned university administrative assets and expanding student housing improves academic environment and campus living standards.",
         "policyBreakdown": {
           "category": "Specialized Healthcare Infrastructure & Tertiary Clinical Care",
-          "body": "Delta State Government re-awarded the long-abandoned DELSU Senate Building and approved new student hostel facilities, logging a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "body": "Delta State Government re-awarded the long-abandoned DELSU Senate Building and approved new student hostel facilities."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Delta State offers strong commercial stability (SIS 2.6 SECURE), driving capital into university infrastructure and public tertiary assets."
-        }
+        "securityAnalysis": "Delta State offers strong commercial stability (SIS 2.6 SECURE), driving capital into university infrastructure and public tertiary assets."
       },
       {
         "state": "Bayelsa",
@@ -3847,12 +3793,9 @@
         "impactVector": "Swift diplomatic handling and humanitarian care for international maritime victims strengthens regional Gulf of Guinea relations.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Douye Diri formally handed over two rescued fishermen from São Tomé and Príncipe to Ambassador Carlos Manuel Moreno, earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+          "body": "Governor Douye Diri formally handed over two rescued fishermen from São Tomé and Príncipe to Ambassador Carlos Manuel Moreno."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Bayelsa State maintains a SECURE maritime and coastal profile (SIS 2.7), facilitating swift international humanitarian responses and blue economy security."
-        }
+        "securityAnalysis": "Bayelsa State maintains a SECURE maritime and coastal profile (SIS 2.7), facilitating swift international humanitarian responses and blue economy security."
       },
       {
         "state": "Zamfara",
@@ -3870,12 +3813,9 @@
         "impactVector": "Appointing seasoned leadership to the civil service alongside UNICEF WASH partnerships accelerates SDG 6 water and sanitation access.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Dauda Lawal appointed Shehu Baraya as Head of Service while RUWATSAN strengthened UNICEF technical collaboration, achieving a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+          "body": "Governor Dauda Lawal appointed Shehu Baraya as Head of Service while RUWATSAN strengthened UNICEF technical collaboration."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Zamfara State operates under MONITORED security conditions (SIS 4.8), focusing institutional capital on civil service stability and defensive public health/WASH infrastructure."
-        }
+        "securityAnalysis": "Zamfara State operates under MONITORED security conditions (SIS 4.8), focusing institutional capital on civil service stability and defensive public health/WASH infrastructure."
       },
       {
         "state": "Yobe",
@@ -3893,12 +3833,9 @@
         "impactVector": "Expanding digital communication capacity to 800 total practitioners counters misinformation and strengthens public governance literacy.",
         "policyBreakdown": {
           "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
-          "body": "Governor Mai Mala Buni approved training for a second batch of 400 media actors across 17 LGAs, recording a HIGH SIGNAL (8.3 PSI / Advancing Momentum)."
+          "body": "Governor Mai Mala Buni approved training for a second batch of 400 media actors across 17 LGAs."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Yobe State maintains MONITORED operational status (SIS 4.5), deploying digital media capacity initiatives to build community resilience and counter misinformation."
-        }
+        "securityAnalysis": "Yobe State maintains MONITORED operational status (SIS 4.5), deploying digital media capacity initiatives to build community resilience and counter misinformation."
       },
       {
         "state": "Ekiti",
@@ -3916,12 +3853,9 @@
         "impactVector": "Integrating climate education in primary schools while enforcing fiscal compliance rules protects natural resources and public funds.",
         "policyBreakdown": {
           "category": "Educational Rebuilding, Youth Innovation & Tech Grants",
-          "body": "Ekiti SUBEB flagged off the Greening Schools climate education programme as the Fiscal Responsibility Commission confirmed budget compliance, logging a HIGH SIGNAL (8.2 PSI / Advancing Momentum)."
+          "body": "Ekiti SUBEB flagged off the Greening Schools climate education programme as the Fiscal Responsibility Commission confirmed budget compliance."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Ekiti State displays high stability (SIS 1.5 SECURE), allowing seamless execution of environmental basic education and fiscal monitoring controls."
-        }
+        "securityAnalysis": "Ekiti State displays high stability (SIS 1.5 SECURE), allowing seamless execution of environmental basic education and fiscal monitoring controls."
       },
       {
         "state": "Kwara",
@@ -3939,12 +3873,9 @@
         "impactVector": "Direct military deployment flushes out criminal elements while settling long-standing legal staff allowances boosts judicial morale.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor AbdulRahman AbdulRazaq directed military troop deployments to Apado and approved outstanding allowances for State Counsels, registering a HIGH SIGNAL (8.1 PSI / Advancing Momentum)."
+          "body": "Governor AbdulRahman AbdulRazaq directed military troop deployments to Apado and approved outstanding allowances for State Counsels."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial Corridors",
-          "body": "Kwara State maintains a SECURE overall profile (SIS 1.7), deploying 22 Armoured Brigade troops to Apado to proactively neutralize rural bandit threats."
-        }
+        "securityAnalysis": "Kwara State maintains a SECURE overall profile (SIS 1.7), deploying 22 Armoured Brigade troops to Apado to proactively neutralize rural bandit threats."
       },
       {
         "state": "Enugu",
@@ -3962,12 +3893,10 @@
         "impactVector": "Partnering with youth organizations on anti-crime campaigns strengthens grassroots security and offers productive social alternatives.",
         "policyBreakdown": {
           "category": "Civil Service Governance, Administrative Rules & Civic Peace",
-          "body": "Governor Peter Mbah commended youth groups at the 'Unite Against Crime and Terrorism' rally, achieving a HIGH SIGNAL (8.0 PSI / Advancing Momentum)."
+          "body": "Governor Peter Mbah commended youth groups at the 'Unite Against Crime and Terrorism' rally."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Maritime Corridors",
-          "body": "Enugu State maintains a SECURE operational rating (SIS 2.2), supporting youth-led community anti-crime partnerships to preserve urban peace."
-     }
+        "securityAnalysis": "Enugu State maintains a SECURE operational rating (SIS 2.2), supporting youth-led community anti-crime partnerships to preserve urban peace."
+      }
     ]
    },
   "08": {
