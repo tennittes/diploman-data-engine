@@ -2875,7 +2875,7 @@
         }
       ]
      },
-    "04": {
+      "04": {
     "date": "2026-09-04",
     "formattedDate": "September 4, 2026",
     "metadata": {
@@ -2892,8 +2892,8 @@
         "summary": "Subnational executive momentum on September 4, 2026, recorded a strong 8.2 PSI average, led by budget enactments in Rivers, healthcare expansion in Abia, investment deal books in Lagos, and road corridor commissioning in Kaduna, Sokoto, and Akwa Ibom."
       },
       "security": {
-        "title": "Subnational Advisory Profile Highlights High-Alpha Investment Opportunities and Secure Commercial Corridors",
-        "summary": "Analysis of Nigeria’s subnational investment climate for September 4, 2026, detailing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and strategic asset allocation across commercial, industrial, and agricultural corridors."
+        "title": "Subnational Advisory Profile Highlights High-Alpha Investment Corridors, Secure Logistics Assets and Risk Mitigation Across 21 Active Jurisdictions",
+        "summary": "Strategic analysis of Nigeria’s subnational investment climate for September 4, 2026, detailing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and market vulnerability indices across commercial, industrial, and agricultural corridors."
       },
       "policy": {
         "title": "Subnational Executive Momentum Accelerates Across Health, Infrastructure and Security Corridors at 8.2 PSI",
@@ -2902,54 +2902,30 @@
     },
     "macroAnalysis": {
       "policy": {
-        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory demonstrated high-capacity operational interventions during the active reporting window ending September 4, 2026. The 37-jurisdiction subnational net Policy Signal Index (PSI) baseline settled at a strong composite average of 8.2, reflecting sustained executive momentum in transitioning policy directives into direct physical execution, infrastructure rehabilitation, healthcare system safeguards, and statutory budget enactments.",
-        "emergingPatterns": "The active reporting window reveals strong subnational policy convergence around public infrastructure protection, regulatory modernization, and decentralized service delivery. State executives are increasingly bypassing traditional administrative lag by deploying direct executive oversight, establishing targeted agencies, and forging bilateral partnerships with federal ministries and international institutions.",
-        "strategicOutlook": "Looking ahead, the sustainability of current subnational momentum depends on institutionalizing asset maintenance, expanding local government implementation capacity, and maintaining rigorous fiscal discipline.",
-        "conclusion": "The subnational executive governance landscape for September 4, 2026, reflects measurable structural progress driven by decisive gubernatorial leadership."
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory demonstrated high-capacity operational interventions during the active reporting window ending September 4, 2026. The 37-jurisdiction subnational net Policy Signal Index (PSI) baseline settled at a strong composite average of 8.2, reflecting sustained executive momentum in transitioning policy directives into direct physical execution, infrastructure rehabilitation, healthcare system safeguards, and statutory budget enactments.\n\nAcross the geopolitical zones, state governors and executive councils prioritized grassroots service delivery, sovereign risk mitigation, and structural reform. From legislative budget sign-offs in Rivers State to a 900-bed decentralized health infrastructure expansion in Abia State and major highway commissioning in Kaduna, Sokoto, and Akwa Ibom, subnational leadership maintained high institutional velocity focused on long-term public welfare and asset protection.",
+        "emergingPatterns": "The active reporting window reveals strong subnational policy convergence around public infrastructure protection, regulatory modernization, and decentralized service delivery. State executives are increasingly bypassing traditional administrative lag by deploying direct executive oversight, establishing targeted agencies, and forging bilateral partnerships with federal ministries and international institutions. This trend underscores a deliberate move toward economic self-reliance, physical asset security, and enhanced subnational fiscal competitiveness across both agrarian and industrial trade hubs.",
+        "strategicOutlook": "Looking ahead, the sustainability of current subnational momentum depends on institutionalizing asset maintenance, expanding local government implementation capacity, and maintaining rigorous fiscal discipline. States that successfully align regional security frameworks with grassroots economic development will likely absorb external macroeconomic shocks more effectively, maintaining high investor confidence and continuous public service delivery.",
+        "conclusion": "The subnational executive governance landscape for September 4, 2026, reflects measurable structural progress driven by decisive gubernatorial leadership. By anchoring administrative directives in verifiable public asset delivery, strict regulatory enforcement, and proactive security coordination, Nigeria’s state governments continue to strengthen institutional capacity and subnational resilience."
       },
       "security": {
-        "introduction": "The subnational investment landscape across Nigeria’s 36 States and the Federal Capital Territory for September 4, 2026, demonstrates high operational stability, with strategic commercial zones displaying robust security metrics and strong capital protection frameworks.",
-        "emergingPatterns": "Subnational risk metrics reflect a clear bifurcation: commercial megacities, maritime ports, and southern agricultural corridors maintain highly stable SECURE (SIS < 3.0) environments ideal for equity deployment.",
-        "strategicOutlook": "Subnational investment returns over the upcoming operational cycles will favor investors who align capital deployment with state-level executive priorities.",
-        "conclusion": "Navigating Nigeria’s subnational market requires precise, metric-driven risk mapping."
+        "introduction": "The subnational investment landscape across Nigeria's 36 States and the Federal Capital Territory for September 4, 2026, demonstrates high operational stability, with strategic commercial corridors displaying robust security metrics and strong capital protection frameworks. Investors, institutional lenders, and corporate strategists evaluating subnational exposure must navigate varying risk-adjusted yield profiles, balancing rapid infrastructure growth in secure maritime and agrarian hubs against monitored security dynamics along inter-state logistics routes.\n\nThrough the compulsory B3 State Advisory Data framework, subnational jurisdictions are evaluated based on their Policy Signal Index (PSI), raw Security Incident Score (SIS), Risk Indicator classification, and derived Investment Decision Profile. This multi-layered analytical model offers clear guidance for deploying institutional equity, trade finance, and infrastructure capital across key geopolitical zones.",
+        "emergingPatterns": "Subnational risk metrics reflect a clear bifurcation: commercial megacities, maritime ports, and southern agricultural corridors maintain highly stable SECURE (SIS < 3.0) environments ideal for equity deployment and long-term asset accumulation. Conversely, central and northern logistics corridors require active operational oversight (MONITORED: 3.0 <= SIS <= 6.5), where high-yield potential in agri-business, mining, and road transport must be paired with tactical risk hedges and localized supply chain surveillance.",
+        "strategicOutlook": "Subnational investment returns over the upcoming operational cycles will favor investors who align capital deployment with state-level executive priorities—specifically independent power generation, transport logistics, healthcare infrastructure, and agricultural processing. Public-private partnerships backed by clear executive guarantees and statutory deal books will continue to outperform unhedged private ventures.",
+        "conclusion": "Navigating Nigeria’s subnational market requires precise, metric-driven risk mapping. By leveraging the Policy Signal Index and Security Incident Score profiles, corporate planners and institutional investors can capture high-alpha returns while maintaining capital preservation across diverse geopolitical corridors."
       }
     },
     "corridorGroups": [
       {
-        "groupTitle": "Commercial Mega-Hubs & Public-Private Partnerships",
-        "states": ["Lagos"]
+        "groupTitle": "South-South & South-East Maritime and Healthcare Corridors",
+        "states": ["Cross River", "Akwa Ibom", "Abia", "Delta", "Rivers", "Bayelsa"]
       },
       {
-        "groupTitle": "Statutory Budget Enactments & Fiscal Management",
-        "states": ["Rivers"]
+        "groupTitle": "Commercial Mega-Hubs & South-West Industrial Zones",
+        "states": ["Lagos", "Ondo", "Oyo", "Ekiti", "Kwara"]
       },
       {
-        "groupTitle": "Decentralized Healthcare Expansion & Medical Infrastructure",
-        "states": ["Abia", "Cross River"]
-      },
-      {
-        "groupTitle": "Social Welfare Protections & Tertiary Subvention Allocations",
-        "states": ["Ondo", "Delta"]
-      },
-      {
-        "groupTitle": "Transport Connectivity & Inter-State Corridor Development",
-        "states": ["Kaduna", "Sokoto", "Akwa Ibom", "Oyo"]
-      },
-      {
-        "groupTitle": "Non-Oil Export Expansion & Agribusiness Value Chains",
-        "states": ["Plateau", "Ekiti"]
-      },
-      {
-        "groupTitle": "Statutory Board Inaugurations & Sector Regulation",
-        "states": ["Edo", "Kwara"]
-      },
-      {
-        "groupTitle": "Centenary Leadership Awards & Consultative Governance",
-        "states": ["Nasarawa", "Katsina", "Zamfara", "Niger", "Taraba"]
-      },
-      {
-        "groupTitle": "Community Civic Infrastructure & Grassroots Security",
-        "states": ["Kebbi", "Bayelsa"]
+        "groupTitle": "North-West & North-Central Agrarian and Border Corridors",
+        "states": ["Sokoto", "Kebbi", "Kaduna", "Katsina", "Plateau", "Nasarawa", "Zamfara", "Niger", "Taraba"]
       }
     ],
     "jurisdictions": [
@@ -2968,10 +2944,10 @@
         "headline": "Lagos Leads Investment Drive as Governor Sanwo-Olu Unveils Strategic Partnerships and Deal Book at Invest Nigeria 4.0",
         "impactVector": "Unveiling bankable PPP project profiles moves state investment engagement from abstract rhetoric to direct asset financing across transport, health, and sustainable energy corridors.",
         "policyBreakdown": {
-          "category": "Commercial Mega-Hubs & Public-Private Partnerships",
+          "category": "Commercial Mega-Hubs & South-West Industrial Zones",
           "body": "Lagos State Governor Babajide Sanwo-Olu, represented by Commerce Commissioner Folashade Ambrose-Medebem, presented the Lagos Investment Deal Book at Invest Nigeria 4.0. The presentation outlined structured PPP opportunities across transport, health, sustainable energy, and digital governance, achieving an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Lagos State (9.3 PSI / OPTIMUM SIGNAL / SIS 1.2 SECURE / High-Alpha / Prime Alpha Opportunity) remains Nigeria's premier capital destination, offering bankable PPP assets across transport, energy, and digital governance via its newly released Investment Deal Book."
       },
       {
         "state": "Rivers",
@@ -2988,10 +2964,10 @@
         "headline": "Gov Fubara Signs 2026 Appropriation Bill into Law, Hails New Era of Cooperation",
         "impactVector": "Formal signing of the statutory budget provides immediate fiscal backing for state-wide public procurement, infrastructure projects, and civil service welfare.",
         "policyBreakdown": {
-          "category": "Statutory Budget Enactments & Fiscal Management",
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
           "body": "Rivers State Governor Siminalayi Fubara signed the 2026 State Appropriation Bill into law at Government House, Port Harcourt, after swift legislative passage. The statutory clearance registered an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Rivers State maintains a SECURE (SIS 2.8) operational rating, backed by statutory budget enactment that guarantees continuous funding for state public safety infrastructure and administrative stability."
       },
       {
         "state": "Abia",
@@ -3008,10 +2984,10 @@
         "headline": "Governor Otti’s 900-Bed Tertiary Healthcare Revolution: Decentralising Universal Healthcare Delivery in Abia",
         "impactVector": "Constructing three specialist hospitals across Abia's senatorial zones physically expands tertiary care capacity and eliminates travel bottlenecks for specialized medical care.",
         "policyBreakdown": {
-          "category": "Decentralized Healthcare Expansion & Medical Infrastructure",
-          "body": "Governor Alex Otti's administration advanced the construction of a 900-bed decentralized tertiary healthcare network across Abia's three senatorial zones, recording an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Governor Alex Otti's administration advanced the construction of a 900-bed decentralized tertiary healthcare network comprising Umunnato Specialist Hospital (200 beds), Amachara Specialist Hospital (350 beds), and ABSUTH Phase II (350 beds) across Abia's three senatorial zones."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Abia State (9.2 PSI / OPTIMUM SIGNAL / SIS 2.9 SECURE / Growth-Oriented / Balanced Expansion) presents strong healthcare sector opportunities backed by a 900-bed decentralized hospital network expansion."
       },
       {
         "state": "Ondo",
@@ -3028,10 +3004,10 @@
         "headline": "Ondo State Earmarks ₦18M for Widows Care and Pays New Subvention Arrears to Tertiary Institutions",
         "impactVector": "Releasing ₦18 million in direct welfare grants alongside a 60% subvention increment for tertiary schools directly mitigates economic vulnerability and restores tertiary educational stability.",
         "policyBreakdown": {
-          "category": "Social Welfare Protections & Tertiary Subvention Allocations",
-          "body": "Ondo State Government released ₦18M for vulnerable widows and paid subvention arrears with a 60% increment to four state-owned tertiary institutions, registering an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+          "category": "Commercial Mega-Hubs & South-West Industrial Zones",
+          "body": "Ondo State Government released ₦18 million for vulnerable widows across three LGAs under the O'Datiwa Widows' Care Initiative and effected August arrears payment featuring a 60% subvention increment to state tertiary institutions."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Ondo State (9.1 PSI / OPTIMUM SIGNAL / SIS 1.5 SECURE / Growth-Oriented / Balanced Expansion) offers stable commercial conditions backed by tertiary education subvention releases and grassroots social welfare investments."
       },
       {
         "state": "Kaduna",
@@ -3048,10 +3024,10 @@
         "headline": "Governor Uba Sani Commissions Nasarawa–Flour Mills Road Connecting Kaduna South and Chikun LGAs",
         "impactVector": "Rescuing and completing a previously abandoned road project restores urban-rural transport connectivity and reduces freight movement friction between key commercial hubs.",
         "policyBreakdown": {
-          "category": "Transport Connectivity & Inter-State Corridor Development",
-          "body": "Governor Uba Sani commissioned the Nasarawa–Flour Mills Road connecting Kaduna South and Chikun LGAs, rescuing an asset abandoned at 15% completion to achieve an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Kaduna State Governor Uba Sani commissioned the completed Nasarawa–Flour Mills Road connecting Kaduna South and Chikun LGAs, which was previously abandoned at 15% completion."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Kaduna State (9.1 PSI / OPTIMUM SIGNAL / SIS 3.8 MONITORED / Growth-Oriented / Caution) exhibits strong infrastructure execution paired with active municipal surveillance along urban transport corridors."
       },
       {
         "state": "Cross River",
@@ -3068,10 +3044,10 @@
         "headline": "Governor Otu Re-Activates Newspaper Corporation, Commissions Government Printing Press and Signs Health Quackery Law",
         "impactVector": "Enforcing strict clinical regulatory penalties protects public health while modernizing state information infrastructure expands public sector communication.",
         "policyBreakdown": {
-          "category": "Decentralized Healthcare Expansion & Medical Infrastructure",
-          "body": "Governor Prince Bassey Otu signed the Health Quackery Prohibition Law and commissioned the remodelled Cross River Information Hub, earning an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Governor Prince Bassey Otu re-activated the Cross River State Newspaper Corporation, commissioned the remodelled Cross River Information Hub, and signed the Health Quackery Prohibition Law."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Cross River State (9.0 PSI / OPTIMUM SIGNAL / SIS 1.9 SECURE / High-Alpha / Prime Alpha Opportunity) presents an exceptional investment environment, reinforced by new health sector regulatory laws and state-of-the-art information infrastructure."
       },
       {
         "state": "Sokoto",
@@ -3088,10 +3064,10 @@
         "headline": "Governor Aliyu Hosts Nasarawa Governor Abdullahi Sule to Commission Silame Bridge and Garin Magaji Rural Road",
         "impactVector": "Commissioning key bridge and rural road assets directly links agrarian farming communities to commercial markets, reducing post-harvest losses and transit times.",
         "policyBreakdown": {
-          "category": "Transport Connectivity & Inter-State Corridor Development",
-          "body": "Governor Ahmed Aliyu hosted Nasarawa Governor Abdullahi Sule to commission the Silame Bridge and 9.4-km Garin Magaji–Gittarana road, recording an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Sokoto State Governor Ahmed Aliyu hosted Nasarawa Governor Abdullahi Sule to commission the landmark Silame Bridge and the 9.4-kilometre Garin Magaji–Gittarana rural road."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Sokoto State (9.0 PSI / OPTIMUM SIGNAL / SIS 4.2 MONITORED / Growth-Oriented / Caution) offers expanding agricultural logistics opportunities, though inter-state corridors require standard security oversight."
       },
       {
         "state": "Delta",
@@ -3108,10 +3084,10 @@
         "headline": "Delta State Unveils Grassroots Economic Stimulus Package and Proposes 13th-Month Salary Framework",
         "impactVector": "Expanding public infrastructure spending and institutionalizing bonus salary structures boosts household disposable income and stimulates local commerce.",
         "policyBreakdown": {
-          "category": "Social Welfare Protections & Tertiary Subvention Allocations",
-          "body": "Delta State Government unveiled grassroots economic stimulus measures including rural road investments and a proposed 13th-month salary, logging an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Delta State Government unveiled economic measures including rural road infrastructure investments, proposed institutionalization of a 13th-month salary, and expanded empowerment programs."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Delta State (9.0 PSI / OPTIMUM SIGNAL / SIS 2.6 SECURE / High-Alpha / Prime Alpha Opportunity) maintains high consumer liquidity through state-led economic stimulus programs."
       },
       {
         "state": "Akwa Ibom",
@@ -3128,10 +3104,10 @@
         "headline": "Governor Umo Eno Commissions 6.475-km Amanyam–Mbiaso Road with 12.95-km Drainage in Ikot Ekpene",
         "impactVector": "Delivering engineered road corridors with extensive side drainage prevents flood damage and secures rural trade mobility across agricultural communities.",
         "policyBreakdown": {
-          "category": "Transport Connectivity & Inter-State Corridor Development",
-          "body": "Governor Umo Eno commissioned the 6.475-km Amanyam–Mbiaso Road with 12.95 km of side drains in Ikot Ekpene LGA, registering a HIGH SIGNAL (8.9 PSI / Advancing Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Governor Umo Eno commissioned the 6.475-kilometre Amanyam–Mbiaso Road in Ikot Ekpene LGA, featuring 12.95 kilometres of side drains as part of the state's 39th anniversary projects."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Akwa Ibom State (8.9 PSI / HIGH SIGNAL / SIS 1.8 SECURE / High-Alpha / Prime Alpha Opportunity) offers high security and logistics reliability with ongoing road corridor expansions."
       },
       {
         "state": "Plateau",
@@ -3148,10 +3124,10 @@
         "headline": "Plateau Partners NEPC to Boost Non-Oil Exports Targeting $12M Earnings as Governor Mutfwang Receives Hajj Report",
         "impactVector": "Structuring export clusters for potato, horticulture, and tin directly integrates local producers into international trade networks while promoting civic peace.",
         "policyBreakdown": {
-          "category": "Non-Oil Export Expansion & Agribusiness Value Chains",
-          "body": "Plateau State Government aligned with NEPC to expand non-oil exports toward a $12M target while Governor Caleb Mutfwang received the 2026 Hajj report, yielding a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Plateau State Government aligned with NEPC to expand potato, horticulture, and tin exports toward a $12M target while Governor Caleb Mutfwang received the 2026 Hajj report."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Plateau State (8.8 PSI / HIGH SIGNAL / SIS 3.6 MONITORED / High-Alpha / Growth with Monitoring) presents high-yield opportunities in non-oil exports, horticulture, and solid minerals under the One State, One Product initiative."
       },
       {
         "state": "Edo",
@@ -3168,10 +3144,10 @@
         "headline": "Governor Okpebholo Inaugurates Four Statutory Boards as Oil Ministry Engages Petroleum Task Force",
         "impactVector": "Establishing rural road and consumer protection agencies alongside strict petroleum task force oversight strengthens public service delivery and environmental safety.",
         "policyBreakdown": {
-          "category": "Statutory Board Inaugurations & Sector Regulation",
-          "body": "Governor Monday Okpebholo inaugurated four key statutory boards while the Oil Ministry aligned with the Petroleum Task Force, recording a HIGH SIGNAL (8.8 PSI / Advancing Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Governor Monday Okpebholo inaugurated four boards including RARA and Consumer Protection, while the Oil and Gas Ministry partnered with the Petroleum Task Force on sector standards."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Edo State maintains a SECURE (SIS 2.4) rating with active Petroleum Task Force oversight protecting oil and gas installations and commercial corridors."
       },
       {
         "state": "Nasarawa",
@@ -3188,10 +3164,10 @@
         "headline": "Governor Abdullahi Sule Receives Daily Times Centenary Outstanding Governor of the Year Award",
         "impactVector": "National recognition underscores sustained subnational leadership, regional security coordination, and institutional governance stability.",
         "policyBreakdown": {
-          "category": "Centenary Leadership Awards & Consultative Governance",
-          "body": "Governor Abdullahi A. Sule received the Daily Times Centenary Outstanding Governor of the Year Award in Abuja, logging a HIGH SIGNAL (8.7 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Nasarawa State Governor Abdullahi A. Sule received the Daily Times Centenary Outstanding Governor of the Year Award in Abuja and hosted state executive council members at Governor's Lodge."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Nasarawa State demonstrates a SECURE (SIS 2.6) operational stability, supporting agricultural trade corridors and solid mineral processing zones."
       },
       {
         "state": "Katsina",
@@ -3208,10 +3184,10 @@
         "headline": "Governor Radda Engages Former National Assembly Members on Katsina State Development Strategy",
         "impactVector": "Tapping institutional legislative experience enhances policy formulation and aligns regional security and development initiatives.",
         "policyBreakdown": {
-          "category": "Centenary Leadership Awards & Consultative Governance",
-          "body": "Governor Dikko Umaru Radda hosted former National Assembly members for a strategic development consultative meeting, earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Katsina State Governor Dikko Umaru Radda hosted former National Assembly members from 1970 to date for a strategic consultative meeting at Government House, Katsina."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Katsina State (8.6 PSI / HIGH SIGNAL / SIS 4.1 MONITORED / Growth-Oriented / Caution) exhibits strong infrastructure execution paired with active municipal surveillance across border LGAs."
       },
       {
         "state": "Oyo",
@@ -3228,10 +3204,10 @@
         "headline": "Oyo State Advances Reconstruction of 30-km Okaka Junction–Otu–Igbojaiye–KAP Film Village Road",
         "impactVector": "Upgrading major arterial links directly connects agrarian zones and creative economy hubs to regional market centers.",
         "policyBreakdown": {
-          "category": "Transport Connectivity & Inter-State Corridor Development",
-          "body": "Oyo State Government progressed with the reconstruction of the 30-km Okaka Junction–Film Village Road, achieving a HIGH SIGNAL (8.5 PSI / Advancing Momentum)."
+          "category": "Commercial Mega-Hubs & South-West Industrial Zones",
+          "body": "Oyo State Government progressed with the ongoing reconstruction and rehabilitation of the 30-kilometre Okaka Junction–Otu–Igbojaiye–KAP Film Village Road in Itesiwaju LGA."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Oyo State (8.5 PSI / HIGH SIGNAL / SIS 1.7 SECURE / Growth-Oriented / Balanced Expansion) presents a low-risk environment for agricultural logistics, film infrastructure, and regional trade."
       },
       {
         "state": "Zamfara",
@@ -3248,10 +3224,10 @@
         "headline": "Governor Dauda Lawal Receives Daily Times Centenary Outstanding Governor Award for North-West Region",
         "impactVector": "Regional recognition reflects ongoing public service reforms, institutional rebuilding, and state security advocacy.",
         "policyBreakdown": {
-          "category": "Centenary Leadership Awards & Consultative Governance",
-          "body": "Governor Dauda Lawal was honoured with the Outstanding Governor Award (North-West) at the Daily Times Centenary Celebration, recording a HIGH SIGNAL (8.4 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Zamfara State Governor Dauda Lawal received the Outstanding Governor Award (North-West) at the Daily Times Nigeria Centenary Heroes Award ceremony in Abuja."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Zamfara State operates under a MONITORED (SIS 4.8) status, requiring tactical risk mitigation and political risk hedges for commercial operations."
       },
       {
         "state": "Niger",
@@ -3268,10 +3244,10 @@
         "headline": "Farmer Governor Umaru Bago Bagged Daily Times Governor of the Year Award at Centenary Celebration",
         "impactVector": "National recognition highlights large-scale agricultural investments, urban renewal, and subnational infrastructure expansion.",
         "policyBreakdown": {
-          "category": "Centenary Leadership Awards & Consultative Governance",
-          "body": "Farmer Governor Mohammed Umaru Bago received the Daily Times Governor of the Year Award in Abuja, logging a HIGH SIGNAL (8.4 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Niger State Governor Farmer Mohammed Umaru Bago received the Daily Times Governor of the Year Award in Abuja for achievements in agricultural revolution and infrastructure."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Niger State holds a MONITORED (SIS 4.0) security status where expanding agricultural logistics routes require localized surveillance and security coordination."
       },
       {
         "state": "Taraba",
@@ -3288,10 +3264,10 @@
         "headline": "Governor Agbu Kefas Honoured with Daily Times Centenary Outstanding Governor (North East) Award",
         "impactVector": "Award recognition reinforces executive achievements in educational reform, youth empowerment, and regional development.",
         "policyBreakdown": {
-          "category": "Centenary Leadership Awards & Consultative Governance",
-          "body": "Governor Dr. Agbu Kefas was awarded the Daily Times Outstanding Governor (North East) Award in Abuja, registering a HIGH SIGNAL (8.3 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Taraba State Governor Dr. Agbu Kefas was honoured with the Daily Times @100 Outstanding Governor (North East) Award at ThisDay Dome, Abuja."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Taraba State operates under MONITORED (SIS 3.6) conditions, balancing high-yield potential in educational and natural resource assets with active community security management."
       },
       {
         "state": "Ekiti",
@@ -3308,10 +3284,10 @@
         "headline": "Ekiti L-PRES Intervention Boosts Livestock Production and Regional Economic Growth",
         "impactVector": "Infrastructure deployment and extension support in the livestock sector increases animal protein production and rural agribusiness resilience.",
         "policyBreakdown": {
-          "category": "Non-Oil Export Expansion & Agribusiness Value Chains",
-          "body": "Ekiti State L-PRES technical committee evaluated key infrastructure interventions boosting livestock production across the state, yielding a HIGH SIGNAL (8.2 PSI / Advancing Momentum)."
+          "category": "Commercial Mega-Hubs & South-West Industrial Zones",
+          "body": "Ekiti State L-PRES technical committee reviewed major infrastructure interventions, veterinary extension support, and livestock production facilities across the state."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Ekiti State (8.2 PSI / HIGH SIGNAL / SIS 1.5 SECURE / Growth-Oriented / Balanced Expansion) presents a low-risk environment for livestock value chain development and agribusiness investments."
       },
       {
         "state": "Kebbi",
@@ -3328,10 +3304,10 @@
         "headline": "Governor Nasir Idris Completes Renovation of Darika Central Mosque in Danko-Wasagu LGA",
         "impactVector": "Restoring community religious infrastructure promotes social cohesion, civic peace, and grassroots stability.",
         "policyBreakdown": {
-          "category": "Community Civic Infrastructure & Grassroots Security",
-          "body": "Kebbi State Government completed the renovation of Darika Central Mosque in Danko-Wasagu LGA, logging a HIGH SIGNAL (8.1 PSI / Advancing Momentum)."
+          "category": "North-West & North-Central Agrarian and Border Corridors",
+          "body": "Kebbi State Government completed the directive-led renovation of Darika Central Mosque in Waje Ward, Danko-Wasagu LGA, following executive approval by Governor Nasir Idris."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Kebbi State (8.1 PSI / HIGH SIGNAL / SIS 2.7 SECURE / Growth-Oriented / Balanced Expansion) offers expanding agricultural logistics opportunities and stable civic conditions."
       },
       {
         "state": "Bayelsa",
@@ -3348,10 +3324,10 @@
         "headline": "Bayelsa State Government Suspends Implementation of Alleged New School Fees Policy at Niger Delta University",
         "impactVector": "Proactive executive intervention halts student discontent, protecting academic order and campus stability.",
         "policyBreakdown": {
-          "category": "Community Civic Infrastructure & Grassroots Security",
-          "body": "Bayelsa State Government suspended the implementation of an alleged new school fee policy at Niger Delta University, earning a HIGH SIGNAL (8.0 PSI / Advancing Momentum)."
+          "category": "South-South & South-East Maritime and Healthcare Corridors",
+          "body": "Bayelsa State Government issued an executive directive suspending the alleged new school fees policy at Niger Delta University, Wilberforce Island, Amassoma."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Bayelsa State holds a SECURE (SIS 2.7) rating, where proactive administrative interventions successfully preserve civic order and academic stability."
       },
       {
         "state": "Kwara",
@@ -3368,10 +3344,10 @@
         "headline": "KWASAA Clarifies Billboard Enforcement at Geri Alimi Underpass, Reaffirms Non-Partisan Oversight",
         "impactVector": "Enforcing structural safety standards on public transport bridges prevents infrastructure damage and hazards for road users.",
         "policyBreakdown": {
-          "category": "Statutory Board Inaugurations & Sector Regulation",
-          "body": "KWASAA clarified its non-partisan structural safety enforcement on an unapproved billboard framework at Geri Alimi Underpass, recording a HIGH SIGNAL (7.8 PSI / Advancing Momentum)."
+          "category": "Commercial Mega-Hubs & South-West Industrial Zones",
+          "body": "Kwara State Signage and Advertisement Agency (KWASAA) clarified its enforcement action on an unapproved billboard structure at the Geri Alimi Underpass bridge framework."
         },
-        "securityAnalysis": null
+        "securityAnalysis": "Kwara State maintains a SECURE (SIS 1.7) environment with active regulatory enforcement safeguarding public transport infrastructure and urban safety."
       }
      ]
     },
