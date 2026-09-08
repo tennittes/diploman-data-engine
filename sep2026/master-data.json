@@ -5486,8 +5486,8 @@
     "stateName": "Katsina",
     "zone": "North-West",
     "psi": 8.6,
-    "focus": "Legislative Consultative Governance",
     "sis": 4.1,
+    "focus": "Legislative Consultative Governance",
     "dailyBrief": "Hosted former National Assembly members serving from 1970 to date for strategic state development consultations."
   },
   {
@@ -5561,6 +5561,150 @@
     "sis": 1.7,
     "focus": "Signage Safety Enforcement & Infrastructure Protection",
     "dailyBrief": "KWASAA enforced structural safety compliance on billboards at Geri Alimi Underpass to protect road users."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "FCT (Abuja)",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
+  },
+  {
+    "dayNumber": 4,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Routine administrative continuity maintained under standard executive civil service operations."
   },
   {
     "dayNumber": 7,
