@@ -4699,7 +4699,7 @@
       }
      ]
     },
-  "09": {
+    "09": {
     "date": "2026-09-09",
     "formattedDate": "September 9, 2026",
     "metadata": {
@@ -4779,13 +4779,7 @@
           "category": "Fiscal Frameworks, Participatory Budgeting, and Real Estate Regulation",
           "body": "Katsina State recorded an OPTIMUM SIGNAL (9.4 PSI / Accelerating Momentum) as Governor Dikko Umaru Radda presented a proposed N828.64B 2027 budget to the House of Assembly, allocating N637.91B (76.98%) to capital expenditure shaped by citizen inputs across all 361 wards."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial and Fiscal Corridors",
-          "body": "Katsina State (9.4 PSI / OPTIMUM SIGNAL / SIS 4.1 MONITORED / Growth-Oriented / Caution) leads subnational fiscal planning with a 77% capital allocation in its N828.64B budget proposal.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "Managed Regional Risk",
-          "investorGuidance": "Caution advised; align investments with urban institutions and state-led development programs."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Lagos",
@@ -4805,13 +4799,7 @@
           "category": "Fiscal Frameworks, Participatory Budgeting, and Real Estate Regulation",
           "body": "Lagos State logged an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum) as LASRERA opened a new satellite office in Eti-Osa to decentralize real estate regulation, while LASCOPA hosted the 2026 Lagos State Food Safety Conference."
         },
-        "securityAnalysis": {
-          "category": "Commercial Mega-Hubs & Financial Centers",
-          "body": "Lagos State (9.2 PSI / OPTIMUM SIGNAL / SIS 1.2 SECURE / High-Alpha / Prime Alpha Opportunity) maintains its standing as Africa's premier financial destination, supported by LASRERA's Eti-Osa satellite office expansion and consumer protection food safety initiatives.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Capital Safety",
-          "investorGuidance": "Prime Alpha Opportunity for long-term equity, fintech, and commercial infrastructure deployment."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Adamawa",
@@ -4831,13 +4819,7 @@
           "category": "Agro-Industrial Development, Mining Operations, and Infrastructure Financing",
           "body": "Adamawa State generated an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum) as Governor Ahmadu Fintiri pledged full support for a new Digital Academy training 10,000 students, while EXCO approved over N78B for secondary school materials, traditional rulers' housing, and road connectivity."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial and Fiscal Corridors",
-          "body": "Adamawa State (9.1 PSI / OPTIMUM SIGNAL / SIS 3.2 MONITORED / Growth-Oriented / Caution) presents a massive N78B infrastructure financing framework.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "State-Mediated Stability",
-          "investorGuidance": "Caution advised; engage in direct community stakeholder management for agro-industrial projects."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Ondo",
@@ -4857,13 +4839,7 @@
           "category": "Healthcare Modernization, Power Sector Resolution, and Technical Education",
           "body": "Ondo State recorded an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum) as the State Executive Council raised the 2026 budget from N524.41B to N769.38B to fund a minimum of 5km of road per LGA, while ODSUBEB launched climate change education and artisan test-trade certifications with GIZ."
         },
-        "securityAnalysis": {
-          "category": "South-West Public Administration Corridors",
-          "body": "Ondo State exhibits outstanding security stability (1.5 SIS). Peaceful public environments enable seamless execution of government capacity-building retreats, TVET certification, and infrastructure budget expansion.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Social Peace",
-          "investorGuidance": "Balanced Expansion tier for agricultural processing, coastal trade, and public sector consulting."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Akwa Ibom",
@@ -4883,13 +4859,7 @@
           "category": "Healthcare Modernization, Power Sector Resolution, and Technical Education",
           "body": "Akwa Ibom State generated an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum) as Governor Umo Eno resolved wayleave compensation issues to unblock the 20-year stalled 330kV NIPP transmission line and commissioned a Model Primary Healthcare Centre in Esit Eket."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Akwa Ibom State (9.0 PSI / OPTIMUM SIGNAL / SIS 1.8 SECURE / High-Alpha / Prime Alpha Opportunity) offers strong energy reliability following the unblocking of the 330kV NIPP transmission line.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "High Resilience",
-          "investorGuidance": "Prime Alpha Opportunity across healthcare, education technology, and power sector logistics."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Nasarawa",
@@ -4909,13 +4879,7 @@
           "category": "Agro-Industrial Development, Mining Operations, and Infrastructure Financing",
           "body": "Nasarawa State recorded an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum) as Governor Abdullahi Sule launched the State Council on Agriculture, the Agriculture Policy and Investment Plan, and the Agriculture Intelligence Dashboard, while presiding over an expanded EXCO meeting on mining host communities."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial and Fiscal Corridors",
-          "body": "Nasarawa State (9.0 PSI / OPTIMUM SIGNAL / SIS 2.6 SECURE / High-Alpha / Prime Alpha Opportunity) offers structured mining and agricultural investment opportunities via its new intelligence dashboard.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "High Systemic Stability",
-          "investorGuidance": "Prime Alpha Opportunity across solid minerals processing, suburban housing, and commercial farming."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Abia",
@@ -4935,13 +4899,7 @@
           "category": "Fiscal Frameworks, Participatory Budgeting, and Real Estate Regulation",
           "body": "Abia State achieved a HIGH SIGNAL (8.9 PSI / Advancing Momentum) as independent BudgIT and Phillips Consulting reports validated its 1st-place national ranking in capital spending growth, alongside the rollout of 3.03 million insecticide-treated nets and urban road extensions."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Abia State (8.9 PSI / HIGH SIGNAL / SIS 2.9 SECURE / High-Alpha / Prime Alpha Opportunity) presents a highly secure investment environment, validated by 1st-place national rankings in capital spending growth and urban infrastructure expansion.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Capital Safety",
-          "investorGuidance": "Prime Alpha Opportunity for long-term equity, transport logistics, and health infrastructure deployment."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Ogun",
@@ -4961,13 +4919,7 @@
           "category": "Fiscal Frameworks, Participatory Budgeting, and Real Estate Regulation",
           "body": "Ogun State generated an OPTIMUM SIGNAL (8.9 PSI / Accelerating Momentum) hosting UN Deputy Secretary-General Amina Mohammed and showcasing 100,000 women empowered via the World Bank Nigeria for Women Programme (NFWP)."
         },
-        "securityAnalysis": {
-          "category": "South-West Industrial & Commercial Corridors",
-          "body": "Ogun State maintains strong security (1.4 SIS). Industrial parks and World Bank women empowerment networks operate in peaceful environments.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Capital Protection",
-          "investorGuidance": "Prime Alpha Opportunity for industrial real estate, manufacturing, and grassroots financial services."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Ebonyi",
@@ -4987,13 +4939,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Ebonyi State (8.9 PSI) received the interim report of the Amasiri-Edda Boundary Adjustment Committee and reinstated two dethroned traditional rulers."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Ebonyi State (8.9 PSI / HIGH SIGNAL / SIS 2.5 SECURE / Growth-Oriented / Balanced Expansion) offers expanding infrastructure opportunities backed by communal peace accords and survey demarcation.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Low Threat Level",
-          "investorGuidance": "Balanced Expansion tier ideal for heavy manufacturing, mining exploration, and infrastructure deals."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Enugu",
@@ -5013,13 +4959,7 @@
           "category": "Agro-Industrial Development, Mining Operations, and Infrastructure Financing",
           "body": "Enugu State logged a HIGH SIGNAL (8.8 PSI / Advancing Momentum) following executive engagements with Stanbic IBTC Bank management to deepen economic development partnerships."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Enugu State maintains a robust 2.2 SIS (Secure). Expanding banking sector engagements and infrastructure financing operate within highly secure municipal zones.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Stable Commercial Corridor",
-          "investorGuidance": "Prime Alpha Opportunity for private equity, banking partnerships, and infrastructure development."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Delta",
@@ -5039,13 +4979,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Delta State logged a HIGH SIGNAL (8.8 PSI / Advancing Momentum) as EXCO approved the rehabilitation of primary and secondary schools across all 25 LGAs, while security forces executed successful anti-kidnapping operations."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Delta State (8.8 PSI / HIGH SIGNAL / SIS 2.6 SECURE / Growth-Oriented / Balanced Expansion) offers expanding infrastructure opportunities backed by school rehabilitations.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "High Systemic Protection",
-          "investorGuidance": "Balanced Expansion profile for educational technology, real estate, and public works construction."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Kebbi",
@@ -5065,13 +4999,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Kebbi State (8.8 PSI) advanced construction of its 250-unit housing estate to 80% completion and acquired a Federal Mortgage housing estate."
         },
-        "securityAnalysis": {
-          "category": "North-West Urban & Housing Corridors",
-          "body": "Kebbi State maintains a 2.7 SIS (Secure) in core municipal zones. High contractor compliance and stable urban environments enable rapid residential estate construction.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Stable Urban Environment",
-          "investorGuidance": "Balanced Expansion profile for real estate developers, building materials suppliers, and PPP housing schemes."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Imo",
@@ -5091,13 +5019,7 @@
           "category": "Healthcare Modernization, Power Sector Resolution, and Technical Education",
           "body": "Imo State (8.8 PSI) strengthened its Heartland Hospital Management Corporation partnership with Integromed Germany for local medical equipment production."
         },
-        "securityAnalysis": {
-          "category": "South-South & South-East Agrarian and Industrial Corridors",
-          "body": "Imo State operates at a 3.1 SIS (Monitored). Strategic urban medical partnerships in Owerri benefit from targeted security details, though peri-urban corridors require ongoing monitoring.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "Moderate Risk Control",
-          "investorGuidance": "Caution advised; prioritize state-backed urban projects and secure supply lines."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Benue",
@@ -5117,13 +5039,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Benue State (8.7 PSI) commissioned the First Lady's Coordinator Office Complex."
         },
-        "securityAnalysis": {
-          "category": "Central & Northern Agro-Industrial and Fiscal Corridors",
-          "body": "Benue State records a 3.9 SIS (Monitored). Dedicated social welfare infrastructure projects in Makurdi operate smoothly under active security coordination.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "Active Risk Mitigation",
-          "investorGuidance": "Caution advised; deploy capital with local community integration."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "FCT Abuja",
@@ -5143,13 +5059,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "FCT Abuja (8.7 PSI) responded to a building collapse in Wuse Zone 4 following FCTA sealing."
         },
-        "securityAnalysis": {
-          "category": "Commercial Mega-Hubs & Real Estate Regulatory Decentralization",
-          "body": "FCT Abuja exhibits high security stability (1.5 SIS). Swift Development Control enforcement and emergency response team deployments safeguard urban real estate assets.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Capital Safety",
-          "investorGuidance": "Prime Alpha Opportunity across commercial real estate, urban infrastructure, and municipal services."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Plateau",
@@ -5169,13 +5079,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Plateau State Works Commissioner inspected ongoing road projects in Plateau North and clarified solar streetlight maintenance."
         },
-        "securityAnalysis": {
-          "category": "Central Public Health & Mining Corridors",
-          "body": "Plateau State tracks a 3.6 SIS (Monitored). Active road construction inspection tours across Plateau North ensure contractor compliance amid ongoing security monitoring.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "Managed Regional Risk",
-          "investorGuidance": "Caution advised; monitor site-specific security protocols for rural road projects."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Ekiti",
@@ -5195,13 +5099,7 @@
           "category": "Public Safety, Urban Rehabilitation, and Community Governance",
           "body": "Ekiti State Government clarified procurement compliance for the N578.5M BPP e-office project and resolved the Ayetoro community dispute under State Edict threshold rules."
         },
-        "securityAnalysis": {
-          "category": "South-West Public Administration Corridors",
-          "body": "Ekiti State exhibits excellent security (1.6 SIS). Public administration, procurement compliance, and community dispute resolution proceed in calm environments.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Social Peace",
-          "investorGuidance": "Balanced Expansion profile for public sector tech solutions, agriculture, and local works."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Bayelsa",
@@ -5221,13 +5119,7 @@
           "category": "Public Safety, Technical Education & Civil Service Reforms",
           "body": "Bayelsa State Governor Douye Diri hosted Law School DG Dr. Olugbemisola Odusote on an accreditation visit to NDU and advocated for an expanded law quota."
         },
-        "securityAnalysis": {
-          "category": "Public Safety, Technical Education & Civil Service Reforms",
-          "body": "Bayelsa State demonstrates stable security (2.7 SIS). Tertiary campus developments and accreditation visits operate smoothly across Yenagoa.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Stable Coastal Environment",
-          "investorGuidance": "Balanced Expansion profile for educational technology, campus real estate, and public works."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Rivers",
@@ -5247,13 +5139,7 @@
           "category": "Public Safety, Technical Education & Civil Service Reforms",
           "body": "Rivers State Deputy Governor Prof. Ngozi Odu opened a 3-day capacity-building workshop for Permanent Secretaries in Port Harcourt in partnership with CIoD."
         },
-        "securityAnalysis": {
-          "category": "Public Safety, Technical Education & Civil Service Reforms",
-          "body": "Rivers State maintains a 2.8 SIS (Secure) in municipal administrative centers. CIoD capacity-building programs for senior civil servants enhance institutional governance.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Strong Public Administration Stability",
-          "investorGuidance": "Balanced Expansion profile for executive training, corporate consulting, and urban public works."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Zamfara",
@@ -5273,13 +5159,7 @@
           "category": "Agro-Industrial Intelligence & Natural Resource Governance",
           "body": "Zamfara State Women Affairs Ministry and IOM flagged off a cooking competition across Gusau, Bungudu, and Tsafe LGAs for women economic empowerment."
         },
-        "securityAnalysis": {
-          "category": "North-West Frontier & WASH Intervention Zones",
-          "body": "Zamfara State operates at a 4.8 SIS (Monitored). Essential humanitarian and women empowerment competitions in Tsafe require tactical security escort measures.",
-          "riskTier": "MONITORED",
-          "stabilityIndex": "Elevated Risk Horizon",
-          "investorGuidance": "Defensive Preservation profile; limit exposure to development-partner co-funded projects with security coverage."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Oyo",
@@ -5299,13 +5179,7 @@
           "category": "Agro-Industrial Development, Mining Operations, and Infrastructure Financing",
           "body": "Oyo State recorded an 8.4 PSI as Ido Local Government Council commenced physical construction work on the 2.5km Elebu-Oritamerin-Abese road project."
         },
-        "securityAnalysis": {
-          "category": "South-West Public Administration Corridors",
-          "body": "Oyo State exhibits high security stability (1.7 SIS). Local municipal infrastructure delivery and road construction proceed smoothly across the Ibadan metropolitan belt.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Social Peace",
-          "investorGuidance": "Balanced Expansion profile for suburban real estate, municipal civil works, and commercial trade."
-        }
+        "securityAnalysis": null
       },
       {
         "state": "Osun",
@@ -5325,13 +5199,8 @@
           "category": "Public Safety, Technical Education & Civil Service Reforms",
           "body": "Osun State Government clarified the legal legislative process behind the UNIOSUN VC tenure extension."
         },
-        "securityAnalysis": {
-          "category": "Public Safety, Technical Education & Civil Service Reforms",
-          "body": "Osun State maintains a highly secure environment (1.6 SIS). Legislative amendments and academic governance proceed without public order disruption.",
-          "riskTier": "SECURE",
-          "stabilityIndex": "Optimal Social Peace",
-          "investorGuidance": "Balanced Expansion profile ideal for higher education partnerships, agricultural processing, and light infrastructure."
-       }
+        "securityAnalysis": null
+      }
      ]
     }
   },
