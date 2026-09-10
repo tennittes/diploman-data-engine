@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -2162,6 +2162,278 @@
       "whyItMatters": "Upholding statutory legislative authority in university governance while clarifying due process achieves an 8.2 PSI High Signal, maintaining institutional stability."
     },
     "intent": "Upholding statutory due process in higher education governance and preserving university stability."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Radda Flags Off CCT for 5,075 Beneficiaries, Approves N500m for Malnutrition, and Receives IHVN Tech Hub",
+    "psi": 9.4,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Radda Flags Off CCT for 5,075 Beneficiaries, Approves N500m for Malnutrition, and Receives IHVN Tech Hub",
+      "whatHappened": "Governor Dikko Umaru Radda flagged off CCT disbursements to 5,075 beneficiaries, School Improvement Grants for 66 primary schools, learning materials for 12,675 pupils, approved N500M counterpart funding for malnutrition, received the IHVN Tech Hub, and sent high-level security teams to Funtua.",
+      "whyItMatters": "Combining social safety net expansion with N500M malnutrition funding, youth tech hub handovers, and targeted security re-strategization yields a 9.4 PSI Optimum Signal for comprehensive subnational execution."
+    },
+    "intent": "Expanding social protection cash transfers, strengthening health malnutrition responses, and securing vulnerable LGAs."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Mutfwang Flags Off 19 Buses and Digital Devices Under N10bn Basic Education Drive and Receives State Police Report",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Mutfwang Flags Off 19 Buses and Digital Devices Under N10bn Basic Education Drive and Receives State Police Report",
+      "whatHappened": "Governor Caleb Mutfwang flagged off 19 supervision buses, digital tablets, and 296,000+ textbooks under a N10B basic education funding push, while receiving the Plateau State Police Advisory Committee draft report.",
+      "whyItMatters": "Unlocking N10B in basic education funding alongside receiving draft legislation for State Police establishment generates a 9.3 PSI Optimum Signal for human capital and security federalism."
+    },
+    "intent": "Modernizing basic education supervision infrastructure and advancing state police statutory frameworks."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Sanwo-Olu Restructures LAWMA and Orders 160 Compactors as Y2027 Budget Consultations Begin with 80% Performance",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Sanwo-Olu Restructures LAWMA and Orders 160 Compactors as Y2027 Budget Consultations Begin with 80% Performance",
+      "whatHappened": "Governor Babajide Sanwo-Olu inspected Olusosun dumpsite, ordered 160 new compactors, expanded dumpsite access roads, and LAWMA restructuring, while Ministry of Economic Planning launched Y2027 budget consultations reporting an 80% budget performance rate.",
+      "whyItMatters": "Direct executive intervention in municipal waste logistics paired with 80% budget performance reporting during citizen budget consultations earns a 9.3 PSI Optimum Signal."
+    },
+    "intent": "Overhauling municipal waste management logistics and institutionalizing participatory Y2027 budget planning."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Otu Approves 4,000 Fresh LGA Jobs, Introduces Student ID Numbers, and Partners FAAN for AfSNET 2026",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Otu Approves 4,000 Fresh LGA Jobs, Introduces Student ID Numbers, and Partners FAAN for AfSNET 2026",
+      "whatHappened": "Governor Bassey Otu approved 4,000 fresh digital LGA jobs, retained 821 staff, extended health workers' retirement age to 65, introduced Student Identification Numbers, and partnered with FAAN for AfSNET 2026 airport upgrades.",
+      "whyItMatters": "Unbundling flawed LGA recruitment to issue 4,000 fresh digital jobs while digitizing student tracking and expanding airport capacity delivers a 9.2 PSI Optimum Signal."
+    },
+    "intent": "Cleaning up local government payroll systems, modernizing education tracking, and upgrading aviation infrastructure."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "BudgIT Ranks Abia 1st in Capital Spending Growth at N137,253 Per Capita as State Prepares 3.03m Net Distribution",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "BudgIT Ranks Abia 1st in Capital Spending Growth at N137,253 Per Capita as State Prepares 3.03m Net Distribution",
+      "whatHappened": "BudgIT 2026 State of States report validated Abia's 1st-place national ranking in total expenditure growth and capital expenditure per resident (N137,253), alongside winning the $500k NGF Primary Healthcare Leadership Prize.",
+      "whyItMatters": "Independent national verification of top capital spending growth and healthcare leadership excellence yields a 9.1 PSI Optimum Signal for fiscal management."
+    },
+    "intent": "Sustaining high-impact capital project deployment and expanding primary healthcare delivery."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Alia Concludes Benue 2035 Summit and Signs MoU for $5bn Investment Platform and 30-Year Plan",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Alia Concludes Benue 2035 Summit and Signs MoU for $5bn Investment Platform and 30-Year Plan",
+      "whatHappened": "Governor Hyacinth Alia concluded the 3-day Benue 2035 Economic Transformation Summit, signing an MoU to establish a $5 billion investment platform and a proposed 30-year long-term development framework.",
+      "whyItMatters": "Establishing a $5B capital formation framework and 30-year development roadmap registers a 9.0 PSI Optimum Signal for economic planning."
+    },
+    "intent": "Securing institutional private capital partnerships and anchoring long-term state economic development."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Lawal Establishes WASH Departments in All 14 LGAs, Implements N70k Minimum Wage, and Schedules CBT Recruitment",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Lawal Establishes WASH Departments in All 14 LGAs, Implements N70k Minimum Wage, and Schedules CBT Recruitment",
+      "whatHappened": "Governor Dauda Lawal approved the creation of WASH departments across all 14 LGAs with new directors, upgraded LGA salaries to the N70,000 minimum wage, and scheduled CBT exams for specialist health recruitment.",
+      "whyItMatters": "Institutionalizing grassroots WASH structures across all 14 LGAs under N70,000 minimum wage structures delivers a 9.0 PSI Optimum Signal for rural health and civil service welfare."
+    },
+    "intent": "Decentralizing water and hygiene infrastructure and implementing civil service minimum wage upgrades."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Farmer Governor Bago Establishes Niger State Entertainment Council with N500m Creative Grant Scheme",
+    "psi": 8.9,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Farmer Governor Bago Establishes Niger State Entertainment Council with N500m Creative Grant Scheme",
+      "whatHappened": "Governor Mohammed Umaru Bago issued an executive order establishing the Niger State Entertainment Council, approved N500M seed funding for the Creative Grant Scheme, and ordered construction of a modern recording studio.",
+      "whyItMatters": "Formalizing the creative economy with regulatory structures and N500M seed funding generates an 8.9 PSI Optimum Signal for youth job creation."
+    },
+    "intent": "Institutionalizing creative industry regulation and providing seed capital for youth creative enterprise."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Ondo Partners Toyota Nigeria for TVET Skills Acquisition and Launches Enrollment Campaign in Riverine Communities",
+    "psi": 8.9,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Ondo Partners Toyota Nigeria for TVET Skills Acquisition and Launches Enrollment Campaign in Riverine Communities",
+      "whatHappened": "Ondo State Government affirmed partnership with Toyota Nigeria Limited to train and employ technical college graduates, while ODSUBEB launched basic education enrollment drives in Okitipupa and riverine Ilaje LGAs.",
+      "whyItMatters": "Linking technical college graduates to corporate placement with Toyota while expanding riverine primary education access logs an 8.9 PSI Optimum Signal."
+    },
+    "intent": "Strengthening TVET corporate placement pathways and driving basic education enrollment in riverine zones."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Delta Assembly Passes First Reading of Executive Bill Institutionalising 13th-Month Salary for Public Servants",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta Assembly Passes First Reading of Executive Bill Institutionalising 13th-Month Salary for Public Servants",
+      "whatHappened": "Delta State House of Assembly passed the first reading of Governor Sheriff Oborevwori's Executive Bill to institutionalize payment of a 13th-month salary to public servants in the state.",
+      "whyItMatters": "Legislation to guarantee annual 13th-month bonuses for civil servants achieves an 8.8 PSI High Signal for public service welfare."
+    },
+    "intent": "Codifying worker welfare incentives through statutory legislative enactment."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Abiodun Highlights 7-Year Housing Transformation Across Kobape, Oke-Mosan, and Sagamu Estates",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Abiodun Highlights 7-Year Housing Transformation Across Kobape, Oke-Mosan, and Sagamu Estates",
+      "whatHappened": "Governor Dapo Abiodun detailed seven years of housing sector investments, delivering thousands of units across Prince Court (Kobape), Kings Court (Oke-Mosan), Kemta, Ilaro, and Sagamu estates.",
+      "whyItMatters": "Large-scale affordable housing delivery stimulating construction value chains registers an 8.8 PSI High Signal for urban development."
+    },
+    "intent": "Expanding state-wide residential housing stock and supporting construction artisan employment."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Okpebholo Presents N92.49m Cheques to Families of Deceased State Employees Under CPS Law",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Okpebholo Presents N92.49m Cheques to Families of Deceased State Employees Under CPS Law",
+      "whatHappened": "Edo State Government presented cheques totaling N92.49M to families of 14 deceased state employees under the Contributory Pension Scheme Law 2010, while Ministry of Education hosted a Book Fair for September 14 resumption.",
+      "whyItMatters": "Enforcing statutory pension death benefits while preparing schools for immediate resumption logs an 8.8 PSI High Signal."
+    },
+    "intent": "Upholding statutory pension obligations for civil service families and enforcing school resumption compliance."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Ekiti Commences Renovation of Emure NYSC Orientation Camp and Inaugurates Climate Change Desk Officers",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti Commences Renovation of Emure NYSC Orientation Camp and Inaugurates Climate Change Desk Officers",
+      "whatHappened": "Ekiti State Government commenced renovation of the NYSC Orientation Camp in Emure-Ise-Orun, inaugurated Climate Change Desk Officers across all MDAs and 16 LGAs, and issued road blast safety warnings on Ifaki-Igede Road.",
+      "whyItMatters": "Upgrading federal youth facilities while embedding climate governance across all 16 LGAs generates an 8.7 PSI High Signal."
+    },
+    "intent": "Upgrading youth service facilities and institutionalizing localized climate change governance."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Diri Unveils Bayelsa@30 Anniversary Logo and Celebrates Progress and Youth Creativity",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Diri Unveils Bayelsa@30 Anniversary Logo and Celebrates Progress and Youth Creativity",
+      "whatHappened": "Governor Douye Diri officially unveiled the Bayelsa@30 anniversary logo at the 197th EXCO meeting, celebrating 30 years of state creation following a statewide youth design competition won by Godwill Waribugo.",
+      "whyItMatters": "Engaging youth in state anniversary branding while celebrating 30-year developmental milestones achieves an 8.6 PSI High Signal."
+    },
+    "intent": "Promoting civic cohesion, youth creative recognition, and celebrating state creation milestones."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Sule Engages Northern Zone District Heads on Traditional Institutions and Community Security",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sule Engages Northern Zone District Heads on Traditional Institutions and Community Security",
+      "whatHappened": "Governor Abdullahi Sule met with District Heads from the Northern Senatorial Zone at Government House Lafia to discuss traditional institution welfare, peace, security, and regional development.",
+      "whyItMatters": "Direct gubernatorial consultation with traditional leaders on local security frameworks yields an 8.6 PSI High Signal."
+    },
+    "intent": "Strengthening traditional institution partnerships to maintain grassroots peace and security."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Gombe RUWASSA Hosts Federal Ministry Team and Inspects AfDB-Supported TVET Skills Centre in Jekadafari",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gombe RUWASSA Hosts Federal Ministry Team and Inspects AfDB-Supported TVET Skills Centre in Jekadafari",
+      "whatHappened": "Gombe RUWASSA and State PIU received a Federal Ministry of Labour delegation under the AfDB-supported IBSDLEIP program, inspecting the newly constructed TVET Skills Training Centre in Jekadafari.",
+      "whyItMatters": "Evaluating AfDB-funded TVET infrastructure with federal authorities delivers an 8.5 PSI High Signal for youth skill empowerment."
+    },
+    "intent": "Expanding vocational skill acquisition facilities through federal and international development bank partnerships."
+  },
+  {
+    "dayNumber": 10,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Thursday, September 10, 2026",
+    "headline": "Governor Makinde Hosts Belgian Ambassador Patrick Englebert to Expand Agribusiness and Tech Partnerships",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Makinde Hosts Belgian Ambassador Patrick Englebert to Expand Agribusiness and Tech Partnerships",
+      "whatHappened": "Governor Seyi Makinde received Belgian Ambassador H.E. Patrick Englebert and his delegation in Ibadan to discuss expanding bilateral cooperation in agribusiness, education, and technology.",
+      "whyItMatters": "High-level diplomatic engagements to attract foreign investment in tech and agribusiness achieve an 8.5 PSI High Signal."
+    },
+    "intent": "Expanding international bilateral partnerships in technological innovation and agricultural processing."
   }
   ],
 
@@ -5202,6 +5474,410 @@
         "securityAnalysis": null
       }
      ]
+    },
+  "10": {
+    "date": "2026-09-10",
+    "formattedDate": "September 10, 2026",
+    "metadata": {
+      "compositePsi": 8.9,
+      "activeJurisdictionsCount": 17,
+      "unlistedJurisdictionsCount": 20,
+      "unlistedNote": "The 20 dormant jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Katsina Leads Active Jurisdictions September 10, 2026 Governance Intelligence Headlines",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & Security Incident Score (SIS) Daily Briefing",
+        "summary": "Subnational executive momentum on September 10, 2026, recorded a strong 8.9 PSI average, led by CCT cash transfers in Katsina, N10B basic education funding in Plateau, LAWMA waste management overhauls in Lagos, and 4,000 digital LGA jobs in Cross River."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Highlights High-Alpha Assets and Secure Municipal Infrastructure",
+        "summary": "Analysis of Nigeria’s subnational investment climate for September 10, 2026, detailing Security Incident Scores (SIS), Risk-Adjusted Yield Tiers, and strategic asset allocation across commercial, industrial, and agricultural corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Reaches 8.9 Composite Average Across Basic Education Funding, Municipal Waste Overhauls, and LGA Payroll Reforms",
+        "summary": "Nigeria’s state executives record an 8.9 net PSI average as Katsina, Plateau, Lagos, and Cross River drive optimum policy signals across CCT cash transfers, N10B basic education funding, and waste management restructuring."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria reached heightened operational efficiency during the active reporting window ending September 10, 2026. The 37-jurisdiction composite net Policy Signal Index (PSI) baseline settled at a national net average of 8.9, propelled by direct gubernatorial project inaugurations, multi-billion naira infrastructure approvals, basic education funding, and expanded public health and municipal infrastructure.",
+        "emergingPatterns": "The active reporting window illustrates a structural transition toward basic education modernization, municipal waste logistics, and local government payroll unbundling. State executives are deploying specialized digital student tracking, local government payroll audits, and creative industry seed grants to drive subnational resilience.",
+        "strategicOutlook": "Subnational momentum is projected to accelerate as states execute recently expanded budget frameworks, complete urban renewal projects, and implement localized security and regulatory measures. Long-term performance will depend on maintaining fiscal discipline, sustaining public asset security, and ensuring timely project delivery across municipal centers.",
+        "conclusion": "The subnational executive governance landscape for September 10, 2026, reflects measurable operational capacity driven by decisive gubernatorial leadership. By anchoring state policies in physical asset delivery, strategic investor partnerships, and social safety interventions, Nigeria's state governments continue to expand administrative resilience and public welfare."
+      },
+      "security": {
+        "introduction": "The subnational investment environment across Nigeria's 36 States and the Federal Capital Territory for September 10, 2026, demonstrates high operational stability across major economic hubs, with commercial centers exhibiting robust security metrics and strong legal protection frameworks.",
+        "emergingPatterns": "Subnational risk metrics reflect strong stability across southern commercial ports and industrial hubs (SIS < 3.0), enabling direct private equity deployment and long-term asset accumulation. Central and northern agrarian corridors operate under MONITORED (3.0 <= SIS <= 6.5) security frameworks, where high-yield opportunities in agricultural processing, power transmission, and mining are coupled with state-led tactical risk mitigation.",
+        "strategicOutlook": "Investment returns over upcoming operational cycles will favor institutional capital aligned with state executive priorities—specifically participatory fiscal infrastructure, waste management recycling facilities, digital education tracking systems, and TVET partnerships.",
+        "conclusion": "Navigating Nigeria’s subnational landscape requires metric-driven risk mapping. By leveraging the Policy Signal Index and Security Incident Score profiles, corporate planners and institutional investors can capture high-alpha returns while maintaining capital preservation across diverse geopolitical corridors."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Commercial Mega-Hubs & Municipal Waste Infrastructure",
+        "states": ["Lagos", "Ogun"]
+      },
+      {
+        "groupTitle": "Basic Education Investments & Human Capital Governance",
+        "states": ["Katsina", "Plateau", "Cross River", "Abia", "Ondo"]
+      },
+      {
+        "groupTitle": "Long-Term Economic Summits & Civil Service Payroll Reforms",
+        "states": ["Benue", "Zamfara", "Delta", "Edo"]
+      },
+      {
+        "groupTitle": "Creative Economy & TVET Skills Acquisition Corridors",
+        "states": ["Niger", "Ekiti", "Gombe", "Oyo"]
+      },
+      {
+        "groupTitle": "Civic Governance & Traditional Institution Alignment",
+        "states": ["Bayelsa", "Nasarawa"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 9.4,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 4.1,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Radda Flags Off CCT for 5,075 Beneficiaries, Approves N500m for Malnutrition, and Receives IHVN Tech Hub",
+        "impactVector": "Flagging off CCT cash transfers for 5,075 families, grants for 66 schools, N500M malnutrition funding, and dispatching security teams to Funtua sets a historic benchmark for social protection.",
+        "policyBreakdown": {
+          "category": "Basic Education Investments & Human Capital Governance",
+          "body": "Katsina State recorded an OPTIMUM SIGNAL (9.4 PSI / Accelerating Momentum) as Governor Dikko Umaru Radda flagged off CCT disbursements to 5,075 beneficiaries, School Improvement Grants for 66 primary schools, approved N500M for acute malnutrition, and received the IHVN Tech Hub."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Mutfwang Flags Off 19 Buses and Digital Devices Under N10bn Basic Education Drive and Receives State Police Report",
+        "impactVector": "Deploying 19 supervision buses, digital devices, and 296,000+ textbooks while receiving the State Police Advisory Committee draft report strengthens foundational learning and security federalism.",
+        "policyBreakdown": {
+          "category": "Basic Education Investments & Human Capital Governance",
+          "body": "Plateau State generated an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum) as Governor Caleb Mutfwang flagged off 19 supervision buses, digital tablets, and 296,000+ textbooks under a N10B basic education push while receiving the State Police Advisory Committee draft report."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sanwo-Olu Restructures LAWMA and Orders 160 Compactors as Y2027 Budget Consultations Begin with 80% Performance",
+        "impactVector": "Restructuring LAWMA, procuring 160 compactors, expanding dumpsite access, and reporting an 80% budget performance during Y2027 budget consultations solidifies urban governance.",
+        "policyBreakdown": {
+          "category": "Commercial Mega-Hubs & Municipal Waste Infrastructure",
+          "body": "Lagos State logged an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum) as Governor Babajide Sanwo-Olu inspected Olusosun dumpsite, restructuring LAWMA and procuring 160 new compactors, while launching Y2027 budget consultations across IBILE divisions with an 80% performance rate."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 9.2,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Otu Approves 4,000 Fresh LGA Jobs, Introduces Student ID Numbers, and Partners FAAN for AfSNET 2026",
+        "impactVector": "Approving 4,000 digital LGA jobs, retaining 821 staff, extending health worker retirement to 65, and introducing unique Student Identification Numbers drives educational and civil service reform.",
+        "policyBreakdown": {
+          "category": "Basic Education Investments & Human Capital Governance",
+          "body": "Cross River State generated an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum) as Governor Bassey Otu approved 4,000 fresh digital LGA jobs, retained 821 staff, extended health workers' retirement age to 65, and introduced Student Identification Numbers across public schools."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "BudgIT Ranks Abia 1st in Capital Spending Growth at N137,253 Per Capita as State Prepares 3.03m Net Distribution",
+        "impactVector": "BudgIT 2026 report validating Abia's 1st-place national ranking in total and capital expenditure growth paired with $500k primary healthcare prize highlights fiscal performance.",
+        "policyBreakdown": {
+          "category": "Basic Education Investments & Human Capital Governance",
+          "body": "Abia State achieved an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum) as independent BudgIT State of States 2026 reports validated its 1st-place national ranking in total and capital expenditure growth (N137,253 per resident), alongside winning the $500k NGF Primary Healthcare Leadership Prize."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Benue",
+        "governor": "Hyacinth Alia",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Alia Concludes Benue 2035 Summit and Signs MoU for $5bn Investment Platform and 30-Year Plan",
+        "impactVector": "Signing MoUs for a $5B investment platform and a 30-year long-term development framework provides a sustainable trajectory for economic transformation.",
+        "policyBreakdown": {
+          "category": "Long-Term Economic Summits & Civil Service Payroll Reforms",
+          "body": "Benue State recorded an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum) as Governor Hyacinth Alia concluded the Benue 2035 Economic Summit, signing an MoU for a $5B investment platform and a 30-year development framework."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Defensive",
+          "investmentDecision": "Defensive Preservation"
+        },
+        "headline": "Governor Lawal Establishes WASH Departments in All 14 LGAs, Implements N70k Minimum Wage, and Schedules CBT Recruitment",
+        "impactVector": "Appointing directors for WASH departments across all 14 LGAs, upgrading minimum wage to N70,000, and scheduling healthcare CBT exams delivers grassroots public health.",
+        "policyBreakdown": {
+          "category": "Long-Term Economic Summits & Civil Service Payroll Reforms",
+          "body": "Zamfara State logged an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum) as Governor Dauda Lawal established WASH departments across all 14 LGAs, upgraded minimum wage to N70,000, and scheduled CBT examinations for specialist health recruitment."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Niger",
+        "governor": "Mohammed Umaru Bago",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.5,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Farmer Governor Bago Establishes Niger State Entertainment Council with N500m Creative Grant Scheme",
+        "impactVector": "Issuing an executive order for the Entertainment Council and approving N500M in seed funding for creative grants institutionalizes youth talent commercialization.",
+        "policyBreakdown": {
+          "category": "Creative Economy & TVET Skills Acquisition Corridors",
+          "body": "Niger State generated an OPTIMUM SIGNAL (8.9 PSI / Accelerating Momentum) as Farmer Governor Mohammed Umaru Bago issued an executive order establishing the Niger State Entertainment Council with a N500M Creative Grant Scheme."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ondo",
+        "governor": "Lucky Aiyedatiwa",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Ondo Partners Toyota Nigeria for TVET Skills Acquisition and Launches Enrollment Campaign in Riverine Communities",
+        "impactVector": "Executive partnership with Toyota Nigeria Limited for technical college graduates paired with ODSUBEB enrollment drives in Ilaje and Okitipupa advances technical education.",
+        "policyBreakdown": {
+          "category": "Basic Education Investments & Human Capital Governance",
+          "body": "Ondo State recorded an OPTIMUM SIGNAL (8.9 PSI / Accelerating Momentum) as the government partnered with Toyota Nigeria Limited for TVET automobile mechanics and launched basic school enrollment drives in riverine Ilaje and Okitipupa LGAs."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Delta Assembly Passes First Reading of Executive Bill Institutionalising 13th-Month Salary for Public Servants",
+        "impactVector": "Institutionalizing the 13th-month salary via executive legislation sets a progressive subnational benchmark for public service welfare.",
+        "policyBreakdown": {
+          "category": "Long-Term Economic Summits & Civil Service Payroll Reforms",
+          "body": "Delta State achieved a HIGH SIGNAL (8.8 PSI / Advancing Momentum) as the House of Assembly passed the first reading of an Executive Bill institutionalizing the 13th-month salary for public servants."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ogun",
+        "governor": "Dapo Abiodun",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Abiodun Highlights 7-Year Housing Transformation Across Kobape, Oke-Mosan, and Sagamu Estates",
+        "impactVector": "Delivering thousands of affordable housing units across multiple estates stimulates local construction supply chains and artisan employment.",
+        "policyBreakdown": {
+          "category": "Commercial Mega-Hubs & Municipal Waste Infrastructure",
+          "body": "Ogun State generated a HIGH SIGNAL (8.8 PSI / Advancing Momentum) as Governor Dapo Abiodun highlighted its 7-year housing transformation delivering thousands of units across Kobape, Oke-Mosan, and Sagamu."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Okpebholo Presents N92.49m Cheques to Families of Deceased State Employees Under CPS Law",
+        "impactVector": "Disbursing N92.49M in death benefits to 14 deceased workers' families under the Contributory Pension Scheme Law enforces statutory pension protections.",
+        "policyBreakdown": {
+          "category": "Long-Term Economic Summits & Civil Service Payroll Reforms",
+          "body": "Edo State logged a HIGH SIGNAL (8.8 PSI / Advancing Momentum) as Governor Monday Okpebholo presented N92.49M in CPS death benefit cheques to 14 deceased workers' families while hosting the Ministry Book Fair."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ekiti",
+        "governor": "Biodun Oyebanji",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Ekiti Commences Renovation of Emure NYSC Orientation Camp and Inaugurates Climate Change Desk Officers",
+        "impactVector": "Upgrading NYSC camp infrastructure, inaugurating Climate Change Desk Officers across all 16 LGAs, and issuing road blast warnings enhances environmental governance.",
+        "policyBreakdown": {
+          "category": "Creative Economy & TVET Skills Acquisition Corridors",
+          "body": "Ekiti State recorded a HIGH SIGNAL (8.7 PSI / Advancing Momentum) commencing renovation of the NYSC Orientation Camp in Emure-Ise-Orun and inaugurating Climate Change Desk Officers across all 16 LGAs."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Bayelsa",
+        "governor": "Douye Diri",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Diri Unveils Bayelsa@30 Anniversary Logo and Celebrates Progress and Youth Creativity",
+        "impactVector": "Unveiling the official Bayelsa@30 anniversary logo following a statewide youth design competition fosters civic pride and youth engagement.",
+        "policyBreakdown": {
+          "category": "Civic Governance & Traditional Institution Alignment",
+          "body": "Bayelsa State generated a HIGH SIGNAL (8.6 PSI / Advancing Momentum) as Governor Douye Diri unveiled its Bayelsa@30 anniversary logo at the 197th EXCO meeting."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Nasarawa",
+        "governor": "Abdullahi Sule",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sule Engages Northern Zone District Heads on Traditional Institutions and Community Security",
+        "impactVector": "Strategic executive consultations with traditional leaders across Northern Senatorial District strengthen grassroots security networks.",
+        "policyBreakdown": {
+          "category": "Civic Governance & Traditional Institution Alignment",
+          "body": "Nasarawa State recorded a HIGH SIGNAL (8.6 PSI / Advancing Momentum) as Governor Abdullahi Sule engaged Northern Zone District Heads on traditional institutions and community security."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Gombe",
+        "governor": "Inuwa Yahaya",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Gombe RUWASSA Hosts Federal Ministry Team and Inspects AfDB-Supported TVET Skills Centre in Jekadafari",
+        "impactVector": "Partnering with federal agencies under the AfDB IBSDLEIP program to assess TVET centers expands youth technical skill development.",
+        "policyBreakdown": {
+          "category": "Creative Economy & TVET Skills Acquisition Corridors",
+          "body": "Gombe State logged a HIGH SIGNAL (8.5 PSI / Advancing Momentum) as RUWASSA hosted AfDB-supported IBSDLEIP delegates at its Jekadafari TVET skills acquisition center."
+        },
+        "securityAnalysis": null
+      },
+      {
+        "state": "Oyo",
+        "governor": "Seyi Makinde",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Makinde Hosts Belgian Ambassador Patrick Englebert to Expand Agribusiness and Tech Partnerships",
+        "impactVector": "Bilateral executive engagements with Belgian diplomatic leadership open direct foreign investment channels in agribusiness and technology.",
+        "policyBreakdown": {
+          "category": "Creative Economy & TVET Skills Acquisition Corridors",
+          "body": "Oyo State recorded a HIGH SIGNAL (8.5 PSI / Advancing Momentum) as Governor Seyi Makinde received Belgian Ambassador Patrick Englebert to expand bilateral partnerships in agribusiness, education, and technology."
+        },
+        "securityAnalysis": null
+      }
+     ]
     }
   },
 
@@ -7521,6 +8197,339 @@
   },
   {
     "dayNumber": 9,
+    "stateName": "Federal Capital Territory Baseline",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.0,
+    "focus": "Baseline Statutory Reserve Maintenance",
+    "dailyBrief": "Maintained standard baseline administrative reserve tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.4,
+    "sis": 4.1,
+    "focus": "CCT Flag-off for 5,075 Beneficiaries, N500M Malnutrition Funding & IHVN Tech Hub",
+    "dailyBrief": "Flagged off CCT cash transfers for 5,075 beneficiaries, school grants for 66 primary schools, N500M malnutrition funding, and dispatched security teams to Funtua."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 9.3,
+    "sis": 3.6,
+    "focus": "19 Buses, Digital Devices & Textbooks under N10B Basic Education Push",
+    "dailyBrief": "Flagged off 19 supervision buses, digital tablets, and 296,000+ textbooks under N10B basic education drive while receiving State Police Advisory report."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.3,
+    "sis": 1.2,
+    "focus": "LAWMA Dumpsite Restructuring, 160 New Compactors & Y2027 Budget Consultations",
+    "dailyBrief": "Inspected Olusosun dumpsite, ordered 160 new compactors, expanded dumpsite access roads, and launched Y2027 budget consultations reporting 80% performance."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 9.2,
+    "sis": 1.9,
+    "focus": "4,000 Digital LGA Jobs, Student ID Numbers & FAAN Airport Partnership",
+    "dailyBrief": "Approved 4,000 fresh digital LGA jobs, retained 821 staff, extended health workers' retirement age to 65, and introduced Student Identification Numbers."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.1,
+    "sis": 2.9,
+    "focus": "BudgIT 1st Rank Capital Expenditure Growth Validation & $500k NGF Award",
+    "dailyBrief": "Validated 1st-place national ranking in total/capital expenditure growth (N137,253 per capita) in BudgIT 2026 report and celebrated $500k primary health prize."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 9.0,
+    "sis": 3.9,
+    "focus": "Benue 2035 Summit Conclusion, $5B Investment Platform MoU & 30-Year Plan",
+    "dailyBrief": "Concluded 3-day Benue 2035 Economic Summit, signing an MoU for a $5B investment platform and a proposed 30-year long-term development framework."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 9.0,
+    "sis": 4.8,
+    "focus": "WASH Departments in All 14 LGAs, N70k Minimum Wage & Specialist CBT Exams",
+    "dailyBrief": "Appointed directors for WASH departments across all 14 LGAs, upgraded minimum wage to N70,000, and scheduled CBT exams for specialist health recruitment."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.9,
+    "sis": 3.5,
+    "focus": "Niger State Entertainment Council Order & N500M Creative Grant Scheme",
+    "dailyBrief": "Issued an executive order establishing the Niger State Entertainment Council, approved N500M seed funding for creative grants, and ordered recording studio build."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 8.9,
+    "sis": 1.5,
+    "focus": "Toyota Nigeria TVET Mechanics Partnership & Riverine Enrollment Campaign",
+    "dailyBrief": "Affirmed partnership with Toyota Nigeria Limited for technical college graduates and launched ODSUBEB basic education enrollment drives in Okitipupa and Ilaje LGAs."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.6,
+    "focus": "Executive Bill for Institutionalised 13th-Month Salary First Reading",
+    "dailyBrief": "Passed first reading of Governor Sheriff Oborevwori's Executive Bill to institutionalize payment of a 13th-month salary to public servants."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 8.8,
+    "sis": 1.4,
+    "focus": "7-Year Housing Estate Deliveries Across Kobape, Oke-Mosan, and Sagamu",
+    "dailyBrief": "Highlighted seven years of housing sector transformation, delivering thousands of affordable units across Kobape, Oke-Mosan, Kemta, Ilaro, and Sagamu."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.4,
+    "focus": "N92.49M CPS Death Benefit Cheque Disbursements & Ministry Book Fair",
+    "dailyBrief": "Presented N92.49M in cheques to families of 14 deceased state employees under CPS Law 2010 while mandating September 14 school resumption."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.6,
+    "focus": "Emure NYSC Orientation Camp Renovation & Climate Change Desk Officers",
+    "dailyBrief": "Commenced renovation of NYSC Orientation Camp in Emure-Ise-Orun, inaugurated Climate Change Desk Officers across 16 LGAs, and issued road blast warnings."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.7,
+    "focus": "Bayelsa@30 Anniversary Logo Unveiling & Youth Logo Design Competition",
+    "dailyBrief": "Officially unveiled the Bayelsa@30 anniversary logo at the 197th EXCO meeting, celebrating 30 years of state creation following youth competition."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.6,
+    "sis": 2.6,
+    "focus": "Northern Zone District Heads Engagement on Peace and Community Security",
+    "dailyBrief": "Engaged District Heads from the Northern Senatorial Zone at Government House Lafia to discuss traditional institutions, peace, and security."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 8.5,
+    "sis": 2.8,
+    "focus": "RUWASSA AfDB IBSDLEIP TVET Skills Centre Inspection in Jekadafari",
+    "dailyBrief": "Hosted Federal Ministry of Labour delegation under AfDB IBSDLEIP program, inspecting the newly constructed TVET Skills Training Centre in Jekadafari."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 1.7,
+    "focus": "Belgian Ambassador Bilateral Engagement on Agribusiness & Tech Partnerships",
+    "dailyBrief": "Hosted Belgian Ambassador H.E. Patrick Englebert to discuss expanding bilateral cooperation in agribusiness, education, and technology."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline civil service administration and routine infrastructure monitoring."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline municipal service delivery and routine security surveillance."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline civil service operations and agricultural logistics tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline civil service administration and security monitoring."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline municipal service delivery and agrarian community peace tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine public service administration and urban infrastructure monitoring."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained municipal services and capital territory administrative continuity."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained standard public health tracking and routine municipal service delivery."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline civil service operations and healthcare delivery tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline public service administration and routine security tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline public procurement monitoring and municipal administration."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline housing construction tracking and public administration."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Continued baseline public health and road corridor security surveillance."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline public service administration and routine security tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline administrative operations and educational policy monitoring."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline civil service operations and port city security tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained baseline public service operations and agricultural logistics tracking."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine public administration and agricultural community monitoring."
+  },
+  {
+    "dayNumber": 10,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Sustained baseline public service administration and security surveillance."
+  },
+  {
+    "dayNumber": 10,
     "stateName": "Federal Capital Territory Baseline",
     "zone": "North-Central",
     "psi": 3.0,
