@@ -11,6 +11,8 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
+BATCH_LIMIT = 1  # Updated: Process exactly 1 post per execution (every 30 mins)
+
 def get_blogger_service():
     creds = Credentials(
         token=None,
@@ -101,64 +103,69 @@ def get_target_file_and_data():
         
     return target_file, data
 
-def publish_pending_content():
+def publish_batch_content():
     file_path, data = get_target_file_and_data()
     
-    item_to_publish = None
-    
-    # Locate the first unpublished item inside newsReports array
+    # Extract items array from dictionary or root list
     if isinstance(data, dict) and "newsReports" in data:
-        for item in data["newsReports"]:
-            if not item.get("published", False):
-                item_to_publish = item
-                break
+        items = data["newsReports"]
     elif isinstance(data, list):
-        for item in data:
-            if not item.get("published", False):
-                item_to_publish = item
-                break
-
-    if not item_to_publish:
-        print("No new unpublished items found in master-data.json. Skipping execution.")
+        items = data
+    else:
+        print("Unrecognized data format in master-data.json.")
         return
 
-    title = item_to_publish.get("title", "Diploman Times Report")
-    labels = item_to_publish.get("labels", ["Governance Intelligence"])
-    
-    if item_to_publish.get("type") == "news_report" or "lead_narrative" in item_to_publish:
-        content = build_news_report_html(item_to_publish)
-    else:
-        content = item_to_publish.get("content", "<p>No content provided.</p>")
-
+    published_count = 0
     service = get_blogger_service()
-    body = {
-        "kind": "blogger#post",
-        "title": title,
-        "content": content,
-        "labels": labels
-    }
-    
-    posts = service.posts()
-    result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-    print(f"Successfully published: '{title}'")
-    print(f"Post URL: {result.get('url')}")
 
-    # Mark item as published and write back to master-data.json
-    item_to_publish["published"] = True
+    for item in items:
+        if published_count >= BATCH_LIMIT:
+            break
+
+        if not item.get("published", False):
+            title = item.get("title", "Diploman Times Report")
+            labels = item.get("labels", ["Governance Intelligence"])
+            
+            if item.get("type") == "news_report" or "lead_narrative" in item:
+                content = build_news_report_html(item)
+            else:
+                content = item.get("content", "<p>No content provided.</p>")
+
+            body = {
+                "kind": "blogger#post",
+                "title": title,
+                "content": content,
+                "labels": labels
+            }
+            
+            # Send payload to Google Blogger API
+            posts = service.posts()
+            result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+            print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {result.get('url')}")
+
+            # Mark item as published in memory
+            item["published"] = True
+            published_count += 1
+
+    if published_count == 0:
+        print("No unpublished items found in master-data.json. Skipping execution.")
+        return
+
+    # Write updated state back to file
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-    print(f"Updated 'published': true status in {file_path}")
+    print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
 
     # Commit updated master-data.json back to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "add", file_path], check=True)
-        subprocess.run(["git", "commit", "-m", f"auto: update publish status for '{title}'"], check=True)
+        subprocess.run(["git", "commit", "-m", f"auto: publish single post (30-min cadence)"], check=True)
         subprocess.run(["git", "push"], check=True)
         print("Pushed publication state update to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
 if __name__ == "__main__":
-    publish_pending_content()
+    publish_batch_content()
