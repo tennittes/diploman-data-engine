@@ -11,7 +11,7 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
-BATCH_LIMIT = 1  # Updated: Process exactly 1 post per execution (every 30 mins)
+BATCH_LIMIT = 1  # 1 post every 30 mins
 
 def get_blogger_service():
     creds = Credentials(
@@ -25,9 +25,6 @@ def get_blogger_service():
     return build('blogger', 'v3', credentials=creds)
 
 def build_news_report_html(item):
-    """
-    Renders structured news report JSON components into a clean Blogger HTML payload.
-    """
     html_parts = []
     
     # 1. Featured Image
@@ -41,7 +38,7 @@ def build_news_report_html(item):
         </figure>
         """).strip())
 
-    # 2. Lead Narrative (Before <!--more--> tag)
+    # 2. Lead Narrative
     if "lead_narrative" in item:
         html_parts.append(textwrap.dedent(f"""
         <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
@@ -93,9 +90,10 @@ def build_news_report_html(item):
     return "\n\n".join(html_parts)
 
 def get_target_file_and_data():
-    json_files = sorted(glob.glob("**/master-data.json", recursive=True))
+    # Finds the latest news-queue.json file inside monthly subfolders
+    json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
     if not json_files:
-        raise FileNotFoundError("No master-data.json file found in repository.")
+        raise FileNotFoundError("No news-queue.json file found in repository subfolders.")
     
     target_file = json_files[-1]
     with open(target_file, "r", encoding="utf-8") as f:
@@ -106,13 +104,12 @@ def get_target_file_and_data():
 def publish_batch_content():
     file_path, data = get_target_file_and_data()
     
-    # Extract items array from dictionary or root list
     if isinstance(data, dict) and "newsReports" in data:
         items = data["newsReports"]
     elif isinstance(data, list):
         items = data
     else:
-        print("Unrecognized data format in master-data.json.")
+        print("Unrecognized data format in news queue.")
         return
 
     published_count = 0
@@ -138,32 +135,28 @@ def publish_batch_content():
                 "labels": labels
             }
             
-            # Send payload to Google Blogger API
             posts = service.posts()
             result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
             print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {result.get('url')}")
 
-            # Mark item as published in memory
             item["published"] = True
             published_count += 1
 
     if published_count == 0:
-        print("No unpublished items found in master-data.json. Skipping execution.")
+        print("No unpublished items found in news queue. Skipping execution.")
         return
 
-    # Write updated state back to file
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
 
-    # Commit updated master-data.json back to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "add", file_path], check=True)
-        subprocess.run(["git", "commit", "-m", f"auto: publish single post (30-min cadence)"], check=True)
+        subprocess.run(["git", "commit", "-m", "auto: publish single post (30-min cadence)"], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("Pushed publication state update to repository.")
+        print("Pushed news queue state update to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
