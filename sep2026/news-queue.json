@@ -1,0 +1,35 @@
+{
+  "newsReports": [
+    {
+      "type": "news_report",
+      "id": "news-2026-09-12-01",
+      "published": false,
+      "title": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+      "labels": [
+        "News Report",
+        "Edo State",
+        "Governance",
+        "Felicitation"
+      ],
+      "featured_image": {
+        "src": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Edo State Governor, Senator Monday Okpebholo, has paid rich tribute to Chief Dr. Gabriel Osawaru Igbinedion...",
+      "editorial_notice": "EDITORIAL NOTICE: This External Brief provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "In an official felicitation message issued on Friday by his Chief Press Secretary...",
+        "Reflecting on Chief Igbinedion’s multi-decade trajectory...",
+        "Beyond industrial ventures...",
+        "Concluding his birthday tribute..."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    }
+  ]
+}
