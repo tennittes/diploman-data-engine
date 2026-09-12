@@ -9695,6 +9695,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-12-01",
+      "published": true,
       "title": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
       "labels": ["News Report", "Edo State", "Governance", "Felicitation"],
       "featured_image": {
