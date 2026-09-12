@@ -9690,35 +9690,32 @@
     "focus": "Baseline Federal Domain Alignment",
     "dailyBrief": "Sustained national baseline policy tracking."
   }
- ]
-}
-{
-  "type": "news_report",
-  "id": "news-2026-09-12-01",
-  "title": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
-  "labels": [
-    "News Report",
-    "Edo State",
-    "Governance",
-    "Felicitation"
-  ],
-  "featured_image": {
-    "src": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
-    "alt": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
-    "target_url": "https://www.diplomantimes.com"
-  },
-  "lead_narrative": "Edo State Governor, Senator Monday Okpebholo, has paid rich tribute to Chief Dr. Gabriel Osawaru Igbinedion, the Esama of Benin Kingdom, on the occasion of his 92nd birthday, celebrating the iconic patriarch for a lifelong commitment to transforming personal business success into an instrument for public good.",
-  "editorial_notice": "EDITORIAL NOTICE: This External Brief provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-  "story_body": [
-    "In an official felicitation message issued on Friday by his Chief Press Secretary, Dr. Patrick Akhere Ebojele, Governor Okpebholo expressed immense gratitude to God for blessing the Benin Kingdom and Edo State with the Esama’s remarkable longevity. The Governor emphasized that reaching the age of 92 represents far more than a milestone of years, marking instead an extraordinary legacy of faith, vision, enterprise, and sustained generosity that spans across aviation, education, broadcasting, and community development.",
-    "Reflecting on Chief Igbinedion’s multi-decade trajectory, the Governor highlighted how the elder statesman pioneered private participation in critical sectors, notably founding Nigeria's first private university, Igbinedion University Okada, and establishing Okada Air alongside independent broadcasting networks. Governor Okpebholo observed that true greatness is defined by the enduring institutions created and the opportunities made available to rising generations, noting that the Esama’s investments in healthcare, security, religion, and human capital have brought distinction to Edo State both nationally and internationally.",
-    "Beyond industrial ventures, the statement underscored the deeply personal touch of Chief Igbinedion’s philanthropic footprint across local communities in Edo State. For over half a century, his sustained interventions in healthcare infrastructure, grassroots scholarships, and humanitarian relief have touched thousands of lives, providing a compelling model of how private wealth can be channeled directly toward social stability, poverty alleviation, and community development.",
-    "Concluding his birthday tribute, Governor Okpebholo offered warm prayers for the Esama’s continued vitality, wishing him renewed physical strength, peace, and many more years of purposeful leadership. As celebrations mark this 92nd milestone across Benin City and beyond, the state government reiterated its appreciation for Chief Igbinedion’s enduring elder-statesman role in fostering peace and socio-economic resilience across the state."
-  ],
-  "call_to_action": {
-    "heading": "Diploman Times Telemetry Interlink",
-    "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-    "button_label": "Explore Macro Intelligence Terminal →",
-    "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
-  }
+],
+  "newsReports": [
+    {
+      "type": "news_report",
+      "id": "news-2026-09-12-01",
+      "title": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+      "labels": ["News Report", "Edo State", "Governance", "Felicitation"],
+      "featured_image": {
+        "src": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Edo State Governor, Senator Monday Okpebholo, has paid rich tribute to Chief Dr. Gabriel Osawaru Igbinedion...",
+      "editorial_notice": "EDITORIAL NOTICE: This External Brief provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "In an official felicitation message issued on Friday by his Chief Press Secretary...",
+        "Reflecting on Chief Igbinedion’s multi-decade trajectory...",
+        "Beyond industrial ventures...",
+        "Concluding his birthday tribute..."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    }
+  ]
 }
