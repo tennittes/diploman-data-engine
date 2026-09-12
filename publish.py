@@ -2,6 +2,7 @@ import os
 import json
 import glob
 import textwrap
+import subprocess
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -89,38 +90,45 @@ def build_news_report_html(item):
 
     return "\n\n".join(html_parts)
 
-def get_latest_item():
+def get_target_file_and_data():
     json_files = sorted(glob.glob("**/master-data.json", recursive=True))
     if not json_files:
         raise FileNotFoundError("No master-data.json file found in repository.")
     
-    latest_file = json_files[-1]
-    print(f"Reading content from: {latest_file}")
-    
-    with open(latest_file, "r", encoding="utf-8") as f:
+    target_file = json_files[-1]
+    with open(target_file, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
-    # 1. If data is a dictionary containing the "newsReports" array (New Object Schema)
-    if isinstance(data, dict) and "newsReports" in data and len(data["newsReports"]) > 0:
-        return data["newsReports"][-1]
-    
-    # 2. If data is an array of items (Legacy Array Schema)
-    if isinstance(data, list) and len(data) > 0:
-        return data[-1]
         
-    return data
+    return target_file, data
 
-def publish_content():
-    item = get_latest_item()
+def publish_pending_content():
+    file_path, data = get_target_file_and_data()
     
-    title = item.get("title", "Diploman Times Report")
-    labels = item.get("labels", ["Governance Intelligence"])
+    item_to_publish = None
     
-    # Check if item is structured News Report or standard payload
-    if item.get("type") == "news_report" or "lead_narrative" in item:
-        content = build_news_report_html(item)
+    # Locate the first unpublished item inside newsReports array
+    if isinstance(data, dict) and "newsReports" in data:
+        for item in data["newsReports"]:
+            if not item.get("published", False):
+                item_to_publish = item
+                break
+    elif isinstance(data, list):
+        for item in data:
+            if not item.get("published", False):
+                item_to_publish = item
+                break
+
+    if not item_to_publish:
+        print("No new unpublished items found in master-data.json. Skipping execution.")
+        return
+
+    title = item_to_publish.get("title", "Diploman Times Report")
+    labels = item_to_publish.get("labels", ["Governance Intelligence"])
+    
+    if item_to_publish.get("type") == "news_report" or "lead_narrative" in item_to_publish:
+        content = build_news_report_html(item_to_publish)
     else:
-        content = item.get("content", "<p>No content provided.</p>")
+        content = item_to_publish.get("content", "<p>No content provided.</p>")
 
     service = get_blogger_service()
     body = {
@@ -135,5 +143,22 @@ def publish_content():
     print(f"Successfully published: '{title}'")
     print(f"Post URL: {result.get('url')}")
 
+    # Mark item as published and write back to master-data.json
+    item_to_publish["published"] = True
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Updated 'published': true status in {file_path}")
+
+    # Commit updated master-data.json back to GitHub
+    try:
+        subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+        subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
+        subprocess.run(["git", "add", file_path], check=True)
+        subprocess.run(["git", "commit", "-m", f"auto: update publish status for '{title}'"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("Pushed publication state update to repository.")
+    except Exception as e:
+        print(f"Note: Git auto-commit skipped or failed: {e}")
+
 if __name__ == "__main__":
-    publish_content()
+    publish_pending_content()
