@@ -1,29 +1,29 @@
 name: Automated Blogger Publisher
 
 on:
-  workflow_dispatch:
   schedule:
-    # Runs every 30 minutes from 04:00 to 16:30 UTC (26 runs daily)
-    - cron: '*/30 4-16 * * *'
+    # Runs every 30 minutes from 04:00 to 16:30 UTC, Monday through Friday (1-5)
+    - cron: '*/30 4-16 * * 1-5'
+  workflow_dispatch: # Allows manual triggers anytime from GitHub interface
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-      - name: Run Publish Script
+      - name: Execute Publishing Script
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
