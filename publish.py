@@ -99,8 +99,16 @@ def get_latest_item():
     
     with open(latest_file, "r", encoding="utf-8") as f:
         data = json.load(f)
+    
+    # 1. If data is a dictionary containing the "newsReports" array (New Object Schema)
+    if isinstance(data, dict) and "newsReports" in data and len(data["newsReports"]) > 0:
+        return data["newsReports"][-1]
+    
+    # 2. If data is an array of items (Legacy Array Schema)
+    if isinstance(data, list) and len(data) > 0:
+        return data[-1]
         
-    return data[-1] if isinstance(data, list) else data
+    return data
 
 def publish_content():
     item = get_latest_item()
