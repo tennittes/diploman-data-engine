@@ -483,7 +483,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-14-16",
-      "published": false,
+      "published": true,
       "title": "Delta State Launches Free Specialized Women's Health Services At Asaba Specialist Hospital",
       "labels": [
         "News Report",
