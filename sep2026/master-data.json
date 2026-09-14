@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-15",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -3218,6 +3218,294 @@
       "whyItMatters": "This 7.0 PSI High Signal engagement strengthens regional academic-policy collaboration to solve regional socio-economic challenges."
     },
     "intent": "Fostering regional academic-government collaboration and maintaining traditional institutional relations."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "EBONYI",
+    "stateName": "Ebonyi State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Ebonyi State Government Flags Off FON 4-TECH Initiative to Train 829 Youths in Digital Skills",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ebonyi State Government Flags Off FON 4-TECH Initiative to Train 829 Youths in Digital Skills",
+      "whatHappened": "The Ebonyi State Government, through EBSMEDA and Mutech Afrique, officially flagged off the FON 4-TECH Initiative at the Staff Development Centre in Abakaliki, enrolling 829 participants across AI Automation, Web Development, Graphic Design, and Web3.",
+      "whyItMatters": "This 8.9 PSI High Signal intervention directly converts state SME agency frameworks into concrete digital skills acquisition. Providing targeted tech training across four specialized tracks mitigates youth unemployment and strengthens Ebonyi's subnational digital economy."
+    },
+    "intent": "Expanding youth technological human capital and fostering digital entrepreneurship through structured state agency training partnerships."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Cross River State Advocates 50-Year Master Plan for Greater Calabar Capital City Corridor",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River State Advocates 50-Year Master Plan for Greater Calabar Capital City Corridor",
+      "whatHappened": "Cross River State Information Commissioner Pastor Ekpenyong Cobham called for a 50-year urban master plan during a meeting with the Greater Calabar Capital City Development Authority ahead of the Greater Calabar Summit scheduled for September 29.",
+      "whyItMatters": "This 8.8 PSI High Signal policy directive establishes long-term spatial planning across seven LGAs. Creating legally enforceable layout protections and structured infrastructure corridors enhances investor confidence and prevents urban congestion."
+    },
+    "intent": "Establishing long-term spatial urban planning and legal layout protections to guide infrastructure expansion across the Greater Calabar metropolis."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "European Union Identifies Delta State's Burutu Port for International Maritime Sea Link Corridor",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "European Union Identifies Delta State's Burutu Port for International Maritime Sea Link Corridor",
+      "whatHappened": "The European Union Delegation to Nigeria met with Deputy Governor Sir Monday Onyeme in Asaba, proposing to position Burutu Port as a strategic international maritime hub connecting Lagos, the Niger Delta, Onitsha, and Ajaokuta along the River Niger.",
+      "whyItMatters": "This 8.8 PSI High Signal engagement leverages Delta's extensive waterways to expand the regional blue economy. Establishing Burutu Port as a coastal transit hub opens major international trade channels and drives subnational logistics development."
+    },
+    "intent": "Leveraging international diplomatic partnerships to develop maritime transport infrastructure and expand coastal blue economy trade corridors."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Akwa Ibom State Commissions Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Akwa Ibom State Commissions Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA",
+      "whatHappened": "The Akwa Ibom State Government commissioned a fully equipped Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA, representing the fourth healthcare facility commissioned by the state government within eight days.",
+      "whyItMatters": "This 8.7 PSI High Signal deployment expands primary healthcare access to rural communities, eliminating the need for residents to travel long distances to Eket or Uyo for maternal and emergency medical care."
+    },
+    "intent": "Decongesting tertiary hospitals and upgrading rural primary healthcare infrastructure to improve maternal and child health outcomes."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Zulum Pledges Support to Establish Tax Ombuds Regional Headquarters in Maiduguri",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Zulum Pledges Support to Establish Tax Ombuds Regional Headquarters in Maiduguri",
+      "whatHappened": "Governor Babagana Umara Zulum received the pioneer CEO of Tax Ombuds of Nigeria, Dr. John Nwabueze, in Maiduguri, committing state political support, office space, and inter-agency coordination to establish its North-East regional headquarters.",
+      "whyItMatters": "This 8.6 PSI High Signal institutional engagement positions Borno as the regional tax arbitration hub. Providing an independent arbiter between taxpayers and revenue authorities strengthens business confidence and tax compliance."
+    },
+    "intent": "Institutionalizing fair tax arbitration mechanisms and strengthening subnational fiscal administration by hosting regional regulatory bodies."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Sanwo-Olu Attends Listing of Dangote Petroleum Refinery IPO on Nigerian Exchange",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sanwo-Olu Attends Listing of Dangote Petroleum Refinery IPO on Nigerian Exchange",
+      "whatHappened": "Governor Babajaide Sanwo-Olu joined Alhaji Aliko Dangote at the Nigerian Exchange Group in Lagos for the official IPO listing of the Dangote Petroleum Refinery, while Health District V intensified PHC nutrition interventions across four LGAs.",
+      "whyItMatters": "This 8.5 PSI High Signal commercial milestone reinforces Lagos' status as Africa's premier financial and industrial center, pairing major private capital listing on the NGX with grassroots child nutrition programs."
+    },
+    "intent": "Promoting capital market integration for mega-industrial assets while sustaining frontline public health interventions for vulnerable populations."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "EDOHERMA Wins National eGovernment Award for Digital Inclusion and Rural Health Access",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "EDOHERMA Wins National eGovernment Award for Digital Inclusion and Rural Health Access",
+      "whatHappened": "The Edo State Health Regulation and Monitoring Agency received the eGovernment Award in Lagos for digitizing facility registration, geolocation, and public verification tools, while the state distributed educational materials and grants to IDP students in Uhogua.",
+      "whyItMatters": "This 8.4 PSI High Signal achievement demonstrates how administrative digitization expands healthcare regulatory oversight across rural LGAs while providing direct educational relief to displaced persons."
+    },
+    "intent": "Embedding technology into public health facility regulation and extending social welfare support to displaced populations."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Zamfara State Commences Statewide Mosquito Fumigation and Shortlists 6,412 Teachers for CBT",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara State Commences Statewide Mosquito Fumigation and Shortlists 6,412 Teachers for CBT",
+      "whatHappened": "Governor Dauda Lawal approved a statewide fumigation campaign against malaria starting in Gusau metropolis, while ZITDA shortlisted 6,412 basic education teaching applicants for Computer-Based Testing scheduled for September 16.",
+      "whyItMatters": "This 8.3 PSI High Signal dual action addresses immediate public health hazards through vector control while advancing transparent merit-based recruitment to rebuild basic education capacity."
+    },
+    "intent": "Mitigating malaria prevalence through vector control sanitation while professionalizing basic education recruitment via digital screening."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Umaru Bago Rewards Qur'anic Recitation Winners with Hajj Seats and Cash Grants",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Umaru Bago Rewards Qur'anic Recitation Winners with Hajj Seats and Cash Grants",
+      "whatHappened": "Governor Mohammed Umaru Bago rewarded six overall category winners of the 41st Niger State Qur'anic Recitation Competition in Bida with Hajj seats and N5 million each, while disbursing N1 million consolation prizes to all 134 participants.",
+      "whyItMatters": "This 8.2 PSI High Signal civic engagement encourages youth educational discipline and social cohesion, combining religious scholarship sponsorship with state pledges for educational scholarships."
+    },
+    "intent": "Fostering youth social development and educational discipline through state sponsorship of cultural and religious scholarship programs."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Alia Commissions Judicial Service Complex and Court Infrastructure in Makurdi",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Alia Commissions Judicial Service Complex and Court Infrastructure in Makurdi",
+      "whatHappened": "Governor Hyacinth Alia opened the 2026/2027 Legal Year in Makurdi, commissioning the Judicial Service Commission Complex, High Court Clinic, remodelled High Court, and internal roads while warning against vandalizing public utilities.",
+      "whyItMatters": "This 8.0 PSI High Signal deployment strengthens judicial independence and court infrastructure capacity, backed by strict executive enforcement against the destruction of public utility assets."
+    },
+    "intent": "Upgrading judicial physical infrastructure and enforcing legal protections over state public utilities and infrastructure assets."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Abiodun Advocates Federal Court of Appeal Division for Abeokuta at Legal Year Service",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Abiodun Advocates Federal Court of Appeal Division for Abeokuta at Legal Year Service",
+      "whatHappened": "Governor Dapo Abiodun attended the 2026/2027 Legal Year thanksgiving service at Cathedral Church of St. Peter in Abeokuta, calling for the creation of an Abeokuta Division of the Federal Court of Appeal.",
+      "whyItMatters": "This 7.9 PSI High Signal advocacy aims to reduce procedural delays for Ogun state litigants currently traveling to Ibadan, enhancing judicial access and rule of law compliance."
+    },
+    "intent": "Expanding appellate judicial access and strengthening institutional checks and balances across subnational governance."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Kaduna State Recovers 500,000 Hectares of Farmland; Governor Sani Honoured at Exercise HASKE BIYU",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Kaduna State Recovers 500,000 Hectares of Farmland; Governor Sani Honoured at Exercise HASKE BIYU",
+      "whatHappened": "The Kaduna State Government announced the recovery of over 500,000 hectares of farmland from bandits, enabling agricultural resumption, while Governor Uba Sani received a security plaque at AFCSC Jaji.",
+      "whyItMatters": "This 7.8 PSI High Signal achievement restores agrarian access and food production across volatile local government areas, demonstrating successful civil-military collaboration in securing economic assets."
+    },
+    "intent": "Reclaiming security-compromised agricultural land and deepening inter-agency collaboration with the Armed Forces to protect rural livelihoods."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Plateau State Government Condemns Local Attacks in Mangu and Kuru, Reaffirms Peace Commitment",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau State Government Condemns Local Attacks in Mangu and Kuru, Reaffirms Peace Commitment",
+      "whatHappened": "The Plateau State Government issued a formal executive condemnation following security incidents in Mangu LGA and Kuru Dungus Junction, appealing for calm and directing security agency coordination.",
+      "whyItMatters": "This 7.5 PSI High Signal executive response active-manages community conflict risks, mobilizing intelligence sharing and security agency deployment to prevent reprisal violence and safeguard farming belts."
+    },
+    "intent": "Reinforcing community peace architecture and inter-agency security protocols to stabilize peri-urban and agrarian zones."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Agbu Kefas Leads High-Level Condolence Delegation to Late Bamanga Tukur's Family in Yola",
+    "psi": 7.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Agbu Kefas Leads High-Level Condolence Delegation to Late Bamanga Tukur's Family in Yola",
+      "whatHappened": "Governor Agbu Kefas, accompanied by the Speaker, SSG, and state political leaders, paid a condolence visit to Yola following the passing of former Gongola State Governor Alhaji Bamanga Tukur.",
+      "whyItMatters": "This 7.4 PSI High Signal diplomatic mission reinforces cross-border political stability and historical governance ties across the former Gongola territory, fostering regional alignment."
+    },
+    "intent": "Strengthening cross-border regional diplomacy and political cohesion through executive solidarity missions."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Fintiri Declares Public Holiday and 3-Day Mourning for Former Governor Bamanga Tukur",
+    "psi": 7.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Fintiri Declares Public Holiday and 3-Day Mourning for Former Governor Bamanga Tukur",
+      "whatHappened": "Governor Ahmadu Umaru Fintiri declared Monday, September 14, 2026, a work-free day and ordered state flags to fly at half-mast for three days in honour of the late elder statesman Alhaji Bamanga Tukur.",
+      "whyItMatters": "This 7.1 PSI High Signal state protocol honors historical public service contributions while maintaining essential public services during a period of state mourning."
+    },
+    "intent": "Executing official state honor protocols and commemorating foundational subnational executive leadership."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Kwara State Government Approves 2026/2027 Academic Calendar for Primary and Secondary Schools",
+    "psi": 6.2,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Kwara State Government Approves 2026/2027 Academic Calendar for Primary and Secondary Schools",
+      "whatHappened": "Education Commissioner Dr. Lawal Olohungbebe announced the official approval of the 2026/2027 school academic calendar starting September 21, 2026, for all public and private schools in Kwara State.",
+      "whyItMatters": "This 6.2 PSI Moderate Signal administrative intervention standardizes basic education operations, ensuring structural compliance and synchronized learning terms across public and private institutions."
+    },
+    "intent": "Standardizing academic planning cycles and enforcing regulatory coordination across basic education institutions."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Governor Abdullahi Sule Attends North Central Stakeholders Development Summit in Abuja",
+    "psi": 6.0,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Governor Abdullahi Sule Attends North Central Stakeholders Development Summit in Abuja",
+      "whatHappened": "Governor Abdullahi A. Sule, as Chairman of the North Central Governors' Forum, attended the opening of the North Central Stakeholders Development Summit to advance the NCDC 20-year Development Plan.",
+      "whyItMatters": "This 6.0 PSI Moderate Signal inter-governmental consultation aligns regional infrastructure and economic planning frameworks across six states and the Federal Capital Territory."
+    },
+    "intent": "Fostering multi-state regional planning and aligning subnational policy with regional development commission frameworks."
+  },
+  {
+    "dayNumber": 15,
+    "stateKey": "KANO",
+    "stateName": "Kano State",
+    "displayDate": "Tuesday, September 15, 2026",
+    "headline": "Kano Deputy Governor Represents Governor Yusuf at High-Profile Civic and Condolence Engagements",
+    "psi": 4.5,
+    "intensity": "LOW",
+    "momentum": "Stable",
+    "impactMatrix": {
+      "headline": "Kano Deputy Governor Represents Governor Yusuf at High-Profile Civic and Condolence Engagements",
+      "whatHappened": "Deputy Governor Comrade Aminu Abdussalam Gwarzo represented Governor Abba Kabir Yusuf at the wedding of Minister Kyari's son, paid condolence visits in Danbatta, and supported fire victims in Gezawa LGA.",
+      "whyItMatters": "This 4.5 PSI Low Signal routine activity maintains standard executive civic presence and community outreach without introducing strategic policy reforms or major capital allocations."
+    },
+    "intent": "Executing routine civic representation and executive community outreach across state LGAs."
   }
   ],
 
@@ -7766,6 +8054,426 @@
         "securityAnalysis": "Yobe State (7.0 PSI / High Signal / SIS 4.5 / MONITORED / Growth-Oriented / Caution) maintains active security patrols across rural districts."
       }
      ]
+    },
+       "15": {
+    "date": "2026-09-15",
+    "formattedDate": "September 15, 2026",
+    "metadata": {
+      "compositePsi": 8.1,
+      "activeJurisdictionsCount": 18,
+      "unlistedJurisdictionsCount": 19,
+      "unlistedNote": "The 19 unlisted jurisdictions (Abia, Anambra, Bauchi, Bayelsa, Ekiti, Enugu, Gombe, Imo, Jigawa, Katsina, Kebbi, Kogi, Ondo, Osun, Oyo, Rivers, Sokoto, Yobe, FCT Abuja) remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 18 Active Jurisdiction Across Nigeria",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & State Impact Score (SIS) Daily Briefing.",
+        "summary": "Subnational executive momentum on September 15, 2026, recorded an 8.1 PSI net composite average, led by digital tech skills training in Ebonyi, long-term urban master planning in Cross River, EU maritime hub expansion in Delta, and model primary health commissioning in Akwa Ibom."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Demonstrates High-Alpha Opportunities Amid Secure Aviation, Maritime, and Agrarian Corridors",
+        "summary": "Comprehensive subnational risk analysis for September 15, 2026, evaluating Security Incident Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's commercial, maritime, and agrarian corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Reaches 8.1 Net Composite Average Across Human Capital, Judicial Autonomy, and Public Health",
+        "summary": "Nigeria’s state executives record an 8.1 net PSI composite average on September 15, 2026, driven by high-velocity governance across digital youth empowerment, coastal maritime transport, judicial infrastructure, and vector disease control."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded an expansive operational performance during the active reporting window ending September 15, 2026. The 37-jurisdiction net Policy Signal Index (PSI) baseline settled at a high composite average of 8.1, reflecting intense executive commitment to human capital development, physical asset deployment, healthcare accessibility, and strategic regional infrastructure planning.\n\nAcross active geopolitical zones, state governors and executive councils demonstrated high-capacity governance by translating administrative intent into measurable public outcomes. From tech skill acquisition and 50-year urban master plans to primary healthcare facility rollouts and judicial infrastructure commissioning, subnational governance displayed sustained structural momentum aimed at economic resilience and public welfare.",
+        "emergingPatterns": "The active reporting window reveals a decisive shift toward digital capacity building, spatial planning regulation, and health system strengthening. State governments are increasingly focusing on equipping youth with technological skillsets, establishing legally backed urban layouts, and expanding primary health services to rural communities to ensure long-term stability and private sector alignment.",
+        "strategicOutlook": "Sustaining current subnational performance will require continuous inter-agency collaboration, strict layout enforcement, and proactive security management in peri-urban areas. States that combine regulatory compliance with grassroots capital expenditure will absorb economic shocks effectively, preserving public trust and investor confidence.",
+        "conclusion": "The subnational executive governance landscape for September 15, 2026, reflects measurable administrative progress and strategic institutional alignment. By grounding governance in human capital creation, public health infrastructure, and transparent fiscal administration, Nigeria’s subnational executives continue to strengthen the foundations of sustainable economic development."
+      },
+      "security": {
+        "introduction": "The subnational investment and operational risk landscape across Nigeria’s 36 States and the Federal Capital Territory for September 15, 2026, demonstrates high physical stability, with primary economic centers displaying robust security metrics and favorable risk-reward dynamics. Investors, development finance institutions, and corporate decision-makers navigating subnational markets can access high-alpha returns in logistics, energy, digital health, and maritime trade across jurisdictions that maintain low operational friction.\n\nThrough the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index (PSI), raw Security Incident Score (SIS), Risk Indicator classification, and derived Investment Decision Profile. This multi-dimensional risk matrix offers clear strategic guidance for institutional capital allocation across key geopolitical zones.",
+        "emergingPatterns": "Subnational security mapping indicates that southern maritime, aviation, and financial hubs maintain highly stable SECURE (SIS < 3.0) environments ideal for long-term equity positions, commercial real estate, and municipal infrastructure. In contrast, northern logistics and agricultural zones require active risk oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in agribusiness and transit hubs must be paired with tactical logistics hedges, military intelligence coordination, and community-level peace frameworks.",
+        "strategicOutlook": "Corporate decision-makers and private equity funds should prioritize subnational jurisdictions that combine high executive policy signals with secure physical transport corridors. Capital deployments in maritime logistics, digital skilling hubs, and primary health networks will yield superior risk-adjusted returns when aligned with verified state-level executive priorities.",
+        "conclusion": "Navigating Nigeria’s subnational economy requires rigorous, metric-backed evaluation. By aligning capital allocation with verified Policy Signal Index ratings and Security Incident Scores, institutional investors can capture substantial subnational growth while maintaining robust capital preservation."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Maritime, Aviation, and Commercial Transport Hubs",
+        "states": ["Lagos", "Akwa Ibom", "Cross River", "Delta"]
+      },
+      {
+        "groupTitle": "Coastal Energy, Security Alignment, and Governance Corridors",
+        "states": ["Edo"]
+      },
+      {
+        "groupTitle": "Agrarian Corridors, Health Security, and Public Infrastructure",
+        "states": ["Ebonyi", "Borno", "Zamfara", "Kaduna", "Adamawa"]
+      },
+      {
+        "groupTitle": "Frontier Security, Social Welfare, and Emergency Protocols",
+        "states": ["Niger", "Benue", "Ogun", "Plateau", "Taraba", "Kwara", "Nasarawa", "Kano"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Ebonyi",
+        "governor": "Francis Nwifuru",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Ebonyi State Government Flags Off FON 4-TECH Initiative to Train 829 Youths in Digital Skills.",
+        "impactVector": "The Ebonyi State Government, through EBSMEDA and Mutech Afrique, officially flagged off the FON 4-TECH Initiative at the Staff Development Centre in Abakaliki, enrolling 829 participants across AI Automation, Web Development, Graphic Design, and Web3.",
+        "policyBreakdown": {
+          "category": "Youth Technological Human Capital and SME Digital Skills Development",
+          "body": "In Ebonyi State, Governor Francis Ogbonna Nwifuru, represented by Commerce Commissioner Chief Oguzor Offia Nwali, launched the FON 4-TECH Initiative in Abakaliki. The state-sponsored technology training program enrolled 829 participants across AI Automation (353), Web Development (222), Graphic Design (191), and Web3 (63). Registering a HIGH SIGNAL (8.9 PSI / Advancing Momentum), this intervention translates state SME agency frameworks into high-value digital human capital, directly tackling youth unemployment and positioning Ebonyi as an emerging regional technology hub."
+        },
+        "securityAnalysis": "Ebonyi State (8.9 PSI / High Signal / SIS 2.5 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains low security friction and stable physical infrastructure, offering an ideal environment for private tech investments and human capital development."
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Cross River State Advocates 50-Year Master Plan for Greater Calabar Capital City Corridor.",
+        "impactVector": "Information Commissioner Pastor Ekpenyong Cobham called for a 50-year urban master plan during a meeting with the Greater Calabar Capital City Development Authority ahead of the Greater Calabar Summit scheduled for September 29.",
+        "policyBreakdown": {
+          "category": "Long-Term Spatial Urban Planning and Layout Protection Regulations",
+          "body": "In Cross River State, Information Commissioner Pastor Ekpenyong Cobham called for a comprehensive 50-year master plan for Greater Calabar during an engagement with the Greater Calabar Capital City Development Authority (GCCDA). Covering Bakassi, Akpabuyo, Calabar South, Calabar Municipal, Odukpani, Akamkpa, and Biase LGAs, the initiative precedes the September 29 Greater Calabar Summit. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), this spatial planning framework establishes legally enforceable layout protections, housing developments, and transport networks to prevent urban congestion and boost investor confidence."
+        },
+        "securityAnalysis": "Cross River State (8.8 PSI / High Signal / SIS 1.9 / SECURE / High-Alpha / Prime Alpha Opportunity) features excellent security metrics, low physical risk, and expanding eco-tourism and urban real estate opportunities."
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "European Union Identifies Delta State's Burutu Port for International Maritime Sea Link Corridor.",
+        "impactVector": "The European Union Delegation to Nigeria met with Deputy Governor Sir Monday Onyeme in Asaba, proposing to position Burutu Port as a strategic international maritime hub connecting Lagos, the Niger Delta, Onitsha, and Ajaokuta along the River Niger.",
+        "policyBreakdown": {
+          "category": "Maritime Transport Logistics, Blue Economy Expansion, and Higher Education Governance",
+          "body": "In Delta State, the European Union Delegation led by Massimo De Luca met with Deputy Governor Sir Monday Onyeme in Asaba, highlighting Burutu Port's potential as an international maritime hub under a proposed Sea Link route connecting Lagos, the Niger Delta, Onitsha, and Ajaokuta. Concurrently, Governor Sheriff Oborevwori appointed a new State Auditor-General, inaugurated governing councils for three state universities, and led Team Delta to top the South-South Zonal Elimination of the National Intermediate Games. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), Delta State expands its blue economy potential while strengthening academic and sports administration."
+        },
+        "securityAnalysis": "Delta State (8.8 PSI / High Signal / SIS 2.6 / SECURE / Growth-Oriented / Balanced Expansion) offers strong physical security and strategic waterway connectivity for maritime trade and logistics investments."
+      },
+      {
+        "state": "Akwa Ibom",
+        "governor": "Umo Eno",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Akwa Ibom State Commissions Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA.",
+        "impactVector": "The Akwa Ibom State Government commissioned a fully equipped Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA, representing the fourth healthcare facility commissioned by the state government within eight days.",
+        "policyBreakdown": {
+          "category": "Primary Healthcare Infrastructure Expansion and Rural Maternal Health Access",
+          "body": "In Akwa Ibom State, the administration of Governor Umo Eno commissioned a fully equipped Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA. Marking the fourth primary healthcare facility commissioned across the state within eight days, the intervention was hailed by Health Commissioner Dr. Ekem John and Council Chairman Hon. Emmanuel Inyang. Earning a HIGH SIGNAL (8.7 PSI / Advancing Momentum), this project eliminates the need for rural residents to travel to Eket or Uyo for maternal and emergency care, significantly improving grassroots health outcomes."
+        },
+        "securityAnalysis": "Akwa Ibom State (8.7 PSI / High Signal / SIS 1.8 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains top-tier security stability, low operational risk, and exceptional physical infrastructure."
+      },
+      {
+        "state": "Borno",
+        "governor": "Babagana Umara Zulum",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 5.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Governor Zulum Pledges Support to Establish Tax Ombuds Regional Headquarters in Maiduguri.",
+        "impactVector": "Governor Babagana Umara Zulum received the pioneer CEO of Tax Ombuds of Nigeria, Dr. John Nwabueze, in Maiduguri, committing state political support, office space, and inter-agency coordination to establish its North-East regional headquarters.",
+        "policyBreakdown": {
+          "category": "Fiscal Administration Restructuring and Subnational Tax Dispute Arbitration",
+          "body": "In Borno State, Governor Babagana Umara Zulum received Dr. John Nwabueze, pioneer Chief Executive Officer of the Tax Ombuds of Nigeria, committing full state political support and office space to establish the agency's regional headquarters in Maiduguri. Directing the SSG, Commissioner for Finance, and State Revenue Service Board to finalize modalities, Governor Zulum praised the agency's role as an independent arbiter between taxpayers and revenue authorities. Earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum), this institutional partnership strengthens business trust and administrative transparency across the North-East."
+        },
+        "securityAnalysis": "Borno State (8.6 PSI / High Signal / SIS 5.2 / MONITORED / High-Alpha / Growth with Monitoring) combines rapid administrative capacity building with active security oversight across outlying local government areas."
+      },
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sanwo-Olu Attends Listing of Dangote Petroleum Refinery IPO on Nigerian Exchange.",
+        "impactVector": "Governor Babajide Sanwo-Olu joined Alhaji Aliko Dangote at the Nigerian Exchange Group in Lagos for the official IPO listing of the Dangote Petroleum Refinery, while Health District V intensified PHC nutrition interventions across four LGAs.",
+        "policyBreakdown": {
+          "category": "Capital Market Industrial Integration, Tourism Infrastructure, and Child Nutrition",
+          "body": "In Lagos State, Governor Babajide Sanwo-Olu joined Alhaji Aliko Dangote at the Nigerian Exchange Group for the official IPO opening of the Dangote Petroleum Refinery—the first refinery listed on the NGX in its 66-year history. Concurrently, Tourism Commissioner Toke Benson-Awoyinka commissioned Phase III of Ziba Beach Resort in Eti-Osa, while Health District V conducted anti-malnutrition food supplement distributions across PHCs in Amukoko, Amuwo-Odofin, Ojo, and Olorunda. Earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum), Lagos State combines capital market mega-investments with leisure infrastructure and community health protection."
+        },
+        "securityAnalysis": "Lagos State (8.5 PSI / High Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) remains Nigeria's commercial and financial benchmark with minimal operational risk and dense economic assets."
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "EDOHERMA Wins National eGovernment Award for Digital Inclusion and Rural Health Access.",
+        "impactVector": "The Edo State Health Regulation and Monitoring Agency received the eGovernment Award in Lagos for digitizing facility registration, geolocation, and public verification tools, while the state distributed educational materials and grants to IDP students in Uhogua.",
+        "policyBreakdown": {
+          "category": "Digital Health Regulation Automation, Healthcare Workforce Collaboration, and Displaced Persons Support",
+          "body": "In Edo State, the Edo State Health Regulation and Monitoring Agency (EDOHERMA) received the eGovernment Award for Digital Inclusion and Rural Access in Lagos for digitizing healthcare facility registration, geolocation, and public verification tools across 18 LGAs. Concurrently, Health Commissioner Dr. Cyril Adams Oshiomhole met with the new NMA executive led by Dr. Andrew Elgbedion to strengthen healthcare partnerships, while Government House Chaplain Apostle Sule Faraday presented exercise books and N400,000 in higher education grants to displaced children at the Uhogua IDP camp. Earning a HIGH SIGNAL (8.4 PSI / Advancing Momentum), Edo State demonstrates digital regulatory leadership alongside health workforce alignment and educational support for vulnerable populations."
+        },
+        "securityAnalysis": "Edo State (8.4 PSI / High Signal / SIS 2.4 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains strong physical security along major commercial, transport, and energy corridors."
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Zamfara State Commences Statewide Mosquito Fumigation and Shortlists 6,412 Teachers for CBT.",
+        "impactVector": "Governor Dauda Lawal approved a statewide fumigation campaign against malaria starting in Gusau metropolis, while ZITDA shortlisted 6,412 basic education teaching applicants for Computer-Based Testing scheduled for September 16.",
+        "policyBreakdown": {
+          "category": "Vector Disease Control, Merit-Based Basic Education Recruitment, and Universal Health Coverage",
+          "body": "In Zamfara State, Governor Dauda Lawal approved a statewide mosquito fumigation campaign executed by ZEPEA across selected wards in Gusau metropolis (Mayana, Sabon Gari, Tudun Wada, Madawaki, Galadima). Concurrently, ZITDA shortlisted 6,412 candidates out of 10,876 applicants for basic education teacher CBT screening on September 16, while ZAMCHEMA partnered with UNICEF to expand affordable healthcare coverage for vulnerable groups. Earning a HIGH SIGNAL (8.3 PSI / Advancing Momentum), Zamfara State combines public health vector mitigation with digital merit-based civil service recruitment."
+        },
+        "securityAnalysis": "Zamfara State (8.3 PSI / High Signal / SIS 4.8 / MONITORED / Growth-Oriented / Caution) balances active public health and educational reforms with monitored security controls in rural districts."
+      },
+      {
+        "state": "Niger",
+        "governor": "Mohammed Umaru Bago",
+        "metrics": {
+          "psiScore": 8.2,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.0,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Umaru Bago Rewards Qur'anic Recitation Winners with Hajj Seats and Cash Grants.",
+        "impactVector": "Governor Mohammed Umaru Bago rewarded six overall category winners of the 41st Niger State Qur'anic Recitation Competition in Bida with Hajj seats and N5 million each, while disbursing N1 million consolation prizes to all 134 participants.",
+        "policyBreakdown": {
+          "category": "Youth Social Development, Cultural Scholarship Sponsorship, and Civic Engagement",
+          "body": "In Niger State, Governor Mohammed Umaru Bago rewarded six category winners of the 41st Niger State Qur'anic Recitation Competition in Bida with Hajj seats and N5 million each, while awarding N1 million consolation prizes to all 134 participants across eight emirates. Hassana Muhammad Husseini (Suleja) and Shamsudeen Awwal (Shiroro) emerged overall winners to represent the state at the national competition in Jigawa. Earning a HIGH SIGNAL (8.2 PSI / Advancing Momentum), Niger State leverages cultural and religious scholarship incentives to foster youth discipline and social cohesion."
+        },
+        "securityAnalysis": "Niger State (8.2 PSI / High Signal / SIS 4.0 / MONITORED / Growth-Oriented / Caution) tracks ongoing security operations while expanding youth empowerment across its emirates."
+      },
+      {
+        "state": "Benue",
+        "governor": "Hyacinth Alia",
+        "metrics": {
+          "psiScore": 8.0,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Alia Commissions Judicial Service Complex and Court Infrastructure in Makurdi.",
+        "impactVector": "Governor Hyacinth Alia opened the 2026/2027 Legal Year in Makurdi, commissioning the Judicial Service Commission Complex, High Court Clinic, remodelled High Court, and internal roads while warning against vandalizing public utilities.",
+        "policyBreakdown": {
+          "category": "Judicial Infrastructure Commissioning, Financial Autonomy, and Public Utility Protection",
+          "body": "In Benue State, Governor Hyacinth Alia opened the 2026/2027 Legal Year in Makurdi, commissioning the new Judicial Service Commission Complex, High Court Clinic, remodelled High Court Complex, and asphalted internal roads, while announcing ongoing construction of a modern Ministry of Justice Complex. Concurrently, Information Commissioner Chief Solomon Iorpev debunked false reports of a planned demolition of the CAN Secretariat and announced the arrest and prosecution of vandals destroying public utilities and billboards under the Cybercrimes Act. Earning a HIGH SIGNAL (8.0 PSI / Advancing Momentum), Benue State reinforces judicial autonomy while enforcing strict legal protections over public assets."
+        },
+        "securityAnalysis": "Benue State (8.0 PSI / High Signal / SIS 3.9 / MONITORED / Growth-Oriented / Caution) maintains active security surveillance to protect public infrastructure and agrarian communities."
+      },
+      {
+        "state": "Ogun",
+        "governor": "Dapo Abiodun",
+        "metrics": {
+          "psiScore": 7.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Abiodun Advocates Federal Court of Appeal Division for Abeokuta at Legal Year Service.",
+        "impactVector": "Governor Dapo Abiodun attended the 2026/2027 Legal Year thanksgiving service at Cathedral Church of St. Peter in Abeokuta, calling for the creation of an Abeokuta Division of the Federal Court of Appeal.",
+        "policyBreakdown": {
+          "category": "Appellate Judicial Infrastructure Advocacy, Constitutional Rule of Law, and Chieftaincy Relations",
+          "body": "In Ogun State, Governor Dapo Abiodun attended the 2026/2027 Legal Year thanksgiving service at Cathedral Church of St. Peter in Abeokuta alongside Chief Judge Hon. Justice Mosunmola Dipeolu, advocating for the establishment of an Abeokuta Division of the Federal Court of Appeal to reduce travel burdens to Ibadan and accelerate justice delivery. Concurrently, the Governor extended official government congratulations to the Alake of Egbaland, Oba Michael Adedotun Aremu Gbadebo, on his 83rd birthday. Earning a HIGH SIGNAL (7.9 PSI / Advancing Momentum), Ogun State pairs judicial expansion advocacy with traditional institution partnerships."
+        },
+        "securityAnalysis": "Ogun State (7.9 PSI / High Signal / SIS 1.4 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains low operational risk and strong industrial manufacturing growth."
+      },
+      {
+        "state": "Kaduna",
+        "governor": "Uba Sani",
+        "metrics": {
+          "psiScore": 7.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Kaduna State Recovers 500,000 Hectares of Farmland; Governor Sani Honoured at Exercise HASKE BIYU.",
+        "impactVector": "The Kaduna State Government announced the recovery of over 500,000 hectares of farmland from bandits, enabling agricultural resumption, while Governor Uba Sani received a security plaque at AFCSC Jaji.",
+        "policyBreakdown": {
+          "category": "Agricultural Farmland Recovery, Agrarian Resumption, and Civil-Military Security Collaboration",
+          "body": "In Kaduna State, the government confirmed the recovery of over 500,000 hectares of farmland previously occupied by bandits, enabling thousands of displaced farmers to safely resume agricultural production. Concurrently, Internal Security Commissioner Sule Shu'aibu received a commemorative plaque on behalf of Governor Uba Sani from AFCSC Commandant AVM A.O. Shogbanmu during Exercise HASKE BIYU 2026 in Jaji. Earning a HIGH SIGNAL (7.8 PSI / Advancing Momentum), Kaduna State restores agrarian economic land while deepening institutional collaboration with the Armed Forces."
+        },
+        "securityAnalysis": "Kaduna State (7.8 PSI / High Signal / SIS 3.8 / MONITORED / Growth-Oriented / Caution) balances significant agricultural land recovery with ongoing security monitoring in outlying LGAs."
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 7.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Plateau State Government Condemns Local Attacks in Mangu and Kuru, Reaffirms Peace Commitment.",
+        "impactVector": "The Plateau State Government issued a formal executive condemnation following security incidents in Mangu LGA and Kuru Dungus Junction, appealing for calm and directing security agency coordination.",
+        "policyBreakdown": {
+          "category": "Emergency Security Response, Peace Architecture Stabilization, and Community Vigilance",
+          "body": "In Plateau State, Information Commissioner Rt. Hon. Joyce Lohya Ramnap issued an executive statement on behalf of Governor Caleb Mutfwang, condemning security attacks in Mangu LGA (Sept 12) and Kuru, Jos South LGA (Sept 13). Reaffirming commitment to the state's peace architecture, the government commiserated with victims, urged against reprisal actions, and directed security agencies to intensify intelligence sharing. Earning a HIGH SIGNAL (7.5 PSI / Advancing Momentum), Plateau State actively manages security risks to protect lives, farmland, and commercial stability."
+        },
+        "securityAnalysis": "Plateau State (7.5 PSI / High Signal / SIS 3.6 / MONITORED / Growth-Oriented / Caution) maintains proactive security agency coordination to stabilize agrarian and peri-urban communities."
+      },
+      {
+        "state": "Taraba",
+        "governor": "Agbu Kefas",
+        "metrics": {
+          "psiScore": 7.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Governor Agbu Kefas Leads High-Level Condolence Delegation to Late Bamanga Tukur's Family in Yola.",
+        "impactVector": "Governor Agbu Kefas, accompanied by the Speaker, SSG, and state political leaders, paid a condolence visit to Yola following the passing of former Gongola State Governor Alhaji Bamanga Tukur.",
+        "policyBreakdown": {
+          "category": "Cross-Border Inter-State Diplomacy and Subnational Historical Leadership Solidarity",
+          "body": "In Taraba State, Governor Agbu Kefas led a high-powered delegation comprising Speaker Rt. Hon. John Kizito Bonzena, SSG Chief GT Kataps, Head of Service Dr. Hamidu Ahmed Kara, and party leaders to Yola, Adamawa State, to condole with the family of former Gongola State Governor Alhaji Bamanga Tukur. Earning a HIGH SIGNAL (7.4 PSI / Advancing Momentum), Taraba State reinforces cross-border political solidarity and historical territory ties across the North-East."
+        },
+        "securityAnalysis": "Taraba State (7.4 PSI / High Signal / SIS 3.6 / MONITORED / High-Alpha / Growth with Monitoring) combines vast natural resource potential with active inter-state security and diplomatic coordination."
+      },
+      {
+        "state": "Adamawa",
+        "governor": "Ahmadu Umaru Fintiri",
+        "metrics": {
+          "psiScore": 7.1,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Fintiri Declares Public Holiday and 3-Day Mourning for Former Governor Bamanga Tukur.",
+        "impactVector": "Governor Ahmadu Umaru Fintiri declared Monday, September 14, 2026, a work-free day and ordered state flags to fly at half-mast for three days in honour of the late elder statesman Alhaji Bamanga Tukur.",
+        "policyBreakdown": {
+          "category": "Official State Honor Protocols and Executive Public Commemoration",
+          "body": "In Adamawa State, Governor Ahmadu Umaru Fintiri declared Monday, September 14, 2026, a work-free day and announced a three-day period of state mourning with flags flying at half-mast in honour of late former Gongola State Governor Alhaji Bamanga Tukur, who was buried in Yola. Earning a HIGH SIGNAL (7.1 PSI / Advancing Momentum), Adamawa State executes official executive honor protocols celebrating foundational public service contributions."
+        },
+        "securityAnalysis": "Adamawa State (7.1 PSI / High Signal / SIS 3.2 / MONITORED / Growth-Oriented / Caution) maintains stable public order while directing state mourning protocols."
+      },
+      {
+        "state": "Kwara",
+        "governor": "Abdulrahman Abdulrazaq",
+        "metrics": {
+          "psiScore": 6.2,
+          "psiSignalLevel": "MODERATE SIGNAL",
+          "psiMomentum": "Consolidating",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Kwara State Government Approves 2026/2027 Academic Calendar for Primary and Secondary Schools.",
+        "impactVector": "Education Commissioner Dr. Lawal Olohungbebe announced the official approval of the 2026/2027 school academic calendar starting September 21, 2026, for all public and private schools in Kwara State.",
+        "policyBreakdown": {
+          "category": "Basic Education Academic Calendar Standardization and Regulatory Compliance",
+          "body": "In Kwara State, Education Commissioner Dr. Lawal O. Olohungbebe announced the official approval of the 2026/2027 academic calendar for all public and private primary and secondary schools, setting resumption for Monday, September 21, 2026. Registering a MODERATE SIGNAL (6.2 PSI / Consolidating Momentum), Kwara State standardizes basic education operations and enforces academic coordination."
+        },
+        "securityAnalysis": "Kwara State (6.2 PSI / Moderate Signal / SIS 1.7 / SECURE / High-Alpha / Prime Alpha Opportunity) offers excellent physical security and a highly stable environment for educational and commercial investments."
+      },
+      {
+        "state": "Nasarawa",
+        "governor": "Abdullahi Sule",
+        "metrics": {
+          "psiScore": 6.0,
+          "psiSignalLevel": "MODERATE SIGNAL",
+          "psiMomentum": "Consolidating",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Abdullahi Sule Attends North Central Stakeholders Development Summit in Abuja.",
+        "impactVector": "Governor Abdullahi A. Sule, as Chairman of the North Central Governors' Forum, attended the opening of the North Central Stakeholders Development Summit to advance the NCDC 20-year Development Plan.",
+        "policyBreakdown": {
+          "category": "Regional Inter-Governmental Planning and Regional Development Commission Coordination",
+          "body": "In Nasarawa State, Governor Abdullahi A. Sule, in his capacity as Chairman of the North Central Governors' Forum, attended the North Central Stakeholders Development Summit in Abuja alongside SGF Sen. George Akume to advance the NCDC 20-Year Economic, Infrastructural, and Social Development Plan. Registering a MODERATE SIGNAL (6.0 PSI / Consolidating Momentum), Nasarawa State fosters multi-state regional alignment."
+        },
+        "securityAnalysis": "Nasarawa State (6.0 PSI / Moderate Signal / SIS 2.6 / SECURE / Growth-Oriented / Balanced Expansion) benefits from strong security stability and close proximity to the Federal Capital Territory."
+      },
+      {
+        "state": "Kano",
+        "governor": "Abba Kabir Yusuf",
+        "metrics": {
+          "psiScore": 4.5,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Stable",
+          "sisScore": 2.1,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Kano Deputy Governor Represents Governor Yusuf at High-Profile Civic and Condolence Engagements.",
+        "impactVector": "Deputy Governor Comrade Aminu Abdussalam Gwarzo represented Governor Abba Kabir Yusuf at the wedding of Minister Kyari's son, paid condolence visits in Danbatta, and supported fire victims in Gezawa LGA.",
+        "policyBreakdown": {
+          "category": "Routine Executive Civic Representation and Community Outreach",
+          "body": "In Kano State, Deputy Governor Comrade Aminu Abdussalam Gwarzo represented Governor Abba Kabir Yusuf at the wedding Fatiha of Agriculture Minister Sen. Abubakar Kyari's son, visited former Danbatta LG Deputy Chairman Musa Sani Danbatta, commiserated with the late Sani Muhammad Hotoro's family, and extended support to Sky World Paint Company following a fire in Gezawa LGA. Earning a LOW SIGNAL (4.5 PSI / Stable Momentum), Kano State maintains routine executive civic presence."
+        },
+        "securityAnalysis": "Kano State (4.5 PSI / Low Signal / SIS 2.1 / SECURE / Growth-Oriented / Balanced Expansion) retains high physical security across major commercial and industrial zones."
+      }
+     ]
     }
   },
 
@@ -11201,6 +11909,339 @@
     "investmentProfile": "Balanced Expansion",
     "focus": "Routine Executive Bureaucracy",
     "dailyBrief": "Baseline institutional administrative cycles continued under normal civil service maintenance with no qualifying strategic executive signals recorded."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 8.9,
+    "sis": 2.5,
+    "focus": "FON 4-TECH Initiative & Youth Digital Skills Training",
+    "dailyBrief": "Flagged off the FON 4-TECH Initiative in Abakaliki through EBSMEDA, enrolling 829 participants across AI Automation, Web Development, Graphic Design, and Web3."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 1.9,
+    "focus": "50-Year Greater Calabar Master Plan & Urban Layout Protection",
+    "dailyBrief": "Advocated a 50-year master plan for Greater Calabar covering 7 LGAs via GCCDA to guide infrastructure expansion and prevent urban congestion."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 2.6,
+    "focus": "EU Burutu Port Maritime Hub & University Governing Councils",
+    "dailyBrief": "Engaged European Union delegation on developing Burutu Port as an international Sea Link hub while appointing Auditor-General and university governing councils."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.7,
+    "sis": 1.8,
+    "focus": "Model Primary Health Centre Commissioning in Mkpat Enin",
+    "dailyBrief": "Commissioned a fully equipped Model Primary Health Centre in Ikot Ekpe, Mkpat Enin LGA, marking the fourth healthcare facility commissioned in eight days."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 8.6,
+    "sis": 5.2,
+    "focus": "Tax Ombuds Regional Headquarters & Tax Dispute Arbitration",
+    "dailyBrief": "Pledged political support, office space, and inter-agency coordination to establish the North-East regional headquarters of the Tax Ombuds of Nigeria in Maiduguri."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.5,
+    "sis": 1.2,
+    "focus": "Dangote Refinery NGX IPO Listing & PHC Child Nutrition",
+    "dailyBrief": "Attended the historical NGX IPO listing of Dangote Petroleum Refinery, commissioned Phase III of Ziba Beach Resort, and distributed child nutrition supplements across Health District V."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.4,
+    "sis": 2.4,
+    "focus": "EDOHERMA eGovernment Award & Uhogua IDP Camp Educational Aid",
+    "dailyBrief": "Won the eGovernment Award for digital health facility regulation, engaged NMA leadership on healthcare partnerships, and donated writing materials and higher education grants at Uhogua IDP camp."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.3,
+    "sis": 4.8,
+    "focus": "Statewide Mosquito Fumigation & Basic Education CBT Screening",
+    "dailyBrief": "Commenced statewide mosquito fumigation in Gusau metropolis, shortlisted 6,412 teaching applicants for ZITDA CBT screening, and partnered with UNICEF on universal healthcare."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.2,
+    "sis": 4.0,
+    "focus": "41st State Qur'anic Recitation Competition & Hajj Seats Reward",
+    "dailyBrief": "Rewarded six category winners of the 41st Qur'anic Recitation Competition in Bida with Hajj seats and N5 million each, while disbursing N1 million consolation prizes to 134 participants."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 8.0,
+    "sis": 3.9,
+    "focus": "Judicial Infrastructure Commissioning & Public Utility Protection",
+    "dailyBrief": "Opened 2026/2027 Legal Year by commissioning Judicial Service Complex and High Court Clinic, debunked CAN secretariat demolition claims, and warned against utility vandalism."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 7.9,
+    "sis": 1.4,
+    "focus": "Abeokuta Federal Court of Appeal Advocacy & Legal Year Service",
+    "dailyBrief": "Advocated the establishment of an Abeokuta Division of the Federal Court of Appeal during the 2026/2027 Legal Year service and congratulated the Alake of Egbaland on his 83rd birthday."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 7.8,
+    "sis": 3.8,
+    "focus": "500,000 Hectares Farmland Recovery & Exercise HASKE BIYU Honor",
+    "dailyBrief": "Recovered over 500,000 hectares of farmland from bandits to enable agrarian resumption, and received a security recognition plaque at Exercise HASKE BIYU in Jaji."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 7.5,
+    "sis": 3.6,
+    "focus": "Peace Architecture Reinforcement & Conflict Incident Response",
+    "dailyBrief": "Issued formal executive condemnation following security attacks in Mangu LGA and Kuru Dungus Junction, appealing for calm and directing security agency coordination."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 7.4,
+    "sis": 3.6,
+    "focus": "Cross-Border Inter-State Condolence Mission to Yola",
+    "dailyBrief": "Led a high-level state delegation to Yola, Adamawa State, to condole with the family of former Gongola State Governor Alhaji Bamanga Tukur."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.1,
+    "sis": 3.2,
+    "focus": "Public Holiday & State Mourning for Late Governor Bamanga Tukur",
+    "dailyBrief": "Declared Monday, September 14, 2026, a work-free day and ordered a 3-day period of state mourning with flags at half-mast to honor late former Governor Bamanga Tukur."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 6.2,
+    "sis": 1.7,
+    "focus": "2026/2027 Basic Education Academic Calendar Approval",
+    "dailyBrief": "Approved the official 2026/2027 academic calendar for all public and private primary and secondary schools in the state, setting resumption for September 21, 2026."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 6.0,
+    "sis": 2.6,
+    "focus": "North Central Stakeholders Development Summit & NCDC 20-Year Plan",
+    "dailyBrief": "Attended the opening of the North Central Stakeholders Development Summit in Abuja as NCGF Chairman to advance the NCDC 20-Year Development Plan."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 4.5,
+    "sis": 2.1,
+    "focus": "Executive Civic Representation & Community Condolence Outreach",
+    "dailyBrief": "Represented Governor Yusuf at Minister Kyari's son's wedding, paid condolence visits in Danbatta and Hotoro, and extended support to paint factory fire victims in Gezawa LGA."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 15,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
   }
  ]
 }
