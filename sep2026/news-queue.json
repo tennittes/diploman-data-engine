@@ -643,7 +643,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-14-21",
-      "published": false,
+      "published": true,
       "title": "Governor Makinde Inspects Ibadan Airport Terminal Construction Ahead Of Late 2026 Commissioning",
       "labels": [
         "News Report",
