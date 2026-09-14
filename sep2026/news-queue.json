@@ -319,10 +319,8 @@
         "button_label": "Explore Macro Intelligence Terminal →",
         "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
     }
- },
- {
-  "newsReports": [
-    {
+  },
+  {
       "type": "news_report",
       "id": "news-2026-09-14-11",
       "published": false,
@@ -641,9 +639,7 @@
         "button_label": "Explore Macro Intelligence Terminal →",
         "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
       }
- },
- {
-  "newsReports": [
+    },
     {
       "type": "news_report",
       "id": "news-2026-09-14-21",
