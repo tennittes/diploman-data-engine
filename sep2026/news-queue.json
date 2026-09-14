@@ -259,7 +259,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-14-09",
-      "published": false,
+      "published": true,
       "title": "Ondo Government Bans Unverified Alcohol Sales Following Fatalities, Restructures Boards, And Launches Vocational Certification",
       "labels": [
         "News Report",
