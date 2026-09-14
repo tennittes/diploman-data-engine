@@ -2,27 +2,896 @@
   "newsReports": [
     {
       "type": "news_report",
-      "id": "news-2026-09-12-01",
+      "id": "news-2026-09-14-01",
       "published": false,
-      "title": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+      "title": "Governor Nwifuru Charges Izzi Clan On Cultural Preservation, Reaffirms Infrastructure And Power-Sharing Commitments",
       "labels": [
         "News Report",
-        "Edo State",
-        "Governance",
-        "Felicitation"
+        "Ebonyi",
+        "Governance & Culture",
+        "Official Statement"
       ],
       "featured_image": {
-        "src": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Governor Okpebholo Celebrates Chief Igbinedion at 92",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjWrP13HY8FiOYgs6C5ktYxw_XXLoCyoPy-39eYFSxOwlN4O1uJMSp5y3QrAd1FqNn287YtAJKQaGnzg7vIo8LTCQMdJKhbGxiGvI0-XQ0Xt1mQPa4FsUJbG19egl5t12WqkF709-JVdszgX5QvwzUx9U_-ZvTEzPPh_UtBIMcCu8KjSmMG4jMPRm_5OY/s1536/Ebonyi%20Governor%20Francis%20Nwifuru.png",
+        "alt": "Ebonyi State Governor Francis Ogbonna Nwifuru",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Edo State Governor, Senator Monday Okpebholo, has paid rich tribute to Chief Dr. Gabriel Osawaru Igbinedion...",
-      "editorial_notice": "EDITORIAL NOTICE: This External Brief provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "lead_narrative": "Ebonyi State Governor Francis Ogbonna Nwifuru has called on the Izzi clan to preserve their ancestral norms and resist cultural erosion, while highlighting his administration's infrastructure achievements and political equity measures ahead of the 2027 gubernatorial cycle.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "In an official felicitation message issued on Friday by his Chief Press Secretary...",
-        "Reflecting on Chief Igbinedion’s multi-decade trajectory...",
-        "Beyond industrial ventures...",
-        "Concluding his birthday tribute..."
+        "Speaking at Amagu during the grand finale of the Ojiji Izhi New Yam Festival, Governor Nwifuru urged the Izzi people to uphold core community values, including respect for elders, dignity in labor, and unity. He cautioned against the unvetted sale of ancestral lands and sacred burial grounds, attributing value degradation to a fundamental misconception of traditional heritage versus modern religious practices. The cultural gathering was chaired by Chief Edward Nkwagu, who echoed the Governor's concerns regarding youth drifting into unregulated real estate transactions and speculative property flipping.",
+        "Addressing political opposition online, Governor Nwifuru defended his administration's three-year track record across the state's 13 Local Government Areas. He cited over 500 kilometers of completed and ongoing road networks alongside multi-span bridges connecting neighboring states to boost interstate commerce. The Governor dismissed social media criticisms regarding public sector performance as speculative political posturing, asserting that structural achievements across transport infrastructure remain physically verifiable and open to public audit.",
+        "The Governor also emphasized that political power within Ebonyi North and the broader Izzi land has been meticulously balanced between the two primary kindreds to ensure social justice and equitable distribution of governance positions. He urged political stakeholders and traditional leaders to protect this established power-sharing framework against partisan disruption. In a separate executive engagement at Ochudo Centenary City in Abakaliki, Governor Nwifuru hosted the Ikwo Elites Progressives Movement, appealing to community leaders to prioritize sustainable capital projects and human capacity building over political sycophancy.",
+        "Responding during the Abakaliki delegation meeting, the National President of the Ikwo Elite Progressive Union, Dr. Christian Asaga Nwali, commended the state government's multi-sectoral interventions across security, basic education, and rural healthcare. He specifically highlighted major institutional investments including the establishment of the Aeronautic University in Ezza, the ICT University in Oferekpe Agbaja, and the disbursement of tertiary overseas scholarships to over 1,000 students. Dr. Nwali also praised the widespread distribution of emergency ambulances, the construction of the strategic VANCO flyover, and extensive rural feeder road networks.",
+        "House of Representatives member Comrade Chinedu Ogah reaffirmed the constituency's legislative alignment with state executive policies as traditional leaders and community elders pledged grassroots support for ongoing developmental programs. Reaffirming its strategic agenda, the Nwifuru administration committed to launching additional infrastructural projects, agricultural empowerment initiatives, and human capital development programs across all three senatorial zones of Ebonyi State to solidify socio-economic stability."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-02",
+      "published": false,
+      "title": "Adamawa Government Inaugurates Gulak College Board, Appoints Teachers Commission Chair, And Opens Power Infrastructure Bids",
+      "labels": [
+        "News Report",
+        "Adamawa",
+        "Infrastructure & Education",
+        "Government Action"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodwW8Mz6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s1536/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
+        "alt": "Adamawa State Governor Ahmadu Umaru Fintiri",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Adamawa State Governor Ahmadu Umaru Fintiri has inaugurated the Governing Board of the State College of Technology, Innovation and Entrepreneurship Studies, Gulak, while approving key appointments and launching power grid rehabilitation bids across northern communities.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Swearing in the governing board chaired by Chief Leonard Nzadon at the Government House in Yola, Governor Fintiri emphasized that technical, vocational, and entrepreneurial education are core pillars of the state's long-term poverty reduction and human capital development agenda. The Governor charged the newly inaugurated board to formulate cutting-edge policies, establish industry-standard academic curricula, and forge strategic partnerships capable of positioning the Gulak institution as a premier regional hub for technological innovation and practical skills acquisition.",
+        "Concurrently, the state executive approved the appointment of Dr. Saleh Bukar as the Chairman of the Adamawa State Teachers Service Commission. The newly constituted commission features full-time permanent members including Mrs. Irene Hamadu, Rev. Daniel Bulus, and Alhaji Adamu Bello, supported by a team of part-time commissioners. The institutional body has been mandated to execute comprehensive reforms in teacher recruitment, disciplinary frameworks, continuous professional accreditation, and deployment metrics across public primary and secondary schools statewide.",
+        "Addressing persistent energy challenges in northern Adamawa, the Ministry of Energy convened a public bid opening session for the comprehensive rehabilitation of high-voltage electrical distribution networks along the critical Uba–Bazza, Michika, Shuwa, and Madagali transmission corridors. Permanent Secretary Mr. Dogara Paul Musa explained that the major grid restoration project aims to repair utility facilities severely vandalized during historical insurgent raids in 2014, thereby restoring stable grid electricity and reviving commercial activities in agrarian communities.",
+        "Procurement Officer Mallam Nuhu confirmed that more than ten accredited engineering and contracting firms submitted bids for the transparent tender exercise. The bidding process has now formally transitioned into the detailed technical and financial evaluation stage under strict public procurement standards to guarantee value for money, contract compliance, and structural longevity before final execution awards are issued by the state executive council.",
+        "In a concurrent executive action, Governor Fintiri declared three days of official state mourning, directing that national flags be flown at half-mast across all public facilities following the passing of elder statesman and former Gongola State Governor, Alhaji Bamanga Tukur. Paying tribute to the late leader's six decades of public service, the state government reaffirmed its resolve to complete ongoing power grid restorations and educational investments as enduring monuments to regional peace and public welfare."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-03",
+      "published": false,
+      "title": "Governor Uzodimma Partners Federal Government On Women Empowerment, Launches 2026 Governor's Cup Golf Tournament",
+      "labels": [
+        "News Report",
+        "Imo",
+        "Social Development & Sports",
+        "Executive Action"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHDpFsD7IlkKTJZENx1UvKt8ePmzns0Rvbwv7pc70Gv82lib_C5JK8C6eDs1UznG02TWUJdU64IW1wOfBVLKpu4Xqf44YW3Dcyj1oeYSdxfmhJLXC5rsJBe7Uyc9uN_MfUQ9L_mGN4OCUXcaWm5HuWsqkg7H3E0TrbiRosCVZaj33D8N5f0R2P8kHqw0c/s1536/Imo%20Governor%20Hope%20Uzodinma.png",
+        "alt": "Imo State Governor Hope Uzodinma",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Imo State Governor Hope Uzodinma has highlighted the distribution of economic support to 2,500 women under the Renewed Hope Initiative while underscoring investments in human capital, inclusive governance, and sports development.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Speaking at an executive presentation ceremony in Owerri, Governor Uzodinma commended First Lady Senator Oluremi Tinubu and President Bola Ahmed Tinubu for delivering targeted social safety net programs to vulnerable demographics in Imo State. The Governor emphasized that providing start-up financial grants, processing machinery, and enterprise tools directly empowers female entrepreneurs, laying a solid foundation for household financial stability and grassroots economic independence across the state's 27 Local Government Areas.",
+        "Governor Uzodinma noted that ongoing state-level social interventions extend beyond emergency relief to incorporate climate-smart agriculture, digital skills acquisition, and cottage manufacturing development. These initiatives directly align with the United Nations Sustainable Development Goals on gender equality and decent work, establishing long-term mechanisms to reduce poverty, strengthen local market supply chains, and foster micro-enterprise growth within rural communities.",
+        "The social empowerment drive culminated at the grand finale of the 2026 Imo Women's August Meeting held at the Rear Admiral Ndubuisi Kanu Square in Owerri. Addressing thousands of delegates alongside his wife, Dr. Chioma Uzodinma, the Governor reiterated his administration's commitment to gender mainstreaming, policy inclusion, and community-led developmental planning, urging female leaders to maintain active roles in civic peacebuilding and local security monitoring.",
+        "Parallel to social sector programs, the administration flagged off the 2026 Governor’s Cup Golf Tournament at the historic Arsenal Golf and Country Club in Obinze. Organising Committee Chairman Sir Ernest Nwapa commended the Imo State Government for providing institutional support and capital funding to upgrade the golf course infrastructure, improve clubhouse amenities, and position the facility to host national sports competitions.",
+        "Featuring participation from business executives, political leaders, and traditional rulers, the sports tournament highlighted the state's broader strategy of utilizing athletic event hosting as a catalyst for socio-economic development. Governor Uzodinma asserted that sports development remains integral to public wellness, youth engagement, and tourism promotion, pledging continued state investment in sports infrastructure to attract commercial investments to Imo State."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-04",
+      "published": false,
+      "title": "Governor Zulum Inaugurates Post Office Flyover, Expressway Corridor, And Two Mega Schools In Maiduguri",
+      "labels": [
+        "News Report",
+        "Borno",
+        "Urban Renewal & Education",
+        "Project Commissioning"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieD6TWewOrrYUvQgFe2hdjPQR6Z90v-eTIXZkDJQX1IXMWhRIIn7MGhSnExaEOD8B90vnvvD6rUpLXh5KUl4bTWnINoIitd2KaEOZNbuRLQm4iWKCSrluwAjBaXfPPdWy-c_uqSmtVZDccf5C7et_JsCsP9yqbyG943hdTIX2Ah8ZCFSATk-DAsYhqedg/s1536/Borno%20State%20Governor%20Baba%20Gana%20Zulum.png",
+        "alt": "Borno State Governor Babagana Umara Zulum",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Borno State Governor Babagana Umara Zulum has commissioned the Post Office 9-span flyover bridge, a 2.5 km express road project with a 5 km drainage network, and two mega educational institutions in Maiduguri.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Executed as part of the Maiduguri urban renewal master plan, the newly inaugurated Post Office 9-span flyover bridge represents the fourth flyover completed by the Zulum administration to eliminate persistent traffic gridlock within the commercial core of the state capital. Nasarawa State Governor Engr. Abdullahi Sule attended the ceremony as special guest of honour, performing the official ribbon cutting alongside state dignitaries and traditional leaders.",
+        "During his keynote address, Governor Sule commended the Borno State Government for maintaining aggressive infrastructure investments and expanding public education access despite persistent regional security challenges. He noted that executing complex civil engineering structures amidst post-insurgency recovery efforts demonstrates extraordinary fiscal discipline and administrative focus, directly improving transit efficiency and economic productivity for Maiduguri residents.",
+        "The newly commissioned projects comprise the fully equipped Larawaram Community Senior Secondary School, the reconstructed Shehu Sanda Kyarimi I Primary and Junior Secondary School, the Post Office Flyover, and the dualized Budum–Tandari Junction to Kasuwan Shanu road corridor complete with 5 kilometers of integrated concrete drainage channels designed to mitigate urban seasonal flooding.",
+        "Governor Zulum highlighted that post-insurgency recovery initiatives have delivered over 120 mega schools statewide to address critical classroom deficits resulting from decade-long conflicts. He recalled that past insurgent attacks destroyed more than 5,000 educational structures and displaced hundreds of thousands of learners, necessitating aggressive state-led infrastructural reconstruction to restore normal academic calendar operations.",
+        "To consolidate basic education with practical economic empowerment, Borno State has established 5 specialized Vocational Enterprise Institutes, reactivated 11 Vocational Training Centres, and opened 3 Second Chance Skills Entrepreneurship Schools tailored for women and vulnerable youth. The administration reaffirmed its commitment to delivering additional urban renewal infrastructure and educational expansion projects across all local councils."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-05",
+      "published": false,
+      "title": "Cross River Government Sets Private School Compliance Rules, Initiates Land Claim Resolution, And Expands Ethics Training",
+      "labels": [
+        "News Report",
+        "Cross River",
+        "Education, Lands & Governance",
+        "Regulatory Reform"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7FLPcG_9wgXy8L16EBeqefYFZfRHVwtGcZ2GXflPLHrxd7rPk0ZzRjjhR_lhUknzjHLwFgwd8WCfcEGQr_tnwlAZDUaGzp2Vbea1xllCw0O9RI-ojlqFTNZg5gvlIWiCVR419wwsivUXHNq-tC7dclpappSKo2sPPz0CKBuLPVoDon-hDZIkFDOd9-E/s1536/Cross%20River%20Governor%20Bassey%20Otu.png",
+        "alt": "Cross River State Governor Bassey Otu",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Cross River State Government has issued operational mandates for private schools, initiated stakeholder dialogue over Calabar land claims, and conducted multi-sectoral ethics and administrative training across state institutions.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "In a comprehensive regulatory directive issued in Calabar, Education Commissioner Senator Professor Stephen Odey ordered all private, faith-based, and mission schools to resume academic activities strictly on September 14, 2026. The ministry mandated full compliance with approved NERDC curricula, enforced a mandatory 2:00 p.m. daily closing time, and required all student enrollments to be integrated into the state's Student Identification Number (SIN) portal under penalty of immediate operational license revocation.",
+        "Addressing land administration and urban expansion, Commissioner for Lands Dr. Erasmus Ekpang convened a mediation session with traditional leaders and representatives of the Ikpai Ohom Qua community. The dialogue focused on resolving historical land acquisition claims, compensation modalities, and boundary demarcation disputes along the Goodluck Jonathan Bypass in Calabar, with the state proposing a multi-stakeholder resolution framework to balance community rights with public infrastructure development.",
+        "Concurrently, the management of the University of Cross River State (UNICROSS) concluded a two-day anti-corruption and institutional ethics workshop in collaboration with the Independent Corrupt Practices and Other Related Offences Commission (ICPC). Vice-Chancellor Prof. Francisca Bassey urged academic and administrative staff to enforce procedural discipline, eliminate academic extortion and student victimization, and accelerate the digital migration of academic transcripts.",
+        "In the health sector, Permanent Secretary Dr. Jonah Bassey led a specialized retraining program for the State Health Research Ethics Committee. Organized in partnership with University of Calabar bioethicists and the National Health Research Ethics Committee, the capacity-building exercise focused on strengthening human subject protection, clinical trial protocol reviews, and ethical compliance standards across public and private research facilities.",
+        "Complementing public sector reforms, the Cross River State Carnival Commission concluded an internal administrative training program covering civil service rules, state financial regulations, and digital office tools. The administration reaffirmed that enforcing institutional compliance in education, land administration, health, and public service operational frameworks remains fundamental to advancing Governor Bassey Otu’s 'People First' governance agenda."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-06",
+      "published": false,
+      "title": "Enugu State Governor Peter Mbah Conferred With Honorary Doctor Of Laws At University Of East London",
+      "labels": [
+        "News Report",
+        "Enugu",
+        "Education & Global Engagement",
+        "Executive Milestone"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwLUbuBD3-hkJCn6_INmwCMTvxfw_zDtqGD2TgLP68m6-diDFGUjliNe8S-xhVzs9laD6u6MEsjTpNM7YjVUIoUYWoze8LIOD4GFD6VyJorokq8puxyP-ujGsIFlB17kH6qWRlB130nCoZyYMboCe42mvDRY3dw6qyP-PkGc7pi7W0Z22uh9jRmN7bD0/s1536/Enugu%20Governor%20Peter%20Mbah.png",
+        "alt": "Enugu State Governor Peter Mbah",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Enugu State Governor Peter Mbah has received an honorary Doctor of Laws degree from his alma mater, the University of East London, marking twenty-nine years since he commenced his academic journey at the institution.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Enugu State Governor Dr. Peter Mbah has been conferred with an honorary Doctor of Laws (LL.D) degree by the University of East London (UEL) during its annual graduation ceremony in the United Kingdom. The academic honour comes exactly twenty-nine years after Governor Mbah matriculated as a law student at the university, recognizing his distinguished career spanning corporate entrepreneurship, public legal practice, and executive subnational leadership.",
+        "Delivering his acceptance address before university administrators and international scholars, Governor Mbah described the honor as a deeply personal and professional milestone. He reflected on how his foundational legal education in London shaped his analytical framework, strategic problem-solving approach, and enduring commitment to institutional rule of law, which now serve as the bedrock of his administration's governance paradigm in Enugu State.",
+        "The Governor noted that his early aspirations of leveraging administrative innovation to drive socio-economic development continue to guide his government's aggressive policy execution. He pointed to ongoing subnational reforms designed to transition Enugu's economy from a public sector-driven model to a private sector-led market economy valued at $30 billion, underpinned by substantial capital investments in security, water infrastructure, digital agriculture, and Smart Basic Schools.",
+        "Governor Mbah expressed profound gratitude to the citizens of Enugu State for according him the executive mandate to execute structural reforms aimed at enhancing regional competitiveness, creating employment pathways for youth, and building robust public institutions. He emphasized that transformative subnational leadership requires uncompromising dedication to fiscal discipline, transparent procurement, and long-term capital investments that survive political transitions.",
+        "Conferring the degree, UEL academic officers commended Governor Mbah for his outstanding leadership trajectory, public service contributions, and commitment to expanding access to quality education. The Enugu State delegation reaffirmed its focus on utilizing global academic partnerships, international investment facilitation, and structural legal frameworks to accelerate sustainable economic growth across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-07",
+      "published": false,
+      "title": "Governor Kefas Hosts Solid Mineral Roundtable, Commissions TSU Projects, And Reforms Grassroots Sports",
+      "labels": [
+        "News Report",
+        "Taraba",
+        "Mining, Education & Sports",
+        "Economic Development"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq1y-GRqgK5mklIjamSVZhyyt6xrRJc0ipXEYz4NVIpA8s-zzSB2MTJRAUZ_szdTqkaHHfSPeKpBB9raeQSriWjdg51iI8wKWH1JQx7pV9ax0gcS4jx_8f6Q3GY59tu005OzkoKJeIIcUOYb53QfNJvQf4TB222x_org1QUusxJ2PmJPZwKybLbKPxh2Y/s1536/Taraba%20Governor%20Agbu%20Kefas.png",
+        "alt": "Taraba State Governor Agbu Kefas",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Taraba State Governor Agbu Kefas has launched the state's maiden Solid Mineral Investment Roundtable, commissioned major academic infrastructure at Taraba State University, and unveiled a talent discovery framework for grassroots sports.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Opening the inaugural Taraba Solid Mineral Investment Roundtable in Jalingo, Governor Agbu Kefas announced the formal operationalization of the Taraba Solid Minerals Investment Facilitation Desk. Designed as a one-stop regulatory interface, the facility will streamline mining licensing coordination, geological survey data access, and land acquisition procedures. Minister of Solid Minerals Development Dr. Dele Alake pledged full federal collaboration to transition the state from informal extraction to commercial-scale, licensed mining backed by local mineral processing hubs.",
+        "Following the summit sessions, Governor Kefas conducted bilateral meetings with domestic and international mining executives, assuring them of state security backing reinforced by the newly established 10 Division of the Nigerian Army headquartered in Jalingo. However, the Governor insisted that all operating mining entities must execute legally binding Community Development Agreements (CDAs) and strictly prioritize local youth recruitment and environmental remediation across host local government areas.",
+        "Transitioning to higher education infrastructure, Governor Kefas attended the combined 10th to 13th convocation ceremony of Taraba State University (TSU) in Jalingo, where he commissioned a 700-capacity ultra-modern lecture theater complex and a modern female hostel facility. TSU Vice-Chancellor Prof. Sunday Paul Bako commended the administration for fulfilling its pledge to reduce student tuition fees by 50 percent and systematically liquidating historical staff earned academic allowances.",
+        "In sports development, Governor Kefas attended the grand finale of the Jalingo Champions League at the Jolly Nyame Stadium. The Governor directed the State Sports Commission to immediately establish grassroots talent scouting committees across all 16 Local Government Areas, announced a N5 million cash donation to tournament finalists, and approved contract awards for the total reconstruction of the Jalingo and Wukari municipal stadiums.",
+        "The state government confirmed that a specialized State Sports Academy will be established following the upcoming state sports festival. Top athletic talent discovered through regional grassroots competitions will form the foundational recruitment pool for Taraba’s restructured state football teams and Olympic discipline squads, cementing a holistic subnational development agenda."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-08",
+      "published": false,
+      "title": "Kebbi Government Partners International Medical Team To Provide Free Surgeries For 3,000 Residents",
+      "labels": [
+        "News Report",
+        "Kebbi",
+        "Healthcare & Public Welfare",
+        "Medical Outreach"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFFc53wj-ON1Q6z7z0zwxYTC7B68aUDRxyrpbcumDWxbyblAjEXDMOLF8aVjdbkYc43_44hOfydC2TwZVwTTCwIutnXI3nlI6Epm8dOMmdKXWTHZOvKlbaeg4kqTw-aC0_bytjtiHUrKV-3V1aj1Uew3l85nY6UJPlyCHQnTgsvmjWh9m4tdPDUHgw1nw/s1536/Kebbi%20Governor%20Nasir%20Idris.png",
+        "alt": "Kebbi State Governor Nasir Idris",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Kebbi State Government has kicked off an eight-day free medical and surgical outreach at the Kebbi Medical Centre in Kalgo, targeting over 3,000 vulnerable residents across the state.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Kebbi State Government, under the leadership of Governor Nasir Idris, has officially flagged off an intensive eight-day specialized medical and surgical outreach at the Kebbi Medical Centre located in Kalgo. The multi-sectoral public health intervention is designed to deliver free advanced clinical care, diagnostic screenings, and elective surgical operations to over 3,000 vulnerable and indigent citizens drawn from all 21 Local Government Areas.",
+        "The humanitarian outreach is organized in direct partnership with the Nasara Foundation and the World Association of Muslim Youths (WAMY), headquartered in Riyadh, Saudi Arabia. A multinational team comprising more than 25 specialist surgeons, anesthesiologists, pediatricians, and clinical nurses has been deployed to the Kalgo facility, equipped with advanced surgical consumables and pharmaceutical supplies fully funded by the state government and donor partners.",
+        "On the initial day of clinical operations, medical teams successfully evaluated hundreds of patients, performing 130 immediate surgical procedures for complex pathologies including advanced abdominal hernias, goiters, cataracts, pediatric malformations, and lymphatic tumors. All surgical interventions, post-operative medications, ward admissions, and laboratory diagnostics are being administered to beneficiaries completely free of out-of-pocket expenditure.",
+        "Special Adviser to Governor Nasir Idris on Religious Affairs, Imrana Ibn-Usman, directed Local Government Chairmen, traditional rulers, and ward councilors to coordinate grassroots transportation networks to convey indigent patients requiring specialized treatment from remote rural hamlets to the Kalgo medical center. Community leaders praised the administration for eliminating catastrophic healthcare costs for low-income families.",
+        "The visiting international surgical delegation confirmed that operating theaters will run parallel shifts daily to achieve the target quota of 1,500 major surgical operations and 1,500 comprehensive medical consultations over the eight-day period. The state government reaffirmed that expanding healthcare access and upgrading secondary clinical infrastructure remain non-negotiable priorities of the Idris administration."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-09",
+      "published": false,
+      "title": "Ondo Government Bans Unverified Alcohol Sales Following Fatalities, Restructures Boards, And Launches Vocational Certification",
+      "labels": [
+        "News Report",
+        "Ondo",
+        "Public Health & Governance",
+        "Executive Order"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_b9fvfq3GLJtq0IbCfR3k2fMmF7w-jpNN9zWWuaD4AR_ie_ItyvNxtUw3_n_RgaMPnTH0f5EFpIGWRHr7DjNFtEafS54rxkRa3ePkr8CW4UmHb-9ee-6zZ4lcxJD0b_0UImEbdO3KeZp2WBjFQFbWdnaKUxWS1YKyyZhyYm6JCcWHZNCeFQpK9LYWPs/s1536/Ondo%20Governor%20Lucky%20Aiyedatiwa.png",
+        "alt": "Ondo State Governor Lucky Aiyedatiwa",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Ondo State Governor Lucky Orimisan Aiyedatiwa has ordered an immediate statewide ban on unverified sachet and bottled alcoholic drinks following thirty reported deaths in Odigbo LGA, alongside approving cabinet realignments and free vocational skills certification.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Addressing an emergency executive press conference in Akure, Information Commissioner Hon. Idowu Ajanaku announced an immediate statewide ban on the distribution, sale, and consumption of unverified sachet and bottled alcoholic spirits. The executive order follows preliminary toxicological investigations into a public health emergency in Odigbo Local Government Area, where thirty fatalities were linked to the consumption of illicitly compounded alcohol. State health enforcement task forces and NAFDAC officers have been deployed across market centers to confiscate unregistered brands and prosecute non-compliant distributors.",
+        "Parallel to public health interventions, Governor Aiyedatiwa approved targeted cabinet realignments and statutory board appointments to enhance executive service delivery. Under the new administrative structure, Mr. Femi Fadairo assumed office as Special Adviser on Special Duties and Strategy, while Hon. Gani Mohammed was redeployed to direct the Ministry of Mines and Mineral Resources. reconstituted leadership boards were also inaugurated for the State Universal Basic Education Board (SUBEB), the Local Government Service Commission, Muslim and Christian Welfare Boards, and the Consumer Protection Agency.",
+        "To accelerate youth empowerment and labor market integration, the state government launched registration portals for the Free Trade Test Certification and Vocational Skills Training Initiative. Executed by the Board for Adult, Technical and Vocational Education (BATVE) in technical partnership with the Federal Ministry of Labour and Employment and GIZ, the program offers fully funded professional instruction in renewable energy installation, modern mechanized agriculture, automotive engineering, and industrial trades.",
+        "BATVE Information Officer Debbie Funmilayo confirmed that the online registration portal will remain active until September 18, 2026, enabling thousands of young residents to secure accredited trade licenses. The vocational training curriculum has been calibrated to meet national occupational standards, facilitating direct placement into commercial industries or enabling self-directed micro-enterprise creation across Ondo State.",
+        "The state government reiterated that combining rigorous public health regulations with administrative restructuring and human capacity building directly advances Governor Aiyedatiwa's 'OUR EASE' development blueprint. The administration pledged sustained monitoring across commercial centers to protect consumer safety while expanding economic empowerment programs for residents."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-10",
+      "published": false,
+      "title": "Governor Bago Attends Ministerial Wedding In Kano, Celebrates Etsu Nupe's 23rd Throne Anniversary",
+      "labels": [
+        "News Report",
+        "Niger",
+        "Traditional Institutions & Diplomacy",
+        "State Engagement"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0LjubwLZRRT_p-4ysuyMU97oBaWoquZpM8blrHrC1lJzmRl_bbukOnO96OhVcUyS0Ng-KVL2InkdgpbnZ02_BDdSal_jLhyphenhyphenuwwRYyeZGiZkV1o6T1eQAXFWLP2bBQ94aestWo5mCDBLRMJCNZGz_qGEsjUkAOFGQhjRPF2-bB_0LRDASCRgUzvwdXtw0/s1536/Niger%20Governor%20Muhammed%20Bago.png",
+        "alt": "Niger State Governor Muhammed Umaru Bago",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Niger State Governor Mohammed Umaru Bago joined Northern Governors in Kano for the wedding of the Agriculture Minister's sons, before hosting landmark anniversary events for the Etsu Nupe in Bida.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Niger State Governor Mohammed Umaru Bago joined executive colleagues from across Northern Nigeria in Kano for the solemnization of matrimony between Muazu and Ibrahim Kyari, sons of the Minister of Agriculture and Food Security, Senator Abubakar Kyari. The high-profile ceremony convened prominent political figures, including Governors Babagana Zulum of Borno, Abdulrahman Abdulrazaq of Kwara, Nasir Idris of Kebbi, and Dikko Umaru Radda of Katsina, strengthening regional political solidarity.",
+        "Returning to Niger State, Governor Bago led executive activities marking the 74th birthday and 23rd throne anniversary of His Highness, Alhaji Yahaya Abubakar, the Etsu Nupe and Chairman of the Niger State Council of Traditional Rulers, at the historic Wadata Palace in Bida. The week-long anniversary highlighted the vital role of traditional institutions in maintaining inter-ethnic harmony, protecting cultural heritage, and supporting state governance initiatives.",
+        "Represented by Commissioner for Power and Renewable Energy Suleiman Umar during preliminary palace proceedings, Governor Bago praised the Etsu Nupe’s steadfast leadership. The Governor emphasized that traditional rulers serve as indispensable partners in securing rural communities, resolving land disputes, and fostering local participation in state agricultural and infrastructure projects under the 'New Niger' agenda.",
+        "During a special anniversary prayer session led by Chief Imam Sheikh Adamu Yakatun, visiting traditional rulers-including the Emir of Lafia, Hon. Justice Sidi Dauda Bage Muhammad II-congratulated the monarch and commended Governor Bago’s urban renewal efforts. The visiting dignitaries specifically highlighted the ongoing dualization of the strategic Minna–Bida carriageway as a transformative project for regional trade and passenger safety.",
+        "Governor Bago subsequently attended the traditional wedding of Fatima Sonia Ndanusa in Minna, using the civic platform to call on political leaders and party stakeholders nationwide to preserve decorum, foster unity, and prioritize public peace as subnational and national political consultations intensify ahead of upcoming electoral cycles."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+    }
+ },
+ {
+  "newsReports": [
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-11",
+      "published": false,
+      "title": "Osun Government Clarifies ASUU Agreement Implementation, Reintroduces Park Management System, And Issues Security Alerts",
+      "labels": [
+        "News Report",
+        "Osun",
+        "Labour Relations & Public Safety",
+        "Official Clarification"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_QmCyQnk678reIZwUZ6PQ3tfbtPfBwm00BoSrh3Z21Sy-EmeTj6_2EyhUkH8lsAaB8yS5902ljRiMW0kW44eiAtVgh-VsyWvnVTduWcH3e1tm62Fp6HQSZ44Mw1NS925VhOLH2jcEpccch9xk_6pPNW0zht-u1fyCUEbxNOsqVJjd5frfGQHIi3OM2tw/s1536/Osun%20Governor%20Ademola%20Adeleke.png",
+        "alt": "Osun State Governor Ademola Adeleke",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Osun State Government has rejected ASUU's claims regarding Osun State University governance while reintroducing an Executive Park Management System and issuing public security directives.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Addressing an official press conference in Osogbo, Information Commissioner Oluomo Kolapo Alimi refuted statements issued by the Academic Staff Union of Universities (ASUU) regarding governance structures at Osun State University (UNIOSUN). The Commissioner clarified that Osun State proactively implemented the 2025 FGN-ASUU Agreement and initiated salary arrears disbursements well ahead of federal compliance. He emphasized that UNIOSUN operates strictly under state legislation passed by the House of Assembly rather than federal statutes.",
+        "In response to national security advisories, Governor Ademola Adeleke issued a state safety alert instructing residents to remain vigilant and report suspicious activities to security agencies. Following intelligence reports from the Department of State Services regarding potential threats to places of worship and public spaces, the Governor directed traditional councils, local government chairmen, and security forces to reinforce border intelligence and community policing networks.",
+        "Addressing public transport volatility, Governor Adeleke ordered the immediate arrest and prosecution of individuals involved in recent transport union clashes that resulted in the tragic death of Mr. Ajagungbade Emir. The Governor mandated all rival transport factions to immediately vacate commercial motor parks, declaring that state authorities will not tolerate violent clashes or illegal revenue extortion in public transit hubs.",
+        "To restore structured order, safety, and accountability across motor parks, Governor Adeleke announced the immediate reintroduction of a state-regulated Executive Park Management System. The new framework will be governed by an upcoming Executive Order, placing terminal operations under direct state oversight, eliminating informal union extortion, and ensuring that transport revenues flow directly into public coffers.",
+        "The Osun State Government reaffirmed that security council meetings will continue to review intelligence assessments, coordinate joint tactical patrols, and protect public safety. The administration assured residents that ongoing institutional reforms in tertiary education, public transit regulation, and security management will be sustained to preserve peace across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-12",
+      "published": false,
+      "title": "Governor Okpebholo Celebrates Chief Igbinedion At 92, Announces Cabinet Reshuffle, And Reconstructs Amufi Road",
+      "labels": [
+        "News Report",
+        "Edo",
+        "Governance & Infrastructure",
+        "Executive Action"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93uV3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stZzB92lrBqHta74vCeE/s1536/Edo%20Governor%20Monday%20Okpebholo.png",
+        "alt": "Edo State Governor Monday Okpebholo",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Edo State Governor Senator Monday Okpebholo has felicitated Chief Gabriel Igbinedion on his 92nd birthday, effected minor cabinet redeployments, and inspected progress on the 8.6km Amufi-Okpagha road reconstruction.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Edo State Governor Senator Monday Okpebholo has extended warm felicitations to the Esama of Benin Kingdom, Chief Dr. Gabriel Osawaru Igbinedion, on the occasion of his 92nd birthday. In an executive tribute released in Benin City, Governor Okpebholo commended the elder statesman for five decades of pioneering entrepreneurial investments and philanthropic contributions across tertiary education, commercial aviation, private broadcasting, and healthcare infrastructure in Edo State and Nigeria.",
+        "In executive administration, Secretary to the State Government Umar Musa Ikhilor announced a strategic cabinet redeployment designed to optimize operational efficiency under the administration's 'SHINE' policy agenda. Under the new executive structure, Dr. Felix Akhabue was redeployed to direct the Ministry of Physical Planning and Urban Development, while Barrister Vincent Uwadiae assumed leadership of the Ministry of Water Resources.",
+        "Concurrently, Hon. Andrew Momodu was appointed to lead the Ministry of Oil and Gas Resources, while Professor Omorodion Ikponmwosa was redeployed to oversee the Ministry of Communications and Digital Economy with immediate effect. The cabinet realignments aim to accelerate digital transformation, resource management, and urban infrastructure execution across state departments.",
+        "Transitioning to field operations, Governor Okpebholo conducted an inspection tour of the ongoing reconstruction of the 8.6-kilometer Amufi–Okpagha Road. The major civil engineering corridor connects seven agrarian and residential communities from the Agbor Park axis to the Benin–Auchi Bypass, featuring reinforced concrete side drainages, heavy-duty culverts, and high-durability asphalt surfacing.",
+        "Speaking during the site inspection, Governor Okpebholo assured residents that the completed road will significantly reduce transit times, facilitate the evacuation of farm produce to urban markets, and boost logistics corridors across Edo South. The administration reaffirmed its commitment to maintaining aggressive infrastructure delivery across all senatorial districts."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-13",
+      "published": false,
+      "title": "Governor Bala Mohammed Restructures Pilgrims Board Leadership, Appoints 2027 Amirul Hajj",
+      "labels": [
+        "News Report",
+        "Bauchi",
+        "Religious Affairs & Appointments",
+        "Board Restructuring"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYq33qWi8NQ8pa6ARwad1-oY5-kOTAUrSXNHr-5hz4_WF9afYEs-gxX-a1fTSXZBoXxO7vA7m2lSkAqvxtcRFByxFexEblb2bqrpliI97zLgbHWQ1aP_DMle0ciLUOijT2Ht8cdZ-NuCbaaNJNu9qABe6PlWfiRp4eo0Gnc3iyJ884tBGIoh5vV6WtEM/s1536/Bauchi%20State%20Governor%20Bala%20Mohammed.png",
+        "alt": "Bauchi State Governor Bala Mohammed",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Bauchi State Governor Senator Bala Abdulkadir Mohammed has approved new leadership appointments for the Muslim Pilgrims Welfare Board following the elevation of former board leaders to traditional emirate stools.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Bauchi State Governor Senator Bala Abdulkadir Mohammed has approved a comprehensive restructuring of the executive leadership of the Bauchi State Muslim Pilgrims Welfare Board. Under the newly approved board composition, Ambassador Sulaiman Santuraki, the District Head of Tirwun, has been appointed as Chairman, while Alhaji Aliyu Abdulkadir Ahmed, the District Head of Gamawa, assumes office as Deputy Chairman.",
+        "The administrative restructuring became necessary following the elevation of the previous board leadership to traditional royal stools, specifically the appointments of former board members to the Emirate thrones of Lere and Gamawa. The newly appointed executive officers bring extensive administrative experience to guarantee seamless operational continuity in managing annual pilgrimage exercises.",
+        "In a concurrent executive order, Governor Bala Mohammed approved the formal appointment of His Royal Highness Alhaji Nura Adamu Jumba, the Emir of Lere and outgoing Pilgrims Board Chairman, to serve as the State’s Amirul Hajj for the upcoming 2027 Hajj operations in Saudi Arabia. The appointment reflects the administration's trust in the monarch's leadership and organizational capabilities.",
+        "Governor Bala Mohammed commended the outgoing board leadership for their exemplary service, transparency, and successful management of recent pilgrimage operations, which earned Bauchi State national recognition for pilgrim welfare and logistics efficiency. The Governor urged the incoming board members to maintain rigorous standards, streamline travel documentation, and safeguard pilgrim health and security.",
+        "Accepting their appointments, the new board leadership pledged to leverage modern digital management tools, enhance orientation programs for prospective pilgrims, and work closely with the National Hajj Commission of Nigeria (NAHCON). The state government reiterated its commitment to supporting religious welfare institutions across Bauchi State."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-14",
+      "published": false,
+      "title": "Gombe State Expands Network 11-100 Rural Road Corridors, Participates In Peacebuilding Training And Commissions Navy Corps Lodge",
+      "labels": [
+        "News Report",
+        "Gombe",
+        "Infrastructure & Community Development",
+        "Economic Progress"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn0QXv8itySIaPdwwDYhgVdGsZurZ1WlhTj-mo2KEIHupcujNLqhfh6c2PmKrNB4hH5-pOZLwA4Gh9gwA5hG8XOfbqsa1Na4NK20zUOvqF8T00nTu72326eFPDFTnELgYifduyXwTgohz7nxCRRLg8ODrr25aplTFgOyjjBtKuBOT5Z3syTwAYogm6q6g/s1536/Gombe%20Governor%20Inuwa%20Yahaya.png",
+        "alt": "Gombe State Governor Inuwa Yahaya",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Governor Muhammadu Inuwa Yahaya’s Network 11-100 initiative is expanding rural agricultural corridors across Gombe State, as public projects and interfaith peacebuilding exercises conclude.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Gombe State Government’s flagship 'Network 11-100' initiative—which targets constructing 100 kilometers of paved roads in each of the state’s 11 Local Government Areas—continues to transform rural agricultural logistics. Dukku North LCDA Chairman Hon. Damina Sardauna Jamari reported that expanded asphalt corridors across Gombe North, including the Bambam–Tula–Yiri, Dukku–Kalam–Dokoro, and Malala–Zange routes, have drastically reduced crop haulage costs and enabled year-round mechanized farming.",
+        "In regional affairs, Governor Muhammadu Inuwa Yahaya, acting in his capacity as Chairman of the Northern Nigeria Governors' Forum, expressed official state condolences following the passing of former Gongola State Governor Alhaji Bamanga Tukur. Governor Yahaya paid tribute to the late elder statesman’s six decades of national economic leadership, political diplomacy, and contributions to regional integration.",
+        "Fostering grassroots security and social cohesion, forty-five Christian and Muslim women leaders in Kasuwan Magani completed a multi-day conflict mediation training course. Organized by Interfaith Women Kasuwan Magani in technical partnership with the Interfaith Mediation Centre, the exercise concluded with the formal launching of the Kasuwan Magani Women Peace Ambassadors Network to resolve local disputes and detect early security threats.",
+        "In Kwami Local Government Area, state officials joined military commanders to commission a fully furnished, ten-bedroom NYSC corps members' lodge alongside an upgraded primary healthcare dispensary at Malam Sidi. Executed under the Nigerian Navy’s Civil-Military Quick Intervention Projects, the infrastructure gifts demonstrate effective inter-agency cooperation in upgrading community facilities.",
+        "The Gombe State Government reaffirmed that combining strategic rural road networks with community-led peacebuilding frameworks and targeted social infrastructure projects remains central to sustaining agrarian enterprise, food security, and rural stability across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-15",
+      "published": false,
+      "title": "Governor Sule Inspects Gudi Tertiary Institutions, Receives Air Force Tactical Command In Lafia",
+      "labels": [
+        "News Report",
+        "Nasarawa",
+        "Education & Security",
+        "Inspection & Security"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfmLYgN01VP57ZJ_lEmKUSjW9cmfzpY87cbLYdJCZM3GWjrsqJctdkqE2l0caSB8NGU-wsw0ZorPNvwALLHJH5PwjVV-sZCJqBCkqQfVWp9oFJu4arlBh4rnQfJmnEi-EOtRsgJjHNovUBvbBzg1kpN5SVaCYu_Xrcp3Lfzq6OTDS7M4rj20cx4DEFoaQ/s1536/Nasarawa%20Governor%20Abdulahi%20Sule.png",
+        "alt": "Nasarawa State Governor Abdullahi Sule",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Nasarawa State Governor Engr. Abdullahi A. Sule has conducted site inspections of academic construction projects in Gudi and hosted senior leadership of the Nigerian Air Force Tactical Air Command.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Nasarawa State Governor Engr. Abdullahi A. Sule conducted an extensive field inspection of ongoing capital construction projects across tertiary and specialized secondary institutions in Gudi, Akwanga Local Government Area. The Governor inspected facility readiness at the Police Secondary School site, evaluating the completion status of administrative blocks, student dormitories, staff quarters, and science laboratories ahead of the school's formal academic takeoff.",
+        "Following his assessment of the secondary facility, Governor Sule proceeded to inspect construction works at the site of the ongoing University of Public Relations and Leadership (UPRL) in Gudi. The Governor reviewed structural engineering execution across lecture auditoriums, faculty buildings, and central administrative complexes, directing contractors to maintain strict adherence to project timelines and quality specifications.",
+        "Returning to the Government House in Lafia, Governor Sule presided over a high-level security meeting with senior military commanders, hosting the General Officer Commanding (GOC) Tactical Air Command Makurdi, Air Vice Marshal M.C. Ekwueme, alongside his operational evaluation team. The consultation focused on reviewing joint air-ground security coverage across Nasarawa's agrarian belts.",
+        "Air Vice Marshal Ekwueme expressed appreciation to the Nasarawa State Government for its sustained logistical support, operational infrastructure provision, and civil-military cooperation with Air Force detachments stationed in Lafia. He commended the administration's proactive security posture in safeguarding critical national infrastructure and agricultural corridors.",
+        "Governor Sule reaffirmed Nasarawa State's readiness to deepen operational collaboration with military formations, security agencies, and local community intelligence networks. The Governor emphasized that sustaining security stability is vital to protecting ongoing capital investments and fostering economic growth across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-16",
+      "published": false,
+      "title": "Delta State Launches Free Specialized Women's Health Services At Asaba Specialist Hospital",
+      "labels": [
+        "News Report",
+        "Delta",
+        "Healthcare & Governance",
+        "Public Health Intervention"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw4j3y3DLHRCc0HH6u72Qt4muWoo3n1aAgPCs-0Ci-PbKQPpwCseTT4unxZRm8pDqZtsS1j98vNj5Fp75Z8kedCJNudqKUf6GCzAj7DhmqFOiWNz_oIg8zPNoj_rkB2m9HR3jzxfAIpW-kw5K8cmm12iZlulaPN2laBaMQrMPZ4ZPaVZkBb63FiacK7Wo/s1536/Delta%20Governor%20Sherrif%20Oborevwori.png",
+        "alt": "Delta State Governor Sheriff Oborevwori",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Delta State Government under Governor Sheriff Oborevwori has rolled out free colposcopy and hysteroscopy procedures at Asaba Specialist Hospital to expand specialized healthcare access for women.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Delta State Government, under the executive direction of Governor Sheriff Oborevwori, has initiated a specialized public health program offering free colposcopy and hysteroscopy clinical procedures at the Asaba Specialist Hospital. The healthcare intervention is designed to deliver advanced diagnostic and minimally invasive surgical services for women suffering from complex gynaecological conditions without financial barrier.",
+        "Chief Medical Director of Asaba Specialist Hospital, Dr. Peace Ighosewe, confirmed that specialized medical teams have already completed four complex hysteroscopic surgeries—procedures that typically cost between N400,000 and N500,000 in private tertiary facilities—at zero cost to the patients. The program aims to curb maternal morbidity and eliminate out-of-pocket health expenditure for low-income families.",
+        "Parallel to healthcare expansion, Governor Sheriff Oborevwori addressed a executive security summit in Asaba, stressing the imperative of structured collaboration between traditional rulers, community leaders, and statutory security agencies. The Governor emphasized that traditional rulers serve as vital intelligence nodes capable of resolving local chieftaincy frictions and detecting criminal elements within rural kingdoms.",
+        "The administration highlighted that strengthening community-level security networks directly protects public investments, agricultural zones, and healthcare facilities across the state's three senatorial districts. Traditional rulers present at the summit pledged enhanced grassroots intelligence sharing to support state law enforcement agencies.",
+        "Delta State health authorities confirmed plans to scale up specialized diagnostic and surgical services systematically across all zonal secondary healthcare centers. The state government reaffirmed its commitment to advancing healthcare accessibility, public safety, and human capital development under its 'MORE' agenda."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-17",
+      "published": false,
+      "title": "Zamfara Signs 20-Year Hotel Lease, Dismisses Official For Fund Diversion, And Extends School Resumption Due To Diphtheria",
+      "labels": [
+        "News Report",
+        "Zamfara",
+        "Public Finance, Education & Health",
+        "State Administrative Reforms"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLNhXALjJza8adk8hPCwoZTwYqQMOGSEQtrZ6_ivxxUF9IXZ0MR1_-pa-E1bXRcfMxJOHa0hc9lrbJ4crkHgPCeI33bF2Ec2a7jNTuPWlxcZRqPJSqovvPMoRzZC1MAa5ML4HtuURGtFVZs7-QpT0vdJs5-sNpDKrW5AH5vCi3WIoCJNap0i9xBheiWR8/s1537/Zamfara%20Governor%20Dauda%20Lawal.png",
+        "alt": "Zamfara State Governor Dauda Lawal",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Zamfara State Government has signed a 20-year concession deal for the Stone Hedge Hotel in Abuja, dismissed an urban planning director over death benefit diversion, and extended school resumption by two weeks following a health advisory on diphtheria.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Zamfara State Government has concluded a 20-year commercial concession agreement for the state-owned Stone Hedge Hotel located in Abuja. Commerce and Tourism Commissioner Alhaji Tasi'u Musa Shinkafi announced that the commercial asset was leased to Amara Ventures Limited following the lawful termination of a previous management lease due to persistent non-remittance of state revenues and physical facility degradation.",
+        "Enforcing strict anti-corruption standards within the civil service, Head of Service Alhaji Shehu Baraya announced the immediate dismissal of Dalha Umar Gummi, a Director with the Urban and Regional Planning Board. The official was terminated following a disciplinary investigation that established the unauthorized diversion of N3.89 million in death benefits intended for the rightful heirs of the late Isa Aliyu Gummi.",
+        "Enhancing institutional capacity across higher education, Governor Dauda Lawal distributed official operational vehicles to Vice-Chancellors and Governing Council Chairmen of state tertiary institutions, including Zamfara State University, Talata Mafara, and Federal University Gusau. Concurrently, Commerce Commissioner Shinkafi issued a strict completion deadline of January 31, 2027, to FeldMark Construction Company Limited for the ongoing construction of the Ultra-Modern Motor Park in Gusau.",
+        "In response to a public health advisory regarding a localized diphtheria outbreak, the Ministry of Education announced a mandatory two-week extension of basic school resumption, shifting the academic calendar start date to September 28, 2026. The delay enables public health teams to conduct contact tracing, administer routine immunizations, and execute decontamination protocols across schools.",
+        "The Zamfara State Government reiterated that enforcing public finance discipline, recovering state assets, upgrading educational infrastructure, and protecting public health are core elements of Governor Dauda Lawal's administrative agenda to restore governance integrity across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-18",
+      "published": false,
+      "title": "Governor Alia Condemns Ayilamo Attack, Praises DSS For Arrests, And Receives Governor Of The Year Nomination",
+      "labels": [
+        "News Report",
+        "Benue",
+        "Security & Executive Recognition",
+        "Official Statement"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSNiZA5MQbYNGJ_PhFDkW6W4IWibRRngkeWe_IhE_idObXcQyHLqMju4tBpwmFueC0_sBOfvJqRInndyiv30t9-fGXyhwB-y68BRZ1EgT_F7Uo2WF1QouZy3UZIHqy1a_HTDsdImnRac9SeYhKryFdcVilClksdyLj7KOtJodlYlQ-L3ER0da0zSdtCkw/s1536/Benue%20Governor%20Hyacinth%20Alia.png",
+        "alt": "Benue State Governor Hyacinth Alia",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Benue State Governor Hyacinth Alia has strongly condemned the attack on the Ayilamo community in Logo LGA, which resulted in civilian casualties and the death of four police officers, while commending joint DSS operations for apprehending three key suspects.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Benue State Governor Rev. Fr. Hyacinth Alia has strongly condemned the violent armed attack on the Ayilamo community in Logo Local Government Area, which resulted in civilian fatalities and the death of four police officers stationed on security guard duty. The Governor extended deep condolences to the Inspector-General of Police, the Benue State Police Command, and the bereaved families, promising full state backing to neutralize criminal elements operating along the border axis.",
+        "Governor Alia commended officers of the Department of State Services (DSS) across Benue and Nasarawa States for executing a swift, intelligence-led joint operation that resulted in the arrest of three prime suspects connected to the Ayilamo attack. The arrested suspects are currently undergoing interrogation to identify their sponsors and co-conspirators, with security forces maintaining intensified tactical patrols across Logo LGA.",
+        "In executive developments, Governor Alia received the official letter of nomination as 'The Sun Governor of the Year 2026' from the Managing Director of The Sun Newspapers, Mr. Onuoha Ukeh, during a presentation at the Government House in Makurdi. The media organization cited the administration's transformative urban infrastructure projects, health sector upgrades, and agricultural revamps as key metrics for the award.",
+        "The media delegation specifically highlighted Makurdi's urban road dualization projects, infrastructure expansion at the Benue State University Teaching Hospital, rehabilitation of primary healthcare centers across 23 LGAs, and the successful industrial reactivation of dormant state assets such as Taraku Mills and Food Basket Breweries as major achievements of the administration.",
+        "Governor Alia reaffirmed his administration's resolve to protect vulnerable farming communities in Logo LGA while advancing industrialization, rural infrastructure, and healthcare reforms across Benue State. The Governor dedicated the award nomination to the people of Benue, pledging continued commitment to public safety and socio-economic progress."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-19",
+      "published": false,
+      "title": "First Lady Oluremi Tinubu Fulfills N10 Million Education Trust Fund For 12-Year-Old Ogun Artist",
+      "labels": [
+        "News Report",
+        "Ogun",
+        "Education & Youth Empowerment",
+        "Philanthropic Intervention"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_VK3P3e9LBFj37Bj7hQtDYDDvyxhwSx6qBoV3_33Qh5npkQD8Jn5vMbbByot7yyy3Qfwn1c7X9aAS0hpcYuDTsp8DwYAlDbOEZ0R0VTGb056An9P1nbOn29O5-b8mhmJD9NvwvDGi33EEVH_uKANbXxEGRtWrq9vF6mdHLMt_ojIpIPP-WgKO0IjpYhQ/s1536/Ogun%20Governor%20Dapo%20Abiodun.png",
+        "alt": "Ogun State Governor Dapo Abiodun",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Nigeria’s First Lady Senator Oluremi Tinubu has presented a N10 million Education Development Trust Fund to 12-year-old Ogun State artist Morenikeji Ebunoluwa Joshua to finance his education through the tertiary level.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Nigeria’s First Lady, Senator Oluremi Tinubu, has fulfilled her pledge by presenting a N10 million Education Development Trust Fund to 12-year-old prodigy artist Morenikeji Ebunoluwa Joshua in Abeokuta, Ogun State. Presenting the bank draft on behalf of the First Lady, Ogun State Governor Prince Dapo Abiodun praised Senator Tinubu for her sustained commitment to nurturing youthful talent and supporting educational advancement across Nigeria.",
+        "Governor Abiodun recalled that his administration had initially awarded Master Joshua a full primary-to-secondary scholarship three years ago after discovering his exceptional portraiture skills. The Governor noted that the First Lady's N10 million trust fund intervention extends the young artist's academic funding through his tertiary and university education, guaranteeing complete financial security for his career development.",
+        "Speaking at the presentation ceremony, Hon. Wahab Alawiye-King, Senior Special Assistant to the First Lady on Strategy, emphasized that public education policies must actively identify, mentor, and fund practical, creative, and technical talents alongside formal academic curricula. He noted that the Renewed Hope Initiative continues to prioritize youth empowerment as a catalyst for national innovation.",
+        "Ogun State Education Commissioner Prof. Abayomi Arigbabu disclosed that the trust fund presentation formed part of a broader state youth recognition ceremony, during which 21 outstanding tertiary students from Tai Solarin University of Education (TASUED), Babcock University, and Mountain Top University received state academic excellence awards and research grants.",
+        "Expressing appreciation to First Lady Oluremi Tinubu and Governor Dapo Abiodun, Master Joshua encouraged young Nigerians to dedicate themselves to honing creative skills while pursuing formal education. The Ogun State Government reaffirmed its commitment to expanding educational scholarships, vocational training, and youth development infrastructure across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-20",
+      "published": false,
+      "title": "Ekiti Waste Management Authority Expands Infrastructure And Increases Street Sweeper Stipends",
+      "labels": [
+        "News Report",
+        "Ekiti",
+        "Environmental Sanitation",
+        "Public Works"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHaQDBP0o5DWduxzDxMLKP9TP_dzKW_Zbc1ffPjbIAKLy5bBnPQr_nMfePxbySQn5veIPvsQBr0xI_WzbpZ27pd8qBi8TGQeXuzut5M3dGrGS6eZvk14zxWDs4Eq8588TX-J6F7cNxU8e6_L9Gc1oxxY9BpDzxa42IbhhaFSTzHvbYPV9hmzaSOmPnkIw/s1536/Ekiti%20Governor%20Abiodun%20Oyebanji.png",
+        "alt": "Ekiti State Governor Abiodun Oyebanji",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Ekiti State Waste Management Authority has expanded its operational scope beyond Ado-Ekiti following the procurement of new compaction vehicles, Dino bins, and a wage increase for sanitation workers.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Ekiti State Waste Management Authority (EKSWMA) has expanded its municipal waste collection infrastructure beyond the capital city of Ado-Ekiti to cover major commercial towns across external local government areas. General Manager Engr. Tawose Adekunle Vincent announced that the expansion follows the procurement of modern waste compaction trucks, specialized roll-off vehicles, 60 heavy-duty Dino bins, and nearly 2,400 commercial wheelie bins funded by the state government.",
+        "To boost operational morale and improve urban cleanliness, Governor Biodun Oyebanji approved an upward revision of monthly stipends for street sweepers and sanitation workers to N35,000. The wage adjustment aims to cushion economic pressures on public sanitation staff while establishing higher accountability standards for daily street sweeping and drain clearing activities across urban centers.",
+        "Engr. Tawose highlighted a strategic policy shift prioritizing public environmental education ahead of strict statutory enforcement. However, the agency issued a firm advisory cautioning residents, market associations, and commercial operators against open waste burning, illegal dumping along road verges, and disposing of refuse into concrete drainage channels during seasonal rainfall.",
+        "The Authority urged households and business owners to subscribe to accredited Private Sector Participant (PSP) waste collectors and utilize designated neighborhood Dino bin collection sites. Proper waste disposal, the agency noted, remains critical to preventing drainage blockages and mitigating flash flooding across vulnerable urban local councils.",
+        "Sanitation enforcement officers and environmental health inspectors have been deployed across major commercial corridors to enforce compliance with state sanitation laws. The Ekiti State Government reaffirmed its commitment to providing clean, safe, and sustainable urban environments for all residents."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+ },
+ {
+  "newsReports": [
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-21",
+      "published": false,
+      "title": "Governor Makinde Inspects Ibadan Airport Terminal Construction Ahead Of Late 2026 Commissioning",
+      "labels": [
+        "News Report",
+        "Oyo",
+        "Aviation & Infrastructure",
+        "Project Inspection"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV4C3c0c-WnlyR84M-1tMvV2397gq2gNalA_hD0zV2fJq4uQZqN4gDk8t9a2L-j0O5j5G2Z3G0aH7I7K8mYn_aL6W7P0q_R_o_d0hK-v4U5H9a/s1536/Oyo%20Governor%20Seyi%20Makinde.png",
+        "alt": "Oyo State Governor Seyi Makinde",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Oyo State Governor Seyi Makinde has conducted an inspection tour of the ongoing construction at the Samuel Ladoke Akintola Airport terminal in Ibadan, confirming that the facility remains on track for completion by the end of 2026.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Oyo State Governor Seyi Makinde inspected the ongoing terminal expansion project at the Samuel Ladoke Akintola Airport in Ibadan. The multi-billion naira project forms a core component of the administration's strategic master plan to upgrade the municipal airport into a fully functional international aviation hub capable of handling regional passenger traffic and cargo operations.",
+        "During the site inspection, Governor Makinde reviewed progress on main terminal building construction, departure lounge installations, security screening zones, and baggage handling systems. The Governor noted that civil engineering contractors are accelerating work shifts to meet critical project milestones, ensuring the international terminal is completed and commissioned before the end of the current fiscal year.",
+        "The airport upgrade initiative is designed to boost commercial connectivity, attract direct foreign investment, and position Ibadan as a premier logistics hub in South-West Nigeria. Upgrading the terminal infrastructure will allow international passenger carriers to operate direct flights to Ibadan, eliminating transit bottlenecks for business travelers and agribusiness exporters.",
+        "Complementing the terminal expansion, the state government is funding dualized airport access roads, advanced runway lighting systems, and expanded aircraft parking aprons. These civil works ensure full compliance with Nigerian Civil Aviation Authority (NCAA) and International Civil Aviation Organization (ICAO) safety standards prior to commercial operations.",
+        "Governor Makinde expressed confidence that the project will stimulate hospitality, real estate, and regional trade across Oyo State. The administration reaffirmed its commitment to maintaining strict oversight over infrastructure contractors to deliver a world-class international airport terminal on schedule."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-22",
+      "published": false,
+      "title": "Governor Radda Unveils Judicial Welfare Package, Attends CIBN Summit, And Assures Sabuwa Of Infrastructure",
+      "labels": [
+        "News Report",
+        "Katsina",
+        "Judiciary, Finance & Governance",
+        "Executive Action"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE9_e1R7vX8ZgU9N1j7kG-3t3Z-Z3m7hY9a-d0v9m8a1b2c3d4e5f6g7h8i9j0/s1536/Katsina%20Governor%20Dikko%20Radda.png",
+        "alt": "Katsina State Governor Dikko Umaru Radda",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Katsina State Governor Malam Dikko Umaru Radda has announced a comprehensive welfare package for magistrates, participated in the CIBN banking conference, and promised equitable infrastructure for Sabuwa LGA.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Katsina State Governor Malam Dikko Umaru Radda announced a judicial welfare package during the launch of the maiden Hospitality Bar Journal in Katsina. The administration has introduced a magistrate car loan scheme, expanded judge appointments, and allocated funds in the proposed 2027 budget for court renovations and international training, aiming to address case backlog and enhance justice delivery.",
+        "At the national level, Governor Radda was represented by Special Adviser on Banking and Finance Hon. Bilkisu Sulaiman Ibrahim at the 19th CIBN Annual Banking and Finance Conference in Abuja. The conference focused on fiscal resilience and digital banking disruption, with Katsina using the platform to align state micro-finance policies with national banking frameworks.",
+        "Addressing grassroots development during a meeting with Sabuwa LGA stakeholders at Government House, Governor Radda assured smaller local councils of equitable project distribution. The Governor highlighted the ongoing Sabuwa–Tashar Bawa road construction, primary school renovations, and dam reconstructions as evidence of his commitment to peripheral communities.",
+        "Governor Radda commended Sabuwa residents for collaborating with security agencies against banditry and praised the late District Head of Sabuwa. He urged the newly approved District Head of Kogo, Engr. Ibrahim Bello Kogo, to maintain community peace and warned political actors against inciting violence over chieftaincy leadership.",
+        "Governor Radda also attended the funeral prayer for community leader Alhaji Aliyu Musa Kofar Durbi (Ali KD) in Katsina. The administration reaffirmed its resolve to combine judicial sector reforms, commercial financial partnerships, and rural security interventions to drive development across Katsina State."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-23",
+      "published": false,
+      "title": "Governor Uba Sani Approves FGN-ASUU Agreement For KASU, Hands Over Classrooms, And Excels In Zonal Sports",
+      "labels": [
+        "News Report",
+        "Kaduna",
+        "Education, Sports & Infrastructure",
+        "Policy Approval"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4h-X_X9k8Y-Z8N2m7K0l9m8a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7/s1536/Kaduna%20Governor%20Uba%20Sani.png",
+        "alt": "Kaduna State Governor Uba Sani",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Kaduna State Governor Uba Sani has approved the 2025 FGN-ASUU salary agreement for Kaduna State University, handed over renovated classrooms in Barnawa, and secured six team qualifications at the National Intermediate Games.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Kaduna State Governor Uba Sani approved the 2025 FGN-ASUU salary agreement for Kaduna State University (KASU) academic staff, effective October 2026. Education Commissioner Prof. Abubakar Sani Sambo noted the package includes the revised CONUASS scale and academic allowances, supported by allocating 25% of the state budget to education to construct 3,267 classrooms and return 300,000 out-of-school children to class.",
+        "In basic education delivery, the Kaduna State Universal Basic Education Board (KADSUBEB) handed over a newly renovated block of classrooms to the Barnawa Community in Kaduna South LGA. Board representative Engr. Ahmad Yahya Lere urged the community to safeguard the facility, while District Head Alhaji Muhammad Kabiru Zubairu commended the administration's sustained investments in basic education infrastructure.",
+        "In sports development, Kaduna State achieved dominant results at the North West Zonal Elimination of the National Intermediate Games hosted at Murtala Muhammed Square. Kaduna secured first-place qualifications across six disciplines-including Beach Volleyball, Female Volleyball, Male Handball, Male and Female Cricket, Hockey, and Basketball-advancing to the national finals.",
+        "Sports Ministry Permanent Secretary Mrs. Dorcas Inti Benjamin Tanko attributed the athletic success to state funding for sports and key facility upgrades. These include completing renovations at Kaduna Township Stadium and advancing the reconstruction of Ahmadu Bello Stadium to expand its seating capacity from 16,000 to 33,000 spectators.",
+        "The Kaduna State Government reaffirmed that combining tertiary labor stability with basic education infrastructure expansion and sports development remains vital to empowering youth. The administration pledged continued commitment to human capital development across the state."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-24",
+      "published": false,
+      "title": "Governor Umo Eno Commissions Dakkada Oil Palm Road, Model Primary Schools, And Warns Against Political Incitement",
+      "labels": [
+        "News Report",
+        "Akwa Ibom",
+        "Infrastructure, Education & Governance",
+        "Project Commissioning"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT5m7k8L9q0w1e2r3t4y5u6i7o8p9a0b1c2d3e4f5g6h7i8j9k0l1m2n3/s1536/Akwa%20Ibom%20Governor%20Umo%20Eno.png",
+        "alt": "Akwa Ibom State Governor Umo Eno",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Akwa Ibom State Governor Umo Eno has commissioned the 1.35km Dakkada Oil Palm access road in Esit Eket, inaugurated the Methodist Model Primary School in Nkari, and issued a warning against political incitement.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Representing Governor Umo Eno during the 39th state anniversary activities, Campaign DG Amb. Assam Assam commissioned the 1.35km access road to Dakkada Global Oil Palm Limited in Etebi, Esit Eket LGA. Works Permanent Secretary Mr. Ignatius Ekwere explained the asphalt road features side drainages and stone-base foundations designed to withstand heavy agricultural transport and stimulate rural palm oil processing.",
+        "Extending educational projects to Ini LGA, Senator Aloysius Etok commissioned the Methodist Model Primary School in Nkari on behalf of Governor Eno. Education Commissioner Prof. Ubong Umoh noted the intervention restores formal learning for rural pupils deprived of facilities for two years, fulfilling an executive pledge to ensure equal educational access across all 31 LGAs.",
+        "Addressing political matters, Information Commissioner Hon. Aniekan Umanah issued a statement refuting claims made in a social media video by Senator John James Akpanudoedehe. The government denied allegations concerning EFCC reports against former Governor Udom Emmanuel, warning political actors against inciting public disaffection or disturbing state peace.",
+        "On urban renewal, Governor Eno inspected progress on the Uyo Village Road erosion control, land reclamation, and bridge construction project executed by AMITECH Construction. The civil engineering intervention will reclaim over 150 hectares of ravine land to enable the planned Uyo Downtown commercial and residential development.",
+        "The Akwa Ibom State Government confirmed it will proceed with commissioning 39 capital projects to mark the state's anniversary. The administration reaffirmed its resolve to deliver agricultural roads, model schools, erosion control, and public housing under the ARISE Agenda."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-25",
+      "published": false,
+      "title": "Governor Alex Otti Targets Seven Growth Sectors At NBCC Forum, Intervenes In Child Abuse Case, And Approves New Aba Roads",
+      "labels": [
+        "News Report",
+        "Abia",
+        "Economic Strategy & Infrastructure",
+        "Executive Address"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio9P1m2o3n4b5v6c7x8z9a0s1d2f3g4h5j6k7l8m9n0p1q2r3s4t5u6v7/s1536/Abia%20Governor%20Alex%20Otti.png",
+        "alt": "Abia State Governor Alex Otti",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Abia State Governor Dr. Alex Otti has outlined seven priority investment sectors at the NBCC 'Meet the Governor' series, intervened in a severe Aba child abuse case, and approved new road projects.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Speaking at the Nigerian-British Chamber of Commerce (NBCC) 'Meet the Governor' series in Lagos, Governor Alex Otti highlighted seven priority sectors to drive Abia's industrialization: agribusiness, trade, creative economy, manufacturing, SME growth, inclusive finance, and diaspora investment. The Governor noted that 80% of Abia's N1.016 trillion 2026 budget is allocated to capital expenditure to rebuild infrastructure.",
+        "Addressing social welfare, Women Affairs Commissioner Dr. Maureen Ijeoma Aghukwa announced state intervention in a child abuse case in Aba. Following the rescue of 12-year-old Master Ugonna Uzoma from severe domestic torture, police arrested the suspect, Mr. Lambert Evans Uzoma, while the Ministry took custody of the victim to provide immediate medical treatment and rehabilitation.",
+        "Participating in environmental affairs in Lagos, Governor Otti served as Chief Presenter at the launch of 'Quest for Green' by Dr. Godswills Ihetu. Highlighting Abia's green transition, Governor Otti disclosed the state has deployed 40 electric buses, targeting 100 operational units by Q1 2027 to lower urban transport emissions and operating costs.",
+        "Clarifying state tax administration, Special Adviser Ferdinand Ekeoma refuted claims of overtaxation, noting the administration eliminated illegal collection agents and consolidated levies into verified government accounts. Meanwhile, at Sacred Heart Catholic Church in Aba, Governor Otti announced the upcoming flag-off of Uratta and Old Express roads, alongside approving Umuebeke Road construction.",
+        "The Abia State Government reiterated its focus on transparent fiscal governance, legal enforcement against domestic abuse, and urban infrastructure recovery. The administration pledged to continue executing capital projects to position Abia as a business and logistics hub."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-26",
+      "published": false,
+      "title": "Governor Buni Mourns Makintan Fika And Attends Northern Governors Academic Security Summit",
+      "labels": [
+        "News Report",
+        "Yobe",
+        "Governance & Regional Affairs",
+        "Official Condolence"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7k8l9m0n1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m/s1536/Yobe%20Governor%20Mai%20Mala%20Buni.png",
+        "alt": "Yobe State Governor Mai Mala Buni",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Yobe State Governor Mai Mala Buni has expressed condolences over the passing of senior Fika Emirate councillor Alhaji Bukar Abubakar and participated in a Northern Governors regional development summit in Kaduna.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Yobe State Governor Hon. Mai Mala Buni expressed condolences to the Emir of Fika and the Fika Emirate Council following the passing of senior councillor Alhaji Bukar Abubakar, the Makintan Fika. In an official message released in Damaturu, Governor Buni described the late traditional leader as a seasoned administrator, educationist, and peacebuilder whose counsel supported community development.",
+        "Governor Buni offered prayers for the repose of the soul of the late Makintan Fika, emphasizing that his contributions to public administration and traditional governance in Yobe State remain appreciated. The Governor extended sympathies to the bereaved family and the entire Fika Emirate Council, praying for fortitude during their period of loss.",
+        "In regional governance, Governor Buni joined fellow Northern Governors for a high-level consultative meeting with university professors and academic experts at Kaduna. The strategic summit focused on evaluating socio-economic challenges across Northern Nigeria, developing home-grown solutions for agricultural productivity, and addressing regional out-of-school children statistics.",
+        "Director-General of Press and Media Affairs Alhaji Mamman Muhammad noted the Kaduna conference aimed to deepen structured partnerships between state governments and academic research institutions. The collaborative framework focuses on translating university research into policy interventions for security management, climate adaptation, and youth employment.",
+        "The Yobe State Government reaffirmed its commitment to collaborating with traditional institutions and regional governance bodies to drive development. The administration pledged to implement policy recommendations from regional academic summits to improve livelihoods across Yobe State."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-27",
+      "published": false,
+      "title": "Plateau Government Reopens Schools, Presents Orange Economy Strategy, Condemns VIO Attack, And Launches Mass Cholera Vaccination",
+      "labels": [
+        "News Report",
+        "Plateau",
+        "Health, Education & Culture",
+        "State Health Campaign"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0/s1536/Plateau%20Governor%20Caleb%20Mutfwang.png",
+        "alt": "Plateau State Governor Caleb Mutfwang",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Plateau State Government has authorized school resumptions following diphtheria containment, presented its Orange Economy roadmap at NIPSS Kuru, condemned attacks on traffic officers, and rolled out mass cholera vaccinations.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Information Commissioner Rt. Hon. Joyce Lohya Ramnap announced the reopening of primary and secondary schools across Plateau State following precautionary closures to contain suspected diphtheria cases. Health authorities verified that surveillance and sanitation measures have been established across public and private schools to safeguard returning students and teaching staff.",
+        "At the National Institute for Policy and Strategic Studies (NIPSS) in Kuru, Commissioner Ramnap presented Governor Caleb Mutfwang's administration roadmap for harnessing the Orange Economy. The strategy includes a N4 billion MSME matching fund with the Bank of Industry, PPP frameworks under Executive Order No. 10 of 2024, and reviving key tourism assets such as Hill Station Hotel and Jos Wildlife Park.",
+        "Addressing public order, the Ministry of Transport condemned an assault on Vehicle Inspection Officers (VIO) operating along Ahmadu Bello Way in Jos. The ministry called on security agencies to investigate the social media video capturing the altercation, warning that violence against public officers carrying out statutory duties will face strict legal prosecution.",
+        "To combat waterborne diseases, Health Commissioner Dr. Nicholas Ba’amlong launched a mass oral cholera vaccination campaign targeting high-risk communities in Jos North and Mangu LGAs. Supported by NPHCDA, WHO, and UNICEF, mobile vaccination teams administered doses in commercial centers, including Dilimi and Angwan Rukuba markets, to curb transmissions.",
+        "Complementing disease control, the Ministry of Health concluded a five-day LGA Harmonisation Exercise for the 2027 Annual Operational Plan to align health budgets across all 17 LGAs. The Plateau State Government reiterated its commitment to health sector planning, cultural commercialization, and enforcing public safety."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/macro-intelligence-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-14-28",
+      "published": false,
+      "title": "LASEMA Extricates Survivors In Aboru Building Collapse, Finance Ministry Urges AI Adoption, And Sanwo-Olu Pays Camp Compensation",
+      "labels": [
+        "News Report",
+        "Lagos",
+        "Emergency Services, Finance & Culture",
+        "Emergency Response"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8k/s1536/Lagos%20Governor%20Babajide%20Sanwo-Olu.png",
+        "alt": "Lagos State Governor Babajide Sanwo-Olu",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "LASEMA coordinated search and rescue operations following a building collapse in Aboru, while the Ministry of Finance urged ICAN to adopt AI and Governor Sanwo-Olu disbursed infrastructure compensation.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "LASEMA Permanent Secretary Dr. Olufemi Damilola Oke-Osanyintolu reported that emergency teams responded to the partial collapse of a two-storey building undergoing manual demolition on Governors Road in Aboru. Search and rescue operations extricated two trapped adult males alive, who received emergency care from LASAMBUS, while one adult male was recovered deceased beneath the rubble.",
+        "At the ICAN Lagos State Public Service Chapter investiture, Finance Commissioner Mr. Abayomi Oluyomi charged accountants to harness Artificial Intelligence (AI) for public audit controls, revenue forecasting, and financial reconciliation. Citing Lagos' N4.44 trillion 2026 budget, Oluyomi emphasized that AI tools will enhance fiscal transparency across public institutions.",
+        "Promoting indigenous creative industries, Tourism Special Adviser Mr. Idris Aregbe inspected the Adire Market in Itire, Surulere LGA. Accompanied by local government leaders, Aregbe reaffirmed state support under the T.H.E.M.E.S Plus Agenda to upgrade market infrastructure, provide training, and connect local textile artisans with international tourism markets.",
+        "In community development, Governor Babajide Sanwo-Olu presented compensation cheques to residents of Odo Ayandolu and Ota Ikosi in Agbowa whose properties were acquired for the proposed NYSC Orientation Camp. The Governor stressed that infrastructure development across Lagos must remain fair, transparent, and people-centered.",
+        "Governor Sanwo-Olu also commissioned modern hostel facilities at the Lagos State College of Nursing in Igando to improve living standards for healthcare trainees. The Lagos State Government reaffirmed its commitment to maintaining emergency response efficiency, fiscal technology adoption, cultural preservation, and healthcare infrastructure delivery."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
