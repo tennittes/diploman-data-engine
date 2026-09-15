@@ -1027,7 +1027,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-15-05",
-      "published": false,
+      "published": true,
       "title": "Governor Mbah Rallies Support for Enugu Rangers Following CAF Champions League Qualification",
       "labels": [
         "News Report",
