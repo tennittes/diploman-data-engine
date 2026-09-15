@@ -1155,7 +1155,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-15-09",
-      "published": false,
+      "published": true,
       "title": "Governor Sule Attends North Central Stakeholders Development Summit in Abuja",
       "labels": [
         "News Report",
