@@ -803,7 +803,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-14-26",
-      "published": false,
+      "published": true,
       "title": "Governor Buni Mourns Makintan Fika And Attends Northern Governors Academic Security Summit",
       "labels": [
         "News Report",
@@ -924,7 +924,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -947,8 +947,8 @@
       "lead_narrative": "Adamawa State Governor Ahmadu Umaru Fintiri declared Monday, September 14, 2026, a work-free day to honour the life, legacy, and national contributions of the late former Governor of defunct Gongola State, Alhaji Bamanga Tukur.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The announcement was communicated through a formal statement issued on Sunday by the Governor’s Chief Press Secretary, Humwashi Wonosikou. The one-year public holiday was designated to enable residents across the state to pay their final respects following the burial rites of the elder statesman.",
-        "Alhaji Bamanga Tukur was laid to rest in Yola on Sunday afternoon following traditional funeral prayers conducted at the Lamido’s Palace. Family members, political associates, regional leaders, and government officials gathered to mourn the loss of the prominent national figure.",
+        "The announcement was communicated through a formal statement issued on Sunday by the Governor\u2019s Chief Press Secretary, Humwashi Wonosikou. The one-year public holiday was designated to enable residents across the state to pay their final respects following the burial rites of the elder statesman.",
+        "Alhaji Bamanga Tukur was laid to rest in Yola on Sunday afternoon following traditional funeral prayers conducted at the Lamido\u2019s Palace. Family members, political associates, regional leaders, and government officials gathered to mourn the loss of the prominent national figure.",
         "Governor Fintiri lauded the late leader's immense service to Adamawa State and Nigeria, noting that his decades of public administration and political leadership left an indelible mark on the nation's institutional and economic development.",
         "In conjunction with the work-free day, the state government proclaimed a three-day period of official mourning, directing that all public flags across Adamawa State fly at half-mast to reflect the solemnity of the statewide observance.",
         "While non-essential public offices remained closed for the day, essential public services maintained operations, with the Governor urging citizens to use the period to offer prayers for the deceased statesman and support his grieving family."
@@ -956,7 +956,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -982,13 +982,13 @@
         "Governor Zulum gave the assurance during an official courtesy visit by the pioneer Chief Executive Officer of the Tax Ombuds of Nigeria, Dr. John Nwabueze, who led his management team to the Government House in Maiduguri. The Governor emphasized that the state would provide immediate temporary office space while working out sustainable, long-term infrastructural solutions.",
         "To fast-track the establishment process, Governor Zulum directed the visiting agency team to liaise directly with the Office of the Secretary to the State Government, the Commissioner for Finance, and the State Revenue Service Board to coordinate logistical requirements and operational modalities.",
         "Commending the federal initiative, Governor Zulum noted that the Tax Ombuds fills a vital institutional void by acting as an independent arbiter between taxpayers and revenue collection authorities, ensuring a fair and balanced administrative framework across the country.",
-        "Dr. Nwabueze explained that his introductory visit followed his presidential appointment, noting that the agency’s core mandate is to protect taxpayers' rights, foster transparency, and resolve revenue-related disputes amicably without eroding public trust in tax systems.",
+        "Dr. Nwabueze explained that his introductory visit followed his presidential appointment, noting that the agency\u2019s core mandate is to protect taxpayers' rights, foster transparency, and resolve revenue-related disputes amicably without eroding public trust in tax systems.",
         "The meeting concluded with mutual commitments to deepen institutional cooperation, positioning Borno State as an administrative focal point for regional tax arbitration and compliance oversight in the Northeast."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1020,7 +1020,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1043,7 +1043,7 @@
       "lead_narrative": "Enugu State Governor Peter Mbah has commended Rangers International FC following their qualification for the second round of the prestigious CAF Champions League.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Flying Antelopes secured their hard-fought progression after defeating Benin Republic champions Sobemep FC 5–4 on penalties in a tense encounter that tested the team's resilience and competitive edge.",
+        "The Flying Antelopes secured their hard-fought progression after defeating Benin Republic champions Sobemep FC 5\u20134 on penalties in a tense encounter that tested the team's resilience and competitive edge.",
         "Governor Mbah personally greeted the team upon their arrival at the airport, praising the players, coaching staff, and management for flying the state's colors high on the continental football stage.",
         "Reaffirming his administration's sports development policy, the Governor pledged continued institutional and financial backing to ensure the club maintains strong momentum in subsequent tournament fixtures.",
         "Supporters and football enthusiasts across Enugu State have celebrated the milestone victory, viewing the team's advancement as a testament to the growing renaissance of football excellence in the region.",
@@ -1052,7 +1052,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1084,7 +1084,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1116,7 +1116,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1148,7 +1148,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1168,7 +1168,7 @@
         "alt": "Nasarawa State Governor Abdullahi Sule",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Nasarawa State Governor and Chairman of the North Central Governors’ Forum, Engr. Abdullahi A. Sule, participated in the opening ceremony of the North Central Stakeholders Development Summit in Abuja.",
+      "lead_narrative": "Nasarawa State Governor and Chairman of the North Central Governors\u2019 Forum, Engr. Abdullahi A. Sule, participated in the opening ceremony of the North Central Stakeholders Development Summit in Abuja.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The high-level summit, themed 'The Great Leap Forward,' convened regional leaders, policymakers, and development partners at the Continental Hotel to advance a 20-year Economic, Infrastructural, and Social Development Plan.",
@@ -1180,7 +1180,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1212,7 +1212,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1244,7 +1244,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1267,7 +1267,7 @@
       "lead_narrative": "Kano State Deputy Governor Aminu Abdussalam Gwarzo represented Governor Abba Kabir Yusuf at the high-profile wedding fatiha of Ibrahim Abubakar Kyari, son of the Minister of Agriculture and Food Security.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The matrimonial solemnization between Ibrahim Abubakar Kyari and Fatima Ibrahim Dan Dawaki took place on Friday at the Alfurqan Juma’at Mosque in Kano, drawing distinguished political leaders, family members, and well-wishers.",
+        "The matrimonial solemnization between Ibrahim Abubakar Kyari and Fatima Ibrahim Dan Dawaki took place on Friday at the Alfurqan Juma\u2019at Mosque in Kano, drawing distinguished political leaders, family members, and well-wishers.",
         "Borno State Governor Professor Babagana Umara Zulum officiated as the groom's representative (Wakili), while Alhaji Kabiru Sani Kwangila served as the bride's guardian (Waliyyi) during the religious ceremony.",
         "Extending felicitation messages on behalf of Governor Abba Kabir Yusuf, the Deputy Governor prayed for divine blessings, peace, and mutual understanding to sustain the newly wedded couple's union.",
         "In related community engagements, the Deputy Governor visited political stakeholders in Danbatta Local Government Area and extended formal condolences to families affected by recent traffic accidents and industrial fire outbreaks in Gezawa LGA.",
@@ -1276,7 +1276,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1308,7 +1308,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1340,7 +1340,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1366,13 +1366,13 @@
         "The land reclamation milestone forms part of sustained security operations and community-led peacebuilding frameworks implemented across vulnerable agrarian belts in Kaduna State.",
         "In recognition of his administrative support for security collaboration, Governor Uba Sani was honored with a commemorative plaque during the opening ceremony of Exercise Haske Biyu 2026 at the Armed Forces Command and Staff College in Jaji.",
         "The Commandant of the institution, Air Vice Marshal A.O. Shogbanmu, presented the award in appreciation of the state government's robust partnership with military formations to advance regional security.",
-        "Commissioner for Internal Security and Home Affairs, Sule Shu’aibu, SAN, received the plaque on behalf of the Governor, reiterating the administration's resolve to protect farming settlements and critical infrastructure.",
+        "Commissioner for Internal Security and Home Affairs, Sule Shu\u2019aibu, SAN, received the plaque on behalf of the Governor, reiterating the administration's resolve to protect farming settlements and critical infrastructure.",
         "State authorities confirmed that enhanced intelligence sharing and joint security patrols will continue to safeguard rural productivity and secure agricultural supply chains across Kaduna State."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1404,7 +1404,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1436,7 +1436,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1459,7 +1459,7 @@
       "lead_narrative": "Lagos State Governor Babajide Sanwo-Olu joined industrialist Aliko Dangote at the Nigerian Exchange Group for the Dangote Petroleum Refinery IPO listing, highlighting the state's expanding investment ecosystem.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "Governor Sanwo-Olu noted that the historic listing of the 66-year-old capital market milestone reinforces Lagos as Nigeria’s premier commercial hub, reaffirming the administration's commitment to business-friendly economic policies.",
+        "Governor Sanwo-Olu noted that the historic listing of the 66-year-old capital market milestone reinforces Lagos as Nigeria\u2019s premier commercial hub, reaffirming the administration's commitment to business-friendly economic policies.",
         "In tourism development, Commissioner for Tourism, Arts and Culture Mrs. Toke Benson-Awoyinka commissioned Phase III of Ziba Beach Resort in Eti-Osa LGA, praising investors for advancing luxury tourism and local community employment.",
         "The expanded over-water resort facility features grand loft suites and a dedicated wellness center, showcasing the capacity of Nigerian entrepreneurs to deliver world-class hospitality standards.",
         "In public health, the Lagos State Government through Health District V intensified community nutrition interventions by distributing therapeutic food supplements and conducting feeding demonstrations across primary healthcare centers in Amukoko, Sagbokoji, Ojo, and Ilogbo.",
@@ -1468,7 +1468,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
