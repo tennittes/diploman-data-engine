@@ -899,7 +899,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-15-01",
-      "published": false,
+      "published": true,
       "title": "Ebonyi State Government Flags Off Free FON 4-TECH Training Programme to Boost Digital Literacy",
       "labels": [
         "News Report",
