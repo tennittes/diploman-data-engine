@@ -835,7 +835,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-14-27",
-      "published": false,
+      "published": true,
       "title": "Plateau Government Reopens Schools, Presents Orange Economy Strategy, Condemns VIO Attack, And Launches Mass Cholera Vaccination",
       "labels": [
         "News Report",
