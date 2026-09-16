@@ -1731,7 +1731,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-16-09",
-      "published": false,
+      "published": true,
       "title": "Delta State Assembly Passes Executive Bill Establishing Statutory 13th-Month Salary for Public Servants",
       "labels": [
         "News Report",
