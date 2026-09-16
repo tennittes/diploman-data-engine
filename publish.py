@@ -40,10 +40,17 @@ def build_news_report_html(item):
     # 1. Featured Image
     if "featured_image" in item:
         img = item["featured_image"]
+        target_url = img.get('target_url', 'https://www.diplomantimes.com')
+        img_alt = img.get('alt', '')
+        img_src = img.get('src', '')
+        
+        # Extract aria_label with fallback for backward compatibility
+        aria_label = img.get('aria_label', 'Diploman Times Governance and Policy Intelligence')
+
         html_parts.append(textwrap.dedent(f"""
         <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 8px; padding: 0px; position: relative; width: 100%;">
-          <a href="{img.get('target_url', 'https://www.diplomantimes.com')}" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
-            <img alt="{img.get('alt', '')}" border="0" src="{img.get('src', '')}" style="border: 0px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
+          <a href="{target_url}" aria-label="{aria_label}" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
+            <img alt="{img_alt}" border="0" src="{img_src}" style="border: 0px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
           </a>
         </figure>
         """).strip())
