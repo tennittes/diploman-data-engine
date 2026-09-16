@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16",
+  "lastUpdated": "2026-09-17",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -3810,6 +3810,182 @@
       "whyItMatters": "This 5.5 PSI Moderate Signal diplomatic mission positions Nasarawa and the North-Central region for international multilateral engagements and foreign investment advocacy."
     },
     "intent": "Participating in international diplomatic forums to promote subnational economic interests."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Governor Radda Approves Empowerment for 49,640 Women and Bindawa Road Reconstruction",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Radda Approves Empowerment for 49,640 Women and Bindawa Road Reconstruction",
+      "whatHappened": "Governor Dikko Umaru Radda approved an economic empowerment drive for 49,640 women across 361 wards, awarded the contract for Bindawa-Dallaje-Doro-Giremawa-Duwan road reconstruction, and introduced Qur'anic memorization scholarships.",
+      "whyItMatters": "This 9.3 PSI Optimum Signal intervention expands grassroots economic liquidity for micro-traders while upgrading critical rural transport infrastructure across Katsina's 34 local government areas."
+    },
+    "intent": "Empowering rural female entrepreneurs, upgrading inter-community road connectivity, and supporting Islamic educational advancement."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "RMAFC Commends Governor Otti on Fiscal Management; Abia Scales Fashion Hub and Aba Power Grid",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "RMAFC Commends Governor Otti on Fiscal Management; Abia Scales Fashion Hub and Aba Power Grid",
+      "whatHappened": "RMAFC Chairman Dr. Mohammed Shehu commended Governor Alex Otti for fiscal transparency and resource management as Abia handed over land for RMAFC's office. Governor Otti also approved a fashion export partnership with Ethnocentrique and announced progress on 50MW power grid restoration for Aba.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal milestone highlights Abia's rise to 4th in national fiscal transparency, supported by industrial expansion in fashion manufacturing and energy infrastructure for Aba's commercial economy."
+    },
+    "intent": "Strengthening subnational fiscal performance, scaling industrial fashion manufacturing, and securing reliable energy for Aba's industrial hub."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "VP Shettima Commissions Mega Kwara Garment Factory Built for 4,000 Jobs in Ilorin",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "VP Shettima Commissions Mega Kwara Garment Factory Built for 4,000 Jobs in Ilorin",
+      "whatHappened": "Vice President Kashim Shettima officially commissioned the Kwara Garment Factory in Ilorin alongside Governor AbdulRahman AbdulRazaq, establishing a high-tech textile manufacturing hub designed to employ 4,000 workers.",
+      "whyItMatters": "This 8.8 PSI High Signal capital project expands industrial manufacturing capacity in West Africa, creating massive youth employment and boosting non-oil industrial exports."
+    },
+    "intent": "Expanding industrial textile manufacturing capacity, driving youth job creation, and positioning Kwara as a regional commercial hub."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Edo Completes China Railway Capacity Seminar, Reviews 2027 Health Plan, and Deploys Nanotech Erosion Control",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo Completes China Railway Capacity Seminar, Reviews 2027 Health Plan, and Deploys Nanotech Erosion Control",
+      "whatHappened": "Transportation Commissioner Saturday Uwuilekhue concluded a 22-day China Railway seminar, Health Commissioner Dr. Cyril Oshiomhole commenced 2027 AOP harmonisation, and EDOFEWMA partnered with UNILAG on soil stabilization for 35 erosion sites.",
+      "whyItMatters": "This 8.6 PSI High Signal multi-sectoral performance advances railway transport capacity, long-term healthcare planning, and innovative soil-stabilization technologies to prevent gully disasters."
+    },
+    "intent": "Upgrading urban railway transport capacity, harmonizing long-term healthcare planning, and deploying innovative erosion control technologies."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "JIGAWA",
+    "stateName": "Jigawa State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Jigawa State Signs Air Route Agreement with Rano Air for Abuja-Dutse Commercial Flights",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Jigawa State Signs Air Route Agreement with Rano Air for Abuja-Dutse Commercial Flights",
+      "whatHappened": "Jigawa State Government signed an Air Route Development Partnership with Rano Air Limited to commence thrice-weekly scheduled commercial flights between Abuja and Dutse.",
+      "whyItMatters": "This 8.5 PSI High Signal partnership enhances air transport connectivity, facilitating investment access for business, tourism, and public administration in Jigawa State."
+    },
+    "intent": "Expanding commercial aviation connectivity to attract foreign investment, facilitate business mobility, and support tourism."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Governor Aiyedatiwa Directs Tipper and Quarry Unions to Suspend Truck Loading Fee Hike",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Aiyedatiwa Directs Tipper and Quarry Unions to Suspend Truck Loading Fee Hike",
+      "whatHappened": "Governor Lucky Aiyedatiwa directed tipper and quarry operator unions to suspend their recently increased truck-loading fees pending further consultations to protect citizens from high building material costs.",
+      "whyItMatters": "This 8.4 PSI High Signal executive intervention prevents inflationary price spikes in construction materials, mitigating economic hardship for property developers and citizens."
+    },
+    "intent": "Regulating transport tariff increases, protecting consumers from inflation, and maintaining economic stability in the building sector."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Ogun Mobilises TRACE Officers to Clear Severe Gridlock Along Kara Bridge Corridor",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ogun Mobilises TRACE Officers to Clear Severe Gridlock Along Kara Bridge Corridor",
+      "whatHappened": "Governor Dapo Abiodun deployed TRACE personnel alongside security agencies to clear obstructions and enforce traffic order along the Kara Bridge section of the Lagos-Ibadan Expressway.",
+      "whyItMatters": "This 8.3 PSI High Signal traffic management intervention restores mobility along Nigeria's most vital commercial highway, preventing economic losses from freight delays."
+    },
+    "intent": "Managing highway traffic congestion, clearing interstate freight bottlenecks, and maintaining transit safety."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Lagos Appeals for Patience on Expressway Traffic, Empowers PWDs with Tech, and Mourns Olu Jacobs",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Appeals for Patience on Expressway Traffic, Empowers PWDs with Tech, and Mourns Olu Jacobs",
+      "whatHappened": "Lagos deployed LASTMA officers to manage Kara Bridge traffic while appealing for compliance; LASODA and NCC empowered 100 PWDs with digital skills; LSACA trained HIV peer educators; and Governor Sanwo-Olu mourned actor Olu Jacobs.",
+      "whyItMatters": "This 8.2 PSI High Signal response addresses critical traffic logistics, advances digital inclusion for PWDs, and reinforces public health leadership across communities."
+    },
+    "intent": "Mitigating urban traffic gridlock, expanding digital inclusion for persons with disabilities, and strengthening community health responses."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Akwa Ibom Commissions Nsit Atai Youth Centre and Enforces Transport QR Code Registration Deadline",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Akwa Ibom Commissions Nsit Atai Youth Centre and Enforces Transport QR Code Registration Deadline",
+      "whatHappened": "Akwa Ibom State commissioned a Youth Development Centre in Nsit Atai LGA, while Governor Umo Eno mandated all commercial tricycles and buses to complete QR code registration by Sept 30, 2026.",
+      "whyItMatters": "This 8.1 PSI High Signal dual action expands rural youth vocational empowerment while instituting mandatory digital tracking for commercial transport security."
+    },
+    "intent": "Promoting rural youth development and enhancing public transport security through mandatory digital tracking."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Adamawa Scholarship Trust Fund Opens Web Portal for 2026/2027 Local Scholarship Applications",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Scholarship Trust Fund Opens Web Portal for 2026/2027 Local Scholarship Applications",
+      "whatHappened": "The Adamawa State Scholarship Trust Fund announced the opening of its web portal for 2026/2027 local scholarship applications from September 17 to October 10, 2026, offering offline options for poor network areas.",
+      "whyItMatters": "This 7.8 PSI High Signal educational program expands tertiary financial support for indigenous students, providing accessible digital and offline application pathways."
+    },
+    "intent": "Broadening tertiary educational financial support and improving scholarship application access across rural districts."
+  },
+  {
+    "dayNumber": 17,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Thursday, September 17, 2026",
+    "headline": "Taraba Restores and Fully Operates Kona and Gindin Waya Primary Healthcare Centres",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Taraba Restores and Fully Operates Kona and Gindin Waya Primary Healthcare Centres",
+      "whatHappened": "Governor Agbu Kefas' administration successfully restored, equipped, and operationalized the Kona Primary Health Care Centre in Jalingo LGA and Gindin Waya Primary Health Care Centre in Ibi LGA.",
+      "whyItMatters": "This 7.5 PSI High Signal healthcare intervention improves primary medical delivery and maternal healthcare access for rural communities in Jalingo and Ibi local councils."
+    },
+    "intent": "Rehabilitating rural primary healthcare infrastructure to expand community-level medical access."
   }
   ],
 
@@ -9218,6 +9394,286 @@
         "securityAnalysis": "Nasarawa State (5.5 PSI / Moderate Signal / SIS 2.6 / SECURE / Growth-Oriented / Balanced Expansion) benefits from solid security stability and close proximity to the Federal Capital Territory."
       }
      ]
+    },
+      "17": {
+    "date": "2026-09-17",
+    "formattedDate": "September 17, 2026",
+    "metadata": {
+      "compositePsi": 8.1,
+      "activeJurisdictionsCount": 11,
+      "unlistedJurisdictionsCount": 26,
+      "unlistedNote": "The 26 unlisted jurisdictions (FCT Abuja, Anambra, Bauchi, Bayelsa, Benue, Borno, Cross River, Delta, Ebonyi, Ekiti, Enugu, Gombe, Imo, Kaduna, Kebbi, Kogi, Nasarawa, Niger, Osun, Oyo, Plateau, Rivers, Sokoto, Yobe, Zamfara, Kano) remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 11 Active Jurisdiction Across Nigeria",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & State Impact Score (SIS) Daily Briefing.",
+        "summary": "Subnational executive momentum on September 17, 2026, recorded an 8.1 PSI net composite average, led by 49,640 women economic empowerment approvals in Katsina, RMAFC fiscal commendation and fashion export scaling in Abia, 4,000-job garment factory commissioning in Kwara, and scheduled commercial air route development in Jigawa."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Demonstrates High-Alpha Opportunities Amid Secure Aviation, Maritime, and Agrarian Corridors",
+        "summary": "Comprehensive subnational risk analysis for September 17, 2026, evaluating Security Incident Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's commercial, maritime, and agrarian corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Reaches 8.1 Net Composite Average Across Micro-Economic Empowerment, Industrial Hubs, and Transport Logistics",
+        "summary": "Nigeria’s state executives record an 8.1 net PSI composite average on September 17, 2026, driven by high-velocity governance across micro-business funding, mega industrial asset delivery, commercial air route development, and heavy transport corridor management."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded an expansive operational performance during the active reporting window ending September 17, 2026. The 37-jurisdiction net Policy Signal Index (PSI) baseline settled at a high composite average of 8.1, reflecting intense executive commitment to rural micro-economic empowerment, large-scale industrial manufacturing, air route connectivity, and transport corridor maintenance.\n\nAcross active geopolitical zones, state governors and executive councils demonstrated high-capacity administration by translating policy intent into direct economic interventions. From Katsina's 49,640-woman economic empowerment drive and Abia's multi-sectoral industrial scaling to Kwara's 4,000-capacity garment factory launch and Jigawa's commercial air partnership, subnational governance displayed robust structural momentum aimed at job creation and commercial resilience.",
+        "emergingPatterns": "The active reporting window reveals a decisive strategy among subnational executives to pair physical asset commissioning with targeted human capital and micro-enterprise support. State governments are simultaneously driving mega-projects—such as garment factories, power grid restorations, and commercial flight routes—while implementing grassroots interventions including digital transport tracking, price regulation on building materials, and primary healthcare restorations.",
+        "strategicOutlook": "Sustaining current subnational performance will require continuous public asset maintenance, proactive inter-agency traffic management along heavy economic corridors, and targeted energy infrastructure investments. States that integrate private sector industrial partnerships with fiscal transparency will effectively absorb macroeconomic friction and attract long-term commercial capital.",
+        "conclusion": "The subnational executive governance landscape for September 17, 2026, reflects measurable administrative progress and strategic institutional alignment. By grounding policy in micro-economic empowerment, industrial infrastructure, and public sector transparency, Nigeria’s subnational executives continue to strengthen the foundations of regional economic growth."
+      },
+      "security": {
+        "introduction": "The subnational investment and operational risk landscape across Nigeria’s 36 States and the Federal Capital Territory for September 17, 2026, demonstrates high physical stability, with primary economic centers displaying robust security metrics and favorable risk-reward dynamics. Investors, development finance institutions, and corporate decision-makers navigating subnational markets can access high-alpha returns in industrial manufacturing, aviation, healthcare, and digital transport tracking across jurisdictions that maintain low operational friction.\n\nThrough the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index (PSI), raw Security Incident Score (SIS), Risk Indicator classification, and derived Investment Decision Profile. This multi-dimensional risk matrix offers clear strategic guidance for institutional capital allocation across key geopolitical zones.",
+        "emergingPatterns": "Subnational security mapping indicates that southern maritime, urban, and industrial hubs maintain highly stable SECURE (SIS < 3.0) environments ideal for long-term equity positions, commercial real estate, and municipal infrastructure. In contrast, northern agricultural and transit corridors require active risk oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in agribusiness, transport logistics, and health infrastructure must be paired with tactical security coordination and local community engagement.",
+        "strategicOutlook": "Corporate decision-makers and private equity funds should prioritize subnational jurisdictions that combine high executive policy signals with secure physical transport corridors. Capital deployments in industrial textile manufacturing, commercial aviation, and energy backup systems will yield superior risk-adjusted returns when aligned with verified state-level executive priorities.",
+        "conclusion": "Navigating Nigeria’s subnational economy requires rigorous, metric-backed evaluation. By aligning capital allocation with verified Policy Signal Index ratings and Security Incident Scores, institutional investors can capture substantial subnational growth while maintaining robust capital preservation."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Maritime, Aviation, and Commercial Transport Hubs",
+        "states": ["Lagos", "Akwa Ibom", "Abia"]
+      },
+      {
+        "groupTitle": "Coastal Energy, Security Alignment, and Governance Corridors",
+        "states": ["Edo"]
+      },
+      {
+        "groupTitle": "Agrarian Corridors, Health Security, and Public Infrastructure",
+        "states": ["Katsina", "Adamawa"]
+      },
+      {
+        "groupTitle": "Frontier Security, Social Welfare, and Emergency Protocols",
+        "states": ["Kwara", "Jigawa", "Ondo", "Ogun", "Taraba"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Radda Approves Empowerment for 49,640 Women and Bindawa Road Reconstruction.",
+        "impactVector": "Governor Dikko Umaru Radda approved an economic empowerment drive for 49,640 women across 361 wards, awarded the contract for Bindawa-Dallaje-Doro-Giremawa-Duwan road reconstruction, and introduced Qur'anic memorization scholarships.",
+        "policyBreakdown": {
+          "category": "Ward-Level Micro-Economic Empowerment, Trunk Road Infrastructure Reconstruction, and Religious Education Scholarships",
+          "body": "In Katsina State, Governor Dikko Umaru Radda presided over the 16th State Executive Council meeting, approving a large-scale economic empowerment program targeting 49,640 women across all 361 wards of the state's 34 LGAs to support petty trading and micro-enterprises. The Council also approved the contract award for the reconstruction of the Bindawa-Dallaje-Doro-Giremawa-Duwan Junction Road to improve market and healthcare access, alongside a scholarship initiative for students who have memorized the Holy Qur'an. Registering an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum), this comprehensive package boosts rural liquidity while expanding transport connectivity."
+        },
+        "securityAnalysis": "Katsina State (9.3 PSI / Optimum Signal / SIS 3.9 / MONITORED / Growth-Oriented / Caution) balances aggressive rural economic empowerment with active security oversight across agrarian local government areas."
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 9.0,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.1,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "RMAFC Commends Governor Otti on Fiscal Management; Abia Scales Fashion Hub and Aba Power Grid.",
+        "impactVector": "RMAFC Chairman Dr. Mohammed Shehu commended Governor Alex Otti for fiscal transparency and resource management as Abia handed over land for RMAFC's office. Governor Otti also approved a fashion export partnership with Ethnocentrique and announced progress on 50MW power grid restoration for Aba.",
+        "policyBreakdown": {
+          "category": "Fiscal Transparency Commendation, Industrial Fashion Export Hub Scaling, and Commercial Power Architecture Expansion",
+          "body": "In Abia State, RMAFC Chairman Dr. Mohammed Bello Shehu praised Governor Alex Otti for prudent resource management and rising to 4th in national fiscal transparency, accepting the C of O for RMAFC's permanent office. Concurrently, Governor Otti approved a strategic partnership with Ethnocentrique to scale fashion production for 20,000 additional youths and position Aba as a global manufacturing hub, while the Ministry of Power announced progress on restoring 50MW grid supply and securing alternative gas options for Geometric Power in Aba. Registering an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum), Abia merges fiscal governance with industrial expansion and energy security."
+        },
+        "securityAnalysis": "Abia State (9.0 PSI / Optimum Signal / SIS 2.1 / SECURE / High-Alpha / Prime Alpha Opportunity) offers top-tier security stability, low operational friction, and highly favorable conditions for industrial capital investment."
+      },
+      {
+        "state": "Kwara",
+        "governor": "AbdulRahman AbdulRazaq",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "VP Shettima Commissions Mega Kwara Garment Factory Built for 4,000 Jobs in Ilorin.",
+        "impactVector": "Vice President Kashim Shettima officially commissioned the Kwara Garment Factory in Ilorin alongside Governor AbdulRahman AbdulRazaq, establishing a high-tech textile manufacturing hub designed to employ 4,000 workers.",
+        "policyBreakdown": {
+          "category": "Industrial Textile Manufacturing Asset Delivery, Subnational Job Creation, and Regional Export Infrastructure",
+          "body": "In Kwara State, Vice President Kashim Shettima commissioned the Kwara Garment Factory in Ilorin, a flagship industrial initiative of Governor AbdulRahman AbdulRazaq's administration. Recognized as one of the largest and most technologically advanced garment manufacturing facilities in West Africa, the factory is engineered to employ at least 4,000 people at full capacity. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), this mega industrial deployment accelerates youth employment and positions Kwara as a regional textile export center."
+        },
+        "securityAnalysis": "Kwara State (8.8 PSI / High Signal / SIS 1.5 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains excellent physical security, minimal operational risk, and a highly stable environment for industrial manufacturing."
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.3,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Edo Completes China Railway Capacity Seminar, Reviews 2027 Health Plan, and Deploys Nanotech Erosion Control.",
+        "impactVector": "Transportation Commissioner Saturday Uwuilekhue concluded a 22-day China Railway seminar, Health Commissioner Dr. Cyril Oshiomhole commenced 2027 AOP harmonisation, and EDOFEWMA partnered with UNILAG on soil stabilization for 35 erosion sites.",
+        "policyBreakdown": {
+          "category": "Urban Transit Railway Capacity Building, Healthcare System Annual Planning, and Nanotechnology Soil Stabilisation",
+          "body": "In Edo State, Transportation Commissioner Hon. Saturday Uwuilekhue concluded a 22-day Railway Seminar in Beijing to strengthen state urban mobility under Governor Monday Okpebholo's SHINE Agenda. Simultaneously, Health Commissioner Dr. Cyril Oshiomhole launched the harmonisation of the 2027 Annual Operational Plan (AOP), while EDOFEWMA CEO Mohammed Okoyomoh partnered with University of Lagos researchers to deploy nano-silica soil stabilization across 35 engineered erosion control sites. Earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum), Edo combines transit capacity building with long-term health planning and advanced environmental management."
+        },
+        "securityAnalysis": "Edo State (8.6 PSI / High Signal / SIS 2.3 / SECURE / High-Alpha / Prime Alpha Opportunity) demonstrates solid physical security and low operational risk across its urban and commercial zones."
+      },
+      {
+        "state": "Jigawa",
+        "governor": "Umar Namadi",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Jigawa State Signs Air Route Agreement with Rano Air for Abuja-Dutse Commercial Flights.",
+        "impactVector": "Jigawa State Government signed an Air Route Development Partnership with Rano Air Limited to commence thrice-weekly scheduled commercial flights between Abuja and Dutse.",
+        "policyBreakdown": {
+          "category": "Commercial Aviation Route Development, Subnational Transport Infrastructure, and Investment Mobility Facilitation",
+          "body": "In Jigawa State, the state government signed an Air Route Development Partnership Agreement with Rano Air Limited at Government House, Dutse, presided over by Deputy Governor Engr. Aminu Usman on behalf of Governor Umar Namadi. The agreement establishes thrice-weekly scheduled commercial flights (Mondays, Wednesdays, Fridays) on the Abuja–Dutse route using a 50-passenger aircraft, with the state government facilitating initial route development. Earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum), this partnership enhances air connectivity to catalyze trade, investment, and tourism."
+        },
+        "securityAnalysis": "Jigawa State (8.5 PSI / High Signal / SIS 1.7 / SECURE / Growth-Oriented / Balanced Expansion) features high security stability, low physical risk, and a safe environment for aviation operations."
+      },
+      {
+        "state": "Ondo",
+        "governor": "Lucky Aiyedatiwa",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Aiyedatiwa Directs Tipper and Quarry Unions to Suspend Truck Loading Fee Hike.",
+        "impactVector": "Governor Lucky Aiyedatiwa directed tipper and quarry operator unions to suspend their recently increased truck-loading fees pending further consultations to protect citizens from high building material costs.",
+        "policyBreakdown": {
+          "category": "Building Material Market Price Regulation, Transport Union Dispute Mediation, and Anti-Inflationary Executive Oversight",
+          "body": "In Ondo State, Governor Lucky Orimisan Aiyedatiwa directed unions representing tipper and quarry operators to put on hold their recently increased truck-loading fees pending further consultations. Energy and Mineral Resources Commissioner Engr. Dr. Johnson Alabi conveyed the directive during an executive stakeholder meeting with UTQEN and quarry supplier associations, citing the need to prevent additional financial hardship on citizens due to rising building material costs. Earning a HIGH SIGNAL (8.4 PSI / Advancing Momentum), this executive intervention regulates transport tariffs to maintain economic stability in construction."
+        },
+        "securityAnalysis": "Ondo State (8.4 PSI / High Signal / SIS 1.6 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains low operational risk and a highly stable environment for commercial transport and quarrying activities."
+      },
+      {
+        "state": "Ogun",
+        "governor": "Dapo Abiodun",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Ogun Mobilises TRACE Officers to Clear Severe Gridlock Along Kara Bridge Corridor.",
+        "impactVector": "Governor Dapo Abiodun deployed TRACE personnel alongside security agencies to clear obstructions and enforce traffic order along the Kara Bridge section of the Lagos-Ibadan Expressway.",
+        "policyBreakdown": {
+          "category": "Interstate Transport Corridor Regulation, Emergency Traffic Enforcement, and Highway Gridlock Mitigation",
+          "body": "In Ogun State, Governor Dapo Abiodun mobilized the Ogun State Traffic Compliance and Enforcement Agency (TRACE) to address severe traffic gridlock along the Kara Bridge section of the Lagos–Ibadan Expressway. TRACE personnel deployed alongside security and emergency management teams to clear obstructions, enforce single-lane movement, and curb illegal one-way driving by commercial and articulated vehicles. Earning a HIGH SIGNAL (8.3 PSI / Advancing Momentum), this rapid deployment protects critical interstate economic supply chains."
+        },
+        "securityAnalysis": "Ogun State (8.3 PSI / High Signal / SIS 1.4 / SECURE / High-Alpha / Prime Alpha Opportunity) features exceptional security stability and efficient traffic management capabilities."
+      },
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 8.2,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Lagos Appeals for Patience on Expressway Traffic, Empowers PWDs with Tech, and Mourns Olu Jacobs.",
+        "impactVector": "Lagos deployed LASTMA officers to manage Kara Bridge traffic while appealing for compliance; LASODA and NCC empowered 100 PWDs with digital skills; LSACA trained HIV peer educators; and Governor Sanwo-Olu mourned actor Olu Jacobs.",
+        "policyBreakdown": {
+          "category": "Urban Transport Management, Digital Disability Inclusion, HIV Peer Education Capacity, and Cultural Industry Tributes",
+          "body": "In Lagos State, the government deployed LASTMA officers to clear traffic obstructions on the Lagos–Ibadan Expressway caused by a fallen truck and ongoing Kara Bridge rehabilitation, advising alternative routes via Ikorodu and Abeokuta. Simultaneously, LASODA and NCC concluded a 2-day Digital Citizenship Training empowering 100 Persons with Disabilities with tech skills, LSACA trained HIV peer educators to strengthen community healthcare delivery, and Governor Babajide Sanwo-Olu issued a public tribute honoring late Nollywood icon Olu Jacobs. Earning a HIGH SIGNAL (8.2 PSI / Advancing Momentum), Lagos demonstrates multi-sectoral governance across traffic logistics, disability rights, public health, and cultural leadership."
+        },
+        "securityAnalysis": "Lagos State (8.2 PSI / High Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) remains Nigeria's safest commercial hub, maintaining top-tier physical security and emergency response protocols."
+      },
+      {
+        "state": "Akwa Ibom",
+        "governor": "Umo Eno",
+        "metrics": {
+          "psiScore": 8.1,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Akwa Ibom Commissions Nsit Atai Youth Centre and Enforces Transport QR Code Registration Deadline.",
+        "impactVector": "Akwa Ibom State commissioned a Youth Development Centre in Nsit Atai LGA, while Governor Umo Eno mandated all commercial tricycles and buses to complete QR code registration by Sept 30, 2026.",
+        "policyBreakdown": {
+          "category": "Rural Youth Empowerment Infrastructure, Mandatory Public Transport QR Digital Tracking, and Aviation Terminal Inspections",
+          "body": "In Akwa Ibom State, Humanitarian Affairs Commissioner Lady Emem Ibanga commissioned a modern Youth Development Centre in Nsit Atai LGA. Concurrently, Governor Umo Eno issued an executive directive requiring all commercial tricycle and bus operators to complete registration and obtain identification numbers and QR codes by September 30, 2026, to enhance public transport security, while inspecting ongoing construction at the CNG Bus Terminal and Victor Attah Airport Hospital. Earning a HIGH SIGNAL (8.1 PSI / Advancing Momentum), Akwa Ibom pairs rural youth empowerment with mandatory digital transport tracking."
+        },
+        "securityAnalysis": "Akwa Ibom State (8.1 PSI / High Signal / SIS 1.8 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains top-tier security stability, enabling smooth public transport digital tracking rollouts."
+      },
+      {
+        "state": "Adamawa",
+        "governor": "Ahmadu Umaru Fintiri",
+        "metrics": {
+          "psiScore": 7.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Adamawa Scholarship Trust Fund Opens Web Portal for 2026/2027 Local Scholarship Applications.",
+        "impactVector": "The Adamawa State Scholarship Trust Fund announced the opening of its web portal for 2026/2027 local scholarship applications from September 17 to October 10, 2026, offering offline options for poor network areas.",
+        "policyBreakdown": {
+          "category": "Subnational Tertiary Student Financial Aid, Portal Application Access, and Inclusive Offline Registration Pathways",
+          "body": "In Adamawa State, the Adamawa State Scholarship Trust Fund (ASSTF) announced the official opening of its web portal for 2026/2027 Local Scholarship applications from September 17 to October 10, 2026. Accessible to both existing beneficiaries and newly admitted tertiary students via www.asstfy.ad.gov.ng, the management established offline application pathways for students in areas with poor network coverage to ensure complete geographical inclusion across all 21 LGAs. Earning a HIGH SIGNAL (7.8 PSI / Advancing Momentum), Adamawa State expands financial support for higher education."
+        },
+        "securityAnalysis": "Adamawa State (7.8 PSI / High Signal / SIS 3.2 / MONITORED / Growth-Oriented / Caution) maintains stable public order while executing statewide tertiary education financial aid programs."
+      },
+      {
+        "state": "Taraba",
+        "governor": "Agbu Kefas",
+        "metrics": {
+          "psiScore": 7.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Taraba Restores and Fully Operates Kona and Gindin Waya Primary Healthcare Centres.",
+        "impactVector": "Governor Agbu Kefas' administration successfully restored, equipped, and operationalized the Kona Primary Health Care Centre in Jalingo LGA and Gindin Waya Primary Health Care Centre in Ibi LGA.",
+        "policyBreakdown": {
+          "category": "Rural Primary Healthcare Restoration, Community Medical Equipment Upgrade, and Primary Health System Operationalization",
+          "body": "In Taraba State, Governor Agbu Kefas' administration successfully completed the renovation, equipping, and full operationalization of two primary healthcare facilities: the Kona Primary Health Care Centre in Jalingo Local Government Area and the Gindin Waya Primary Health Care Centre in Ibi Local Government Area. Earning a HIGH SIGNAL (7.5 PSI / Advancing Momentum), this medical infrastructure restoration delivers quality, people-centered primary healthcare services directly to rural grassroots communities."
+        },
+        "securityAnalysis": "Taraba State (7.5 PSI / High Signal / SIS 3.6 / MONITORED / Growth-Oriented / Caution) tracks active security monitoring while delivering community healthcare restorations in Jalingo and Ibi LGAs."
+      }
+     ]
     }
   },
 
@@ -13308,6 +13764,339 @@
     "zone": "North-East",
     "psi": 3.0,
     "sis": 4.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.3,
+    "sis": 3.9,
+    "focus": "49,640 Women Economic Empowerment Drive & Road Reconstruction",
+    "dailyBrief": "Approved economic empowerment for 49,640 women across 361 wards, awarded contract for Bindawa-Dallaje-Doro road reconstruction, and provided Qur'anic memorization scholarships."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.0,
+    "sis": 2.1,
+    "focus": "RMAFC Fiscal Commendation, Fashion Export Hub & 50MW Aba Power Restorations",
+    "dailyBrief": "Received RMAFC fiscal transparency praise and handed over C of O for permanent office; approved partnership with Ethnocentrique to train 20,000 youth in fashion manufacturing; and advanced 50MW grid restoration for Aba."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 1.5,
+    "focus": "Commissioning of 4,000-Capacity West African Garment Factory",
+    "dailyBrief": "Vice President Kashim Shettima commissioned the Kwara Garment Factory in Ilorin, a flagship industrial hub designed to employ at least 4,000 people at full operational capacity."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.3,
+    "focus": "China Railway Capacity Seminar, 2027 Health AOP & EDOFEWMA Erosion Solutions",
+    "dailyBrief": "Concluded a 22-day railway capacity seminar in Beijing, launched harmonisation of the 2027 Health AOP, and partnered with UNILAG on nano-silica soil stabilization across 35 erosion sites."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 8.5,
+    "sis": 1.7,
+    "focus": "Rano Air Partnership Agreement for Scheduled Abuja-Dutse Flights",
+    "dailyBrief": "Signed an Air Route Development Partnership Agreement with Rano Air Limited for thrice-weekly commercial flights connecting Abuja and Dutse to stimulate trade and investment."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 8.4,
+    "sis": 1.6,
+    "focus": "Aiyedatiwa Intervenes to Hold Tipper/Quarry Truck Loading Fee Hike",
+    "dailyBrief": "Directed tipper and quarry operator unions to suspend their recently increased truck-loading fees pending further consultations to protect citizens from high building material costs."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 8.3,
+    "sis": 1.4,
+    "focus": "Kara Bridge / Lagos-Ibadan Expressway TRACE Traffic Interventions",
+    "dailyBrief": "Mobilized TRACE personnel alongside security agencies to clear severe gridlock, manage traffic flow, and curb illegal one-way driving along the Kara Bridge corridor."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.2,
+    "sis": 1.2,
+    "focus": "Kara Bridge LASTMA Deployment, Digital PWD Training & Olu Jacobs Tribute",
+    "dailyBrief": "Deployed LASTMA to clear Kara Bridge traffic gridlock and recommended alternative routes; empowered 100 PWDs with digital skills via LASODA and NCC; trained HIV peer educators; and paid tribute to late actor Olu Jacobs."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 8.1,
+    "sis": 1.8,
+    "focus": "Nsit Atai Youth Centre Commissioning & Public Transport QR Code Deadline",
+    "dailyBrief": "Commissioned a Youth Development Centre in Nsit Atai LGA and mandated all commercial tricycles and buses to obtain identification numbers and QR codes by September 30."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.8,
+    "sis": 3.2,
+    "focus": "State Scholarship Trust Fund Web Portal Opening for 2026/2027",
+    "dailyBrief": "Opened its web portal for 2026/2027 local scholarship applications for tertiary students from Sept 17 to Oct 10, 2026, offering offline registration for poor network areas."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 7.5,
+    "sis": 3.6,
+    "focus": "Restoration & Operation of Kona and Gindin Waya Primary Health Centres",
+    "dailyBrief": "Successfully renovated, equipped, and operationalized the Kona Primary Health Care Centre in Jalingo LGA and Gindin Waya Primary Health Care Centre in Ibi LGA."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 17,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.4,
     "focus": "Baseline Administrative Maintenance",
     "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
   }
