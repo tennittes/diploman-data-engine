@@ -3,6 +3,7 @@ import json
 import glob
 import textwrap
 import subprocess
+import re
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -23,6 +24,15 @@ def get_blogger_service():
         scopes=['https://www.googleapis.com/auth/blogger']
     )
     return build('blogger', 'v3', credentials=creds)
+
+def optimize_blogger_images(html_content):
+    """Automatically forces Blogger image CDN URLs to an optimized width (s720) 
+    and enables WebP compression (-rw) to fix mobile performance bottlenecks."""
+    if not html_content:
+        return html_content
+    pattern = r'(https?://blogger\.googleusercontent\.com/img/[^/]+/)s\d+((-[a-zA-Z0-9\-_]+)*)(/'
+    replacement = r'\1s720-rw\2\4'
+    return re.sub(pattern, replacement, html_content)
 
 def build_news_report_html(item):
     html_parts = []
@@ -87,10 +97,10 @@ def build_news_report_html(item):
         </div>
         """).strip())
 
-    return "\n\n".join(html_parts)
+    raw_html = "\n\n".join(html_parts)
+    return optimize_blogger_images(raw_html)
 
 def get_target_file_and_data():
-    # Finds the latest news-queue.json file inside monthly subfolders
     json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
     if not json_files:
         raise FileNotFoundError("No news-queue.json file found in repository subfolders.")
@@ -126,7 +136,7 @@ def publish_batch_content():
             if item.get("type") == "news_report" or "lead_narrative" in item:
                 content = build_news_report_html(item)
             else:
-                content = item.get("content", "<p>No content provided.</p>")
+                content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
 
             body = {
                 "kind": "blogger#post",
