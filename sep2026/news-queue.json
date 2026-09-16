@@ -1507,7 +1507,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-16-02",
-      "published": false,
+      "published": true,
       "title": "ISOPADEC and CREDICORP Partner to Launch SME and Transport Operator Credit Scheme in Imo State",
       "labels": [
         "News Report",
