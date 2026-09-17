@@ -2314,7 +2314,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-08",
-      "published": false,
+      "published": true,
       "title": "Katsina Approves Economic Empowerment Programme for 49,640 Women",
       "labels": [
         "News Report",
