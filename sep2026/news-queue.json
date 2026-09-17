@@ -2677,7 +2677,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-19",
-      "published": false,
+      "published": true,
       "title": "Jigawa and Rano Air Sign Agreement for Scheduled Abuja-Dutse Flights",
       "labels": [
         "News Report",
