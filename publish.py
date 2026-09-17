@@ -30,7 +30,8 @@ def optimize_blogger_images(html_content):
     and enables WebP compression (-rw) to fix mobile performance bottlenecks."""
     if not html_content:
         return html_content
-    pattern = r'(https?://blogger\.googleusercontent\.com/img/[^/]+/)s\d+((-[a-zA-Z0-9\-_]+)*)(/'
+    # Fixed: added closing parenthesis to group 4 -> (/)
+    pattern = r'(https?://blogger\.googleusercontent\.com/img/[^/]+/)s\d+((-[a-zA-Z0-9\-_]+)*)(/)'
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
 
