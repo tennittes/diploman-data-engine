@@ -2644,7 +2644,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-18",
-      "published": false,
+      "published": true,
       "title": "Kwara Garment Factory Commissioned with 4,000-Job Capacity",
       "labels": [
         "News Report",
