@@ -2380,7 +2380,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-10",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Sets September 30 Deadline for Commercial Transport Registration",
       "labels": [
         "News Report",
