@@ -30,10 +30,23 @@ def optimize_blogger_images(html_content):
     and enables WebP compression (-rw) to fix mobile performance bottlenecks."""
     if not html_content:
         return html_content
-    # Fixed: added closing parenthesis to group 4 -> (/)
     pattern = r'(https?://blogger\.googleusercontent\.com/img/[^/]+/)s\d+((-[a-zA-Z0-9\-_]+)*)(/)'
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
+
+def update_hero_status(image_src, target_url="https://www.diplomantimes.com/p/daily-performance-table.html"):
+    """
+    Automatically updates the hero-status.json file so the homepage 
+    instantly pulls the latest performance table graphic.
+    """
+    hero_data = {
+        "target_url": target_url,
+        "image_src": image_src,
+        "alt": "Top 10 Performing States Live Telemetry"
+    }
+    with open("hero-status.json", "w", encoding="utf-8") as f:
+        json.dump(hero_data, f, indent=2)
+    print("hero-status.json successfully updated with the latest telemetry graphic.")
 
 def build_news_report_html(item):
     html_parts = []
@@ -155,7 +168,14 @@ def publish_batch_content():
             
             posts = service.posts()
             result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-            print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {result.get('url')}")
+            post_url = result.get('url')
+            print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
+
+            # Automatically sync hero status if this is the Pinned-Index or Performance report
+            if "Pinned-Index" in labels or "Performance" in title:
+                if "featured_image" in item and "src" in item["featured_image"]:
+                    table_img_src = item["featured_image"]["src"]
+                    update_hero_status(table_img_src, target_url=post_url)
 
             item["published"] = True
             published_count += 1
@@ -172,9 +192,12 @@ def publish_batch_content():
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "add", file_path], check=True)
-        subprocess.run(["git", "commit", "-m", "auto: publish single post (30-min cadence)"], check=True)
+        # Also stage hero-status.json so GitHub actions commits and pushes it automatically
+        if os.path.exists("hero-status.json"):
+            subprocess.run(["git", "add", "hero-status.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "auto: publish single post and update hero telemetry status"], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("Pushed news queue state update to repository.")
+        print("Pushed news queue state and hero telemetry updates to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
