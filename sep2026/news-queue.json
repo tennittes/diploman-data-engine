@@ -2413,7 +2413,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-11",
-      "published": false,
+      "published": true,
       "title": "RMAFC Chairman Visits Abia, Receives Land for Commission Office",
       "labels": [
         "News Report",
