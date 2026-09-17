@@ -2611,7 +2611,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-17",
-      "published": false,
+      "published": true,
       "title": "Lagos Deploys More Traffic Officers as Kara Bridge Congestion Intensifies",
       "labels": [
         "News Report",
