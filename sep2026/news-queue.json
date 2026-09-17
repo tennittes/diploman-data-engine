@@ -2479,7 +2479,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-13",
-      "published": false,
+      "published": true,
       "title": "Abia Advances Plan to Restore 50MW Grid Supply to Aba Power Network",
       "labels": [
         "News Report",
