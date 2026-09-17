@@ -2578,7 +2578,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-16",
-      "published": false,
+      "published": true,
       "title": "LSACA Strengthens Peer Educator Capacity for Community HIV Response",
       "labels": [
         "News Report",
