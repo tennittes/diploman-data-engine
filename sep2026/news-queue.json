@@ -2545,7 +2545,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-15",
-      "published": false,
+      "published": true,
       "title": "Lagos, NCC Complete Digital Citizenship Training for 100 Persons with Disabilities",
       "labels": [
         "News Report",
