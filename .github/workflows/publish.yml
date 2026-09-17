@@ -2,7 +2,7 @@ name: Automated Blogger Publisher
 
 on:
   schedule:
-    - cron: '*/30 4-16 * * 1-5'
+    - cron: '*/30 6-18 * * 1-5'
   workflow_dispatch: 
 
 permissions:
