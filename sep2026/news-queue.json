@@ -2116,7 +2116,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-17-02",
-      "published": false,
+      "published": true,
       "title": "Taraba Restores Kona and Gindin Waya Primary Healthcare Centres",
       "labels": [
         "News Report",
