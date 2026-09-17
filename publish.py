@@ -37,16 +37,17 @@ def optimize_blogger_images(html_content):
 def update_hero_status(image_src, target_url="https://www.diplomantimes.com/p/daily-performance-table.html"):
     """
     Automatically updates the hero-status.json file so the homepage 
-    instantly pulls the latest performance table graphic.
+    instantly pulls the latest performance table graphic and editorial description.
     """
     hero_data = {
         "target_url": target_url,
         "image_src": image_src,
-        "alt": "Top 10 Performing States Live Telemetry"
+        "alt": "Top 10 Performing States Live Telemetry",
+        "description": "Examine real-time subnational rankings, daily administrative metrics, and comparative governance tracking via the live Daily Performance Table."
     }
     with open("hero-status.json", "w", encoding="utf-8") as f:
         json.dump(hero_data, f, indent=2)
-    print("hero-status.json successfully updated with the latest telemetry graphic.")
+    print("hero-status.json successfully updated with the latest telemetry graphic and description.")
 
 def build_news_report_html(item):
     html_parts = []
