@@ -3238,7 +3238,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-17",
-      "published": false,
+      "published": true,
       "title": "Gombe Deputy Governor Calls for Globally Recognised Digital Identity Framework",
       "labels": [
         "News Report",
