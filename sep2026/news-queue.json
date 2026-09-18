@@ -3106,7 +3106,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-13",
-      "published": false,
+      "published": true,
       "title": "Niger Governor Uses FirstBank Agric Expo to Present Investment Opportunities",
       "labels": [
         "News Report",
