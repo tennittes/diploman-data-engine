@@ -3403,7 +3403,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-22",
-      "published": false,
+      "published": true,
       "title": "Katsina Commissions Charanchi Hospital as Emergency Ambulance Network Expands Across 361 Wards",
       "labels": [
         "News Report",
