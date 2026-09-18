@@ -3139,7 +3139,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-14",
-      "published": false,
+      "published": true,
       "title": "Osun Approves Joint Security Task Force Following Recent Security Alerts",
       "labels": [
         "News Report",
