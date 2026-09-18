@@ -2941,7 +2941,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-08",
-      "published": false,
+      "published": true,
       "title": "Enugu Transport Operators Back Terminal Policy After Ogbete Disruption",
       "labels": [
         "News Report",
