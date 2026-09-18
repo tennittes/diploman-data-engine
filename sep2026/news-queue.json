@@ -3271,7 +3271,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-18",
-      "published": false,
+      "published": true,
       "title": "Gombe Electricity Commission Engages Stakeholders on State Power Regulation",
       "labels": [
         "News Report",
