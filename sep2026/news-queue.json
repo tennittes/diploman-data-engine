@@ -2809,7 +2809,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-04",
-      "published": false,
+      "published": true,
       "title": "Cross River Begins Statewide Disability Survey to Support Inclusive Planning",
       "labels": [
         "News Report",
