@@ -3172,7 +3172,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-15",
-      "published": false,
+      "published": true,
       "title": "Edo Opens UAE Investment Talks on Agriculture, Livestock and Agro-Processing",
       "labels": [
         "News Report",
