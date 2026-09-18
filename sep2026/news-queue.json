@@ -3667,7 +3667,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-30",
-      "published": false,
+      "published": true,
       "title": "Abia Reviews Digital Transformation Framework as Government Targets Technology Investment",
       "labels": [
         "News Report",
