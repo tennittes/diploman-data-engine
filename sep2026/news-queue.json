@@ -3304,7 +3304,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-19",
-      "published": false,
+      "published": true,
       "title": "Delta's Udu Harbour Market Completed as Road and Drainage Works Continue",
       "labels": [
         "News Report",
