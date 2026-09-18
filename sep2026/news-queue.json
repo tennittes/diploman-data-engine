@@ -2842,7 +2842,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-05",
-      "published": false,
+      "published": true,
       "title": "Cross River Sponsors 12 Local Government Auditors to ANAN Conference",
       "labels": [
         "News Report",
