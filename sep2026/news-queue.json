@@ -2710,7 +2710,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-01",
-      "published": false,
+      "published": true,
       "title": "Adamawa Deputy Governor Calls for Curriculum Shift to Meet Technological Demands",
       "labels": [
         "News Report",
@@ -2736,7 +2736,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2769,7 +2769,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2802,7 +2802,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2835,7 +2835,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2868,7 +2868,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2901,7 +2901,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2909,7 +2909,7 @@
       "type": "news_report",
       "id": "news-2026-09-18-07",
       "published": false,
-      "title": "Enugu Governor Inspects Ongoing 35km Owo–Ebia Ikem Road",
+      "title": "Enugu Governor Inspects Ongoing 35km Owo\u2013Ebia Ikem Road",
       "labels": [
         "News Report",
         "ENUGU",
@@ -2922,7 +2922,7 @@
         "aria_label": "Enugu Governor Peter Mbah Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Enugu Governor Peter Mbah inspected the ongoing 35-kilometre Owo–Ebia Ikem Road during an unannounced visit to Ebia Ikem in Isi-Uzo Local Government Area.",
+      "lead_narrative": "Enugu Governor Peter Mbah inspected the ongoing 35-kilometre Owo\u2013Ebia Ikem Road during an unannounced visit to Ebia Ikem in Isi-Uzo Local Government Area.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Mbah visited the project site to inspect construction progress and engage residents along the route. The supplied account presents the inspection as a direct field assessment of the ongoing road project.",
@@ -2934,7 +2934,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2967,7 +2967,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2975,7 +2975,7 @@
       "type": "news_report",
       "id": "news-2026-09-18-09",
       "published": false,
-      "title": "Enugu Receives 112 Returnees from South Africa with ₦77m Support Package",
+      "title": "Enugu Receives 112 Returnees from South Africa with \u20a677m Support Package",
       "labels": [
         "News Report",
         "ENUGU",
@@ -2988,11 +2988,11 @@
         "aria_label": "Enugu Governor Peter Mbah Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Enugu State has received 112 indigenes returning from South Africa following renewed xenophobic attacks, with the state announcing ₦77 million in seed support for 77 affected families.",
+      "lead_narrative": "Enugu State has received 112 indigenes returning from South Africa following renewed xenophobic attacks, with the state announcing \u20a677 million in seed support for 77 affected families.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The returnees were received on behalf of Governor Peter Mbah by Secretary to the State Government Professor Chidiebere Onyia, who assured them of the state's support as they rebuild their lives in Enugu.",
-        "The intervention includes ₦77 million in seed support for 77 affected families. The source describes the funding as intended to help families move beyond immediate return and begin rebuilding their livelihoods.",
+        "The intervention includes \u20a677 million in seed support for 77 affected families. The source describes the funding as intended to help families move beyond immediate return and begin rebuilding their livelihoods.",
         "The governor encouraged the returnees to apply knowledge, networks, discipline and entrepreneurial experience acquired abroad to opportunities within Enugu State.",
         "The administration identified technology, agriculture, tourism, enterprise, industry, education and healthcare among areas where opportunities are emerging, according to the governor's message.",
         "The immediate support therefore combines reception with a reintegration component. The source establishes the number of returnees and families covered by the announced support but does not provide details of individual grants or subsequent livelihood outcomes."
@@ -3000,7 +3000,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3033,7 +3033,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3066,7 +3066,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3074,7 +3074,7 @@
       "type": "news_report",
       "id": "news-2026-09-18-12",
       "published": false,
-      "title": "Ondo Swears In New Appointees and Inaugurates Boards as Budget Framework Rises to ₦769.384bn",
+      "title": "Ondo Swears In New Appointees and Inaugurates Boards as Budget Framework Rises to \u20a6769.384bn",
       "labels": [
         "News Report",
         "ONDO",
@@ -3093,13 +3093,13 @@
         "The appointments and inaugurations took place at the International Centre for Culture and Events in Akure. Among those sworn in were the Commissioner for Special Duties, six special advisers and three Tutors-General representing the state's senatorial districts.",
         "New chairmen and members were also inaugurated for institutions including the Civil Service Commission, Sports Council, State Universal Basic Education Board, Local Government Service Commission, Muslim Welfare Board, Christian Welfare Board, Competition and Consumer Protection Agency and Cocoa Revolution and Management Board.",
         "Aiyedatiwa told the appointees to focus on measurable performance, transparency, due process and public service. He warned against rivalry, bureaucratic obstruction, mediocrity and misuse of public trust.",
-        "The governor also said a mid-year assessment had raised the 2026 budgetary framework from ₦524.411 billion to ₦769.384 billion, with additional resources directed towards roads, water, healthcare and other infrastructure. He said at least five kilometres of roads were planned for each of the 18 local government areas.",
-        "The announcement of additional provision for the Adegbola–St Mathias Flyover was also made. The source establishes these as budgetary and policy provisions; it does not establish completion of the proposed projects."
+        "The governor also said a mid-year assessment had raised the 2026 budgetary framework from \u20a6524.411 billion to \u20a6769.384 billion, with additional resources directed towards roads, water, healthcare and other infrastructure. He said at least five kilometres of roads were planned for each of the 18 local government areas.",
+        "The announcement of additional provision for the Adegbola\u2013St Mathias Flyover was also made. The source establishes these as budgetary and policy provisions; it does not establish completion of the proposed projects."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3132,7 +3132,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3165,7 +3165,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3198,7 +3198,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3231,7 +3231,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3264,7 +3264,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3297,7 +3297,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3330,7 +3330,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3363,7 +3363,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3396,7 +3396,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3429,7 +3429,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3437,7 +3437,7 @@
       "type": "news_report",
       "id": "news-2026-09-18-23",
       "published": false,
-      "title": "Katsina Gives ₦1 Million Take-Off Support to 361 DRATESS-Songhai Graduates",
+      "title": "Katsina Gives \u20a61 Million Take-Off Support to 361 DRATESS-Songhai Graduates",
       "labels": [
         "News Report",
         "KATSINA",
@@ -3450,19 +3450,19 @@
         "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Katsina State has provided ₦1 million take-off support to each of 361 graduates of the second batch of its DRATESS-Songhai agricultural training and empowerment scheme.",
+      "lead_narrative": "Katsina State has provided \u20a61 million take-off support to each of 361 graduates of the second batch of its DRATESS-Songhai agricultural training and empowerment scheme.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "Governor Dikko Umaru Radda presented ₦1 million take-off support to 361 graduates of the second batch of the Dikko Radda Agripreneurship Training and Empowerment Scheme-Songhai during their graduation ceremony at the Government House in Katsina.",
+        "Governor Dikko Umaru Radda presented \u20a61 million take-off support to 361 graduates of the second batch of the Dikko Radda Agripreneurship Training and Empowerment Scheme-Songhai during their graduation ceremony at the Government House in Katsina.",
         "The intervention is linked directly to the completion of the training programme, with the financial support described as take-off assistance for the graduates. The source does not provide further details on individual business plans, the precise disbursement mechanism or how the beneficiaries will deploy the funds.",
         "The programme is presented as an agricultural entrepreneurship initiative, placing the graduates within a broader state effort to develop agricultural skills and enterprise capacity. The number of beneficiaries also corresponds to the 361 figure used in the source account, although the material supplied does not establish whether that number represents all graduates from the wider programme.",
         "The graduation ceremony marks the transition from training to the next stage of the beneficiaries' participation in agricultural enterprise. The cash support is therefore attached to that transition rather than described as a general-purpose payment.",
-        "The available source establishes the graduation of the second batch and the ₦1 million support announced for each of the 361 graduates. Further information would be required to assess subsequent business activity or measurable outcomes from the intervention."
+        "The available source establishes the graduation of the second batch and the \u20a61 million support announced for each of the 361 graduates. Further information would be required to assess subsequent business activity or measurable outcomes from the intervention."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3495,7 +3495,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3528,7 +3528,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3561,7 +3561,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3594,7 +3594,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3627,7 +3627,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3660,7 +3660,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3693,7 +3693,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3726,7 +3726,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3759,7 +3759,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3792,7 +3792,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3825,7 +3825,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3858,7 +3858,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3891,7 +3891,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3924,7 +3924,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3957,7 +3957,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
