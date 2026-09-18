@@ -3205,7 +3205,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-16",
-      "published": false,
+      "published": true,
       "title": "Edo Continues Distribution of Fertilizer and Farm Inputs to Profiled Farmers",
       "labels": [
         "News Report",
