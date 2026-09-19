@@ -50,10 +50,11 @@ def update_hero_status(image_src, target_url="https://www.diplomantimes.com/p/da
         json.dump(hero_data, f, indent=2)
     print("hero-status.json successfully updated with the optimized interactive telemetry grid markup.")
 
-def generate_latest_day_ticker():
+def generate_latest_day_ticker_for_template():
     """
-    Parses master-data.json, finds the highest dayNumber available in the dataset,
-    extracts the headlines/briefs for that latest day, and exports them to ticker.json.
+    Parses master-data.json, finds the highest dayNumber available,
+    extracts headlines for that latest day, and updates any local template file
+    containing the .dt-speedbar-track container.
     """
     items = []
     master_files = sorted(glob.glob("**/master-data.json", recursive=True))
@@ -75,7 +76,6 @@ def generate_latest_day_ticker():
                     if isinstance(sub_val, list):
                         all_records.extend(sub_val)
             
-        # 1. Find the maximum day number available in the dataset
         max_day = 0
         for record in all_records:
             day_num = record.get('dayNumber') or record.get('day')
@@ -87,7 +87,6 @@ def generate_latest_day_ticker():
                 except ValueError:
                     pass
         
-        # 2. Extract headlines strictly for that highest (latest) day number
         for record in all_records:
             day_num = record.get('dayNumber') or record.get('day')
             if day_num is not None and int(day_num) == max_day:
@@ -105,16 +104,34 @@ def generate_latest_day_ticker():
                 "Diploman Times Subnational Governance &amp; Policy Intelligence Archive.",
                 "Tracking Policy Signals and Public Order Strain Across 37 Jurisdictions."
             ]
-            
-        ticker_payload = {"items": items}
+
+        # Generate HTML spans for the ticker track
+        new_spans_html = "\n        ".join([f"<span>{item}</span>" for item in items[:8]])
+
+        # Search for any template or layout HTML file in the repo containing the speedbar track
+        template_files = sorted(glob.glob("**/*.html", recursive=True)) + sorted(glob.glob("**/*.xml", recursive=True))
+        updated_any = False
         
-        with open("ticker.json", "w", encoding="utf-8") as out_f:
-            json.dump(ticker_payload, out_f, indent=2)
+        for tf in template_files:
+            with open(tf, "r", encoding="utf-8") as tf_file:
+                content = tf_file.read()
             
-        print(f"Successfully generated latest day (Day {max_day}) ticker JSON with {len(items)} headlines.")
+            if "dt-speedbar-track" in content:
+                # Replace inner content of dt-speedbar-track safely using regex
+                pattern = r'(<div[^>]*class=["\'][^"\']*dt-speedbar-track[^"\']*["\'][^>]*>)(.*?)(</div>)'
+                new_content, count = re.subn(pattern, rf'\1\n        {new_spans_html}\n      \3', content, flags=re.DOTALL)
+                
+                if count > 0:
+                    with open(tf, "w", encoding="utf-8") as tf_file:
+                        tf_file.write(new_content)
+                    print(f"Successfully updated template ticker content in: {tf}")
+                    updated_any = True
+
+        if not updated_any:
+            print("Notice: No local template/HTML file with class 'dt-speedbar-track' was found in the repository to update statically.")
         
     except Exception as e:
-        print(f"Error generating latest day ticker JSON: {e}")
+        print(f"Error updating template ticker: {e}")
 
 def build_news_report_html(item):
     html_parts = []
@@ -200,8 +217,8 @@ def get_target_file_and_data():
     return target_file, data
 
 def publish_batch_content():
-    # Automatically generate/refresh ticker.json from latest master data before publishing batch
-    generate_latest_day_ticker()
+    # Automatically refresh template ticker markup from latest master data before publishing batch
+    generate_latest_day_ticker_for_template()
 
     file_path, data = get_target_file_and_data()
     
@@ -252,15 +269,12 @@ def publish_batch_content():
 
     if published_count == 0:
         print("No unpublished items found in news queue. Skipping execution.")
-        # Even if no posts are published, ensure ticker.json gets pushed if master-data changed
         try:
             subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
             subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-            if os.path.exists("ticker.json"):
-                subprocess.run(["git", "add", "ticker.json"], check=True)
             if os.path.exists("hero-status.json"):
                 subprocess.run(["git", "add", "hero-status.json"], check=True)
-            subprocess.run(["git", "commit", "-m", "auto: refresh ticker.json state"], check=True)
+            subprocess.run(["git", "commit", "-m", "auto: refresh ticker state"], check=True)
             subprocess.run(["git", "push"], check=True)
         except Exception:
             pass
@@ -274,13 +288,11 @@ def publish_batch_content():
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "add", file_path], check=True)
-        if os.path.exists("ticker.json"):
-            subprocess.run(["git", "add", "ticker.json"], check=True)
         if os.path.exists("hero-status.json"):
             subprocess.run(["git", "add", "hero-status.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "auto: publish single post, update hero status, and refresh ticker"], check=True)
+        subprocess.run(["git", "commit", "-m", "auto: publish single post, update hero status, and refresh ticker markup"], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("Pushed news queue state, hero telemetry updates, and ticker.json to repository.")
+        print("Pushed news queue state, hero telemetry updates, and template changes to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
