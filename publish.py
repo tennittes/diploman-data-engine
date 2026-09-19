@@ -50,11 +50,10 @@ def update_hero_status(image_src, target_url="https://www.diplomantimes.com/p/da
         json.dump(hero_data, f, indent=2)
     print("hero-status.json successfully updated with the optimized interactive telemetry grid markup.")
 
-def generate_latest_day_ticker_for_template():
+def generate_latest_day_ticker():
     """
-    Parses master-data.json, finds the highest dayNumber available,
-    extracts headlines for that latest day, and updates any local template file
-    containing the .dt-speedbar-track container.
+    Parses master-data.json, finds the highest dayNumber available in the dataset,
+    extracts the headlines/briefs for that latest day, and exports them to ticker.json.
     """
     items = []
     master_files = sorted(glob.glob("**/master-data.json", recursive=True))
@@ -76,6 +75,7 @@ def generate_latest_day_ticker_for_template():
                     if isinstance(sub_val, list):
                         all_records.extend(sub_val)
             
+        # 1. Find the maximum day number available in the dataset (B1 / peak dayNumber)
         max_day = 0
         for record in all_records:
             day_num = record.get('dayNumber') or record.get('day')
@@ -87,6 +87,7 @@ def generate_latest_day_ticker_for_template():
                 except ValueError:
                     pass
         
+        # 2. Extract headlines strictly for that highest (latest) day number
         for record in all_records:
             day_num = record.get('dayNumber') or record.get('day')
             if day_num is not None and int(day_num) == max_day:
@@ -104,34 +105,16 @@ def generate_latest_day_ticker_for_template():
                 "Diploman Times Subnational Governance &amp; Policy Intelligence Archive.",
                 "Tracking Policy Signals and Public Order Strain Across 37 Jurisdictions."
             ]
-
-        # Generate HTML spans for the ticker track
-        new_spans_html = "\n        ".join([f"<span>{item}</span>" for item in items[:8]])
-
-        # Search for any template or layout HTML file in the repo containing the speedbar track
-        template_files = sorted(glob.glob("**/*.html", recursive=True)) + sorted(glob.glob("**/*.xml", recursive=True))
-        updated_any = False
-        
-        for tf in template_files:
-            with open(tf, "r", encoding="utf-8") as tf_file:
-                content = tf_file.read()
             
-            if "dt-speedbar-track" in content:
-                # Replace inner content of dt-speedbar-track safely using regex
-                pattern = r'(<div[^>]*class=["\'][^"\']*dt-speedbar-track[^"\']*["\'][^>]*>)(.*?)(</div>)'
-                new_content, count = re.subn(pattern, rf'\1\n        {new_spans_html}\n      \3', content, flags=re.DOTALL)
-                
-                if count > 0:
-                    with open(tf, "w", encoding="utf-8") as tf_file:
-                        tf_file.write(new_content)
-                    print(f"Successfully updated template ticker content in: {tf}")
-                    updated_any = True
-
-        if not updated_any:
-            print("Notice: No local template/HTML file with class 'dt-speedbar-track' was found in the repository to update statically.")
+        ticker_payload = {"items": items}
+        
+        with open("ticker.json", "w", encoding="utf-8") as out_f:
+            json.dump(ticker_payload, out_f, indent=2)
+            
+        print(f"Successfully generated latest day (Day {max_day}) ticker JSON with {len(items)} headlines.")
         
     except Exception as e:
-        print(f"Error updating template ticker: {e}")
+        print(f"Error generating latest day ticker JSON: {e}")
 
 def build_news_report_html(item):
     html_parts = []
@@ -217,82 +200,82 @@ def get_target_file_and_data():
     return target_file, data
 
 def publish_batch_content():
-    # Automatically refresh template ticker markup from latest master data before publishing batch
-    generate_latest_day_ticker_for_template()
+    # 1. Always generate/refresh ticker.json from the latest master data (peak dayNumber)
+    generate_latest_day_ticker()
 
-    file_path, data = get_target_file_and_data()
-    
-    if isinstance(data, dict) and "newsReports" in data:
-        items = data["newsReports"]
-    elif isinstance(data, list):
-        items = data
-    else:
-        print("Unrecognized data format in news queue.")
-        return
-
+    # 2. Attempt batch posting to Blogger (wrapped in try/except so auth errors don't block telemetry/ticker pushes)
     published_count = 0
-    service = get_blogger_service()
+    file_path = None
+    data = None
 
-    for item in items:
-        if published_count >= BATCH_LIMIT:
-            break
+    try:
+        file_path, data = get_target_file_and_data()
+        
+        if isinstance(data, dict) and "newsReports" in data:
+            items = data["newsReports"]
+        elif isinstance(data, list):
+            items = data
+        else:
+            items = []
 
-        if not item.get("published", False):
-            title = item.get("title", "Diploman Times Report")
-            labels = item.get("labels", ["Governance Intelligence"])
-            
-            if item.get("type") == "news_report" or "lead_narrative" in item:
-                content = build_news_report_html(item)
-            else:
-                content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
+        service = get_blogger_service()
 
-            body = {
-                "kind": "blogger#post",
-                "title": title,
-                "content": content,
-                "labels": labels
-            }
-            
-            posts = service.posts()
-            result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-            post_url = result.get('url')
-            print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
+        for item in items:
+            if published_count >= BATCH_LIMIT:
+                break
 
-            # Automatically sync hero status if this is the Pinned-Index or Performance report
-            if "Pinned-Index" in labels or "Performance" in title:
-                if "featured_image" in item and "src" in item["featured_image"]:
-                    table_img_src = item["featured_image"]["src"]
-                    update_hero_status(table_img_src, target_url=post_url)
+            if not item.get("published", False):
+                title = item.get("title", "Diploman Times Report")
+                labels = item.get("labels", ["Governance Intelligence"])
+                
+                if item.get("type") == "news_report" or "lead_narrative" in item:
+                    content = build_news_report_html(item)
+                else:
+                    content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
 
-            item["published"] = True
-            published_count += 1
+                body = {
+                    "kind": "blogger#post",
+                    "title": title,
+                    "content": content,
+                    "labels": labels
+                }
+                
+                posts = service.posts()
+                result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+                post_url = result.get('url')
+                print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
 
-    if published_count == 0:
-        print("No unpublished items found in news queue. Skipping execution.")
-        try:
-            subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-            subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-            if os.path.exists("hero-status.json"):
-                subprocess.run(["git", "add", "hero-status.json"], check=True)
-            subprocess.run(["git", "commit", "-m", "auto: refresh ticker state"], check=True)
-            subprocess.run(["git", "push"], check=True)
-        except Exception:
-            pass
-        return
+                if "Pinned-Index" in labels or "Performance" in title:
+                    if "featured_image" in item and "src" in item["featured_image"]:
+                        table_img_src = item["featured_image"]["src"]
+                        update_hero_status(table_img_src, target_url=post_url)
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
+                item["published"] = True
+                published_count += 1
 
+        if published_count > 0 and file_path and data:
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+            print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
+
+    except Exception as auth_err:
+        print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
+
+    # 3. Commit and push ticker.json, hero-status.json, and queue changes cleanly to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        subprocess.run(["git", "add", file_path], check=True)
+        
+        if os.path.exists("ticker.json"):
+            subprocess.run(["git", "add", "ticker.json"], check=True)
         if os.path.exists("hero-status.json"):
             subprocess.run(["git", "add", "hero-status.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "auto: publish single post, update hero status, and refresh ticker markup"], check=True)
+        if file_path and os.path.exists(file_path):
+            subprocess.run(["git", "add", file_path], check=True)
+            
+        subprocess.run(["git", "commit", "-m", "auto: refresh ticker.json, hero status, and publishing state [skip ci]"], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("Pushed news queue state, hero telemetry updates, and template changes to repository.")
+        print("Successfully pushed telemetry states and ticker.json updates to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
