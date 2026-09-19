@@ -1,0 +1,24 @@
+name: Sync Live Ticker
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # Runs every 2 hours (adjust as desired)
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  sync-ticker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Execute Ticker Generator
+        run: python update_ticker.py
