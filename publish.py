@@ -34,88 +34,6 @@ def optimize_blogger_images(html_content):
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
 
-def update_hero_status(image_src, target_url="https://www.diplomantimes.com/p/daily-performance-table.html"):
-    """
-    Automatically updates the hero-status.json file with the optimized interactive telemetry grid.
-    """
-    grid_html = """<style>@keyframes dtPulse { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 5px rgba(16, 185, 129, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); } }</style><div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;"><div style="margin-bottom: 10px; border-bottom: 2px solid #193731; padding-bottom: 8px;"><h2 style="font-size: 14px; font-weight: 800; color: #193731; margin: 0 0 2px 0; letter-spacing: 0.02em; text-transform: uppercase; white-space: nowrap;">Diploman Times Telemetry Grid</h2><p style="font-size: 9px; font-weight: 700; color: #475569; margin: 0; text-transform: uppercase; letter-spacing: 0.06em;">Subnational Governance &bull; Intelligence Grid</p></div><div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin-bottom: 6px;"><div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between;"><div><div style="display: flex; align-items: center; gap: 6px; margin-bottom: 3px;"><span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%; display: inline-block; animation: dtPulse 2s infinite;"></span><span style="font-size: 7.5px; font-weight: 800; font-family: monospace; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.06em;">LIVE</span></div><h3 style="font-size: 10.5px; font-weight: 700; color: #1e293b; margin: 0 0 8px 0; line-height: 1.2;">State Performance Tables &amp; Telemetry</h3></div><div style="display: flex; gap: 4px;"><a href="https://www.diplomantimes.com/p/daily-performance-table.html" target="_top" style="flex: 1; text-align: center; background-color: #193731; color: #ffffff; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; white-space: nowrap;">DAILY &rarr;</a><a href="https://www.diplomantimes.com/p/state-performance-table.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">MONTHLY &rarr;</a></div></div><div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between;"><div><div style="display: flex; align-items: center; gap: 6px; margin-bottom: 3px;"><span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%; display: inline-block; animation: dtPulse 2s infinite;"></span><span style="font-size: 7.5px; font-weight: 800; font-family: monospace; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.06em;">LIVE</span></div><h3 style="font-size: 10.5px; font-weight: 700; color: #1e293b; margin: 0 0 8px 0; line-height: 1.2;">Consolidated Policy Analysis &amp; Telemetry</h3></div><div style="display: flex; gap: 4px;"><a href="https://www.diplomantimes.com/p/consolidated-daily-analysis.html" target="_top" style="flex: 1; text-align: center; background-color: #193731; color: #ffffff; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; white-space: nowrap;">DAILY &rarr;</a><a href="https://www.diplomantimes.com/p/consolidated-monthly-analysis.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">MONTHLY &rarr;</a></div></div><div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between;"><div><div style="display: flex; align-items: center; gap: 6px; margin-bottom: 3px;"><span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%; display: inline-block; animation: dtPulse 2s infinite;"></span><span style="font-size: 7.5px; font-weight: 800; font-family: monospace; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.06em;">LIVE</span></div><h3 style="font-size: 10.5px; font-weight: 700; color: #1e293b; margin: 0 0 8px 0; line-height: 1.2;">Consolidated Security Metrics &amp; Telemetry</h3></div><div style="display: flex; gap: 4px;"><a href="https://www.diplomantimes.com/p/consolidated-daily-security-metric.html" target="_top" style="flex: 1; text-align: center; background-color: #193731; color: #ffffff; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; white-space: nowrap;">DAILY &rarr;</a><a href="https://www.diplomantimes.com/p/monthly-security-analysis.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">MONTHLY &rarr;</a></div></div><div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between;"><div><div style="display: flex; align-items: center; gap: 6px; margin-bottom: 3px;"><span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%; display: inline-block; animation: dtPulse 2s infinite;"></span><span style="font-size: 7.5px; font-weight: 800; font-family: monospace; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.06em;">LIVE</span></div><h3 style="font-size: 10.5px; font-weight: 700; color: #1e293b; margin: 0 0 8px 0; line-height: 1.2;">Macro Intelligence Terminal &amp; Telemetry</h3></div><div style="display: flex; gap: 4px;"><a href="https://www.diplomantimes.com/p/daily-macro-terminal.html" target="_top" style="flex: 1; text-align: center; background-color: #193731; color: #ffffff; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; white-space: nowrap;">DAILY &rarr;</a><a href="https://www.diplomantimes.com/p/macro-intelligence-terminal.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">MONTHLY &rarr;</a></div></div></div><div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between;"><div><div style="display: flex; align-items: center; gap: 6px; margin-bottom: 3px;"><span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%; display: inline-block; animation: dtPulse 2s infinite;"></span><span style="font-size: 7.5px; font-weight: 800; font-family: monospace; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.06em;">LIVE</span></div><h3 style="font-size: 10.5px; font-weight: 700; color: #1e293b; margin: 0 0 8px 0; line-height: 1.2;">Consolidated Policy Trackers &amp; Telemetry</h3></div><div style="display: flex; gap: 4px;"><a href="https://www.diplomantimes.com/p/state-daily-policy-tracker.html" target="_top" style="flex: 1; text-align: center; background-color: #193731; color: #ffffff; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; white-space: nowrap;">STATES &rarr;</a><a href="https://www.diplomantimes.com/p/consolidated-daily-policy-trackers.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">DAILY &rarr;</a><a href="https://www.diplomantimes.com/p/consolidated-monthly-policy-trackers.html" target="_top" style="flex: 1; text-align: center; background-color: #ffffff; color: #193731; font-size: 8.5px; font-weight: 700; text-decoration: none; padding: 6px 2px; border-radius: 4px; border: 1px solid #193731; white-space: nowrap;">MONTHLY &rarr;</a></div></div></div>"""
-    
-    hero_data = {
-        "target_url": target_url,
-        "image_src": "",
-        "alt": "Diploman Times Telemetry Grid",
-        "description": grid_html
-    }
-    with open("hero-status.json", "w", encoding="utf-8") as f:
-        json.dump(hero_data, f, indent=2)
-    print("hero-status.json successfully updated with the optimized interactive telemetry grid markup.")
-
-def generate_latest_day_ticker():
-    """
-    Parses master-data.json, finds the highest dayNumber available in the dataset,
-    extracts the headlines/briefs for that latest day, and exports them to ticker.json.
-    """
-    items = []
-    master_files = sorted(glob.glob("**/master-data.json", recursive=True))
-    if not master_files:
-        print("No master-data.json found for ticker generation.")
-        return
-
-    target_master = master_files[-1]
-    try:
-        with open(target_master, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-            
-        all_records = []
-        for key, val in payload.items():
-            if isinstance(val, list):
-                all_records.extend(val)
-            elif isinstance(val, dict):
-                for sub_val in val.values():
-                    if isinstance(sub_val, list):
-                        all_records.extend(sub_val)
-            
-        # 1. Find the maximum day number available in the dataset (B1 / peak dayNumber)
-        max_day = 0
-        for record in all_records:
-            day_num = record.get('dayNumber') or record.get('day')
-            if day_num is not None:
-                try:
-                    d_int = int(day_num)
-                    if d_int > max_day:
-                        max_day = d_int
-                except ValueError:
-                    pass
-        
-        # 2. Extract headlines strictly for that highest (latest) day number
-        for record in all_records:
-            day_num = record.get('dayNumber') or record.get('day')
-            if day_num is not None and int(day_num) == max_day:
-                brief = record.get('dailyBrief') or record.get('summary') or record.get('headline')
-                state = record.get('stateName') or record.get('stateKey') or record.get('jurisdiction')
-                psi = record.get('psi') or record.get('psiScore')
-                
-                if brief and len(brief) > 10 and not "baseline administrative" in brief.lower():
-                    clean_text = f"{state.upper()} (PSI {float(psi):.1f}): {brief}" if state and psi is not None else brief
-                    if clean_text not in items:
-                        items.append(clean_text)
-                        
-        if not items:
-            items = [
-                "Diploman Times Subnational Governance &amp; Policy Intelligence Archive.",
-                "Tracking Policy Signals and Public Order Strain Across 37 Jurisdictions."
-            ]
-            
-        ticker_payload = {"items": items}
-        
-        with open("ticker.json", "w", encoding="utf-8") as out_f:
-            json.dump(ticker_payload, out_f, indent=2)
-            
-        print(f"Successfully generated latest day (Day {max_day}) ticker JSON with {len(items)} headlines.")
-        
-    except Exception as e:
-        print(f"Error generating latest day ticker JSON: {e}")
-
 def build_news_report_html(item):
     html_parts = []
     
@@ -200,10 +118,6 @@ def get_target_file_and_data():
     return target_file, data
 
 def publish_batch_content():
-    # 1. Always generate/refresh ticker.json from the latest master data (peak dayNumber)
-    generate_latest_day_ticker()
-
-    # 2. Attempt batch posting to Blogger (wrapped in try/except so auth errors don't block telemetry/ticker pushes)
     published_count = 0
     file_path = None
     data = None
@@ -245,11 +159,6 @@ def publish_batch_content():
                 post_url = result.get('url')
                 print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
 
-                if "Pinned-Index" in labels or "Performance" in title:
-                    if "featured_image" in item and "src" in item["featured_image"]:
-                        table_img_src = item["featured_image"]["src"]
-                        update_hero_status(table_img_src, target_url=post_url)
-
                 item["published"] = True
                 published_count += 1
 
@@ -261,21 +170,16 @@ def publish_batch_content():
     except Exception as auth_err:
         print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
 
-    # 3. Commit and push ticker.json, hero-status.json, and queue changes cleanly to GitHub
+    # Commit and push queue updates cleanly to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
-        if os.path.exists("ticker.json"):
-            subprocess.run(["git", "add", "ticker.json"], check=True)
-        if os.path.exists("hero-status.json"):
-            subprocess.run(["git", "add", "hero-status.json"], check=True)
         if file_path and os.path.exists(file_path):
             subprocess.run(["git", "add", file_path], check=True)
-            
-        subprocess.run(["git", "commit", "-m", "auto: refresh ticker.json, hero status, and publishing state [skip ci]"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("Successfully pushed telemetry states and ticker.json updates to repository.")
+            subprocess.run(["git", "commit", "-m", "auto: publish batch post state [skip ci]"], check=True)
+            subprocess.run(["git", "push"], check=True)
+            print("Successfully pushed publishing queue state to repository.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
