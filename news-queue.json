@@ -3961,5 +3961,12 @@
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
-  ]
+  ],
+  "0": {
+    "title": "newsReports",
+    "content": "newsReports",
+    "published": true,
+    "published_at": "2026-09-20",
+    "filename": "2026-09-20-newsreports.html"
+  }
 }
