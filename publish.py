@@ -2,12 +2,14 @@ import json
 import os
 from datetime import datetime
 
-QUEUE_FILE = 'news-queue.json'
-POSTS_DIR = 'posts'
+# Anchor paths relative to the script's own location so it works seamlessly from any folder
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+QUEUE_FILE = os.path.join(BASE_DIR, 'news-queue.json')
+POSTS_DIR = os.path.join(BASE_DIR, 'posts')
 
 def main():
     if not os.path.exists(QUEUE_FILE):
-        print("Error: news-queue.json not found.")
+        print(f"Error: {QUEUE_FILE} not found.")
         return
 
     with open(QUEUE_FILE, 'r', encoding='utf-8') as f:
