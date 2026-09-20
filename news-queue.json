@@ -3799,7 +3799,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-18-34",
-      "published": false,
+      "published": true,
       "title": "Lagos Begins 2027 Primary Healthcare Operational Planning Across LGAs and Facilities",
       "labels": [
         "News Report",
@@ -3962,13 +3962,6 @@
       }
     }
   ],
-  "0": {
-    "title": "newsReports",
-    "content": "newsReports",
-    "published": true,
-    "published_at": "2026-09-20",
-    "filename": "2026-09-20-newsreports.html"
-  },
   "0": {
     "title": "newsReports",
     "content": "newsReports",
