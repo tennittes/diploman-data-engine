@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-# Anchor paths relative to the script's own location so it works seamlessly from any folder
+# Anchor paths relative to the script's own location
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 QUEUE_FILE = os.path.join(BASE_DIR, 'news-queue.json')
 POSTS_DIR = os.path.join(BASE_DIR, 'posts')
@@ -17,8 +17,17 @@ def main():
 
     # Find the next unpublished item in the queue
     item_to_publish = None
-    for item in queue:
-        if not item.get('published', False):
+    for idx, item in enumerate(queue):
+        # Gracefully handle items that might be plain strings instead of dictionaries
+        if isinstance(item, str):
+            queue[idx] = {
+                "title": item[:40] + "..." if len(item) > 40 else item,
+                "content": item,
+                "published": False
+            }
+            item = queue[idx]
+
+        if isinstance(item, dict) and not item.get('published', False):
             item_to_publish = item
             break
 
