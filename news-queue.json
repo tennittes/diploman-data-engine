@@ -4723,7 +4723,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-24",
-      "published": false,
+      "published": true,
       "title": "Delta Outlines 13th-Month Salary and Ward-Level Empowerment Measures",
       "labels": [
         "News Report",
@@ -4756,7 +4756,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-25",
-      "published": false,
+      "published": true,
       "title": "Edo Launches Public Health Supply Chain Innovation Hub",
       "labels": [
         "News Report",
@@ -4789,7 +4789,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-26",
-      "published": false,
+      "published": true,
       "title": "Kano Deputy Governor Calls for Investment in Pastoral Economy and Rural Security",
       "labels": [
         "News Report",
