@@ -5119,7 +5119,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-36",
-      "published": false,
+      "published": true,
       "title": "Ekiti to Hand Over Operational Vehicles to Security Agencies on September 21",
       "labels": [
         "News Report",
@@ -5152,7 +5152,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-37",
-      "published": false,
+      "published": true,
       "title": "Ekiti Teaching Hospital Advances 80-Bed Multipurpose Medical Facility",
       "labels": [
         "News Report",
@@ -5185,7 +5185,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-38",
-      "published": false,
+      "published": true,
       "title": "Kaduna Distributes Digital Devices to Basic Education Officers Across 23 LGAs",
       "labels": [
         "News Report",
