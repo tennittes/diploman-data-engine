@@ -4822,7 +4822,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-27",
-      "published": false,
+      "published": true,
       "title": "Ondo Sets September 23 Flag-Off for Student Bursaries and Scholarships",
       "labels": [
         "News Report",
@@ -4855,7 +4855,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-28",
-      "published": false,
+      "published": true,
       "title": "Benue Opens New Development Financing Talks with UNDP on Innovative Funding and Durable Solutions",
       "labels": [
         "News Report",
@@ -4888,7 +4888,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-29",
-      "published": false,
+      "published": true,
       "title": "Ogun Signs Education and Skills Trust Fund Law to Expand Sector Financing",
       "labels": [
         "News Report",
