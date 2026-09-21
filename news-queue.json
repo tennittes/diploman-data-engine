@@ -4228,7 +4228,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-09",
-      "published": false,
+      "published": true,
       "title": "Adamawa Mineral Resources Ministry Trains Newly Appointed Staff on Mining Regulation",
       "labels": [
         "News Report",
@@ -4261,7 +4261,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-10",
-      "published": false,
+      "published": true,
       "title": "Enugu and SEDC Prepare Pilot Agro-Development Programme for Nkanu East",
       "labels": [
         "News Report",
@@ -4294,7 +4294,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-11",
-      "published": false,
+      "published": true,
       "title": "Adamawa Commissions New Jumu'ah Mosque and Renovated ADSU Conference Centre",
       "labels": [
         "News Report",
