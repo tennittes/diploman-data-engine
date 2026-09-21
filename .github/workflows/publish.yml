@@ -25,6 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
+      - name: Update Ticker Data
+        run: python update_ticker.py
+
       - name: Execute Publishing Script
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
