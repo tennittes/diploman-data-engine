@@ -5416,7 +5416,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-45",
-      "published": false,
+      "published": true,
       "title": "Lagos and California Sign Sister-State Agreement to Expand Subnational Cooperation",
       "labels": [
         "News Report",
@@ -5449,7 +5449,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-46",
-      "published": false,
+      "published": true,
       "title": "Lagos Launches Clean Energy Schools Innovation Challenge for Secondary Students",
       "labels": [
         "News Report",
@@ -5482,7 +5482,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-47",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Reviews Progress on Major Uyo Tourism and Commercial Projects",
       "labels": [
         "News Report",
