@@ -4525,7 +4525,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-18",
-      "published": false,
+      "published": true,
       "title": "Zamfara Receives WHO Medicines for Cholera and Vaccine-Preventable Disease Response",
       "labels": [
         "News Report",
@@ -4558,7 +4558,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-19",
-      "published": false,
+      "published": true,
       "title": "Zamfara Trains Community 'Big Sisters' to Support Maternal and Newborn Health",
       "labels": [
         "News Report",
@@ -4591,7 +4591,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-20",
-      "published": false,
+      "published": true,
       "title": "Kano Reconstitutes Open Government Partnership Steering Committee",
       "labels": [
         "News Report",
