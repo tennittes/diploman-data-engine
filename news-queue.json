@@ -5020,7 +5020,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-33",
-      "published": false,
+      "published": true,
       "title": "Kogi Declares Three-Day Mourning and State Burial for Former Governor Ibrahim Idris",
       "labels": [
         "News Report",
@@ -5053,7 +5053,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-34",
-      "published": false,
+      "published": true,
       "title": "Anambra Commissions 3-Kilometre Ekwusigo Road as Local Government Infrastructure Programme Expands",
       "labels": [
         "News Report",
@@ -5086,7 +5086,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-35",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Commissions 3.07km Itu-Urua Ekpa Road Amid Wider Road Construction Programme",
       "labels": [
         "News Report",
