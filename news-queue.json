@@ -4030,7 +4030,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-03",
-      "published": false,
+      "published": true,
       "title": "Ondo Unveils Solar Power Initiative for 1,000 Small Businesses",
       "labels": [
         "News Report",
@@ -4063,7 +4063,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-04",
-      "published": false,
+      "published": true,
       "title": "Enugu CNG Transport Reform Gains Federal Recognition as Fare Falls on Enugu\u2013Nsukka Route",
       "labels": [
         "News Report",
@@ -4096,7 +4096,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-05",
-      "published": false,
+      "published": true,
       "title": "Taraba Governor Calls for Peace as Security Operations Continue in Mambilla Plateau",
       "labels": [
         "News Report",
