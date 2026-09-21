@@ -4624,7 +4624,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-21",
-      "published": false,
+      "published": true,
       "title": "Delta Government Orders Investigation into Effurun Violence",
       "labels": [
         "News Report",
@@ -4657,7 +4657,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-22",
-      "published": false,
+      "published": true,
       "title": "Osun Signs Non-Disclosure Agreement with Critical Minerals Financing Corporation",
       "labels": [
         "News Report",
@@ -4690,7 +4690,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-23",
-      "published": false,
+      "published": true,
       "title": "Gombe Electricity Commission Engages Stakeholders on State Power Regulation",
       "labels": [
         "News Report",
