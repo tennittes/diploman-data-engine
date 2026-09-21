@@ -4327,7 +4327,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-12",
-      "published": false,
+      "published": true,
       "title": "Ondo Governor Swears In Commissioner, Advisers and Board Members",
       "labels": [
         "News Report",
@@ -4360,7 +4360,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-13",
-      "published": false,
+      "published": true,
       "title": "NIPR Commends Cross River Lands Ministry on Administrative Transformation",
       "labels": [
         "News Report",
@@ -4393,7 +4393,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-014",
-      "published": false,
+      "published": true,
       "title": "Niger Investigates Deaths of 37 Artisanal Miners in NSCDC Custody as Mining Activities Remain Suspended",
       "labels": [
         "News Report",
