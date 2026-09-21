@@ -3997,7 +3997,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-02",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Commissions NADDC Automotive Training Centre in Abakaliki",
       "labels": [
         "News Report",
