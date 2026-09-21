@@ -3964,7 +3964,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-01",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Opens 10,000-Place iDICE Skills-to-Jobs Programme for Young People",
       "labels": [
         "News Report",
@@ -3990,7 +3990,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4023,7 +4023,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4056,7 +4056,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4064,7 +4064,7 @@
       "type": "news_report",
       "id": "news-2026-09-21-04",
       "published": false,
-      "title": "Enugu CNG Transport Reform Gains Federal Recognition as Fare Falls on Enugu–Nsukka Route",
+      "title": "Enugu CNG Transport Reform Gains Federal Recognition as Fare Falls on Enugu\u2013Nsukka Route",
       "labels": [
         "News Report",
         "Enugu",
@@ -4077,19 +4077,19 @@
         "aria_label": "Enugu State Governor Peter Mbah Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "President Bola Ahmed Tinubu has cited Enugu's CNG-powered transport system in discussing transport-cost relief, with the Enugu–Nsukka fare identified as having fallen from ₦2,500 to ₦1,500.",
+      "lead_narrative": "President Bola Ahmed Tinubu has cited Enugu's CNG-powered transport system in discussing transport-cost relief, with the Enugu\u2013Nsukka fare identified as having fallen from \u20a62,500 to \u20a61,500.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The reference to Enugu came in the context of the state's deployment of compressed natural gas-powered buses as part of its transport reforms.",
-        "The reported fare movement represents a ₦1,000 reduction on the Enugu–Nsukka route, according to the source material.",
+        "The reported fare movement represents a \u20a61,000 reduction on the Enugu\u2013Nsukka route, according to the source material.",
         "Governor Peter Mbah's administration has linked the transport programme to the use of CNG buses and modern terminals, with the stated objective of improving mobility and reducing transport costs.",
         "The source frames the reform as part of a wider transport-system intervention involving infrastructure and terminal development. It does not provide a broader dataset of fares across other Enugu routes.",
-        "The federal recognition and the reported fare change place the Enugu–Nsukka corridor within the state's ongoing CNG transport programme, while the longer-term effect of the reform remains dependent on continued operation and coverage."
+        "The federal recognition and the reported fare change place the Enugu\u2013Nsukka corridor within the state's ongoing CNG transport programme, while the longer-term effect of the reform remains dependent on continued operation and coverage."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4122,7 +4122,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4155,7 +4155,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4188,7 +4188,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4221,7 +4221,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4254,7 +4254,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4287,7 +4287,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4320,7 +4320,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4353,7 +4353,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4386,7 +4386,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4419,7 +4419,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4452,7 +4452,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4485,7 +4485,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4518,7 +4518,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4551,7 +4551,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4584,7 +4584,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4617,7 +4617,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4650,7 +4650,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4683,7 +4683,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4716,7 +4716,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4742,14 +4742,14 @@
       "story_body": [
         "Commissioner for Works (Rural Roads) and Public Information Charles Aniagwu said the administration was focused on ensuring that changes at the macroeconomic level were reflected at household and community levels.",
         "He cited the passage of an Executive Bill on a 13th-month salary, noting that the additional payment would be equivalent to a worker's December salary. The bill was awaiting the governor's assent according to the source.",
-        "Aniagwu also said an empowerment programme covering 500 DCF wards would reach at least 100,000 people, based on 200 beneficiaries per ward, with about ₦5 billion expected to enter local economies through the intervention.",
+        "Aniagwu also said an empowerment programme covering 500 DCF wards would reach at least 100,000 people, based on 200 beneficiaries per ward, with about \u20a65 billion expected to enter local economies through the intervention.",
         "The government said the programme would support consumption, small businesses and distributors while complementing investments in roads, schools, healthcare and security.",
         "The measures remain at different stages of implementation: the 13th-month salary measure was awaiting assent, while the ward-level empowerment programme was described as ongoing."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4782,7 +4782,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4815,7 +4815,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4848,7 +4848,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4881,7 +4881,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4914,7 +4914,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4935,10 +4935,10 @@
         "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kaduna State's free compressed natural gas mass transit scheme has recorded approximately 3.2 million passenger trips and more than ₦3.5 billion in reported commuter savings during its first year, with President Bola Ahmed Tinubu publicly commending the intervention.",
+      "lead_narrative": "Kaduna State's free compressed natural gas mass transit scheme has recorded approximately 3.2 million passenger trips and more than \u20a63.5 billion in reported commuter savings during its first year, with President Bola Ahmed Tinubu publicly commending the intervention.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Kaduna State government publication said the scheme operates with a fleet of 100 CNG-powered buses and was introduced as part of the state's response to transportation pressures following the removal of the petrol subsidy. The reported first-year figures put passenger use at about 3.2 million trips and commuter savings above ₦3.5 billion.",
+        "The Kaduna State government publication said the scheme operates with a fleet of 100 CNG-powered buses and was introduced as part of the state's response to transportation pressures following the removal of the petrol subsidy. The reported first-year figures put passenger use at about 3.2 million trips and commuter savings above \u20a63.5 billion.",
         "President Tinubu, in a post referenced by the publication, made special mention of the Kaduna intervention and said it demonstrated how cheaper domestic energy could translate into transportation relief. His comments came as federal and state authorities continued preparations for the National Affordable CNG Transit Programme.",
         "At an August 27 meeting with governors, the presidency and state chief executives discussed coordinated action to reduce commuting costs, with an implementation committee subsequently constituted under the Nigeria Governors' Forum and chaired by Kwara State Governor AbdulRahman AbdulRazaq.",
         "The wider programme involves identifying priority transportation corridors and determining interventions appropriate to different locations, while the Federal Government has positioned domestic gas resources as an alternative to dependence on petrol and diesel. The Kaduna government said its own programme would continue alongside broader economic inclusion, education and skills initiatives.",
@@ -4947,7 +4947,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4968,19 +4968,19 @@
         "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Katsina State government is leading a North West Governors' Forum delegation to a United Nations General Assembly side event in New York on September 21, 2026, where the region's 2026–2030 peace, security and development framework is scheduled for international presentation.",
+      "lead_narrative": "The Katsina State government is leading a North West Governors' Forum delegation to a United Nations General Assembly side event in New York on September 21, 2026, where the region's 2026\u20132030 peace, security and development framework is scheduled for international presentation.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "According to the Katsina State government publication, Governor Dikko Umaru Radda, chairman of the North West Governors' Forum, will lead governors from the seven North West states to the side event titled “From Fragility to Opportunity: Locally Led Pathways to Peace, Resilience and Investment in Fragile Contexts.”",
-        "The event is expected to present the Northwest Peace, Security and Development Framework 2026–2030 to development partners, investors, financial institutions and private-sector representatives. The forum's stated agenda combines peace and security with resilience, development and investment.",
+        "According to the Katsina State government publication, Governor Dikko Umaru Radda, chairman of the North West Governors' Forum, will lead governors from the seven North West states to the side event titled \u201cFrom Fragility to Opportunity: Locally Led Pathways to Peace, Resilience and Investment in Fragile Contexts.\u201d",
+        "The event is expected to present the Northwest Peace, Security and Development Framework 2026\u20132030 to development partners, investors, financial institutions and private-sector representatives. The forum's stated agenda combines peace and security with resilience, development and investment.",
         "The publication said the framework emerged from regional coordination around shared challenges and has received support from the United Nations system, particularly UNDP, alongside engagement involving UN Deputy Secretary-General Amina J. Mohammed.",
         "The governors are also expected to highlight opportunities in agriculture, infrastructure, energy, technology, mining and human capital, while seeking partnerships, financing and private investment to support implementation of the framework across the seven states.",
-        "The New York engagement therefore marks the forum's planned transition from internal regional coordination to presenting a common development and investment proposition to an international audience under the message “Seven States. One Ambition.”"
+        "The New York engagement therefore marks the forum's planned transition from internal regional coordination to presenting a common development and investment proposition to an international audience under the message \u201cSeven States. One Ambition.\u201d"
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5013,7 +5013,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5046,7 +5046,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5079,7 +5079,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5112,7 +5112,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5145,7 +5145,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5178,7 +5178,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5211,7 +5211,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5244,7 +5244,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5270,14 +5270,14 @@
       "story_body": [
         "According to the Anambra State government publication, Governor Charles Soludo awarded tertiary education scholarships to a student-tailor and six other students during an event in Ekwusigo Local Government Area.",
         "The publication said the students demonstrated practical skills at the event, with the student-tailor producing a garment after taking measurements while the other six students demonstrated skills in making slippers and clothes.",
-        "Soludo also provided ₦500,000 to the seven students as skills-development support, according to the report.",
-        "In addition, the governor donated ₦5 million to each of the participating government schools in Ekwusigo Local Government Area to support entrepreneurial skills development.",
+        "Soludo also provided \u20a6500,000 to the seven students as skills-development support, according to the report.",
+        "In addition, the governor donated \u20a65 million to each of the participating government schools in Ekwusigo Local Government Area to support entrepreneurial skills development.",
         "The intervention combines tertiary education scholarships with direct skills-development support for participating students and institutional funding for the schools involved in the programme."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5310,7 +5310,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5318,7 +5318,7 @@
       "type": "news_report",
       "id": "news-2026-09-21-15",
       "published": false,
-      "title": "Katsina Provides ₦1 Million Take-Off Support to 361 DRATESS-Songhai Graduates",
+      "title": "Katsina Provides \u20a61 Million Take-Off Support to 361 DRATESS-Songhai Graduates",
       "labels": [
         "News Report",
         "KATSINA",
@@ -5331,19 +5331,19 @@
         "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Katsina State Governor Dikko Umaru Radda has presented ₦1 million take-off support to each of 361 graduates of the second batch of the Dikko Radda Agripreneurship Training and Empowerment Scheme-Songhai (DRATESS-Songhai).",
+      "lead_narrative": "Katsina State Governor Dikko Umaru Radda has presented \u20a61 million take-off support to each of 361 graduates of the second batch of the Dikko Radda Agripreneurship Training and Empowerment Scheme-Songhai (DRATESS-Songhai).",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The financial support was presented during the graduation ceremony for the second batch of DRATESS-Songhai participants at the Banquet Hall, Government House, Katsina.",
-        "The programme is focused on agripreneurship training and empowerment, with the ₦1 million take-off support intended for the 361 graduates identified in the government publication.",
+        "The programme is focused on agripreneurship training and empowerment, with the \u20a61 million take-off support intended for the 361 graduates identified in the government publication.",
         "The publication did not provide a detailed breakdown of how each graduate is expected to deploy the support, so no additional use or outcome is established in the report.",
         "The graduation and financial support form part of Katsina State's reported agripreneurship training intervention under the DRATESS-Songhai programme.",
-        "The immediate result recorded by the source is the presentation of ₦1 million take-off support to each of the 361 graduates at the second-batch graduation ceremony."
+        "The immediate result recorded by the source is the presentation of \u20a61 million take-off support to each of the 361 graduates at the second-batch graduation ceremony."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5376,7 +5376,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5409,7 +5409,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5442,7 +5442,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5475,7 +5475,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5508,7 +5508,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5541,7 +5541,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5549,7 +5549,7 @@
       "type": "news_report",
       "id": "news-2026-09-21-07",
       "published": false,
-      "title": "Abia Clarifies Aba Town Hall Rehabilitation Cost, Puts Approved Figure at ₦149.2 Million",
+      "title": "Abia Clarifies Aba Town Hall Rehabilitation Cost, Puts Approved Figure at \u20a6149.2 Million",
       "labels": [
         "News Report",
         "ABIA",
@@ -5562,19 +5562,19 @@
         "aria_label": "Abia State Governor Alex Otti Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Aba South Local Government has disputed a viral claim that ₦6.2 billion was spent on the rehabilitation of Aba Town Hall, stating that the project's approved construction cost was ₦149,224,446.",
+      "lead_narrative": "Aba South Local Government has disputed a viral claim that \u20a66.2 billion was spent on the rehabilitation of Aba Town Hall, stating that the project's approved construction cost was \u20a6149,224,446.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "In a statement responding to a viral video attributed to Chief Charles Ogbonna, former Aba South Local Government mayor Chief Uche Wogu said the claim that ₦6.2 billion was spent on the rehabilitation of Aba Town Hall was incorrect.",
+        "In a statement responding to a viral video attributed to Chief Charles Ogbonna, former Aba South Local Government mayor Chief Uche Wogu said the claim that \u20a66.2 billion was spent on the rehabilitation of Aba Town Hall was incorrect.",
         "Wogu said he was mayor when the rehabilitation was executed and that he initiated the project, developed the construction details and cost estimates with the Head of the Department of Works, Engineer ID Ngwakwe, and his team.",
-        "According to the Aba South local government publication, the project was executed through direct labour and the total approved construction cost was ₦149,224,446. The Finance and General Purposes Committee reportedly ratified the expenditure on December 14, 2023.",
+        "According to the Aba South local government publication, the project was executed through direct labour and the total approved construction cost was \u20a6149,224,446. The Finance and General Purposes Committee reportedly ratified the expenditure on December 14, 2023.",
         "Wogu said the rehabilitation was supervised by the Commissioner for Local Government and Chieftaincy Affairs, Prince Uzo Nwachukwu, and referred to an extract from the committee's minutes as documentation supporting the approved expenditure figure.",
-        "The statement therefore places the reported approved cost at ₦149.224 million and disputes the separate ₦6.2 billion allegation. The source does not independently establish the contents of the referenced committee extract beyond the statement's description of it."
+        "The statement therefore places the reported approved cost at \u20a6149.224 million and disputes the separate \u20a66.2 billion allegation. The source does not independently establish the contents of the referenced committee extract beyond the statement's description of it."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5599,15 +5599,15 @@
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The Abia State government publication listed Umunkpeyi-Umuru Okpokiri Road, Umuikama-Okpuala Nvosi Road, Owerinta-Umuochela-Amapu Umuvo Road and Isieketa-Obikabia Road among projects described as completed in Isiala Ngwa South.",
-        "The publication also identified ongoing work on the reconstruction and dualisation of the Umuikaa–Owerinta Federal Road toward the Abia-Imo State boundary.",
-        "Other ongoing projects listed were the reconstruction and dualisation of the Umuikaa–Umuene Road and construction of the Isieketa–Mba–Ekeokporo–Mgbedeala Road.",
+        "The publication also identified ongoing work on the reconstruction and dualisation of the Umuikaa\u2013Owerinta Federal Road toward the Abia-Imo State boundary.",
+        "Other ongoing projects listed were the reconstruction and dualisation of the Umuikaa\u2013Umuene Road and construction of the Isieketa\u2013Mba\u2013Ekeokporo\u2013Mgbedeala Road.",
         "The government publication said the projects are improving access to communities and supporting local business activity across parts of Isiala Ngwa South.",
         "The reported programme therefore combines completed connecting roads with larger reconstruction, dualisation and new-road projects that remain under implementation in the local government area."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5640,7 +5640,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
