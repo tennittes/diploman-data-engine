@@ -4129,7 +4129,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-06",
-      "published": false,
+      "published": true,
       "title": "Taraba Sends 100 Students to India for Postgraduate Studies",
       "labels": [
         "News Report",
@@ -4162,7 +4162,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-07",
-      "published": false,
+      "published": true,
       "title": "Enugu Overhauls Nnamdi Azikiwe Stadium Ahead of 2026 National Sports Festival",
       "labels": [
         "News Report",
@@ -4195,7 +4195,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-08",
-      "published": false,
+      "published": true,
       "title": "Cross River Receives Remains of Commissioner Eka Williams as Government Assures Family of Support",
       "labels": [
         "News Report",
