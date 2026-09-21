@@ -5317,7 +5317,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-42",
-      "published": false,
+      "published": true,
       "title": "Katsina Provides \u20a61 Million Take-Off Support to 361 DRATESS-Songhai Graduates",
       "labels": [
         "News Report",
@@ -5350,7 +5350,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-43",
-      "published": false,
+      "published": true,
       "title": "Yobe Teaching Hospital Performs Region's First Total Hip Replacement Surgery",
       "labels": [
         "News Report",
@@ -5383,7 +5383,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-44",
-      "published": false,
+      "published": true,
       "title": "Plateau Sanitation Agency Reports 53.8% of Surveyed Households Without Toilets in Jos South",
       "labels": [
         "News Report",
