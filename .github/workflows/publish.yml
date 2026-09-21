@@ -35,3 +35,10 @@ jobs:
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
         run: python publish.py
+
+      - name: Commit and Push Queue State Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news-queue.json ticker.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update published queue and ticker state [skip ci]" && git push)
