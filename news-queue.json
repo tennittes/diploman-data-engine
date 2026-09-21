@@ -4426,7 +4426,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-15",
-      "published": false,
+      "published": true,
       "title": "Fire Damages Parts of Gombe Media Corporation Complex",
       "labels": [
         "News Report",
@@ -4459,7 +4459,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-16",
-      "published": false,
+      "published": true,
       "title": "Edo Enrols 200 People Living with Sickle Cell Disease in State Health Insurance Scheme",
       "labels": [
         "News Report",
@@ -4492,7 +4492,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-17",
-      "published": false,
+      "published": true,
       "title": "Zamfara Advances Health Workforce Expansion with 631 Nurses and Midwives Set for Deployment",
       "labels": [
         "News Report",
