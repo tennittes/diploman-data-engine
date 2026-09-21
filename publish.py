@@ -12,7 +12,7 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
-BATCH_LIMIT = 1  # 1 post every 30 mins
+BATCH_LIMIT = 3  # Increased to process 3 posts per run and clear the backlog faster
 
 def get_blogger_service():
     creds = Credentials(
@@ -43,7 +43,6 @@ def build_news_report_html(item):
         target_url = img.get('target_url', 'https://www.diplomantimes.com')
         img_alt = img.get('alt', '')
         img_src = img.get('src', '')
-        
         aria_label = img.get('aria_label', 'Diploman Times Governance and Policy Intelligence')
 
         html_parts.append(textwrap.dedent(f"""
@@ -107,11 +106,14 @@ def build_news_report_html(item):
     return optimize_blogger_images(raw_html)
 
 def get_target_file_and_data():
-    json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
-    if not json_files:
-        raise FileNotFoundError("No news-queue.json file found in repository subfolders.")
-    
-    target_file = json_files[-1]
+    # Explicitly check root news-queue.json first
+    target_file = "news-queue.json"
+    if not os.path.exists(target_file):
+        json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
+        if not json_files:
+            raise FileNotFoundError("No news-queue.json file found in repository.")
+        target_file = json_files[-1]
+        
     with open(target_file, "r", encoding="utf-8") as f:
         data = json.load(f)
         
@@ -176,10 +178,14 @@ def publish_batch_content():
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
         if file_path and os.path.exists(file_path):
-            subprocess.run(["git", "add", file_path], check=True)
-            subprocess.run(["git", "commit", "-m", "auto: publish batch post state [skip ci]"], check=True)
-            subprocess.run(["git", "push"], check=True)
-            print("Successfully pushed publishing queue state to repository.")
+            status_result = subprocess.run(["git", "status", "--porcelain", file_path], capture_output=True, text=True, check=True)
+            if status_result.stdout.strip():
+                subprocess.run(["git", "add", file_path], check=True)
+                subprocess.run(["git", "commit", "-m", "auto: publish batch post state [skip ci]"], check=True)
+                subprocess.run(["git", "push"], check=True)
+                print("Successfully pushed publishing queue state to repository.")
+            else:
+                print("No changes detected in queue file; git commit/push skipped.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
