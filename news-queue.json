@@ -5845,7 +5845,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-07",
-      "published": false,
+      "published": true,
       "title": "Niger Governor Receives Condolence Visits After Deaths of 37 Artisanal Miners",
       "labels": [
         "News Report",
@@ -5878,7 +5878,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-08",
-      "published": false,
+      "published": true,
       "title": "Edo Begins Free Cataract Surgery Programme for Residents",
       "labels": [
         "News Report",
