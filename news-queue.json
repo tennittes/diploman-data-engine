@@ -6241,7 +6241,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-19",
-      "published": false,
+      "published": true,
       "title": "Plateau Begins \u20a61.5 Billion Humanitarian Support for Violence-Affected Households",
       "labels": [
         "News Report",
@@ -6274,7 +6274,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-20",
-      "published": false,
+      "published": true,
       "title": "Lagos Highlights Renewable Energy Financing Gap at Global Summit",
       "labels": [
         "News Report",
