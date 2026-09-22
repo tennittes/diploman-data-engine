@@ -5515,7 +5515,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-48",
-      "published": false,
+      "published": true,
       "title": "Plateau Reaffirms Security Measures and Calls for Community Unity",
       "labels": [
         "News Report",
@@ -5548,7 +5548,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-49",
-      "published": false,
+      "published": true,
       "title": "Abia Clarifies Aba Town Hall Rehabilitation Cost, Puts Approved Figure at \u20a6149.2 Million",
       "labels": [
         "News Report",
@@ -5581,7 +5581,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-21-50",
-      "published": false,
+      "published": true,
       "title": "Abia Reports Completed and Ongoing Road Projects Across Isiala Ngwa South",
       "labels": [
         "News Report",
