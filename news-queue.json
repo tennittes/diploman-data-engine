@@ -5779,7 +5779,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-05",
-      "published": false,
+      "published": true,
       "title": "Kebbi Orders Stronger Security Response After Lafagu Village Head's Killing",
       "labels": [
         "News Report",
@@ -5812,7 +5812,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-06",
-      "published": false,
+      "published": true,
       "title": "Ondo Launches Four-Week Solar Installation Training for Youths",
       "labels": [
         "News Report",
