@@ -6109,7 +6109,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-15",
-      "published": false,
+      "published": true,
       "title": "Kaduna Commissions Basic Education Projects Across 23 Local Governments",
       "labels": [
         "News Report",
@@ -6142,7 +6142,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-16",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Commissions 14.8km Internal Roads in Awa",
       "labels": [
         "News Report",
