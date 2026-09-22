@@ -6043,7 +6043,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-13",
-      "published": false,
+      "published": true,
       "title": "Benue Suspends Muslim Pilgrims Board Officials Pending Investigation",
       "labels": [
         "News Report",
@@ -6076,7 +6076,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-14",
-      "published": false,
+      "published": true,
       "title": "Benue Receives Commission Reports on Sale and Lease of Government Assets",
       "labels": [
         "News Report",
