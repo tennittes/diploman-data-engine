@@ -5713,7 +5713,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-03",
-      "published": false,
+      "published": true,
       "title": "Cross River Begins Statewide Distribution of Improved Cowpea Seeds",
       "labels": [
         "News Report",
@@ -5746,7 +5746,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-04",
-      "published": false,
+      "published": true,
       "title": "Enugu, SEDC Prepare Pilot Agro-Development Programme for Nkanu East",
       "labels": [
         "News Report",
