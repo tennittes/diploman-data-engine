@@ -6175,7 +6175,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-17",
-      "published": false,
+      "published": true,
       "title": "Abia Governor Announces Private Funding for Catholic Priests' Retirement Home",
       "labels": [
         "News Report",
@@ -6208,7 +6208,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-22-18",
-      "published": false,
+      "published": true,
       "title": "Plateau Imposes Dusk-to-Dawn Curfew in Three Local Governments",
       "labels": [
         "News Report",
