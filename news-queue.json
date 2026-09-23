@@ -6439,7 +6439,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-05",
-      "published": false,
+      "published": true,
       "title": "Imo Governor Urges Police Neutrality, Intelligence-Led Security Ahead of 2027 Elections",
       "labels": [
         "News Report",
@@ -6472,7 +6472,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-06",
-      "published": false,
+      "published": true,
       "title": "Cross River Medical Outreach Records 167 Free Surgeries in Yala",
       "labels": [
         "News Report",
