@@ -7165,7 +7165,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-27",
-      "published": false,
+      "published": true,
       "title": "Kaduna Approves \u20a63.659 Billion for Pension, Gratuities and Death Benefits",
       "labels": [
         "News Report",
@@ -7198,7 +7198,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-28",
-      "published": false,
+      "published": true,
       "title": "Yobe Engages Russian Investor on Gas-Powered Electricity for Agro-Industrial Zone",
       "labels": [
         "News Report",
@@ -7231,7 +7231,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-29",
-      "published": false,
+      "published": true,
       "title": "Abia Sets October Start for Statewide Insecticide-Treated Mosquito Net Distribution",
       "labels": [
         "News Report",
@@ -7264,7 +7264,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-30",
-      "published": false,
+      "published": true,
       "title": "Bayelsa Reopens Talks on Akenfa Bridge as Government Urges End to Oil Facility Blockade",
       "labels": [
         "News Report",
