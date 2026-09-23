@@ -6307,7 +6307,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-01",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Moves Justice Administration to Nigerian Case Management System e-Filing Platform",
       "labels": [
         "News Report",
@@ -6333,15 +6333,15 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-09-23-02",
-      "published": false,
-      "title": "Ondo Approves ₦400 Million Education Support for 13,360 Students",
+      "published": true,
+      "title": "Ondo Approves \u20a6400 Million Education Support for 13,360 Students",
       "labels": [
         "News Report",
         "Ondo",
@@ -6354,19 +6354,19 @@
         "aria_label": "Ondo State Governor Lucky Aiyedatiwa Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Ondo State has flagged off its 2026 bursary, scholarship and financial assistance programme for 13,360 students of Ondo State origin, with ₦400 million approved for the intervention.",
+      "lead_narrative": "Ondo State has flagged off its 2026 bursary, scholarship and financial assistance programme for 13,360 students of Ondo State origin, with \u20a6400 million approved for the intervention.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "An Ondo State government publication said the programme covers 11,907 bursary recipients, 614 scholarship beneficiaries, 239 Law School students, 500 medical students undertaking clinical training and 100 physically challenged students receiving financial assistance.",
-        "The publication said scholarship beneficiaries would receive ₦100,000 each, bursary beneficiaries ₦20,000, Law School and clinical medical students ₦100,000 each, while physically challenged students would receive ₦75,000. The programme was formally flagged off on September 22, 2026, at the Cocoa Conference Centre in Akure.",
+        "The publication said scholarship beneficiaries would receive \u20a6100,000 each, bursary beneficiaries \u20a620,000, Law School and clinical medical students \u20a6100,000 each, while physically challenged students would receive \u20a675,000. The programme was formally flagged off on September 22, 2026, at the Cocoa Conference Centre in Akure.",
         "The state government publication also outlined wider education measures, including the distribution of digital tablets to students in 50 public schools, construction and rehabilitation of 500 basic schools, proposed higher-education institutions and ongoing work toward transforming Rufus Giwa Polytechnic, Owo, into the proposed University of Agriculture, Science and Technology, Owo.",
-        "The Commissioner for Education disclosed that ₦633.918 million had also been released for 2026 WASSCE registration fees for students in public secondary schools. The publication further reported that the state had approved implementation of the new salary structure for tertiary institution unions alongside increased subvention.",
+        "The Commissioner for Education disclosed that \u20a6633.918 million had also been released for 2026 WASSCE registration fees for students in public secondary schools. The publication further reported that the state had approved implementation of the new salary structure for tertiary institution unions alongside increased subvention.",
         "The Scholarship Board said a digital registry and scholarship management application was being considered to identify and manage profiles of Ondo students studying across Nigeria. The proposal is described as an effort to centralise student information and support future educational interventions."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6399,7 +6399,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6432,7 +6432,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6465,7 +6465,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6498,7 +6498,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6531,7 +6531,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6556,7 +6556,7 @@
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "According to the Cross River State government publication, Hon. Eneji Sam Ashibi distributed the support to 149 constituents comprising 99 men and 50 women during activities surrounding the annual Obudu New Yam Festival.",
-        "The men received farm implements and ₦5,000 each, while the women received six yards of wrapper, Maggi, salt and ₦5,000 each. The intervention was presented as support for livelihoods and household welfare.",
+        "The men received farm implements and \u20a65,000 each, while the women received six yards of wrapper, Maggi, salt and \u20a65,000 each. The intervention was presented as support for livelihoods and household welfare.",
         "Ashibi said the gesture was intended to give back to the community and support constituents, particularly during the festive period. The beneficiaries expressed appreciation for the assistance.",
         "The publication also reported that Ashibi urged beneficiaries to continue supporting and keeping faith with the All Progressives Congress ahead of the 2027 general elections. That political appeal is reported as part of the event and is not treated as an independent assessment.",
         "The intervention concluded with beneficiaries describing the farm implements and financial assistance as useful for agricultural activities and immediate household needs in the community."
@@ -6564,7 +6564,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6597,7 +6597,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6605,7 +6605,7 @@
       "type": "news_report",
       "id": "news-2026-09-23-10",
       "published": false,
-      "title": "Adamawa Sets September 28–30 Screening for 2026 Christian Pilgrimage",
+      "title": "Adamawa Sets September 28\u201330 Screening for 2026 Christian Pilgrimage",
       "labels": [
         "News Report",
         "Adamawa",
@@ -6630,7 +6630,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6663,7 +6663,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6696,7 +6696,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6729,7 +6729,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6762,7 +6762,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6795,7 +6795,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6828,7 +6828,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6861,7 +6861,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6894,7 +6894,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6927,7 +6927,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6960,7 +6960,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -6993,7 +6993,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7026,7 +7026,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7059,7 +7059,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7092,7 +7092,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7113,19 +7113,19 @@
         "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Katsina State Governor Dikko Umaru Radda, chairman of the Northwest Governors’ Forum, has presented the Northwest Peace, Security and Development Framework 2026-2030 at a high-level side event during the 81st United Nations General Assembly in New York, outlining a regional approach to insecurity, economic development and investment.",
+      "lead_narrative": "Katsina State Governor Dikko Umaru Radda, chairman of the Northwest Governors\u2019 Forum, has presented the Northwest Peace, Security and Development Framework 2026-2030 at a high-level side event during the 81st United Nations General Assembly in New York, outlining a regional approach to insecurity, economic development and investment.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Radda said the framework represents the collective position of the seven Northwest governors and is intended to address challenges that cross state boundaries. The event was attended by Zamfara Governor Dauda Lawal, Kebbi Governor Nasir Idris, Sokoto Deputy Governor Idris Mohammed Gobir, representatives of the Nigerian government, the United Nations, development and financial institutions, civil society organisations and other partners.",
-        "Radda said insecurity remains one of the region’s most pressing challenges but argued that security operations must be accompanied by measures addressing unemployment, poverty, displacement and limited economic opportunities. He outlined objectives around stronger regional cooperation, agricultural productivity, skills development, women’s participation, community recovery and private investment.",
-        "The Director-General of the Northwest Governors’ Forum, Maryam Musa Yahaya, said the framework emerged from regional consultations that began after the June 2024 Northwest Peace and Security Summit. According to her, governments, communities, civil society groups, traditional institutions, women and young people were consulted during 2025, while all seven governors adopted the framework by March 2026.",
-        "United Nations Deputy Secretary-General Amina Mohammed commended the governors for presenting a common plan and said stability in the Northwest has implications beyond the seven states. She highlighted the region’s agricultural, livestock, mineral and trade potential and called for investment in infrastructure, skills, institutions, climate-resilient agriculture and jobs. She also cited more than 700,000 displaced people in the region and urged practical community-level interventions.",
+        "Radda said insecurity remains one of the region\u2019s most pressing challenges but argued that security operations must be accompanied by measures addressing unemployment, poverty, displacement and limited economic opportunities. He outlined objectives around stronger regional cooperation, agricultural productivity, skills development, women\u2019s participation, community recovery and private investment.",
+        "The Director-General of the Northwest Governors\u2019 Forum, Maryam Musa Yahaya, said the framework emerged from regional consultations that began after the June 2024 Northwest Peace and Security Summit. According to her, governments, communities, civil society groups, traditional institutions, women and young people were consulted during 2025, while all seven governors adopted the framework by March 2026.",
+        "United Nations Deputy Secretary-General Amina Mohammed commended the governors for presenting a common plan and said stability in the Northwest has implications beyond the seven states. She highlighted the region\u2019s agricultural, livestock, mineral and trade potential and called for investment in infrastructure, skills, institutions, climate-resilient agriculture and jobs. She also cited more than 700,000 displaced people in the region and urged practical community-level interventions.",
         "The UN said it would support the regional initiative, while UNDP is developing a proposal for a Northwest-led Stabilisation-to-Transformation Programme and Financing Platform. Governor Radda said the governors would take responsibility for implementing the framework and invited development institutions, investors and other partners to work with the seven states. The source identifies the initiative as moving from regional planning toward implementation, but does not document completed projects under the framework."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7158,7 +7158,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7166,7 +7166,7 @@
       "type": "news_report",
       "id": "news-2026-09-23-27",
       "published": false,
-      "title": "Kaduna Approves ₦3.659 Billion for Pension, Gratuities and Death Benefits",
+      "title": "Kaduna Approves \u20a63.659 Billion for Pension, Gratuities and Death Benefits",
       "labels": [
         "News Report",
         "KADUNA",
@@ -7179,19 +7179,19 @@
         "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Kaduna State Government has approved ₦3.659 billion for pension, gratuities and death benefits covering 1,339 retirees and eligible families of deceased public servants under the state's Defined Benefit and Contributory Pension Schemes.",
+      "lead_narrative": "The Kaduna State Government has approved \u20a63.659 billion for pension, gratuities and death benefits covering 1,339 retirees and eligible families of deceased public servants under the state's Defined Benefit and Contributory Pension Schemes.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The approval was disclosed by the Commissioner for Information and Culture, Ahmed Maiyaki, who said the latest payment covers beneficiaries across Kaduna State and Local Government Services. The latest release includes 210 Local Government retirees under the Defined Benefit Scheme and 1,129 beneficiaries under the Contributory Pension Scheme.",
-        "According to the breakdown, ₦515 million has been approved for the 210 Local Government retirees under the Defined Benefit Scheme. A further ₦3.144 billion is allocated under the Contributory Pension Scheme to 402 State Service retirees and 727 Local Government retirees.",
-        "Maiyaki said the latest approval brings cumulative pension payments under the administration of Governor Uba Sani to ₦21.455 billion, covering 9,683 beneficiaries since May 2023. The statement presents the latest payment as part of efforts to address outstanding pension liabilities.",
+        "According to the breakdown, \u20a6515 million has been approved for the 210 Local Government retirees under the Defined Benefit Scheme. A further \u20a63.144 billion is allocated under the Contributory Pension Scheme to 402 State Service retirees and 727 Local Government retirees.",
+        "Maiyaki said the latest approval brings cumulative pension payments under the administration of Governor Uba Sani to \u20a621.455 billion, covering 9,683 beneficiaries since May 2023. The statement presents the latest payment as part of efforts to address outstanding pension liabilities.",
         "The commissioner also linked the intervention to broader public financial management reforms involving fiscal discipline, transparency and accountability. He said the administration intends to establish a more predictable and sustainable framework for meeting pension obligations.",
         "The state government said the latest approval is intended to provide retirees and families of deceased public servants with their entitlements. The source provides the approved amounts and beneficiary breakdown but does not specify the date on which individual beneficiaries will receive the funds."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7224,7 +7224,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7257,7 +7257,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7290,7 +7290,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7323,7 +7323,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7356,7 +7356,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7389,7 +7389,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7422,7 +7422,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7455,7 +7455,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7481,14 +7481,14 @@
       "story_body": [
         "The meeting took place at the Old Government House in Rayfield, Jos. Welby, who retired as Archbishop of Canterbury in January 2025, spoke about his longstanding relationship with Nigeria and his previous visits to the region.",
         "Governor Mutfwang highlighted the role of faith leaders in promoting unity, compassion and support for communities facing difficult circumstances. He said the value of faith should be reflected in service to people in need.",
-        "The governor also discussed a ₦1.5 billion joint intervention involving the First Lady of Nigeria, Oluremi Tinubu, and the Plateau State Government. According to the state account, the intervention is intended to empower victims of violent attacks, support recovery, facilitate the return of internally displaced persons and rebuild livelihoods.",
+        "The governor also discussed a \u20a61.5 billion joint intervention involving the First Lady of Nigeria, Oluremi Tinubu, and the Plateau State Government. According to the state account, the intervention is intended to empower victims of violent attacks, support recovery, facilitate the return of internally displaced persons and rebuild livelihoods.",
         "Welby reflected on the responsibilities associated with public leadership and encouraged continued attention to peacebuilding, compassion and protection of vulnerable people. He referred to experiences from his international peace missions and his role during the coronation of King Charles III.",
-        "The meeting did not announce a new project or funding agreement involving Welby. The documented engagement centred on peace, humanitarian concerns, interfaith relations and support for affected communities, while the state government reiterated its account of the ongoing ₦1.5 billion intervention."
+        "The meeting did not announce a new project or funding agreement involving Welby. The documented engagement centred on peace, humanitarian concerns, interfaith relations and support for affected communities, while the state government reiterated its account of the ongoing \u20a61.5 billion intervention."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7521,7 +7521,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -7545,7 +7545,7 @@
       "lead_narrative": "Abia State Governor Alex Otti has used the presentation of a book marking Ohaneze Ndigbo's 50-year history to discuss institutional memory, leadership renewal, generational transition and the organisation's future relevance.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "Otti delivered the speech at the September 22 public presentation in Ikeja, Lagos, of Agbaeze Ireke Kalu Onuma's book, “Ohaneze at 50: The Burden of Memory, The Politics of Relevance: A Critical Biographical Reflection of an Igbo Institution.” The governor framed the publication as an examination of memory, identity, leadership, responsibility and institutional relevance.",
+        "Otti delivered the speech at the September 22 public presentation in Ikeja, Lagos, of Agbaeze Ireke Kalu Onuma's book, \u201cOhaneze at 50: The Burden of Memory, The Politics of Relevance: A Critical Biographical Reflection of an Igbo Institution.\u201d The governor framed the publication as an examination of memory, identity, leadership, responsibility and institutional relevance.",
         "According to Otti, the book reviews Ohaneze's history, leadership transitions, internal disagreements, relationship with political authority and continuing effort to define its role in Nigeria. He said the work raises questions about institutional renewal and the relationship between leadership and the people represented by an organisation.",
         "The governor particularly highlighted generational transition and the need for institutions to respond to younger people's aspirations, technology, innovation and the global Igbo diaspora. He used the author's iroko metaphor to illustrate the relationship between institutional roots and continued growth.",
         "Otti said the book does not merely recount history but challenges readers to consider what remains undone and whether institutions are sufficiently responsive to contemporary conditions. He also described the publication as an opportunity for reflection as Ohaneze reaches its 50th year.",
@@ -7554,7 +7554,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
