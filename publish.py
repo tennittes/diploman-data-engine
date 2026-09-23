@@ -12,7 +12,7 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
-BATCH_LIMIT = 3
+BATCH_LIMIT = 4
 
 def get_blogger_service():
     creds = Credentials(
