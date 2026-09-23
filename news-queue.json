@@ -6703,7 +6703,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-13",
-      "published": false,
+      "published": true,
       "title": "Niger CAN Calls for Thorough Investigation into Deaths of 37 Artisanal Miners",
       "labels": [
         "News Report",
@@ -6736,7 +6736,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-14",
-      "published": false,
+      "published": true,
       "title": "IBBU Lapai Says ASUU Strike May End Soon as Niger Clears N300m of Outstanding Dues",
       "labels": [
         "News Report",
