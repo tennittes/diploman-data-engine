@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "activeMonth": "September 2026",
 
   "globalCodeData_B1": [
@@ -5576,6 +5576,598 @@
     "stateKey": "TARABA",
     "stateName": "Taraba State",
     "displayDate": "Wednesday, September 23, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ENUGU",
+    "stateName": "Enugu State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Enugu Air Launches Inaugural International Flight to Douala, Opening Central African Corridor",
+    "psi": 9.6,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Enugu Air Launches Inaugural International Flight to Douala, Opening Central African Corridor",
+      "whatHappened": "Governor Peter Mbah officially launched Enugu Air's maiden international route from Akanu Ibiam International Airport in Enugu to Douala, Cameroon, linking South-East commercial networks directly with Central Africa.",
+      "whyItMatters": "This 9.6 PSI Optimum Signal milestone expands subnational aviation infrastructure, shortens regional supply chains, and positions Enugu as an international economic gateway."
+    },
+    "intent": "Expanding regional aviation connectivity, boosting cross-border commercial trade, and positioning Enugu as a regional logistics hub."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Sanwo-Olu Hosts UN Climate Roundtable; UNU-EHS Partner on Disaster Financing",
+    "psi": 9.5,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Sanwo-Olu Hosts UN Climate Roundtable; UNU-EHS Partner on Disaster Financing",
+      "whatHappened": "Governor Babajide Sanwo-Olu convened a high-level climate roundtable with UN networks and Africa-Caribbean partners, while Office of SDGs and LASEMA engaged UNU-EHS on disaster risk financing and Tourism Ministry scheduled an October CBT workshop.",
+      "whyItMatters": "This 9.5 PSI Optimum Signal multi-pronged initiative strengthens coastal infrastructure protection, disaster risk financing, and grassroots sustainable tourism."
+    },
+    "intent": "Securing disaster risk financing, strengthening coastal climate resilience, and promoting community-based tourism."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "National Economic Council Delegation Commences Field Tracking of Priority Infrastructure in Jos",
+    "psi": 9.3,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "National Economic Council Delegation Commences Field Tracking of Priority Infrastructure in Jos",
+      "whatHappened": "Planning Commissioner Ishaku Maren received the NEC Implementation Monitoring Committee led by Prof. Jerom Andoho to begin a 2-day site inspection auditing social protection, legacy infrastructure, and environmental templates.",
+      "whyItMatters": "This 9.3 PSI Optimum Signal audit reconciles state-level capital project delivery with federal standards, reinforcing public spending accountability."
+    },
+    "intent": "Auditing subnational infrastructure progress, aligning with federal resolutions, and ensuring fiscal project compliance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Zamfara Government Signs Air Route MoU with XEJet for Bi-Weekly Abuja-Gusau Flights",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Zamfara Government Signs Air Route MoU with XEJet for Bi-Weekly Abuja-Gusau Flights",
+      "whatHappened": "Deputy Governor Mani Mummuni chaired the signing of an Air Route Development MoU with XEJet Limited to commence scheduled bi-weekly flights between Gusau International Airport and Abuja starting October 2026.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal agreement commercializes Gusau's new aviation infrastructure, facilitating investor access and regional economic development."
+    },
+    "intent": "Operationalizing state aviation infrastructure, improving investor access, and driving regional economic mobility."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "YOBE",
+    "stateName": "Yobe State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Yobe Showcases Agro-Industrial & Energy Assets at UNGA 81, Engages Dangote & UN Youth Office",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Yobe Showcases Agro-Industrial & Energy Assets at UNGA 81, Engages Dangote & UN Youth Office",
+      "whatHappened": "SSG Dr. Mohammed Goje presented Yobe's investment opportunities under its 2023 PPP Law at UNGA 81, engaging Aliko Dangote on victim support portfolios, UN Youth Office on a Germany town hall, and joining the Accra Reset health launch.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal diplomatic campaign attracts international private investment into Yobe's sesame processing, livestock hubs, and health systems."
+    },
+    "intent": "Attracting foreign direct investment, expanding agro-industrial processing, and securing multilateral youth partnerships."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Benue Government and ASUTIBS Sign MoU on 25/35 Salary Structure to Resolve Strike",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Benue Government and ASUTIBS Sign MoU on 25/35 Salary Structure to Resolve Strike",
+      "whatHappened": "Acting Head of Service Dr. Ihu and ASUTIBS Chairman Dr. Ate Agera signed an MoU guaranteeing full implementation of the 25/35 salary structure and arrears payout for polytechnic and college of education lecturers.",
+      "whyItMatters": "This 8.9 PSI High Signal labor agreement resolves tertiary education industrial disputes, paving the way for immediate resumption of academic activities."
+    },
+    "intent": "Resolving academic industrial strikes, fulfilling wage commitments, and restoring tertiary institution stability."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Sule Advocates Africa-Caribbean Climate-Risk Financing Frameworks at UNGA 81",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Sule Advocates Africa-Caribbean Climate-Risk Financing Frameworks at UNGA 81",
+      "whatHappened": "Governor Abdullahi Sule addressed the 'Redefining Influence, Accelerating Action' dialogue in New York alongside Lagos State and UN Global Compact, calling for innovative subnational climate risk financing and coastal insurance.",
+      "whyItMatters": "This 8.8 PSI High Signal international engagement aligns subnational infrastructure planning with global climate risk capital."
+    },
+    "intent": "Mobilizing climate resilience funding, advancing subnational financing frameworks, and strengthening international partnerships."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "EBONYI",
+    "stateName": "Ebonyi State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Nwifuru Mandates Fiscal Prudence for Local Government Chairmen at Abakaliki Summit",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Nwifuru Mandates Fiscal Prudence for Local Government Chairmen at Abakaliki Summit",
+      "whatHappened": "Governor Francis Nwifuru opened a 3-day capacity building workshop in Abakaliki for LGA Chairmen, Vice Chairmen, and Treasurers, demanding strict resource management under the People's Charter of Needs Agenda.",
+      "whyItMatters": "This 8.7 PSI High Signal administrative intervention reinforces local government public finance management and anti-corruption oversight."
+    },
+    "intent": "Enforcing subnational fiscal accountability, capacity building for local officials, and implementing community-driven development."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Edo Government Guarantees 8% Pension Refund for Workers Migrated from CPS to DBS",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo Government Guarantees 8% Pension Refund for Workers Migrated from CPS to DBS",
+      "whatHappened": "Pension Bureau Permanent Secretary Washington Abbe announced that workers migrated from CPS to Defined Benefit Scheme will receive full refunds of their 8% contributions, while state 10% matching funds reallocate to pension liabilities.",
+      "whyItMatters": "This 8.6 PSI High Signal policy guarantees civil servant financial protection during scheme transitions and corrects PENCOM PIN reconciliation delays."
+    },
+    "intent": "Protecting public worker pension rights, ensuring transparent pension scheme migration, and resolving administrative remittance bottlenecks."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Fintiri Swears In Energy Commissioner and Senior Special Adviser, Demands Prudence",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Fintiri Swears In Energy Commissioner and Senior Special Adviser, Demands Prudence",
+      "whatHappened": "Governor Ahmadu Umaru Fintiri swore in Bramsy Samuel Caleb as Energy Development Commissioner and Isa Alhaji Hamidu as Senior Special Adviser, issuing strict directives against nepotism and financial recklessness.",
+      "whyItMatters": "This 8.5 PSI High Signal executive inauguration accelerates energy sector policy execution while enforcing anti-corruption standards."
+    },
+    "intent": "Strengthening state energy sector leadership, enforcing public service integrity, and accelerating project execution."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Bago Inaugurates 9-Man Judicial Commission to Investigate Deaths of 37 Miners",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Bago Inaugurates 9-Man Judicial Commission to Investigate Deaths of 37 Miners",
+      "whatHappened": "Governor Umaru Bago inaugurated a 9-member Judicial Commission of Inquiry chaired by Justice Muhammad S.A. Muhammad to investigate the circumstances surrounding the deaths of 37 persons in NSCDC custody within 4 weeks.",
+      "whyItMatters": "This 8.4 PSI High Signal action upholds human rights accountability, establishes judicial facts, and addresses severe public safety concerns."
+    },
+    "intent": "Investigating custodial fatalities, enforcing legal accountability, and safeguarding citizen rights."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "FCT ABUJA",
+    "stateName": "FCT Abuja",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "PDP Board of Trustees Pays Condolence Visit to Wike, Passes Vote of Confidence",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "PDP Board of Trustees Pays Condolence Visit to Wike, Passes Vote of Confidence",
+      "whatHappened": "PDP BoT delegation led by Senator Mao Ohuabunwa visited FCT Minister Nyesom Wike to condole over Chief Dan Orbih's death, endorsing his performance while Wike reaffirmed backing President Tinubu in 2027.",
+      "whyItMatters": "This 8.3 PSI High Signal political alignment stabilizes governance focus and reinforces cross-party administrative consensus in the capital."
+    },
+    "intent": "Maintaining political stability, managing inter-party relations, and aligning subnational political leadership."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Governor Alex Otti Delivers Keynote at 24th Fafunwa Educational Foundation Symposium in Lagos",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Alex Otti Delivers Keynote at 24th Fafunwa Educational Foundation Symposium in Lagos",
+      "whatHappened": "Governor Alex Otti delivered an address at MUSON Centre Lagos advocating indigenous language instruction in early education and celebrating Prof. Okey Ndibe's new mini-biography on Prof. Babs Fafunwa.",
+      "whyItMatters": "This 8.2 PSI High Signal policy engagement shapes national educational reform dialogues and early childhood learning frameworks."
+    },
+    "intent": "Advancing foundational education policy, supporting indigenous language learning, and driving human capital reform."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Oyo Government Highlights Completion of Over 900 km Road Infrastructure Network Since 2019",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Oyo Government Highlights Completion of Over 900 km Road Infrastructure Network Since 2019",
+      "whatHappened": "Oyo State Government published comprehensive progress tracking confirming over 900 km of completed and ongoing road projects connecting rural and urban communities.",
+      "whyItMatters": "This 8.0 PSI High Signal report verifies continuous capital expenditure execution and transport corridor expansion."
+    },
+    "intent": "Demonstrating infrastructure execution, improving community road connectivity, and publishing transparent project metrics."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+      "whatHappened": "State executive administration continued baseline operations across ministries and local government councils.",
+      "whyItMatters": "Maintains continuous public service delivery across administrative departments."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+      "whatHappened": "State administrative machinery maintained standard civil service workflows across local government areas.",
+      "whyItMatters": "Sustains public administrative continuity and routine service delivery."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+    "psi": 7.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained",
+      "whatHappened": "Routine ministerial operations and environmental maintenance activities continued across Birnin Kebbi and councils.",
+      "whyItMatters": "Ensures baseline operational stability across state institutions."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ANAMBRA",
+    "stateName": "Anambra State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "BAUCHI",
+    "stateName": "Bauchi State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "IMO",
+    "stateName": "Imo State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "JIGAWA",
+    "stateName": "Jigawa State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KANO",
+    "stateName": "Kano State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KOGI",
+    "stateName": "Kogi State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "KWARA",
+    "stateName": "Kwara State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "RIVERS",
+    "stateName": "Rivers State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "SOKOTO",
+    "stateName": "Sokoto State",
+    "displayDate": "Thursday, September 24, 2026",
+    "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+    "psi": 3.0,
+    "intensity": "LOW",
+    "momentum": "Baseline",
+    "impactMatrix": {
+      "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
+      "whatHappened": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+      "whyItMatters": "Maintains baseline public service administration during quiet reporting cycles."
+    },
+    "intent": "Sustaining baseline civil service operations and administrative maintenance."
+  },
+  {
+    "dayNumber": 24,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Thursday, September 24, 2026",
     "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded",
     "psi": 3.0,
     "intensity": "LOW",
@@ -13478,6 +14070,737 @@
         "securityAnalysis": null
       }
      ]
+    },
+    "24": {
+    "date": "2026-09-24",
+    "formattedDate": "September 24, 2026",
+    "metadata": {
+      "compositePsi": 8.3,
+      "activeJurisdictionsCount": 17,
+      "unlistedJurisdictionsCount": 20,
+      "unlistedNote": "The 20 unlisted jurisdictions (Akwa Ibom, Anambra, Bauchi, Bayelsa, Borno, Delta, Ekiti, Gombe, Imo, Jigawa, Kano, Katsina, Kogi, Kwara, Ogun, Ondo, Osun, Rivers, Sokoto, Taraba) remained monitored under baseline administrative maintenance during this active reporting cycle.",
+      "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+    },
+    "reportTitles": {
+      "headlines": {
+        "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 17 Active Jurisdictions Across Nigeria",
+        "subtitle": "Consolidated Policy Signal Index (PSI) & State Impact Score (SIS) Daily Briefing.",
+        "summary": "Subnational executive momentum on September 24, 2026, recorded an 8.3 PSI net composite average, led by Enugu Air's maiden international service to Cameroon, Lagos's UNGA 81 climate resilience & disaster financing initiatives, Plateau's NEC capital project audit, Zamfara's Abuja-Gusau commercial aviation MoU, Yobe's PPP agro-industrial investment presentation at UNGA 81, and Benue's 25/35 wage pact with tertiary institution union ASUTIBS."
+      },
+      "security": {
+        "title": "Subnational Advisory Profile Demonstrates High-Alpha Opportunities Amid Secure Aviation, Maritime, and Agrarian Corridors",
+        "summary": "Comprehensive subnational risk analysis for September 24, 2026, evaluating Security Incident Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's commercial, maritime, and agrarian corridors."
+      },
+      "policy": {
+        "title": "Subnational Executive Momentum Reaches 8.3 Net Composite Average Across International Aviation, Climate Risk Financing, and Academic Wage Reforms",
+        "summary": "Nigeria’s state executives record an 8.3 net PSI composite average on September 24, 2026, driven by high-velocity governance across regional air corridor connectivity, UNGA 81 climate diplomacy, national economic policy tracking, and tertiary labor dispute resolutions."
+      }
+    },
+    "macroAnalysis": {
+      "policy": {
+        "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded strong operational momentum during the active reporting window ending September 24, 2026. The 37-jurisdiction net Policy Signal Index (PSI) baseline settled at a high composite average of 8.3, reflecting focused executive commitment to regional transport connectivity, climate resilience financing at international forums, capital project execution audits, and public sector wage stability.\n\nAcross active geopolitical zones, state governors and executive councils demonstrated administrative leadership by translating strategic intent into tangible economic and social interventions. From Enugu Air's inaugural regional flight to Douala and Lagos State's climate risk financing partnerships to Plateau's NEC field audits, Zamfara's commercial air route agreement, Yobe's PPP investment outreach at UNGA 81, and Benue's 25/35 tertiary wage agreement, subnational governance displayed robust momentum aimed at sustainable economic development.",
+        "emergingPatterns": "The active reporting window reveals a decisive strategy among subnational executives to pair heavy physical transport infrastructure with targeted climate resilience, public finance accountability, and multilateral diplomatic engagements. State governments are simultaneously driving regional connectivity—such as international flight routes and commercial route partnerships—while executing local interventions including judicial inquiries into custody fatalities, local government fiscal audits, and pension scheme transition refunds.",
+        "strategicOutlook": "Sustaining current subnational performance will require continuous infrastructure maintenance, proactive risk management along trade corridors, and transparent public finance mechanisms. States that successfully combine private sector partnerships with fiscal transparency will effectively attract long-term commercial capital and accelerate regional integration.",
+        "conclusion": "The subnational executive governance landscape for September 24, 2026, reflects measurable progress and institutional alignment. By grounding policy in regional connectivity, climate adaptation, and labor harmony, Nigeria’s subnational executives continue to strengthen the foundations of sustainable growth."
+      },
+      "security": {
+        "introduction": "The subnational investment and operational risk landscape across Nigeria’s 36 States and the Federal Capital Territory for September 24, 2026, demonstrates physical stability, with primary economic centers displaying secure metrics and favorable risk-reward dynamics. Institutional investors, development finance institutions, and corporate entities navigating subnational markets can access growth opportunities in aviation logistics, renewable energy, manufacturing, and civil infrastructure across jurisdictions that maintain low operational friction.\n\nThrough the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index (PSI), raw Security Incident Score (SIS), Risk Indicator classification, and derived Investment Decision Profile. This multi-dimensional risk matrix offers clear strategic guidance for institutional capital deployment across key geopolitical zones.",
+        "emergingPatterns": "Subnational security mapping indicates that commercial, aviation, and coastal hubs maintain highly stable SECURE (SIS < 3.0) environments ideal for capital deployment, infrastructure projects, and cross-border trade. In contrast, agrarian transit and northern corridors require active risk oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in agribusiness, mineral extraction, and transport logistics must be paired with tactical security coordination and local community engagement.",
+        "strategicOutlook": "Corporate decision-makers and private equity funds should prioritize subnational jurisdictions that combine high executive policy signals with secure transport corridors. Investments in regional air travel hubs, climate risk management, and public health infrastructure will yield strong risk-adjusted returns when aligned with verified state-level executive priorities.",
+        "conclusion": "Navigating Nigeria’s subnational economy requires rigorous, metric-backed evaluation. By aligning capital allocation with verified Policy Signal Index ratings and Security Incident Scores, institutional investors can capture subnational growth while maintaining effective risk management."
+      }
+    },
+    "corridorGroups": [
+      {
+        "groupTitle": "Maritime, Aviation, and Commercial Transport Hubs",
+        "states": ["Enugu", "Lagos", "Edo", "Abia"]
+      },
+      {
+        "groupTitle": "Coastal Energy, Security Alignment, and Governance Corridors",
+        "states": ["FCT Abuja", "Oyo", "Nasarawa", "Cross River"]
+      },
+      {
+        "groupTitle": "Agrarian Corridors, Health Security, and Public Infrastructure",
+        "states": ["Ebonyi", "Benue", "Plateau", "Adamawa"]
+      },
+      {
+        "groupTitle": "Frontier Security, Social Welfare, and Emergency Protocols",
+        "states": ["Zamfara", "Yobe", "Niger", "Kaduna", "Kebbi"]
+      }
+    ],
+    "jurisdictions": [
+      {
+        "state": "Enugu",
+        "governor": "Peter Mbah",
+        "metrics": {
+          "psiScore": 9.6,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 2.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Enugu Air Launches Inaugural International Flight to Douala, Opening Central African Corridor.",
+        "impactVector": "Governor Peter Mbah officially launched Enugu Air's maiden international route from Akanu Ibiam International Airport in Enugu to Douala, Cameroon, connecting South-East commercial networks directly with Central Africa.",
+        "policyBreakdown": {
+          "category": "Subnational Aviation Infrastructure, Cross-Border Trade Expansion, and Regional Economic Integration",
+          "body": "In Enugu State, Governor Peter Mbah officially flagged off Enugu Air's inaugural international flight service operating from Akanu Ibiam International Airport in Enugu to Douala, Cameroon. The strategic route connects South-East Nigeria's commercial hub directly with Central Africa's premier trade gateway, dismantling long-standing trade barriers, shortening regional supply chains, and positioning Enugu as an international economic hub. Earning an OPTIMUM SIGNAL (9.6 PSI / Accelerating Momentum), Enugu transforms state aviation into a catalyst for cross-border commerce."
+        },
+        "securityAnalysis": "Enugu State (9.6 PSI / Optimum Signal / SIS 2.2 / SECURE / High-Alpha / Prime Alpha Opportunity) offers high security stability, enabling seamless operations for international aviation hubs and regional trade logistics."
+      },
+      {
+        "state": "Lagos",
+        "governor": "Babajide Sanwo-Olu",
+        "metrics": {
+          "psiScore": 9.5,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 1.2,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Sanwo-Olu Hosts UN Climate Roundtable; UNU-EHS Partner on Disaster Risk Financing.",
+        "impactVector": "Governor Babajide Sanwo-Olu convened a climate roundtable with UN networks and Africa-Caribbean partners, while the Office of SDGs and LASEMA engaged UNU-EHS on disaster financing, and Tourism Ministry scheduled an October CBT workshop.",
+        "policyBreakdown": {
+          "category": "Coastal Climate Adaptation, Disaster Risk Financing, and Community-Based Tourism Governance",
+          "body": "In Lagos State, Governor Babajide Sanwo-Olu hosted a high-level climate roundtable with the UN Global Compact Networks and Africa-Caribbean partners focused on coastline protection and pre-disaster financing. Simultaneously, the Office of SDGs and LASEMA engaged a delegation from the United Nations University (UNU-EHS), led by Dr. Habeeb Okunola, to establish data-driven disaster risk financing mechanisms. Concurrently, Permanent Secretary Mrs. Bopo Oyekan-Ismaila announced a Ministry of Tourism workshop set for October 8, 2026, to expand Community-Based Tourism across LGAs and LCDAs. Earning an OPTIMUM SIGNAL (9.5 PSI / Accelerating Momentum), Lagos integrates global climate finance with grassroots economic development."
+        },
+        "securityAnalysis": "Lagos State (9.5 PSI / Optimum Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains top-tier physical security, providing a highly stable environment for international development investments."
+      },
+      {
+        "state": "Plateau",
+        "governor": "Caleb Mutfwang",
+        "metrics": {
+          "psiScore": 9.3,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "National Economic Council Delegation Commences Field Tracking of Priority Infrastructure in Jos.",
+        "impactVector": "Budget and Economic Planning Commissioner Ishaku Maren received the NEC Implementation Monitoring Committee, led by Prof. Jerom Andoho, to commence a 2-day field tracking exercise on state legacy projects and social protection frameworks.",
+        "policyBreakdown": {
+          "category": "Subnational Project Performance Audit, National Economic Council Compliance, and Social Protection Oversight",
+          "body": "In Plateau State, a delegation from the National Economic Council (NEC) Implementation Monitoring Committee (IMC), led by Benue Budget Commissioner Prof. Jerom Andoho and received by Plateau Budget Commissioner Hon. Ishaku Maren, kicked off a comprehensive two-day field tracking exercise in Jos. The exercise evaluates local implementation of federal resolutions, including the National Social Protection Bill, environmental templates, and major legacy infrastructure across designated local government areas. Earning an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum), Plateau reinforces alignment with national economic benchmarks."
+        },
+        "securityAnalysis": "Plateau State (9.3 PSI / Optimum Signal / SIS 3.6 / MONITORED / Growth-Oriented / Caution) manages active security monitoring while facilitating rigorous federal audit tracking across state infrastructure sites."
+      },
+      {
+        "state": "Zamfara",
+        "governor": "Dauda Lawal",
+        "metrics": {
+          "psiScore": 9.2,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 4.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Zamfara Government Signs Air Route MoU with XEJet for Bi-Weekly Abuja-Gusau Flights.",
+        "impactVector": "Deputy Governor Mani Mummuni chaired the signing of an Air Route Development MoU with XEJet Limited, represented by SSG Abubakar Nakwada, to establish bi-weekly commercial flights connecting Gusau and Abuja from October 2026.",
+        "policyBreakdown": {
+          "category": "Aviation Infrastructure Commercialization, Air Route Development, and Private Sector Investment Activation",
+          "body": "In Zamfara State, the State Government executed an Air Route Development Partnership Agreement with XEJet Limited to initiate scheduled commercial flights between Gusau International Airport and Nnamdi Azikiwe International Airport, Abuja. Chaired by Deputy Governor Malam Mani Mummuni and signed by SSG Malam Abubakar Mohammed Nakwada, the agreement establishes bi-weekly flights starting October 2026, leveraging the newly built airport infrastructure to facilitate business, investment, and economic growth. Earning an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum), Zamfara expands state transport accessibility."
+        },
+        "securityAnalysis": "Zamfara State (9.2 PSI / Optimum Signal / SIS 4.8 / MONITORED / Growth-Oriented / Caution) maintains active security monitoring while commercializing state aviation infrastructure in the capital corridor."
+      },
+      {
+        "state": "Yobe",
+        "governor": "Mai Mala Buni",
+        "metrics": {
+          "psiScore": 9.1,
+          "psiSignalLevel": "OPTIMUM SIGNAL",
+          "psiMomentum": "Accelerating",
+          "sisScore": 4.5,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Yobe Showcases Agro-Industrial Assets at UNGA 81, Engages Dangote & UN Youth Office.",
+        "impactVector": "SSG Dr. Mohammed Goje presented Yobe's investment opportunities under its 2023 PPP Law at UNGA 81, engaging Aliko Dangote on victim portfolios, UN Youth Office on a Germany town hall, and joining the Accra Reset health launch.",
+        "policyBreakdown": {
+          "category": "Public-Private Partnership Promotion, Agro-Industrial Asset Attraction, and Global Youth & Health Diplomacy",
+          "body": "In Yobe State, Governor Mai Mala Buni, represented by SSG Dr. Mohammed Goje, presented the state's investment agenda at the 2026 UN General Assembly in New York, highlighting 1.6m hectares of arable land, four sesame processing plants, and livestock hubs under the Yobe PPP Law 2023. The delegation engaged industrialist Aliko Dangote on income-generating portfolios for conflict victims, held talks with the UN Youth Office for participation in a Germany town hall and boot camp, and participated in the Accra Reset health sovereignty launch with former President Obasanjo. Earning an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum), Yobe drives international investment outreach."
+        },
+        "securityAnalysis": "Yobe State (9.1 PSI / Optimum Signal / SIS 4.5 / MONITORED / Growth-Oriented / Caution) balances active security monitoring across rural zones with structured foreign direct investment outreach at global forums."
+      },
+      {
+        "state": "Benue",
+        "governor": "Hyacinth Alia",
+        "metrics": {
+          "psiScore": 8.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Benue Government and ASUTIBS Sign MoU on 25/35 Salary Structure to Resolve Strike.",
+        "impactVector": "Acting Head of Service Dr. Ihu and ASUTIBS Chairman Dr. Ate Agera signed an MoU guaranteeing full implementation of the approved 25/35 salary structure and arrears payout for polytechnic and college lecturers.",
+        "policyBreakdown": {
+          "category": "Tertiary Labor Dispute Resolution, Civil Service Salary Structure Implementation, and Educational Sector Stabilization",
+          "body": "In Benue State, the State Government signed a Memorandum of Understanding with the Academic Staff Union of Tertiary Institutions of Benue State (ASUTIBS) for the full implementation of the approved 25/35 salary structure and payment of outstanding arrears. Signed by Acting Head of Service Dr. Ihu and Commissioners for Finance and Education alongside ASUTIBS Chairman Dr. Ate Agera, the agreement resolves the ongoing industrial action, paving the way for immediate resumption of academic activities across state polytechnics and colleges of education. Earning a HIGH SIGNAL (8.9 PSI / Advancing Momentum), Benue restores stability to state tertiary education."
+        },
+        "securityAnalysis": "Benue State (8.9 PSI / High Signal / SIS 3.9 / MONITORED / Growth-Oriented / Caution) maintains active security monitoring while restoring industrial peace across tertiary education campuses."
+      },
+      {
+        "state": "Nasarawa",
+        "governor": "Abdullahi Sule",
+        "metrics": {
+          "psiScore": 8.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Governor Sule Advocates Africa-Caribbean Climate-Risk Financing Frameworks at UNGA 81.",
+        "impactVector": "Governor Abdullahi Sule addressed the 'Redefining Influence, Accelerating Action' dialogue in New York alongside Lagos State and UN Global Compact, calling for subnational climate risk financing and coastal insurance.",
+        "policyBreakdown": {
+          "category": "Subnational Climate Finance Advocacy, Africa-Caribbean Strategic Partnerships, and Multilateral Development",
+          "body": "In Nasarawa State, Governor Engr. Abdullahi A. Sule spoke at the high-level 'Redefining Influence, Accelerating Action' dialogue organized during UNGA 81 in New York by the UN Global Compact Networks of Nigeria and the Caribbean in partnership with Lagos State. Governor Sule advocated for stronger Africa-Caribbean collaboration on climate-risk financing, innovative infrastructure capital, and practical subnational policy execution, specifically highlighting the 'Insuring Our Coastlines' initiative. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), Nasarawa advances subnational climate resilience."
+        },
+        "securityAnalysis": "Nasarawa State (8.8 PSI / High Signal / SIS 2.6 / SECURE / Growth-Oriented / Balanced Expansion) displays physical security stability, supporting executive participation in global financing forums."
+      },
+      {
+        "state": "Ebonyi",
+        "governor": "Francis Ogbonna Nwifuru",
+        "metrics": {
+          "psiScore": 8.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Nwifuru Mandates Fiscal Prudence for Local Government Chairmen at Abakaliki Summit.",
+        "impactVector": "Governor Francis Nwifuru opened a 3-day capacity building workshop in Abakaliki for LGA Chairmen, Vice Chairmen, and Treasurers, demanding strict resource management under the People's Charter of Needs Agenda.",
+        "policyBreakdown": {
+          "category": "Local Government Public Finance Discipline, Human Capital Capacity Building, and Citizen-Centric Governance",
+          "body": "In Ebonyi State, Governor Francis Ogbonna Nwifuru declared open a 3-day capacity building workshop in Abakaliki for Local Government Chairmen, Vice Chairmen, Heads of Personnel Management, Treasurers, and Development Centre Coordinators. Organized with lead consultant Theodore Anazodo and law enforcement resource speakers, the Governor urged public officers to practice strict fiscal prudence, eliminate financial waste, and align administrative spending with the People's Charter of Needs Agenda. Earning a HIGH SIGNAL (8.7 PSI / Advancing Momentum), Ebonyi strengthens subnational fiscal discipline."
+        },
+        "securityAnalysis": "Ebonyi State (8.7 PSI / High Signal / SIS 2.5 / SECURE / High-Alpha / Prime Alpha Opportunity) offers solid security stability, facilitating statewide public administration capacity programs."
+      },
+      {
+        "state": "Edo",
+        "governor": "Monday Okpebholo",
+        "metrics": {
+          "psiScore": 8.6,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.3,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Edo Government Guarantees 8% Pension Refund for Workers Migrated from CPS to DBS.",
+        "impactVector": "Pension Bureau Permanent Secretary Washington Abbe announced that workers migrated from CPS to Defined Benefit Scheme will receive full refunds of their 8% contributions, while state 10% matching funds reallocate to pension liabilities.",
+        "policyBreakdown": {
+          "category": "Pension Transition Governance, Public Servant Welfare Protection, and Statutory Remittance Reconciliation",
+          "body": "In Edo State, Permanent Secretary of the Edo State Pension Bureau Mr. Washington Abbe confirmed that civil servants recently migrated from the Contributory Pension Scheme (CPS) to the Defined Benefit Scheme (DBS) will receive a full refund of their 8% pension contributions. He clarified that the government's 10% matching funds will be reallocated to liquidate general pension liabilities, while explaining that delay in CPS remittances since January 2025 resulted from PENCOM's new PIN reconciliation process through a designated intermediary. Earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum), Edo ensures transparent civil service pension management."
+        },
+        "securityAnalysis": "Edo State (8.6 PSI / High Signal / SIS 2.3 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains physical security stability, fostering public service confidence during institutional pension transitions."
+      },
+      {
+        "state": "Adamawa",
+        "governor": "Ahmadu Umaru Fintiri",
+        "metrics": {
+          "psiScore": 8.5,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Fintiri Swears In Energy Commissioner and Senior Special Adviser, Demands Prudence.",
+        "impactVector": "Governor Ahmadu Umaru Fintiri swore in Bramsy Samuel Caleb as Energy Development Commissioner and Isa Alhaji Hamidu as Senior Special Adviser, issuing strict directives against nepotism and financial recklessness.",
+        "policyBreakdown": {
+          "category": "Executive Cabinet Expansion, Energy Sector Leadership, and Anti-Corruption Public Service Oversight",
+          "body": "In Adamawa State, Governor Ahmadu Umaru Fintiri swore in Bramsy Samuel Caleb as Commissioner for Energy Development and Isa Alhaji Hamidu as Senior Special Adviser at the Government House, Yola. Administered by Attorney-General Afraimu Jingi, the Governor issued a firm charge against corruption, nepotism, and financial recklessness, mandating the new appointees to prioritize transparency and efficiency as the administration consolidates long-term development projects. Earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum), Adamawa strengthens energy administration."
+        },
+        "securityAnalysis": "Adamawa State (8.5 PSI / High Signal / SIS 3.2 / MONITORED / Growth-Oriented / Caution) maintains active security monitoring while expanding executive leadership across core state sectors."
+      },
+      {
+        "state": "Niger",
+        "governor": "Mohammed Umaru Bago",
+        "metrics": {
+          "psiScore": 8.4,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.0,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Governor Bago Inaugurates 9-Man Judicial Commission to Investigate Deaths of 37 Miners.",
+        "impactVector": "Governor Umaru Bago inaugurated a 9-member Judicial Commission of Inquiry chaired by Justice Muhammad S.A. Muhammad to investigate the circumstances surrounding the deaths of 37 persons in NSCDC custody within 4 weeks.",
+        "policyBreakdown": {
+          "category": "Judicial Commission of Inquiry, Human Rights Protection, and Custodial Accountability Oversight",
+          "body": "In Niger State, Governor Mohammed Umaru Bago inaugurated a 9-member Judicial Commission of Inquiry to investigate the deaths of 37 persons while in the custody of the Nigeria Security and Civil Defence Corps (NSCDC) Niger State Command. Chaired by Justice Muhammad S.A. Muhammad of the High Court of Justice Minna, and constituted under Section 2 of the Commission of Inquiry Law CAP 27, the commission was given a 4-week mandate to examine the legality of custody, conditions of treatment, officer responsibility, and forensic evidence. Earning a HIGH SIGNAL (8.4 PSI / Advancing Momentum), Niger upholds institutional legal accountability."
+        },
+        "securityAnalysis": "Niger State (8.4 PSI / High Signal / SIS 4.0 / MONITORED / Growth-Oriented / Caution) tracks active security monitoring while investigating custodial deaths and regulating informal mining activity."
+      },
+      {
+        "state": "FCT Abuja",
+        "governor": "Nyesom Wike (Minister)",
+        "metrics": {
+          "psiScore": 8.3,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "PDP Board of Trustees Pays Condolence Visit to Wike, Passes Vote of Confidence.",
+        "impactVector": "PDP BoT delegation led by Senator Mao Ohuabunwa visited FCT Minister Nyesom Wike to condole over Chief Dan Orbih's death, endorsing his performance while Wike reaffirmed backing President Tinubu in 2027.",
+        "policyBreakdown": {
+          "category": "Inter-Party Stakeholder Engagement, Executive Governance Performance Endorsement, and Political Stability",
+          "body": "In FCT Abuja, a delegation of the Peoples Democratic Party (PDP) Board of Trustees, led by BoT Chairman Senator Mao Ohuabunwa alongside Senator Zainab Kure and Hon. Damishi Sango, visited FCT Minister Nyesom Wike to express condolences on the passing of Chief Dan Orbih. The BoT delegation passed an explicit vote of confidence in Minister Wike's administrative performance and capacity in office, while Minister Wike reaffirmed his commitment to President Bola Tinubu's reelection in 2027 while encouraging party participation at subnational levels. Earning a HIGH SIGNAL (8.3 PSI / Advancing Momentum), FCT maintains cross-party political consensus."
+        },
+        "securityAnalysis": "FCT Abuja (8.3 PSI / High Signal / SIS 1.5 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains top-tier security stability across administrative and political headquarters."
+      },
+      {
+        "state": "Abia",
+        "governor": "Alex Otti",
+        "metrics": {
+          "psiScore": 8.2,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 2.1,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Governor Alex Otti Delivers Keynote at 24th Fafunwa Educational Foundation Symposium in Lagos.",
+        "impactVector": "Governor Alex Otti delivered an address at MUSON Centre Lagos advocating indigenous language instruction in early education and celebrating Prof. Okey Ndibe's new mini-biography on Prof. Babs Fafunwa.",
+        "policyBreakdown": {
+          "category": "Educational Policy Reform, Mother-Tongue Pedagogical Advocacy, and Human Capital Thought Leadership",
+          "body": "In Abia State, Governor Alex C. Otti delivered a keynote address at the 24th Annual Lecture/Symposium of the Fafunwa Educational Foundation at the MUSON Centre, Lagos. Speaking on the theme of indigenous language instruction in early education, Governor Otti cited examples from China, South Korea, and India to demonstrate how early learning in mother tongues accelerates cognitive and technological development. The Governor also celebrated Prof. Okey Ndibe's new mini-biography on Prof. Babs Fafunwa, committing to procure copies for Abia schools. Earning a HIGH SIGNAL (8.2 PSI / Advancing Momentum), Abia contributes to national educational policy."
+        },
+        "securityAnalysis": "Abia State (8.2 PSI / High Signal / SIS 2.1 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains physical security stability, supporting educational reform initiatives and executive outreach."
+      },
+      {
+        "state": "Oyo",
+        "governor": "Seyi Makinde",
+        "metrics": {
+          "psiScore": 8.0,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Oyo Government Highlights Completion of Over 900 km Road Infrastructure Network Since 2019.",
+        "impactVector": "Oyo State Government published comprehensive progress tracking confirming over 900 km of completed and ongoing road projects connecting rural and urban communities.",
+        "policyBreakdown": {
+          "category": "Transport Infrastructure Delivery, Subnational Capital Execution, and Inter-Community Connectivity",
+          "body": "In Oyo State, the State Government published an official infrastructure progress update confirming the execution of over 900 kilometers of completed and ongoing road projects across the state since May 2019. The comprehensive road network connects agrarian rural communities with commercial urban hubs, reducing transit costs and stimulating intra-state economic activity. Earning a HIGH SIGNAL (8.0 PSI / Advancing Momentum), Oyo reinforces its capital project delivery record."
+        },
+        "securityAnalysis": "Oyo State (8.0 PSI / High Signal / SIS 1.7 / SECURE / Growth-Oriented / Balanced Expansion) features high physical security stability across its expanding transport corridors."
+      },
+      {
+        "state": "Cross River",
+        "governor": "Bassey Otu",
+        "metrics": {
+          "psiScore": 7.9,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 1.9,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with standard public service delivery across state council areas.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kaduna",
+        "governor": "Uba Sani",
+        "metrics": {
+          "psiScore": 7.8,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 3.8,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained.",
+        "impactVector": "Baseline administrative operations continued across state ministries, departments, and agencies without qualifying news releases in this cycle.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kebbi",
+        "governor": "Nasir Idris",
+        "metrics": {
+          "psiScore": 7.7,
+          "psiSignalLevel": "HIGH SIGNAL",
+          "psiMomentum": "Advancing",
+          "sisScore": 4.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: Baseline Institutional Operations Maintained.",
+        "impactVector": "Routine civil service activities and ongoing local government civil works continued under standard administrative oversight.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Akwa Ibom",
+        "governor": "Umo Eno",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Anambra",
+        "governor": "Chukwuma Soludo",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 3.1,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Bauchi",
+        "governor": "Bala Mohammed",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.3,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Bayelsa",
+        "governor": "Douye Diri",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Borno",
+        "governor": "Babagana Umara Zulum",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 5.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Delta",
+        "governor": "Sheriff Oborevwori",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ekiti",
+        "governor": "Biodun Oyebanji",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Gombe",
+        "governor": "Muhammadu Inuwa Yahaya",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.1,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Imo",
+        "governor": "Hope Uzodimma",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 3.4,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Jigawa",
+        "governor": "Umar Namadi",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.7,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kano",
+        "governor": "Abba Kabir Yusuf",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Katsina",
+        "governor": "Dikko Umaru Radda",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 3.9,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kogi",
+        "governor": "Ahmed Usman Ododo",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Kwara",
+        "governor": "AbdulRahman AbdulRazaq",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.5,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ogun",
+        "governor": "Dapo Abiodun",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.4,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Ondo",
+        "governor": "Lucky Aiyedatiwa",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Prime Alpha Opportunity"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Osun",
+        "governor": "Ademola Adeleke",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 1.6,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Rivers",
+        "governor": "Siminalayi Fubara",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 2.8,
+          "sisStatus": "SECURE",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Balanced Expansion"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Sokoto",
+        "governor": "Ahmed Aliyu",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 4.2,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "High-Alpha",
+          "investmentDecision": "Growth with Monitoring"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      },
+      {
+        "state": "Taraba",
+        "governor": "Agbu Kefas",
+        "metrics": {
+          "psiScore": 3.0,
+          "psiSignalLevel": "LOW SIGNAL",
+          "psiMomentum": "Baseline",
+          "sisScore": 3.6,
+          "sisStatus": "MONITORED",
+          "alphaProfile": "Growth-Oriented",
+          "investmentDecision": "Caution"
+        },
+        "headline": "Routine Administrative Cycle: No Strategic Sub-National Executive Signals Recorded.",
+        "impactVector": "Baseline civil service administrative operations continued under normal maintenance with no qualifying policy interventions recorded during the news window.",
+        "policyBreakdown": null,
+        "securityAnalysis": null
+      }
+     ]
     }
   },
 
@@ -19220,6 +20543,339 @@
   },
   {
     "dayNumber": 23,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 9.6,
+    "sis": 2.2,
+    "focus": "Enugu Air Inaugural International Flight to Douala, Cameroon",
+    "dailyBrief": "Governor Peter Mbah officially launched Enugu Air's maiden international route from Akanu Ibiam International Airport to Douala, Cameroon, connecting South-East trade directly to Central Africa."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.5,
+    "sis": 1.2,
+    "focus": "UN Climate Roundtable, UNU-EHS Disaster Risk Financing & Community Tourism",
+    "dailyBrief": "Governor Babajide Sanwo-Olu hosted a global climate roundtable on coastline protection, Office of SDGs/LASEMA partnered with UNU-EHS on disaster financing, and Tourism Ministry scheduled an October CBT workshop."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 9.3,
+    "sis": 3.6,
+    "focus": "National Economic Council Priority Project & Policy Implementation Tracking",
+    "dailyBrief": "Planning Commissioner Ishaku Maren received the NEC Implementation Monitoring Committee led by Prof. Jerom Andoho to begin a 2-day site inspection tracking social protection and legacy infrastructure."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 9.2,
+    "sis": 4.8,
+    "focus": "Air Route MoU Signing with XEJet for Scheduled Commercial Abuja-Gusau Flights",
+    "dailyBrief": "Deputy Governor Mani Mummuni chaired the signing of an Air Route Development MoU with XEJet Limited to commence bi-weekly scheduled flights between Gusau International Airport and Abuja from October 2026."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 9.1,
+    "sis": 4.5,
+    "focus": "UNGA 81 PPP Investment Agenda, Dangote Portfolio Talks & Health Sovereignty",
+    "dailyBrief": "SSG Dr. Mohammed Goje presented Yobe's PPP investment agenda at UNGA 81, engaged Aliko Dangote on victim support portfolios, met the UN Youth Office, and joined former President Obasanjo for Accra Reset health talks."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 8.9,
+    "sis": 3.9,
+    "focus": "MoU Execution with ASUTIBS on 25/35 Salary Structure & Strike Resolution",
+    "dailyBrief": "Acting Head of Service Dr. Ihu and ASUTIBS Chairman Dr. Ate Agera signed an MoU committing to full implementation of the approved 25/35 salary structure and arrears payout, resolving the tertiary strike."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.8,
+    "sis": 2.6,
+    "focus": "Africa-Caribbean Climate Risk Financing & Coastline Insurance Advocacy at UNGA 81",
+    "dailyBrief": "Governor Abdullahi Sule addressed the 'Redefining Influence, Accelerating Action' UNGA 81 dialogue in New York alongside Lagos State, calling for subnational climate-risk financing and coastal insurance."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 8.7,
+    "sis": 2.5,
+    "focus": "Local Government Council Fiscal Prudence & Public Resource Summit",
+    "dailyBrief": "Governor Francis Nwifuru opened a 3-day capacity building workshop in Abakaliki for LGA Chairmen and Treasurers, mandating strict fiscal prudence under the People's Charter of Needs Agenda."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.6,
+    "sis": 2.3,
+    "focus": "8% Pension Contribution Refund Assurance for CPS to DBS Migrated Workers",
+    "dailyBrief": "Pension Bureau Permanent Secretary Washington Abbe assured civil servants migrated from CPS to Defined Benefit Scheme of an 8% contribution refund, while explaining PENCOM PIN reconciliation delays."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 8.5,
+    "sis": 3.2,
+    "focus": "Energy Commissioner & Senior Special Adviser Swearing-In & Anti-Corruption Mandate",
+    "dailyBrief": "Governor Ahmadu Umaru Fintiri swore in Bramsy Samuel Caleb as Energy Development Commissioner and Isa Alhaji Hamidu as SSA, issuing strict directives against financial recklessness and nepotism."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 8.4,
+    "sis": 4.0,
+    "focus": "Judicial Commission of Inquiry Inauguration into 37 Custodial Fatalities",
+    "dailyBrief": "Governor Umaru Bago inaugurated a 9-man Judicial Commission of Inquiry chaired by Justice Muhammad S.A. Muhammad to investigate the deaths of 37 miners in NSCDC custody within a 4-week mandate."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 8.3,
+    "sis": 1.5,
+    "focus": "PDP Board of Trustees Condolence Visit & Governance Performance Endorsement",
+    "dailyBrief": "PDP BoT delegation led by Senator Mao Ohuabunwa visited FCT Minister Nyesom Wike to express condolences over Chief Dan Orbih and passed a vote of confidence in his administrative performance."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 8.2,
+    "sis": 2.1,
+    "focus": "Keynote Address at 24th Fafunwa Educational Foundation Symposium in Lagos",
+    "dailyBrief": "Governor Alex Otti delivered an address at MUSON Centre Lagos advocating indigenous language instruction in early childhood education and celebrating Prof. Okey Ndibe's new mini-biography."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 8.0,
+    "sis": 1.7,
+    "focus": "Over 900 km Road Infrastructure Progress Report & Community Connectivity",
+    "dailyBrief": "Oyo State Government published comprehensive progress tracking confirming over 900 km of completed and ongoing road projects connecting rural and urban communities across the state."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 7.9,
+    "sis": 1.9,
+    "focus": "Routine Civil Service & Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continued operating under standard civil service administration with routine public service maintenance across ministries."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 7.8,
+    "sis": 3.8,
+    "focus": "Routine Civil Service & Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continued operating under standard civil service administration with routine public service maintenance across ministries."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 7.7,
+    "sis": 4.2,
+    "focus": "Routine Civil Service & Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continued operating under standard civil service administration with routine public service maintenance across ministries."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal executive administrative processes with no verified strategic policy interventions recorded during the active reporting window."
+  },
+  {
+    "dayNumber": 24,
     "stateName": "Taraba",
     "zone": "North-East",
     "psi": 3.0,
