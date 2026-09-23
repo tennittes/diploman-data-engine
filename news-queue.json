@@ -6637,7 +6637,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-11",
-      "published": false,
+      "published": true,
       "title": "Ondo Appoints Micro Credit Agency Chairman, Second Batch of Aides",
       "labels": [
         "News Report",
@@ -6670,7 +6670,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-12",
-      "published": false,
+      "published": true,
       "title": "Niger Traditional Rulers Reaffirm Community Role After Deaths of 37 Artisanal Miners",
       "labels": [
         "News Report",
