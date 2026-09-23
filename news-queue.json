@@ -6769,7 +6769,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-15",
-      "published": false,
+      "published": true,
       "title": "Rivers Takes Investment Pitch to UNGA 81 as Fubara Highlights Oil, Gas and Emerging Sectors",
       "labels": [
         "News Report",
@@ -6802,7 +6802,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-16",
-      "published": false,
+      "published": true,
       "title": "Edo Civil Service Commission Begins Recruitment as 521 Candidates Advance to CBT",
       "labels": [
         "News Report",
@@ -6835,7 +6835,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-17",
-      "published": false,
+      "published": true,
       "title": "FCT Road Projects Target December Completion as Wike Inspects Critical Corridors",
       "labels": [
         "News Report",
@@ -6868,7 +6868,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-18",
-      "published": false,
+      "published": true,
       "title": "Delta Inaugurates Governing Councils for Three State Universities",
       "labels": [
         "News Report",
