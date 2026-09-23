@@ -6373,7 +6373,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-03",
-      "published": false,
+      "published": true,
       "title": "Kebbi Begins World Bank-Supported Gully and Flood Control Works in Birnin Kebbi",
       "labels": [
         "News Report",
@@ -6406,7 +6406,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-04",
-      "published": false,
+      "published": true,
       "title": "Ondo Reaches Wage Agreement with University Unions, Approves CONUASS Implementation",
       "labels": [
         "News Report",
