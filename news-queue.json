@@ -7297,7 +7297,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-31",
-      "published": false,
+      "published": true,
       "title": "Plateau Commissioner Says State Moved From 30th to 6th in Ease of Doing Business Ranking",
       "labels": [
         "News Report",
@@ -7330,7 +7330,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-32",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Commissions Roads as Governor Highlights Completion of Inherited Projects",
       "labels": [
         "News Report",
@@ -7363,7 +7363,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-33",
-      "published": false,
+      "published": true,
       "title": "Kogi Government Assumes Full Burial Responsibility for Former Governor Ibrahim Idris",
       "labels": [
         "News Report",
@@ -7396,7 +7396,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-23-34",
-      "published": false,
+      "published": true,
       "title": "Bayelsa, Community and NDDC Engagement Resumes Over Akenfa Bridge Project",
       "labels": [
         "News Report",
