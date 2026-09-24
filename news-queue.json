@@ -7957,7 +7957,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-13",
-      "published": false,
+      "published": true,
       "title": "Ekiti Executive Council Approves Policy Initiatives and Strategic Projects",
       "labels": [
         "News Report",
@@ -7990,7 +7990,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-14",
-      "published": false,
+      "published": true,
       "title": "Oyo Government Reports More Than 900km of Road Projects Since 2019",
       "labels": [
         "News Report",
@@ -8023,7 +8023,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-15",
-      "published": false,
+      "published": true,
       "title": "Lagos Sets October Workshop on Community-Based Tourism",
       "labels": [
         "News Report",
@@ -8056,7 +8056,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-16",
-      "published": false,
+      "published": true,
       "title": "Abia Governor Highlights Education, Scholarship and Indigenous-Language Learning at Fafunwa Event",
       "labels": [
         "News Report",
