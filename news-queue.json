@@ -7561,7 +7561,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-01",
-      "published": false,
+      "published": true,
       "title": "Enugu Air Commences Inaugural International Service from Enugu to Douala",
       "labels": [
         "News Report",
@@ -7594,7 +7594,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-02",
-      "published": false,
+      "published": true,
       "title": "Niger Inaugurates Commission of Inquiry into Deaths of 37 Persons in NSCDC Custody",
       "labels": [
         "News Report",
@@ -7627,7 +7627,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-03",
-      "published": false,
+      "published": true,
       "title": "Zamfara Signs Air Route Development Agreement for Abuja\u2013Gusau Commercial Flights",
       "labels": [
         "News Report",
@@ -7660,7 +7660,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-04",
-      "published": false,
+      "published": true,
       "title": "Benue Government and ASUTIBS Sign MoU on 25/35 Salary Structure",
       "labels": [
         "News Report",
