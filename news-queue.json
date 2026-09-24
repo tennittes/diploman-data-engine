@@ -7693,7 +7693,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-05",
-      "published": false,
+      "published": true,
       "title": "Edo Assures Pensioners of Refunds Following CPS-to-DBS Migration",
       "labels": [
         "News Report",
@@ -7726,7 +7726,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-06",
-      "published": false,
+      "published": true,
       "title": "Nasarawa Governor Calls for Stronger Africa-Caribbean Climate Partnerships",
       "labels": [
         "News Report",
@@ -7759,7 +7759,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-07",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Opens Capacity Workshop for Local Government Officials on Accountability",
       "labels": [
         "News Report",
@@ -7792,7 +7792,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-24-08",
-      "published": false,
+      "published": true,
       "title": "Adamawa Swears in Energy Commissioner and Senior Special Adviser",
       "labels": [
         "News Report",
