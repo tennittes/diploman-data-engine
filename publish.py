@@ -50,13 +50,34 @@ def format_front_page_layout_data(items):
     sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
     
     def get_reg_info(state_name):
-        return registry.get(state_name, {
+        for key in registry:
+            if key.lower() == str(state_name).strip().lower():
+                return registry[key]
+        return {
             "executive": "Executive Office",
             "title": "Gov.",
             "src": "",
             "alt": f"{state_name} Executive Office",
             "aria_label": f"{state_name} Governance Policy Intelligence"
-        })
+        }
+
+    def extract_state_name(item):
+        raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
+        text_to_check = (item.get('headline') or item.get('title') or "").lower()
+        
+        # If raw_state is provided, validate/match it case-insensitively against registry
+        if raw_state:
+            for s_name in registry.keys():
+                if s_name.lower() == str(raw_state).strip().lower():
+                    return s_name
+            return str(raw_state).strip()
+            
+        # Fallback: Scan text/headline for jurisdiction names
+        for s_name in registry.keys():
+            if s_name.lower() in text_to_check:
+                return s_name
+                
+        return "Unknown"
 
     center_column = {}
     flanking_columns = []
@@ -66,25 +87,25 @@ def format_front_page_layout_data(items):
     for idx, key in enumerate(center_keys):
         if idx < len(sorted_items):
             item = sorted_items[idx]
-            state_name = item.get('stateName', item.get('state', 'Unknown'))
+            state_name = extract_state_name(item)
             reg = get_reg_info(state_name)
             center_column[key] = {
                 "rank": idx + 1,
                 "state": state_name,
-                "governor": reg["executive"],
-                "title": reg["title"],
+                "governor": reg.get("executive", "Executive Office"),
+                "title": reg.get("title", "Gov."),
                 "psi": item.get('psi', 3.0),
                 "sis": item.get('sis', 2.8),
                 "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
-                "imageUrl": reg["src"],
-                "imageAlt": reg["alt"],
-                "imageAriaLabel": reg["aria_label"]
+                "imageUrl": reg.get("src", ""),
+                "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
+                "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
             }
 
     # Map ranks 4 through 12 to left/right flanking columns alternatively
     flanking_states = sorted_items[3:12]
     for idx, item in enumerate(flanking_states):
-        state_name = item.get('stateName', item.get('state', 'Unknown'))
+        state_name = extract_state_name(item)
         reg = get_reg_info(state_name)
         side = "left" if idx % 2 == 0 else "right"
         flanking_columns.append({
@@ -92,14 +113,14 @@ def format_front_page_layout_data(items):
             "side": side,
             "rank": idx + 4,
             "state": state_name,
-            "governor": reg["executive"],
-            "title": reg["title"],
+            "governor": reg.get("executive", "Executive Office"),
+            "title": reg.get("title", "Gov."),
             "psi": item.get('psi', 3.0),
             "sis": item.get('sis', 2.8),
             "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
-            "imageUrl": reg["src"],
-            "imageAlt": reg["alt"],
-            "imageAriaLabel": reg["aria_label"]
+            "imageUrl": reg.get("src", ""),
+            "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
+            "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
         })
 
     return {
