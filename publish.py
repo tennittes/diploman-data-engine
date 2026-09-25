@@ -52,19 +52,15 @@ def compile_front_page_layout():
     registry = load_json_file("governors-registry.json")
     master_data = load_json_file("master-data.json")
 
-    # Flexible parser for master-data.json formats
     items = []
     if isinstance(master_data, dict):
-        # Check standard wrapper keys
         for key in ["states", "newsReports", "data", "items"]:
             if key in master_data and isinstance(master_data[key], list):
                 items = master_data[key]
                 break
-        # If no wrapper found, check if it's a dictionary of state objects or key-value pairs
         if not items:
             for k, v in master_data.items():
                 if isinstance(v, dict):
-                    # Ensure state name is injected if dictionary keys are state names
                     item_copy = v.copy()
                     if "stateName" not in item_copy and "state" not in item_copy:
                         item_copy["stateName"] = k
@@ -109,7 +105,6 @@ def compile_front_page_layout():
                 
         return "Unknown"
 
-    # Sort items by PSI score descending
     sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
 
     center_column = {}
@@ -183,7 +178,10 @@ def build_daily_front_page_html(payload):
     right_flank_html = ""
 
     for item in layout.get("flankingColumns", []):
-        img_tag = f'<img src="{item.get("imageUrl")}" alt="{item.get("imageAlt")}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if item.get("imageUrl") else ''
+        img_src = item.get("imageUrl", "")
+        img_alt = item.get("imageAlt", "")
+        img_tag = f'<img src="{img_src}" alt="{img_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if img_src else ''
+        
         card = f"""
         <div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; margin-bottom: 12px;">
           {img_tag}
@@ -197,9 +195,17 @@ def build_daily_front_page_html(payload):
         else:
             right_flank_html += card
 
-    lead_img_tag = f'<img src="{lead.get(\'imageUrl\')}" alt="{lead.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #173730; display: block; margin: 10px 0;" />' if lead.get('imageUrl') else ''
-    r1_img_tag = f'<img src="{r1.get(\'imageUrl\')}" alt="{r1.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r1.get('imageUrl') else ''
-    r2_img_tag = f'<img src="{r2.get(\'imageUrl\')}" alt="{r2.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r2.get('imageUrl') else ''
+    lead_url = lead.get('imageUrl', '')
+    lead_alt = lead.get('imageAlt', '')
+    lead_img_tag = f'<img src="{lead_url}" alt="{lead_alt}" style="width: 100%; height: auto; border: 1px solid #173730; display: block; margin: 10px 0;" />' if lead_url else ''
+
+    r1_url = r1.get('imageUrl', '')
+    r1_alt = r1.get('imageAlt', '')
+    r1_img_tag = f'<img src="{r1_url}" alt="{r1_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r1_url else ''
+
+    r2_url = r2.get('imageUrl', '')
+    r2_alt = r2.get('imageAlt', '')
+    r2_img_tag = f'<img src="{r2_url}" alt="{r2_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r2_url else ''
 
     html_code = f"""
     <div style="font-family: Georgia, serif; background-color: #fdfbf7; border: 3px double #173730; padding: 24px; max-width: 1100px; margin: 0 auto; color: #111;">
