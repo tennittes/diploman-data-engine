@@ -13,6 +13,9 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
+# Choose which headline variant from master-data.json to primarily use ("B1" or "B2")
+HEADLINE_VARIANT_KEY = "B1" 
+
 def get_blogger_service():
     creds = Credentials(
         token=None,
@@ -33,21 +36,33 @@ def optimize_blogger_images(html_content):
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
 
-def load_governors_registry():
-    """Loads the fixed 37-jurisdiction governors registry lookup table."""
-    registry_path = "governors-registry.json"
-    if os.path.exists(registry_path):
-        with open(registry_path, "r", encoding="utf-8") as f:
+def load_json_file(filename):
+    """Utility to safely load JSON files with fallback recursive search."""
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {}
+    json_files = sorted(glob.glob(f"**/{filename}", recursive=True))
+    if json_files:
+        with open(json_files[-1], "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise FileNotFoundError(f"Required file '{filename}' not found in repository.")
 
-def format_front_page_layout_data(items):
-    """Sorts items by PSI descending and maps them to center and flanking columns using the registry."""
-    registry = load_governors_registry()
-    
-    # Sort items by PSI score descending if available
-    sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
-    
+def compile_front_page_layout():
+    """Reads master-data.json and governors-registry.json, sorts by PSI, and builds the layout mapping."""
+    registry = load_json_file("governors-registry.json")
+    master_data = load_json_file("master-data.json")
+
+    # Extract items list from master-data.json structure (handles list or dict formats)
+    if isinstance(master_data, dict):
+        items = master_data.get("states", master_data.get("newsReports", master_data.get("data", [])))
+        if not items and "centerColumn" not in master_data:
+            # If master_data is flat key-value per state
+            items = [{"stateName": k, **v} for k, v in master_data.items() if isinstance(v, dict)]
+    elif isinstance(master_data, list):
+        items = master_data
+    else:
+        items = []
+
     def get_reg_info(state_name):
         for key in registry:
             if key.lower() == str(state_name).strip().lower():
@@ -62,71 +77,64 @@ def format_front_page_layout_data(items):
 
     def extract_state_name(item):
         raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
-        text_to_check = (item.get('headline') or item.get('title') or "").lower()
+        # Check headline variants B1 / B2 or general text
+        text_to_check = (item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or "").lower()
         
-        # 1. Direct match check
         if raw_state:
             for s_name in registry.keys():
                 if s_name.lower() == str(raw_state).strip().lower():
                     return s_name
             return str(raw_state).strip()
             
-        # 2. Governor / Key-figure Alias Mapping
         governor_aliases = {
-            "nwifuru": "Ebonyi",
-            "okpebholo": "Edo",
-            "kefas": "Taraba",
-            "zulum": "Borno",
-            "uzodimma": "Imo",
-            "fintiri": "Adamawa",
-            "bago": "Niger",
-            "adeleke": "Osun",
-            "makinde": "Oyo",
-            "soludo": "Anambra",
-            "sanwo-olu": "Lagos",
-            "wike": "FCT Abuja"
+            "nwifuru": "Ebonyi", "okpebholo": "Edo", "kefas": "Taraba", "zulum": "Borno",
+            "uzodimma": "Imo", "fintiri": "Adamawa", "bago": "Niger", "adeleke": "Osun",
+            "makinde": "Oyo", "soludo": "Anambra", "sanwo-olu": "Lagos", "wike": "FCT Abuja"
         }
-        
         for alias, state_name in governor_aliases.items():
             if alias in text_to_check:
                 return state_name
 
-        # 3. Fallback: Scan text/headline for standard jurisdiction names
         for s_name in registry.keys():
             if s_name.lower() in text_to_check:
                 return s_name
                 
         return "Unknown"
-        
+
+    # Sort items by PSI score descending
+    sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
+
     center_column = {}
     flanking_columns = []
 
-    # Map top 3 for center column
     center_keys = ["leadStory", "firstRunnerUp", "secondRunnerUp"]
     for idx, key in enumerate(center_keys):
         if idx < len(sorted_items):
             item = sorted_items[idx]
             state_name = extract_state_name(item)
             reg = get_reg_info(state_name)
+            headline_text = item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or f"Telemetry update for {state_name}"
+            
             center_column[key] = {
                 "rank": idx + 1,
                 "state": state_name,
                 "governor": reg.get("executive", "Executive Office"),
                 "title": reg.get("title", "Gov."),
-                "psi": item.get('psi', 3.0),
-                "sis": item.get('sis', 2.8),
-                "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+                "psi": float(item.get('psi', 3.0)),
+                "sis": float(item.get('sis', 2.8)),
+                "headline": headline_text,
                 "imageUrl": reg.get("src", ""),
                 "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
                 "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
             }
 
-    # Map ranks 4 through 12 to left/right flanking columns alternatively
     flanking_states = sorted_items[3:12]
     for idx, item in enumerate(flanking_states):
         state_name = extract_state_name(item)
         reg = get_reg_info(state_name)
         side = "left" if idx % 2 == 0 else "right"
+        headline_text = item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or f"Telemetry update for {state_name}"
+        
         flanking_columns.append({
             "positionIndex": idx + 1,
             "side": side,
@@ -134,20 +142,30 @@ def format_front_page_layout_data(items):
             "state": state_name,
             "governor": reg.get("executive", "Executive Office"),
             "title": reg.get("title", "Gov."),
-            "psi": item.get('psi', 3.0),
-            "sis": item.get('sis', 2.8),
-            "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+            "psi": float(item.get('psi', 3.0)),
+            "sis": float(item.get('sis', 2.8)),
+            "headline": headline_text,
             "imageUrl": reg.get("src", ""),
             "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
             "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
         })
 
+    edition_date_str = datetime.now().strftime("%A, %B %d, %Y")
+    
     return {
-        "centerColumn": center_column,
-        "flankingColumns": flanking_columns
+        "editionMetadata": {
+            "date": edition_date_str,
+            "volNumber": "Vol. 1 No. 94",
+            "portalUrl": "www.diplomantimes.com"
+        },
+        "frontPageLayout": {
+            "centerColumn": center_column,
+            "flankingColumns": flanking_columns
+        }
     }
 
-def build_daily_front_page_html(layout):
+def build_daily_front_page_html(payload):
+    layout = payload["frontPageLayout"]
     lead = layout["centerColumn"].get("leadStory", {})
     r1 = layout["centerColumn"].get("firstRunnerUp", {})
     r2 = layout["centerColumn"].get("secondRunnerUp", {})
@@ -204,47 +222,21 @@ def build_daily_front_page_html(layout):
     
     return optimize_blogger_images("\n".join(html_parts))
 
-def get_target_file_and_data():
-    target_file = "news-queue.json"
-    if not os.path.exists(target_file):
-        json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
-        if not json_files:
-            raise FileNotFoundError("No news-queue.json file found in repository.")
-        target_file = json_files[-1]
-        
-    with open(target_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        
-    return target_file, data
-
 def publish_daily_edition():
-    file_path = None
-    data = None
-
     try:
-        file_path, data = get_target_file_and_data()
+        # 1. Compile front page layout payload directly from master-data.json and governors-registry.json
+        front_page_payload = compile_front_page_layout()
         
-        if isinstance(data, dict) and "newsReports" in data:
-            items = data["newsReports"]
-        elif isinstance(data, list):
-            items = data
-        else:
-            items = []
-
-        if not items:
-            print("No items found in queue to compile daily edition.")
-            return
-
-        # 1. Compile front page engine data & save JSON mapping
-        front_page_layout = format_front_page_layout_data(items)
+        # Save structured engine JSON
         os.makedirs('output', exist_ok=True)
         with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
-            json.dump(front_page_layout, f_out, indent=2)
-        print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
+            json.dump(front_page_payload, f_out, indent=2)
+        print("Successfully compiled and updated output/front-page-engine.json from master telemetry.")
 
         # 2. Build single daily front-page post HTML
-        daily_title = f"Diploman Times Daily Briefing & Front Page Intelligence – {datetime.now().strftime('%A, %B %d, %Y')}"
-        post_content = build_daily_front_page_html(front_page_layout)
+        edition_date = front_page_payload["editionMetadata"]["date"]
+        daily_title = f"Diploman Times Daily Briefing & Front Page Intelligence – {edition_date}"
+        post_content = build_daily_front_page_html(front_page_payload)
 
         # 3. Publish single post via Blogger API
         service = get_blogger_service()
@@ -255,13 +247,11 @@ def publish_daily_edition():
             "labels": ["Front Page Edition", "Daily Briefing", "Governance Intelligence"]
         }
         
-        posts = service.posts()
-        result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-        post_url = result.get('url')
-        print(f"Successfully published single daily edition post: '{daily_title}' -> {post_url}")
+        result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+        print(f"Successfully published single daily edition post: '{daily_title}' -> {result.get('url')}")
 
-    except Exception as auth_err:
-        print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
+    except Exception as err:
+        print(f"Error during daily edition compilation/publishing: {err}")
 
     # Commit and push generated engine JSON back to repository cleanly
     try:
@@ -269,12 +259,10 @@ def publish_daily_edition():
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
         subprocess.run(["git", "add", "output/front-page-engine.json"], check=True)
-        if file_path and os.path.exists(file_path):
-            subprocess.run(["git", "add", file_path], check=True)
-
+        
         status_result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
         if status_result.stdout.strip():
-            subprocess.run(["git", "commit", "-m", "auto: publish single daily front-page edition and update layout engine [skip ci]"], check=True)
+            subprocess.run(["git", "commit", "-m", "auto: update front-page engine payload from master-data [skip ci]"], check=True)
             subprocess.run(["git", "push"], check=True)
             print("Successfully pushed front-page layout engine state to repository.")
         else:
