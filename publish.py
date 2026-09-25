@@ -4,7 +4,6 @@ import glob
 import textwrap
 import subprocess
 import re
-from datetime import datetime
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -13,8 +12,7 @@ CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
-# Choose which headline variant from master-data.json to primarily use ("B1" or "B2")
-HEADLINE_VARIANT_KEY = "B1" 
+BATCH_LIMIT = 4
 
 def get_blogger_service():
     creds = Credentials(
@@ -36,292 +34,242 @@ def optimize_blogger_images(html_content):
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
 
-def load_json_file(filename):
-    """Utility to safely load JSON files with fallback recursive search."""
-    if os.path.exists(filename):
-        with open(filename, "r", encoding="utf-8") as f:
+def load_governors_registry():
+    """Loads the fixed 37-jurisdiction governors registry lookup table."""
+    registry_path = "governors-registry.json"
+    if os.path.exists(registry_path):
+        with open(registry_path, "r", encoding="utf-8") as f:
             return json.load(f)
-    json_files = sorted(glob.glob(f"**/{filename}", recursive=True))
-    if json_files:
-        with open(json_files[-1], "r", encoding="utf-8") as f:
-            return json.load(f)
-    raise FileNotFoundError(f"Required file '{filename}' not found in repository.")
+    return {}
 
-def compile_front_page_layout():
-    """Reads master-data.json and governors-registry.json, sorts by PSI, and builds the layout mapping."""
-    registry = load_json_file("governors-registry.json")
-    master_data = load_json_file("master-data.json")
-
-    items = []
-    if isinstance(master_data, dict):
-        for key in ["states", "newsReports", "data", "items"]:
-            if key in master_data and isinstance(master_data[key], list):
-                items = master_data[key]
-                break
-        if not items:
-            for k, v in master_data.items():
-                if isinstance(v, dict):
-                    item_copy = v.copy()
-                    if "stateName" not in item_copy and "state" not in item_copy:
-                        item_copy["stateName"] = k
-                    items.append(item_copy)
-    elif isinstance(master_data, list):
-        items = master_data
-
+def format_front_page_layout_data(items):
+    """Sorts items by PSI descending and maps them to center and flanking columns using the registry."""
+    registry = load_governors_registry()
+    
+    # Sort items by PSI score descending if available
+    sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
+    
     def get_reg_info(state_name):
-        for key in registry:
-            if key.lower() == str(state_name).strip().lower():
-                return registry[key]
-        return {
+        return registry.get(state_name, {
             "executive": "Executive Office",
             "title": "Gov.",
             "src": "",
             "alt": f"{state_name} Executive Office",
             "aria_label": f"{state_name} Governance Policy Intelligence"
-        }
-
-    def extract_state_name(item):
-        raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
-        text_to_check = (item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or "").lower()
-        
-        if raw_state:
-            for s_name in registry.keys():
-                if s_name.lower() == str(raw_state).strip().lower():
-                    return s_name
-            return str(raw_state).strip()
-            
-        governor_aliases = {
-            "nwifuru": "Ebonyi", "okpebholo": "Edo", "kefas": "Taraba", "zulum": "Borno",
-            "uzodimma": "Imo", "fintiri": "Adamawa", "bago": "Niger", "adeleke": "Osun",
-            "makinde": "Oyo", "soludo": "Anambra", "sanwo-olu": "Lagos", "wike": "FCT Abuja"
-        }
-        for alias, state_name in governor_aliases.items():
-            if alias in text_to_check:
-                return state_name
-
-        for s_name in registry.keys():
-            if s_name.lower() in text_to_check:
-                return s_name
-                
-        return "Unknown"
-
-    sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
+        })
 
     center_column = {}
     flanking_columns = []
 
+    # Map top 3 for center column
     center_keys = ["leadStory", "firstRunnerUp", "secondRunnerUp"]
     for idx, key in enumerate(center_keys):
         if idx < len(sorted_items):
             item = sorted_items[idx]
-            state_name = extract_state_name(item)
+            state_name = item.get('stateName', item.get('state', 'Unknown'))
             reg = get_reg_info(state_name)
-            headline_text = item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or f"Telemetry update for {state_name}"
-            
             center_column[key] = {
                 "rank": idx + 1,
                 "state": state_name,
-                "governor": reg.get("executive", "Executive Office"),
-                "title": reg.get("title", "Gov."),
-                "psi": float(item.get('psi', 3.0)),
-                "sis": float(item.get('sis', 2.8)),
-                "headline": headline_text,
-                "imageUrl": reg.get("src", ""),
-                "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
-                "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
+                "governor": reg["executive"],
+                "title": reg["title"],
+                "psi": item.get('psi', 3.0),
+                "sis": item.get('sis', 2.8),
+                "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+                "imageUrl": reg["src"],
+                "imageAlt": reg["alt"],
+                "imageAriaLabel": reg["aria_label"]
             }
 
+    # Map ranks 4 through 12 to left/right flanking columns alternatively
     flanking_states = sorted_items[3:12]
     for idx, item in enumerate(flanking_states):
-        state_name = extract_state_name(item)
+        state_name = item.get('stateName', item.get('state', 'Unknown'))
         reg = get_reg_info(state_name)
         side = "left" if idx % 2 == 0 else "right"
-        headline_text = item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or f"Telemetry update for {state_name}"
-        
         flanking_columns.append({
             "positionIndex": idx + 1,
             "side": side,
             "rank": idx + 4,
             "state": state_name,
-            "governor": reg.get("executive", "Executive Office"),
-            "title": reg.get("title", "Gov."),
-            "psi": float(item.get('psi', 3.0)),
-            "sis": float(item.get('sis', 2.8)),
-            "headline": headline_text,
-            "imageUrl": reg.get("src", ""),
-            "imageAlt": reg.get("alt", f"{state_name} Executive Office"),
-            "imageAriaLabel": reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
+            "governor": reg["executive"],
+            "title": reg["title"],
+            "psi": item.get('psi', 3.0),
+            "sis": item.get('sis', 2.8),
+            "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+            "imageUrl": reg["src"],
+            "imageAlt": reg["alt"],
+            "imageAriaLabel": reg["aria_label"]
         })
 
-    edition_date_str = datetime.now().strftime("%A, %B %d, %Y")
-    
     return {
-        "editionMetadata": {
-            "date": edition_date_str,
-            "volNumber": "Vol. 1 No. 94",
-            "portalUrl": "www.diplomantimes.com"
-        },
-        "frontPageLayout": {
-            "centerColumn": center_column,
-            "flankingColumns": flanking_columns
-        }
+        "centerColumn": center_column,
+        "flankingColumns": flanking_columns
     }
 
-def build_daily_front_page_html(payload):
-    meta = payload["editionMetadata"]
-    layout = payload["frontPageLayout"]
-    lead = layout["centerColumn"].get("leadStory", {})
-    r1 = layout["centerColumn"].get("firstRunnerUp", {})
-    r2 = layout["centerColumn"].get("secondRunnerUp", {})
+def build_news_report_html(item):
+    html_parts = []
     
-    left_flank_html = ""
-    right_flank_html = ""
+    # 1. Featured Image
+    if "featured_image" in item:
+        img = item["featured_image"]
+        target_url = img.get('target_url', 'https://www.diplomantimes.com')
+        img_alt = img.get('alt', '')
+        img_src = img.get('src', '')
+        aria_label = img.get('aria_label', 'Diploman Times Governance and Policy Intelligence')
 
-    for item in layout.get("flankingColumns", []):
-        img_src = item.get("imageUrl", "")
-        img_alt = item.get("imageAlt", "")
-        img_tag = f'<img src="{img_src}" alt="{img_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if img_src else ''
-        
-        card = f"""
-        <div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; margin-bottom: 12px;">
-          {img_tag}
-          <div style="font-size: 9px; font-weight: bold; color: #173730; text-transform: uppercase; margin-bottom: 2px;">{item.get('state')} (PSI: {item.get('psi')})</div>
-          <h4 style="font-size: 13px; line-height: 1.25; margin: 0 0 4px 0; color: #111; font-family: Georgia, serif;">{item.get('headline')}</h4>
-          <span style="font-size: 10px; color: #555; font-style: italic;">{item.get('title')} {item.get('governor')}</span>
+        html_parts.append(textwrap.dedent(f"""
+        <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 8px; padding: 0px; position: relative; width: 100%;">
+          <a href="{target_url}" aria-label="{aria_label}" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
+            <img alt="{img_alt}" border="0" src="{img_src}" style="border: 0px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
+          </a>
+        </figure>
+        """).strip())
+
+    # 2. Lead Narrative
+    if "lead_narrative" in item:
+        html_parts.append(textwrap.dedent(f"""
+        <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
+          {item['lead_narrative']}
+        </p>
+        <!--more-->
+        """).strip())
+
+    # 3. Editorial Notice Badge
+    if "editorial_notice" in item:
+        notice_text = item['editorial_notice'].replace('EDITORIAL NOTICE:', '').strip()
+        html_parts.append(textwrap.dedent(f"""
+        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #173730; padding: 10px 14px; margin: 16px 0 24px 0; border-radius: 4px; font-size: 12px; color: #475569;">
+          <strong>EDITORIAL NOTICE:</strong> {notice_text}
         </div>
-        """
-        if item.get("side") == "left":
-            left_flank_html += card
-        else:
-            right_flank_html += card
+        """).strip())
 
-    lead_url = lead.get('imageUrl', '')
-    lead_alt = lead.get('imageAlt', '')
-    lead_img_tag = f'<img src="{lead_url}" alt="{lead_alt}" style="width: 100%; height: auto; border: 1px solid #173730; display: block; margin: 10px 0;" />' if lead_url else ''
+    # 4. Body Paragraphs
+    if "story_body" in item:
+        for p in item["story_body"]:
+            html_parts.append(textwrap.dedent(f"""
+            <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 18px;">
+              {p}
+            </p>
+            """).strip())
 
-    r1_url = r1.get('imageUrl', '')
-    r1_alt = r1.get('imageAlt', '')
-    r1_img_tag = f'<img src="{r1_url}" alt="{r1_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r1_url else ''
-
-    r2_url = r2.get('imageUrl', '')
-    r2_alt = r2.get('imageAlt', '')
-    r2_img_tag = f'<img src="{r2_url}" alt="{r2_alt}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r2_url else ''
-
-    html_code = f"""
-    <div style="font-family: Georgia, serif; background-color: #fdfbf7; border: 3px double #173730; padding: 24px; max-width: 1100px; margin: 0 auto; color: #111;">
-      
-      <!-- Broadsheet Top Bar -->
-      <div style="border-bottom: 1px solid #173730; padding-bottom: 8px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; font-size: 11px; text-transform: uppercase; font-weight: bold; color: #333;">
-        <span>{meta.get('date')}</span>
-        <span>{meta.get('portalUrl')}</span>
-        <span>{meta.get('volNumber')}</span>
-      </div>
-
-      <!-- Masthead Header -->
-      <div style="border-bottom: 3px solid #173730; padding-bottom: 12px; margin-bottom: 20px; text-align: center;">
-        <h1 style="font-size: 42px; font-family: 'Times New Roman', Times, serif; font-weight: 900; margin: 0; color: #173730; letter-spacing: 3px;">DIPLOMAN TIMES</h1>
-        <p style="font-size: 11px; text-transform: uppercase; margin: 4px 0 0 0; color: #555; letter-spacing: 1.5px; font-weight: 600;">Subnational Governance & Policy Intelligence</p>
-      </div>
-
-      <!-- Main 3-Column Newspaper Grid -->
-      <div style="display: grid; grid-template-columns: 1fr 1.8fr 1fr; gap: 20px; align-items: start;">
-        
-        <!-- Left Flanking Column -->
-        <div style="border-right: 1px solid #d1d5db; padding-right: 15px;">
-          <div style="font-size: 10px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #173730; padding-bottom: 4px; margin-bottom: 12px; color: #173730;">Surveillance Grid</div>
-          {left_flank_html}
-        </div>
-
-        <!-- Center Column (Lead & Runners-Up) -->
-        <div style="display: flex; flex-direction: column; gap: 20px;">
-          
-          <!-- Lead Story -->
-          <div style="border-bottom: 2px solid #173730; padding-bottom: 16px;">
-            <span style="background: #173730; color: #fff; font-size: 10px; padding: 3px 8px; text-transform: uppercase; font-weight: bold; display: inline-block; margin-bottom: 6px;">Strategic Lead | PSI: {lead.get('psi')}</span>
-            <h2 style="font-size: 24px; line-height: 1.2; margin: 6px 0 10px 0; color: #111; font-family: 'Times New Roman', Times, serif;">{lead.get('headline')}</h2>
-            {lead_img_tag}
-            <p style="font-size: 12px; color: #441; font-style: italic; margin: 0;">Focus: {lead.get('title')} {lead.get('governor')} ({lead.get('state')}) — SIS Index: {lead.get('sis')}</p>
+    # 5. Call To Action Terminal Interlink Block
+    if "call_to_action" in item:
+        cta = item["call_to_action"]
+        html_parts.append(textwrap.dedent(f"""
+        <div style="background: linear-gradient(135deg, #193731 0%, #112521 100%); border: 1px solid #234d44; border-left: 4px solid #38bdf8; border-radius: 6px; padding: 16px 20px; margin: 28px 0; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 8px;">
+            <span style="display: inline-block; width: 6px; height: 6px; background-color: #38bdf8; border-radius: 50%;"></span>
+            <span style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.08em;">
+              {cta.get('heading', 'Diploman Times Telemetry Interlink')}
+            </span>
           </div>
-          <!--more-->
-
-          <!-- Runners Up Section -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; border-bottom: 1px solid #d1d5db; padding-bottom: 16px;">
-            <div>
-              <div style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase; margin-bottom: 4px;">2nd Rank ({r1.get('state')} - PSI: {r1.get('psi')})</div>
-              {r1_img_tag}
-              <h3 style="font-size: 14px; line-height: 1.3; margin: 4px 0; color: #111;">{r1.get('headline')}</h3>
-              <p style="font-size: 10px; color: #555; margin: 0; font-style: italic;">{r1.get('title')} {r1.get('governor')}</p>
-            </div>
-            <div>
-              <div style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase; margin-bottom: 4px;">3rd Rank ({r2.get('state')} - PSI: {r2.get('psi')})</div>
-              {r2_img_tag}
-              <h3 style="font-size: 14px; line-height: 1.3; margin: 4px 0; color: #111;">{r2.get('headline')}</h3>
-              <p style="font-size: 10px; color: #555; margin: 0; font-style: italic;">{r2.get('title')} {r2.get('governor')}</p>
-            </div>
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px;">
+            <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #e2e8f0; max-width: 540px; font-weight: 400;">
+              {cta.get('text', '')}
+            </p>
+            <a href="{cta.get('button_url', '#')}" target="_top" style="display: inline-flex; align-items: center; gap: 6px; background-color: #2A4B23; color: #ffffff; font-size: 12px; font-weight: 700; text-decoration: none; padding: 9px 16px; border-radius: 4px; border: 1px solid #3a6631; transition: all 0.2s ease; white-space: nowrap;">
+              {cta.get('button_label', 'Explore Terminal →')}
+            </a>
           </div>
-
         </div>
+        """).strip())
 
-        <!-- Right Flanking Column -->
-        <div style="border-left: 1px solid #d1d5db; padding-left: 15px;">
-          <div style="font-size: 10px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #173730; padding-bottom: 4px; margin-bottom: 12px; color: #173730;">Policy Index Feed</div>
-          {right_flank_html}
-        </div>
+    raw_html = "\n\n".join(html_parts)
+    return optimize_blogger_images(raw_html)
 
-      </div>
+def get_target_file_and_data():
+    target_file = "news-queue.json"
+    if not os.path.exists(target_file):
+        json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
+        if not json_files:
+            raise FileNotFoundError("No news-queue.json file found in repository.")
+        target_file = json_files[-1]
+        
+    with open(target_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    return target_file, data
 
-      <!-- Footer Bar -->
-      <div style="border-top: 2px solid #173730; margin-top: 20px; padding-top: 10px; text-align: center; font-size: 10px; text-transform: uppercase; color: #555; font-weight: bold;">
-        Governors. News. Live Telemetry. Tracking governance across Nigeria's 36 States and Abuja. &bull; {meta.get('portalUrl')}
-      </div>
+def publish_batch_content():
+    published_count = 0
+    file_path = None
+    data = None
 
-    </div>
-    """
-
-    return optimize_blogger_images(html_code)
-
-def publish_daily_edition():
     try:
-        front_page_payload = compile_front_page_layout()
+        file_path, data = get_target_file_and_data()
         
-        os.makedirs('output', exist_ok=True)
-        with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
-            json.dump(front_page_payload, f_out, indent=2)
-        print("Successfully compiled and updated output/front-page-engine.json from master telemetry.")
+        if isinstance(data, dict) and "newsReports" in data:
+            items = data["newsReports"]
+        elif isinstance(data, list):
+            items = data
+        else:
+            items = []
 
-        edition_date = front_page_payload["editionMetadata"]["date"]
-        daily_title = f"Diploman Times Daily Briefing & Front Page Intelligence – {edition_date}"
-        post_content = build_daily_front_page_html(front_page_payload)
+        # Generate and save structured front page layout mapping if items exist
+        if items:
+            front_page_layout = format_front_page_layout_data(items)
+            os.makedirs('output', exist_ok=True)
+            with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
+                json.dump(front_page_layout, f_out, indent=2)
+            print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
 
         service = get_blogger_service()
-        body = {
-            "kind": "blogger#post",
-            "title": daily_title,
-            "content": post_content,
-            "labels": ["Front Page Edition", "Daily Briefing", "Governance Intelligence"]
-        }
-        
-        result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-        print(f"Successfully published single daily edition post: '{daily_title}' -> {result.get('url')}")
 
-    except Exception as err:
-        print(f"Error during daily edition compilation/publishing: {err}")
+        for item in items:
+            if published_count >= BATCH_LIMIT:
+                break
 
+            if not item.get("published", False):
+                title = item.get("title", "Diploman Times Report")
+                labels = item.get("labels", ["Governance Intelligence"])
+                
+                if item.get("type") == "news_report" or "lead_narrative" in item:
+                    content = build_news_report_html(item)
+                else:
+                    content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
+
+                body = {
+                    "kind": "blogger#post",
+                    "title": title,
+                    "content": content,
+                    "labels": labels
+                }
+                
+                posts = service.posts()
+                result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+                post_url = result.get('url')
+                print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
+
+                item["published"] = True
+                published_count += 1
+
+        if published_count > 0 and file_path and data:
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+            print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
+
+    except Exception as auth_err:
+        print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
+
+    # Commit and push queue updates and layout configuration cleanly to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
         subprocess.run(["git", "add", "output/front-page-engine.json"], check=True)
-        
+        if file_path and os.path.exists(file_path):
+            subprocess.run(["git", "add", file_path], check=True)
+
         status_result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
         if status_result.stdout.strip():
-            subprocess.run(["git", "commit", "-m", "auto: update front-page engine payload from master-data [skip ci]"], check=True)
+            subprocess.run(["git", "commit", "-m", "auto: publish batch post state and update front-page layout [skip ci]"], check=True)
             subprocess.run(["git", "push"], check=True)
-            print("Successfully pushed front-page layout engine state to repository.")
+            print("Successfully pushed publishing queue state and front-page layout mapping to repository.")
         else:
             print("No changes detected; git commit/push skipped.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
 if __name__ == "__main__":
-    publish_daily_edition()
+    publish_batch_content()
