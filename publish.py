@@ -34,6 +34,79 @@ def optimize_blogger_images(html_content):
     replacement = r'\1s720-rw\2\4'
     return re.sub(pattern, replacement, html_content)
 
+def load_governors_registry():
+    """Loads the fixed 37-jurisdiction governors registry lookup table."""
+    registry_path = "governors-registry.json"
+    if os.path.exists(registry_path):
+        with open(registry_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def format_front_page_layout_data(items):
+    """Sorts items by PSI descending and maps them to center and flanking columns using the registry."""
+    registry = load_governors_registry()
+    
+    # Sort items by PSI score descending if available
+    sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
+    
+    def get_reg_info(state_name):
+        return registry.get(state_name, {
+            "executive": "Executive Office",
+            "title": "Gov.",
+            "src": "",
+            "alt": f"{state_name} Executive Office",
+            "aria_label": f"{state_name} Governance Policy Intelligence"
+        })
+
+    center_column = {}
+    flanking_columns = []
+
+    # Map top 3 for center column
+    center_keys = ["leadStory", "firstRunnerUp", "secondRunnerUp"]
+    for idx, key in enumerate(center_keys):
+        if idx < len(sorted_items):
+            item = sorted_items[idx]
+            state_name = item.get('stateName', item.get('state', 'Unknown'))
+            reg = get_reg_info(state_name)
+            center_column[key] = {
+                "rank": idx + 1,
+                "state": state_name,
+                "governor": reg["executive"],
+                "title": reg["title"],
+                "psi": item.get('psi', 3.0),
+                "sis": item.get('sis', 2.8),
+                "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+                "imageUrl": reg["src"],
+                "imageAlt": reg["alt"],
+                "imageAriaLabel": reg["aria_label"]
+            }
+
+    # Map ranks 4 through 12 to left/right flanking columns alternatively
+    flanking_states = sorted_items[3:12]
+    for idx, item in enumerate(flanking_states):
+        state_name = item.get('stateName', item.get('state', 'Unknown'))
+        reg = get_reg_info(state_name)
+        side = "left" if idx % 2 == 0 else "right"
+        flanking_columns.append({
+            "positionIndex": idx + 1,
+            "side": side,
+            "rank": idx + 4,
+            "state": state_name,
+            "governor": reg["executive"],
+            "title": reg["title"],
+            "psi": item.get('psi', 3.0),
+            "sis": item.get('sis', 2.8),
+            "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
+            "imageUrl": reg["src"],
+            "imageAlt": reg["alt"],
+            "imageAriaLabel": reg["aria_label"]
+        })
+
+    return {
+        "centerColumn": center_column,
+        "flankingColumns": flanking_columns
+    }
+
 def build_news_report_html(item):
     html_parts = []
     
@@ -106,7 +179,6 @@ def build_news_report_html(item):
     return optimize_blogger_images(raw_html)
 
 def get_target_file_and_data():
-    # Explicitly check root news-queue.json first
     target_file = "news-queue.json"
     if not os.path.exists(target_file):
         json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
@@ -133,6 +205,14 @@ def publish_batch_content():
             items = data
         else:
             items = []
+
+        # Generate and save structured front page layout mapping if items exist
+        if items:
+            front_page_layout = format_front_page_layout_data(items)
+            os.makedirs('output', exist_ok=True)
+            with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
+                json.dump(front_page_layout, f_out, indent=2)
+            print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
 
         service = get_blogger_service()
 
@@ -172,20 +252,22 @@ def publish_batch_content():
     except Exception as auth_err:
         print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
 
-    # Commit and push queue updates cleanly to GitHub
+    # Commit and push queue updates and layout configuration cleanly to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
+        subprocess.run(["git", "add", "output/front-page-engine.json"], check=True)
         if file_path and os.path.exists(file_path):
-            status_result = subprocess.run(["git", "status", "--porcelain", file_path], capture_output=True, text=True, check=True)
-            if status_result.stdout.strip():
-                subprocess.run(["git", "add", file_path], check=True)
-                subprocess.run(["git", "commit", "-m", "auto: publish batch post state [skip ci]"], check=True)
-                subprocess.run(["git", "push"], check=True)
-                print("Successfully pushed publishing queue state to repository.")
-            else:
-                print("No changes detected in queue file; git commit/push skipped.")
+            subprocess.run(["git", "add", file_path], check=True)
+
+        status_result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
+        if status_result.stdout.strip():
+            subprocess.run(["git", "commit", "-m", "auto: publish batch post state and update front-page layout [skip ci]"], check=True)
+            subprocess.run(["git", "push"], check=True)
+            print("Successfully pushed publishing queue state and front-page layout mapping to repository.")
+        else:
+            print("No changes detected; git commit/push skipped.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
