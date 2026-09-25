@@ -2,15 +2,15 @@
   "centerColumn": {
     "leadStory": {
       "rank": 1,
-      "state": "Unknown",
-      "governor": "Executive Office",
-      "title": "Gov.",
+      "state": "Ebonyi",
+      "governor": "Francis Nwifuru",
+      "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Nwifuru Charges Izzi Clan On Cultural Preservation, Reaffirms Infrastructure And Power-Sharing Commitments",
-      "imageUrl": "",
-      "imageAlt": "Unknown Executive Office",
-      "imageAriaLabel": "Unknown Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjWrP13HY8FiOYgs6C5ktYxw_XXLoCyoPy-39eYFSxOwlN4O1uJMSp5y3QrAd1FqNn287YtAJKQaGnzg7vIo8LTCQMdJKhbGxiGvI0-XQ0Xt1mQPa4FsUJbG19egl5t12WqkF709-JVdszgX5QvwzUx9U_-ZvTEzPPh_UtBIMcCu8KjSmMG4jMPRm_5OY/s720-rw/Ebonyi%20Governor%20Francis%20Nwifuru.png",
+      "imageAlt": "Ebonyi State Governor Francis Nwifuru",
+      "imageAriaLabel": "Ebonyi State Governor Francis Nwifuru Governance Policy Intelligence"
     },
     "firstRunnerUp": {
       "rank": 2,
@@ -26,15 +26,15 @@
     },
     "secondRunnerUp": {
       "rank": 3,
-      "state": "Unknown",
-      "governor": "Executive Office",
-      "title": "Gov.",
+      "state": "Imo",
+      "governor": "Hope Uzodinma",
+      "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Uzodimma Partners Federal Government On Women Empowerment, Launches 2026 Governor's Cup Golf Tournament",
-      "imageUrl": "",
-      "imageAlt": "Unknown Executive Office",
-      "imageAriaLabel": "Unknown Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHDpFsD7IlkKTJZENx1UvKt8ePmzns0Rvbwv7pc70Gv82lib_C5JK8C6eDs1UznG02TWUJdU64IW1wOfBVLKpu4Xqf44YW3Dcyj1oeYSdxfmhJLXC5rsJBe7Uyc9uN_MfUQ9L_mGN4OCUXcaWm5HuWsqkg7H3E0TrbiRosCVZaj33D8N5f0R2P8kHqw0c/s720-rw/Imo%20Governor%20Hope%20Uzodinma.png",
+      "imageAlt": "Imo State Governor Hope Uzodinma",
+      "imageAriaLabel": "Imo State Governor Hope Uzodinma Governance Policy Intelligence"
     }
   },
   "flankingColumns": [
@@ -42,15 +42,15 @@
       "positionIndex": 1,
       "side": "left",
       "rank": 4,
-      "state": "Unknown",
-      "governor": "Executive Office",
-      "title": "Gov.",
+      "state": "Borno",
+      "governor": "Baba Gana Zulum",
+      "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Zulum Inaugurates Post Office Flyover, Expressway Corridor, And Two Mega Schools In Maiduguri",
-      "imageUrl": "",
-      "imageAlt": "Unknown Executive Office",
-      "imageAriaLabel": "Unknown Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieD6TWewOrrYUvQgFe2hdjPQR6Z90v-eTIXZkDJQX1IXMWhRIIn7MGhSnExaEOD8B90vnvvD6rUpLXh5KUl4bTWnINoIitd2KaEOZNbuRLQm4iWKCSrluwAjBaXfPPdWy-c_uqSmtVZDccf5C7et_JsCsP9yqbyG943hdTIX2Ah8ZCFSATk-DAsYhqedg/s720-rw/Borno%20State%20Governor%20Baba%20Gana%20Zulum.png",
+      "imageAlt": "Borno State Governor Baba Gana Zulum",
+      "imageAriaLabel": "Borno State Governor Baba Gana Zulum Governance Policy Intelligence"
     },
     {
       "positionIndex": 2,
@@ -84,15 +84,15 @@
       "positionIndex": 4,
       "side": "right",
       "rank": 7,
-      "state": "Unknown",
-      "governor": "Executive Office",
-      "title": "Gov.",
+      "state": "Taraba",
+      "governor": "Agbu Kefas",
+      "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Kefas Hosts Solid Mineral Roundtable, Commissions TSU Projects, And Reforms Grassroots Sports",
-      "imageUrl": "",
-      "imageAlt": "Unknown Executive Office",
-      "imageAriaLabel": "Unknown Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq1y-GRqgK5mklIjamSVZhyyt6xrRJc0ipXEYz4NVIpA8s-zzSB2MTJRAUZ_szdTqkaHHfSPeKpBB9raeQSriWjdg51iI8wKWH1JQx7pV9ax0gcS4jx_8f6Q3GY59tu005OzkoKJeIIcUOYb53QfNJvQf4TB222x_org1QUusxJ2PmJPZwKybLbKPxh2Y/s720-rw/Taraba%20Governor%20Agbu%20Kefas.png",
+      "imageAlt": "Taraba State Governor Agbu Kefas",
+      "imageAriaLabel": "Taraba State Governor Agbu Kefas Governance Policy Intelligence"
     },
     {
       "positionIndex": 5,
@@ -126,15 +126,15 @@
       "positionIndex": 7,
       "side": "left",
       "rank": 10,
-      "state": "Kano",
-      "governor": "Abba Yusuf",
+      "state": "Niger",
+      "governor": "Muhammed Bago",
       "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Bago Attends Ministerial Wedding In Kano, Celebrates Etsu Nupe's 23rd Throne Anniversary",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_0CDz4ksn2LdQPbd_D_mVC6mPFipy0N3OaDkAX8cNHOwTIsgbkJVTQvLojoqh9R47p6YahyphenhyphenaCSAaDnuqEpuh1eAlO8tWSia8HlqsqIbSrqxi239qyoEyhhLRs6EPFxInpHwX8O-pq9at2hseWIzsPy22LwRxCdd0HkCKH4JsRz0nRaQgkXSrgZgELBLY/s720-rw/Kano%20Governor%20Abba%20Yusuf.png",
-      "imageAlt": "Kano State Governor Abba Yusuf",
-      "imageAriaLabel": "Kano State Governor Abba Yusuf Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0LjubwLZRRT_p-4ysuyMU97oBaWoquZpM8blrHrC1lJzmRl_bbukOnO96OhVcUyS0Ng-KVL2InkdgpbnZ02_BDdSal_jLhyphenhyphenuwwRYyeZGiZkV1o6T1eQAXFWLP2bBQ94aestWo5mCDBLRMJCNZGz_qGEsjUkAOFGQhjRPF2-bB_0LRDASCRgUzvwdXtw0/s720-rw/Niger%20Governor%20Muhammed%20Bago.png",
+      "imageAlt": "Niger State Governor Muhammed Bago",
+      "imageAriaLabel": "Niger State Governor Muhammed Bago Governance Policy Intelligence"
     },
     {
       "positionIndex": 8,
@@ -154,15 +154,15 @@
       "positionIndex": 9,
       "side": "left",
       "rank": 12,
-      "state": "Unknown",
-      "governor": "Executive Office",
-      "title": "Gov.",
+      "state": "Edo",
+      "governor": "Monday Okpebholo",
+      "title": "Governor",
       "psi": 3.0,
       "sis": 2.8,
       "headline": "Governor Okpebholo Celebrates Chief Igbinedion At 92, Announces Cabinet Reshuffle, And Reconstructs Amufi Road",
-      "imageUrl": "",
-      "imageAlt": "Unknown Executive Office",
-      "imageAriaLabel": "Unknown Governance Policy Intelligence"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93uV3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stZzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
+      "imageAlt": "Edo State Governor Monday Okpebholo",
+      "imageAriaLabel": "Edo State Governor Monday Okpebholo Governance Policy Intelligence"
     }
   ]
 }
