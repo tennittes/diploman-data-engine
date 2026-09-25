@@ -39,8 +39,13 @@ def load_governors_registry():
     """Loads the fixed 37-jurisdiction governors registry lookup table."""
     registry_path = "governors-registry.json"
     if os.path.exists(registry_path):
-        with open(registry_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(registry_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Error: Malformed JSON syntax in {registry_path} at line {e.lineno} column {e.colno}: {e.msg}")
+        except Exception as e:
+            print(f"Error reading {registry_path}: {e}")
     return {}
 
 def is_image_url_working(url):
@@ -250,8 +255,12 @@ def get_target_file_and_data():
             raise FileNotFoundError("No news-queue.json file found in repository.")
         target_file = json_files[-1]
         
-    with open(target_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(target_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"Error: Malformed JSON syntax in {target_file} at line {e.lineno} column {e.colno}: {e.msg}")
+        raise
         
     return target_file, data
 
@@ -313,6 +322,8 @@ def publish_batch_content():
                 json.dump(data, f, indent=2)
             print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
 
+    except json.JSONDecodeError as json_err:
+        print(f"Error: Publishing halted due to malformed JSON syntax at line {json_err.lineno} column {json_err.colno}: {json_err.msg}")
     except Exception as auth_err:
         print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
 
