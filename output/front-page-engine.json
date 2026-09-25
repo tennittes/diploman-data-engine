@@ -1,168 +1,24 @@
 {
-  "centerColumn": {
-    "leadStory": {
-      "rank": 1,
-      "state": "Ebonyi",
-      "governor": "Francis Nwifuru",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Nwifuru Charges Izzi Clan On Cultural Preservation, Reaffirms Infrastructure And Power-Sharing Commitments",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjWrP13HY8FiOYgs6C5ktYxw_XXLoCyoPy-39eYFSxOwlN4O1uJMSp5y3QrAd1FqNn287YtAJKQaGnzg7vIo8LTCQMdJKhbGxiGvI0-XQ0Xt1mQPa4FsUJbG19egl5t12WqkF709-JVdszgX5QvwzUx9U_-ZvTEzPPh_UtBIMcCu8KjSmMG4jMPRm_5OY/s720-rw/Ebonyi%20Governor%20Francis%20Nwifuru.png",
-      "imageAlt": "Ebonyi State Governor Francis Nwifuru",
-      "imageAriaLabel": "Ebonyi State Governor Francis Nwifuru Governance Policy Intelligence"
-    },
-    "firstRunnerUp": {
-      "rank": 2,
-      "state": "Adamawa",
-      "governor": "Ahmadu Fintiri",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Adamawa Government Inaugurates Gulak College Board, Appoints Teachers Commission Chair, And Opens Power Infrastructure Bids",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodwW8Mz6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s720-rw/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
-      "imageAlt": "Adamawa State Governor Ahmadu Fintiri",
-      "imageAriaLabel": "Adamawa State Governor Ahmadu Fintiri Governance Policy Intelligence"
-    },
-    "secondRunnerUp": {
-      "rank": 3,
-      "state": "Imo",
-      "governor": "Hope Uzodinma",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Uzodimma Partners Federal Government On Women Empowerment, Launches 2026 Governor's Cup Golf Tournament",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHDpFsD7IlkKTJZENx1UvKt8ePmzns0Rvbwv7pc70Gv82lib_C5JK8C6eDs1UznG02TWUJdU64IW1wOfBVLKpu4Xqf44YW3Dcyj1oeYSdxfmhJLXC5rsJBe7Uyc9uN_MfUQ9L_mGN4OCUXcaWm5HuWsqkg7H3E0TrbiRosCVZaj33D8N5f0R2P8kHqw0c/s720-rw/Imo%20Governor%20Hope%20Uzodinma.png",
-      "imageAlt": "Imo State Governor Hope Uzodinma",
-      "imageAriaLabel": "Imo State Governor Hope Uzodinma Governance Policy Intelligence"
-    }
+  "editionMetadata": {
+    "date": "Friday, September 25, 2026",
+    "volNumber": "Vol. 1 No. 94",
+    "portalUrl": "www.diplomantimes.com"
   },
-  "flankingColumns": [
-    {
-      "positionIndex": 1,
-      "side": "left",
-      "rank": 4,
-      "state": "Borno",
-      "governor": "Baba Gana Zulum",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Zulum Inaugurates Post Office Flyover, Expressway Corridor, And Two Mega Schools In Maiduguri",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieD6TWewOrrYUvQgFe2hdjPQR6Z90v-eTIXZkDJQX1IXMWhRIIn7MGhSnExaEOD8B90vnvvD6rUpLXh5KUl4bTWnINoIitd2KaEOZNbuRLQm4iWKCSrluwAjBaXfPPdWy-c_uqSmtVZDccf5C7et_JsCsP9yqbyG943hdTIX2Ah8ZCFSATk-DAsYhqedg/s720-rw/Borno%20State%20Governor%20Baba%20Gana%20Zulum.png",
-      "imageAlt": "Borno State Governor Baba Gana Zulum",
-      "imageAriaLabel": "Borno State Governor Baba Gana Zulum Governance Policy Intelligence"
+  "frontPageLayout": {
+    "centerColumn": {
+      "leadStory": {
+        "rank": 1,
+        "state": "globalCodeData_B2",
+        "governor": "Executive Office",
+        "title": "Gov.",
+        "psi": 3.0,
+        "sis": 2.8,
+        "headline": "Telemetry update for globalCodeData_B2",
+        "imageUrl": "",
+        "imageAlt": "globalCodeData_B2 Executive Office",
+        "imageAriaLabel": "globalCodeData_B2 Governance Policy Intelligence"
+      }
     },
-    {
-      "positionIndex": 2,
-      "side": "right",
-      "rank": 5,
-      "state": "Cross River",
-      "governor": "Bassey Otu",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Cross River Government Sets Private School Compliance Rules, Initiates Land Claim Resolution, And Expands Ethics Training",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7FLPcG_9wgXy8L16EBeqefYFZfRHVwtGcZ2GXflPLHrxd7rPk0ZzRjjhR_lhUknzjHLwFgwd8WCfcEGQr_tnwlAZDUaGzp2Vbea1xllCw0O9RI-ojlqFTNZg5gvlIWiCVR419wwsivUXHNq-tC7dclpappSKo2sPPz0CKBuLPVoDon-hDZIkFDOd9-E/s720-rw/Cross%20River%20Governor%20Bassey%20Otu.png",
-      "imageAlt": "Cross River State Governor Bassey Otu",
-      "imageAriaLabel": "Cross River State Governor Bassey Otu Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 3,
-      "side": "left",
-      "rank": 6,
-      "state": "Enugu",
-      "governor": "Peter Mbah",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Enugu State Governor Peter Mbah Conferred With Honorary Doctor Of Laws At University Of East London",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwLUbuBD3-hkJCn6_INmwCMTvxfw_zDtqGD2TgLP68m6-diDFGUjliNe8S-xhVzs9laD6u6MEsjTpNM7YxjVUIoUYWoze8LIOD4GFD6VyJorokq8puxyP-ujGsIFlB17kH6qWRlB130nCoZyYMboCe42mvDRY3dw6qyP-PkGc7pi7W0Z22uh9jRmN7bD0/s720-rw/Enugu%20Governor%20Peter%20Mbah.png",
-      "imageAlt": "Enugu State Governor Peter Mbah",
-      "imageAriaLabel": "Enugu State Governor Peter Mbah Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 4,
-      "side": "right",
-      "rank": 7,
-      "state": "Taraba",
-      "governor": "Agbu Kefas",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Kefas Hosts Solid Mineral Roundtable, Commissions TSU Projects, And Reforms Grassroots Sports",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq1y-GRqgK5mklIjamSVZhyyt6xrRJc0ipXEYz4NVIpA8s-zzSB2MTJRAUZ_szdTqkaHHfSPeKpBB9raeQSriWjdg51iI8wKWH1JQx7pV9ax0gcS4jx_8f6Q3GY59tu005OzkoKJeIIcUOYb53QfNJvQf4TB222x_org1QUusxJ2PmJPZwKybLbKPxh2Y/s720-rw/Taraba%20Governor%20Agbu%20Kefas.png",
-      "imageAlt": "Taraba State Governor Agbu Kefas",
-      "imageAriaLabel": "Taraba State Governor Agbu Kefas Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 5,
-      "side": "left",
-      "rank": 8,
-      "state": "Kebbi",
-      "governor": "Nasir Idris",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Kebbi Government Partners International Medical Team To Provide Free Surgeries For 3,000 Residents",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFFc53wj-ON1Q6z7z0zwxYTC7B68aUDRxyrpbcumDWxbyblAjEXDMOLF8aVjdbkYc43_44hOfydC2TwZVwTTCwIutnXI3nlI6Epm8dOMmdKXWTHZOvKlbaeg4kqTw-aC0_bytjtiHUrKV-3V1aj1Uew3l85nY6UJPlyCHQnTgsvmjWh9m4tdPDUHgw1nw/s720-rw/Kebbi%20Governor%20Nasir%20Idris.png",
-      "imageAlt": "Kebbi State Governor Nasir Idris",
-      "imageAriaLabel": "Kebbi State Governor Nasir Idris Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 6,
-      "side": "right",
-      "rank": 9,
-      "state": "Ondo",
-      "governor": "Lucky Aiyedatiwa",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Ondo Government Bans Unverified Alcohol Sales Following Fatalities, Restructures Boards, And Launches Vocational Certification",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_b9fvfq3GLJtq0IbCfR3k2fMmF7w-jpNN9zWWuaD4AR_ie_ItyvNxtUw3_n_RgaMPnTH0f5EFpIGWRHr7DjNFtEafS54rxkRa3ePkr8CW4UmHb-9ee-6zZ4lcxJD0b_0UImEbdO3KeZp2WBjFQFbWdnaKUxWS1YKyyZhyYm6JCcWHZNCeFQpK9LYWPs/s720-rw/Ondo%20Governor%20Lucky%20Aiyedatiwa.png",
-      "imageAlt": "Ondo State Governor Lucky Aiyedatiwa",
-      "imageAriaLabel": "Ondo State Governor Lucky Aiyedatiwa Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 7,
-      "side": "left",
-      "rank": 10,
-      "state": "Niger",
-      "governor": "Muhammed Bago",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Bago Attends Ministerial Wedding In Kano, Celebrates Etsu Nupe's 23rd Throne Anniversary",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0LjubwLZRRT_p-4ysuyMU97oBaWoquZpM8blrHrC1lJzmRl_bbukOnO96OhVcUyS0Ng-KVL2InkdgpbnZ02_BDdSal_jLhyphenhyphenuwwRYyeZGiZkV1o6T1eQAXFWLP2bBQ94aestWo5mCDBLRMJCNZGz_qGEsjUkAOFGQhjRPF2-bB_0LRDASCRgUzvwdXtw0/s720-rw/Niger%20Governor%20Muhammed%20Bago.png",
-      "imageAlt": "Niger State Governor Muhammed Bago",
-      "imageAriaLabel": "Niger State Governor Muhammed Bago Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 8,
-      "side": "right",
-      "rank": 11,
-      "state": "Osun",
-      "governor": "Ademola Adeleke",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Osun Government Clarifies ASUU Agreement Implementation, Reintroduces Park Management System, And Issues Security Alerts",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_QmCyQnk678reIZwUZ6PQ3tfbtPfBwm00BoSrh3Z21Sy-EmeTj6_2EyhUkH8lsAaB8yS5902ljRiMW0kW44eiAtVgh-VsyWvnVTduWcH3e1tm62Fp6HQSZ44Mw1NS925VhOLH2jcEpccch9xk_6pPNW0zht-u1fyCUEbxNOsqVJjd5frfGQHIi3OM2tw/s720-rw/Osun%20Governor%20Ademola%20Adeleke.png",
-      "imageAlt": "Osun State Governor Ademola Adeleke",
-      "imageAriaLabel": "Osun State Governor Ademola Adeleke Governance Policy Intelligence"
-    },
-    {
-      "positionIndex": 9,
-      "side": "left",
-      "rank": 12,
-      "state": "Edo",
-      "governor": "Monday Okpebholo",
-      "title": "Governor",
-      "psi": 3.0,
-      "sis": 2.8,
-      "headline": "Governor Okpebholo Celebrates Chief Igbinedion At 92, Announces Cabinet Reshuffle, And Reconstructs Amufi Road",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93uV3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stZzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
-      "imageAlt": "Edo State Governor Monday Okpebholo",
-      "imageAriaLabel": "Edo State Governor Monday Okpebholo Governance Policy Intelligence"
-    }
-  ]
+    "flankingColumns": []
+  }
 }
