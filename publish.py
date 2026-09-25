@@ -4,6 +4,7 @@ import glob
 import textwrap
 import subprocess
 import re
+import urllib.request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -41,6 +42,45 @@ def load_governors_registry():
         with open(registry_path, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
+
+def is_image_url_working(url):
+    """Tests if an image URL is reachable and returns a healthy HTTP 200 response."""
+    if not url or not url.startswith("http"):
+        return False
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        )
+        with urllib.request.urlopen(req, timeout=4) as response:
+            return response.status == 200
+    except Exception:
+        return False
+
+def extract_state_from_item(item, registry):
+    raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
+    text_to_check = (item.get('headline') or item.get('title') or "").lower()
+    
+    if raw_state:
+        for s_name in registry.keys():
+            if s_name.lower() == str(raw_state).strip().lower():
+                return s_name
+        return str(raw_state).strip()
+        
+    governor_aliases = {
+        "nwifuru": "Ebonyi", "okpebholo": "Edo", "kefas": "Taraba", "zulum": "Borno",
+        "uzodimma": "Imo", "fintiri": "Adamawa", "bago": "Niger", "adeleke": "Osun",
+        "makinde": "Oyo", "soludo": "Anambra", "sanwo-olu": "Lagos", "wike": "FCT Abuja"
+    }
+    for alias, state_name in governor_aliases.items():
+        if alias in text_to_check:
+            return state_name
+
+    for s_name in registry.keys():
+        if s_name.lower() in text_to_check:
+            return s_name
+            
+    return "Unknown"
 
 def format_front_page_layout_data(items):
     """Sorts items by PSI descending and maps them to center and flanking columns using the registry."""
@@ -109,15 +149,39 @@ def format_front_page_layout_data(items):
 
 def build_news_report_html(item):
     html_parts = []
+    registry = load_governors_registry()
     
-    # 1. Featured Image
+    img_src = ""
+    img_alt = ""
+    target_url = "https://www.diplomantimes.com"
+    aria_label = "Diploman Times Governance and Policy Intelligence"
+
+    queue_img_src = ""
     if "featured_image" in item:
         img = item["featured_image"]
-        target_url = img.get('target_url', 'https://www.diplomantimes.com')
+        target_url = img.get('target_url', target_url)
+        queue_img_src = img.get('src', '')
         img_alt = img.get('alt', '')
-        img_src = img.get('src', '')
-        aria_label = img.get('aria_label', 'Diploman Times Governance and Policy Intelligence')
+        aria_label = img.get('aria_label', aria_label)
 
+    # 1. Check if queue image URL is provided AND working. If broken, trigger registry fallback.
+    if queue_img_src and is_image_url_working(queue_img_src):
+        img_src = queue_img_src
+    else:
+        state_name = extract_state_from_item(item, registry)
+        reg = registry.get(state_name, {
+            "executive": "Executive Office",
+            "title": "Gov.",
+            "src": "",
+            "alt": f"{state_name} Executive Office",
+            "aria_label": f"{state_name} Governance Policy Intelligence"
+        })
+        img_src = reg.get("src", "")
+        img_alt = reg.get("alt", f"{state_name} Executive Office")
+        aria_label = reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
+
+    # 2. Featured Image Container Render
+    if img_src:
         html_parts.append(textwrap.dedent(f"""
         <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 8px; padding: 0px; position: relative; width: 100%;">
           <a href="{target_url}" aria-label="{aria_label}" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
@@ -126,7 +190,7 @@ def build_news_report_html(item):
         </figure>
         """).strip())
 
-    # 2. Lead Narrative
+    # 3. Lead Narrative
     if "lead_narrative" in item:
         html_parts.append(textwrap.dedent(f"""
         <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
@@ -135,7 +199,7 @@ def build_news_report_html(item):
         <!--more-->
         """).strip())
 
-    # 3. Editorial Notice Badge
+    # 4. Editorial Notice Badge
     if "editorial_notice" in item:
         notice_text = item['editorial_notice'].replace('EDITORIAL NOTICE:', '').strip()
         html_parts.append(textwrap.dedent(f"""
@@ -144,7 +208,7 @@ def build_news_report_html(item):
         </div>
         """).strip())
 
-    # 4. Body Paragraphs
+    # 5. Body Paragraphs
     if "story_body" in item:
         for p in item["story_body"]:
             html_parts.append(textwrap.dedent(f"""
@@ -153,7 +217,7 @@ def build_news_report_html(item):
             </p>
             """).strip())
 
-    # 5. Call To Action Terminal Interlink Block
+    # 6. Call To Action Terminal Interlink Block
     if "call_to_action" in item:
         cta = item["call_to_action"]
         html_parts.append(textwrap.dedent(f"""
