@@ -65,20 +65,40 @@ def format_front_page_layout_data(items):
         raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
         text_to_check = (item.get('headline') or item.get('title') or "").lower()
         
-        # If raw_state is provided, validate/match it case-insensitively against registry
+        # 1. Direct match check
         if raw_state:
             for s_name in registry.keys():
                 if s_name.lower() == str(raw_state).strip().lower():
                     return s_name
             return str(raw_state).strip()
             
-        # Fallback: Scan text/headline for jurisdiction names
+        # 2. Governor / Key-figure Alias Mapping (Catches headlines mentioning governors by name)
+        governor_aliases = {
+            "nwifuru": "Ebonyi",
+            "okpebholo": "Edo",
+            "kefas": "Taraba",
+            "zulum": "Borno",
+            "uzodimma": "Imo",
+            "fintiri": "Adamawa",
+            "bago": "Niger",
+            "adeleke": "Osun",
+            "makinde": "Oyo",
+            "soludo": "Anambra",
+            "sanwo-olu": "Lagos",
+            "wike": "FCT Abuja"
+        }
+        
+        for alias, state_name in governor_aliases.items():
+            if alias in text_to_check:
+                return state_name
+
+        # 3. Fallback: Scan text/headline for standard jurisdiction names
         for s_name in registry.keys():
             if s_name.lower() in text_to_check:
                 return s_name
                 
         return "Unknown"
-
+        
     center_column = {}
     flanking_columns = []
 
