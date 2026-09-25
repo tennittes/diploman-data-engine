@@ -4,6 +4,7 @@ import glob
 import textwrap
 import subprocess
 import re
+from datetime import datetime
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -11,8 +12,6 @@ CLIENT_ID = os.environ.get("BLOGGER_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
-
-BATCH_LIMIT = 4
 
 def get_blogger_service():
     creds = Credentials(
@@ -72,7 +71,7 @@ def format_front_page_layout_data(items):
                     return s_name
             return str(raw_state).strip()
             
-        # 2. Governor / Key-figure Alias Mapping (Catches headlines mentioning governors by name)
+        # 2. Governor / Key-figure Alias Mapping
         governor_aliases = {
             "nwifuru": "Ebonyi",
             "okpebholo": "Edo",
@@ -148,76 +147,62 @@ def format_front_page_layout_data(items):
         "flankingColumns": flanking_columns
     }
 
-def build_news_report_html(item):
+def build_daily_front_page_html(layout):
+    lead = layout["centerColumn"].get("leadStory", {})
+    r1 = layout["centerColumn"].get("firstRunnerUp", {})
+    r2 = layout["centerColumn"].get("secondRunnerUp", {})
+    
     html_parts = []
     
-    # 1. Featured Image
-    if "featured_image" in item:
-        img = item["featured_image"]
-        target_url = img.get('target_url', 'https://www.diplomantimes.com')
-        img_alt = img.get('alt', '')
-        img_src = img.get('src', '')
-        aria_label = img.get('aria_label', 'Diploman Times Governance and Policy Intelligence')
+    # Newspaper Header & Lead Story
+    html_parts.append(textwrap.dedent(f"""
+    <div style="font-family: Georgia, serif; background-color: #fdfbf7; border: 2px solid #173730; padding: 20px; max-width: 800px; margin: 0 auto;">
+      <div style="border-bottom: 2px solid #173730; padding-bottom: 10px; margin-bottom: 20px; text-align: center;">
+        <h1 style="font-size: 28px; font-family: 'Times New Roman', serif; margin: 0; color: #173730; letter-spacing: 2px;">DIPLOMAN TIMES</h1>
+        <p style="font-size: 11px; text-transform: uppercase; margin: 5px 0 0 0; color: #555;">Subnational Governance & Policy Intelligence</p>
+      </div>
 
+      <div style="margin-bottom: 20px; border-bottom: 1px solid #d1d5db; padding-bottom: 15px;">
+        <span style="background: #173730; color: #fff; font-size: 10px; padding: 2px 6px; text-transform: uppercase; font-weight: bold;">Lead Intelligence | PSI: {lead.get('psi', 'N/A')}</span>
+        <h2 style="font-size: 22px; line-height: 1.3; margin: 10px 0; color: #111;">{lead.get('headline', '')}</h2>
+        {f'<img src="{lead.get(\'imageUrl\')}" alt="{lead.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #ccc; display: block; margin-bottom: 10px;" />' if lead.get('imageUrl') else ''}
+        <p style="font-size: 13px; color: #441; font-style: italic; margin: 0;">Focus: {lead.get('title', '')} {lead.get('governor', '')} ({lead.get('state', '')}) — SIS Index: {lead.get('sis', 'N/A')}</p>
+      </div>
+      <!--more-->
+    """).strip())
+
+    # Runners Up Grid
+    if r1 or r2:
         html_parts.append(textwrap.dedent(f"""
-        <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 8px; padding: 0px; position: relative; width: 100%;">
-          <a href="{target_url}" aria-label="{aria_label}" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
-            <img alt="{img_alt}" border="0" src="{img_src}" style="border: 0px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
-          </a>
-        </figure>
-        """).strip())
-
-    # 2. Lead Narrative
-    if "lead_narrative" in item:
-        html_parts.append(textwrap.dedent(f"""
-        <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
-          {item['lead_narrative']}
-        </p>
-        <!--more-->
-        """).strip())
-
-    # 3. Editorial Notice Badge
-    if "editorial_notice" in item:
-        notice_text = item['editorial_notice'].replace('EDITORIAL NOTICE:', '').strip()
-        html_parts.append(textwrap.dedent(f"""
-        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #173730; padding: 10px 14px; margin: 16px 0 24px 0; border-radius: 4px; font-size: 12px; color: #475569;">
-          <strong>EDITORIAL NOTICE:</strong> {notice_text}
-        </div>
-        """).strip())
-
-    # 4. Body Paragraphs
-    if "story_body" in item:
-        for p in item["story_body"]:
-            html_parts.append(textwrap.dedent(f"""
-            <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 18px;">
-              {p}
-            </p>
-            """).strip())
-
-    # 5. Call To Action Terminal Interlink Block
-    if "call_to_action" in item:
-        cta = item["call_to_action"]
-        html_parts.append(textwrap.dedent(f"""
-        <div style="background: linear-gradient(135deg, #193731 0%, #112521 100%); border: 1px solid #234d44; border-left: 4px solid #38bdf8; border-radius: 6px; padding: 16px 20px; margin: 28px 0; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 8px;">
-            <span style="display: inline-block; width: 6px; height: 6px; background-color: #38bdf8; border-radius: 50%;"></span>
-            <span style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.08em;">
-              {cta.get('heading', 'Diploman Times Telemetry Interlink')}
-            </span>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; border-bottom: 1px solid #d1d5db; padding-bottom: 15px;">
+            <div>
+              <span style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase;">1st Runner-Up ({r1.get('state', '')} - PSI: {r1.get('psi', '')})</span>
+              <h3 style="font-size: 15px; line-height: 1.3; margin: 5px 0; color: #111;">{r1.get('headline', '')}</h3>
+              <p style="font-size: 11px; color: #666; margin: 0; font-style: italic;">{r1.get('title', '')} {r1.get('governor', '')}</p>
+            </div>
+            <div>
+              <span style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase;">2nd Runner-Up ({r2.get('state', '')} - PSI: {r2.get('psi', '')})</span>
+              <h3 style="font-size: 15px; line-height: 1.3; margin: 5px 0; color: #111;">{r2.get('headline', '')}</h3>
+              <p style="font-size: 11px; color: #666; margin: 0; font-style: italic;">{r2.get('title', '')} {r2.get('governor', '')}</p>
+            </div>
           </div>
-          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px;">
-            <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #e2e8f0; max-width: 540px; font-weight: 400;">
-              {cta.get('text', '')}
-            </p>
-            <a href="{cta.get('button_url', '#')}" target="_top" style="display: inline-flex; align-items: center; gap: 6px; background-color: #2A4B23; color: #ffffff; font-size: 12px; font-weight: 700; text-decoration: none; padding: 9px 16px; border-radius: 4px; border: 1px solid #3a6631; transition: all 0.2s ease; white-space: nowrap;">
-              {cta.get('button_label', 'Explore Terminal →')}
-            </a>
-          </div>
-        </div>
         """).strip())
 
-    raw_html = "\n\n".join(html_parts)
-    return optimize_blogger_images(raw_html)
+    # Flanking Columns (Ranks 4-12)
+    html_parts.append('<h4 style="font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #173730; padding-bottom: 4px; color: #173730;">Subnational Surveillance Grid (Ranks 4–12)</h4>')
+    html_parts.append('<ul style="padding-left: 20px; font-size: 13px; color: #333; line-height: 1.6;">')
+    
+    for item in layout.get("flankingColumns", []):
+        html_parts.append(f"""
+          <li style="margin-bottom: 10px;">
+            <strong>{item.get('state')} (Rank {item.get('rank')} | PSI: {item.get('psi')}):</strong> {item.get('headline')} 
+            <span style="font-size: 11px; color: #666; font-style: italic;">— {item.get('title')} {item.get('governor')}</span>
+          </li>
+        """)
+        
+    html_parts.append('</ul></div>')
+    
+    return optimize_blogger_images("\n".join(html_parts))
 
 def get_target_file_and_data():
     target_file = "news-queue.json"
@@ -232,8 +217,7 @@ def get_target_file_and_data():
         
     return target_file, data
 
-def publish_batch_content():
-    published_count = 0
+def publish_daily_edition():
     file_path = None
     data = None
 
@@ -247,53 +231,39 @@ def publish_batch_content():
         else:
             items = []
 
-        # Generate and save structured front page layout mapping if items exist
-        if items:
-            front_page_layout = format_front_page_layout_data(items)
-            os.makedirs('output', exist_ok=True)
-            with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
-                json.dump(front_page_layout, f_out, indent=2)
-            print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
+        if not items:
+            print("No items found in queue to compile daily edition.")
+            return
 
+        # 1. Compile front page engine data & save JSON mapping
+        front_page_layout = format_front_page_layout_data(items)
+        os.makedirs('output', exist_ok=True)
+        with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
+            json.dump(front_page_layout, f_out, indent=2)
+        print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
+
+        # 2. Build single daily front-page post HTML
+        daily_title = f"Diploman Times Daily Briefing & Front Page Intelligence – {datetime.now().strftime('%A, %B %d, %Y')}"
+        post_content = build_daily_front_page_html(front_page_layout)
+
+        # 3. Publish single post via Blogger API
         service = get_blogger_service()
-
-        for item in items:
-            if published_count >= BATCH_LIMIT:
-                break
-
-            if not item.get("published", False):
-                title = item.get("title", "Diploman Times Report")
-                labels = item.get("labels", ["Governance Intelligence"])
-                
-                if item.get("type") == "news_report" or "lead_narrative" in item:
-                    content = build_news_report_html(item)
-                else:
-                    content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
-
-                body = {
-                    "kind": "blogger#post",
-                    "title": title,
-                    "content": content,
-                    "labels": labels
-                }
-                
-                posts = service.posts()
-                result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-                post_url = result.get('url')
-                print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
-
-                item["published"] = True
-                published_count += 1
-
-        if published_count > 0 and file_path and data:
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2)
-            print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
+        body = {
+            "kind": "blogger#post",
+            "title": daily_title,
+            "content": post_content,
+            "labels": ["Front Page Edition", "Daily Briefing", "Governance Intelligence"]
+        }
+        
+        posts = service.posts()
+        result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+        post_url = result.get('url')
+        print(f"Successfully published single daily edition post: '{daily_title}' -> {post_url}")
 
     except Exception as auth_err:
         print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
 
-    # Commit and push queue updates and layout configuration cleanly to GitHub
+    # Commit and push generated engine JSON back to repository cleanly
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
@@ -304,13 +274,13 @@ def publish_batch_content():
 
         status_result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
         if status_result.stdout.strip():
-            subprocess.run(["git", "commit", "-m", "auto: publish batch post state and update front-page layout [skip ci]"], check=True)
+            subprocess.run(["git", "commit", "-m", "auto: publish single daily front-page edition and update layout engine [skip ci]"], check=True)
             subprocess.run(["git", "push"], check=True)
-            print("Successfully pushed publishing queue state and front-page layout mapping to repository.")
+            print("Successfully pushed front-page layout engine state to repository.")
         else:
             print("No changes detected; git commit/push skipped.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
 if __name__ == "__main__":
-    publish_batch_content()
+    publish_daily_edition()
