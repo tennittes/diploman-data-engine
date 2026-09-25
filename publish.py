@@ -52,14 +52,25 @@ def compile_front_page_layout():
     registry = load_json_file("governors-registry.json")
     master_data = load_json_file("master-data.json")
 
+    # Flexible parser for master-data.json formats
+    items = []
     if isinstance(master_data, dict):
-        items = master_data.get("states", master_data.get("newsReports", master_data.get("data", [])))
-        if not items and "centerColumn" not in master_data:
-            items = [{"stateName": k, **v} for k, v in master_data.items() if isinstance(v, dict)]
+        # Check standard wrapper keys
+        for key in ["states", "newsReports", "data", "items"]:
+            if key in master_data and isinstance(master_data[key], list):
+                items = master_data[key]
+                break
+        # If no wrapper found, check if it's a dictionary of state objects or key-value pairs
+        if not items:
+            for k, v in master_data.items():
+                if isinstance(v, dict):
+                    # Ensure state name is injected if dictionary keys are state names
+                    item_copy = v.copy()
+                    if "stateName" not in item_copy and "state" not in item_copy:
+                        item_copy["stateName"] = k
+                    items.append(item_copy)
     elif isinstance(master_data, list):
         items = master_data
-    else:
-        items = []
 
     def get_reg_info(state_name):
         for key in registry:
@@ -98,6 +109,7 @@ def compile_front_page_layout():
                 
         return "Unknown"
 
+    # Sort items by PSI score descending
     sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
 
     center_column = {}
@@ -161,66 +173,106 @@ def compile_front_page_layout():
     }
 
 def build_daily_front_page_html(payload):
+    meta = payload["editionMetadata"]
     layout = payload["frontPageLayout"]
     lead = layout["centerColumn"].get("leadStory", {})
     r1 = layout["centerColumn"].get("firstRunnerUp", {})
     r2 = layout["centerColumn"].get("secondRunnerUp", {})
     
-    lead_img_url = lead.get('imageUrl', '')
-    lead_img_alt = lead.get('imageAlt', '')
-    lead_img_tag = f'<img src="{lead_img_url}" alt="{lead_img_alt}" style="width: 100%; height: auto; border: 1px solid #ccc; display: block; margin-bottom: 10px;" />' if lead_img_url else ''
+    left_flank_html = ""
+    right_flank_html = ""
 
-    html_parts = []
-    
-    # Newspaper Header & Lead Story
-    html_parts.append(textwrap.dedent(f"""
-    <div style="font-family: Georgia, serif; background-color: #fdfbf7; border: 2px solid #173730; padding: 20px; max-width: 800px; margin: 0 auto;">
-      <div style="border-bottom: 2px solid #173730; padding-bottom: 10px; margin-bottom: 20px; text-align: center;">
-        <h1 style="font-size: 28px; font-family: 'Times New Roman', serif; margin: 0; color: #173730; letter-spacing: 2px;">DIPLOMAN TIMES</h1>
-        <p style="font-size: 11px; text-transform: uppercase; margin: 5px 0 0 0; color: #555;">Subnational Governance & Policy Intelligence</p>
+    for item in layout.get("flankingColumns", []):
+        img_tag = f'<img src="{item.get("imageUrl")}" alt="{item.get("imageAlt")}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if item.get("imageUrl") else ''
+        card = f"""
+        <div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; margin-bottom: 12px;">
+          {img_tag}
+          <div style="font-size: 9px; font-weight: bold; color: #173730; text-transform: uppercase; margin-bottom: 2px;">{item.get('state')} (PSI: {item.get('psi')})</div>
+          <h4 style="font-size: 13px; line-height: 1.25; margin: 0 0 4px 0; color: #111; font-family: Georgia, serif;">{item.get('headline')}</h4>
+          <span style="font-size: 10px; color: #555; font-style: italic;">{item.get('title')} {item.get('governor')}</span>
+        </div>
+        """
+        if item.get("side") == "left":
+            left_flank_html += card
+        else:
+            right_flank_html += card
+
+    lead_img_tag = f'<img src="{lead.get(\'imageUrl\')}" alt="{lead.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #173730; display: block; margin: 10px 0;" />' if lead.get('imageUrl') else ''
+    r1_img_tag = f'<img src="{r1.get(\'imageUrl\')}" alt="{r1.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r1.get('imageUrl') else ''
+    r2_img_tag = f'<img src="{r2.get(\'imageUrl\')}" alt="{r2.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #d1d5db; display: block; margin-bottom: 6px;" />' if r2.get('imageUrl') else ''
+
+    html_code = f"""
+    <div style="font-family: Georgia, serif; background-color: #fdfbf7; border: 3px double #173730; padding: 24px; max-width: 1100px; margin: 0 auto; color: #111;">
+      
+      <!-- Broadsheet Top Bar -->
+      <div style="border-bottom: 1px solid #173730; padding-bottom: 8px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; font-size: 11px; text-transform: uppercase; font-weight: bold; color: #333;">
+        <span>{meta.get('date')}</span>
+        <span>{meta.get('portalUrl')}</span>
+        <span>{meta.get('volNumber')}</span>
       </div>
 
-      <div style="margin-bottom: 20px; border-bottom: 1px solid #d1d5db; padding-bottom: 15px;">
-        <span style="background: #173730; color: #fff; font-size: 10px; padding: 2px 6px; text-transform: uppercase; font-weight: bold;">Lead Intelligence | PSI: {lead.get('psi', 'N/A')}</span>
-        <h2 style="font-size: 22px; line-height: 1.3; margin: 10px 0; color: #111;">{lead.get('headline', '')}</h2>
-        {lead_img_tag}
-        <p style="font-size: 13px; color: #441; font-style: italic; margin: 0;">Focus: {lead.get('title', '')} {lead.get('governor', '')} ({lead.get('state', '')}) — SIS Index: {lead.get('sis', 'N/A')}</p>
+      <!-- Masthead Header -->
+      <div style="border-bottom: 3px solid #173730; padding-bottom: 12px; margin-bottom: 20px; text-align: center;">
+        <h1 style="font-size: 42px; font-family: 'Times New Roman', Times, serif; font-weight: 900; margin: 0; color: #173730; letter-spacing: 3px;">DIPLOMAN TIMES</h1>
+        <p style="font-size: 11px; text-transform: uppercase; margin: 4px 0 0 0; color: #555; letter-spacing: 1.5px; font-weight: 600;">Subnational Governance & Policy Intelligence</p>
       </div>
-      <!--more-->
-    """).strip())
 
-    # Runners Up Grid
-    if r1 or r2:
-        html_parts.append(textwrap.dedent(f"""
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; border-bottom: 1px solid #d1d5db; padding-bottom: 15px;">
+      <!-- Main 3-Column Newspaper Grid -->
+      <div style="display: grid; grid-template-columns: 1fr 1.8fr 1fr; gap: 20px; align-items: start;">
+        
+        <!-- Left Flanking Column -->
+        <div style="border-right: 1px solid #d1d5db; padding-right: 15px;">
+          <div style="font-size: 10px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #173730; padding-bottom: 4px; margin-bottom: 12px; color: #173730;">Surveillance Grid</div>
+          {left_flank_html}
+        </div>
+
+        <!-- Center Column (Lead & Runners-Up) -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          
+          <!-- Lead Story -->
+          <div style="border-bottom: 2px solid #173730; padding-bottom: 16px;">
+            <span style="background: #173730; color: #fff; font-size: 10px; padding: 3px 8px; text-transform: uppercase; font-weight: bold; display: inline-block; margin-bottom: 6px;">Strategic Lead | PSI: {lead.get('psi')}</span>
+            <h2 style="font-size: 24px; line-height: 1.2; margin: 6px 0 10px 0; color: #111; font-family: 'Times New Roman', Times, serif;">{lead.get('headline')}</h2>
+            {lead_img_tag}
+            <p style="font-size: 12px; color: #441; font-style: italic; margin: 0;">Focus: {lead.get('title')} {lead.get('governor')} ({lead.get('state')}) — SIS Index: {lead.get('sis')}</p>
+          </div>
+          <!--more-->
+
+          <!-- Runners Up Section -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; border-bottom: 1px solid #d1d5db; padding-bottom: 16px;">
             <div>
-              <span style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase;">1st Runner-Up ({r1.get('state', '')} - PSI: {r1.get('psi', '')})</span>
-              <h3 style="font-size: 15px; line-height: 1.3; margin: 5px 0; color: #111;">{r1.get('headline', '')}</h3>
-              <p style="font-size: 11px; color: #666; margin: 0; font-style: italic;">{r1.get('title', '')} {r1.get('governor', '')}</p>
+              <div style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase; margin-bottom: 4px;">2nd Rank ({r1.get('state')} - PSI: {r1.get('psi')})</div>
+              {r1_img_tag}
+              <h3 style="font-size: 14px; line-height: 1.3; margin: 4px 0; color: #111;">{r1.get('headline')}</h3>
+              <p style="font-size: 10px; color: #555; margin: 0; font-style: italic;">{r1.get('title')} {r1.get('governor')}</p>
             </div>
             <div>
-              <span style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase;">2nd Runner-Up ({r2.get('state', '')} - PSI: {r2.get('psi', '')})</span>
-              <h3 style="font-size: 15px; line-height: 1.3; margin: 5px 0; color: #111;">{r2.get('headline', '')}</h3>
-              <p style="font-size: 11px; color: #666; margin: 0; font-style: italic;">{r2.get('title', '')} {r2.get('governor', '')}</p>
+              <div style="font-size: 9px; font-weight: bold; color: #2A4B23; text-transform: uppercase; margin-bottom: 4px;">3rd Rank ({r2.get('state')} - PSI: {r2.get('psi')})</div>
+              {r2_img_tag}
+              <h3 style="font-size: 14px; line-height: 1.3; margin: 4px 0; color: #111;">{r2.get('headline')}</h3>
+              <p style="font-size: 10px; color: #555; margin: 0; font-style: italic;">{r2.get('title')} {r2.get('governor')}</p>
             </div>
           </div>
-        """).strip())
 
-    # Flanking Columns (Ranks 4-12)
-    html_parts.append('<h4 style="font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #173730; padding-bottom: 4px; color: #173730;">Subnational Surveillance Grid (Ranks 4–12)</h4>')
-    html_parts.append('<ul style="padding-left: 20px; font-size: 13px; color: #333; line-height: 1.6;">')
-    
-    for item in layout.get("flankingColumns", []):
-        html_parts.append(f"""
-          <li style="margin-bottom: 10px;">
-            <strong>{item.get('state')} (Rank {item.get('rank')} | PSI: {item.get('psi')}):</strong> {item.get('headline')} 
-            <span style="font-size: 11px; color: #666; font-style: italic;">— {item.get('title')} {item.get('governor')}</span>
-          </li>
-        """)
-        
-    html_parts.append('</ul></div>')
-    
-    return optimize_blogger_images("\n".join(html_parts))
+        </div>
+
+        <!-- Right Flanking Column -->
+        <div style="border-left: 1px solid #d1d5db; padding-left: 15px;">
+          <div style="font-size: 10px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #173730; padding-bottom: 4px; margin-bottom: 12px; color: #173730;">Policy Index Feed</div>
+          {right_flank_html}
+        </div>
+
+      </div>
+
+      <!-- Footer Bar -->
+      <div style="border-top: 2px solid #173730; margin-top: 20px; padding-top: 10px; text-align: center; font-size: 10px; text-transform: uppercase; color: #555; font-weight: bold;">
+        Governors. News. Live Telemetry. Tracking governance across Nigeria's 36 States and Abuja. &bull; {meta.get('portalUrl')}
+      </div>
+
+    </div>
+    """
+
+    return optimize_blogger_images(html_code)
 
 def publish_daily_edition():
     try:
