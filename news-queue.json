@@ -8254,7 +8254,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-05",
-      "published": false,
+      "published": true,
       "title": "Cross River Reaffirms State Ownership of Ogoja College of Nursing Sciences",
       "labels": [
         "News Report",
@@ -8287,7 +8287,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-06",
-      "published": false,
+      "published": true,
       "title": "Taraba Governor Meets Army Chief on Security Cooperation",
       "labels": [
         "News Report",
@@ -8320,7 +8320,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-07",
-      "published": false,
+      "published": true,
       "title": "Ondo Proposes Army Partnership for Cassava Production in Akure Barracks",
       "labels": [
         "News Report",
@@ -8353,7 +8353,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-08",
-      "published": false,
+      "published": true,
       "title": "Ondo Governor Pledges Further Health Investment and Review of Hospitals Management Board",
       "labels": [
         "News Report",
