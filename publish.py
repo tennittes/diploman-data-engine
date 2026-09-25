@@ -52,11 +52,9 @@ def compile_front_page_layout():
     registry = load_json_file("governors-registry.json")
     master_data = load_json_file("master-data.json")
 
-    # Extract items list from master-data.json structure (handles list or dict formats)
     if isinstance(master_data, dict):
         items = master_data.get("states", master_data.get("newsReports", master_data.get("data", [])))
         if not items and "centerColumn" not in master_data:
-            # If master_data is flat key-value per state
             items = [{"stateName": k, **v} for k, v in master_data.items() if isinstance(v, dict)]
     elif isinstance(master_data, list):
         items = master_data
@@ -77,7 +75,6 @@ def compile_front_page_layout():
 
     def extract_state_name(item):
         raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
-        # Check headline variants B1 / B2 or general text
         text_to_check = (item.get(HEADLINE_VARIANT_KEY) or item.get('headline') or item.get('title') or "").lower()
         
         if raw_state:
@@ -101,7 +98,6 @@ def compile_front_page_layout():
                 
         return "Unknown"
 
-    # Sort items by PSI score descending
     sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
 
     center_column = {}
@@ -170,6 +166,10 @@ def build_daily_front_page_html(payload):
     r1 = layout["centerColumn"].get("firstRunnerUp", {})
     r2 = layout["centerColumn"].get("secondRunnerUp", {})
     
+    lead_img_url = lead.get('imageUrl', '')
+    lead_img_alt = lead.get('imageAlt', '')
+    lead_img_tag = f'<img src="{lead_img_url}" alt="{lead_img_alt}" style="width: 100%; height: auto; border: 1px solid #ccc; display: block; margin-bottom: 10px;" />' if lead_img_url else ''
+
     html_parts = []
     
     # Newspaper Header & Lead Story
@@ -183,7 +183,7 @@ def build_daily_front_page_html(payload):
       <div style="margin-bottom: 20px; border-bottom: 1px solid #d1d5db; padding-bottom: 15px;">
         <span style="background: #173730; color: #fff; font-size: 10px; padding: 2px 6px; text-transform: uppercase; font-weight: bold;">Lead Intelligence | PSI: {lead.get('psi', 'N/A')}</span>
         <h2 style="font-size: 22px; line-height: 1.3; margin: 10px 0; color: #111;">{lead.get('headline', '')}</h2>
-        {f'<img src="{lead.get(\'imageUrl\')}" alt="{lead.get(\'imageAlt\')}" style="width: 100%; height: auto; border: 1px solid #ccc; display: block; margin-bottom: 10px;" />' if lead.get('imageUrl') else ''}
+        {lead_img_tag}
         <p style="font-size: 13px; color: #441; font-style: italic; margin: 0;">Focus: {lead.get('title', '')} {lead.get('governor', '')} ({lead.get('state', '')}) — SIS Index: {lead.get('sis', 'N/A')}</p>
       </div>
       <!--more-->
@@ -224,21 +224,17 @@ def build_daily_front_page_html(payload):
 
 def publish_daily_edition():
     try:
-        # 1. Compile front page layout payload directly from master-data.json and governors-registry.json
         front_page_payload = compile_front_page_layout()
         
-        # Save structured engine JSON
         os.makedirs('output', exist_ok=True)
         with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
             json.dump(front_page_payload, f_out, indent=2)
         print("Successfully compiled and updated output/front-page-engine.json from master telemetry.")
 
-        # 2. Build single daily front-page post HTML
         edition_date = front_page_payload["editionMetadata"]["date"]
         daily_title = f"Diploman Times Daily Briefing & Front Page Intelligence – {edition_date}"
         post_content = build_daily_front_page_html(front_page_payload)
 
-        # 3. Publish single post via Blogger API
         service = get_blogger_service()
         body = {
             "kind": "blogger#post",
@@ -253,7 +249,6 @@ def publish_daily_edition():
     except Exception as err:
         print(f"Error during daily edition compilation/publishing: {err}")
 
-    # Commit and push generated engine JSON back to repository cleanly
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
