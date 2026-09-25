@@ -8386,7 +8386,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-09",
-      "published": false,
+      "published": true,
       "title": "Niger Governor Receives Shehu of Borno Condolence Visit Over Deaths of 37 Miners",
       "labels": [
         "News Report",
@@ -8419,7 +8419,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-10",
-      "published": false,
+      "published": true,
       "title": "Rivers Approves 50% Increase in Judicial Overhead as New Legal Year Begins",
       "labels": [
         "News Report",
@@ -8452,7 +8452,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-11",
-      "published": false,
+      "published": true,
       "title": "Ogun and DP World Sign MoUs for Deep Seaport and Blue Marine Special Economic Zone",
       "labels": [
         "News Report",
@@ -8485,7 +8485,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-12",
-      "published": false,
+      "published": true,
       "title": "Adamawa Approves \u20a6169.1bn Supplementary Budget and Major Infrastructure Projects",
       "labels": [
         "News Report",
