@@ -8518,7 +8518,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-13",
-      "published": false,
+      "published": true,
       "title": "Edo Licences BEDC Subsidiary Under State Electricity Regulatory Framework",
       "labels": [
         "News Report",
@@ -8551,7 +8551,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-14",
-      "published": false,
+      "published": true,
       "title": "Rivers Approves 50% Increase in Judicial Overhead as New Legal Year Begins",
       "labels": [
         "News Report",
@@ -8584,7 +8584,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-15",
-      "published": false,
+      "published": true,
       "title": "Osun Highlights UNIOSUN Infrastructure, Academic Expansion and Leadership Continuity",
       "labels": [
         "News Report",
@@ -8617,7 +8617,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-16",
-      "published": false,
+      "published": true,
       "title": "FCT Targets December Completion for Apo-Karshi and Bwari-Kubwa Roads",
       "labels": [
         "News Report",
