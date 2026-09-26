@@ -8650,7 +8650,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-17",
-      "published": false,
+      "published": true,
       "title": "Zamfara and WHO Train LGA Stakeholders for 2027 Health Operational Planning",
       "labels": [
         "News Report",
@@ -8683,7 +8683,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-18",
-      "published": false,
+      "published": true,
       "title": "Delta First Niger Bridge Rehabilitation Extended for Additional Structural Works",
       "labels": [
         "News Report",
@@ -8716,7 +8716,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-19",
-      "published": false,
+      "published": true,
       "title": "Edo Advances CNG Infrastructure Discussions to Support Alternative Transport Fuel",
       "labels": [
         "News Report",
@@ -8749,7 +8749,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-20",
-      "published": false,
+      "published": true,
       "title": "Katsina Presents Northwest Peace, Security and Development Framework at UNGA",
       "labels": [
         "News Report",
