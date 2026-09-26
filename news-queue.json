@@ -9046,7 +9046,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-29",
-      "published": false,
+      "published": true,
       "title": "Nigeria and US Sign Framework to Expand Investment in Mineral Resources",
       "labels": [
         "News Report",
