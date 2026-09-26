@@ -8782,7 +8782,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-21",
-      "published": false,
+      "published": true,
       "title": "Ondo Explores Army Partnership for Cassava Production in Akure Barracks",
       "labels": [
         "News Report",
@@ -8815,7 +8815,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-22",
-      "published": false,
+      "published": true,
       "title": "Katsina Seeks Private Capital, Development Partnerships at 81st UN General Assembly",
       "labels": [
         "News Report",
@@ -8848,7 +8848,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-23",
-      "published": false,
+      "published": true,
       "title": "Sokoto Sustains Security Operations as Government Targets Return of Displaced Residents",
       "labels": [
         "News Report",
@@ -8881,7 +8881,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-24",
-      "published": false,
+      "published": true,
       "title": "Kaduna Trains Political Appointees on Contributory Health Scheme and Universal Coverage",
       "labels": [
         "News Report",
