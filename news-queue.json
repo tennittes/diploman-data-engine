@@ -8914,7 +8914,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-25",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Recognises Traditional Rulers, Reviews Welfare Package",
       "labels": [
         "News Report",
@@ -8947,7 +8947,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-26",
-      "published": false,
+      "published": true,
       "title": "Abia Governor Joins Fafunwa Education Forum on Language, Scholarship and Learning",
       "labels": [
         "News Report",
@@ -8980,7 +8980,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-27",
-      "published": false,
+      "published": true,
       "title": "Plateau Suspends VIO Road Operations After Assaults, Opens Stakeholder Consultations",
       "labels": [
         "News Report",
@@ -9013,7 +9013,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-25-28",
-      "published": false,
+      "published": true,
       "title": "Lagos Calls for Affordable Long-Term Climate Finance at UN Meeting",
       "labels": [
         "News Report",
