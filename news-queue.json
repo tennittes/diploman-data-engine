@@ -9343,7 +9343,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-09",
-      "published": false,
+      "published": true,
       "title": "Cross River IPAC Calls for Coordinated Representation on Oil Interests",
       "labels": [
         "News Report",
@@ -9376,7 +9376,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-10",
-      "published": false,
+      "published": true,
       "title": "Cross River Trains 192 Beneficiaries for Enterprise and Livelihood Development",
       "labels": [
         "News Report",
@@ -9409,7 +9409,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-11",
-      "published": false,
+      "published": true,
       "title": "Ondo Approves Higher Worker Loans and \u20a6500 Million Housing and Car Loan Seed Fund",
       "labels": [
         "News Report",
@@ -9442,7 +9442,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-12",
-      "published": false,
+      "published": true,
       "title": "Niger Approves CATA and CONTTA for Two State Universities From October",
       "labels": [
         "News Report",
