@@ -9739,7 +9739,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-21",
-      "published": false,
+      "published": true,
       "title": "Nasarawa Commissions Local Government Roads, Inspects Specialist Hospital Project",
       "labels": [
         "News Report",
@@ -9772,7 +9772,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-22",
-      "published": false,
+      "published": true,
       "title": "Delta Labour Directs Workers to Resume as Panel Probes Civil Servant's Death",
       "labels": [
         "News Report",
@@ -9805,7 +9805,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-23",
-      "published": false,
+      "published": true,
       "title": "Zamfara Presents Critical Minerals and Infrastructure Opportunities at UNGA Investor Forum",
       "labels": [
         "News Report",
@@ -9838,7 +9838,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-24",
-      "published": false,
+      "published": true,
       "title": "Edo Commissions New Home for Vulnerable Children at Uwasota",
       "labels": [
         "News Report",
