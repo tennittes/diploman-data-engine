@@ -9211,7 +9211,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-05",
-      "published": false,
+      "published": true,
       "title": "Borno Governor Receives 2026 Pan-African Leadership Award",
       "labels": [
         "News Report",
@@ -9244,7 +9244,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-06",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Plans Completion of Remaining Oshiri-Ugwulangwu Road Section",
       "labels": [
         "News Report",
@@ -9277,7 +9277,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-07",
-      "published": false,
+      "published": true,
       "title": "Adamawa Transfers Energy Ministry to Newly Appointed Commissioner",
       "labels": [
         "News Report",
@@ -9310,7 +9310,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-08",
-      "published": false,
+      "published": true,
       "title": "Adamawa Sustains Environmental Sanitation Enforcement Across Yola",
       "labels": [
         "News Report",
