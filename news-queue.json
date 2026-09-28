@@ -9607,7 +9607,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-17",
-      "published": false,
+      "published": true,
       "title": "Kebbi Government Mourns Two Gwandu Emirate Traditional Leaders",
       "labels": [
         "News Report",
@@ -9640,7 +9640,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-18",
-      "published": false,
+      "published": true,
       "title": "Kebbi NUT President Highlights Governor's Teaching and Labour Background",
       "labels": [
         "News Report",
@@ -9673,7 +9673,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-19",
-      "published": false,
+      "published": true,
       "title": "Rivers Governor Calls for Heritage Preservation at Opobo Coronation",
       "labels": [
         "News Report",
@@ -9706,7 +9706,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-20",
-      "published": false,
+      "published": true,
       "title": "Osun Governor Engages Investors on Proposed Football Factory and Talent Academy",
       "labels": [
         "News Report",
