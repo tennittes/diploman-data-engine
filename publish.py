@@ -5,6 +5,7 @@ import textwrap
 import subprocess
 import re
 import urllib.request
+import time
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -309,13 +310,21 @@ def publish_batch_content():
                     "labels": labels
                 }
                 
-                posts = service.posts()
-                result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
-                post_url = result.get('url')
-                print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
+                try:
+                    posts = service.posts()
+                    result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
+                    post_url = result.get('url')
+                    print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
 
-                item["published"] = True
-                published_count += 1
+                    item["published"] = True
+                    published_count += 1
+                    
+                    # Throttle requests to prevent API block/rate-limit dropping
+                    time.sleep(3)
+                    
+                except Exception as post_err:
+                    print(f"Warning: Failed to publish '{title}': {post_err}")
+                    continue
 
         if published_count > 0 and file_path and data:
             with open(file_path, "w", encoding="utf-8") as f:
@@ -325,7 +334,7 @@ def publish_batch_content():
     except json.JSONDecodeError as json_err:
         print(f"Error: Publishing halted due to malformed JSON syntax at line {json_err.lineno} column {json_err.colno}: {json_err.msg}")
     except Exception as auth_err:
-        print(f"Warning: Blogger API publishing skipped due to authentication/token error: {auth_err}")
+        print(f"Warning: Blogger API initialization skipped due to authentication/token error: {auth_err}")
 
     # Commit and push queue updates and layout configuration cleanly to GitHub
     try:
