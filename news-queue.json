@@ -10003,7 +10003,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-29",
-      "published": false,
+      "published": true,
       "title": "Zamfara Reaffirms Legal and Community Measures Against Gender-Based Violence",
       "labels": [
         "News Report",
@@ -10036,7 +10036,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-30",
-      "published": false,
+      "published": true,
       "title": "FCT Minister Announces Plan to Lead Tinubu Campaign in Abuja",
       "labels": [
         "News Report",
@@ -10069,7 +10069,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-31",
-      "published": false,
+      "published": true,
       "title": "Kano Council Approves \u20a6144 Billion Commitments and \u20a61.201 Trillion Supplementary Budget",
       "labels": [
         "News Report",
@@ -10102,7 +10102,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-32",
-      "published": false,
+      "published": true,
       "title": "Ogun Signs DP World MoUs for Gateway Deep Sea Port and Blue Marine Economic Zone",
       "labels": [
         "News Report",
