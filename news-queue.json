@@ -9871,7 +9871,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-25",
-      "published": false,
+      "published": true,
       "title": "Edo Enrolls More Than 1,000 Youths and Women in Agribusiness Programme",
       "labels": [
         "News Report",
@@ -9904,7 +9904,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-26",
-      "published": false,
+      "published": true,
       "title": "Edo Announces \u20a6100 Million Trader Support and Uwasota\u2013Uwelu Road Intervention",
       "labels": [
         "News Report",
@@ -9937,7 +9937,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-27",
-      "published": false,
+      "published": true,
       "title": "Edo Assures Vulnerable Communities of Flood and Erosion Interventions",
       "labels": [
         "News Report",
@@ -9970,7 +9970,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-28",
-      "published": false,
+      "published": true,
       "title": "Gombe Recorded \u20a68.92 Billion in 2025 Local Government Revenue, Data Shows",
       "labels": [
         "News Report",
