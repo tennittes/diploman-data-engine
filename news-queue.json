@@ -9475,7 +9475,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-13",
-      "published": false,
+      "published": true,
       "title": "Taraba Governor Inspects Schools, Specialist Hospital and Agricultural Facilities in Jalingo",
       "labels": [
         "News Report",
@@ -9508,7 +9508,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-14",
-      "published": false,
+      "published": true,
       "title": "Osun Governor Holds Talks With Sports Investors Over Proposed Football Factory and Academy",
       "labels": [
         "News Report",
@@ -9541,7 +9541,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-15",
-      "published": false,
+      "published": true,
       "title": "Enugu Governor Calls for Evidence-Based Journalism as NGE Presents Good Governance Plaque",
       "labels": [
         "News Report",
@@ -9574,7 +9574,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-16",
-      "published": false,
+      "published": true,
       "title": "Kebbi Provides 500 Bags of Rice to IDPs in 13 Sakaba Camps",
       "labels": [
         "News Report",
