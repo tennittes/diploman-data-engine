@@ -10135,7 +10135,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-33",
-      "published": false,
+      "published": true,
       "title": "Katsina Commissions Navy-Funded School and Solar-Powered Borehole in Kusada",
       "labels": [
         "News Report",
@@ -10168,7 +10168,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-34",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Opens Youth Development Centre in Uruan",
       "labels": [
         "News Report",
@@ -10201,7 +10201,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-35",
-      "published": false,
+      "published": true,
       "title": "Ekiti Dissolves Boards and Ends Appointments of Political Aides",
       "labels": [
         "News Report",
@@ -10234,7 +10234,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-28-36",
-      "published": false,
+      "published": true,
       "title": "Oyo Joins National AgriConnect Compact Launch at IITA",
       "labels": [
         "News Report",
