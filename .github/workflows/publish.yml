@@ -41,6 +41,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add news-queue.json ticker.json output/front-page-engine.json social-queue.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update published queue, ticker state, and social queue [skip ci]" && git push)
 
