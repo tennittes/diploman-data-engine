@@ -10399,7 +10399,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-01",
-      "published": false,
+      "published": true,
       "title": "Federal Committee Begins Investigation Into Deaths of 37 Persons in Niger State",
       "labels": [
         "News Report",
@@ -10432,7 +10432,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-02",
-      "published": false,
+      "published": true,
       "title": "Cross River Gives \u20a6450 Million to 18 Businesses Affected by SPAR Fire",
       "labels": [
         "News Report",
@@ -10465,7 +10465,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-03",
-      "published": false,
+      "published": true,
       "title": "Edo Advances Preparatory Work for Nigerian Army 83 Division in Benin",
       "labels": [
         "News Report",
@@ -10498,7 +10498,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-04",
-      "published": false,
+      "published": true,
       "title": "Cross River Delegation Studies Uganda's Coffee Value Chain",
       "labels": [
         "News Report",
