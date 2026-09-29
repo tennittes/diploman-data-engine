@@ -310,7 +310,7 @@ def publish_batch_content():
         # 2. Process and copy/validate budget analysis data for widget output pipeline
         budget_data = load_budget_analysis()
         if budget_data:
-            with open('output/budget-analysis.json', 'w', encoding='utf-8') as f_budget:
+            with open('budget-analysis.json', 'w', encoding='utf-8') as f_budget:
                 json.dump(budget_data, f_budget, indent=2)
             print("Successfully validated and synced budget-analysis.json to output directory.")
 
@@ -368,8 +368,8 @@ def publish_batch_content():
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
         subprocess.run(["git", "add", "output/front-page-engine.json"], check=True)
-        if os.path.exists('output/budget-analysis.json'):
-            subprocess.run(["git", "add", "output/budget-analysis.json"], check=True)
+        if os.path.exists('budget-analysis.json'):
+            subprocess.run(["git", "add", "budget-analysis.json"], check=True)
         if file_path and os.path.exists(file_path):
             subprocess.run(["git", "add", file_path], check=True)
 
