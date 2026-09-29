@@ -10663,7 +10663,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-09",
-      "published": false,
+      "published": true,
       "title": "Adamawa to Screen More Than 600 Intending Christian Pilgrims",
       "labels": [
         "News Report",
@@ -10696,7 +10696,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-10",
-      "published": false,
+      "published": true,
       "title": "Taraba Governor Visits Niger Over Deaths of 37 Artisanal Miners",
       "labels": [
         "News Report",
@@ -10729,7 +10729,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-11",
-      "published": false,
+      "published": true,
       "title": "Edo Special Criminal Court Set to Deliver First Kidnapping Verdict on September 29",
       "labels": [
         "News Report",
@@ -10762,7 +10762,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-12",
-      "published": false,
+      "published": true,
       "title": "Osun Government Seeks Legal Clarification Over UNIOSUN Vice-Chancellor Tenure Extension",
       "labels": [
         "News Report",
