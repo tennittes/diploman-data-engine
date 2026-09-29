@@ -10531,7 +10531,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-05",
-      "published": false,
+      "published": true,
       "title": "Ondo Task Force Steps Up Enforcement of Building and Planning Regulations",
       "labels": [
         "News Report",
@@ -10564,7 +10564,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-06",
-      "published": false,
+      "published": true,
       "title": "Adamawa Sets Out Completion Timeline for Ongoing State Projects",
       "labels": [
         "News Report",
@@ -10597,7 +10597,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-07",
-      "published": false,
+      "published": true,
       "title": "Adamawa Works Ministry Inspects 8.5-Kilometre Chikila Road Project",
       "labels": [
         "News Report",
@@ -10630,7 +10630,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-08",
-      "published": false,
+      "published": true,
       "title": "Adamawa Health Stakeholders Review Communication and Community Mobilisation",
       "labels": [
         "News Report",
