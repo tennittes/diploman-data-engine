@@ -10395,6 +10395,963 @@
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-01",
+      "published": false,
+      "title": "Federal Committee Begins Investigation Into Deaths of 37 Persons in Niger State",
+      "labels": [
+        "News Report",
+        "Niger State",
+        "Security and Public Accountability",
+        "Investigation"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0LjubwLZRRT_p-4ysuyMU97oBaWoquZpM8blrHrC1lJzmRl_bbukOnO96OhVcUyS0Ng-KVL2InkdgpbnZ02_BDdSal_jLhyphenhyphenuwwRYyeZGiZkV1o6T1eQAXFWLP2bBQ94aestWo5mCDBLRMJCNZGz_qGEsjUkAOFGQhjRPF2-bB_0LRDASCRgUzvwdXtw0/s720-rw/Niger%20Governor%20Muhammed%20Bago.png",
+        "alt": "Niger State Governor Mohammed Umaru Bago",
+        "aria_label": "Niger State governance and public accountability",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "A Federal Government-appointed 10-member independent committee investigating the deaths of 37 persons in Niger State has commenced its work, with the committee chairman assuring the state government that the investigation will seek to establish what happened.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The committee, chaired by retired Deputy Director General of the Department of State Services Jonathan Kure, visited Niger State Governor Mohammed Umaru Bago in Minna as part of its investigation into the deaths of 37 persons in NSCDC custody.",
+        "Kure said the committee had been constituted by the Federal Government to carry out the investigation and that its medical team commenced work immediately after the committee's inauguration to preserve relevant elements required for the inquiry.",
+        "The chairman said the committee would maintain its independent status, seek to establish what went wrong and apportion responsibility where the evidence warrants it, while ensuring fairness to anyone found not to have been involved.",
+        "Governor Bago said the Niger State Government would support and cooperate with the committee where necessary. He also said the state government's judicial commission of inquiry would continue its work and could complement the Federal Government's investigation.",
+        "The development leaves both the federal investigation and the state judicial inquiry as ongoing processes, with their findings yet to establish the circumstances surrounding the deaths or any resulting responsibility."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-02",
+      "published": false,
+      "title": "Cross River Gives ₦450 Million to 18 Businesses Affected by SPAR Fire",
+      "labels": [
+        "News Report",
+        "Cross River State",
+        "Economic Support",
+        "Business Recovery"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7FLPcG_9wgXy8L16EBeqefYFZfRHVwtGcZ2GXflPLHrxd7rPkP5RjjhR_lhUknzjHLwFgwd8WCfcEGQr_tnwlAZDUaGzp2Vbea1xllCw0O9RI-ojlqFTNZg5gvlIWiCVR419wwsivUXHNq-tC7dclpappSKo2sPPz0CKBuLPVoDon-hDZIkFDOd9-E/s720-rw/Cross%20River%20Governor%20Bassey%20Otu.png",
+        "alt": "Cross River State Governor Bassey Otu",
+        "aria_label": "Cross River State economic support and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Cross River State Government has presented ₦25 million each to 18 business owners affected by the SPAR Calabar fire, bringing the reported financial intervention to ₦450 million.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Governor Bassey Otu presented the cheques to the affected business owners at the Executive Chambers of the Governor's Office in Calabar, describing the assistance as support intended to help them rebuild their businesses and livelihoods.",
+        "The governor said the administration places emphasis on supporting small and medium-sized businesses because of their contribution to the state's economy and the livelihoods of residents.",
+        "Otu also acknowledged the Federal Government's intervention following the September 1 visit of First Lady Oluremi Tinubu to Cross River for the launch of the South-South Zone of the National Community Food Bank Programme.",
+        "The governor urged beneficiaries to use the financial assistance productively and said his administration would continue to encourage and support affected entrepreneurs as they work towards stabilising their businesses.",
+        "The intervention provides direct financial support to the 18 businesses affected by the fire, while the state government also pointed entrepreneurs towards available business advisory services, soft loans and grants."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-03",
+      "published": false,
+      "title": "Edo Advances Preparatory Work for Nigerian Army 83 Division in Benin",
+      "labels": [
+        "News Report",
+        "Edo State",
+        "Security Infrastructure",
+        "Military Operations"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93vU3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
+        "alt": "Edo State Governor Monday Okpebholo",
+        "aria_label": "Edo State security infrastructure and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Preparatory works for the operationalisation of the Nigerian Army's 83 Division in Benin City are continuing, with site clearance and other infrastructure activities reported at the proposed facility.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The 83 Division, with headquarters in Benin City, is intended to cover Edo, Delta and Bayelsa states when activated, according to the source account. Preparatory activity at the proposed site in Ikpoba-Okha has included environmental sanitation and rehabilitation of existing structures.",
+        "During a recent inspection, Governor Monday Okpebholo said the site had been cleared and that fencing was the next stage, while temporary accommodation and other preparatory arrangements were being addressed.",
+        "The governor said alternative temporary office spaces were available if required for the division's immediate take-off, while contractors were expected to deploy additional equipment to accelerate construction-related activities.",
+        "Brigadier General Ahmed Balogun, Commander of 4 Brigade, said the inspection was a follow-up to assess progress and that work was progressing, with other amenities and facilities being incorporated.",
+        "The reported preparatory works are intended to support the eventual operationalisation of the division, with the source account placing the expected timeline within December 2026; full operational status has not yet been reported."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-04",
+      "published": false,
+      "title": "Cross River Delegation Studies Uganda's Coffee Value Chain",
+      "labels": [
+        "News Report",
+        "Cross River State",
+        "Agriculture",
+        "Value Chain Development"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7FLPcG_9wgXy8L16EBeqefYFZfRHVwtGcZ2GXflPLHrxd7rPkP5RjjhR_lhUknzjHLwFgwd8WCfcEGQr_tnwlAZDUaGzp2Vbea1xllCw0O9RI-ojlqFTNZg5gvlIWiCVR419wwsivUXHNq-tC7dclpappSKo2sPPz0CKBuLPVoDon-hDZIkFDOd9-E/s720-rw/Cross%20River%20Governor%20Bassey%20Otu.png",
+        "alt": "Cross River State Governor Bassey Otu",
+        "aria_label": "Cross River State agricultural development and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "A Cross River State delegation has travelled to Uganda for a knowledge tour focused on coffee production and value-chain development as the state develops its own coffee programme.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The delegation is led by Commissioner for Agriculture and Irrigation Development Johnson Andiambey Ebokpo and includes government officials, legislators, technical officers and representatives of women and young people.",
+        "The visit forms part of Cross River's coffee development initiative, which includes farmer profiling, training and the distribution of subsidised Arabica and Robusta seedlings in Calabar and other Local Government Areas.",
+        "According to Ebokpo, the delegation will study community infrastructure, processing, value addition, quality standards, traceability and market development, alongside the institutional arrangements supporting Uganda's coffee industry.",
+        "The delegation's composition includes representatives of the House of Assembly, Forestry Commission, agriculture authorities, the Multi-Stakeholder Committee on Cocoa, Coffee and Oil Palm, youth organisations and students.",
+        "The lessons from the tour are expected to inform recommendations for implementing and strengthening Cross River's coffee development programme, although the source does not report specific policy changes resulting from the visit yet."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-05",
+      "published": false,
+      "title": "Ondo Task Force Steps Up Enforcement of Building and Planning Regulations",
+      "labels": [
+        "News Report",
+        "Ondo State",
+        "Urban Planning",
+        "Regulatory Enforcement"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_b9fvfq3GLJtq0IbCfR3k2fMmF7w-jpNN9zWWuaD4AR_ie_ItyvNxtUw3_n_RgaMPnTH0f5EFpIGWRHr7DjNFtEafS54rxkRa3ePkr8CW4UmHb-9ee-6zZ4lcxJD0b_0UImEbdO3KeZp2WBjFQFbWdnaKUxWS1YKyyZhyYm6JCcWHZNCeFQpK9LYWPs/s720-rw/Ondo%20Governor%20Lucky%20Aiyedatiwa.png",
+        "alt": "Ondo State Governor Lucky Aiyedatiwa",
+        "aria_label": "Ondo State urban planning and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Ondo State Ministry of Physical Planning and Urban Development has intensified monitoring and enforcement of building and town-planning regulations across major towns and cities in the state.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The ministry's task force visited areas in Akure, Ondo, Ikare Akoko, Owo and Idanre, where officials reported finding construction activities without approved layouts, building plans or land-use clearances, as well as projects that allegedly differed from approved plans.",
+        "The reported infractions also included construction on government setbacks, encroachment on public land and buildings described by the ministry as distressed and potentially dangerous to occupants.",
+        "Permanent Secretary of the Building Control Section Abimbola Tofowomo said the task force had been directed to move across the state's 18 Local Government Areas to monitor compliance with planning regulations and approvals.",
+        "The ministry advised builders to obtain the necessary approvals before commencing construction, warning that violations could result in demolition, penalties or prosecution under applicable state laws.",
+        "During the enforcement exercise, contravention notices were reportedly issued at several residential, commercial, educational and other construction sites, while some locations were sealed as the ministry continued its regulatory operations."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-06",
+      "published": false,
+      "title": "Adamawa Sets Out Completion Timeline for Ongoing State Projects",
+      "labels": [
+        "News Report",
+        "Adamawa State",
+        "Infrastructure",
+        "Project Delivery"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodw8M3x6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s720-rw/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
+        "alt": "Adamawa State Governor Ahmadu Fintiri",
+        "aria_label": "Adamawa State infrastructure and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Adamawa State's Works Commissioner says ongoing and recently approved projects are expected to be completed before the end of Governor Ahmadu Fintiri's tenure.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Commissioner for Works Mohammed Suleiman said the timelines attached to ongoing and recently approved projects fall within the remaining period of Governor Fintiri's tenure.",
+        "According to the commissioner, major projects including the Adamawa Super Highway have been completed, while installation of streetlights along the road has also been approved.",
+        "Suleiman said additional projects would be initiated under the administration and stated that the projects would be completed before May 29, 2027.",
+        "The Works Ministry said it would continue delivering on its mandate and sustaining efforts towards project completion and infrastructure delivery across the state.",
+        "The completion timetable remains an official projection from the Works Commissioner, while implementation of the referenced projects remains subject to the stated timelines."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-07",
+      "published": false,
+      "title": "Adamawa Works Ministry Inspects 8.5-Kilometre Chikila Road Project",
+      "labels": [
+        "News Report",
+        "Adamawa State",
+        "Road Infrastructure",
+        "Project Monitoring"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodw8M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodw8M3x6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s720-rw/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
+        "alt": "Adamawa State Governor Ahmadu Fintiri",
+        "aria_label": "Adamawa State road infrastructure and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Adamawa State Ministry of Works has inspected the ongoing construction of the 8.5-kilometre Chikila Road to assess progress and construction quality.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The inspection team was led by Permanent Secretary Mundi Musa Ibrahim and included the Director of Civil Engineering Geoffrey P. Dariya and other ministry engineers.",
+        "Officials assessed ongoing activities along the Chikila Road project, including earthworks, drainage construction and related works.",
+        "The ministry said the inspection was intended to determine the level of work and monitor execution against the standards and specifications applicable to the project.",
+        "The exercise forms part of the ministry's reported monitoring of road projects across Adamawa State as construction activities continue.",
+        "The Works Ministry reaffirmed its stated commitment to monitoring the project towards timely completion and delivery of the road infrastructure."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-08",
+      "published": false,
+      "title": "Adamawa Health Stakeholders Review Communication and Community Mobilisation",
+      "labels": [
+        "News Report",
+        "Adamawa State",
+        "Public Health",
+        "Community Engagement"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodw8M3x6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s720-rw/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
+        "alt": "Adamawa State Governor Ahmadu Fintiri",
+        "aria_label": "Adamawa State public health and governance",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Adamawa's Advocacy, Communication and Social Mobilisation Technical Working Team has held a coordination meeting focused on strengthening health communication and community engagement.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The one-day meeting was held on September 28, 2026, at the SERICC Hall of the Adamawa State Primary Health Care Development Agency and brought together government institutions, development partners, traditional institutions and religious bodies.",
+        "Director of Advocacy, Communication and Social Mobilisation Zacharia David Birdling called for regular coordination meetings to identify challenges affecting health communication and community mobilisation and consider possible responses.",
+        "Birdling said the team's work extends beyond immunisation to broader public awareness and ensuring that citizens receive relevant health information, while acknowledging stakeholder contributions to immunisation activities.",
+        "Representatives of eHealth Africa said the meeting provided an opportunity for partners to present updates, discuss challenges and consider ways forward, while the District Head of Jimeta encouraged continued participation in health-awareness activities.",
+        "The meeting concluded with discussions, questions, contributions and recommendations intended to strengthen coordination among the participating government agencies, partners, traditional institutions and religious bodies."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-09",
+      "published": false,
+      "title": "Adamawa to Screen More Than 600 Intending Christian Pilgrims",
+      "labels": [
+        "News Report",
+        "Adamawa State",
+        "Religious Affairs",
+        "Public Administration"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOKjXmvms33bDc8uGMWrU7M3PEPx2Ycwu0pUBTFji6lNMB7jA3YA_-8l4JElP5uB-HXQaaUH0Vcrtzvym0eqodw8M3x6nAT2BlrKWj90LWsRw4hRhLN-cBBjapKfcwOu1RKijFZ2JP3vFnWXIBVdk5Vpk9keirDLgy23bAAa9ZfEBtUsc-rM-SZWIR8XA/s720-rw/Adamawa%20State%20Governor%20Ahmadu%20Fintiri.png",
+        "alt": "Adamawa State Governor Ahmadu Fintiri",
+        "aria_label": "Adamawa State public administration and pilgrimage programme",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "More than 600 intending Christian pilgrims are expected to undergo screening in Adamawa State for the 2026 pilgrimage to Israel.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The screening was conducted at the headquarters of the Adamawa State Christian Pilgrims Welfare Board in Yola, where the state delegation's head, Johnson Diyo Matalo, urged intending pilgrims to conduct themselves responsibly throughout the pilgrimage.",
+        "The Nigerian Christian Pilgrim Commission representative, Adetunji Adetoye, commended the state's continued participation in Christian pilgrimage activities and acknowledged government support for the programme.",
+        "Board Executive Secretary Geoffrey Garba disclosed that more than 600 intending pilgrims are expected to be screened for the 2026 pilgrimage to Israel.",
+        "Garba also said about 700 Christians had benefited from state government sponsorship of Christian pilgrimage in recent times, attributing the participation to continued government support.",
+        "The Board's chairman, Theophilus Shadrach, urged intending pilgrims to approach the pilgrimage as a religious journey and to maintain appropriate conduct during the programme."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-10",
+      "published": false,
+      "title": "Taraba Governor Visits Niger Over Deaths of 37 Artisanal Miners",
+      "labels": [
+        "News Report",
+        "Niger State",
+        "Interstate Governance",
+        "Mining Incident"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0LjubwLZRRT_p-4ysuyMU97oBaWoquZpM8blrHrC1lJzmRl_bbukOnO96OhVcUyS0Ng-KVL2InkdgpbnZ02_BDdSal_jLhyphenhyphenuwwRYyeZGiZkV1o6T1eQAXFWLP2bBQ94aestWo5mCDBLRMJCNZGz_qGEsjUkAOFGQhjRPF2-bB_0LRDASCRgUzvwdXtw0/s720-rw/Niger%20Governor%20Muhammed%20Bago.png",
+        "alt": "Niger State Governor Mohammed Umaru Bago",
+        "aria_label": "Niger State governance and interstate engagement",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Taraba State Governor Agbu Kefas visited Niger State Governor Mohammed Umaru Bago to convey condolences over the deaths of 37 artisanal miners and discuss the ongoing investigations.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Kefas led a Taraba State Government delegation to the Government House in Minna, where he expressed sympathy to Governor Bago, the affected families and residents of Niger State.",
+        "The Taraba governor called for a clear account of what happened and said the findings of the Federal Government's investigation should inform measures aimed at protecting lives.",
+        "Governor Bago thanked his counterpart for the visit and said the state government's judicial commission of inquiry was also examining the incident, with the expectation that its work would complement the federal investigation.",
+        "Separately, the General Officer Commanding One Division, Nigerian Army, Major General Abubakar Sadiq Mohammed Wase, paid a condolence visit to Governor Bago over the incident and discussed the forthcoming reorganisation of Army formations affecting Niger State.",
+        "The condolence visits and parallel inquiries form part of the continuing official response to the deaths, while the circumstances and findings remain subject to the ongoing investigative processes."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-11",
+      "published": false,
+      "title": "Edo Special Criminal Court Set to Deliver First Kidnapping Verdict on September 29",
+      "labels": [
+        "News Report",
+        "Edo",
+        "Justice",
+        "Security"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93vU3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
+        "alt": "Edo State Governor Monday Okpebholo",
+        "aria_label": "Edo State Governor Monday Okpebholo Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Edo State Special Criminal Court sitting in Benin City is scheduled to deliver its first judgment in a kidnapping case on September 29, 2026, arising from the abduction of a woman at the Vegetable Market along Airport Road.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "According to an Edo State government publication, the case followed the June 14, 2026 abduction of a woman at the market, after which a police investigation led to the arrest of several suspects.",
+        "The publication said the Edo State Special Criminal Court was established in July 2026 following a directive by Governor Monday Okpebholo for the Judiciary to accelerate the trial of kidnapping and cultism cases.",
+        "It reported that several suspects were subsequently taken into police custody, while the abducted woman was released unharmed two days after the incident.",
+        "The police investigation, according to the publication, traced a red Lexus RX 350 allegedly used in the abduction and resulted in the recovery of a pump-action shotgun with live ammunition, a motorcycle and cash suspected to be proceeds of crime.",
+        "The September 29 judgment is therefore the first verdict scheduled to be delivered by the Edo State Special Criminal Court in a kidnapping case, according to the state government publication."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-12",
+      "published": false,
+      "title": "Osun Government Seeks Legal Clarification Over UNIOSUN Vice-Chancellor Tenure Extension",
+      "labels": [
+        "News Report",
+        "Osun",
+        "Higher Education",
+        "Legal Affairs"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_QmCyQnk678reIZwUZ6PQ3tfbtPfBwm00BoSrh3Z21Sy-EmeTj6_2EyhUkH8lsAaB8yS5902ljRiMW0kW44eiAtVgh-VsyWvnVTduWcH3e1tm62Fp6HQSZ44Mw1NS925VhOLH2jcEpccch9xk_6pPNW0zht-u1fyCUEbxNOsqVJjd5frfGQHIi3OM2tw/s720-rw/Osun%20State%20Governor%20Ademola%20Adeleke.png",
+        "alt": "Osun State Governor Ademola Adeleke",
+        "aria_label": "Osun State Governor Ademola Adeleke Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Osun State Government has called for further legal clarification over the Committee of Pro-Chancellors of State-Owned Universities' position on the tenure extension of the Vice-Chancellor of Osun State University.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Osun State government publication said the government acknowledged the role of the Committee of Pro-Chancellors of State-Owned Universities, while maintaining that its position on the UNIOSUN tenure matter appeared to reflect an incomplete understanding of the constitutional and legislative framework governing the institution.",
+        "The government pointed to the Osun State University Establishment Law, 2006, and said the constitutional framework permits State Houses of Assembly to establish institutions for university, technological and professional education, while federal regulation continues to cover areas including standards, accreditation and professional requirements.",
+        "On the Universities (Miscellaneous Provisions) Amendment Act, 2012, the government said the central legal question was whether the relevant federal provisions applied to UNIOSUN in a manner capable of overriding its enabling law, while acknowledging the constitutional principle concerning the supremacy of valid federal law where inconsistency exists.",
+        "The publication also said the Osun State House of Assembly had considered and passed the Osun State University Establishment Amendment Bill, 2026, and clarified that the existing Vice-Chancellor tenure runs until January 2027, with the proposed additional tenure commencing on January 4, 2027.",
+        "The government called for the dispute to be resolved through the Constitution, applicable statutes and official legislative records, while urging COPSUN, NUC, professional regulatory bodies, the Governing Council, staff unions, the Visitor and the State Government to operate within their respective mandates."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-13",
+      "published": false,
+      "title": "Ekiti Governor Dissolves Boards and Terminates Political Appointments",
+      "labels": [
+        "News Report",
+        "Ekiti",
+        "Government Administration",
+        "Appointments"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHaQDBP0o5DWduxzDxMLKP9TP_dzKW_Zbc1ffPjbIAKLy5bBnPQr_nMfePxbySQn5veIPvsQBr0xI_WzbpZ27pd8qBi8TGQeXuzut5M3dGrGS6eZvk14zxWDs4Eq8588TX-J6F7cNxU8e6_L9Gc1oxxY9BpDzxa42IbhhaFSTzHvbYPV9hmzaSOmPnkIw/s720-rw/Ekiti%20Governor%20Abiodun%20Oyebanji.png",
+        "alt": "Ekiti State Governor Biodun Oyebanji",
+        "aria_label": "Ekiti State Governor Biodun Oyebanji Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Ekiti State Governor Biodun Oyebanji has approved the immediate dissolution of boards, commissions and parastatals in the state, alongside the termination of appointments of political appointees.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Ekiti State government publication reported that Governor Biodun Oyebanji approved the immediate dissolution of boards, commissions and parastatals across the state.",
+        "The same decision also provides for the termination of the appointments of all political appointees, according to the publication.",
+        "The announcement was dated September 27, 2026, and was issued as part of the state government's administrative decisions under the governor.",
+        "The publication directed attention to the official statement issued through the Ekiti State Government Information channel for the full details of the dissolution and termination decisions.",
+        "The immediate effect of the directive is therefore the dissolution of the affected boards, commissions and parastatals and the termination of the political appointments identified in the state announcement."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-14",
+      "published": false,
+      "title": "Nasarawa Commissions Roads, Primary Healthcare Facility and Market Infrastructure",
+      "labels": [
+        "News Report",
+        "Nasarawa",
+        "Infrastructure",
+        "Healthcare"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfmLYgN01VP57ZJ_lEmKUSjW9cmfzpY87cbLYdJCZM3GWjrsqJctdkqE2l0caSB8NGU-wsw0ZorPNvwALLHJH5PwjVV-sZCJqBCkqQfVWp9oFJu4arlBh4rnQfJmnEi-EOtRsgJjHNovUBvbBzg1kpN5SVaCYu_Xrcp3Lfzq6OTDS7M4rj20cx4DEFoaQ/s720-rw/Nasarawa%20Governor%20Abdulahi%20Sule.png",
+        "alt": "Nasarawa State Governor Abdullahi Sule",
+        "aria_label": "Nasarawa State Governor Abdullahi Sule Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Nasarawa State commissioned multiple infrastructure projects on September 28, 2026, including roads in Doma and a primary healthcare facility in Lafia, as part of activities marking the state's 30th anniversary.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "A Nasarawa State government publication reported the commissioning of a 1.7-kilometre RCM Primary School Junction–Yelwa Garage road linking to Andoma's Palace in Doma.",
+        "The publication also identified the commissioning of the 2.7-kilometre Timber Shade–GSS Odorogya–St. Aloysius Road and Doma Modern Market among the projects commissioned during the anniversary activities.",
+        "It said the road projects were executed by the state government under Governor Abdullahi A. Sule as part of efforts to spread infrastructure development across the state's local government areas.",
+        "In Lafia, a primary healthcare facility built and equipped by the Lafia Local Government Chairman, Mohammed Alhaji Halliru, was also commissioned and named Engr. A.A Sule Primary Healthcare Center GRA, Lafia.",
+        "The commissioning activities also included Aminu Mu'azu Maifata Road along GRA, Lafia, with the projects forming part of events marking Nasarawa State at thirty."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-15",
+      "published": false,
+      "title": "Anambra Begins Revival of Nnewi Mall After 14 Years",
+      "labels": [
+        "News Report",
+        "Anambra",
+        "Urban Development",
+        "Commercial Infrastructure"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhklrOSARaF_AY4Y9DUq7G68CdL6qSber8WcmuueulT2Ot6ndWTxeFTQjnuWkb30lMeriSlUaQDSzjmTzyrxpWJv-YZDyUoV-QTmTjacXndg5p9C-rNZ1D2O1JTL_wvv8B6bwU5DeCHDln0JmyhYLOnDTBetYhZ0bcwN1t5hPbJLKj4EVK1TOAnuD9a9k-k/s720-rw/Anambra%20Governor%20Charles%20Soludo.png",
+        "alt": "Anambra State Governor Charles Soludo",
+        "aria_label": "Anambra State Governor Charles Soludo Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Anambra State has commenced the revival of the Nnewi Mall, a project described in the state update as having remained abandoned for 14 years, with the site handed over to a contractor for completion.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Anambra State government update reported that Governor Charles Soludo had commenced the revival of the Nnewi Mall project.",
+        "The project was described in the update as having remained abandoned for 14 years before the latest intervention.",
+        "According to the update, the project site has been formally handed over to a contractor as part of the revival process.",
+        "The state update specified a 52-week completion period for the project following the handover.",
+        "The September 29, 2026 report therefore records the commencement of the Nnewi Mall revival and the contractor's assumption of the site for the stated 52-week delivery period."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-16",
+      "published": false,
+      "title": "Edo Advances Preparatory Works for Nigerian Army 83 Division Headquarters",
+      "labels": [
+        "News Report",
+        "Edo",
+        "Security",
+        "Infrastructure"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93vU3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
+        "alt": "Edo State Governor Monday Okpebholo",
+        "aria_label": "Edo State Governor Monday Okpebholo Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Preparatory work is advancing at the proposed headquarters of the Nigerian Army's 83 Division in Benin City, with site clearance, fencing and temporary accommodation among the works reported by the Edo State government publication.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Edo State government publication reported that Governor Monday Okpebholo inspected the proposed 83 Division site at Teboga in Ikpoba-Okha Local Government Area and reviewed progress on preparatory works.",
+        "The publication said the site had been cleared, fencing was the next major activity and temporary accommodation was ready, while environmental sanitation and rehabilitation of existing structures were also underway.",
+        "During the inspection, Governor Okpebholo said the state was preparing for the division and that facilities required for military occupation were being worked on, while contractors were expected to deploy additional bulldozers to accelerate construction.",
+        "Brigadier General Ahmed Balogun, Commander of 4 Brigade, Nigerian Army, said the inspection was a follow-up to assess progress and that work was progressing steadily toward operationalisation, with additional amenities and facilities being incorporated.",
+        "The publication reported that the operationalisation timeline runs through December 2026, while the 83 Division is to have its headquarters in Benin City and cover Edo, Delta and Bayelsa States when activated."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-17",
+      "published": false,
+      "title": "Gombe Committee Begins Sensitisation on Grazing Reserves and Cattle Routes",
+      "labels": [
+        "News Report",
+        "Gombe",
+        "Agriculture",
+        "Community Relations"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn0QXv8itySIaPdwwDYhgVdGsZurZ1WlhTj-mo2KEIHupcujNLqhfh6c2PmKrNB4hH5-pOZLwA4Gh9gwA5hG8XOfbqsa1Na4NK20zUOvqF8T00nTu72326eFPDFTnELgYifduyXwTgohz7nxCRRLg8ODrr25aplTFgOyjjBtKuBOT5Z3syTwAYogm6q6g/s720-rw/Gombe%20Governor%20Inuwa%20Yahaya.png",
+        "alt": "Gombe State Governor Inuwa Yahaya",
+        "aria_label": "Gombe State Governor Inuwa Yahaya Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "A Gombe State government committee has taken its sensitisation exercise on grazing reserves and cattle routes to Nafada and Funakaye Local Government Areas, engaging farmers, herders and traditional institutions.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The White Paper Implementation Sub-Committee on Grazing Reserves, chaired by Ardo Chindo Abubakar, visited Nafada and Funakaye Local Government Areas to sensitise farmers and herders on policies, regulations and guidelines governing grazing reserves and cattle routes.",
+        "At the Nafada Emir's Palace, the committee urged farmers and herders to comply with the law and respect one another as part of efforts to sustain peaceful coexistence.",
+        "The committee chairman also disclosed a state enforcement measure requiring Ardos to collect and document data on cattle herders across Gombe State, while cautioning against activities involving cattle from outside the state that could cause destruction or undermine community peace.",
+        "Traditional rulers in Nafada and Funakaye pledged cooperation with the sensitisation exercise, while the respective emirs called on farmers and herders to support government efforts toward peace and sustainable development.",
+        "The committee subsequently proceeded to Funakaye Local Government Area, continuing the sensitisation exercise on grazing reserves, cattle routes and related government policies."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-18",
+      "published": false,
+      "title": "Zamfara Develops Curriculum for Tsangaya Schools",
+      "labels": [
+        "News Report",
+        "Zamfara",
+        "Education",
+        "Curriculum"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLNhXALjJza8adk8hPCwoZTwYqQMOGSEQtrZ6_ivxxUF9IXZ0MR1_-pa-E1bXRcfMxJOHa0hc9lrbJ4crkHgPCeI33bF2Ec2a7jNTuPWlxcZRqPJSqovvPMoRzZC1MAa5ML4HtuURGtFVZs7-QpT0vdJs5-sNpDKrW5AH5vCi3WIoCJNap0i9xBheiWR8/s720-rw/Zamfara%20Governor%20Dauda%20Lawal.png",
+        "alt": "Zamfara State Governor Dauda Lawal",
+        "aria_label": "Zamfara State Governor Dauda Lawal Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Zamfara State Arabic and Islamic Education Board has developed a curriculum for Tsangaya schools, with the proposed curriculum submitted to the state governor for approval.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Executive Secretary of the Zamfara State Arabic and Islamic Education Board, Dr. Aminu Umar Gummi, disclosed the curriculum development during an audience participatory programme on Gamji FM Radio sponsored by the Zamfara State Government.",
+        "According to the report, the curriculum has been sent to Governor Dauda Lawal for approval and is therefore subject to the state's approval process.",
+        "The report also stated that the Federal Government was formalising the Tsangaya education system with the stated objective of giving it official recognition.",
+        "Dr. Gummi said the proposed harmonisation with the formal education system would enable Tsangaya students to sit examinations including NECO and WAEC and progress to university level.",
+        "The board's curriculum development initiative remains at the approval stage identified in the report, with the stated objective of strengthening the educational pathway for students in Tsangaya schools."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-19",
+      "published": false,
+      "title": "Kaduna Rigasa Township Road Reaches Stone Base Construction Stage",
+      "labels": [
+        "News Report",
+        "Kaduna",
+        "Road Infrastructure",
+        "Construction"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJN5KUFBjpRZbYP4hdIdD7ZAui1Roi-hELC_xBitASusSsFaP1_e1C1DQ_i5n6S2HAkdRRcg0sHNXUxf6Cwr9G-vDk_WEti3Qf8lD5DvdncV2P0RYg5t3IRTZTH-I-PSR17twsGnRy7ycpmBtSkbg4vZqk2YcK66KNgMuuoUkGFYz8paz_fMIPXi6ppYY/s720-rw/Kaduna%20Governor%20Uba%20Sani.png",
+        "alt": "Kaduna State Governor Uba Sani",
+        "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Construction work is progressing on the Lokoja–Makera Road via Waterboard section of the Rigasa Township Road project in Kaduna State, with stone base laying identified as the latest reported activity.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "A Kaduna State government update reported continued construction activity on the Lokoja–Makera Road via Waterboard section of the Rigasa Township Road project.",
+        "The latest reported work involves laying the stone base along the project route.",
+        "The stone base was described as a construction stage intended to provide a strong and stable foundation for subsequent road layers.",
+        "The ongoing work is linked in the update to efforts to improve road infrastructure, connectivity and movement within the Rigasa area.",
+        "Construction remains ongoing on the identified section of the Rigasa Township Road project, according to the September 29, 2026 update."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-20",
+      "published": false,
+      "title": "Osun Inaugurates Special Task Force on Environmental Sanitation",
+      "labels": [
+        "News Report",
+        "Osun",
+        "Environment",
+        "Public Administration"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_QmCyQnk678reIZwUZ6PQ3tfbtPfBwm00BoSrh3Z21Sy-EmeTj6_2EyhUkH8lsAaB8yS5902ljRiMW0kW44eiAtVgh-VsyWvnVTduWcH3e1tm62Fp6HQSZ44Mw1NS925VhOLH2jcEpccch9xk_6pPNW0zht-u1fyCUEbxNOsqVJjd5frfGQHIi3OM2tw/s720-rw/Osun%20State%20Governor%20Ademola%20Adeleke.png",
+        "alt": "Osun State Governor Ademola Adeleke",
+        "aria_label": "Osun State Governor Ademola Adeleke Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Osun State Government has inaugurated a Special Task Force on Environmental Sanitation to strengthen enforcement of environmental laws and address sanitation infractions across the state.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Osun State government publication reported that the Special Task Force on Environmental Sanitation was established to strengthen enforcement of environmental laws and support a clean and habitable environment across the state.",
+        "The task force is chaired by the Head of Service, Samuel Ayanleye Aina, with the Commissioner for Environment and Sanitation, Mayowa Adejoorin, serving as deputy.",
+        "Its mandate includes addressing indiscriminate waste disposal in drains, roadsides and other locations capable of creating environmental nuisances, according to the publication.",
+        "The government directed members to conduct enforcement in accordance with the law and warned that persons found culpable of violating environmental laws could be prosecuted, while also stressing due process.",
+        "The task force, whose membership includes officials from government agencies and other relevant offices, is to commence work with immediate effect."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-21",
+      "published": false,
+      "title": "Lagos Hosts National GBV Coordinators' Convening and Launches SGBV Prevention Policy",
+      "labels": [
+        "News Report",
+        "Lagos",
+        "Gender-Based Violence",
+        "Public Policy"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
+        "alt": "Lagos State Governor Babajide Sanwo-Olu",
+        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Lagos State has hosted a national convening of Gender-Based Violence state coordinators alongside the launch of its Sexual and Gender-Based Violence Prevention Policy, bringing stakeholders together around a coordinated response to GBV.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "A Lagos State government publication reported that stakeholders from across Nigeria converged in Lagos for the National Convening of Gender-Based Violence State Coordinators.",
+        "The gathering was also used to launch the Lagos State Sexual and Gender-Based Violence Prevention Policy.",
+        "The event brought together state coordinators and other stakeholders as part of efforts toward a unified and coordinated response to Gender-Based Violence.",
+        "Among those identified as attending were Lagos State First Lady Dr. Ibijoke Sanwo-Olu, Attorney-General and Commissioner for Justice Lawal Pedro, SAN, and Secretary to the Lagos State Government Bimbola Salu-Hundeyin.",
+        "The convening and policy launch therefore placed inter-state coordination and Lagos's SGBV prevention policy within the same national stakeholder engagement."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-22",
+      "published": false,
+      "title": "Lagos Launches 2026 Mother, Infant and Child Development Programme Across Six Health Districts",
+      "labels": [
+        "News Report",
+        "Lagos",
+        "Healthcare",
+        "Maternal and Child Health"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
+        "alt": "Lagos State Governor Babajide Sanwo-Olu",
+        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Lagos State Government has commenced its 2026 Mother, Infant and Child Development Programme across the state's six Health Districts, with the Health District I edition held in the Orile-Agege area.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Lagos State Government, through the Office of Political, Legislative and Civic Engagement, commenced the 2026 Mother, Infant and Child Development Programme across the six Health Districts of the state.",
+        "The Health District I edition was held at the Taofeek Adaranijo Event Centre along Ipaja Road in Abekoko, beside the Orile-Agege Local Council Development Area Secretariat.",
+        "The programme was described by the Special Adviser to the Governor on Political, Legislative and Civic Engagement as an initiative focused on maternal and child wellbeing, nutritional support and awareness of available healthcare services.",
+        "The programme provides for the distribution of 5,000 nutritional food packs to pregnant women across the six Health Districts, compared with more than 2,000 pregnant women reported to have benefited across the districts in 2025.",
+        "The Health District I event also included healthcare and social-support activities such as routine immunisation, family planning, Vitamin A supplementation, malnutrition screening, birth registration, maternal healthcare, HIV screening and tuberculosis screening and treatment."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-23",
+      "published": false,
+      "title": "Lagos Waste Agency Arrests 14 in Enforcement Operations and Seizes Carts",
+      "labels": [
+        "News Report",
+        "Lagos",
+        "Environmental Enforcement",
+        "Waste Management"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
+        "alt": "Lagos State Governor Babajide Sanwo-Olu",
+        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Lagos Waste Management Authority has intensified enforcement against waste-related offences, reporting 14 arrests on Lagos Island and the seizure of scores of carts linked to unauthorised waste collection along the Lagos-Badagry Expressway.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Lagos Waste Management Authority reported that 14 persons were arrested during an enforcement operation covering Idumota, Oke-Popo, Tom Jones and Tinubu on Lagos Island.",
+        "The arrests involved alleged waste-related offences, including illegal disposal of waste into the lagoon, according to the authority.",
+        "LAWMA also conducted an enforcement operation from Mile 2 to Okokomaiko along the Lagos-Badagry Expressway, where operatives seized scores of carts used for what the authority described as unauthorised waste collection.",
+        "LAWMA Managing Director and Chief Executive Officer Muyiwa Gbadegesin said the operations were intended to strengthen compliance with waste-management regulations and address activities that undermine organised waste collection and disposal.",
+        "The authority warned against dumping waste on roads, drains and waterways and against unauthorised waste collection, while urging residents, traders and businesses to use approved waste-disposal and accredited collection channels."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-24",
+      "published": false,
+      "title": "Abia Commissions 55-Room ORIS Signature Hotel in Aba",
+      "labels": [
+        "News Report",
+        "Abia",
+        "Investment",
+        "Hospitality"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijKmaCDTiHHUgCMT4i9UHHLS_lrcUkbAbRB0uQzGKyyLGckoqIyLjnkxVFhbvSxmLehFVcb_Cy5Nnt1VElwogmCrY72F09D5vqbgM0Whps4Pu9cs7_9u2utpL0g4BmTFRKh3XmTZs9bxEsxLXgfwq6gqLDyD9yaHit2AyUcYey1k-ap-cHDcoPXwUaeYU/s720-rw/Abia%20Governor%20Alex%20Otti.png",
+        "alt": "Abia State Governor Alex Otti",
+        "aria_label": "Abia State Governor Alex Otti Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "A 55-room ORIS Signature Hotel has been commissioned in Aba, with the Abia State Government using the event to highlight investment conditions and ongoing development activity in the city.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "Abia State Governor Alex Otti commissioned the 55-room ORIS Signature Hotel in Aba, according to an Abia State government publication dated September 27, 2026.",
+        "The governor congratulated the hotel's Chief Executive Officer, Owelle Greg Okafor, saying the project was delivered within two years and a few months of commencement.",
+        "The hotel management described the facility as a 55-room hospitality establishment with world-class amenities, while the state government publication linked the investment to the business environment in Aba.",
+        "Governor Otti used the commissioning to invite investors who had relocated from Abia and prospective investors to consider opportunities in the state, while also referring to additional development projects underway.",
+        "The commissioning brought together state officials, members of the State House of Assembly, Aba North and Aba South officials and representatives of the business community."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-25",
+      "published": false,
+      "title": "Abia Opens Nigerian Air Force Recruitment Window for Youths",
+      "labels": [
+        "News Report",
+        "Abia",
+        "Youth Development",
+        "Military Recruitment"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijKmaCDTiHHUgCMT4i9UHHLS_lrcUkbAbRB0uQzGKyyLGckoqIyLjnkxVFhbvSxmLehFVcb_Cy5Nnt1VElwogmCrY72F09D5vqbgM0Whps4Pu9cs7_9u2utpL0g4BmTFRKh3XmTZs9bxEsxLXgfwq6gqLDyD9yaHit2AyUcYey1k-ap-cHDcoPXwUaeYU/s720-rw/Abia%20Governor%20Alex%20Otti.png",
+        "alt": "Abia State Governor Alex Otti",
+        "aria_label": "Abia State Governor Alex Otti Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Abia State Government has announced the Nigerian Air Force recruitment exercise for Trades and Non-Tradesmen/Women under Basic Military Training Course 47/2026 and advised eligible youths to apply through the official recruitment portal.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "An Abia State government publication announced that the Nigerian Air Force had commenced its recruitment exercise for Trades and Non-Tradesmen/Women under Basic Military Training Course 47/2026.",
+        "The recruitment portal was opened on September 3, 2026, for online registration, according to the announcement.",
+        "The stated closing date for applications is October 14, 2026, with registration guidelines, required information and application forms available through the recruitment portal.",
+        "The state government advised eligible and interested Abia youths to apply before the closing date and specifically warned applicants against persons or groups demanding payment for the exercise.",
+        "The announcement states that the application process is entirely free of charge and directs applicants to the Nigerian Air Force recruitment portal for registration."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-26",
+      "published": false,
+      "title": "Plateau Intensifies Langtang North Sanitation Monitoring Under SURWASH",
+      "labels": [
+        "News Report",
+        "Plateau",
+        "Sanitation",
+        "Water and Hygiene"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwV5ZIAkctqWcd7_WB2I9PXQMjgS5g-ZGRSN8YqA5jrEfc3fyTNrGr4zvuKL1fcHYW7Xo3IFzn_56K46KUKwBqgIRt7IACESbvtO3j7QQMeGIcyHO6-rkpt8djS0AfBLg81oQwqRwFYThhCBIarOae7nPgkmi1QMRLUbU3VGvWlwk-8ImHOUmTxxmymb8/s720-rw/Plateau%20Governor%20Caleb%20Muftwang.png",
+        "alt": "Plateau State Governor Caleb Mutfwang",
+        "aria_label": "Plateau State Governor Caleb Mutfwang Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Plateau's municipal water and sanitation agency has completed a fourth follow-up visit to Langtang North as part of efforts under the SURWASH programme to strengthen sanitation activities and sustain progress toward Open Defecation Free status.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Plateau Municipal Water Supply and Sanitation Agency conducted its fourth follow-up visit to Langtang North Local Government Area under the Sustainable Urban and Rural Water Supply, Sanitation and Hygiene programme.",
+        "The six-day engagement involved PLAMWASSA, WASHCOM members and facilitators and included community-level monitoring of sanitation activities.",
+        "The team assessed household toilet construction and usage, hand-washing facilities and other sanitation practices while engaging community members and ODF committees.",
+        "PLAMWASSA officials urged the committees to identify gaps, mobilise households and sustain sanitation improvements beyond the achievement of ODF status.",
+        "The exercise concluded on September 26, 2026, with a feedback meeting involving ODF committee members from the communities visited, while the agency said continued engagement would support community ownership and sustained sanitation gains."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-27",
+      "published": false,
+      "title": "Plateau NFWP-SU and NIMC Deepen Collaboration on Women's Access to NIN",
+      "labels": [
+        "News Report",
+        "Plateau",
+        "Digital Identity",
+        "Women's Economic Inclusion"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwV5ZIAkctqWcd7_WB2I9PXQMjgS5g-ZGRSN8YqA5jrEfc3fyTNrGr4zvuKL1fcHYW7Xo3IFzn_56K46KUKwBqgIRt7IACESbvtO3j7QQMeGIcyHO6-rkpt8djS0AfBLg81oQwqRwFYThhCBIarOae7nPgkmi1QMRLUbU3VGvWlwk-8ImHOUmTxxmymb8/s720-rw/Plateau%20Governor%20Caleb%20Muftwang.png",
+        "alt": "Plateau State Governor Caleb Mutfwang",
+        "aria_label": "Plateau State Governor Caleb Mutfwang Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Nigeria for Women Programme Scale-Up and the National Identity Management Commission are working to improve participating women's access to National Identification Numbers and related identification services in Plateau State.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Head of Operations of the Nigeria for Women Programme Scale-Up, Rayandy Kim Chuwang, said the programme is designed to institutionalise Women Affinity Groups and other platforms intended to create economic opportunities for unbanked women.",
+        "He made the statement during an NFWP-SU visit to the National Identity Management Commission headquarters in Jos as both institutions explored a working partnership.",
+        "The proposed collaboration is intended to facilitate women's access to the National Identification Number and related identification services, which the programme identified as important for participation in financial and other economic opportunities.",
+        "NIMC representatives said desk officers are available across Plateau State's 17 Local Government Areas to assist citizens requiring identification services, while noting that certain services attract applicable fees.",
+        "The meeting established inter-agency collaboration between NFWP-SU and NIMC as a mechanism for supporting identification access among women participating in the economic empowerment programme."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-28",
+      "published": false,
+      "title": "Akwa Ibom Commissions Youth Development Centre in Etim Ekpo",
+      "labels": [
+        "News Report",
+        "Akwa Ibom",
+        "Youth Development",
+        "Skills Development"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_-Yt0uNjH04EWAb2Sz8XBRMTpYCH7AKlcsJ1HT1oW-YNDJOqoy192NoIjclMIXO0d5dg4Lmj4dxsNBQpCI0_HlpG6xb9yHdEPuxvivMTmZiFnd7wE3n8bxmIkQfGsF20c_b7koMzJdaOduuKWfVY3awZmQ4qIF1EO-ZIJtPMyrh38ZI2tBoy9X9s2Gg/s720-rw/Akwa%20Ibom%20State%20Governor%20Umo%20Eno.png",
+        "alt": "Akwa Ibom State Governor Umo Eno",
+        "aria_label": "Akwa Ibom State Governor Umo Eno Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "A Youth Development Centre has been commissioned in Etim Ekpo Local Government Area of Akwa Ibom State, with the facility described as a skills and youth development hub.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The commissioning of the Youth Development Centre in Etim Ekpo Local Government Area was highlighted by the Akwa Ibom Commissioner for Youth Development, Dr. Ekerette Ekanem.",
+        "Speaking at the commissioning, the commissioner described the facility as a centre intended to help young people acquire skills and become more self-reliant.",
+        "He identified the centre as a solar-powered facility and said similar facilities had been provided in Etim Ekpo and across the state's 31 Local Government Areas.",
+        "The facility includes a creative centre, a multipurpose hall, a digital library and other facilities, according to the commissioner's remarks.",
+        "The Etim Ekpo commissioning adds another youth-focused facility to the network of centres referenced by the Commissioner for Youth Development."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
+    },
+    {
+      "type": "news_report",
+      "id": "news-2026-09-29-29",
+      "published": false,
+      "title": "Jigawa Government Engages Academics on Research and Evidence-Based Policy",
+      "labels": [
+        "News Report",
+        "Jigawa",
+        "Education",
+        "Policy Research"
+      ],
+      "featured_image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi4vyH_pjdRYzsTbZgLwz93SPvmhy-ErQDLrEbWzS0FiTK_7f1axS-tc4-bsF6VXIeeRctKEqRnU-queC2CO__5TldGKKPkUNIFbRuW1lMKmxP1cr9X8mNivTsUIyTUvx7fm3nk8V04_uklwN2gqNv_QDRMIRmz9QoiSdwNKxr50y82oIosd5hXxZ_MDY/s720-rw/Jigawa%20Umar%20Namadi.png",
+        "alt": "Jigawa State Governor Umar Namadi",
+        "aria_label": "Jigawa State Governor Umar Namadi Governance Policy Intelligence",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "The Jigawa State Government has engaged academics, researchers and educators in an interactive session focused on the role of knowledge, research and evidence in shaping development policy.",
+      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
+      "story_body": [
+        "The Jigawa Governor hosted an annual interactive session with the Forum of Jigawa Academics, bringing together scholars, researchers, teachers and intellectuals from institutions of higher learning across the country.",
+        "The discussion focused on how knowledge, research and evidence can inform government activities and shape subsequent development planning in the state.",
+        "The governor referenced the administration's 12-Point Agenda, covering areas including agriculture, education, healthcare, infrastructure, investment, social protection, human capital development and institutional reform.",
+        "Academics were encouraged to engage more closely with government by providing independent analysis, identifying research questions relevant to residents and helping translate research findings into practical policies and solutions.",
+        "The session concluded with an emphasis on knowledge, evidence and shared responsibility as inputs into the state's continuing reform and development process."
+      ],
+      "call_to_action": {
+        "heading": "Diploman Times Telemetry Interlink",
+        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
+        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
+      }
     }
   ]
 }
