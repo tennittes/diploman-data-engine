@@ -10795,7 +10795,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-13",
-      "published": false,
+      "published": true,
       "title": "Ekiti Governor Dissolves Boards and Terminates Political Appointments",
       "labels": [
         "News Report",
@@ -10828,7 +10828,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-14",
-      "published": false,
+      "published": true,
       "title": "Nasarawa Commissions Roads, Primary Healthcare Facility and Market Infrastructure",
       "labels": [
         "News Report",
@@ -10861,7 +10861,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-15",
-      "published": false,
+      "published": true,
       "title": "Anambra Begins Revival of Nnewi Mall After 14 Years",
       "labels": [
         "News Report",
@@ -10894,7 +10894,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-16",
-      "published": false,
+      "published": true,
       "title": "Edo Advances Preparatory Works for Nigerian Army 83 Division Headquarters",
       "labels": [
         "News Report",
