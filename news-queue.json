@@ -10927,7 +10927,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-17",
-      "published": false,
+      "published": true,
       "title": "Gombe Committee Begins Sensitisation on Grazing Reserves and Cattle Routes",
       "labels": [
         "News Report",
@@ -10960,7 +10960,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-18",
-      "published": false,
+      "published": true,
       "title": "Zamfara Develops Curriculum for Tsangaya Schools",
       "labels": [
         "News Report",
@@ -10993,7 +10993,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-19",
-      "published": false,
+      "published": true,
       "title": "Kaduna Rigasa Township Road Reaches Stone Base Construction Stage",
       "labels": [
         "News Report",
@@ -11026,7 +11026,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-20",
-      "published": false,
+      "published": true,
       "title": "Osun Inaugurates Special Task Force on Environmental Sanitation",
       "labels": [
         "News Report",
