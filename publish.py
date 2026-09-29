@@ -49,6 +49,23 @@ def load_governors_registry():
             print(f"Error reading {registry_path}: {e}")
     return {}
 
+def load_budget_analysis():
+    """Loads and validates the subnational budget analysis configuration file."""
+    budget_path = "budget-analysis.json"
+    if os.path.exists(budget_path):
+        try:
+            with open(budget_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                print(f"Successfully loaded budget analysis for: {data.get('jurisdiction', 'Unknown')}")
+                return data
+        except json.JSONDecodeError as e:
+            print(f"Error: Malformed JSON syntax in {budget_path} at line {e.lineno} column {e.colno}: {e.msg}")
+        except Exception as e:
+            print(f"Error reading {budget_path}: {e}")
+    else:
+        print(f"Warning: {budget_path} not found in repository root.")
+    return None
+
 def is_image_url_working(url):
     """Tests if an image URL is reachable and returns a healthy HTTP 200 response."""
     if not url or not url.startswith("http"):
@@ -280,13 +297,22 @@ def publish_batch_content():
         else:
             items = []
 
-        # Generate and save structured front page layout mapping if items exist
+        # Ensure output directory exists for compiler artifacts
+        os.makedirs('output', exist_ok=True)
+
+        # 1. Process and save structured front page layout mapping if items exist
         if items:
             front_page_layout = format_front_page_layout_data(items)
-            os.makedirs('output', exist_ok=True)
             with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
                 json.dump(front_page_layout, f_out, indent=2)
             print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
+
+        # 2. Process and copy/validate budget analysis data for widget output pipeline
+        budget_data = load_budget_analysis()
+        if budget_data:
+            with open('output/budget-analysis.json', 'w', encoding='utf-8') as f_budget:
+                json.dump(budget_data, f_budget, indent=2)
+            print("Successfully validated and synced budget-analysis.json to output directory.")
 
         service = get_blogger_service()
 
@@ -336,20 +362,22 @@ def publish_batch_content():
     except Exception as auth_err:
         print(f"Warning: Blogger API initialization skipped due to authentication/token error: {auth_err}")
 
-    # Commit and push queue updates and layout configuration cleanly to GitHub
+    # Commit and push queue updates and output artifacts cleanly to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
         
         subprocess.run(["git", "add", "output/front-page-engine.json"], check=True)
+        if os.path.exists('output/budget-analysis.json'):
+            subprocess.run(["git", "add", "output/budget-analysis.json"], check=True)
         if file_path and os.path.exists(file_path):
             subprocess.run(["git", "add", file_path], check=True)
 
         status_result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
         if status_result.stdout.strip():
-            subprocess.run(["git", "commit", "-m", "auto: publish batch post state and update front-page layout [skip ci]"], check=True)
+            subprocess.run(["git", "commit", "-m", "auto: publish batch post state, budget analysis sync, and layout updates [skip ci]"], check=True)
             subprocess.run(["git", "push"], check=True)
-            print("Successfully pushed publishing queue state and front-page layout mapping to repository.")
+            print("Successfully pushed publishing queue state, budget analysis, and layout mapping to repository.")
         else:
             print("No changes detected; git commit/push skipped.")
     except Exception as e:
