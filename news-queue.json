@@ -11323,7 +11323,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-29",
-      "published": false,
+      "published": true,
       "title": "Jigawa Government Engages Academics on Research and Evidence-Based Policy",
       "labels": [
         "News Report",
@@ -11356,7 +11356,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-01",
-      "published": false,
+      "published": true,
       "title": "Adamawa and World Bank Advance Nutrition and Food Security Programme Ahead of October Commodity Deliveries",
       "labels": [
         "News Report",
@@ -11389,7 +11389,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-02",
-      "published": false,
+      "published": true,
       "title": "Solar Mini-Grids Begin Supplying Electricity to Kuva Gaya and Kwakwah in Adamawa",
       "labels": [
         "News Report",
@@ -11422,7 +11422,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-03",
-      "published": false,
+      "published": true,
       "title": "Adamawa Governor Orders College of Education Hong Intervention After 36-Year Convocation Gap",
       "labels": [
         "News Report",
