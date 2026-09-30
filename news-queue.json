@@ -12246,7 +12246,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-28",
       "title": "Akwa Ibom Commissions 10.83km Road and 30-Metre Bridge in Mkpat Enin",
       "labels": [
@@ -12279,7 +12279,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-29",
       "title": "Oyo Continues Rehabilitation of 37.1km Alako\u2013Olowa Farm Settlement Road",
       "labels": [
@@ -12312,7 +12312,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-30",
       "title": "Alia Receives African Leadership Award for Grassroots Development in New York",
       "labels": [
@@ -12345,7 +12345,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-31",
       "title": "Lagos Advances 26MW Embedded Power Project for Iju-Akute Waterworks",
       "labels": [
