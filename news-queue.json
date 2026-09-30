@@ -11191,7 +11191,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-25",
-      "published": false,
+      "published": true,
       "title": "Abia Opens Nigerian Air Force Recruitment Window for Youths",
       "labels": [
         "News Report",
@@ -11224,7 +11224,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-26",
-      "published": false,
+      "published": true,
       "title": "Plateau Intensifies Langtang North Sanitation Monitoring Under SURWASH",
       "labels": [
         "News Report",
@@ -11257,7 +11257,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-27",
-      "published": false,
+      "published": true,
       "title": "Plateau NFWP-SU and NIMC Deepen Collaboration on Women's Access to NIN",
       "labels": [
         "News Report",
@@ -11290,7 +11290,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-28",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Commissions Youth Development Centre in Etim Ekpo",
       "labels": [
         "News Report",
