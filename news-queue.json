@@ -12510,7 +12510,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-36",
       "title": "Plateau Assembly Confirms Service Commission and Water Regulatory Appointments",
       "labels": [
@@ -12543,7 +12543,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-37",
       "title": "Plateau Completes Six-Day PEMIS Training for Public Secondary School Data Masters",
       "labels": [
@@ -12576,7 +12576,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-38",
       "title": "Jigawa Approves \u20a61.337bn Broadcasting Upgrade and Five Community FM Stations",
       "labels": [
