@@ -124,7 +124,7 @@ def format_front_page_layout_data(items):
     center_column = {}
     flanking_columns = []
 
-    # Map top 3 for center column (Strict raw SIS extraction without fallback)
+    # Map top 3 for center column
     center_keys = ["leadStory", "firstRunnerUp", "secondRunnerUp"]
     for idx, key in enumerate(center_keys):
         if idx < len(sorted_items):
@@ -137,14 +137,14 @@ def format_front_page_layout_data(items):
                 "governor": reg["executive"],
                 "title": reg["title"],
                 "psi": item.get('psi', 3.0),
-                "sis": item['sis'],
+                "sis": item.get('sis', 2.8),
                 "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
                 "imageUrl": reg["src"],
                 "imageAlt": reg["alt"],
                 "imageAriaLabel": reg["aria_label"]
             }
 
-    # Map ranks 4 through 12 to left/right flanking columns alternatively (Strict raw SIS extraction)
+    # Map ranks 4 through 12 to left/right flanking columns alternatively
     flanking_states = sorted_items[3:12]
     for idx, item in enumerate(flanking_states):
         state_name = item.get('stateName', item.get('state', 'Unknown'))
@@ -158,7 +158,7 @@ def format_front_page_layout_data(items):
             "governor": reg["executive"],
             "title": reg["title"],
             "psi": item.get('psi', 3.0),
-            "sis": item['sis'],
+            "sis": item.get('sis', 2.8),
             "headline": item.get('headline', item.get('title', f"Telemetry update for {state_name}")),
             "imageUrl": reg["src"],
             "imageAlt": reg["alt"],
