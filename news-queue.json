@@ -11587,7 +11587,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-08",
-      "published": false,
+      "published": true,
       "title": "Osun Records Fifth-Place 2026 NECO Ranking With 74.31% Meeting Five-Credit Benchmark",
       "labels": [
         "News Report",
@@ -11620,7 +11620,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-09",
-      "published": false,
+      "published": true,
       "title": "Edo Breaks Ground for Four-Classroom Block and Toilets at Osemwende Senior Secondary School",
       "labels": [
         "News Report",
@@ -11653,7 +11653,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-10",
-      "published": false,
+      "published": true,
       "title": "Edo Begins Process for State Blood Transfusion Service and Stronger Laboratory Oversight",
       "labels": [
         "News Report",
@@ -11686,7 +11686,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-11",
-      "published": false,
+      "published": true,
       "title": "FCT Executive Council Approves Utako Hospital Resumption and Upgrade of General Hospitals",
       "labels": [
         "News Report",
