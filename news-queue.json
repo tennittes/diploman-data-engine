@@ -12378,7 +12378,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-32",
       "title": "Plateau-Linked RAPID Programme Targets 57,000 Conflict-Affected People Across Plateau and Benue",
       "labels": [
@@ -12411,7 +12411,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-33",
       "title": "Lagos Trains 600 Entrepreneurs and Artisans in Digital Marketing",
       "labels": [
@@ -12444,7 +12444,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-34",
       "title": "Lagos Security Council Reviews Security Plans Ahead of Year-End Activities",
       "labels": [
@@ -12477,7 +12477,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-35",
       "title": "LASEMA Contains Mushin Fire, Clears Broken-Down Vehicle to Restore Traffic",
       "labels": [
