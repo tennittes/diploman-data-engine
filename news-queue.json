@@ -11983,7 +11983,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-20",
-      "published": false,
+      "published": true,
       "title": "FCT Approves Police Station for Wasa Informal Sector Ahead of Apo Mechanics Relocation",
       "labels": [
         "News Report",
@@ -12015,7 +12015,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-21",
       "title": "Oyo Receives Oriire Abduction Inquiry Report, Sets Review of Recommendations",
       "labels": [
@@ -12048,7 +12048,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-22",
       "title": "Kaduna Records 54.68% in 2026 Transparency and Integrity Index",
       "labels": [
@@ -12081,7 +12081,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-23",
       "title": "Anambra Moves to Prosecute Denial of Women's Inheritance Rights",
       "labels": [
