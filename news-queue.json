@@ -11719,7 +11719,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-12",
-      "published": false,
+      "published": true,
       "title": "Delta Activates Specialist Healthcare Expansion at Central Hospital Warri",
       "labels": [
         "News Report",
@@ -11752,7 +11752,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-13",
-      "published": false,
+      "published": true,
       "title": "Gombe Commits \u20a63.5 Billion to Expand Nigeria for Women Project Across State",
       "labels": [
         "News Report",
@@ -11785,7 +11785,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-14",
-      "published": false,
+      "published": true,
       "title": "Zamfara Launches Statewide Monitoring Exercise for Teacher Registration and Licensing",
       "labels": [
         "News Report",
@@ -11818,7 +11818,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-15",
-      "published": false,
+      "published": true,
       "title": "Zamfara Reviews Violence Against Children Action Plan With UNICEF Support",
       "labels": [
         "News Report",
