@@ -12114,7 +12114,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-24",
       "title": "Kano Begins Water Distribution from Rehabilitated Goron Dutse Reservoir",
       "labels": [
@@ -12147,7 +12147,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-25",
       "title": "Alia Uses UNGA81 Engagements to Pursue Partnerships and Investment for Benue",
       "labels": [
@@ -12180,7 +12180,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-26",
       "title": "Abia Pushes Manufacturing and Digital Commerce as Alternative to Conventional Trading",
       "labels": [
@@ -12213,7 +12213,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-09-30-27",
       "title": "Ekiti Warns Residents as Heavy Rainfall Triggers Flooding Across Parts of State",
       "labels": [
