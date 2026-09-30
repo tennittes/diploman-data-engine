@@ -11851,7 +11851,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-16",
-      "published": false,
+      "published": true,
       "title": "Gombe Committee Expands Farmer-Herder Engagement and Cattle Ownership Data Exercise",
       "labels": [
         "News Report",
@@ -11884,7 +11884,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-17",
-      "published": false,
+      "published": true,
       "title": "Delta Swears In Ator Okolosi as Udu State Constituency Lawmaker",
       "labels": [
         "News Report",
@@ -11917,7 +11917,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-18",
-      "published": false,
+      "published": true,
       "title": "Delta Announces Electric Vehicle Skills Workshops for Youths and Artisans",
       "labels": [
         "News Report",
@@ -11950,7 +11950,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-19",
-      "published": false,
+      "published": true,
       "title": "Nasarawa Marks 30 Years With Cultural Heritage Celebration in Lafia",
       "labels": [
         "News Report",
