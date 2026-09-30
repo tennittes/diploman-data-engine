@@ -11455,7 +11455,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-04",
-      "published": false,
+      "published": true,
       "title": "The Sun Names Imo Governor Hope Uzodimma 2026 Man of the Year",
       "labels": [
         "News Report",
@@ -11488,7 +11488,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-05",
-      "published": false,
+      "published": true,
       "title": "Cross River Begins Enforcement of WASH Rules for Borehole Drilling and Water Services",
       "labels": [
         "News Report",
@@ -11521,7 +11521,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-06",
-      "published": false,
+      "published": true,
       "title": "Enugu Hosts 59th NUT National Conference as State Reaffirms Engagement With Teachers",
       "labels": [
         "News Report",
@@ -11554,7 +11554,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-30-07",
-      "published": false,
+      "published": true,
       "title": "Enugu Receives UNICEF Nigeria Representative as State Signals Deeper Child-Focused Collaboration",
       "labels": [
         "News Report",
