@@ -11059,7 +11059,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-21",
-      "published": false,
+      "published": true,
       "title": "Lagos Hosts National GBV Coordinators' Convening and Launches SGBV Prevention Policy",
       "labels": [
         "News Report",
@@ -11092,7 +11092,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-22",
-      "published": false,
+      "published": true,
       "title": "Lagos Launches 2026 Mother, Infant and Child Development Programme Across Six Health Districts",
       "labels": [
         "News Report",
@@ -11125,7 +11125,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-23",
-      "published": false,
+      "published": true,
       "title": "Lagos Waste Agency Arrests 14 in Enforcement Operations and Seizes Carts",
       "labels": [
         "News Report",
@@ -11158,7 +11158,7 @@
     {
       "type": "news_report",
       "id": "news-2026-09-29-24",
-      "published": false,
+      "published": true,
       "title": "Abia Commissions 55-Room ORIS Signature Hotel in Aba",
       "labels": [
         "News Report",
@@ -11382,7 +11382,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11415,7 +11415,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11448,7 +11448,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11481,7 +11481,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11514,7 +11514,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11547,7 +11547,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11580,7 +11580,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11613,7 +11613,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11646,7 +11646,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11679,7 +11679,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11706,13 +11706,13 @@
         "The 19th meeting of the Federal Capital Territory Executive Council has produced a broad package of approvals affecting healthcare, security, judicial administration, education, infrastructure and public-service systems across the territory. The meeting was presided over by the FCT Minister, Nyesom Wike, alongside the Minister of State, Dr Mariya Mahmoud. At the health level, the council approved the immediate resumption of work on the long-abandoned Utako General Hospital, with the approved scope covering construction, equipping and staffing. The council also approved renovation, rehabilitation and modern re-equipping of FCT general hospitals. The health-sector decisions were disclosed on September 29, 2026, by Mandate Secretary for Health Services and Environment Secretariat, Dr Adedolapo Fasawe.",
         "The Utako decision is significant principally because the project has remained abandoned and is now being placed back into the implementation pipeline. Fasawe said work would resume immediately and that the project would include the components required to bring the hospital into service, rather than limiting the intervention to structural works alone. At the same time, the administration approved renovation and rehabilitation works across the FCT general hospital network, including procurement of medical equipment, X-ray machines, diagnostic materials and theatre-related facilities. The stated objective is to improve the availability and quality of healthcare services in public facilities. The approvals establish a government decision and implementation direction; they do not by themselves establish completion of the works.",
         "The Executive Council's decisions extended beyond healthcare. The security department reported approval of a fresh six-month security infrastructure contract for the Wasa informal sector, including a dedicated police station, as preparations continue around the relocation of Apo mechanics and artisans. The administration also cited its wider programme of constructing furnished divisional police headquarters and staff quarters across the six Area Councils. In judicial administration, the council approved a comprehensive digital transformation of the FCT High Court system, with electronic court recording and automated case-management systems proposed for 67 courtrooms. These approvals represent separate components of the council's wider programme rather than a single project.",
-        "Education and satellite-area infrastructure also featured prominently. The Education Secretariat received approval for examination materials for primary, junior secondary and senior secondary schools. The administration also reported measures relating to teachers' arrears and an ongoing monthly intervention fund. In the satellite towns, a contract worth ₦5.3 billion was announced for an eight-month 33 KVA power-line project from Dawakinchi to Tokulo and neighbouring villages in Bwari. The council also ratified completed and commissioned projects including the Gaba/Tokulo Road with a two-span river bridge and the ₦8.8 billion Paikon Kore/Ibwa Road rehabilitation. Additional approvals covered land administration technology, revenue-receipt security, environmental services, waste management, waterway desilting and modular hybrid solar street lighting.",
+        "Education and satellite-area infrastructure also featured prominently. The Education Secretariat received approval for examination materials for primary, junior secondary and senior secondary schools. The administration also reported measures relating to teachers' arrears and an ongoing monthly intervention fund. In the satellite towns, a contract worth \u20a65.3 billion was announced for an eight-month 33 KVA power-line project from Dawakinchi to Tokulo and neighbouring villages in Bwari. The council also ratified completed and commissioned projects including the Gaba/Tokulo Road with a two-span river bridge and the \u20a68.8 billion Paikon Kore/Ibwa Road rehabilitation. Additional approvals covered land administration technology, revenue-receipt security, environmental services, waste management, waterway desilting and modular hybrid solar street lighting.",
         "The FCT Water Board also reported approval for high-tech hypochlorite powdered chlorine for water treatment and renewed insurance coverage for the Lower Usuma Dam treatment plant. Taken together, the September 29 Executive Council decisions establish a multi-sector implementation agenda, with several items already at construction or operational stages and others newly approved. The Utako General Hospital remains a project returning to active implementation, while the wider hospital upgrade programme is moving into renovation, rehabilitation and procurement. As of September 30, 2026, the verified position is therefore one of broad Executive Council approvals and announced implementation actions, rather than completion of the newly approved projects."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11745,7 +11745,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11753,7 +11753,7 @@
       "type": "news_report",
       "id": "news-2026-09-30-13",
       "published": false,
-      "title": "Gombe Commits ₦3.5 Billion to Expand Nigeria for Women Project Across State",
+      "title": "Gombe Commits \u20a63.5 Billion to Expand Nigeria for Women Project Across State",
       "labels": [
         "News Report",
         "Gombe",
@@ -11766,19 +11766,19 @@
         "aria_label": "Gombe State Governor Inuwa Yahaya Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Gombe State has announced a ₦3.5 billion commitment to support expansion of the Nigeria for Women Project Scale-Up beyond its three current implementing local government areas, strengthening a programme focused on women's savings, financial inclusion, livelihoods and collective economic activity.",
+      "lead_narrative": "Gombe State has announced a \u20a63.5 billion commitment to support expansion of the Nigeria for Women Project Scale-Up beyond its three current implementing local government areas, strengthening a programme focused on women's savings, financial inclusion, livelihoods and collective economic activity.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Nigeria for Women Project Scale-Up programme has received a new state funding commitment in Gombe, with the state government announcing ₦3.5 billion to support the programme and facilitate expansion beyond the three local government areas where it is currently being implemented. The announcement was made during an event in Deba, Yamaltu-Deba Local Government Area, where Women Affinity Group meeting procedures were presented and demonstrated. Governor Muhammadu Inuwa Yahaya, represented by Deputy Governor Dr Manassah Daniel Jatau, reaffirmed the administration's stated commitment to expanding economic opportunities and financial inclusion for women. The programme is a collaboration involving the World Bank, Federal Government and participating state governments.",
+        "The Nigeria for Women Project Scale-Up programme has received a new state funding commitment in Gombe, with the state government announcing \u20a63.5 billion to support the programme and facilitate expansion beyond the three local government areas where it is currently being implemented. The announcement was made during an event in Deba, Yamaltu-Deba Local Government Area, where Women Affinity Group meeting procedures were presented and demonstrated. Governor Muhammadu Inuwa Yahaya, represented by Deputy Governor Dr Manassah Daniel Jatau, reaffirmed the administration's stated commitment to expanding economic opportunities and financial inclusion for women. The programme is a collaboration involving the World Bank, Federal Government and participating state governments.",
         "The NFWP-SU model is built around Women Affinity Groups, which bring together women aged 18 and above for regular meetings, savings, access to loans, business development and collective economic activities. National Project Coordinator Hadiza Maina explained that the programme is designed to strengthen women's socioeconomic wellbeing through financial empowerment, health and nutrition education, livelihood development and collective economic participation. In Gombe, the programme is currently being implemented in Balanga, Yamaltu-Deba and Funakaye local government areas. The announced state funding is intended to support expansion into other parts of the state rather than merely maintain the programme within those three existing locations.",
-        "The state government's position was also linked to a broader policy interest in women's participation beyond household-level economic activity. Governor Yahaya, through his deputy, encouraged women to use available opportunities to improve their livelihoods while becoming more involved in leadership, politics and decision-making. He also said women-focused programmes should be sustained beyond the tenure of a single administration and that institutional frameworks should preserve and expand gains in financial empowerment, entrepreneurship and socioeconomic development. These are policy commitments expressed by the administration and do not, by themselves, establish future implementation outcomes. The ₦3.5 billion commitment is the material new funding announcement in the report.",
+        "The state government's position was also linked to a broader policy interest in women's participation beyond household-level economic activity. Governor Yahaya, through his deputy, encouraged women to use available opportunities to improve their livelihoods while becoming more involved in leadership, politics and decision-making. He also said women-focused programmes should be sustained beyond the tenure of a single administration and that institutional frameworks should preserve and expand gains in financial empowerment, entrepreneurship and socioeconomic development. These are policy commitments expressed by the administration and do not, by themselves, establish future implementation outcomes. The \u20a63.5 billion commitment is the material new funding announcement in the report.",
         "Women participating in the existing Women Affinity Groups described benefits including improved financial discipline, savings practices and greater capacity to engage in economic activities. Their accounts provide examples from participants already involved in the programme but do not constitute an independent evaluation of its overall impact. The event also demonstrated the group's procedures, including savings collection, inclusion, rotational leadership, regular meetings, record-keeping and loan disbursement. The project task team commended the state government's commitment, while the local government leadership and state women affairs officials expressed support for continued implementation.",
-        "As of September 30, 2026, the confirmed development is the announced ₦3.5 billion Gombe State Government commitment to support the Nigeria for Women Project Scale-Up and facilitate expansion beyond Balanga, Yamaltu-Deba and Funakaye. The existing programme is operating through Women Affinity Groups focused on savings, loans, livelihoods and collective economic activity. The expansion itself remains an implementation objective rather than a completed statewide rollout. The immediate next stage is therefore the application of the announced funding and the extension of programme activities into additional areas, subject to the relevant implementation processes."
+        "As of September 30, 2026, the confirmed development is the announced \u20a63.5 billion Gombe State Government commitment to support the Nigeria for Women Project Scale-Up and facilitate expansion beyond Balanga, Yamaltu-Deba and Funakaye. The existing programme is operating through Women Affinity Groups focused on savings, loans, livelihoods and collective economic activity. The expansion itself remains an implementation objective rather than a completed statewide rollout. The immediate next stage is therefore the application of the announced funding and the extension of programme activities into additional areas, subject to the relevant implementation processes."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11811,7 +11811,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11844,7 +11844,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11877,7 +11877,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11910,7 +11910,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11938,12 +11938,12 @@
         "The first workshop is scheduled for Asaba from October 2 to 3, 2026, at the Press Center, Government House, Infant Jesus Road. A second session is scheduled for Warri from October 6 to 7 at Unity Hall, Government House Annex, Edjeba. The separation of the programme into two locations allows the organisers to target participants in different parts of the state. The source states that registration begins at 8:30 a.m. and that online registration is ongoing, while physical registration is also available at the venues on the respective event days. The programme therefore remains at the pre-event and participant-registration stage as of September 30.",
         "The training is intended to provide participants with practical insights into the electric-vehicle sector, including technical skills and possible career pathways. The source does not specify the number of participants to be trained, the curriculum modules, certification arrangements or the expected number of people who will secure employment after the programme. Those details are therefore not presented as established outcomes. What is clear is the target participant group: young people, NATA members and artisans who may have an interest in adapting their existing automotive or technical skills to electric mobility and related sustainable-transportation technologies.",
         "The partnership with EV Automobiles Limited provides the private-sector component of the initiative, while the Directorate of Transport provides the state-government institutional framework. The programme's focus on practical learning is consistent with the stated objective of building technical knowledge rather than limiting the engagement to an awareness campaign. However, the longer-term effect on the state's transport workforce will depend on participation, quality of instruction, access to equipment and subsequent opportunities for applying the acquired skills. None of those future outcomes can be treated as completed at the announcement stage.",
-        "As of September 30, 2026, the verified development is that Delta State and EV Automobiles Limited have scheduled two electric-vehicle skills workshops for Asaba and Warri on October 2–3 and October 6–7 respectively. Registration is underway, with physical registration to be available at the venues. The initiative is currently a planned training intervention focused on practical skills and sustainable transportation. Its next measurable stage is the conduct of the workshops and participation by the targeted groups, after which the extent of training delivery can be assessed."
+        "As of September 30, 2026, the verified development is that Delta State and EV Automobiles Limited have scheduled two electric-vehicle skills workshops for Asaba and Warri on October 2\u20133 and October 6\u20137 respectively. Registration is underway, with physical registration to be available at the venues. The initiative is currently a planned training intervention focused on practical skills and sustainable transportation. Its next measurable stage is the conduct of the workshops and participation by the targeted groups, after which the extent of training delivery can be assessed."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -11976,7 +11976,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12009,7 +12009,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12042,7 +12042,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12075,7 +12075,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12108,7 +12108,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12141,7 +12141,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12174,7 +12174,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12207,7 +12207,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12240,7 +12240,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12261,7 +12261,7 @@
         "aria_label": "Akwa Ibom State Governor Umo Eno Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Akwa Ibom State has commissioned the 10.83-kilometre Mkpat Enin–Ikot Ekpe–Ikot Afang–Ikot Umiang–Mbioto–Efa Road and its spur to Ikot Enyienge, including a 30-metre bridge, linking communities in Mkpat Enin and Etinan Local Government Areas.",
+      "lead_narrative": "Akwa Ibom State has commissioned the 10.83-kilometre Mkpat Enin\u2013Ikot Ekpe\u2013Ikot Afang\u2013Ikot Umiang\u2013Mbioto\u2013Efa Road and its spur to Ikot Enyienge, including a 30-metre bridge, linking communities in Mkpat Enin and Etinan Local Government Areas.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The Akwa Ibom State government publication reported the commissioning of the 10.83-kilometre road linking Mkpat Enin and Etinan areas through Ikot Ekpe, Ikot Afang, Ikot Umiang, Mbioto and Efa, together with a spur to Ikot Enyienge and a 30-metre bridge.",
@@ -12273,7 +12273,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12281,7 +12281,7 @@
       "type": "news_report",
       "published": false,
       "id": "news-2026-09-30-29",
-      "title": "Oyo Continues Rehabilitation of 37.1km Alako–Olowa Farm Settlement Road",
+      "title": "Oyo Continues Rehabilitation of 37.1km Alako\u2013Olowa Farm Settlement Road",
       "labels": [
         "News Report",
         "Oyo",
@@ -12294,10 +12294,10 @@
         "aria_label": "Oyo State Governor Seyi Makinde Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Rehabilitation is ongoing on the 37.1-kilometre Alako–Idiya–Batake–Olowa Farm Settlement–Ijaiye Road in Ido Local Government Area of Oyo State under the Rural Access and Agricultural Marketing Project.",
+      "lead_narrative": "Rehabilitation is ongoing on the 37.1-kilometre Alako\u2013Idiya\u2013Batake\u2013Olowa Farm Settlement\u2013Ijaiye Road in Ido Local Government Area of Oyo State under the Rural Access and Agricultural Marketing Project.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Oyo State government publication presented ongoing rehabilitation works on the 37.1-kilometre Alako–Idiya–Batake–Olowa Farm Settlement–Ijaiye Road in Ido Local Government Area.",
+        "The Oyo State government publication presented ongoing rehabilitation works on the 37.1-kilometre Alako\u2013Idiya\u2013Batake\u2013Olowa Farm Settlement\u2013Ijaiye Road in Ido Local Government Area.",
         "The road is being rehabilitated under the Rural Access and Agricultural Marketing Project, an intervention focused on improving rural connectivity and access along agricultural corridors.",
         "The project links farm settlements and agrarian communities within Ido Local Government Area and forms part of a wider programme involving rural roads across several local government areas in Oyo State.",
         "The corridor is relevant to agricultural movement because it connects production areas and farm settlements to surrounding communities and markets. The available project information identifies the road as a rural access route serving agricultural activity.",
@@ -12306,7 +12306,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12339,7 +12339,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12372,7 +12372,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12405,7 +12405,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12438,7 +12438,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12471,7 +12471,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12504,7 +12504,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12537,7 +12537,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12570,7 +12570,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -12578,7 +12578,7 @@
       "type": "news_report",
       "published": false,
       "id": "news-2026-09-30-38",
-      "title": "Jigawa Approves ₦1.337bn Broadcasting Upgrade and Five Community FM Stations",
+      "title": "Jigawa Approves \u20a61.337bn Broadcasting Upgrade and Five Community FM Stations",
       "labels": [
         "News Report",
         "Jigawa",
@@ -12591,10 +12591,10 @@
         "aria_label": "Jigawa State Governor Umar Namadi Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Jigawa State Government has approved ₦1.337 billion for broadcasting infrastructure upgrades and the establishment of five community FM stations in Gumel, Gwaram, Hadejia, Kazaure and Ringim.",
+      "lead_narrative": "The Jigawa State Government has approved \u20a61.337 billion for broadcasting infrastructure upgrades and the establishment of five community FM stations in Gumel, Gwaram, Hadejia, Kazaure and Ringim.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Jigawa State government publication reported that the State Executive Council approved ₦1,337,837,200 for upgrading broadcasting infrastructure and establishing five new community FM stations.",
+        "The Jigawa State government publication reported that the State Executive Council approved \u20a61,337,837,200 for upgrading broadcasting infrastructure and establishing five new community FM stations.",
         "The approval includes the supply and installation of a 50KW Harris Digital AM system for Jigawa Radio, radio equipment including 3KW FM transmitters for five community stations, and construction of the five stations.",
         "The planned community FM stations are to be located in Gumel, Gwaram, Hadejia, Kazaure and Ringim Local Government Areas, extending the state's community-based broadcasting infrastructure.",
         "According to the state, the projects are intended to improve transmission quality, reliability and coverage while expanding access to timely information and community-focused communication.",
@@ -12603,7 +12603,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
