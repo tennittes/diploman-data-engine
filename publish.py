@@ -6,6 +6,7 @@ import subprocess
 import re
 import urllib.request
 import time
+import datetime
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -266,20 +267,58 @@ def build_news_report_html(item):
     return optimize_blogger_images(raw_html)
 
 def get_target_file_and_data():
-    target_file = "news-queue.json"
-    if not os.path.exists(target_file):
-        json_files = sorted(glob.glob("**/news-queue.json", recursive=True))
-        if not json_files:
-            raise FileNotFoundError("No news-queue.json file found in repository.")
-        target_file = json_files[-1]
-        
+    """Dynamically locates the active month's queue file or scans all queues for unpublished items."""
+    now = datetime.datetime.now()
+    month_key = now.strftime("%b").lower()  # e.g. 'oct'
+    current_month_folder = f"{month_key}{now.year}"  # e.g. 'oct2026'
+    dynamic_target = os.path.join(current_month_folder, "news-queue.json")
+
+    target_file = None
+
+    def file_has_unpublished(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                content = json.load(f)
+                items = content.get("newsReports", []) if isinstance(content, dict) else content
+                return any(not item.get("published", False) for item in items)
+        except Exception:
+            return False
+
+    # Check 1: Target current dynamic month folder (e.g., oct2026/news-queue.json) if pending posts exist
+    if os.path.exists(dynamic_target) and file_has_unpublished(dynamic_target):
+        target_file = dynamic_target
+    else:
+        # Check 2: Scan all news-queue.json files across the repository for pending posts
+        all_queues = glob.glob("**/news-queue.json", recursive=True)
+        if os.path.exists("news-queue.json"):
+            all_queues.append("news-queue.json")
+
+        for queue_path in sorted(all_queues, reverse=True):
+            if file_has_unpublished(queue_path):
+                target_file = queue_path
+                break
+
+    # Fallback: Default to dynamic target, root file, or first available file
+    if not target_file:
+        if os.path.exists(dynamic_target):
+            target_file = dynamic_target
+        elif os.path.exists("news-queue.json"):
+            target_file = "news-queue.json"
+        else:
+            json_files = glob.glob("**/news-queue.json", recursive=True)
+            if not json_files:
+                raise FileNotFoundError("No news-queue.json file found in repository.")
+            target_file = json_files[0]
+
+    print(f"Targeting active queue file: {target_file}")
+
     try:
         with open(target_file, "r", encoding="utf-8") as f:
             data = json.load(f)
     except json.JSONDecodeError as e:
         print(f"Error: Malformed JSON syntax in {target_file} at line {e.lineno} column {e.colno}: {e.msg}")
         raise
-        
+
     return target_file, data
 
 def publish_batch_content():
