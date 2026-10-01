@@ -12610,8 +12610,8 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-01",
-      "published": false,
-      "title": "Kwara Government Releases ₦10 Million Emergency Support for Lafiagi Flood Victims",
+      "published": true,
+      "title": "Kwara Government Releases \u20a610 Million Emergency Support for Lafiagi Flood Victims",
       "labels": [
         "News Report",
         "Kwara State",
@@ -12624,11 +12624,11 @@
         "aria_label": "Kwara State Governor Abdulrahman Abdulrazaq Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kwara State Governor Abdulrahman Abdulrazaq has announced an immediate ₦10 million government donation to residents affected by recent flooding in communities within Lafiagi Emirate and directed the State Emergency Management Agency to document the losses.",
+      "lead_narrative": "Kwara State Governor Abdulrahman Abdulrazaq has announced an immediate \u20a610 million government donation to residents affected by recent flooding in communities within Lafiagi Emirate and directed the State Emergency Management Agency to document the losses.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The governor said he visited Lafiagi Emirate on October 1, 2026, to commiserate with residents affected by flooding in Pututa, Tswako, Likpata, Godangi and Ekko communities. He described the situation as saddening while outlining the immediate response by the state government.",
-        "According to the governor's statement, the government has donated ₦10 million for immediate support to residents affected by the natural disaster. He also directed the State Emergency Management Agency to take an inventory of losses as a basis for support to victims.",
+        "According to the governor's statement, the government has donated \u20a610 million for immediate support to residents affected by the natural disaster. He also directed the State Emergency Management Agency to take an inventory of losses as a basis for support to victims.",
         "The governor said the state would continue working with relevant federal institutions and other stakeholders on a longer-term response to the flooding challenge. He identified the dredging of the River Niger as what the state considers a possible lasting solution to the flood problem.",
         "During the visit, the governor also donated a new coaster bus to the College of Education Technical Lafiagi to support mobility at the institution. He additionally inspected ongoing reconstruction work at the Lafiagi Stadium.",
         "The immediate response reported by the state therefore combines emergency financial assistance and loss assessment for affected communities with continued engagement on a longer-term response to flooding. The source did not provide a quantified assessment of the total flood damage."
@@ -12636,7 +12636,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
