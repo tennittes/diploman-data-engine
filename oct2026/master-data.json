@@ -262,7 +262,7 @@
   ],
 
   "globalCodeData_B2": {
-"1": {
+  "1": {
     "date": "2026-10-01",
     "formattedDate": "October 1, 2026",
     "metadata": {
@@ -636,3 +636,323 @@
         },
         "securityAnalysis": "Taraba State (7.7 PSI / High Signal / SIS 3.6 / MONITORED / Growth-Oriented / Caution) conducts public facility overhauls in Jalingo while maintaining active security monitoring along agrarian border areas."
       }
+     ]
+    }
+  },
+
+  "globalCodeData_B3": [
+  {
+    "dayNumber": 1,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.3,
+    "sis": 4.1,
+    "focus": "N828.58bn 2027 Budget Assent, 20MW Solar PV N7bn Savings & N10,000 Youth Allowance",
+    "dailyBrief": "Signed the N828.58bn 2027 budget as first state nationwide, approved 20MW solar PV across 11 facilities to save N7bn, and launched N10,000 monthly stipends for 2,500 youths."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 9.2,
+    "sis": 1.8,
+    "focus": "LASHMA-AID 110 Lives Saved, Safe Women Shelter SOPs & EPPPS Digital Planning",
+    "dailyBrief": "Treated 132 emergency cases saving 110 lives under LASHMA-AID, presented Safe Women Shelter SOPs, launched EPPPS digital building processing, and hosted Finland Ambassador."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 9.1,
+    "sis": 2.1,
+    "focus": "N10bn Gratuity Liability Release, N6.1bn UBEC HOPE-EDU & 27 Armoured Brigade HQ",
+    "dailyBrief": "Approved over N10bn to clear state/LGA gratuity backlogs (N36.5bn total), approved N6.1bn UBEC matching funds, and secured hosting of the new 27 Armoured Brigade HQ."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 8.9,
+    "sis": 3.8,
+    "focus": "82 PHC Upgrades, 1,000 Health Worker Recruitment & KSMC Board Inauguration",
+    "dailyBrief": "Commenced revitalisation of 82 PHCs with ambulances, approved recruitment of 1,000 health workers, and tasked newly inaugurated KSMC Board and Bureau of Statistics."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 1.9,
+    "focus": "1,225 IDEAS-TVET Youth Trainees, NEMA/SEMA Disaster Relief & UNICAL Aquaculture",
+    "dailyBrief": "Flagged off IDEAS-TVET training with N30,000 monthly stipends for 1,225 youths, distributed disaster relief items in Calabar, and deepened UNICAL aquaculture ties."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.4,
+    "focus": "Olokola LNG (OKLNG) Revival Discussions with NNPC & $7bn Marine Zone Synergy",
+    "dailyBrief": "Opened discussions with NNPC to revive the OKLNG project on 1,728 hectares, integrating it with the $7bn Gateway Deep Sea Port and Blue Marine Free Zone."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 8.6,
+    "sis": 2.5,
+    "focus": "NEMA Flood Relief Disbursement in Ivo LGA & 'Ebonyi Story' Book Launch",
+    "dailyBrief": "Received NEMA relief materials for flood victims in Akaeze and Ishiagu, and directed distribution of Prof. Onwe's 'Ebonyi Story' history book across public schools."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 8.5,
+    "sis": 3.4,
+    "focus": "55th Auditors-General Biennial Conference Keynote & Imo Audit Law 2021",
+    "dailyBrief": "Delivered keynote address at the 55th Auditors-General Conference in Owerri emphasizing value for money, and received Sun Newspaper Man of the Year nomination."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 8.4,
+    "sis": 2.3,
+    "focus": "2026 World Igbo Day Hosting & Public School Construction Across 78 Locations",
+    "dailyBrief": "Hosted World Igbo Day in Umuahia advocating regional unity, while unveiling school construction and retrofitting across 78 locations alongside 20 Smart Schools."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 8.3,
+    "sis": 2.6,
+    "focus": "Public Bid Opening for Deputy Gov Office & Airport VIP Lounge Construction",
+    "dailyBrief": "Opened public bids with 12 contractors for 4 major projects including the new Deputy Governor's Office Complex and Yola Airport VIP Lounge."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 8.2,
+    "sis": 2.1,
+    "focus": "N24bn Project Quality Audit Across 40 LGA Construction Sites & ICT Center Rectification",
+    "dailyBrief": "Audited 40 projects worth N24.08bn across Gwarzo and Kabo LGAs, ordering immediate block quality rectifications at the Gwarzo ICT/CBT Centre."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.1,
+    "sis": 2.4,
+    "focus": "Made-in-Edo Trade Fair Showcase in Abuja & Public Service Knowledge Series",
+    "dailyBrief": "Showcased Made-in-Edo products from 8 exhibitors at the 21st Abuja Trade Fair and hosted the 5th Public Service Knowledge-Sharing Series on workplace discipline."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 8.0,
+    "sis": 1.7,
+    "focus": "N10m Relief Grant to Lafiagi Flood Victims & CoE Technical Bus Donation",
+    "dailyBrief": "Donated N10m to flood-displaced communities in Lafiagi Emirate, directed SEMA to inventory losses, and presented a new coaster bus to CoE Technical Lafiagi."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 7.9,
+    "sis": 1.8,
+    "focus": "Ikot Ekpene International Market Groundbreaking & Cold Storage Infrastructure",
+    "dailyBrief": "Performed groundbreaking for the Ikot Ekpene International Market featuring 30 double-deck blocks, 108 shops, cold storage, and dual asphalt/concrete access roads."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 7.8,
+    "sis": 2.9,
+    "focus": "BYM 7-Day Ultimatum Demanding Revocation of Latya Mining Lease ML-129",
+    "dailyBrief": "Berom Youth Molders issued a 7-day ultimatum to authorities demanding revocation and investigation of Mining Lease ML-129 in Latya over community consent disputes."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 7.7,
+    "sis": 3.6,
+    "focus": "TSBS and TTV Broadcast Media Facility Inspection & Technical Rehabilitation",
+    "dailyBrief": "Inspected facilities at Taraba State Broadcasting Service and Taraba Television Corporation in Jalingo, pledging complete technical rehabilitation."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.1,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  },
+  {
+    "dayNumber": 1,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.8,
+    "focus": "Baseline Administrative Maintenance",
+    "dailyBrief": "Maintained routine civil service operations and baseline public administration under standard executive monitoring."
+  }
