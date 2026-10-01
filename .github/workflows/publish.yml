@@ -2,7 +2,8 @@ name: Automated Blogger Publisher
 
 on:
   schedule:
-    - cron: '*/30 6-22 * * 1-5'
+    # Runs every 30 minutes, 24/7 (UTC time)
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,6 +16,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,7 +45,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add news-queue.json ticker.json output/front-page-engine.json social-queue.json budget-analysis.json
+          git add ticker.json output/front-page-engine.json budget-analysis.json "**/news-queue.json" "**/social-queue.json"
           git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update published queue, ticker state, social queue, and budget analysis artifacts [skip ci]" && git push)
 
       - name: Run Social Distribution Pipeline
