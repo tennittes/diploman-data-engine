@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-01",
+  "platforms": {
+    "linkedin": {
+      "governance_analytics": {
+        "title": "[GOVERNANCE ANALYTICS TITLE]",
+        "body": "[Enter LinkedIn Governance Analytics Body Text]",
+        "comment_pointer": "[Enter Comment Pointer / Visual Asset Link Note]"
+      },
+      "news_editorial": {
+        "title": "[NEWS REPORT EDITORIAL TITLE]",
+        "body": "[Enter LinkedIn News Report Body Text]",
+        "comment_pointer": "[Enter Comment Pointer / Video Briefing Note]"
+      }
+    },
+    "facebook": {
+      "governance_analytics": {
+        "title": "[FACEBOOK GOVERNANCE TITLE]",
+        "body": "[Enter Facebook Governance Body Text]",
+        "comment_pointer": "[Enter Comment Pointer Note]"
+      },
+      "news_editorial": {
+        "title": "[FACEBOOK NEWS EDITORIAL TITLE]",
+        "body": "[Enter Facebook News Body Text]",
+        "comment_pointer": "[Enter Comment Pointer Note]"
+      }
+    }
+  }
+}
