@@ -1,0 +1,29 @@
+{
+  "jurisdiction": "[State Name or FCT Abuja]",
+  "releaseDate": "2026-10-01",
+  "badge": "[e.g. Executive Approvals, Supplementary Bill, SEC Release]",
+  "financialType": "[e.g. Capital Allocation Release, Statutory Budget]",
+  "totalCapitalPool": 0,
+  "macroSectorBreakdown": {
+    "Agriculture": 0,
+    "Roads & Mobility": 0,
+    "Infrastructure": 0,
+    "Housing & Welfare": 0,
+    "Empowerment": 0
+  },
+  "lineItems": [
+    {
+      "id": "[3-LETTER-CODE]-01",
+      "title": "[Project / Initiative Title]",
+      "sector": "[Sector Name]",
+      "budget": 0,
+      "area": "[Specific LGA / City / Statewide]",
+      "details": "[Concise 1-2 sentence description of the project scope.]",
+      "metricMultiplier": {
+        "label": "[e.g. Farmers Reached, Roads Paved, Solar Lights]",
+        "unit": "[e.g. Farmers, km, Units, Stalls]",
+        "ratioPerBillion": 0
+      }
+    }
+  ]
+}
