@@ -1,81 +1,81 @@
-const REPORT_DATA = {
-  jurisdiction: "Jigawa State",
-  releaseDate: "2026-08-17",
-  badge: "SEC Release",
-  financialType: "Capital Allocation Release",
-  totalCapitalPool: 3448763103.93,
-  macroSectorBreakdown: {
+{
+  "jurisdiction": "Jigawa State",
+  "releaseDate": "2026-08-17",
+  "badge": "SEC Release",
+  "financialType": "Capital Allocation Release",
+  "totalCapitalPool": 3448763103.93,
+  "macroSectorBreakdown": {
     "Agriculture": 15,
     "Roads & Mobility": 32,
     "Infrastructure": 12,
     "Housing & Welfare": 26,
     "Empowerment": 15
   },
-  lineItems: [
-    { 
-      id: "JIG-01", 
-      title: "Settlement of 2026 National Examination Registration Charges", 
-      sector: "Empowerment", 
-      budget: 1056213457.50, 
-      area: "Statewide", 
-      details: "Payment of outstanding 2026 national examination registration fees covering NECO, NABTEB, and NBAIS examinations for eligible students.", 
-      metricMultiplier: { 
-        label: "Students Sponsored", 
-        unit: "Students", 
-        ratioPerBillion: 38070 
-      } 
+  "lineItems": [
+    {
+      "id": "JIG-01",
+      "title": "Settlement of 2026 National Examination Registration Charges",
+      "sector": "Empowerment",
+      "budget": 1056213457.50,
+      "area": "Statewide",
+      "details": "Payment of outstanding 2026 national examination registration fees covering NECO, NABTEB, and NBAIS examinations for eligible students.",
+      "metricMultiplier": {
+        "label": "Students Sponsored",
+        "unit": "Students",
+        "ratioPerBillion": 38070
+      }
     },
-    { 
-      id: "JIG-02", 
-      title: "Limintani-Kagadama Road Culverts and Drainage Construction", 
-      sector: "Roads & Mobility", 
-      budget: 748730659.51, 
-      area: "Babura LGA", 
-      details: "Construction of access road culverts and drainage infrastructure to mitigate flooding and protect road infrastructure.", 
-      metricMultiplier: { 
-        label: "Drainage Projects", 
-        unit: "Units", 
-        ratioPerBillion: 1.34 
-      } 
+    {
+      "id": "JIG-02",
+      "title": "Limintani-Kagadama Road Culverts and Drainage Construction",
+      "sector": "Roads & Mobility",
+      "budget": 748730659.51,
+      "area": "Babura LGA",
+      "details": "Construction of access road culverts and drainage infrastructure to mitigate flooding and protect road infrastructure.",
+      "metricMultiplier": {
+        "label": "Drainage Projects",
+        "unit": "Units",
+        "ratioPerBillion": 1.34
+      }
     },
-    { 
-      id: "JIG-03", 
-      title: "Sponsorship for Indigenes at Near East University, Cyprus", 
-      sector: "Housing & Welfare", 
-      budget: 891660000.00, 
-      area: "Statewide", 
-      details: "Payment of tuition, administrative fees, accommodation, and living allowances for 193 Jigawa indigenes studying Medical and Applied Medical Sciences.", 
-      metricMultiplier: { 
-        label: "Students Funded", 
-        unit: "Students", 
-        ratioPerBillion: 216 
-      } 
+    {
+      "id": "JIG-03",
+      "title": "Sponsorship for Indigenes at Near East University, Cyprus",
+      "sector": "Housing & Welfare",
+      "budget": 891660000.00,
+      "area": "Statewide",
+      "details": "Payment of tuition, administrative fees, accommodation, and living allowances for 193 Jigawa indigenes studying Medical and Applied Medical Sciences.",
+      "metricMultiplier": {
+        "label": "Students Funded",
+        "unit": "Students",
+        "ratioPerBillion": 216
+      }
     },
-    { 
-      id: "JIG-04", 
-      title: "Renovation of Dilapidated Classroom Blocks", 
-      sector: "Infrastructure", 
-      budget: 405160444.14, 
-      area: "Statewide", 
-      details: "Rehabilitation and renovation of dilapidated classroom blocks under the 2026 Capital Development Programme.", 
-      metricMultiplier: { 
-        label: "Classroom Interventions", 
-        unit: "Units", 
-        ratioPerBillion: 2.47 
-      } 
+    {
+      "id": "JIG-04",
+      "title": "Renovation of Dilapidated Classroom Blocks",
+      "sector": "Infrastructure",
+      "budget": 405160444.14,
+      "area": "Statewide",
+      "details": "Rehabilitation and renovation of dilapidated classroom blocks under the 2026 Capital Development Programme.",
+      "metricMultiplier": {
+        "label": "Classroom Interventions",
+        "unit": "Units",
+        "ratioPerBillion": 2.47
+      }
     },
-    { 
-      id: "JIG-05", 
-      title: "Sansani-Ganau-Samai Road Culverts and Drainage Construction", 
-      sector: "Roads & Mobility", 
-      budget: 346998542.78, 
-      area: "Miga LGA", 
-      details: "Construction of access road culverts and drainage infrastructure along Sansani-Ganau-Samai Road with a 16-week completion period.", 
-      metricMultiplier: { 
-        label: "Drainage Projects", 
-        unit: "Units", 
-        ratioPerBillion: 2.88 
-      } 
+    {
+      "id": "JIG-05",
+      "title": "Sansani-Ganau-Samai Road Culverts and Drainage Construction",
+      "sector": "Roads & Mobility",
+      "budget": 346998542.78,
+      "area": "Miga LGA",
+      "details": "Construction of access road culverts and drainage infrastructure along Sansani-Ganau-Samai Road with a 16-week completion period.",
+      "metricMultiplier": {
+        "label": "Drainage Projects",
+        "unit": "Units",
+        "ratioPerBillion": 2.88
+      }
     }
   ]
-};
+}
