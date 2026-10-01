@@ -135,7 +135,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-05",
-      "published": false,
+      "published": true,
       "title": "Cross River Distributes Relief Supplies to Recent Disaster Victims in Calabar",
       "labels": [
         "News Report",
@@ -168,7 +168,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-06",
-      "published": false,
+      "published": true,
       "title": "Katsina Signs \u20a6828.58 Billion 2027 Appropriation Law",
       "labels": [
         "News Report",
@@ -201,7 +201,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-07",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Receives NEMA Relief Materials for Recent Flood Victims",
       "labels": [
         "News Report",
@@ -234,7 +234,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-08",
-      "published": false,
+      "published": true,
       "title": "Adamawa Opens Bids for Four Major Public Construction Projects",
       "labels": [
         "News Report",
