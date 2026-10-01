@@ -1,7 +1,7 @@
 {
   "newsReports": [
-    {      
-     "type": "news_report",
+    {
+      "type": "news_report",
       "id": "news-2026-10-01-01",
       "published": false,
       "title": "Kaduna Begins Revitalisation of 82 Primary Healthcare Centres, Upgrades Referral Services",
@@ -177,7 +177,7 @@
         "Budget"
       ],
       "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqG3Z6M6WvTjXQhZ0vG2zKfLh8pY0b4g3yXqW7m8Vq9nZ0lKqR4jKf0V6vYqN9Yf7rQ4zJ8mK1gG4HqX8J2cY5tR6pQ8nV3bL0sW1xF4cZ7hN2vM6qP9sT3uA5dE7fG8hJ1kL2mN3oP4qR5sT6uV7wX8yZ9/s720-rw/Katsina%20Governor%20Dikko%20Radda.png",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjefCGdm-9Tnb3pMytIBJKXfF6P8o7Euq91ArKSA9JWrU7AL-PpXr6aPpao7gaRyLO8_zpNxcT9IfBzYuLeb9pVJvI3gKxvoyrSkbkLcdY4gnKyo5Hovd1cMCxJ9l90Cfc-8kcwn4isgZICSl0I4YzFGdXzcPjNheZvYbJSChJItWvNwfGM_QkHJLTPp-I/s720-rw/Katsina%20Governor%20Dikko%20Radda.png",
         "alt": "Katsina State Governor Dikko Radda",
         "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
@@ -334,39 +334,6 @@
       "type": "news_report",
       "id": "news-2026-10-01-11",
       "published": false,
-      "title": "Gombe Approves Over ₦10 Billion to Clear Outstanding Gratuities and Fund New Projects",
-      "labels": [
-        "News Report",
-        "Gombe State",
-        "Public Finance",
-        "Executive Council Approvals"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn0QXv8itySIaPdwwDYhgVdGsZurZ1WlhTj-mo2KEIHupcujNLqhfh6c2PmKrNB4hH5-pOZLwA4Gh9gwA5hG8XOfbqsa1Na4NK20zUOvqF8T00nTu72326eFPDFTnELgYifduyXwTgohz7nxCRRLg8ODrr25aplTFgOyjjBtKuBOT5Z3syTwAYogm6q6g/s720-rw/Gombe%20Governor%20Inuwa%20Yahaya.png",
-        "alt": "Gombe State Governor Inuwa Yahaya",
-        "aria_label": "Gombe State Governor Inuwa Yahaya Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "The Gombe State Executive Council has approved more than ₦10 billion for outstanding gratuities owed to retired civil servants at state and local government levels, alongside a series of education, infrastructure, health, housing and other development commitments.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "The approval was reached at the 56th meeting of the Gombe State Executive Council presided over by Governor Muhammadu Inuwa Yahaya. The decisions were subsequently disclosed during a post-EXCO briefing led by the Commissioner for Information, Amb. Moses Kyari.",
-        "The Commissioner for Finance and Economic Development disclosed approvals of ₦2.18 billion and ₦4.06 billion for outstanding state-level gratuities covering 2024 and 2025. A further ₦4.08 billion was approved for outstanding gratuities at the local government level, with the applicable periods varying among the councils.",
-        "The council also approved ₦6.1 billion as Gombe State's 50 per cent counterpart commitment to the 2026 Universal Basic Education Commission fund, qualifying the state to participate among states positioned to benefit from the HOPE-EDU programme. The intervention is expected to address learning outcomes, out-of-school children and teacher-related needs.",
-        "Infrastructure approvals included a ₦1.6 billion variation for the Gadam-Yame-Yari road, a ₦2.04 billion award for the Kembu-Kidda-Panda road spur, ₦2.1 billion for expansion of Nayi-Nawa School, solar streetlights across several communities, and other industrial, housing and airport-related works.",
-        "The council further approved a statewide free surgical and medical outreach, approved the handover of the Kaltungo Snake Bite Treatment and Research Hospital to the Federal Government, and disclosed plans for new military formations in the state. The decisions collectively form the set of approvals announced from the September 30, 2026 executive council meeting."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-12",
-      "published": false,
       "title": "Ogun, NNPC Open Talks to Revive Long-Delayed OKLNG Project",
       "labels": [
         "News Report",
@@ -398,40 +365,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-13",
-      "published": false,
-      "title": "Kano Orders Corrective Action After Quality Concerns at Public Project Sites",
-      "labels": [
-        "News Report",
-        "Kano State",
-        "Project Monitoring",
-        "Infrastructure Quality"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_0CDz4ksn2LdQPbd_D_mVC6mPFipy0N3OaDkAX8cNHOwTIsgbkJVTQvLojoqh9R47p6YahyphenhyphenaCSAaDnuqEpuh1eAlO8tWSia8HlqsqIbSrqxi239qyoEyhhLRs6EPFxInpHwX8O-pq9at2hseWIzsPy22LwRxCdd0HkCKH4JsRz0nRaQgkXSrgZgELBLY/s720-rw/Kano%20Governor%20Abba%20Yusuf.png",
-        "alt": "Kano State Governor Abba Yusuf",
-        "aria_label": "Kano State Governor Abba Yusuf Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "Kano State's Ministry for Public Procurement, Projects Monitoring and Evaluation has directed contractors to correct identified quality concerns after an inspection of more than 40 government projects across Gwarzo and Kabo Local Government Areas.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "Commissioner Nura Ma'aji Sumaila issued the directive during an inspection tour in which the ministry's monitoring team examined government projects and identified concerns involving construction materials and workmanship at some sites.",
-        "At the newly initiated ICT and Computer-Based Test Centre in Gwarzo, the inspection team raised concerns about the quality of materials, particularly the mixture used in producing blocks. The commissioner directed the site engineer to address the issue before further construction activities proceeded.",
-        "A block of classrooms in Kutama, Gwarzo Local Government Area, was also inspected, with poor workmanship reported at the site. The Department of Building Infrastructure was directed to invite the contractors concerned for discussions on compliance with approved designs, specifications and construction standards.",
-        "The inspection covered more than 40 projects with a combined value of ₦24,085,217,515.71. The ministry also conducted a follow-up assessment of transformer supply and installation associated with the Guzu-Guzu and Magaga Water Supply Schemes in Kabo Local Government Area.",
-        "The commissioner said project monitoring would continue across the state and that contractors deviating from approved designs or using materials below required standards would be required to take corrective measures. The inspection therefore resulted in identified deficiencies being referred for correction and further monitoring."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-14",
+      "id": "news-2026-10-01-12",
       "published": false,
       "title": "Osun Government, Development Association Agree Partnership Framework for Industrial Growth",
       "labels": [
@@ -464,7 +398,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-15",
+      "id": "news-2026-10-01-13",
       "published": false,
       "title": "Edo Showcases Made-in-Edo Products and Investment Opportunities at Abuja Trade Fair",
       "labels": [
@@ -474,7 +408,7 @@
         "Economic Development"
       ],
       "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93vU3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMsrlznhYXvck8rLEAURZpDORLZnV-q_zcMm0FzkS2LdN8IZs-kn9rNrMgkzcMPT9ndZWM9VQZY80Wi2zlkmkgrHWYHwkJs26k93vU3o8WxOEqe4NUfMRCQMSiEVyHXvTUHiNFxJ56cC5ealP4QwMJ3GuZ96I1vQIcSoUH62stzB92lrBqHta74vCeE/s720-rw/Edo%20Governor%20Monday%20Okpebholo.png",
         "alt": "Edo State Governor Monday Okpebholo",
         "aria_label": "Edo State Governor Monday Okpebholo Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
@@ -497,7 +431,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-16",
+      "id": "news-2026-10-01-14",
       "published": false,
       "title": "Delta Police Commissioner Pledges Collaboration on Peace and Security",
       "labels": [
@@ -530,7 +464,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-17",
+      "id": "news-2026-10-01-15",
       "published": false,
       "title": "Akoko-Edo Council, EECOFUND Begin Joint Focus on Gully Erosion and Flood Challenges",
       "labels": [
@@ -563,7 +497,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-18",
+      "id": "news-2026-10-01-16",
       "published": false,
       "title": "Edo Public Service Knowledge Series Focuses on Discipline and Organisational Growth",
       "labels": [
@@ -596,7 +530,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-19",
+      "id": "news-2026-10-01-17",
       "published": false,
       "title": "Akoko-Edo Council Outlines Ward Projects, Youth Skills and Agricultural Plans",
       "labels": [
@@ -629,7 +563,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-20",
+      "id": "news-2026-10-01-18",
       "published": false,
       "title": "Nasarawa Marks 30th Anniversary With Executive-Legislative Novelty Match",
       "labels": [
@@ -662,73 +596,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-21",
-      "published": false,
-      "title": "Katsina Signs ₦828.58 Billion 2027 Appropriation Law",
-      "labels": [
-        "News Report",
-        "Katsina State",
-        "Public Finance",
-        "Budget Implementation"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjefCGdm-9Tnb3pMytIBJKXfF6P8o7Euq91ArKSA9JWrU7AL-PpXr6aPpao7gaRyLO8_zpNxcT9IfBzYuLeb9pVJvI3gKxvoyrSkbkLcdY4gnKyo5Hovd1cMCxJ9l90Cfc-8kcwn4isgZICSl0I4YzFGdXzcPjNheZvYbJSChJItWvNwfGM_QkHJLTPp-I/s720-rw/Katsina%20Governor%20Dikko%20Radda.png",
-        "alt": "Katsina State Governor Dikko Radda",
-        "aria_label": "Katsina State Governor Dikko Radda Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "Katsina State Governor Dikko Umaru Radda has signed the state's 2027 Appropriation Law with a total provision of ₦828.58 billion, directing Ministries, Departments and Agencies to begin timely and transparent implementation of approved programmes and projects.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "Governor Radda signed the appropriation law on September 30, 2026, following its passage by the Katsina State House of Assembly. The total amount stated in the source is ₦828,578,844,091.48.",
-        "The governor said the budget was developed through needs assessment and consultations across all 361 wards in the state's 34 Local Government Areas. He said the proposal passed through grassroots collation, executive-level scrutiny by Ministries, Departments and Agencies, and legislative review.",
-        "The Speaker of the House of Assembly, Rt. Hon. Nasir Yahaya Daura, disclosed that ₦190,726,262,820.44 was allocated to recurrent expenditure while ₦637,852,581,271.03 was allocated to capital expenditure.",
-        "Governor Radda directed implementing agencies to ensure timely, efficient and transparent execution. The priorities identified in his remarks include human capital development, infrastructure, healthcare, education, agriculture, enterprise and opportunities for young people.",
-        "The signing took place on September 30, almost two months earlier than the signing of the 2026 budget on November 17, according to the source. The ceremony was attended by senior government officials, legislative officers, traditional and political stakeholders."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-22",
-      "published": false,
-      "title": "Kaduna Begins Revitalisation of 82 Primary Healthcare Centres",
-      "labels": [
-        "News Report",
-        "Kaduna State",
-        "Healthcare Infrastructure",
-        "Primary Healthcare"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJN5KUFBjpRZbYP4hdIdD7ZAui1Roi-hELC_xBitASusSsFaP1_e1C1DQ_i5n6S2HAkdRRcg0sHNXUxf6Cwr9G-vDk_WEti3Qf8lD5DvdncV2P0RYg5t3IRTZTH-I-PSR17twsGnRy7ycpmBtSkbg4vZqkY2C66KNgMuuoUkGFzY8paz_fMIPXi6ppYY/s720-rw/Kaduna%20Governor%20Uba%20Sani.png",
-        "alt": "Kaduna State Governor Uba Sani",
-        "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "The Kaduna State Government has commenced a healthcare infrastructure programme covering 82 Primary Healthcare Centres, including upgrades to Level 2 status, selected Centres of Excellence and strengthened emergency referral capacity.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "The groundbreaking ceremony was performed in Kaduna on September 30, 2026, with Secretary to the State Government Dr Abdulkadir Mu'azu Meyare representing Governor Uba Sani. The intervention is intended to strengthen access to primary healthcare across the state.",
-        "The programme includes upgrading 82 PHCs to Level 2 status and rehabilitating selected facilities into Centres of Excellence. The government also plans to strengthen emergency referrals through ambulances and improve water, sanitation, equipment and other essential infrastructure.",
-        "According to the Kaduna State Primary Health Care Board, the intervention covers 82 additional PHCs, 23 Centres of Excellence and strengthened referral services. The programme also includes 15 new gender-based toilets and renovation of 156 existing toilets.",
-        "The board disclosed that Governor Sani had approved the recruitment of an additional 1,000 healthcare workers, with the exercise commencing during the reported week. The source also identifies planned improvements in medicines, electricity, human resources, supervision and maintenance.",
-        "The government said the intervention would be assessed through indicators including antenatal care, immunisation, emergency referrals, medicine availability, service utilisation and patient experience. The programme forms part of the wider health-sector investments described by the state government."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-23",
+      "id": "news-2026-10-01-19",
       "published": false,
       "title": "Katsina Targets 70MW Power Capacity by 2031 With New Solar Intervention",
       "labels": [
@@ -761,7 +629,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-24",
+      "id": "news-2026-10-01-20",
       "published": false,
       "title": "Abia's Smart Schools Programme Expands Across 17 Local Government Areas",
       "labels": [
@@ -794,7 +662,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-25",
+      "id": "news-2026-10-01-21",
       "published": false,
       "title": "Akwa Ibom Begins Ikot Ekpene International Market Project",
       "labels": [
@@ -827,7 +695,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-26",
+      "id": "news-2026-10-01-22",
       "published": false,
       "title": "Katsina to Expand Agripreneurship Training to More Than 1,000 Youths",
       "labels": [
@@ -860,7 +728,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-27",
+      "id": "news-2026-10-01-23",
       "published": false,
       "title": "Ekiti LGAs and LCDAs Urged to Prioritise People-Oriented Projects",
       "labels": [
@@ -893,7 +761,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-28",
+      "id": "news-2026-10-01-24",
       "published": false,
       "title": "Kaduna Statistics Bureau and Information Ministry Seek Stronger Data Collaboration",
       "labels": [
@@ -926,7 +794,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-29",
+      "id": "news-2026-10-01-25",
       "published": false,
       "title": "Kaduna Media Corporation Board Charged With Repositioning State Broadcaster",
       "labels": [
@@ -959,7 +827,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-30",
+      "id": "news-2026-10-01-26",
       "published": false,
       "title": "Abia Hosts 2026 World Igbo Day With Calls for Unity and Collective Development",
       "labels": [
@@ -992,7 +860,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-31",
+      "id": "news-2026-10-01-27",
       "published": false,
       "title": "BYM Demands Revocation of Plateau Mining Lease ML-129, Threatens Peaceful Protest",
       "labels": [
@@ -1025,42 +893,9 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-32",
+      "id": "news-2026-10-01-28",
       "published": false,
-      "title": "LASHMA-AID Reports 132 Emergency Cases and 110 Lives Saved in Six Months",
-      "labels": [
-        "News Report",
-        "Lagos State",
-        "Healthcare and Emergency Response",
-        "Health Insurance"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
-        "alt": "Lagos State Governor Babajide Sanwo-Olu",
-        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "The Lagos State Health Management Agency Assistance-In-Distress has treated 132 emergency cases during its first six months, with the Permanent Secretary of LASHMA reporting 110 lives saved and 22 mortalities associated with the severity of injuries sustained.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "Dr. Emmanuella Zamba disclosed the figures during the LASHMA-AID multi-stakeholders engagement at the Lagos Chamber of Commerce and Industry in Alausa, Ikeja. Of the 132 residents treated, 101 were identified as vulnerable and unable to afford care, 26 were ILERA EKO enrollees and five were classified as non-vulnerable and non-enrollees.",
-        "The 101 vulnerable residents were enrolled with their family members on the EKO Social Health Alliance Health Insurance Plan for one year through the Equity Fund approved by the Lagos State Government. LASHMA said the arrangement is intended to provide access to healthcare without charge for the enrolled vulnerable residents, with the possibility of subsequent renewal.",
-        "Ikeja, Badagry, Lagos Island, Ketu, Ogba, Itire-Surulere and Mile 2 were identified as the areas recording the highest emergency pickup activity. Of the reported cases, 59 involved trauma or road traffic accidents, 36 were medical cases, 19 were surgical, 11 were obstetric and seven were neonatal.",
-        "The agency reported 72 ambulance transports, including pre-hospital and inter-facility referrals, handled by the Lagos State Ambulance Service and four accredited private providers. LASHMA also urged healthcare providers not to turn away patients in life-threatening conditions and said it would bear eligible costs where patients are confirmed after stabilisation to be ILERA EKO enrollees or vulnerable persons.",
-        "The report contains an internal numerical discrepancy: its headline states that 102 lives were saved, while the Permanent Secretary's disclosure in the body states that 110 lives were saved alongside 22 mortalities. The body disclosure is retained here without treating the discrepancy as independently resolved. LASHMA also urged residents to use 767, 112 or the stated LASHMA-AID emergency number when urgent assistance is required."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-33",
-      "published": false,
-      "title": "Lagos Advances Digital Planning Approval System Through Statewide Stakeholder Engagement",
+      "title": "LAGOS ADVANCES DIGITAL PLANNING APPROVAL SYSTEM THROUGH STATEWIDE STAKEHOLDER ENGAGEMENT",
       "labels": [
         "News Report",
         "Lagos State",
@@ -1091,7 +926,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-34",
+      "id": "news-2026-10-01-29",
       "published": false,
       "title": "Lagos and Finland Explore Trade, Investment and Industrial Cooperation Pathways",
       "labels": [
@@ -1124,7 +959,7 @@
     },
     {
       "type": "news_report",
-      "id": "news-2026-10-01-35",
+      "id": "news-2026-10-01-30",
       "published": false,
       "title": "Kwara Government Releases ₦10 Million Emergency Support for Lafiagi Flood Victims",
       "labels": [
@@ -1147,72 +982,6 @@
         "The governor said the state would continue working with relevant federal institutions and other stakeholders on a longer-term response to the flooding challenge. He identified the dredging of the River Niger as what the state considers a possible lasting solution to the flood problem.",
         "During the visit, the governor also donated a new coaster bus to the College of Education Technical Lafiagi to support mobility at the institution. He additionally inspected ongoing reconstruction work at the Lafiagi Stadium.",
         "The immediate response reported by the state therefore combines emergency financial assistance and loss assessment for affected communities with continued engagement on a longer-term response to flooding. The source did not provide a quantified assessment of the total flood damage."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-36",
-      "published": false,
-      "title": "Lagos Deputy Governor Seeks Deeper Collaboration to Address Excessive Real Estate Charges",
-      "labels": [
-        "News Report",
-        "Lagos State",
-        "Real Estate Regulation",
-        "Regulatory Compliance"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
-        "alt": "Lagos State Governor Babajide Sanwo-Olu",
-        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "Lagos State Deputy Governor Kadri Obafemi Hamzat has called for deeper collaboration between the state government, the Lagos State Real Estate Regulatory Authority and members of the Estate, Rent and Commission Agents Association of Nigeria to address excessive charges and strengthen professionalism in the real estate sector.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "The call was made at the ERCAAN Breakfast Training and Business Parley for holders of LASRERA permits at the Lagos Chamber of Commerce and Industry in Alausa, Ikeja. The September 28 engagement was themed around becoming an international licensed realtor and exploring global opportunities.",
-        "Representing the Deputy Governor, Permanent Secretary of the Ministry of Housing Engr. Abdulhafis Gbolahan Toriola said Lagos' continued population growth and migration had increased demand for housing, with demand outpacing available supply.",
-        "Toriola said stronger collaboration among government, real estate practitioners and other stakeholders was required to expand housing supply at affordable prices and ensure that charges within the sector remain reasonable. He also referenced the Lagos State Real Estate Regulatory Authority Law, 2022, as the legal framework for monitoring and regulating persons, organisations and developers operating in the sector.",
-        "Coordinating Director of LASRERA ESV. Mrs. Temitope Akinbola urged practitioners to comply with registration and regulatory requirements and said failure to comply with LASRERA laws and requirements amounts to illegal operation in Lagos State. She called on stakeholders to sensitise practitioners, clients and members of the public about registration and approved standards.",
-        "The engagement placed regulatory compliance, professional standards, transparency and public protection at the centre of the discussions. LASRERA also reaffirmed its commitment to working with stakeholders toward a regulated real estate sector while the state government called for continued collaboration to address charges and housing-market pressures."
-      ],
-      "call_to_action": {
-        "heading": "Diploman Times Telemetry Interlink",
-        "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
-        "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
-    },
-    {
-      "type": "news_report",
-      "id": "news-2026-10-01-37",
-      "published": false,
-      "title": "Lagos Government Presents Standard Operating Procedures to Safe Women Shelter Operators",
-      "labels": [
-        "News Report",
-        "Lagos State",
-        "Women and Social Protection",
-        "Shelter Services"
-      ],
-      "featured_image": {
-        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgzwOe8R8RiYtj0gjjcId86U5mspgOT5Tm0049oXbgXscatcaWmvIMgd0KAk8TiysoiF616VHnrZqr_tJhOTbhjCZLIXZkmOOvUTLXJwTWQuIN8DbK1COLgyQMgIbOhkHgBcXvhlefK_oXen8TEyexTXhig9UDAZ1NZBk8th2KE2emAKl4v4VbZUt7LM/s720-rw/Lagos%20Governor%20Babajide%20Sanwo%20Olu.png",
-        "alt": "Lagos State Governor Babajide Sanwo-Olu",
-        "aria_label": "Lagos State Governor Babajide Sanwo-Olu Governance Policy Intelligence",
-        "target_url": "https://www.diplomantimes.com"
-      },
-      "lead_narrative": "The Lagos State Government has presented an approved Standard Operating Procedure booklet to operators of Safe Women Shelters across the state as part of efforts to establish a common framework for the management, protection and support of women and girls seeking refuge.",
-      "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
-      "story_body": [
-        "The Ministry of Women Affairs and Poverty Alleviation presented the approved SOP during a Periodic Review and Policy Update for Safe Women Shelters in Lagos State held in Ikeja. Commissioner Bolaji Cecilia Dada described the presentation as a step toward translating the ministry's shelter-service commitments into operational guidance.",
-        "The Commissioner recalled that the ministry had engaged chief executive officers of organisations managing Safe Women Shelters on March 10, 2026, to develop a common framework for effective shelter management. The approved SOP covers shelter management, safeguarding, confidentiality, referrals, case management, accountability, monitoring and the general welfare of women and girls.",
-        "The ministry said the SOP would be reviewed periodically in consultation with relevant stakeholders so that it remains practical and responsive to changing needs. It also plans periodic visits to shelters across the state to assess compliance, understand operational challenges and provide guidance.",
-        "Permanent Secretary of the ministry Mrs. Rianat Ajibike Onigbanjo commended the participants involved in developing and reviewing the SOP and encouraged shelter operators to study the document and incorporate its provisions into daily operations. Shelter representatives also expressed appreciation for the process and stakeholder involvement.",
-        "The engagement concluded with the formal presentation of the approved SOP to representatives of Safe Women Shelters and a renewed commitment by participating stakeholders to provide safety, dignity, protection and appropriate support to women and girls requiring shelter services."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
