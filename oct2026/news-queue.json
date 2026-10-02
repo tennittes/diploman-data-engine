@@ -663,7 +663,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-21",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Begins Ikot Ekpene International Market Project",
       "labels": [
         "News Report",
@@ -696,7 +696,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-22",
-      "published": false,
+      "published": true,
       "title": "Katsina to Expand Agripreneurship Training to More Than 1,000 Youths",
       "labels": [
         "News Report",
@@ -729,7 +729,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-23",
-      "published": false,
+      "published": true,
       "title": "Ekiti LGAs and LCDAs Urged to Prioritise People-Oriented Projects",
       "labels": [
         "News Report",
@@ -762,7 +762,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-24",
-      "published": false,
+      "published": true,
       "title": "Kaduna Statistics Bureau and Information Ministry Seek Stronger Data Collaboration",
       "labels": [
         "News Report",
