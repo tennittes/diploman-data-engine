@@ -267,7 +267,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-09",
-      "published": false,
+      "published": true,
       "title": "Taraba Governor Inspects State Broadcasting Facilities, Pledges Rehabilitation",
       "labels": [
         "News Report",
@@ -300,7 +300,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-10",
-      "published": false,
+      "published": true,
       "title": "Osun Orders Environmental Assessment After Recent Flooding",
       "labels": [
         "News Report",
@@ -333,7 +333,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-11",
-      "published": false,
+      "published": true,
       "title": "Ogun, NNPC Open Talks to Revive Long-Delayed OKLNG Project",
       "labels": [
         "News Report",
@@ -366,7 +366,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-12",
-      "published": false,
+      "published": true,
       "title": "Osun Government, Development Association Agree Partnership Framework for Industrial Growth",
       "labels": [
         "News Report",
