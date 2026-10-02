@@ -795,7 +795,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-25",
-      "published": false,
+      "published": true,
       "title": "Kaduna Media Corporation Board Charged With Repositioning State Broadcaster",
       "labels": [
         "News Report",
@@ -828,7 +828,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-26",
-      "published": false,
+      "published": true,
       "title": "Abia Hosts 2026 World Igbo Day With Calls for Unity and Collective Development",
       "labels": [
         "News Report",
@@ -861,7 +861,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-27",
-      "published": false,
+      "published": true,
       "title": "BYM Demands Revocation of Plateau Mining Lease ML-129, Threatens Peaceful Protest",
       "labels": [
         "News Report",
@@ -894,7 +894,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-28",
-      "published": false,
+      "published": true,
       "title": "LAGOS ADVANCES DIGITAL PLANNING APPROVAL SYSTEM THROUGH STATEWIDE STAKEHOLDER ENGAGEMENT",
       "labels": [
         "News Report",
