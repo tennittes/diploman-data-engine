@@ -927,7 +927,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-29",
-      "published": false,
+      "published": true,
       "title": "Lagos and Finland Explore Trade, Investment and Industrial Cooperation Pathways",
       "labels": [
         "News Report",
@@ -960,7 +960,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-30",
-      "published": false,
+      "published": true,
       "title": "Kwara Government Releases \u20a610 Million Emergency Support for Lafiagi Flood Victims",
       "labels": [
         "News Report",
