@@ -531,7 +531,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-17",
-      "published": false,
+      "published": true,
       "title": "Akoko-Edo Council Outlines Ward Projects, Youth Skills and Agricultural Plans",
       "labels": [
         "News Report",
@@ -564,7 +564,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-18",
-      "published": false,
+      "published": true,
       "title": "Nasarawa Marks 30th Anniversary With Executive-Legislative Novelty Match",
       "labels": [
         "News Report",
@@ -597,7 +597,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-19",
-      "published": false,
+      "published": true,
       "title": "Katsina Targets 70MW Power Capacity by 2031 With New Solar Intervention",
       "labels": [
         "News Report",
@@ -630,7 +630,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-20",
-      "published": false,
+      "published": true,
       "title": "Abia's Smart Schools Programme Expands Across 17 Local Government Areas",
       "labels": [
         "News Report",
