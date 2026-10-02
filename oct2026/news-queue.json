@@ -399,7 +399,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-13",
-      "published": false,
+      "published": true,
       "title": "Edo Showcases Made-in-Edo Products and Investment Opportunities at Abuja Trade Fair",
       "labels": [
         "News Report",
@@ -432,7 +432,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-14",
-      "published": false,
+      "published": true,
       "title": "Delta Police Commissioner Pledges Collaboration on Peace and Security",
       "labels": [
         "News Report",
@@ -465,7 +465,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-15",
-      "published": false,
+      "published": true,
       "title": "Akoko-Edo Council, EECOFUND Begin Joint Focus on Gully Erosion and Flood Challenges",
       "labels": [
         "News Report",
@@ -498,7 +498,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-01-16",
-      "published": false,
+      "published": true,
       "title": "Edo Public Service Knowledge Series Focuses on Discipline and Organisational Growth",
       "labels": [
         "News Report",
