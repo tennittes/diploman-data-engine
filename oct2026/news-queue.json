@@ -1521,7 +1521,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-17",
-      "published": false,
+      "published": true,
       "title": "Sokoto Reports Expanded Security Support and Calls for Sustained Federal-State Collaboration",
       "labels": [
         "News Report",
@@ -1554,7 +1554,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-18",
-      "published": false,
+      "published": true,
       "title": "Akwa Ibom Flags Off \u20a6111 Billion Ibom International Market Project and Reports \u20a6100 Billion Gratuity Payments",
       "labels": [
         "News Report",
@@ -1587,7 +1587,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-19",
-      "published": false,
+      "published": true,
       "title": "Kaduna Pension Bureau Schedules Batch 27 Verification After \u20a63.659 Billion Approval",
       "labels": [
         "News Report",
@@ -1620,7 +1620,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-20",
-      "published": false,
+      "published": true,
       "title": "Katsina Begins Third-Batch Training for 361 Young Agripreneurs, Plans Centre Expansion",
       "labels": [
         "News Report",
