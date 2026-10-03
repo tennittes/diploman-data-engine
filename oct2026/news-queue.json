@@ -1389,7 +1389,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-13",
-      "published": false,
+      "published": true,
       "title": "Plateau Governor Pardons 130 Inmates and Commutes Four Death Sentences",
       "labels": [
         "News Report",
@@ -1422,7 +1422,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-14",
-      "published": false,
+      "published": true,
       "title": "Plateau Positions Agriculture and Energy for Potential European Investment Partnerships",
       "labels": [
         "News Report",
@@ -1455,7 +1455,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-15",
-      "published": false,
+      "published": true,
       "title": "Greater Jos Master Plan Team Integrates Agriculture, Food Security and Waste-to-Fertilizer Proposals",
       "labels": [
         "News Report",
@@ -1488,7 +1488,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-16",
-      "published": false,
+      "published": true,
       "title": "Plateau Reports 34 Positive Animal Rabies Cases Across Seven LGAs",
       "labels": [
         "News Report",
