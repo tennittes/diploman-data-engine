@@ -1125,7 +1125,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-05",
-      "published": false,
+      "published": true,
       "title": "Adamawa Governor Pardons Nine Inmates and Commutes One Death Sentence",
       "labels": [
         "News Report",
@@ -1158,7 +1158,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-06",
-      "published": false,
+      "published": true,
       "title": "Gombe Launches Maternal and Neonatal Tetanus Campaign Across Five LGAs",
       "labels": [
         "News Report",
@@ -1191,7 +1191,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-07",
-      "published": false,
+      "published": true,
       "title": "Julius Berger Begins Assessment of Flood-Damaged Agbarho Section of East-West Road",
       "labels": [
         "News Report",
@@ -1224,7 +1224,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-08",
-      "published": false,
+      "published": true,
       "title": "Osun Independence Address Reviews Education, Healthcare, Infrastructure and Agriculture Programmes",
       "labels": [
         "News Report",
