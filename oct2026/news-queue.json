@@ -993,8 +993,8 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-01",
-      "published": false,
-      "title": "Taraba Announces ₦2.5 Billion People-First Package, 168-Ward Programme and Clemency for 24 Inmates",
+      "published": true,
+      "title": "Taraba Announces \u20a62.5 Billion People-First Package, 168-Ward Programme and Clemency for 24 Inmates",
       "labels": [
         "News Report",
         "Taraba",
@@ -1007,10 +1007,10 @@
         "aria_label": "Taraba State Governor Agbu Kefas governance policy intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Taraba State has announced a ₦2.5 billion package covering social protection, youth development and crisis recovery, alongside a 168-ward development programme, fiscal transparency measures, electricity planning, infrastructure follow-up and clemency for 24 inmates.",
+      "lead_narrative": "Taraba State has announced a \u20a62.5 billion package covering social protection, youth development and crisis recovery, alongside a 168-ward development programme, fiscal transparency measures, electricity planning, infrastructure follow-up and clemency for 24 inmates.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "In a Taraba State government publication dated October 2, the administration said Governor Agbu Kefas had announced ₦2.5 billion in approved funding for vulnerable households, young people and crisis-affected communities. The package comprises ₦500 million for TARABA CARES, ₦1 billion for the Taraba State Youth Development Agency and another ₦1 billion for relief and recovery in Karim Lamido and other crisis-affected areas.",
+        "In a Taraba State government publication dated October 2, the administration said Governor Agbu Kefas had announced \u20a62.5 billion in approved funding for vulnerable households, young people and crisis-affected communities. The package comprises \u20a6500 million for TARABA CARES, \u20a61 billion for the Taraba State Youth Development Agency and another \u20a61 billion for relief and recovery in Karim Lamido and other crisis-affected areas.",
         "The TARABA CARES programme is scheduled to run from October 2026 to March 2027 and is intended to prioritise households facing severe hardship, including widows with dependants, older persons without reliable income, persons living with disabilities and other vulnerable families. The governor directed responsible agencies to publish assistance details, eligibility requirements and registration procedures, with selection based on verified need and a complaints mechanism.",
         "The administration also announced a 168-Ward Quick Impact Development Programme to be unveiled before the end of October 2026, with each ward expected to receive a small project selected according to local need. A Teachers' Welfare, Professionalisation and Housing Programme is scheduled to begin in 2027, while the state plans measures to develop fisheries, food processing and other livelihoods around its rivers, lakes, dams and wetlands.",
         "On public finances and infrastructure, Governor Kefas directed financial authorities to provide an accessible statement of the state's verified debt position, inherited obligations, approved and drawn financing, repayments and debt-servicing requirements. He also directed an immediate engagement with the North East Development Commission, Federal Ministry of Regional Development and the contractor handling the Namnai Bridge reconstruction, with a seven-day report expected on project status, construction challenges and a realistic timetable.",
@@ -1019,14 +1019,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-02-02",
-      "published": false,
+      "published": true,
       "title": "Ondo Reports 3,323 Health Professionals Recruited as Government Reviews Health, Agriculture, Power and Investment Programmes",
       "labels": [
         "News Report",
@@ -1052,14 +1052,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-02-03",
-      "published": false,
+      "published": true,
       "title": "Borno Reports 1,500 Project Clusters and About Two Million Residents Resettled in Independence Review",
       "labels": [
         "News Report",
@@ -1085,14 +1085,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-02-04",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Hospital Expands TURP Capacity, Announces Free Prostate Screening and Surgery From October 5",
       "labels": [
         "News Report",
@@ -1118,7 +1118,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1151,7 +1151,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1184,7 +1184,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1217,7 +1217,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1250,7 +1250,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1283,7 +1283,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1316,7 +1316,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1349,7 +1349,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1376,13 +1376,13 @@
         "The Lagos State Government, responding to criticism aired by a 2027 governorship candidate, said claims that the state had no waste-management strategy beyond emergency refuse clearance and that flooding was being ignored did not reflect its reported interventions. Commissioner for the Environment and Water Resources Tokunbo Wahab said the state's approach includes infrastructure and operational reforms.",
         "The commissioner cited Modern Transfer Loading Stations, Material Recovery Facilities, recycling, composting and the Epe waste-to-energy project as components of the state's longer-term waste-management strategy. He said Lagos generates an estimated 13,000 to 15,000 tonnes of municipal waste daily and that LAWMA and PSP operators evacuated approximately 418,500 tonnes in May 2026.",
         "Wahab also acknowledged collection failures, underperforming PSP operators and operational bottlenecks. He said delays at disposal facilities can affect truck turnaround and collection schedules, while interventions at Olusosun, including rehabilitation of Road E and additional disposal platforms, had increased reported truck movements. The state is also using property enumeration, geocoded service locations, GPS tracking, weighbridge measurements and collection and recovery records.",
-        "On flooding, the commissioner cited drainage infrastructure, pump stations, year-round maintenance, flood-abatement operations, restrictions on styrofoam and single-use plastics, wetland preservation and removal of structures on floodplains. He said the government had reported a 75–80 percent reduction in flooding incidents statewide, while acknowledging that challenges remained.",
+        "On flooding, the commissioner cited drainage infrastructure, pump stations, year-round maintenance, flood-abatement operations, restrictions on styrofoam and single-use plastics, wetland preservation and removal of structures on floodplains. He said the government had reported a 75\u201380 percent reduction in flooding incidents statewide, while acknowledging that challenges remained.",
         "The commissioner said Lagos's coastal geography, tidal conditions and climate pressures remain relevant to flood management and argued that environmental performance should be assessed through measurable indicators. The response therefore combines reported infrastructure and operational measures with an explicit acknowledgement that waste collection and flood management challenges have not been eliminated."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1415,7 +1415,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1448,7 +1448,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1469,10 +1469,10 @@
         "aria_label": "Plateau State Governor Caleb Mutfwang governance policy intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Greater Jos Master Plan 2025–2050 team has engaged Plateau's Agriculture Ministry on integrating food security, agricultural land preservation, waste-to-fertilizer and related infrastructure into the proposed urban development framework.",
+      "lead_narrative": "The Greater Jos Master Plan 2025\u20132050 team has engaged Plateau's Agriculture Ministry on integrating food security, agricultural land preservation, waste-to-fertilizer and related infrastructure into the proposed urban development framework.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Greater Jos Master Plan 2025–2050 team, working with the Plateau State Ministry of Housing and Urban Planning, has engaged the Ministry of Agriculture and Rural Development on incorporating food security and agricultural preservation into the proposed development framework.",
+        "The Greater Jos Master Plan 2025\u20132050 team, working with the Plateau State Ministry of Housing and Urban Planning, has engaged the Ministry of Agriculture and Rural Development on incorporating food security and agricultural preservation into the proposed development framework.",
         "The engagement sought relevant data on agricultural programmes, policies and activities so that the master plan can reflect the needs of farmers alongside the requirements of a growing urban population. The planning consortium is reviewing the existing master plan and has commenced topographical and land-use surveys, with socio-economic surveys expected to follow.",
         "The proposed planning area is centred around Zaramaganda Roundabout and extends across a 30-kilometre radius, covering substantial agricultural land. The planning team said the challenge was to balance urban expansion with preservation of land needed to support food production.",
         "Proposals presented during the engagement included careful zoning, protection of agricultural land, possible vertical farming, conversion of organic urban waste into compost and fertiliser, wastewater recycling for agricultural purposes, and development of farmers' markets, cold-storage facilities and distribution hubs.",
@@ -1481,7 +1481,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1514,7 +1514,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1547,7 +1547,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1555,7 +1555,7 @@
       "type": "news_report",
       "id": "news-2026-10-02-18",
       "published": false,
-      "title": "Akwa Ibom Flags Off ₦111 Billion Ibom International Market Project and Reports ₦100 Billion Gratuity Payments",
+      "title": "Akwa Ibom Flags Off \u20a6111 Billion Ibom International Market Project and Reports \u20a6100 Billion Gratuity Payments",
       "labels": [
         "News Report",
         "Akwa Ibom",
@@ -1568,19 +1568,19 @@
         "aria_label": "Akwa Ibom State Governor Umo Eno governance policy intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Akwa Ibom State has commenced construction of the Ibom International Market in Ikot Ekpene, while Governor Umo Eno reported that ₦100 billion had been released toward a ₦111 billion gratuity backlog owed to retirees since 2012.",
+      "lead_narrative": "Akwa Ibom State has commenced construction of the Ibom International Market in Ikot Ekpene, while Governor Umo Eno reported that \u20a6100 billion had been released toward a \u20a6111 billion gratuity backlog owed to retirees since 2012.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Umo Eno announced the commencement of construction of the Ibom International Market in Ikot Ekpene, describing the project as an investment intended to create economic opportunities and support business activity in Akwa Ibom.",
         "According to the Akwa Ibom State government publication, the market is planned to contain 1,200 shops together with warehouses, cold rooms, restaurants and other supporting facilities.",
         "The planned facilities are intended to provide traders, entrepreneurs and young people with a modern platform for commercial activity. The report presented the project as part of the administration's efforts to expand opportunities and strengthen the state's economic base.",
-        "Governor Eno also reported progress on outstanding gratuity obligations, stating that the administration had released ₦100 billion so far toward a ₦111 billion backlog owed to retirees since 2012.",
+        "Governor Eno also reported progress on outstanding gratuity obligations, stating that the administration had released \u20a6100 billion so far toward a \u20a6111 billion backlog owed to retirees since 2012.",
         "The governor said the administration remained committed to clearing the reported obligations and improving living conditions across the state. The market project and gratuity payments therefore represent separate reported interventions in commercial infrastructure and public-sector retirement obligations."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1588,7 +1588,7 @@
       "type": "news_report",
       "id": "news-2026-10-02-19",
       "published": false,
-      "title": "Kaduna Pension Bureau Schedules Batch 27 Verification After ₦3.659 Billion Approval",
+      "title": "Kaduna Pension Bureau Schedules Batch 27 Verification After \u20a63.659 Billion Approval",
       "labels": [
         "News Report",
         "Kaduna",
@@ -1601,10 +1601,10 @@
         "aria_label": "Kaduna State Governor Uba Sani governance policy intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Kaduna State Pension Bureau has released Batch 27 beneficiaries for verification for gratuity and death benefits following approval and release of ₦3.659 billion for retirees and deceased beneficiaries under the state's pension schemes.",
+      "lead_narrative": "The Kaduna State Pension Bureau has released Batch 27 beneficiaries for verification for gratuity and death benefits following approval and release of \u20a63.659 billion for retirees and deceased beneficiaries under the state's pension schemes.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Kaduna State Pension Bureau has released the names of beneficiaries under Batch 27 for Local Government retirees following the approval and release of ₦3.659 billion by Governor Uba Sani for gratuity and death benefits.",
+        "The Kaduna State Pension Bureau has released the names of beneficiaries under Batch 27 for Local Government retirees following the approval and release of \u20a63.659 billion by Governor Uba Sani for gratuity and death benefits.",
         "The payments relate to beneficiaries under both the Defined Benefits Scheme and the Contributory Pension Scheme, including retirees and family members of deceased beneficiaries. The bureau has asked shortlisted beneficiaries to attend the scheduled verification exercise with the required documentation.",
         "Verification is scheduled from Monday, October 5 to Friday, October 9, 2026. Zone One beneficiaries are to attend at Sabon Gari Local Government Secretariat, while Zone Two verification is scheduled at the Kaduna State Pension Bureau Office on Katuru Road in Badarawa, Kaduna.",
         "Zone Three beneficiaries are to attend at Jema'a Local Government Secretariat in Kafanchan. The bureau's notice also states that beneficiaries under the Contributory Pension Scheme will be contacted by their respective Pension Fund Administrations for documentation and subsequent payment.",
@@ -1613,7 +1613,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1646,7 +1646,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1679,7 +1679,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1712,7 +1712,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1745,7 +1745,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
