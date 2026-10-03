@@ -525,7 +525,7 @@
           "psiMomentum": "Accelerating",
           "sisScore": 2.1,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Gombe Approves N10bn for Gratuity Liabilities; Secures 27 Armoured Brigade Military Formations.",
@@ -565,7 +565,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 1.9,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "IDEAS-TVET Trains 1,225 Youths in Calabar; NEMA and CR-SEMA Distribute Disaster Supplies.",
@@ -605,7 +605,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.5,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Governor Nwifuru Receives NEMA Flood Relief for Akaeze and Ishiagu; Unveils History Book.",
@@ -645,7 +645,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.3,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Governor Otti Hosts 2026 World Igbo Day; Expands Public School Construction Across 78 Sites.",
@@ -665,7 +665,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.6,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Adamawa Housing Ministry Opens Bids for Four Major Public Construction Projects.",
@@ -725,7 +725,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 1.7,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Governor AbdulRazaq Donates N10m Relief to Lafiagi Flood Victims; Donates College Bus.",
@@ -765,7 +765,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.9,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Berom Youth Molders Demand Revocation of Latya Mining Lease ML-129.",
@@ -785,7 +785,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 3.6,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Kefas Inspects TSBS and TTV Facilities; Pledges Complete Modernization.",
@@ -861,7 +861,7 @@
           "psiMomentum": "Accelerating",
           "sisScore": 4.2,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Aliyu Rolls Out 100 APCs, Thermal Scopes and Hardware to Combat Insecurity.",
@@ -881,7 +881,7 @@
           "psiMomentum": "Accelerating",
           "sisScore": 3.6,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Kefas Unveils N2.5bn Relief Package, 168-Ward Project and Public Debt Audit.",
@@ -901,7 +901,7 @@
           "psiMomentum": "Accelerating",
           "sisScore": 3.6,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Mutfwang Pursues EU Hydro and Agric Deals; Greater Jos Master Plan Engages Stakeholders.",
@@ -921,7 +921,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 5.2,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Zulum Highlights 1,500 Cluster Projects and Resettlement of 2 Million Residents.",
@@ -961,7 +961,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 1.6,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Osun Ranks 5th Nationally in NECO SSCE as Governor Adeleke Expands Health and Road Works.",
@@ -981,7 +981,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.5,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "General Hospital Izhiangbo Expands TURP Capacity; Offers Free Prostate Surgeries.",
@@ -1021,7 +1021,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 3.2,
           "sisStatus": "MONITORED",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Value with Stabilization"
         },
         "headline": "Governor Fintiri Grants Executive Clemency to Inmates; State Supports 200 Hospital Patients.",
@@ -1041,7 +1041,7 @@
           "psiMomentum": "Advancing",
           "sisScore": 2.1,
           "sisStatus": "SECURE",
-          "alphaProfile": "Defensive",
+          "alphaProfile": "Defensive-Growth",
           "investmentDecision": "Emerging Gamma Opportunity"
         },
         "headline": "Gombe Launches Tetanus Elimination Campaign across 5 LGAs; Participates in HSE Workshop.",
