@@ -1257,7 +1257,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-09",
-      "published": false,
+      "published": true,
       "title": "Gombe Fire Service Participates in Five-Day Disaster-Prone Community HSE Workshop",
       "labels": [
         "News Report",
@@ -1290,7 +1290,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-10",
-      "published": false,
+      "published": true,
       "title": "Edo Civil Service Commission Continues Promotion Interviews for Eligible Officers",
       "labels": [
         "News Report",
@@ -1323,7 +1323,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-11",
-      "published": false,
+      "published": true,
       "title": "Adamawa Independence Hospital Outreach Reaches 200 Patients and Newborn Families",
       "labels": [
         "News Report",
@@ -1356,7 +1356,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-12",
-      "published": false,
+      "published": true,
       "title": "Lagos Defends Waste and Flood Management Measures, Acknowledges Collection and Operational Challenges",
       "labels": [
         "News Report",
