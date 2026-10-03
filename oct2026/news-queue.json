@@ -1653,7 +1653,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-21",
-      "published": false,
+      "published": true,
       "title": "Zamfara Plans Skills and Grant Support for Inmates Through Correctional Service Collaboration",
       "labels": [
         "News Report",
@@ -1686,7 +1686,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-22",
-      "published": false,
+      "published": true,
       "title": "Katsina Governor Radda Receives Workers Shield Award From Nigeria Civil Service Union",
       "labels": [
         "News Report",
@@ -1719,7 +1719,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-02-23",
-      "published": false,
+      "published": true,
       "title": "Abia Government Says Measures Are Underway on Okezuo Abia Flyover and ENASCO Assets",
       "labels": [
         "News Report",
