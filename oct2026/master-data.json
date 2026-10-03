@@ -258,6 +258,166 @@
       "whyItMatters": "This 7.7 PSI High Signal broadcasting commitment modernizes state-owned media organs. Upgrading transmission equipment and studio infrastructure ensures effective government-citizen communication across rural communities."
     },
     "intent": "Rehabilitating and modernizing state-owned broadcast media organizations to improve public information dissemination."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "SOKOTO",
+    "stateName": "Sokoto State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Aliyu Rolls Out 100 APCs, Thermal Scopes and Hardware to Combat Insecurity",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Aliyu Rolls Out 100 APCs, Thermal Scopes and Hardware to Combat Insecurity",
+      "whatHappened": "Governor Ahmed Aliyu announced major tactical security deployments, including 100 Buffalo APCs, 100 thermal-vision scopes, 200 night-vision goggles, 3,200 hardware units, 2,000 bulletproof vests, and 700 motorcycles for the Community Guard Corps.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal milestone delivers massive physical hardware support to subnational anti-banditry operations. Deploying APCs, thermal scopes, and 5G DSS trackers secures agrarian transit corridors and protects rural host communities."
+    },
+    "intent": "Procuring advanced tactical military equipment, enhancing local intelligence infrastructure, and bolstering community security forces to protect agrarian corridors."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Kefas Unveils N2.5bn Relief Package, 168-Ward Project and Public Debt Audit",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Kefas Unveils N2.5bn Relief Package, 168-Ward Project and Public Debt Audit",
+      "whatHappened": "Governor Agbu Kefas announced a N2.5bn relief package (N500m TARABA CARES, N1bn youth development, N1bn crisis recovery), launched the 168-Ward Quick Impact Programme, ordered full public debt reconciliation disclosures, and pardoned 24 inmates.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal policy intervention combines immediate social safety net cash transfers with transparent fiscal governance. Allocating N2.5bn protects vulnerable households while full public debt reconciliation rebuilds institutional trust."
+    },
+    "intent": "Expanding social investment safety nets, enforcing fiscal debt transparency, executing grassroots ward infrastructure projects, and granting constitutional clemency."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Mutfwang Pursues EU Hydro and Agric Deals; Greater Jos Master Plan Engages Stakeholders",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Mutfwang Pursues EU Hydro and Agric Deals; Greater Jos Master Plan Engages Stakeholders",
+      "whatHappened": "Governor Caleb Mutfwang hosted EU Ambassador Gautier Mignot to advance agricultural export and 5MW Assop Falls hydro partnerships, while consultants integrated waste-to-fertilizer into the Greater Jos Master Plan and 130 inmates received executive pardon.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal engagement connects European capital with subnational renewable energy and agricultural development. Unlocking the 5MW Assop Falls hydro project expands local power supply while modernizing urban master planning."
+    },
+    "intent": "Attracting foreign direct investment for renewable hydropower and mechanized agriculture, modernizing urban master plans, and executing criminal justice reform."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "BORNO",
+    "stateName": "Borno State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Zulum Highlights 1,500 Cluster Projects and Resettlement of 2 Million Residents",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Zulum Highlights 1,500 Cluster Projects and Resettlement of 2 Million Residents",
+      "whatHappened": "Governor Babagana Umara Zulum reported executing over 1,500 cluster projects across 27 LGAs, rebuilding 30,000 destroyed public structures, resettling 2 million IDPs, and expanding functional secondary schools from 34 in 2019 to 129 in 2026.",
+      "whyItMatters": "This 8.9 PSI High Signal operational report demonstrates sustained post-conflict recovery. Rebuilding 30,000 structures and quadrupling functional secondary schools restores civic dignity and stabilizes human capital across conflict-affected communities."
+    },
+    "intent": "Consolidating post-conflict community resettlement, rebuilding essential public infrastructure, and expanding access to basic secondary education."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Aiyedatiwa Recruits 3,323 Health Workers and Secures 26,000 Ha for Agriculture",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Aiyedatiwa Recruits 3,323 Health Workers and Secures 26,000 Ha for Agriculture",
+      "whatHappened": "Governor Lucky Aiyedatiwa reviewed the OUR EASE agenda, confirming the recruitment of 3,323 health workers, acquisition of 26,000 hectares for farming, distribution of 2 million cocoa seedlings, and progress on the 30MW Ore Independent Power Plant.",
+      "whyItMatters": "This 8.8 PSI High Signal governance report highlights multi-sectoral execution. Deploying 3,323 health professionals and securing 26,000 hectares of farm land boosts rural health delivery and commercial agricultural productivity across the state."
+    },
+    "intent": "Expanding healthcare human capital, scaling commercial cocoa production, and securing private partnerships for independent power generation."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Osun Ranks 5th Nationally in NECO SSCE as Governor Adeleke Expands Health and Road Works",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Osun Ranks 5th Nationally in NECO SSCE as Governor Adeleke Expands Health and Road Works",
+      "whatHappened": "Governor Ademola Adeleke celebrated Osun ranking 5th nationally in the 2026 NECO SSCE (up from 7th in 2025), reviewed primary health coverage expansion, and presented prizes at the 2026 Osun State Essay Competition.",
+      "whyItMatters": "This 8.6 PSI High Signal performance confirms measurable progress in public education. Climbing to 5th position in national examinations validates recent investments in teacher recruitment, school facility upgrades, and youth development."
+    },
+    "intent": "Improving educational outcomes through sustained facility upgrades, expanding primary health access, and upgrading state transport infrastructure."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "EBONYI",
+    "stateName": "Ebonyi State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "General Hospital Izhiangbo Expands TURP Capacity; Offers Free Prostate Surgeries",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "General Hospital Izhiangbo Expands TURP Capacity; Offers Free Prostate Surgeries",
+      "whatHappened": "General Hospital Izhiangbo in Ohaukwu LGA successfully expanded its capacity to perform Transurethral Resection of the Prostate (TURP), announcing free telescopic screening and surgeries for citizens starting October 5, 2026.",
+      "whyItMatters": "This 8.5 PSI High Signal health milestone democratizes access to specialized urological procedures. Equipping a local general hospital to perform TURP locally eliminates domestic medical travel costs for rural elderly citizens."
+    },
+    "intent": "Decentralizing specialized tertiary surgical services to rural general hospitals and funding free medical interventions for vulnerable citizens."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Lagos Advances Epe Waste-to-Energy Project and Flood Infrastructure Interventions",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Advances Epe Waste-to-Energy Project and Flood Infrastructure Interventions",
+      "whatHappened": "Environment Commissioner Tokunbo Wahab detailed ongoing state investments in the Epe Waste-to-Energy project, modern transfer loading stations, material recovery facilities, and drainage interventions reducing statewide flooding by 75-80%.",
+      "whyItMatters": "This 8.4 PSI High Signal environmental management update details the transition toward a circular economy. Converting municipal waste to energy while maintaining aggressive drainage clearing protects megacity infrastructure from climate shocks."
+    },
+    "intent": "Transitioning municipal waste management toward waste-to-energy recovery and maintaining continuous flood abatement across coastal corridors."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Governor Fintiri Grants Executive Clemency to Inmates; State Supports 200 Hospital Patients",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Fintiri Grants Executive Clemency to Inmates; State Supports 200 Hospital Patients",
+      "whatHappened": "Governor Ahmadu Umaru Fintiri pardoned 9 inmates and commuted 1 death sentence to life imprisonment, while state commissioners visited MAUTH and ADSU teaching hospitals to provide financial support to 200 patients and newborns.",
+      "whyItMatters": "This 8.3 PSI High Signal intervention combines constitutional mercy with direct civic welfare. De-congesting custodial centers provides rehabilitated citizens a second chance, while direct hospital welfare visits alleviate acute medical debts for poor families."
+    },
+    "intent": "Exercising constitutional prerogative of mercy to de-congest correctional facilities and delivering direct financial support to hospitalized citizens."
+  },
+  {
+    "dayNumber": 2,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Friday, October 2, 2026",
+    "headline": "Gombe Launches Tetanus Elimination Campaign across 5 LGAs; Participates in HSE Workshop",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gombe Launches Tetanus Elimination Campaign across 5 LGAs; Participates in HSE Workshop",
+      "whatHappened": "The Ministry of Health and SPHCDA flagged off a Maternal and Neonatal Tetanus Elimination (MNTE) vaccination campaign targeting women in 5 LGAs, while the Federal Fire Service participated in a 5-day community HSE workshop.",
+      "whyItMatters": "This 8.2 PSI High Signal health intervention addresses preventable maternal and infant mortality. Deploying targeted vaccines across high-risk rural local government areas strengthens primary health immunity and safeguards maternal welfare."
+    },
+    "intent": "Deploying targeted preventative immunization campaigns for maternal health and training community stakeholders in disaster risk reduction."
   }
   ],
 
