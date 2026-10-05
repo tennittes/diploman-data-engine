@@ -2610,7 +2610,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-27",
-      "published": false,
+      "published": true,
       "title": "Plateau Records 34 Confirmed Animal Rabies Cases Across Seven LGAs",
       "labels": [
         "News Report",
@@ -2643,7 +2643,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-28",
-      "published": false,
+      "published": true,
       "title": "Lagos Governor Meets US Consul General on Bilateral and Diaspora Engagement",
       "labels": [
         "News Report",
@@ -2676,7 +2676,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-29",
-      "published": false,
+      "published": true,
       "title": "Kwara Governor Announces \u20a650,000 Support Grant for Corps Members",
       "labels": [
         "News Report",
@@ -2709,7 +2709,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-30",
-      "published": false,
+      "published": true,
       "title": "Jigawa Reports Recruitment of 2,020 Additional Secondary School Teachers",
       "labels": [
         "News Report",
