@@ -1752,7 +1752,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-01",
-      "published": false,
+      "published": true,
       "title": "Ondo Reviews Health, Agriculture, Infrastructure and Investment Programme",
       "labels": [
         "News Report",
@@ -1778,14 +1778,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-05-02",
-      "published": false,
+      "published": true,
       "title": "Cross River Restores About 3,000 Local Government Workers After Labour Engagement",
       "labels": [
         "News Report",
@@ -1811,14 +1811,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-05-03",
-      "published": false,
+      "published": true,
       "title": "Taraba Convenes Emergency Security Council Meeting Over Crime and Mining Concerns",
       "labels": [
         "News Report",
@@ -1844,14 +1844,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-05-04",
-      "published": false,
+      "published": true,
       "title": "Niger Livestock Development Focuses on Feed, Breed Improvement and Processing Infrastructure",
       "labels": [
         "News Report",
@@ -1877,7 +1877,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1910,7 +1910,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1943,7 +1943,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -1976,7 +1976,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2009,7 +2009,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2042,7 +2042,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2075,7 +2075,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2100,7 +2100,7 @@
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The latest intervention covers eligible inmates released under the exercise as well as payments of fines and compensation for other beneficiaries. The state government described the measures as part of a restorative justice approach.",
-        "Kaduna State Commissioner for Information and Culture Ahmed Maiyaki said the administration had committed more than ₦300 million to fines and compensation for victims since Governor Uba Sani assumed office in May 2023.",
+        "Kaduna State Commissioner for Information and Culture Ahmed Maiyaki said the administration had committed more than \u20a6300 million to fines and compensation for victims since Governor Uba Sani assumed office in May 2023.",
         "The Attorney-General and Commissioner for Justice, Sir James A. Kanyip, said the latest clemency exercise followed established processes governing the exercise of the prerogative of mercy, with consideration given to accountability, rehabilitation and the responsibilities accompanying release.",
         "Kanyip also linked the payment of fines and compensation to the restorative dimension of the programme, noting that financial obligations can contribute to some inmates remaining in custody while victims' interests are also considered.",
         "The Kaduna State government publication said the latest exercise continues clemency interventions conducted on significant national occasions and forms part of a broader approach to justice and social reintegration."
@@ -2108,7 +2108,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2141,7 +2141,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2174,7 +2174,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2182,7 +2182,7 @@
       "type": "news_report",
       "id": "news-2026-10-05-14",
       "published": false,
-      "title": "Ogun Advances Construction Along Akute–Agbado Road Corridor",
+      "title": "Ogun Advances Construction Along Akute\u2013Agbado Road Corridor",
       "labels": [
         "News Report",
         "Ogun State",
@@ -2195,19 +2195,19 @@
         "aria_label": "Ogun State Governor Dapo Abiodun Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Construction activities are continuing at multiple sections of the Akute–Agbado road corridor in Ogun State, with asphalt laying, drainage construction and road-foundation works progressing simultaneously.",
+      "lead_narrative": "Construction activities are continuing at multiple sections of the Akute\u2013Agbado road corridor in Ogun State, with asphalt laying, drainage construction and road-foundation works progressing simultaneously.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The Ogun State Government reported that asphalt laying of the wearing course was progressing towards the Abule Ekun Bridge at Chainage 4+800 from the Akute axis.",
         "At Chainage 5+800, construction of a 1.5-metre by 1.5-metre culvert was ongoing as part of drainage works intended to support the road structure and manage water flow along the corridor.",
         "Around Chainage 7+500 at Agbado, unsuitable materials were being excavated and removed, with good laterite material being introduced as replacement for the road foundation.",
         "The simultaneous activities cover different components of the corridor, including pavement, drainage and foundation preparation. The state government linked the works to improved connectivity and movement along the route.",
-        "Construction remains ongoing across the identified sections of the Akute–Agbado axis. The Ogun State government publication reported that work would continue as the project progresses through its various construction stages."
+        "Construction remains ongoing across the identified sections of the Akute\u2013Agbado axis. The Ogun State government publication reported that work would continue as the project progresses through its various construction stages."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2240,7 +2240,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2273,7 +2273,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2299,14 +2299,14 @@
       "story_body": [
         "Governor Sule met the Governing Council and academic staff of Nasarawa State University, Keffi, led by Professor Muhammadu Attahiru Jega, Pro-Chancellor and Chairman of the Council.",
         "The meeting focused on issues affecting the university and provided an opportunity for the institution's leadership to brief the governor on current academic and institutional developments.",
-        "The university team briefed the governor on efforts to introduce medical programmes during the 2026–2027 academic session.",
+        "The university team briefed the governor on efforts to introduce medical programmes during the 2026\u20132027 academic session.",
         "The briefing also covered preparations for the take-off of the proposed College of Medicine and Allied Sciences at the university.",
         "The Nasarawa State government publication therefore records the meeting as part of discussions around university development, with medical programmes and the proposed College of Medicine and Allied Sciences identified among the issues presented to the governor."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2339,7 +2339,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2372,7 +2372,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2380,12 +2380,12 @@
       "type": "news_report",
       "id": "news-2026-10-05-20",
       "published": false,
-      "title": "Yobe Reports ₦500,000 Awards for 2026 Qur’anic Recitation Competition Winners",
+      "title": "Yobe Reports \u20a6500,000 Awards for 2026 Qur\u2019anic Recitation Competition Winners",
       "labels": [
         "News Report",
         "Yobe State",
         "Education",
-        "Qur’anic Recitation"
+        "Qur\u2019anic Recitation"
       ],
       "featured_image": {
         "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH-lX5m52DZ911ry3KoLhOv5K5pfdrbXB7maVBnBIv9FGhzuyGTLxzTzdZwgE0o6dimxLJn7eIpwIx6bJ3uv0G7C-I2nfQnN4SjWfa14NCofXctUuuqRrkndrgyBuC02tTBVe-vtNanp3orYwXsf9toLO0ybPdhYRA8ww04UR98y6O6mNQ6brvvnTkG5o/s720-rw/Yobe%20Governor%20Mai%20Mala%20Buni.png",
@@ -2393,19 +2393,19 @@
         "aria_label": "Yobe State Governor Mai Mala Buni Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Yobe State Government has reported ₦500,000 awards for winners of the 2026 Qur’anic recitation competition.",
+      "lead_narrative": "The Yobe State Government has reported \u20a6500,000 awards for winners of the 2026 Qur\u2019anic recitation competition.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The 2026 Qur’anic recitation competition was reported by the Yobe State Government as an organised state-level programme recognising participants in Qur’anic recitation.",
-        "The government publication stated that winners of the competition received awards valued at ₦500,000 each.",
+        "The 2026 Qur\u2019anic recitation competition was reported by the Yobe State Government as an organised state-level programme recognising participants in Qur\u2019anic recitation.",
+        "The government publication stated that winners of the competition received awards valued at \u20a6500,000 each.",
         "The award was presented as part of the state's recognition of participants in the 2026 competition. The available source identifies the value of the winners' awards but does not provide additional competition statistics in the submitted report.",
         "The report does not provide further details on the number of participating contestants, the competition's individual categories or the specific number of winners receiving the stated award.",
-        "The Yobe State government publication therefore records the 2026 competition and the ₦500,000 award for its winners as the principal development contained in the submitted report."
+        "The Yobe State government publication therefore records the 2026 competition and the \u20a6500,000 award for its winners as the principal development contained in the submitted report."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2431,14 +2431,14 @@
       "story_body": [
         "The governor said the discussion with the President focused particularly on security conditions in Plateau State and measures being undertaken by the state administration to consolidate peace, security and stability. He also raised the planned deployment of security cameras donated to the state during the President's previous visit.",
         "According to the Plateau State government publication, the proposed camera deployment is intended to complement the Plateau Security and Information Centre by supporting intelligence gathering, surveillance, early warning and rapid response. The source described the intervention as awaiting accelerated implementation.",
-        "The governor also briefed the President on the distribution of a ₦1 billion intervention donated by First Lady Oluremi Tinubu to victims of violent attacks, alongside an additional ₦500 million committed by the Plateau State Government. The stated objective is to support affected households and livelihoods.",
+        "The governor also briefed the President on the distribution of a \u20a61 billion intervention donated by First Lady Oluremi Tinubu to victims of violent attacks, alongside an additional \u20a6500 million committed by the Plateau State Government. The stated objective is to support affected households and livelihoods.",
         "The briefing further covered the state government's plan to begin rebuilding communities affected by attacks in preparation for the safe and orderly return of internally displaced persons to their ancestral communities. The governor also reported on state interventions in transportation, education and healthcare.",
         "The meeting therefore covered security infrastructure, humanitarian assistance, community reconstruction and selected public-service interventions in Plateau State. The source did not report completion of the proposed security-camera deployment or the full reconstruction programme as of October 3, 2026."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2471,7 +2471,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2504,7 +2504,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2512,7 +2512,7 @@
       "type": "news_report",
       "id": "news-2026-10-05-24",
       "published": false,
-      "title": "Plateau Health Ministry Validates ₦53.87 Billion 2027 Operational Plan",
+      "title": "Plateau Health Ministry Validates \u20a653.87 Billion 2027 Operational Plan",
       "labels": [
         "News Report",
         "Plateau State",
@@ -2525,11 +2525,11 @@
         "aria_label": "Plateau State Governor Caleb Mutfwang Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Plateau State Ministry of Health has completed validation of its 2027 Annual Operational Plan, with a total financial framework of ₦53.87 billion and a stated funding gap of approximately ₦1.83 billion.",
+      "lead_narrative": "The Plateau State Ministry of Health has completed validation of its 2027 Annual Operational Plan, with a total financial framework of \u20a653.87 billion and a stated funding gap of approximately \u20a61.83 billion.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The two-day finalisation and validation meeting was held in Jos and brought together government officials, health-sector stakeholders and development partners to consolidate the state's 2027 healthcare operational plan. The completed document is intended to be forwarded to the Plateau State Governor for executive consideration.",
-        "The financial framework presented at the meeting totalled ₦53,871,076,987.60. The state government's contribution was listed as ₦10,964,607,540.00, while ₦41,077,500,297.00 was identified from development partners and other sources, leaving a stated funding gap of ₦1,828,969,150.00.",
+        "The financial framework presented at the meeting totalled \u20a653,871,076,987.60. The state government's contribution was listed as \u20a610,964,607,540.00, while \u20a641,077,500,297.00 was identified from development partners and other sources, leaving a stated funding gap of \u20a61,828,969,150.00.",
         "The Director of Health Planning, Research and Statistics said the process was designed to harmonise submissions, remove duplication, align activities with national and state health priorities, map resources and identify funding gaps. The process also incorporated Local Government Area business plans into the state plan.",
         "The validated document is expected to support budget defence and provide evidence for accessing the Basic Healthcare Provision Fund and other disbursement-linked funding mechanisms. Development partners including WHO, UNICEF and NPHCDA representatives participated in the meeting and pledged continued support.",
         "The meeting concluded with adoption of the consolidated 2027 Annual Operational Plan and steps toward final validation by the Commissioner for Health and Permanent Secretary before submission to the governor for consent and signing."
@@ -2537,7 +2537,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2570,7 +2570,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2603,7 +2603,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2636,7 +2636,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2669,7 +2669,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2677,7 +2677,7 @@
       "type": "news_report",
       "id": "news-2026-10-05-29",
       "published": false,
-      "title": "Kwara Governor Announces ₦50,000 Support Grant for Corps Members",
+      "title": "Kwara Governor Announces \u20a650,000 Support Grant for Corps Members",
       "labels": [
         "News Report",
         "Kwara State",
@@ -2690,19 +2690,19 @@
         "aria_label": "Kwara State Governor Abdulrahman Abdulrazaq Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kwara State Governor AbdulRahman AbdulRazaq has announced a ₦50,000 support grant for corps members serving in Kwara State during the Batch C Stream 1 orientation period.",
+      "lead_narrative": "Kwara State Governor AbdulRahman AbdulRazaq has announced a \u20a650,000 support grant for corps members serving in Kwara State during the Batch C Stream 1 orientation period.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The governor announced the support during the official swearing-in ceremony for Batch C Stream 1 corps members at the NYSC Temporary Orientation Camp at Kwara State Polytechnic in Ilorin.",
-        "The announced payment is a ₦50,000 support grant for corps members across the state. The source said the intervention was intended to cushion the effect of current economic conditions on corps members as they begin their service year.",
+        "The announced payment is a \u20a650,000 support grant for corps members across the state. The source said the intervention was intended to cushion the effect of current economic conditions on corps members as they begin their service year.",
         "The announcement was made in the context of the formal commencement of the service period for the affected corps members. The source did not provide further administrative details concerning the payment process or distribution timetable.",
         "The state government publication described the support as an effort to assist corps members during their service year in Kwara. No additional conditions attached to the grant were reported in the source.",
-        "The announcement therefore establishes a ₦50,000 support grant for corps members covered by the state's Batch C Stream 1 swearing-in exercise. Further implementation details were not provided in the submitted report."
+        "The announcement therefore establishes a \u20a650,000 support grant for corps members covered by the state's Batch C Stream 1 swearing-in exercise. Further implementation details were not provided in the submitted report."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2735,7 +2735,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
