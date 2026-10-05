@@ -2016,7 +2016,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-09",
-      "published": false,
+      "published": true,
       "title": "Edo Schools Compete in National Quiz on Legislature and Democracy",
       "labels": [
         "News Report",
