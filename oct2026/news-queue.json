@@ -2346,7 +2346,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-19",
-      "published": false,
+      "published": true,
       "title": "Zamfara Plans Skills and Grant Support for Inmates",
       "labels": [
         "News Report",
@@ -2379,7 +2379,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-20",
-      "published": false,
+      "published": true,
       "title": "Yobe Reports \u20a6500,000 Awards for 2026 Qur\u2019anic Recitation Competition Winners",
       "labels": [
         "News Report",
@@ -2412,7 +2412,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-21",
-      "published": false,
+      "published": true,
       "title": "Plateau Governor Briefs President on Security, Relief Distribution and Community Reconstruction",
       "labels": [
         "News Report",
@@ -2445,7 +2445,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-22",
-      "published": false,
+      "published": true,
       "title": "Lagos Advances Ibeju-Lekki Power Infrastructure Programme",
       "labels": [
         "News Report",
