@@ -2214,7 +2214,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-15",
-      "published": false,
+      "published": true,
       "title": "Ekiti Flags Off 15 CNG Buses for Inter-State Transport Routes",
       "labels": [
         "News Report",
@@ -2247,7 +2247,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-16",
-      "published": false,
+      "published": true,
       "title": "Katsina Trains Third Batch of 361 Young Agripreneurs",
       "labels": [
         "News Report",
@@ -2280,7 +2280,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-17",
-      "published": false,
+      "published": true,
       "title": "Nasarawa University Advances Plans for Medical Programmes and College of Medicine",
       "labels": [
         "News Report",
@@ -2313,7 +2313,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-18",
-      "published": false,
+      "published": true,
       "title": "Anambra Hosts Commissioning of EFCC Zonal Directorate Serving Anambra and Imo",
       "labels": [
         "News Report",
