@@ -2082,7 +2082,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-11",
-      "published": false,
+      "published": true,
       "title": "Kaduna Grants Clemency to 27 Inmates as State Reports More Than 500 Beneficiaries",
       "labels": [
         "News Report",
@@ -2115,7 +2115,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-12",
-      "published": false,
+      "published": true,
       "title": "Abia Outlines Investment, Infrastructure and Education Plans at Umu-Aba Connect Meeting",
       "labels": [
         "News Report",
@@ -2148,7 +2148,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-13",
-      "published": false,
+      "published": true,
       "title": "Delta Begins Electric Vehicle Training and Empowerment Programme in Asaba",
       "labels": [
         "News Report",
@@ -2181,7 +2181,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-14",
-      "published": false,
+      "published": true,
       "title": "Ogun Advances Construction Along Akute\u2013Agbado Road Corridor",
       "labels": [
         "News Report",
