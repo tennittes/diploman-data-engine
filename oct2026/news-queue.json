@@ -1884,7 +1884,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-05",
-      "published": false,
+      "published": true,
       "title": "Rivers Formally Recognises King Charles MacPepple Jaja as Amanyanabo of Opobo Kingdom",
       "labels": [
         "News Report",
@@ -1917,7 +1917,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-06",
-      "published": false,
+      "published": true,
       "title": "Cross River Shuts 10 Unapproved Schools in Continuing Regulatory Enforcement",
       "labels": [
         "News Report",
@@ -1950,7 +1950,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-07",
-      "published": false,
+      "published": true,
       "title": "Imo Swears In 20 Permanent Secretaries for State Civil Service",
       "labels": [
         "News Report",
@@ -1983,7 +1983,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-05-08",
-      "published": false,
+      "published": true,
       "title": "Adamawa Opens 2026 Batch C Stream I NYSC Orientation for 1,428 Corps Members",
       "labels": [
         "News Report",
