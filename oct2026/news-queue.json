@@ -2874,7 +2874,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-05",
-      "published": false,
+      "published": true,
       "title": "Cross River, UNICROSS Open Talks on Health Insurance for Staff and Students",
       "labels": [
         "News Report",
@@ -2907,7 +2907,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-06",
-      "published": false,
+      "published": true,
       "title": "Cross River Stakeholders Seek Stronger Community Action Against Neglected Tropical Diseases",
       "labels": [
         "News Report",
@@ -2940,7 +2940,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-07",
-      "published": false,
+      "published": true,
       "title": "Cross River Sets October 17 Cancer Awareness Campaign With Ribbon of Hope Foundation",
       "labels": [
         "News Report",
@@ -2973,7 +2973,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-08",
-      "published": false,
+      "published": true,
       "title": "Cross River Climate Campaign Mobilises Communities on Tree Planting and Water Protection",
       "labels": [
         "News Report",
