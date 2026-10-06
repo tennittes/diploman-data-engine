@@ -3270,7 +3270,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-17",
-      "published": false,
+      "published": true,
       "title": "Ondo Governor Appoints New Senior and Special Assistants",
       "labels": [
         "News Report",
@@ -3303,7 +3303,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-18",
-      "published": false,
+      "published": true,
       "title": "Ondo Governor Receives Federal Government Education Recognition at 2026 World Teachers' Day",
       "labels": [
         "News Report",
@@ -3336,7 +3336,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-19",
-      "published": false,
+      "published": true,
       "title": "FG Announces \u20a6250 Million Support for Families of 37 NSCDC Deaths in Niger",
       "labels": [
         "News Report",
@@ -3369,7 +3369,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-20",
-      "published": false,
+      "published": true,
       "title": "Niger Governor Swears In Six New Commissioners After Vacancies",
       "labels": [
         "News Report",
