@@ -3,7 +3,7 @@ name: Automated Blogger Publisher
 on:
   schedule:
     # Runs every hour at minute 0, 24/7 (UTC time)
-    - cron: '0 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
