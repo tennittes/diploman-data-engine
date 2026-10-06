@@ -3402,7 +3402,7 @@
     {
       "id": "news-2026-10-06-21",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "headline": "Niger Government Supports Families of 37 Artisanal Miners with \u20a65 Million Each, Gives Survivors \u20a62 Million",
       "jurisdiction": "Niger State",
       "date": "October 6, 2026",
@@ -3436,7 +3436,7 @@
     {
       "id": "news-2026-10-06-22",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "headline": "Fubara Presents Staff of Office to New Amanyanabo of Opobo, Calls for Unity and Development",
       "jurisdiction": "Rivers State",
       "date": "October 6, 2026",
@@ -3470,7 +3470,7 @@
     {
       "id": "news-2026-10-06-23",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "headline": "Adeleke Reaffirms Oyebode Mary as Osun Iyaloja General, Rejects Rival Appointment",
       "jurisdiction": "Osun State",
       "date": "October 6, 2026",
@@ -3504,7 +3504,7 @@
     {
       "id": "news-2026-10-06-24",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "headline": "Osun Government Moves to Vacate Federal High Court Order Freezing State Accounts",
       "jurisdiction": "Osun State",
       "date": "October 6, 2026",
