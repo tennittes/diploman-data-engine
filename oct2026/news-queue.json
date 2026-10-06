@@ -3006,7 +3006,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-09",
-      "published": false,
+      "published": true,
       "title": "Adamawa Energy Ministry Begins New Management Cycle Under Commissioner Bramcy Caleb",
       "labels": [
         "News Report",
@@ -3039,7 +3039,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-10",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Governor Identifies Nkaleke-PRESCO Campus Road for Construction",
       "labels": [
         "News Report",
@@ -3072,7 +3072,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-11",
-      "published": false,
+      "published": true,
       "title": "Cross River Government Gives PDP 48 Hours to Retract Alleged False Report Against Governor Otu",
       "labels": [
         "News Report",
@@ -3105,7 +3105,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-12",
-      "published": false,
+      "published": true,
       "title": "Enugu Housing Corporation Launches Independence Property Promotion With Smart City Plot Prize",
       "labels": [
         "News Report",
