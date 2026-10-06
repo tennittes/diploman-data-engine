@@ -3402,7 +3402,7 @@
     {
       "id": "news-2026-10-06-21",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Niger Government Supports Families of 37 Artisanal Miners with \u20a65 Million Each, Gives Survivors \u20a62 Million",
       "labels": [
         "News Report",
@@ -3434,7 +3434,7 @@
     {
       "id": "news-2026-10-06-22",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Fubara Presents Staff of Office to New Amanyanabo of Opobo, Calls for Unity and Development",
       "labels": [
         "News Report",
@@ -3466,7 +3466,7 @@
     {
       "id": "news-2026-10-06-23",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Adeleke Reaffirms Oyebode Mary as Osun Iyaloja General, Rejects Rival Appointment",
       "labels": [
         "News Report",
@@ -3498,7 +3498,7 @@
     {
       "id": "news-2026-10-06-24",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Osun Government Moves to Vacate Federal High Court Order Freezing State Accounts",
       "labels": [
         "News Report",
