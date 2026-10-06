@@ -3138,7 +3138,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-13",
-      "published": false,
+      "published": true,
       "title": "Enugu Advances 10.5km Igogoro\u2013Ikpamodo\u2013Okpo\u2013Amaja Road Project in Nsukka Zone",
       "labels": [
         "News Report",
@@ -3171,7 +3171,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-14",
-      "published": false,
+      "published": true,
       "title": "Taraba Unveils Responsible Mining Standards as Governor Meets Artisanal Miners",
       "labels": [
         "News Report",
@@ -3204,7 +3204,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-15",
-      "published": false,
+      "published": true,
       "title": "Taraba LG Councils Sign Rural Roads MOU Under Agricultural Development Programme",
       "labels": [
         "News Report",
@@ -3237,7 +3237,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-16",
-      "published": false,
+      "published": true,
       "title": "Kebbi Raises Support for Kaoje Attack Victims to \u20a6200 Million, Strengthens Security Response",
       "labels": [
         "News Report",
