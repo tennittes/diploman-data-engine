@@ -3402,8 +3402,8 @@
     {
       "id": "news-2026-10-06-21",
       "type": "news_report",
-      "published": true,
-      "headline": "Niger Government Supports Families of 37 Artisanal Miners with \u20a65 Million Each, Gives Survivors \u20a62 Million",
+      "published": false,
+      "title": "Niger Government Supports Families of 37 Artisanal Miners with \u20a65 Million Each, Gives Survivors \u20a62 Million",
       "labels": [
         "News Report",
         "Niger State",
@@ -3434,8 +3434,8 @@
     {
       "id": "news-2026-10-06-22",
       "type": "news_report",
-      "published": true,
-      "headline": "Fubara Presents Staff of Office to New Amanyanabo of Opobo, Calls for Unity and Development",
+      "published": false,
+      "title": "Fubara Presents Staff of Office to New Amanyanabo of Opobo, Calls for Unity and Development",
       "labels": [
         "News Report",
         "Rivers State",
@@ -3466,8 +3466,8 @@
     {
       "id": "news-2026-10-06-23",
       "type": "news_report",
-      "published": true,
-      "headline": "Adeleke Reaffirms Oyebode Mary as Osun Iyaloja General, Rejects Rival Appointment",
+      "published": false,
+      "title": "Adeleke Reaffirms Oyebode Mary as Osun Iyaloja General, Rejects Rival Appointment",
       "labels": [
         "News Report",
         "Osun State",
@@ -3498,8 +3498,8 @@
     {
       "id": "news-2026-10-06-24",
       "type": "news_report",
-      "published": true,
-      "headline": "Osun Government Moves to Vacate Federal High Court Order Freezing State Accounts",
+      "published": false,
+      "title": "Osun Government Moves to Vacate Federal High Court Order Freezing State Accounts",
       "labels": [
         "News Report",
         "Osun State",
@@ -3530,8 +3530,8 @@
     {
       "id": "news-2026-10-06-25",
       "type": "news_report",
-      "published": true,
-      "headline": "Adeleke Signs Osun Park Management Bill into Law, Begins New Transport Framework",
+      "published": false,
+      "title": "Adeleke Signs Osun Park Management Bill into Law, Begins New Transport Framework",
       "labels": [
         "News Report",
         "Osun State",
@@ -3562,8 +3562,8 @@
     {
       "id": "news-2026-10-06-26",
       "type": "news_report",
-      "published": true,
-      "headline": "Adeleke Reiterates Osun Government Commitment to Teachers' Welfare on World Teachers' Day",
+      "published": false,
+      "title": "Adeleke Reiterates Osun Government Commitment to Teachers' Welfare on World Teachers' Day",
       "labels": [
         "News Report",
         "Osun State",
@@ -3594,8 +3594,8 @@
     {
       "id": "news-2026-10-06-27",
       "type": "news_report",
-      "published": true,
-      "headline": "Edo-CSDA General Manager Receives NYCN Recognition for Community and Youth Development",
+      "published": false,
+      "title": "Edo-CSDA General Manager Receives NYCN Recognition for Community and Youth Development",
       "labels": [
         "News Report",
         "Edo State",
@@ -3626,8 +3626,8 @@
     {
       "id": "news-2026-10-06-28",
       "type": "news_report",
-      "published": true,
-      "headline": "Edo Government Plans Custodial Decongestion, Education and Skills Support for Oko Inmates",
+      "published": false,
+      "title": "Edo Government Plans Custodial Decongestion, Education and Skills Support for Oko Inmates",
       "labels": [
         "News Report",
         "Edo State",
@@ -3659,7 +3659,7 @@
       "id": "news-2026-10-06-29",
       "type": "news_report",
       "published": false,
-      "headline": "Edo Health Commissioner Engages MDCAN on Welfare, Allowances and Employment Issues",
+      "title": "Edo Health Commissioner Engages MDCAN on Welfare, Allowances and Employment Issues",
       "labels": [
         "News Report",
         "Edo State",
@@ -3691,7 +3691,7 @@
       "id": "news-2026-10-06-30",
       "type": "news_report",
       "published": false,
-      "headline": "Edo Tourism Agency Examines Digital Technology and AI for Sustainable Tourism Development",
+      "title": "Edo Tourism Agency Examines Digital Technology and AI for Sustainable Tourism Development",
       "labels": [
         "News Report",
         "Edo State",
@@ -3723,7 +3723,7 @@
       "id": "news-2026-10-06-31",
       "type": "news_report",
       "published": false,
-      "headline": "Edo Health Regulator Urges Maternity Facilities to Strengthen Postpartum Haemorrhage Response",
+      "title": "Edo Health Regulator Urges Maternity Facilities to Strengthen Postpartum Haemorrhage Response",
       "labels": [
         "News Report",
         "Edo State",
@@ -3755,7 +3755,7 @@
       "id": "news-2026-10-06-32",
       "type": "news_report",
       "published": false,
-      "headline": "Edo, NEMA Distribute Relief Materials to More Than 4,000 Flood-Affected Households in Etsako Central",
+      "title": "Edo, NEMA Distribute Relief Materials to More Than 4,000 Flood-Affected Households in Etsako Central",
       "labels": [
         "News Report",
         "Edo State",
@@ -3787,7 +3787,7 @@
       "id": "news-2026-10-06-33",
       "type": "news_report",
       "published": false,
-      "headline": "Gombe Youths Urged to Support Peace, Unity and Development Initiatives at Funakaye Maulud Rally",
+      "title": "Gombe Youths Urged to Support Peace, Unity and Development Initiatives at Funakaye Maulud Rally",
       "labels": [
         "News Report",
         "Gombe State",
@@ -3819,7 +3819,7 @@
       "id": "news-2026-10-06-34",
       "type": "news_report",
       "published": false,
-      "headline": "Gombe Establishes Sanitation and Hygiene Clubs in 80 Schools Across Seven LGAs",
+      "title": "Gombe Establishes Sanitation and Hygiene Clubs in 80 Schools Across Seven LGAs",
       "labels": [
         "News Report",
         "Gombe State",
@@ -3851,7 +3851,7 @@
       "id": "news-2026-10-06-35",
       "type": "news_report",
       "published": false,
-      "headline": "Gombe Commissions More Than 86km of Roads and Bridges Under Network-1100 Programme",
+      "title": "Gombe Commissions More Than 86km of Roads and Bridges Under Network-1100 Programme",
       "labels": [
         "News Report",
         "Gombe State",
@@ -3883,7 +3883,7 @@
       "id": "news-2026-10-06-36",
       "type": "news_report",
       "published": false,
-      "headline": "Gombe Opens Kwami West LCDA Secretariat as Government Expands Grassroots Administrative Structure",
+      "title": "Gombe Opens Kwami West LCDA Secretariat as Government Expands Grassroots Administrative Structure",
       "labels": [
         "News Report",
         "Gombe State",
@@ -3915,7 +3915,7 @@
       "id": "news-2026-10-06-37",
       "type": "news_report",
       "published": false,
-      "headline": "Nasarawa Governor Commissions Karshi Judicial Complex and Flags Off Dangote IPO Support for Women",
+      "title": "Nasarawa Governor Commissions Karshi Judicial Complex and Flags Off Dangote IPO Support for Women",
       "labels": [
         "News Report",
         "Nasarawa State",
@@ -3947,7 +3947,7 @@
       "id": "news-2026-10-06-38",
       "type": "news_report",
       "published": false,
-      "headline": "Nasarawa Governor Joins NIPR Conference as State Policy Dialogue Focuses on Minerals Wealth",
+      "title": "Nasarawa Governor Joins NIPR Conference as State Policy Dialogue Focuses on Minerals Wealth",
       "labels": [
         "News Report",
         "Nasarawa State",
@@ -3979,7 +3979,7 @@
       "id": "news-2026-10-06-39",
       "type": "news_report",
       "published": false,
-      "headline": "Sule Demands Transparent, Non-Partisan Distribution of 50,000 Dangote Shares to Nasarawa Women",
+      "title": "Sule Demands Transparent, Non-Partisan Distribution of 50,000 Dangote Shares to Nasarawa Women",
       "labels": [
         "News Report",
         "Nasarawa State",
@@ -4011,7 +4011,7 @@
       "id": "news-2026-10-06-40",
       "type": "news_report",
       "published": false,
-      "headline": "Delta Directs Permanent Solution for Flood-Damaged East-West Road Section at Agbarho",
+      "title": "Delta Directs Permanent Solution for Flood-Damaged East-West Road Section at Agbarho",
       "labels": [
         "News Report",
         "Delta State",
@@ -4043,7 +4043,7 @@
       "id": "news-2026-10-06-41",
       "type": "news_report",
       "published": false,
-      "headline": "Zamfara Council Approves \u20a670.9 Billion Contract for 53km Gusau\u2013Jauri\u2013Nasarawar Godel Road",
+      "title": "Zamfara Council Approves \u20a670.9 Billion Contract for 53km Gusau\u2013Jauri\u2013Nasarawar Godel Road",
       "labels": [
         "News Report",
         "Zamfara State",
@@ -4075,7 +4075,7 @@
       "id": "news-2026-10-06-42",
       "type": "news_report",
       "published": false,
-      "headline": "Zamfara Flags Off 95km Tsafe Road Project, Links Infrastructure to Security and Economic Access",
+      "title": "Zamfara Flags Off 95km Tsafe Road Project, Links Infrastructure to Security and Economic Access",
       "labels": [
         "News Report",
         "Zamfara State",
@@ -4107,7 +4107,7 @@
       "id": "news-2026-10-06-43",
       "type": "news_report",
       "published": false,
-      "headline": "Oyebanji Rewards Ekiti Teachers and Administrators with \u20a670.5 Million on World Teachers' Day",
+      "title": "Oyebanji Rewards Ekiti Teachers and Administrators with \u20a670.5 Million on World Teachers' Day",
       "labels": [
         "News Report",
         "Ekiti State",
@@ -4139,7 +4139,7 @@
       "id": "news-2026-10-06-44",
       "type": "news_report",
       "published": false,
-      "headline": "Katsina Launches Community Investment Fund to Reach More Than 40,000 Women",
+      "title": "Katsina Launches Community Investment Fund to Reach More Than 40,000 Women",
       "labels": [
         "News Report",
         "Katsina State",
@@ -4171,7 +4171,7 @@
       "id": "news-2026-10-06-45",
       "type": "news_report",
       "published": false,
-      "headline": "Katsina Commissions Three Roads, Launches Hybrid Buses and Electric Tricycles Under Urban Renewal Programme",
+      "title": "Katsina Commissions Three Roads, Launches Hybrid Buses and Electric Tricycles Under Urban Renewal Programme",
       "labels": [
         "News Report",
         "Katsina State",
@@ -4203,7 +4203,7 @@
       "id": "news-2026-10-06-46",
       "type": "news_report",
       "published": false,
-      "headline": "Katsina Governor Set to Receive GovTech Award for Digital Transformation Programme",
+      "title": "Katsina Governor Set to Receive GovTech Award for Digital Transformation Programme",
       "labels": [
         "News Report",
         "Katsina State",
@@ -4235,7 +4235,7 @@
       "id": "news-2026-10-06-47",
       "type": "news_report",
       "published": false,
-      "headline": "Sokoto Government Denies Abduction of 18 Gamji College Students, Clarifies Niger State Incident",
+      "title": "Sokoto Government Denies Abduction of 18 Gamji College Students, Clarifies Niger State Incident",
       "labels": [
         "News Report",
         "Sokoto State",
@@ -4267,7 +4267,7 @@
       "id": "news-2026-10-06-48",
       "type": "news_report",
       "published": false,
-      "headline": "NIPR Kaduna Commends Uba Sani for Re-establishing Ministry of Information and Culture",
+      "title": "NIPR Kaduna Commends Uba Sani for Re-establishing Ministry of Information and Culture",
       "labels": [
         "News Report",
         "Kaduna State",
@@ -4299,7 +4299,7 @@
       "id": "news-2026-10-06-49",
       "type": "news_report",
       "published": false,
-      "headline": "Soludo Swears In Newly Elected Mayors and Deputy Mayors Across Anambra's 21 LGAs",
+      "title": "Soludo Swears In Newly Elected Mayors and Deputy Mayors Across Anambra's 21 LGAs",
       "labels": [
         "News Report",
         "Anambra State",
@@ -4331,7 +4331,7 @@
       "id": "news-2026-10-06-50",
       "type": "news_report",
       "published": false,
-      "headline": "Abia Approves \u20a61 Billion Teachers' Appreciation Allowance as Otti Outlines Education Reforms",
+      "title": "Abia Approves \u20a61 Billion Teachers' Appreciation Allowance as Otti Outlines Education Reforms",
       "labels": [
         "News Report",
         "Abia State",
