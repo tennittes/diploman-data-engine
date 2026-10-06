@@ -2742,7 +2742,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-06-01",
-      "published": false,
+      "published": true,
       "title": "Cross River Seeks Federal Support as Calabar Landslide Escalates Beyond State Capacity",
       "labels": [
         "News Report",
@@ -2768,14 +2768,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-06-02",
-      "published": false,
+      "published": true,
       "title": "Odukpani Tanker Fire Kills Two as Cross River Emergency Agencies Assess Damage",
       "labels": [
         "News Report",
@@ -2801,14 +2801,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-06-03",
-      "published": false,
+      "published": true,
       "title": "Adamawa Announces Recruitment of 3,000 Additional Basic-Education Teachers",
       "labels": [
         "News Report",
@@ -2834,14 +2834,14 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
     {
       "type": "news_report",
       "id": "news-2026-10-06-04",
-      "published": false,
+      "published": true,
       "title": "Ebonyi Reports Second-Place NECO Performance as Governor Identifies Rural Road for Construction",
       "labels": [
         "News Report",
@@ -2867,7 +2867,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2900,7 +2900,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2933,7 +2933,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2966,7 +2966,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -2999,7 +2999,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3032,7 +3032,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3065,7 +3065,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3098,7 +3098,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3122,7 +3122,7 @@
       "lead_narrative": "The Enugu State Housing Development Corporation has launched an Independence promotional campaign offering property buyers raffle opportunities and incentives while purchasing plots in government-backed estates.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The campaign, titled “Invest Now, Own Your Own Piece of the Future,” runs from October 1 to November 15, 2026. According to the Enugu government publication, every plot purchased during the promotional period qualifies as one raffle entry, with the grand prize being a plot at the Smart City Satellite Town Estate, Independence Layout Phase 2.",
+        "The campaign, titled \u201cInvest Now, Own Your Own Piece of the Future,\u201d runs from October 1 to November 15, 2026. According to the Enugu government publication, every plot purchased during the promotional period qualifies as one raffle entry, with the grand prize being a plot at the Smart City Satellite Town Estate, Independence Layout Phase 2.",
         "The Acting General Manager of ESHDC, Mrs Adenike Okebu, said the initiative was intended to make property ownership more accessible and rewarding while advancing Governor Peter Mbah's stated vision of expanding land ownership among Enugu residents.",
         "The promotion also provides incentives for bulk buyers. Buyers who purchase three plots are eligible for free C-of-O documentation for one plot, while purchasers of five plots are eligible for the documentation on two plots. Other listed rewards include generators, television sets, solar units, microwaves and waivers on selected ESHDC services.",
         "The promotional campaign is scheduled to conclude on November 15 with an event at Coal City Eastern Alliance Park. The programme is expected to include an estate tour, sporting activities and the raffle draw, with the event scheduled to begin at 7:00 a.m.",
@@ -3131,7 +3131,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3139,7 +3139,7 @@
       "type": "news_report",
       "id": "news-2026-10-06-13",
       "published": false,
-      "title": "Enugu Advances 10.5km Igogoro–Ikpamodo–Okpo–Amaja Road Project in Nsukka Zone",
+      "title": "Enugu Advances 10.5km Igogoro\u2013Ikpamodo\u2013Okpo\u2013Amaja Road Project in Nsukka Zone",
       "labels": [
         "News Report",
         "Enugu",
@@ -3152,19 +3152,19 @@
         "aria_label": "Enugu State Governor Peter Mbah infrastructure development",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Enugu State Government is advancing construction of the 10.5-kilometre Igogoro–Amachalla–Ikpamodo–Okpo–Amaja Road in Igboeze North Local Government Area as part of its wider infrastructure programme in Nsukka Zone.",
+      "lead_narrative": "The Enugu State Government is advancing construction of the 10.5-kilometre Igogoro\u2013Amachalla\u2013Ikpamodo\u2013Okpo\u2013Amaja Road in Igboeze North Local Government Area as part of its wider infrastructure programme in Nsukka Zone.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "The road project is one of the infrastructure interventions being undertaken across Nsukka Zone. The Enugu government publication identifies the route as a 10.5-kilometre corridor linking Igogoro, Amachalla, Ikpamodo, Okpo and Amaja communities in Igboeze North Local Government Area.",
         "The project was approved by the State Executive Council as part of the administration's strategic infrastructure programme. Its inclusion in the programme places the road within the state's broader effort to extend physical infrastructure beyond the major urban centres and improve connectivity between communities.",
-        "The road development is being pursued alongside the ongoing dualisation of the Penoks–Abakpa Nike–Ugwogo Nike–Opi–Nsukka corridor. Together, the projects form part of the reported infrastructure activity across the Nsukka area, where improved road connections are intended to support movement between communities.",
+        "The road development is being pursued alongside the ongoing dualisation of the Penoks\u2013Abakpa Nike\u2013Ugwogo Nike\u2013Opi\u2013Nsukka corridor. Together, the projects form part of the reported infrastructure activity across the Nsukka area, where improved road connections are intended to support movement between communities.",
         "The government publication links the road interventions to improved connectivity, mobility and economic activity. The stated rationale is that better road infrastructure can strengthen links between communities and provide improved access along important local and regional routes.",
-        "The 10.5-kilometre Igogoro–Amachalla–Ikpamodo–Okpo–Amaja project therefore represents an ongoing infrastructure intervention in Igboeze North. Its ultimate effect on mobility and economic activity will depend on continued construction and delivery of the approved road project."
+        "The 10.5-kilometre Igogoro\u2013Amachalla\u2013Ikpamodo\u2013Okpo\u2013Amaja project therefore represents an ongoing infrastructure intervention in Igboeze North. Its ultimate effect on mobility and economic activity will depend on continued construction and delivery of the approved road project."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3191,13 +3191,13 @@
         "The meeting, held at the Banquet Hall of TY Danjuma House in Jalingo, brought together government officials, mining stakeholders, miners' associations and representatives of mining communities. Governor Kefas said the engagement was necessary because artisanal mining is connected to both livelihoods and community safety, with many families depending on the sector for survival.",
         "Kefas said the government would listen to people directly involved in artisanal and small-scale mining, understand their challenges and support them to operate lawfully and productively. He announced plans to establish standards intended to improve mining practices and strengthen protection for communities affected by mining activities.",
         "The proposed standards are expected to cover protection of water sources, training for miners and health workers, and a system for reporting and correcting dangerous mining practices. The Permanent Bureau for Solid Minerals, Matsai David Angye, said the government's objective was not to stop artisanal miners from earning a living but to organise, train and empower them for safer and more productive operations.",
-        "The engagement also provided an opportunity for artisanal miners from different parts of the state to present their demands. The occasion featured an award recognising Governor Kefas as the “Most Mining-Friendly Governor,” according to the Taraba government publication.",
-        "Separately, Kefas presented dummy cheques totalling ₦2.5 billion for intervention programmes. The stated breakdown comprises ₦500 million for Taraba CARES, ₦1 billion for the Taraba State Youth Development Agency and another ₦1 billion for relief and recovery efforts in Karim Lamido and other crisis-affected communities. The Governor directed relevant committees to ensure that the funds are used judiciously and with transparency and accountability."
+        "The engagement also provided an opportunity for artisanal miners from different parts of the state to present their demands. The occasion featured an award recognising Governor Kefas as the \u201cMost Mining-Friendly Governor,\u201d according to the Taraba government publication.",
+        "Separately, Kefas presented dummy cheques totalling \u20a62.5 billion for intervention programmes. The stated breakdown comprises \u20a6500 million for Taraba CARES, \u20a61 billion for the Taraba State Youth Development Agency and another \u20a61 billion for relief and recovery efforts in Karim Lamido and other crisis-affected communities. The Governor directed relevant committees to ensure that the funds are used judiciously and with transparency and accountability."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3222,7 +3222,7 @@
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Agbu Kefas presided over the signing ceremony in Jalingo, which the Taraba government publication linked to the state's programme for agricultural mechanisation and rural road development. The stated objective is to improve access to farming communities and support agricultural production.",
-        "Kefas said the state government had acquired, delivered and tested agricultural and road-construction equipment valued at ₦16 billion. He said the equipment and associated programme were intended to improve access to farmlands and enable farmers to benefit from modern agricultural technology.",
+        "Kefas said the state government had acquired, delivered and tested agricultural and road-construction equipment valued at \u20a616 billion. He said the equipment and associated programme were intended to improve access to farmlands and enable farmers to benefit from modern agricultural technology.",
         "The Governor said the partnership with Origin Tech Limited goes beyond equipment supply to include proper deployment and maintenance. He also said the participation of the local government councils would help ensure that equipment and projects reach communities where they are required.",
         "The Commissioner for Agriculture and Food Security, Professor Nicholas Oliver Nemesan, described the programme as the Taraba Accelerated Agriculture and Rural Development Scheme. He said the scheme would cover agricultural production, mechanisation, irrigation, aggregation and processing, while the rural roads would connect farming communities with markets, storage facilities and processing centres.",
         "Origin Tech Limited Chairman Prince Samuel Joseph said Taraba was selected because of its geographical location and agricultural potential and said the programme would support agricultural and livestock development, including specialised agro-centres. He stated that six agro-centres had already been developed through partnership with the state government, while the 16 local government councils pledged cooperation toward implementation."
@@ -3230,7 +3230,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3238,7 +3238,7 @@
       "type": "news_report",
       "id": "news-2026-10-06-16",
       "published": false,
-      "title": "Kebbi Raises Support for Kaoje Attack Victims to ₦200 Million, Strengthens Security Response",
+      "title": "Kebbi Raises Support for Kaoje Attack Victims to \u20a6200 Million, Strengthens Security Response",
       "labels": [
         "News Report",
         "Kebbi",
@@ -3251,11 +3251,11 @@
         "aria_label": "Kebbi State Governor Nasir Idris security and relief response",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Governor Nasir Idris has announced an additional ₦100 million in support for victims of recent attacks in Kaoje and neighbouring communities in Bagudo Local Government Area, bringing reported assistance from the Kebbi State Government to ₦200 million.",
+      "lead_narrative": "Governor Nasir Idris has announced an additional \u20a6100 million in support for victims of recent attacks in Kaoje and neighbouring communities in Bagudo Local Government Area, bringing reported assistance from the Kebbi State Government to \u20a6200 million.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Idris visited Kaoje and neighbouring communities in Bagudo Local Government Area to commiserate with residents affected by the attacks, which resulted in deaths, property destruction and displacement. During the visit, he met affected communities, listened to their concerns and reassured residents that the state government would continue its efforts to protect lives and property.",
-        "The Governor said the state government had provided an additional ₦100 million to support victims. According to his statement, the new intervention brings total assistance from the Kebbi State Government to ₦200 million for those affected by the attacks.",
+        "The Governor said the state government had provided an additional \u20a6100 million to support victims. According to his statement, the new intervention brings total assistance from the Kebbi State Government to \u20a6200 million for those affected by the attacks.",
         "Security measures are also being strengthened in the affected areas. Idris said additional deployments and operational vehicles were being provided, alongside closer collaboration with relevant security agencies, as the government works to improve security conditions in the communities.",
         "The Governor linked security directly to the prospects for development and said the state would continue working with the Federal Government and security agencies to restore peace. He appealed to residents to remain calm, united and supportive of security personnel, describing security as a collective responsibility.",
         "Idris expressed condolences to families that lost relatives, prayed for the injured and called for lasting peace in Kaoje, Bagudo Local Government Area and Kebbi State. The reported response therefore combines financial assistance to affected households with additional security measures following the attacks."
@@ -3263,7 +3263,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3296,7 +3296,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3322,14 +3322,14 @@
       "story_body": [
         "Governor Aiyedatiwa received the recognition at the World Teachers' Day commemoration held at Eagle Square, Abuja. In his acceptance speech, he thanked the Federal Ministry of Education, the Minister of Education, the Minister of State for Education and other stakeholders involved in the event.",
         "The Governor dedicated the recognition to teachers across Ondo State and said his previous experience as a teacher had influenced his understanding of the responsibilities associated with education. He described education as a long-term investment in the character, capacity and productive strength of the state's population.",
-        "Aiyedatiwa outlined several education interventions reported by his administration. These include the recruitment of more than 2,100 teachers into primary and secondary schools in 2025, construction of 43 classroom blocks at a reported cost of about ₦3.1 billion, complete renovation of 75 schools, and procurement of 8,500 learners' furniture and 1,200 teachers' furniture.",
-        "He also reported ₦633.9 million in 2026 funding for WAEC registration for 23,048 public-school students, full sponsorship of NABTEB examinations, bursary and scholarship commitments, and the establishment of a College of Nursing at Igbokoda and a College of Education at Aboto. Other measures cited included teacher training, digital education initiatives and technology-related programmes.",
+        "Aiyedatiwa outlined several education interventions reported by his administration. These include the recruitment of more than 2,100 teachers into primary and secondary schools in 2025, construction of 43 classroom blocks at a reported cost of about \u20a63.1 billion, complete renovation of 75 schools, and procurement of 8,500 learners' furniture and 1,200 teachers' furniture.",
+        "He also reported \u20a6633.9 million in 2026 funding for WAEC registration for 23,048 public-school students, full sponsorship of NABTEB examinations, bursary and scholarship commitments, and the establishment of a College of Nursing at Igbokoda and a College of Education at Aboto. Other measures cited included teacher training, digital education initiatives and technology-related programmes.",
         "Federal education officials used the occasion to emphasise teacher welfare, professional development, technology and the changing demands placed on educators. The National Union of Teachers also called for a shift from recognition to sustained implementation and investment. Aiyedatiwa said the award belonged to teachers whose work he described as foundational to the state's development."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3337,7 +3337,7 @@
       "type": "news_report",
       "id": "news-2026-10-06-19",
       "published": false,
-      "title": "FG Announces ₦250 Million Support for Families of 37 NSCDC Deaths in Niger",
+      "title": "FG Announces \u20a6250 Million Support for Families of 37 NSCDC Deaths in Niger",
       "labels": [
         "News Report",
         "Niger",
@@ -3350,19 +3350,19 @@
         "aria_label": "Niger State Governor Mohammed Umaru Bago security and government response",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Federal Government has announced ₦250 million in support for families of 37 people who died in an incident involving the Nigeria Security and Civil Defence Corps in Niger State, with Vice President Kashim Shettima making the disclosure during a condolence visit to Minna.",
+      "lead_narrative": "The Federal Government has announced \u20a6250 million in support for families of 37 people who died in an incident involving the Nigeria Security and Civil Defence Corps in Niger State, with Vice President Kashim Shettima making the disclosure during a condolence visit to Minna.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Vice President Kashim Shettima announced the support during a visit to the Niger State Government House in Minna to condole with the government and people of the state. He described the deaths as unfortunate and said the Federal Government shared the pain of the affected families.",
         "Shettima said the death of the 37 people while in the custody of the NSCDC raised questions of state responsibility and accountability. He said a person deprived of liberty remained entitled to protection by the state and emphasised the need for justice, answers for bereaved families and due process for persons under investigation.",
         "The Vice President also cautioned against what he described as attempts to demonise Governor Mohammed Umaru Bago over the tragedy. He commended the Governor's pursuit of justice for the victims and called for fairness during the period of bereavement.",
         "Governor Bago said the state's demand for justice was not intended as vengeance but as a moral obligation to ensure that citizens do not lose their lives in the hands of institutions responsible for protecting them. He also said the state government was cooperating with the Federal Government's investigative team.",
-        "Bago further called for federal investment in safe, legal and dignified opportunities for young people and said the state would support federal efforts to regulate mining and protect national assets. The announced ₦250 million intervention, alongside the ongoing investigation and calls for accountability, forms the immediate federal and state response described in the report."
+        "Bago further called for federal investment in safe, legal and dignified opportunities for young people and said the state would support federal efforts to regulate mining and protect national assets. The announced \u20a6250 million intervention, alongside the ongoing investigation and calls for accountability, forms the immediate federal and state response described in the report."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3395,7 +3395,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3403,7 +3403,7 @@
       "id": "news-2026-10-06-21",
       "type": "news_report",
       "published": false,
-      "headline": "Niger Government Supports Families of 37 Artisanal Miners with ₦5 Million Each, Gives Survivors ₦2 Million",
+      "headline": "Niger Government Supports Families of 37 Artisanal Miners with \u20a65 Million Each, Gives Survivors \u20a62 Million",
       "jurisdiction": "Niger State",
       "date": "October 6, 2026",
       "labels": [
@@ -3418,7 +3418,7 @@
         "aria_label": "Niger State Governor Mohammed Umaru Bago"
       },
       "story_body": [
-        "The Niger State Government has provided financial support to the families of 37 artisanal miners who lost their lives, with each affected family receiving ₦5 million. The 32 survivors of the incident were also presented with ₦2 million each as part of a state intervention intended to cushion the impact of the deaths and support those who survived. The cheques were presented by Governor Mohammed Umaru Bago to the Emir of Minna, Umar Faruk Bahago, at the Council Chamber of the Government House in Minna.",
+        "The Niger State Government has provided financial support to the families of 37 artisanal miners who lost their lives, with each affected family receiving \u20a65 million. The 32 survivors of the incident were also presented with \u20a62 million each as part of a state intervention intended to cushion the impact of the deaths and support those who survived. The cheques were presented by Governor Mohammed Umaru Bago to the Emir of Minna, Umar Faruk Bahago, at the Council Chamber of the Government House in Minna.",
         "Governor Bago said the intervention was intended not only to provide immediate support to affected families and survivors but also to encourage beneficiaries to pursue alternative livelihoods. He urged residents involved in artisanal mining to desist from unprofessional mining practices. The governor also disclosed that his administration had directed the State Universal Basic Education Board to establish schools that would encourage children to enrol in formal education rather than expose themselves to the risks associated with artisanal mining.",
         "The governor used the occasion to acknowledge the perseverance and patience of the families of the deceased and the survivors following the incident. He also commended the Emir of Minna for his efforts to promote peace within his domain and for counselling families affected by the deaths. Bago further acknowledged the emir's continuing support for the state administration and his role in engaging with families during the aftermath of the incident.",
         "Responding on behalf of the affected families and survivors, the Emir of Minna appreciated the state government for the intervention. He pledged that the Emirate would ensure that the funds reach the rightful beneficiaries. The state government's intervention therefore combines direct financial assistance with a stated effort to discourage unsafe artisanal mining and create alternatives, particularly through education for children who might otherwise become exposed to the sector.",
@@ -3429,7 +3429,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3463,7 +3463,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3497,7 +3497,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3531,7 +3531,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3565,7 +3565,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3599,7 +3599,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3633,7 +3633,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3659,7 +3659,7 @@
         "The Edo State Government, through the Office of the First Lady, has pledged continued support for inmates at the Oko Medium Security Custodial Centre in Benin City and said it would work toward decongesting the facility and facilitating the release of deserving inmates in accordance with the law. The assurance was given during an Independence Day outreach organised by the Office of the First Lady in collaboration with the Better Life Empowerment Foundation.",
         "Mrs Edesili Okpebholo Anani, Coordinator of the Office of the First Lady, said the administration maintains a zero-tolerance position on crime and criminality while also supporting the welfare, reform and rehabilitation of inmates. She said discussions had been held with correctional authorities on mechanisms for assisting inmates who had served their terms and accelerating justice processes for those awaiting trial.",
         "Anani said she intended to take complaints raised by inmates to the governor and engage the Attorney General of the Federation regarding awaiting-trial inmates. She also expressed willingness to support the release of deserving inmates, particularly young female inmates, within the limits of the law. On education and empowerment, she said discussions had taken place with the Permanent Secretary for Education and EdoJobs regarding education, tailoring and other vocational opportunities at the custodial centre.",
-        "The coordinator also announced cash prizes for an inmates' parade competition, with ₦300,000 for first place, ₦200,000 for second place and ₦100,000 for third place, alongside an additional ₦200,000 for female inmates irrespective of their position. The Governor of Corrections, DCC Dr Egbe Anyalewechi Malvin, described the outreach as support for inmates and reiterated the correctional service's mandate to reform, rehabilitate and reintegrate them.",
+        "The coordinator also announced cash prizes for an inmates' parade competition, with \u20a6300,000 for first place, \u20a6200,000 for second place and \u20a6100,000 for third place, alongside an additional \u20a6200,000 for female inmates irrespective of their position. The Governor of Corrections, DCC Dr Egbe Anyalewechi Malvin, described the outreach as support for inmates and reiterated the correctional service's mandate to reform, rehabilitate and reintegrate them.",
         "Representing the inmates, General Provost Owens Omende appealed for clemency for deserving inmates and highlighted challenges including water shortages, which require fuel to operate pumping equipment. He also raised the cases of elderly and long-serving inmates, including an 82-year-old man and people who have spent between 10 and 30 years in custody. The programme ended with a renewed emphasis on rehabilitation, education, skills acquisition and lawful reintegration."
       ],
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
@@ -3667,7 +3667,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3701,7 +3701,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3725,7 +3725,7 @@
       },
       "story_body": [
         "The Edo State Tourism Agency has marked World Tourism Day 2026 with activities focused on the potential use of digital technology and artificial intelligence to develop tourism and promote the state's cultural heritage. The programme included an awareness road walk through parts of Benin City followed by a symposium at the John Odigie-Oyegun Public Service Academy.",
-        "The symposium was held around the World Tourism Day 2026 theme, “Digital Agenda and Artificial Intelligence: Redesigning Tourism for Sustainable Development,” and brought together stakeholders in the tourism sector. The discussions examined how emerging digital technologies could contribute to the promotion and development of tourism in Edo State.",
+        "The symposium was held around the World Tourism Day 2026 theme, \u201cDigital Agenda and Artificial Intelligence: Redesigning Tourism for Sustainable Development,\u201d and brought together stakeholders in the tourism sector. The discussions examined how emerging digital technologies could contribute to the promotion and development of tourism in Edo State.",
         "Edo State Head of Service Dr Anthony Okungbowa described tourism as an important economic sector and said the state government should give it greater prominence. He said Governor Monday Okpebholo places importance on tourism and is committed to advancing the sector. The event therefore linked the administration's tourism interests with the wider discussion about technology and sustainable development.",
         "The Director-General of the Edo State Tourism Agency, Lady Vivian Elabor, said expanding tourism could create employment opportunities, increase internally generated revenue and open additional business opportunities for residents. She also pointed to the potential for attracting visitors who could become prospective investors. Elabor argued that developing the state's cultural heritage and tourist attractions could broaden the state's economic base and reduce reliance on federal allocations largely sourced from oil and gas revenue.",
         "The Executive Chairman of the Edo State Senior Secondary Education Board, Dr Rita Erewele, also contributed to the discussion, saying that properly harnessed tourism could generate wider development for the state. The World Tourism Day activities consequently placed digital technology, artificial intelligence, cultural heritage and economic diversification at the centre of the state's tourism conversation."
@@ -3735,7 +3735,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3769,7 +3769,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3803,7 +3803,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3837,7 +3837,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3871,7 +3871,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3905,7 +3905,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3939,7 +3939,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -3973,7 +3973,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4007,7 +4007,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4041,7 +4041,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4075,7 +4075,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4083,7 +4083,7 @@
       "id": "news-2026-10-06-41",
       "type": "news_report",
       "published": false,
-      "headline": "Zamfara Council Approves ₦70.9 Billion Contract for 53km Gusau–Jauri–Nasarawar Godel Road",
+      "headline": "Zamfara Council Approves \u20a670.9 Billion Contract for 53km Gusau\u2013Jauri\u2013Nasarawar Godel Road",
       "jurisdiction": "Zamfara State",
       "date": "October 6, 2026",
       "labels": [
@@ -4098,8 +4098,8 @@
         "aria_label": "Zamfara State Governor Dauda Lawal"
       },
       "story_body": [
-        "The Zamfara State Executive Council has approved the award of a contract for the construction of the 53-kilometre Gusau–Jauri–Dogon Kade–Nasarawar Mailayi–Nasarawar Godel Road. The approval was given at the Council meeting of October 5, 2026, following consideration of a memorandum presented by the Commissioner for Works and Infrastructure and ratification of an earlier approval by Governor Dauda Lawal.",
-        "The contract was awarded to CCECC Nigeria Limited after the Technical and Financial Evaluation Committee identified the company as the Lowest Evaluated Responsive Bidder. The evaluated contract sum is ₦70,896,387,618.50, and the recommendation was subsequently approved by the Ministry's Tenders Board.",
+        "The Zamfara State Executive Council has approved the award of a contract for the construction of the 53-kilometre Gusau\u2013Jauri\u2013Dogon Kade\u2013Nasarawar Mailayi\u2013Nasarawar Godel Road. The approval was given at the Council meeting of October 5, 2026, following consideration of a memorandum presented by the Commissioner for Works and Infrastructure and ratification of an earlier approval by Governor Dauda Lawal.",
+        "The contract was awarded to CCECC Nigeria Limited after the Technical and Financial Evaluation Committee identified the company as the Lowest Evaluated Responsive Bidder. The evaluated contract sum is \u20a670,896,387,618.50, and the recommendation was subsequently approved by the Ministry's Tenders Board.",
         "The project has an 18-month completion period and includes a 7.3-metre-wide carriageway with 1.5-metre shoulders on both sides. The planned works also include a 40mm wearing course, three major bridges, box, pipe and triple-cell culverts, road furniture, traffic signs, road markings and other ancillary works required for completion and commissioning.",
         "According to the Zamfara State Government publication, the road is expected to improve connectivity between Gusau and communities along the corridor and facilitate movement of agricultural produce and other goods to markets. The government also expects the corridor to improve access to healthcare, education and other essential services, while supporting security operations and mobility within the area.",
         "The government said the project is also intended to stimulate commercial and economic activity and reduce travel time and vehicle operating costs. It called on the contractor to meet the required quality standards and agreed completion period and said the project would be closely supervised for compliance with specifications and value for money."
@@ -4109,7 +4109,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4132,10 +4132,10 @@
         "aria_label": "Zamfara State Governor Dauda Lawal"
       },
       "story_body": [
-        "Zamfara State Governor Dauda Lawal has flagged off construction of a 95-kilometre road in Tsafe Local Government Area, describing the project as an intervention intended to improve transportation, economic activity and security in communities along the corridor. The project covers the Yandoton Daji–Cediya–Doka–Yan Waren Daji–Hayin Alhaji–Bedi–Unguwar Joji–Yankuzo–Tsafe route and includes five bridges.",
+        "Zamfara State Governor Dauda Lawal has flagged off construction of a 95-kilometre road in Tsafe Local Government Area, describing the project as an intervention intended to improve transportation, economic activity and security in communities along the corridor. The project covers the Yandoton Daji\u2013Cediya\u2013Doka\u2013Yan Waren Daji\u2013Hayin Alhaji\u2013Bedi\u2013Unguwar Joji\u2013Yankuzo\u2013Tsafe route and includes five bridges.",
         "The project has been divided into two phases. According to the governor's spokesperson, the first phase covers 47 kilometres and has been awarded to SKY Construction Company, while the second phase covers 48 kilometres and has been awarded to Setraco Construction Company Limited.",
         "Governor Lawal said the communities along the corridor are predominantly agricultural and that the road would therefore support movement of goods and services and contribute to the wider economy of Zamfara State. He also connected the project to the administration's security objectives, arguing that improved road infrastructure would facilitate the movement and operational response of security agencies.",
-        "Lawal said reconstructing the road would enhance the transportation of goods and improve security agencies' access to communities. He presented the project as part of a broader infrastructure renewal programme that includes other road corridors such as Gusau–Magami–Dansadau, Zurmi–Rukudawa and Mallamawa–Bukkuyum with a spur to Masamar Mudi.",
+        "Lawal said reconstructing the road would enhance the transportation of goods and improve security agencies' access to communities. He presented the project as part of a broader infrastructure renewal programme that includes other road corridors such as Gusau\u2013Magami\u2013Dansadau, Zurmi\u2013Rukudawa and Mallamawa\u2013Bukkuyum with a spur to Masamar Mudi.",
         "The governor said the project was intended to go beyond transportation by supporting economic activity, security and community life. He acknowledged the urgency of infrastructure interventions in the affected communities and stated that the administration was committed to adherence to project timelines and timely completion."
       ],
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
@@ -4143,7 +4143,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4151,7 +4151,7 @@
       "id": "news-2026-10-06-43",
       "type": "news_report",
       "published": false,
-      "headline": "Oyebanji Rewards Ekiti Teachers and Administrators with ₦70.5 Million on World Teachers' Day",
+      "headline": "Oyebanji Rewards Ekiti Teachers and Administrators with \u20a670.5 Million on World Teachers' Day",
       "jurisdiction": "Ekiti State",
       "date": "October 6, 2026",
       "labels": [
@@ -4166,10 +4166,10 @@
         "aria_label": "Ekiti State Governor Biodun Oyebanji"
       },
       "story_body": [
-        "Ekiti State Governor Biodun Oyebanji has awarded ₦70.5 million in cash prizes to outstanding teachers and education administrators in the state as part of the 2026 World Teachers' Day activities. The governor presented the awards in recognition of what the state government described as impressive performance and contributions to the quality of education.",
+        "Ekiti State Governor Biodun Oyebanji has awarded \u20a670.5 million in cash prizes to outstanding teachers and education administrators in the state as part of the 2026 World Teachers' Day activities. The governor presented the awards in recognition of what the state government described as impressive performance and contributions to the quality of education.",
         "The recognition was presented on October 5, 2026, during the state's World Teachers' Day activities. The cash-prize component provides a direct reward to teachers and administrators identified by the state as outstanding in their respective areas of educational service.",
-        "The award initiative places teacher performance and educational administration within the state's wider focus on education-sector development. The government publication accompanying the announcement also stated that Ekiti State had invested more than ₦18 billion in the education sector.",
-        "The recognition comes as the state marks World Teachers' Day and highlights the administration's stated interest in acknowledging personnel whose work contributes to the functioning and quality of the education system. The source, however, does not provide the individual award categories or the number of teachers and administrators who shared the ₦70.5 million.",
+        "The award initiative places teacher performance and educational administration within the state's wider focus on education-sector development. The government publication accompanying the announcement also stated that Ekiti State had invested more than \u20a618 billion in the education sector.",
+        "The recognition comes as the state marks World Teachers' Day and highlights the administration's stated interest in acknowledging personnel whose work contributes to the functioning and quality of the education system. The source, however, does not provide the individual award categories or the number of teachers and administrators who shared the \u20a670.5 million.",
         "The 2026 intervention therefore combines financial recognition of selected education personnel with the state's broader education-sector investment. The government publication presents the awards as recognition for performance and contribution to educational quality in Ekiti State."
       ],
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
@@ -4177,7 +4177,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4202,7 +4202,7 @@
       "story_body": [
         "Katsina State has launched the Community Investment Fund under the Nigeria for Women Programme Scale-Up, with more than 40,000 women across the state expected to benefit. The flag-off was attended by Vice-President Kashim Shettima and was presented by the Katsina State Government as an intervention aimed at expanding women's access to capital and strengthening household livelihoods.",
         "The programme is intended to provide beneficiaries with financial resources to expand businesses, strengthen household incomes and build sustainable livelihoods. The state government described the intervention as an investment in families and communities rather than simply a financial transfer.",
-        "Katsina State said it had committed ₦4 billion to the programme, enabling the Nigeria for Women Programme Scale-Up to expand from six local government areas to all 34 local government areas in the state. The government also acknowledged the role of the Federal Government, World Bank and development partners in supporting the programme.",
+        "Katsina State said it had committed \u20a64 billion to the programme, enabling the Nigeria for Women Programme Scale-Up to expand from six local government areas to all 34 local government areas in the state. The government also acknowledged the role of the Federal Government, World Bank and development partners in supporting the programme.",
         "The state government said it had requested additional funding and technical support to expand the intervention further, particularly for underserved communities. It also highlighted the participation of women with hearing impairment who have formed Women Affinity Groups, presenting their inclusion as part of the programme's accessibility approach.",
         "Governor Dikko Radda urged beneficiaries to treat the assistance as seed capital for growth, invest responsibly, maintain proper records and sustain savings practices. The intervention therefore combines federal and development-partner support with state funding and a statewide implementation structure covering all 34 local government areas."
       ],
@@ -4211,7 +4211,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4234,7 +4234,7 @@
         "aria_label": "Katsina State Governor Dikko Radda"
       },
       "story_body": [
-        "Katsina State has commissioned three major road projects and launched new public transportation services as part of the state's urban renewal and mobility programme. The commissioning was attended by Vice-President Kashim Shettima and included the Water Board–Kofar Sauri–Central Mosque Roundabout Road, the CPS–Kofar Kaura Underpass Road and the Filin Polo–Ring Road Single Carriageway.",
+        "Katsina State has commissioned three major road projects and launched new public transportation services as part of the state's urban renewal and mobility programme. The commissioning was attended by Vice-President Kashim Shettima and included the Water Board\u2013Kofar Sauri\u2013Central Mosque Roundabout Road, the CPS\u2013Kofar Kaura Underpass Road and the Filin Polo\u2013Ring Road Single Carriageway.",
         "The three projects cover approximately 4.8 kilometres, 2.4 kilometres and 4 kilometres respectively. Governor Dikko Radda said they were designed as part of an integrated road network intended to improve traffic circulation, reduce travel time and strengthen connectivity across Katsina metropolis. He said similar interventions were being extended to Daura and Funtua while rural connectivity projects continued elsewhere in the state.",
         "The state government reported that more than 240 kilometres of urban and rural roads had been covered through ongoing interventions. Alongside the road projects, the administration launched 32 hybrid buses using electric, diesel and CNG technologies for deployment in Katsina, Daura and Funtua. Terminals and maintenance facilities are associated with the bus deployment, while 40 modern bus stops with Wi-Fi and solar inverter systems are being provided.",
         "The government also launched 200 electric tricycles as part of a broader programme targeting 500 electric Keke EVs across Katsina State. The administration linked the electric mobility programme to technical training, vehicle maintenance, charging infrastructure, employment and opportunities for businesses within the emerging electric transport ecosystem.",
@@ -4245,7 +4245,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4268,7 +4268,7 @@
         "aria_label": "Katsina State Governor Dikko Radda"
       },
       "story_body": [
-        "Katsina State Governor Dikko Umar Radda is scheduled to receive a GovTech Public Service Award at the 2026 Nigeria GovTech Conference and Awards in recognition of the administration's digital transformation initiatives. The conference is scheduled for October 13–14, 2026, at the State House Conference Centre in Abuja and is being organised by the Bureau of Public Service Reforms.",
+        "Katsina State Governor Dikko Umar Radda is scheduled to receive a GovTech Public Service Award at the 2026 Nigeria GovTech Conference and Awards in recognition of the administration's digital transformation initiatives. The conference is scheduled for October 13\u201314, 2026, at the State House Conference Centre in Abuja and is being organised by the Bureau of Public Service Reforms.",
         "The recognition is linked to the administration's reported efforts to place digital infrastructure, data, innovation and technology at the centre of public-sector operations and service delivery. A central component is the iKatsina Framework, described by the state as a Digital Public Infrastructure architecture intended to connect government systems, resident identities, public services and records within a secure and interoperable ecosystem.",
         "The framework includes a Digital Resident Identification System designed to provide residents with a unified digital identity for accessing government services across ministries, departments and agencies. The state also reported that the Katsina State Directorate of Information and Communication Technology has overseen the digitalisation of 118 MDAs, alongside digital infrastructure deployment and other reforms.",
         "The administration is also implementing the SMART Katsina Broadband Masterplan to expand fibre-optic connectivity and support digital government, education, healthcare, business and innovation. The government reported that about 1,800 civil servants had received ICT skills training, while smart schools in Radda, Jikamshi and Dumurkul had been equipped with ICT facilities, digital learning resources, robotics laboratories, AI resources and internet connectivity.",
@@ -4279,7 +4279,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4313,7 +4313,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4347,7 +4347,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4381,7 +4381,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4389,7 +4389,7 @@
       "id": "news-2026-10-06-50",
       "type": "news_report",
       "published": false,
-      "headline": "Abia Approves ₦1 Billion Teachers' Appreciation Allowance as Otti Outlines Education Reforms",
+      "headline": "Abia Approves \u20a61 Billion Teachers' Appreciation Allowance as Otti Outlines Education Reforms",
       "jurisdiction": "Abia State",
       "date": "October 6, 2026",
       "labels": [
@@ -4404,7 +4404,7 @@
         "aria_label": "Abia State Governor Alex Otti"
       },
       "story_body": [
-        "Abia State Governor Alex Otti has approved a ₦1 billion special allowance for teachers in the state as part of measures announced during the 2026 Teachers' Day celebration in Umuahia on October 5. The allowance, to be shared equally among eligible teachers, is designated the Teachers' Appreciation Allowance and the governor said payment would begin from the day of the announcement.",
+        "Abia State Governor Alex Otti has approved a \u20a61 billion special allowance for teachers in the state as part of measures announced during the 2026 Teachers' Day celebration in Umuahia on October 5. The allowance, to be shared equally among eligible teachers, is designated the Teachers' Appreciation Allowance and the governor said payment would begin from the day of the announcement.",
         "Otti used the address to reaffirm education as the administration's leading development priority. He said the state had consistently allocated one-fifth of its annual budgetary outlay to education over the last three budget cycles and identified teachers' welfare, motivated pupils, quality infrastructure, learning-support tools, age-relevant curricula, competition and reward for excellence as the administration's priorities.",
         "The governor said Abia had recruited 9,469 new teachers to address staffing requirements following the introduction of free and compulsory basic education, with particular attention to subjects including science and mathematics. He also pointed to the development of smart schools and the retrofitting of existing schools, including construction of new structures, fencing and other infrastructure intended to accommodate growing enrolment and improve safety.",
         "Otti acknowledged reports of delays in paying some newly recruited teachers and said he had directed relevant officials to accelerate processing of outstanding salary claims. He also ordered that payment irregularities arising from verification challenges be resolved before the end of October, while outstanding promotions for 2021 and 2022 were said to be receiving attention. The governor further directed implementation of an extension of teachers' retirement age to 65 and requested a report on implementation within two weeks.",
@@ -4415,7 +4415,7 @@
         "id": "a5v1b5",
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4447,7 +4447,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4472,14 +4472,14 @@
       "story_body": [
         "The October 4 publication presents the projects in response to a political claim that Governor Otti had no project in Ohafia. The publication lists interventions across several sectors and identifies both completed and ongoing projects. Among the education projects are Nmaju Memorial Primary School in Abiriba, Ofali-Agwu Primary School in Amekpu Ohafia, Biyama Primary School in Abiriba, Amangwu Community Primary School, Ogbokwe Community School in Asaga Ohafia, Okagwe Ohafia School, Community Primary School in Etitiama Nkporo, Ndi-Ibe Primary School in Ndi-Ibe and Community Secondary School in Ndi-Orieke.",
         "The publication also lists numerous primary healthcare centres across Ohafia communities. They include Eziafor PHC in Ohafor, Ndi Uduma Awoke PHC in Ania Ohafia, Amanta Ukpo in Amaeke Abiriba, Okagwo Agboji PHC in Agboji Abiriba, Amamba PHC in Amaogudu Abiriba, Ania Akanu PHC in Ania Ohafia, Ihenta PHC in Ebemoha and Amaekpu PHC in Isiama Ohafia. Additional facilities listed are Ugwufie PHC, Obuofia PHC, Ndi Orieke PHC, Amangwu PHC, Agboji PHC, Ania PHC, Etitiama PHC, Nkporo PHC and Okon Aku PHC.",
-        "Road and transport infrastructure form another substantial part of the listed interventions. The Ohafia section of the 67.6-kilometre Umuahia–Abiriba–Ohafia Road was recently commissioned by Governor Otti and renamed Otisi Kalu, also known as Abbot Way. The publication states that the 41-kilometre Ohafia–Arochukwu Highway is ongoing, including construction work through hilly terrain, while other roads within the local government area are being handled by the Ministry of Works.",
+        "Road and transport infrastructure form another substantial part of the listed interventions. The Ohafia section of the 67.6-kilometre Umuahia\u2013Abiriba\u2013Ohafia Road was recently commissioned by Governor Otti and renamed Otisi Kalu, also known as Abbot Way. The publication states that the 41-kilometre Ohafia\u2013Arochukwu Highway is ongoing, including construction work through hilly terrain, while other roads within the local government area are being handled by the Ministry of Works.",
         "The Greater Ohafia Development Authority is also identified as implementing projects in the area. Its listed interventions include the 1.58-kilometre Amaekpu Ring Road, retrofitting of the GODA headquarters, reconstruction of Asaga-Amuke Road with a bridge, retrofitting of the FRSC Regional Licence Office at Ebem Ohafia, construction of Okagwu-Nkwebi Road, rehabilitation of the 6.5-kilometre Abiriba-Etitiama-Amurie Nkporo Road in two phases, grading of inner community and farm-settlement roads in Ndi Nku Community, and construction of Ndi Orieke Road.",
         "Other projects listed include the establishment of the ARMTI South-East Regional Centre, solar-powered boreholes with water storage tanks for selected schools and communities, construction of Afia Nkwo New Isiama Daily Market, reconstruction of Asaga Ring Roads, construction of the 1.1-kilometre Ishi Ogbokwe-Jokel to Coronata Church Junction route and construction of Maryland Road in Abiriba. The publication further states that a 20-kilometre, 33kV electricity line from Ihechiowa to Ohafia has been completed, while rehabilitation of the injection substation and 11kV power lines remains ongoing. The listed interventions establish the scope of the projects cited for Ohafia, although the publication does not provide a consolidated financial value or completion timetable for all of them."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4511,7 +4511,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4543,7 +4543,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4575,7 +4575,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4607,7 +4607,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4639,7 +4639,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4671,7 +4671,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4679,7 +4679,7 @@
       "type": "news_report",
       "published": false,
       "id": "news-2026-10-06-59",
-      "title": "Kwara Awards About ₦120 Million to Outstanding Teachers and School Leaders",
+      "title": "Kwara Awards About \u20a6120 Million to Outstanding Teachers and School Leaders",
       "labels": [
         "News Report",
         "Kwara State",
@@ -4691,10 +4691,10 @@
         "aria_label": "Kwara State Governor AbdulRahman AbdulRazaq Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kwara State Governor AbdulRahman AbdulRazaq has presented about ₦120 million in awards to outstanding teachers, school leaders and university academics as the state marked World Teachers' Day, while also announcing a planned Dangote Refinery IPO share scheme for female teachers.",
+      "lead_narrative": "Kwara State Governor AbdulRahman AbdulRazaq has presented about \u20a6120 million in awards to outstanding teachers, school leaders and university academics as the state marked World Teachers' Day, while also announcing a planned Dangote Refinery IPO share scheme for female teachers.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The awards were presented on Monday during a World Teachers' Day event in Ilorin. According to the Kwara State government publication, 29 best principals and head teachers received ₦29 million in total, while 119 outstanding teachers received ₦59.5 million. Eleven serving and retired university academics received pioneer professorship recognition awards worth ₦22 million, while three schools received a combined ₦9 million for the Best Kept School Award.",
+        "The awards were presented on Monday during a World Teachers' Day event in Ilorin. According to the Kwara State government publication, 29 best principals and head teachers received \u20a629 million in total, while 119 outstanding teachers received \u20a659.5 million. Eleven serving and retired university academics received pioneer professorship recognition awards worth \u20a622 million, while three schools received a combined \u20a69 million for the Best Kept School Award.",
         "Governor AbdulRazaq said the awards were intended to recognise the contribution and sacrifice of teachers and motivate them to continue improving educational outcomes. He said the administration would continue to prioritise teacher welfare and working conditions while pursuing its wider objective of building an education system that gives children opportunities to learn, develop skills and compete beyond the state.",
         "The Governor also announced plans to purchase 10,000 shares of the Dangote Refinery IPO for female teachers in each of the outstanding public schools. He said the initiative was intended to promote investment culture, financial inclusion, asset ownership and shareholding among women. He directed the Head of Service to develop modalities that would allow outstanding retired female teachers to be included as well.",
         "AbdulRazaq also highlighted teacher recruitment, continuous professional development, school infrastructure and technology-based education management. He referred to the 27.5 percent Teachers' Specific Allowance and regular promotion of teachers as part of the administration's welfare interventions. SUBEB Chairman Prof. Sheu Raheem Adaramaja said approval had been given for the 2026 promotion exercise and announced that the promotion examination was scheduled for the following Saturday.",
@@ -4703,7 +4703,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4711,7 +4711,7 @@
       "type": "news_report",
       "published": false,
       "id": "news-2026-10-06-60",
-      "title": "Jigawa Governor Signs ₦63.48 Billion Supplementary Budget",
+      "title": "Jigawa Governor Signs \u20a663.48 Billion Supplementary Budget",
       "labels": [
         "News Report",
         "Jigawa State",
@@ -4723,19 +4723,19 @@
         "aria_label": "Jigawa State Governor Umar Namadi Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Jigawa State Governor Umar Namadi has assented to a supplementary budget passed by the State House of Assembly, comprising ₦46.369 billion for the state government and ₦17.109 billion for the 27 local government councils.",
+      "lead_narrative": "Jigawa State Governor Umar Namadi has assented to a supplementary budget passed by the State House of Assembly, comprising \u20a646.369 billion for the state government and \u20a617.109 billion for the 27 local government councils.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "Governor Umar Namadi signed the Jigawa State Supplementary Budget on October 6, 2026, after the State House of Assembly passed the additional appropriation. The supplementary budget provides ₦46.369 billion for the state government and ₦17.109 billion for the 27 local government councils.",
-        "The combined value of the two components is ₦63.478 billion. The additional provision therefore covers both the state-level government structure and all 27 local government councils within Jigawa, establishing a supplementary allocation across the two tiers identified in the announcement.",
+        "Governor Umar Namadi signed the Jigawa State Supplementary Budget on October 6, 2026, after the State House of Assembly passed the additional appropriation. The supplementary budget provides \u20a646.369 billion for the state government and \u20a617.109 billion for the 27 local government councils.",
+        "The combined value of the two components is \u20a663.478 billion. The additional provision therefore covers both the state-level government structure and all 27 local government councils within Jigawa, establishing a supplementary allocation across the two tiers identified in the announcement.",
         "Speaking after signing the budget, Governor Namadi thanked the State House of Assembly for the speedy passage of the supplementary appropriation. He also urged relevant government institutions to ensure its full and effective implementation after the executive assent.",
         "The signing ceremony was attended by the Speaker of the Jigawa State House of Assembly, the Chairman of the House Committee on Budget and members of the State Executive Council. Their participation reflected the legislative and executive stages involved in the supplementary budget process, from passage by the Assembly to assent by the Governor.",
-        "The October 6 Jigawa State government publication did not provide a sector-by-sector breakdown of the ₦46.369 billion state allocation or the ₦17.109 billion local government allocation. It therefore establishes the total supplementary provision and the distribution between the state government and the 27 councils, but does not identify the individual programmes, projects or expenditure lines that will receive the additional funding. The immediate administrative priority stated by the Governor is full and effective implementation of the approved supplementary budget."
+        "The October 6 Jigawa State government publication did not provide a sector-by-sector breakdown of the \u20a646.369 billion state allocation or the \u20a617.109 billion local government allocation. It therefore establishes the total supplementary provision and the distribution between the state government and the 27 councils, but does not identify the individual programmes, projects or expenditure lines that will receive the additional funding. The immediate administrative priority stated by the Governor is full and effective implementation of the approved supplementary budget."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
