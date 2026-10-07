@@ -3658,7 +3658,7 @@
     {
       "id": "news-2026-10-06-29",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo Health Commissioner Engages MDCAN on Welfare, Allowances and Employment Issues",
       "labels": [
         "News Report",
@@ -3690,7 +3690,7 @@
     {
       "id": "news-2026-10-06-30",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo Tourism Agency Examines Digital Technology and AI for Sustainable Tourism Development",
       "labels": [
         "News Report",
@@ -3722,7 +3722,7 @@
     {
       "id": "news-2026-10-06-31",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo Health Regulator Urges Maternity Facilities to Strengthen Postpartum Haemorrhage Response",
       "labels": [
         "News Report",
@@ -3754,7 +3754,7 @@
     {
       "id": "news-2026-10-06-32",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo, NEMA Distribute Relief Materials to More Than 4,000 Flood-Affected Households in Etsako Central",
       "labels": [
         "News Report",
