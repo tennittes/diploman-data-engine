@@ -1,0 +1,44 @@
+name: Build and Validate Intelligence Pipeline
+
+on:
+  push:
+    paths:
+      - 'raw/b1.json'
+      - 'raw/b2.json'
+      - 'raw/b3.json'
+      - 'build-pipeline.js'
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
+
+jobs:
+  build-and-compile:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Required to commit compiled outputs back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Build Pipeline
+        run: node build-pipeline.js
+
+      - name: Check for generated output changes
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "has_changes=$(if [ -n "$(git status --porcelain dist/)" ]; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push Cleaned Outputs
+        if: steps.git-check.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git commit -m "auto(build): compile and validate B1, B2, B3 datasets [skip ci]"
+          git push
