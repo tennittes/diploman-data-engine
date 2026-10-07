@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-07",
   "activeMonth": "October 2026",
 
   "globalCodeData_B1": [
@@ -1107,213 +1107,21 @@
       },
       "intent": "Deepening local council democratic governance, improving rural stewardship, and decentralizing state development agendas."
     },
-    {
+   {
     "dayNumber": 7,
-    "stateKey": "ADAMAWA",
-    "stateName": "Adamawa State",
+    "stateKey": "AKWA IBOM",
+    "stateName": "Akwa Ibom State",
     "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Adamawa Governor Fintiri Directs New Operational Hilux Vehicle to Ministry of Energy",
-    "psi": 6.8,
-    "intensity": "MODERATE",
-    "momentum": "Consolidating",
+    "headline": "Governor Umo Eno Declares Education Emergency, Approves 2,000 Teachers and School Grants",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
     "impactMatrix": {
-      "headline": "Adamawa Governor Fintiri Directs New Operational Hilux Vehicle to Ministry of Energy",
-      "whatHappened": "Governor Ahmadu Umaru Fintiri provided a new Hilux operational vehicle to the Adamawa State Ministry of Energy to support field inspections, technical assessments, and project monitoring of rural solar mini-grids.",
-      "whyItMatters": "This 6.8 PSI Moderate Signal resource allocation resolves field supervision bottlenecks, directly strengthening public oversight and technical quality control across ongoing off-grid solar electrification projects in underserved rural communities."
+      "headline": "Governor Umo Eno Declares Education Emergency, Approves 2,000 Teachers and School Grants",
+      "whatHappened": "Governor Umo Eno declared a state of emergency in education, approved the recruitment of 2,000 primary school teachers, a ₦50,000 wardrobe allowance per public teacher, and ₦500,000 support for 1,776 private schools.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal policy intervention deploys major capital and human resources to transform basic education standards, improve teacher welfare, and support private educational infrastructure."
     },
-    "intent": "Enhancing state institutional capacity for field supervision and monitoring of off-grid solar mini-grid installations."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "CROSS RIVER",
-    "stateName": "Cross River State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Otu Inspects Odukpani Fire Devastation and Landslide Sites to Direct State Relief",
-    "psi": 7.5,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Otu Inspects Odukpani Fire Devastation and Landslide Sites to Direct State Relief",
-      "whatHappened": "Governor Bassey Otu conducted an on-the-spot assessment of fire damage in Odukpani and active landslide zones across Cross River State, committing to structured state intervention and stakeholder relief.",
-      "whyItMatters": "This 7.5 PSI High Signal executive intervention mobilizes state emergency resources to restore destroyed economic livelihoods and protect vulnerable transport corridors from imminent slope failure and environmental collapse."
-    },
-    "intent": "Assessing disaster sites first-hand to mobilize targeted state financial relief and structural infrastructure remediation."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "TARABA",
-    "stateName": "Taraba State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Agbu Kefas Attends High-Level Lake Chad MNJTF Security Forum in Abuja",
-    "psi": 8.2,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Agbu Kefas Attends High-Level Lake Chad MNJTF Security Forum in Abuja",
-      "whatHappened": "Governor Agbu Kefas participated in a two-day high-level forum at the National Defence College in Abuja to strategize on repositioning the Multinational Joint Task Force against Boko Haram, ISWAP, and cross-border crime.",
-      "whyItMatters": "This 8.2 PSI High Signal policy engagement leverages executive military expertise to align subnational intelligence frameworks with regional counter-insurgency operations across the Lake Chad Basin corridor."
-    },
-    "intent": "Strengthening regional subnational security coordination and intelligence sharing to suppress transnational asymmetric threats."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "KEBBI",
-    "stateName": "Kebbi State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Idris Approves ₦63.65 Million Registration Fees for 67 Law School Indigenes",
-    "psi": 8.0,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Idris Approves ₦63.65 Million Registration Fees for 67 Law School Indigenes",
-      "whatHappened": "Governor Nasir Idris approved ₦63.65 million to cover full tuition fees for 67 Kebbi indigenes attending the Nigerian Law School for the 2025/2026 session, disbursing ₦950,000 directly per student.",
-      "whyItMatters": "This 8.0 PSI High Signal fiscal release removes direct financial barriers for high-level professional education, expanding human capital capacity and sustaining state support for legal human resources."
-    },
-    "intent": "Providing direct state sponsorship for higher legal education to build professional subnational human capital."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "ONDO",
-    "stateName": "Ondo State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Aiyedatiwa Receives NEMA Briefing and Deploys Resources to Air Force Crash Site",
-    "psi": 8.5,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Aiyedatiwa Receives NEMA Briefing and Deploys Resources to Air Force Crash Site",
-      "whatHappened": "Governor Lucky Aiyedatiwa received NEMA leadership in Akure and deployed swamp buggies, local boats, and multi-agency emergency assets to recover the wreckage of a crashed Air Force aircraft in Igbokoda.",
-      "whyItMatters": "This 8.5 PSI High Signal emergency response demonstrates rapid subnational operational coordination across naval, air force, and local community assets to execute complex search and recovery in swamp terrain."
-    },
-    "intent": "Coordinating multi-agency emergency response and deploying specialized amphibious equipment for disaster recovery."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "NIGER",
-    "stateName": "Niger State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Bago Advocates NELFUND Expansion, Presents 34-Seater Bus to Niger Tornadoes FC",
-    "psi": 8.1,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Bago Advocates NELFUND Expansion, Presents 34-Seater Bus to Niger Tornadoes FC",
-      "whatHappened": "Governor Mohammed Umaru Bago urged the Senate Committee on Tertiary Education to extend NELFUND student loans to all tertiary institutions, presented a 34-seater team bus to Niger Tornadoes FC, and received a mine collapse condolence delegation.",
-      "whyItMatters": "This 8.1 PSI High Signal multi-sectoral engagement pairs high-level advocacy for national student loan equity with physical asset deployment for state sports infrastructure and ongoing mining incident inquiries."
-    },
-    "intent": "Advocating for federal student loan expansion while deploying logistical assets to state sports institutions."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "OSUN",
-    "stateName": "Osun State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Osun Environmental Sanitation Taskforce Engages Market and Religious Leaders in Osogbo",
-    "psi": 6.5,
-    "intensity": "MODERATE",
-    "momentum": "Consolidating",
-    "impactMatrix": {
-      "headline": "Osun Environmental Sanitation Taskforce Engages Market and Religious Leaders in Osogbo",
-      "whatHappened": "The Osun State Taskforce on Environmental Sanitation convened market, traditional, and religious leaders at the secretariat to enforce waste disposal regulations and prevent flood-inducing drainage blockages.",
-      "whyItMatters": "This 6.5 PSI Moderate Signal regulatory intervention establishes grassroots community compliance frameworks to protect urban waterways and reduce public health hazards associated with illegal refuse dumping."
-    },
-    "intent": "Mobilizing community stakeholders to enforce urban environmental sanitation regulations and mitigate flood risks."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "EDO",
-    "stateName": "Edo State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Okpebholo Threatens Contractor Arrest and Directs 24-Hour Abduction Rescue",
-    "psi": 8.4,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Okpebholo Threatens Contractor Arrest and Directs 24-Hour Abduction Rescue",
-      "whatHappened": "Governor Monday Okpebholo threatened the arrest of a contractor over the abandoned Benin-Abraka road, directed security agencies to rescue 90-year-old Pa Joseph Iduoriyekemwen within 24 hours, while Egor LGA swore in 10 appointees.",
-      "whyItMatters": "This 8.4 PSI High Signal executive enforcement addresses contractor accountability on critical transit corridors while deploying joint security apparatus to neutralize high-profile kidnapping threats."
-    },
-    "intent": "Enforcing contractual accountability on state infrastructure while commanding tactical joint security operations."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "GOMBE",
-    "stateName": "Gombe State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Gombe Scores 80 Points in OGP National Assessment for Open Governance Progress",
-    "psi": 7.8,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Gombe Scores 80 Points in OGP National Assessment for Open Governance Progress",
-      "whatHappened": "Gombe State achieved an 80-point score in the Q3 2026 Open Government Partnership (OGP) Nigeria subnational ranking, reflecting progress in participatory budgeting, functional secretariats, and digital transparency.",
-      "whyItMatters": "This 7.8 PSI High Signal institutional benchmark validates state efforts to entrench participatory governance, enhancing fiscal transparency and international development partner confidence."
-    },
-    "intent": "Institutionalizing open government frameworks and digital transparency to expand citizen participation."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "NASARAWA",
-    "stateName": "Nasarawa State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Abdullahi Sule Hosts Solomon and Mary Lar Leadership Institute Delegation",
-    "psi": 5.2,
-    "intensity": "MODERATE",
-    "momentum": "Consolidating",
-    "impactMatrix": {
-      "headline": "Governor Abdullahi Sule Hosts Solomon and Mary Lar Leadership Institute Delegation",
-      "whatHappened": "Governor Abdullahi A. Sule received a delegation from the Solomon and Mary Lar Leadership Institute at Government House, Lafia, accepting an invitation to the launch of their learning academy.",
-      "whyItMatters": "This 5.2 PSI Moderate Signal courtesy engagement supports executive leadership development and civic training partnerships within the North-Central geopolitical zone."
-    },
-    "intent": "Fostering institutional relationships with leadership and civic development institutes."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "DELTA",
-    "stateName": "Delta State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Delta State Security Operations Rescue Kidnap Victim and Arrest Five Suspects",
-    "psi": 7.6,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Delta State Security Operations Rescue Kidnap Victim and Arrest Five Suspects",
-      "whatHappened": "Delta State security forces rescued a 25-year-old kidnap victim, arrested five suspects linked to cult killings and abduction, and recovered a Beretta pistol in coordinated raids across Usiefrun, Abraka, and Oghara.",
-      "whyItMatters": "This 7.6 PSI High Signal security action demonstrates active tactical crime suppression, protecting commercial corridors and vital energy transit hubs in the Niger Delta."
-    },
-    "intent": "Executing coordinated tactical security enforcement to dismantle criminal networks and secure commercial corridors."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "ZAMFARA",
-    "stateName": "Zamfara State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Lawal Joins FG Ethiopia Mission; RUWATSAN Trains Pit Emptiers in Gusau",
-    "psi": 8.3,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Lawal Joins FG Ethiopia Mission; RUWATSAN Trains Pit Emptiers in Gusau",
-      "whatHappened": "Governor Dauda Lawal joined VP Shettima's delegation to Ethiopia for the Seqota Declaration nutrition exchange, while Zamfara RUWATSAN, UNICEF, and UK Aid launched a 3-day sanitation training for pit evacautors.",
-      "whyItMatters": "This 8.3 PSI High Signal dual action pairs international study on subnational child nutrition frameworks with practical WASH skill capacity building to eliminate open defecation."
-    },
-    "intent": "Adopting international child nutrition models while building local technical capacity for urban sanitation services."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "BENUE",
-    "stateName": "Benue State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Benue State Government Issues Two-Week Ultimatum to Unauthorized Billboard Operators",
-    "psi": 6.7,
-    "intensity": "MODERATE",
-    "momentum": "Consolidating",
-    "impactMatrix": {
-      "headline": "Benue State Government Issues Two-Week Ultimatum to Unauthorized Billboard Operators",
-      "whatHappened": "Benue Signage Agency, BIRS, and Urban Development Board issued a two-week grace period to October 20 for billboard owners to regularize permits, obtain clearances, and pay statutory fees before enforcement removal.",
-      "whyItMatters": "This 6.7 PSI Moderate Signal regulatory enforcement standardizes urban advertising infrastructure, safeguards public safety, and recovers legitimate non-tax revenue for the state."
-    },
-    "intent": "Enforcing urban planning regulations and recovering statutory non-tax revenue through billboard regularisation."
+    "intent": "Executing comprehensive education sector reform through massive teacher recruitment and direct institutional funding."
   },
   {
     "dayNumber": 7,
@@ -1333,70 +1141,6 @@
   },
   {
     "dayNumber": 7,
-    "stateKey": "EKITI",
-    "stateName": "Ekiti State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Ekiti Cassava Output Crosses 2.1 Million Metric Tonnes Amid Agricultural Expansion",
-    "psi": 8.1,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Ekiti Cassava Output Crosses 2.1 Million Metric Tonnes Amid Agricultural Expansion",
-      "whatHappened": "Ekiti State Government recorded expanded cultivated acreage across rice, maize, cowpea, and cassava, driving state cassava production past 2.1 million metric tonnes and sustaining top South-West rice output.",
-      "whyItMatters": "This 8.1 PSI High Signal agrarian performance demonstrates sustained executive investment in food security, increasing subnational crop yields and strengthening agricultural value chains."
-    },
-    "intent": "Expanding crop production capacity and farm yield performance to secure regional food self-sufficiency."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "KATSINA",
-    "stateName": "Katsina State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "World Bank Moves to Adopt Katsina Community Development Framework; Scholars Back Gov Radda",
-    "psi": 8.7,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "World Bank Moves to Adopt Katsina Community Development Framework; Scholars Back Gov Radda",
-      "whatHappened": "Governor Dikko Umaru Radda revealed World Bank plans to adopt Katsina's Community Development Programme as a national model, met with Katsina Scholars Association, and flagged off the Matazu LGA empowerment scheme.",
-      "whyItMatters": "This 8.7 PSI High Signal outcome validates Katsina's institutionalized grassroots development model globally while mobilizing academic partnerships and local educational support."
-    },
-    "intent": "Scaling institutional community development frameworks while securing academic partnerships for state development."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "KADUNA",
-    "stateName": "Kaduna State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Uba Sani Receives Pensioners Union After Disbursing Over ₦21.4 Billion",
-    "psi": 8.8,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Governor Uba Sani Receives Pensioners Union After Disbursing Over ₦21.4 Billion",
-      "whatHappened": "Governor Uba Sani hosted the Nigeria Union of Pensioners after approving ₦3.959bn last week (bringing total payments to ₦21.455bn for 9,683 retirees), announced pension increases, and donated land and a bus.",
-      "whyItMatters": "This 8.8 PSI High Signal achievement eliminates chronic pension backlog gaps, ensuring prompt monthly payments equal to serving workers and restoring socio-economic security for retirees."
-    },
-    "intent": "Systematically liquidating pension arrears and providing institutional infrastructure support for state retirees."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "AKWA IBOM",
-    "stateName": "Akwa Ibom State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Governor Umo Eno Declares Education Emergency, Approves 2,000 Teachers and School Grants",
-    "psi": 9.1,
-    "intensity": "OPTIMUM",
-    "momentum": "Accelerating",
-    "impactMatrix": {
-      "headline": "Governor Umo Eno Declares Education Emergency, Approves 2,000 Teachers and School Grants",
-      "whatHappened": "Governor Umo Eno declared a state of emergency in education, approved the recruitment of 2,000 primary school teachers, a ₦50,000 wardrobe allowance per public teacher, and ₦500,000 support for 1,776 private schools.",
-      "whyItMatters": "This 9.1 PSI Optimum Signal policy intervention deploys major capital and human resources to transform basic education standards, improve teacher welfare, and support private educational infrastructure."
-    },
-    "intent": "Executing comprehensive education sector reform through massive teacher recruitment and direct institutional funding."
-  },
-  {
-    "dayNumber": 7,
     "stateKey": "YOBE",
     "stateName": "Yobe State",
     "displayDate": "Wednesday, October 7, 2026",
@@ -1410,22 +1154,6 @@
       "whyItMatters": "This 9.0 PSI Optimum Signal intervention secures the state's healthcare workforce pipeline while upgrading academic and judicial wage structures to retain professional talent."
     },
     "intent": "Absorbing healthcare trainees into civil service and upgrading professional salary structures to retain talent."
-  },
-  {
-    "dayNumber": 7,
-    "stateKey": "PLATEAU",
-    "stateName": "Plateau State",
-    "displayDate": "Wednesday, October 7, 2026",
-    "headline": "Plateau Government Establishes Verification Centre at PS-DMCMA to Check Substandard Goods",
-    "psi": 7.2,
-    "intensity": "HIGH",
-    "momentum": "Advancing",
-    "impactMatrix": {
-      "headline": "Plateau Government Establishes Verification Centre at PS-DMCMA to Check Substandard Goods",
-      "whatHappened": "Plateau State Drugs and Medical Commodities Management Agency established an information and verification centre to enable citizens to verify NAFDAC registration of food, drugs, and cosmetics.",
-      "whyItMatters": "This 7.2 PSI High Signal public health initiative creates institutional channels to combat counterfeit drugs and unsafe consumer goods, protecting citizens from compromised medical commodities."
-    },
-    "intent": "Establishing institutional verification structures to protect public health and suppress counterfeit commodities."
   },
   {
     "dayNumber": 7,
@@ -1445,6 +1173,262 @@
   },
   {
     "dayNumber": 7,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Uba Sani Receives Pensioners Union After Disbursing Over ₦21.4 Billion",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Uba Sani Receives Pensioners Union After Disbursing Over ₦21.4 Billion",
+      "whatHappened": "Governor Uba Sani hosted the Nigeria Union of Pensioners after approving ₦3.959bn last week (bringing total payments to ₦21.455bn for 9,683 retirees), announced pension increases, and donated land and a bus.",
+      "whyItMatters": "This 8.8 PSI High Signal achievement eliminates chronic pension backlog gaps, ensuring prompt monthly payments equal to serving workers and restoring socio-economic security for retirees."
+    },
+    "intent": "Systematically liquidating pension arrears and providing institutional infrastructure support for state retirees."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "World Bank Moves to Adopt Katsina Community Development Framework; Scholars Back Gov Radda",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "World Bank Moves to Adopt Katsina Community Development Framework; Scholars Back Gov Radda",
+      "whatHappened": "Governor Dikko Umaru Radda revealed World Bank plans to adopt Katsina's Community Development Programme as a national model, met with Katsina Scholars Association, and flagged off the Matazu LGA empowerment scheme.",
+      "whyItMatters": "This 8.7 PSI High Signal outcome validates Katsina's institutionalized grassroots development model globally while mobilizing academic partnerships and local educational support."
+    },
+    "intent": "Scaling institutional community development frameworks while securing academic partnerships for state development."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Aiyedatiwa Receives NEMA Briefing and Deploys Resources to Air Force Crash Site",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Aiyedatiwa Receives NEMA Briefing and Deploys Resources to Air Force Crash Site",
+      "whatHappened": "Governor Lucky Aiyedatiwa received NEMA leadership in Akure and deployed swamp buggies, local boats, and multi-agency emergency assets to recover the wreckage of a crashed Air Force aircraft in Igbokoda.",
+      "whyItMatters": "This 8.5 PSI High Signal emergency response demonstrates rapid subnational operational coordination across naval, air force, and local community assets to execute complex search and recovery in swamp terrain."
+    },
+    "intent": "Coordinating multi-agency emergency response and deploying specialized amphibious equipment for disaster recovery."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Okpebholo Threatens Contractor Arrest and Directs 24-Hour Abduction Rescue",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Okpebholo Threatens Contractor Arrest and Directs 24-Hour Abduction Rescue",
+      "whatHappened": "Governor Monday Okpebholo threatened the arrest of a contractor over the abandoned Benin-Abraka road, directed security agencies to rescue 90-year-old Pa Joseph Iduoriyekemwen within 24 hours, while Egor LGA swore in 10 appointees.",
+      "whyItMatters": "This 8.4 PSI High Signal executive enforcement addresses contractor accountability on critical transit corridors while deploying joint security apparatus to neutralize high-profile kidnapping threats."
+    },
+    "intent": "Enforcing contractual accountability on state infrastructure while commanding tactical joint security operations."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Lawal Joins FG Ethiopia Mission; RUWATSAN Trains Pit Emptiers in Gusau",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Lawal Joins FG Ethiopia Mission; RUWATSAN Trains Pit Emptiers in Gusau",
+      "whatHappened": "Governor Dauda Lawal joined VP Shettima's delegation to Ethiopia for the Seqota Declaration nutrition exchange, while Zamfara RUWATSAN, UNICEF, and UK Aid launched a 3-day sanitation training for pit evacautors.",
+      "whyItMatters": "This 8.3 PSI High Signal dual action pairs international study on subnational child nutrition frameworks with practical WASH skill capacity building to eliminate open defecation."
+    },
+    "intent": "Adopting international child nutrition models while building local technical capacity for urban sanitation services."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "TARABA",
+    "stateName": "Taraba State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Agbu Kefas Attends High-Level Lake Chad MNJTF Security Forum in Abuja",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Agbu Kefas Attends High-Level Lake Chad MNJTF Security Forum in Abuja",
+      "whatHappened": "Governor Agbu Kefas participated in a two-day high-level forum at the National Defence College in Abuja to strategize on repositioning the Multinational Joint Task Force against Boko Haram, ISWAP, and cross-border crime.",
+      "whyItMatters": "This 8.2 PSI High Signal policy engagement leverages executive military expertise to align subnational intelligence frameworks with regional counter-insurgency operations across the Lake Chad Basin corridor."
+    },
+    "intent": "Strengthening regional subnational security coordination and intelligence sharing to suppress transnational asymmetric threats."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Ekiti Cassava Output Crosses 2.1 Million Metric Tonnes Amid Agricultural Expansion",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ekiti Cassava Output Crosses 2.1 Million Metric Tonnes Amid Agricultural Expansion",
+      "whatHappened": "Ekiti State Government recorded expanded cultivated acreage across rice, maize, cowpea, and cassava, driving state cassava production past 2.1 million metric tonnes and sustaining top South-West rice output.",
+      "whyItMatters": "This 8.1 PSI High Signal agrarian performance demonstrates sustained executive investment in food security, increasing subnational crop yields and strengthening agricultural value chains."
+    },
+    "intent": "Expanding crop production capacity and farm yield performance to secure regional food self-sufficiency."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Bago Advocates NELFUND Expansion, Presents 34-Seater Bus to Niger Tornadoes FC",
+    "psi": 8.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Bago Advocates NELFUND Expansion, Presents 34-Seater Bus to Niger Tornadoes FC",
+      "whatHappened": "Governor Mohammed Umaru Bago urged the Senate Committee on Tertiary Education to extend NELFUND student loans to all tertiary institutions, presented a 34-seater team bus to Niger Tornadoes FC, and received a mine collapse condolence delegation.",
+      "whyItMatters": "This 8.1 PSI High Signal multi-sectoral engagement pairs high-level advocacy for national student loan equity with physical asset deployment for state sports infrastructure and ongoing mining incident inquiries."
+    },
+    "intent": "Advocating for federal student loan expansion while deploying logistical assets to state sports institutions."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Idris Approves ₦63.65 Million Registration Fees for 67 Law School Indigenes",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Idris Approves ₦63.65 Million Registration Fees for 67 Law School Indigenes",
+      "whatHappened": "Governor Nasir Idris approved ₦63.65 million to cover full tuition fees for 67 Kebbi indigenes attending the Nigerian Law School for the 2025/2026 session, disbursing ₦950,000 directly per student.",
+      "whyItMatters": "This 8.0 PSI High Signal fiscal release removes direct financial barriers for high-level professional education, expanding human capital capacity and sustaining state support for legal human resources."
+    },
+    "intent": "Providing direct state sponsorship for higher legal education to build professional subnational human capital."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Gombe Scores 80 Points in OGP National Assessment for Open Governance Progress",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gombe Scores 80 Points in OGP National Assessment for Open Governance Progress",
+      "whatHappened": "Gombe State achieved an 80-point score in the Q3 2026 Open Government Partnership (OGP) Nigeria subnational ranking, reflecting progress in participatory budgeting, functional secretariats, and digital transparency.",
+      "whyItMatters": "This 7.8 PSI High Signal institutional benchmark validates state efforts to entrench participatory governance, enhancing fiscal transparency and international development partner confidence."
+    },
+    "intent": "Institutionalizing open government frameworks and digital transparency to expand citizen participation."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Delta State Security Operations Rescue Kidnap Victim and Arrest Five Suspects",
+    "psi": 7.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta State Security Operations Rescue Kidnap Victim and Arrest Five Suspects",
+      "whatHappened": "Delta State security forces rescued a 25-year-old kidnap victim, arrested five suspects linked to cult killings and abduction, and recovered a Beretta pistol in coordinated raids across Usiefrun, Abraka, and Oghara.",
+      "whyItMatters": "This 7.6 PSI High Signal security action demonstrates active tactical crime suppression, protecting commercial corridors and vital energy transit hubs in the Niger Delta."
+    },
+    "intent": "Executing coordinated tactical security enforcement to dismantle criminal networks and secure commercial corridors."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Otu Inspects Odukpani Fire Devastation and Landslide Sites to Direct State Relief",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Otu Inspects Odukpani Fire Devastation and Landslide Sites to Direct State Relief",
+      "whatHappened": "Governor Bassey Otu conducted an on-the-spot assessment of fire damage in Odukpani and active landslide zones across Cross River State, committing to structured state intervention and stakeholder relief.",
+      "whyItMatters": "This 7.5 PSI High Signal executive intervention mobilizes state emergency resources to restore destroyed economic livelihoods and protect vulnerable transport corridors from imminent slope failure and environmental collapse."
+    },
+    "intent": "Assessing disaster sites first-hand to mobilize targeted state financial relief and structural infrastructure remediation."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Plateau Government Establishes Verification Centre at PS-DMCMA to Check Substandard Goods",
+    "psi": 7.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Government Establishes Verification Centre at PS-DMCMA to Check Substandard Goods",
+      "whatHappened": "Plateau State Drugs and Medical Commodities Management Agency established an information and verification centre to enable citizens to verify NAFDAC registration of food, drugs, and cosmetics.",
+      "whyItMatters": "This 7.2 PSI High Signal public health initiative creates institutional channels to combat counterfeit drugs and unsafe consumer goods, protecting citizens from compromised medical commodities."
+    },
+    "intent": "Establishing institutional verification structures to protect public health and suppress counterfeit commodities."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Adamawa Governor Fintiri Directs New Operational Hilux Vehicle to Ministry of Energy",
+    "psi": 6.8,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Adamawa Governor Fintiri Directs New Operational Hilux Vehicle to Ministry of Energy",
+      "whatHappened": "Governor Ahmadu Umaru Fintiri provided a new Hilux operational vehicle to the Adamawa State Ministry of Energy to support field inspections, technical assessments, and project monitoring of rural solar mini-grids.",
+      "whyItMatters": "This 6.8 PSI Moderate Signal resource allocation resolves field supervision bottlenecks, directly strengthening public oversight and technical quality control across ongoing off-grid solar electrification projects in underserved rural communities."
+    },
+    "intent": "Enhancing state institutional capacity for field supervision and monitoring of off-grid solar mini-grid installations."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "BENUE",
+    "stateName": "Benue State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Benue State Government Issues Two-Week Ultimatum to Unauthorized Billboard Operators",
+    "psi": 6.7,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Benue State Government Issues Two-Week Ultimatum to Unauthorized Billboard Operators",
+      "whatHappened": "Benue Signage Agency, BIRS, and Urban Development Board issued a two-week grace period to October 20 for billboard owners to regularize permits, obtain clearances, and pay statutory fees before enforcement removal.",
+      "whyItMatters": "This 6.7 PSI Moderate Signal regulatory enforcement standardizes urban advertising infrastructure, safeguards public safety, and recovers legitimate non-tax revenue for the state."
+    },
+    "intent": "Enforcing urban planning regulations and recovering statutory non-tax revenue through billboard regularisation."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "OSUN",
+    "stateName": "Osun State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Osun Environmental Sanitation Taskforce Engages Market and Religious Leaders in Osogbo",
+    "psi": 6.5,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Osun Environmental Sanitation Taskforce Engages Market and Religious Leaders in Osogbo",
+      "whatHappened": "The Osun State Taskforce on Environmental Sanitation convened market, traditional, and religious leaders at the secretariat to enforce waste disposal regulations and prevent flood-inducing drainage blockages.",
+      "whyItMatters": "This 6.5 PSI Moderate Signal regulatory intervention establishes grassroots community compliance frameworks to protect urban waterways and reduce public health hazards associated with illegal refuse dumping."
+    },
+    "intent": "Mobilizing community stakeholders to enforce urban environmental sanitation regulations and mitigate flood risks."
+  },
+  {
+    "dayNumber": 7,
     "stateKey": "KWARA",
     "stateName": "Kwara State",
     "displayDate": "Wednesday, October 7, 2026",
@@ -1458,6 +1442,22 @@
       "whyItMatters": "This 5.8 PSI Moderate Signal institutional recognition highlights productive state-tertiary partnerships, promoting academic excellence and research capacity in Kwara State."
     },
     "intent": "Celebrating academic research milestones and fostering state partnerships with higher education institutions."
+  },
+  {
+    "dayNumber": 7,
+    "stateKey": "NASARAWA",
+    "stateName": "Nasarawa State",
+    "displayDate": "Wednesday, October 7, 2026",
+    "headline": "Governor Abdullahi Sule Hosts Solomon and Mary Lar Leadership Institute Delegation",
+    "psi": 5.2,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Governor Abdullahi Sule Hosts Solomon and Mary Lar Leadership Institute Delegation",
+      "whatHappened": "Governor Abdullahi A. Sule received a delegation from the Solomon and Mary Lar Leadership Institute at Government House, Lafia, accepting an invitation to the launch of their learning academy.",
+      "whyItMatters": "This 5.2 PSI Moderate Signal courtesy engagement supports executive leadership development and civic training partnerships within the North-Central geopolitical zone."
+    },
+    "intent": "Fostering institutional relationships with leadership and civic development institutes."
   }
   ],
 
@@ -3564,7 +3564,7 @@
           },
           "securityAnalysis": "Nasarawa State (5.2 PSI / Moderate Signal / SIS 2.6 / SECURE / Defensive-Growth / Emerging Gamma Opportunity) remains a secure commercial gateway state adjacent to the Federal Capital Territory."
         }
-     ]
+      ]
     }
   },
 
