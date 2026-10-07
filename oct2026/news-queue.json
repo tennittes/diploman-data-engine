@@ -4042,7 +4042,7 @@
     {
       "id": "news-2026-10-06-41",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Zamfara Council Approves \u20a670.9 Billion Contract for 53km Gusau\u2013Jauri\u2013Nasarawar Godel Road",
       "labels": [
         "News Report",
@@ -4074,7 +4074,7 @@
     {
       "id": "news-2026-10-06-42",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Zamfara Flags Off 95km Tsafe Road Project, Links Infrastructure to Security and Economic Access",
       "labels": [
         "News Report",
@@ -4106,7 +4106,7 @@
     {
       "id": "news-2026-10-06-43",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Oyebanji Rewards Ekiti Teachers and Administrators with \u20a670.5 Million on World Teachers' Day",
       "labels": [
         "News Report",
@@ -4138,7 +4138,7 @@
     {
       "id": "news-2026-10-06-44",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Katsina Launches Community Investment Fund to Reach More Than 40,000 Women",
       "labels": [
         "News Report",
@@ -4708,7 +4708,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4732,7 +4732,7 @@
       "lead_narrative": "Taraba State Governor Agbu Kefas has participated in a two-day high-level forum on the Multinational Joint Task Force and security in the Lake Chad region, placing regional coordination, intelligence sharing and responses to evolving asymmetric threats at the centre of discussions at the National Defence College in Abuja. The October 7, 2026 development brings a state governor with military experience into a wider regional security discussion concerning terrorism and cross-border crime.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "According to a Taraba State government publication, Governor Kefas attended the two-day forum under the theme, “Repositioning the Multinational Joint Task Force (MNJTF) to Effectively Combat Evolving Threat Dynamics in the Lake Chad Region.” The engagement was held at the National Defence College in Abuja and brought together participants to examine how the regional security mechanism can respond more effectively to changing threats. The forum's focus is significant because the security environment confronting the Lake Chad Basin has evolved beyond a single pattern of insurgent activity. The discussions therefore centred on strengthening cooperation among participating countries, improving operational effectiveness and creating more coordinated responses to emerging security challenges. For Taraba, whose governor participated in the discussions, the engagement also places the state's security concerns within a broader regional architecture rather than treating insecurity exclusively as a state-level responsibility.",
+        "According to a Taraba State government publication, Governor Kefas attended the two-day forum under the theme, \u201cRepositioning the Multinational Joint Task Force (MNJTF) to Effectively Combat Evolving Threat Dynamics in the Lake Chad Region.\u201d The engagement was held at the National Defence College in Abuja and brought together participants to examine how the regional security mechanism can respond more effectively to changing threats. The forum's focus is significant because the security environment confronting the Lake Chad Basin has evolved beyond a single pattern of insurgent activity. The discussions therefore centred on strengthening cooperation among participating countries, improving operational effectiveness and creating more coordinated responses to emerging security challenges. For Taraba, whose governor participated in the discussions, the engagement also places the state's security concerns within a broader regional architecture rather than treating insecurity exclusively as a state-level responsibility.",
         "Kefas participated in the discussions from the perspective of his experience as a retired Lieutenant Colonel of the Nigerian Army and as a governor involved in security and governance matters. The Taraba State government publication said participants examined threats associated with terrorist organisations including Boko Haram and the Islamic State West Africa Province, alongside other forms of cross-border crime. The emphasis was not limited to the existence of these threats but to the changing nature of the operating environment and the need for security institutions to adapt. Such adaptation includes stronger intelligence sharing, coordinated action and improved regional cooperation. The forum consequently provided a setting for military, governmental and other stakeholders to consider how existing structures can respond to threats that move across national boundaries and cannot be addressed effectively by one country or institution acting alone.",
         "The Multinational Joint Task Force remains central to that regional framework. The Taraba State government publication identified the force as comprising personnel from Nigeria, Cameroon, Chad and Benin, while noting that Niger had suspended its participation. Its role in the Lake Chad Basin is tied to countering terrorism and contributing to the restoration of stability in affected areas. The discussion at the National Defence College therefore concerned not merely the continuation of the MNJTF but its repositioning to meet evolving threat dynamics. Strengthening the operational effectiveness of the force, improving intelligence exchange and coordinating responses among countries in the basin were presented as important elements of the forum. These issues are particularly relevant to a regional security structure whose effectiveness depends on cooperation across national jurisdictions and the ability of participating forces to respond to threats that do not respect borders.",
         "For Taraba, the discussion also has a wider state-security dimension because the governor's participation connects the state's own security priorities to regional cooperation. Kefas has previously emphasised the importance of security to governance and development, and his participation in the forum provides another avenue for engaging with the broader security institutions operating across Nigeria and the Lake Chad region. The forum did not announce a new Taraba-specific security operation in the material reviewed. Instead, its immediate significance lies in the high-level discussion of the regional security framework and the need to make joint responses more effective. The emphasis on intelligence sharing and coordinated action suggests that the participants were considering institutional and operational mechanisms rather than a single isolated intervention.",
@@ -4741,7 +4741,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4774,7 +4774,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4782,7 +4782,7 @@
       "type": "news_report",
       "id": "news-2026-10-07-04",
       "published": false,
-      "title": "Kebbi Approves ₦63.65 Million Registration Fees for 67 Nigerian Law School Students",
+      "title": "Kebbi Approves \u20a663.65 Million Registration Fees for 67 Nigerian Law School Students",
       "labels": [
         "News Report",
         "Kebbi",
@@ -4795,19 +4795,19 @@
         "aria_label": "Kebbi State Governor Nasir Idris Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kebbi State Governor Nasir Idris has approved ₦63.65 million to cover registration fees for 67 Kebbi indigenes undergoing legal training at the Nigerian Law School during the 2025/2026 academic session. The intervention, disclosed in a statement from the state Commissioner for Justice and Attorney-General, places direct financial support for professional legal education at the centre of the state's latest education-related expenditure.",
+      "lead_narrative": "Kebbi State Governor Nasir Idris has approved \u20a663.65 million to cover registration fees for 67 Kebbi indigenes undergoing legal training at the Nigerian Law School during the 2025/2026 academic session. The intervention, disclosed in a statement from the state Commissioner for Justice and Attorney-General, places direct financial support for professional legal education at the centre of the state's latest education-related expenditure.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The approval was contained in a statement signed by Professor Junaidu Bello Marshal, SAN, the Kebbi State Commissioner for Justice and Attorney-General, and issued in Birnin Kebbi on Tuesday. According to the statement, each of the 67 beneficiaries will receive ₦950,000 toward their registration fees, producing a total commitment of ₦63,650,000. The funding is intended for Kebbi indigenes undergoing professional legal training at the Nigerian Law School for the 2025/2026 academic session. A Kebbi State government publication said the intervention forms part of Governor Idris' support for indigenes pursuing legal education and is designed to prevent financial constraints from obstructing their professional training. The approval therefore has a defined beneficiary group, a specified academic session and a stated financial purpose.",
-        "The structure of the intervention makes the government's commitment relatively clear: 67 students are covered and the same ₦950,000 registration amount is assigned to each beneficiary. The total corresponds to the approved sum of ₦63.65 million. The state government's decision directly addresses the registration cost associated with the students' professional training rather than announcing a broader scholarship framework in the latest statement. By meeting the registration obligation, the government is seeking to remove one immediate financial barrier facing the beneficiaries as they continue their legal education. The statement did not indicate that the funding represents payment for all educational expenses associated with the students' training, so the confirmed intervention should remain defined specifically as registration-fee support.",
+        "The approval was contained in a statement signed by Professor Junaidu Bello Marshal, SAN, the Kebbi State Commissioner for Justice and Attorney-General, and issued in Birnin Kebbi on Tuesday. According to the statement, each of the 67 beneficiaries will receive \u20a6950,000 toward their registration fees, producing a total commitment of \u20a663,650,000. The funding is intended for Kebbi indigenes undergoing professional legal training at the Nigerian Law School for the 2025/2026 academic session. A Kebbi State government publication said the intervention forms part of Governor Idris' support for indigenes pursuing legal education and is designed to prevent financial constraints from obstructing their professional training. The approval therefore has a defined beneficiary group, a specified academic session and a stated financial purpose.",
+        "The structure of the intervention makes the government's commitment relatively clear: 67 students are covered and the same \u20a6950,000 registration amount is assigned to each beneficiary. The total corresponds to the approved sum of \u20a663.65 million. The state government's decision directly addresses the registration cost associated with the students' professional training rather than announcing a broader scholarship framework in the latest statement. By meeting the registration obligation, the government is seeking to remove one immediate financial barrier facing the beneficiaries as they continue their legal education. The statement did not indicate that the funding represents payment for all educational expenses associated with the students' training, so the confirmed intervention should remain defined specifically as registration-fee support.",
         "Professor Marshal said the approval reflected the administration's commitment to supporting Kebbi indigenes pursuing legal education and ensuring that financial limitations do not hinder their professional development. He also expressed appreciation to Governor Idris for continued support for Kebbi law students and the Ministry of Justice. The government's stated rationale therefore connects the expenditure to the development of legal professionals from the state. For the beneficiaries, the immediate effect is the easing of a registration-related financial obligation, allowing them to focus on their studies and professional training without that particular cost remaining outstanding. The intervention also places the Ministry of Justice within the administrative context of supporting the development of future legal practitioners.",
         "The latest approval follows previous state government interventions involving Kebbi indigenes at the Nigerian Law School. The Kebbi State government publication recalled that tuition and registration fees had also been paid for beneficiaries in 2024 and 2025. This establishes a pattern of recurring state support for the professional legal education of its indigenes, although the current approval remains specific to the 2025/2026 academic session and the 67 beneficiaries identified in the latest announcement. The significance of the new approval therefore lies both in the immediate financial assistance and in its continuity with previous interventions reported by the state government. The latest measure does not, however, establish a permanent funding mechanism beyond the announced commitment.",
-        "As of October 7, the confirmed position is that Governor Idris has approved ₦63.65 million for registration fees covering 67 Kebbi indigenes at the Nigerian Law School for the 2025/2026 academic session. The approved amount is tied to a specific beneficiary group and a clearly stated registration obligation. The intervention is consequently at the approval and funding stage described by the state government, rather than a broader claim about completed professional qualification or future employment outcomes. For the beneficiaries, the immediate next step is the processing and application of the approved registration support as they continue their legal training."
+        "As of October 7, the confirmed position is that Governor Idris has approved \u20a663.65 million for registration fees covering 67 Kebbi indigenes at the Nigerian Law School for the 2025/2026 academic session. The approved amount is tied to a specific beneficiary group and a clearly stated registration obligation. The intervention is consequently at the approval and funding stage described by the state government, rather than a broader claim about completed professional qualification or future employment outcomes. For the beneficiaries, the immediate next step is the processing and application of the approved registration support as they continue their legal training."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4840,7 +4840,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4874,7 +4874,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4908,7 +4908,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4942,7 +4942,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -4976,7 +4976,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5010,7 +5010,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5044,7 +5044,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5078,7 +5078,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5112,7 +5112,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5146,7 +5146,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5180,7 +5180,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5188,7 +5188,7 @@
       "type": "news_report",
       "id": "news-2026-10-07-16",
       "published": false,
-      "title": "Ogun Clears ₦3.503 Billion Severance Liabilities Owed to 1,042 Former Local Government Officials",
+      "title": "Ogun Clears \u20a63.503 Billion Severance Liabilities Owed to 1,042 Former Local Government Officials",
       "labels": [
         "News Report",
         "Ogun State",
@@ -5202,19 +5202,19 @@
         "aria_label": "Ogun State Governor Dapo Abiodun Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Ogun State Government has cleared ₦3.503 billion in outstanding severance allowances owed to former political office-holders who served across the state's 20 local government councils and Local Council Development Areas between 2016 and 2024. The payment covers 1,042 former officials from two tenure periods and was presented by the administration as settlement of legitimate inherited liabilities following verification and reconciliation by relevant state and local government institutions. Beneficiaries who received the payments described the development as a significant fulfilment of an outstanding obligation.",
+      "lead_narrative": "The Ogun State Government has cleared \u20a63.503 billion in outstanding severance allowances owed to former political office-holders who served across the state's 20 local government councils and Local Council Development Areas between 2016 and 2024. The payment covers 1,042 former officials from two tenure periods and was presented by the administration as settlement of legitimate inherited liabilities following verification and reconciliation by relevant state and local government institutions. Beneficiaries who received the payments described the development as a significant fulfilment of an outstanding obligation.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "According to the Ogun State government publication, former political office-holders from the state's 20 local government councils and Local Council Development Areas have received a total of ₦3,503,489,479.56 in outstanding severance allowances. The beneficiaries served between 2016 and 2024 and include former chairmen, vice-chairmen, secretaries to local governments, supervisors, special advisers and councillors. The settlement therefore covers a broad group of former grassroots political office-holders whose entitlements had remained outstanding across two separate tenure periods.",
-        "The payment was formally presented at the Oba's Complex in Oke-Mosan, Abeokuta, where beneficiaries welcomed the settlement and described it as an indication of the state government's commitment to good governance and the welfare of former political office-holders. The government said the liabilities covered 526 beneficiaries from the 2016–2019 tenure and another 516 from the 2020–2024 tenure, bringing the total number of former officials covered by the settlement to 1,042. The scale of the payment makes the intervention both a local-government personnel issue and a significant public-finance settlement.",
+        "According to the Ogun State government publication, former political office-holders from the state's 20 local government councils and Local Council Development Areas have received a total of \u20a63,503,489,479.56 in outstanding severance allowances. The beneficiaries served between 2016 and 2024 and include former chairmen, vice-chairmen, secretaries to local governments, supervisors, special advisers and councillors. The settlement therefore covers a broad group of former grassroots political office-holders whose entitlements had remained outstanding across two separate tenure periods.",
+        "The payment was formally presented at the Oba's Complex in Oke-Mosan, Abeokuta, where beneficiaries welcomed the settlement and described it as an indication of the state government's commitment to good governance and the welfare of former political office-holders. The government said the liabilities covered 526 beneficiaries from the 2016\u20132019 tenure and another 516 from the 2020\u20132024 tenure, bringing the total number of former officials covered by the settlement to 1,042. The scale of the payment makes the intervention both a local-government personnel issue and a significant public-finance settlement.",
         "The Ogun State government publication said the administration's decision followed verification and reconciliation undertaken by the Ministry of Local Government and Chieftaincy Affairs, the State Audit Department and the Local Government Service Commission. Verified beneficiaries were paid through their bank accounts, while individuals who had not received payment alerts because of account-related problems were directed to approach the ministry with the relevant documentation. The verification process provides the administrative basis identified by the government for determining the beneficiaries and amounts payable before the settlement was effected.",
         "Beneficiaries who spoke at the presentation commended the administration and the officials involved in the reconciliation and payment process. Hon. Okunade Adebayo and Hon. Abosede Balogun said the settlement demonstrated that their contributions to grassroots development had not been forgotten and described the process as seamless, transparent and orderly. Hon. Emiola Ghazal, a former Chairman of Ijebu Ode Local Government, described the settlement as unprecedented in the state and said the decision had strengthened confidence among beneficiaries and grassroots stakeholders. He also suggested that the development could have political implications for the All Progressives Congress ahead of the 2027 general elections.",
-        "As of October 7, 2026, the Ogun State government publication records the ₦3,503,489,479.56 settlement as a completed payment exercise covering 1,042 former local government political office-holders from the 2016–2019 and 2020–2024 periods. The administration characterised the payment as settlement of legitimate inherited liabilities, while beneficiaries acknowledged receipt and urged continued attention to the welfare of workers and stakeholders. The outstanding-account cases identified in the publication relate only to beneficiaries whose payment alerts had not been received because of account-related issues and who were instructed to provide documentation for resolution."
+        "As of October 7, 2026, the Ogun State government publication records the \u20a63,503,489,479.56 settlement as a completed payment exercise covering 1,042 former local government political office-holders from the 2016\u20132019 and 2020\u20132024 periods. The administration characterised the payment as settlement of legitimate inherited liabilities, while beneficiaries acknowledged receipt and urged continued attention to the welfare of workers and stakeholders. The outstanding-account cases identified in the publication relate only to beneficiaries whose payment alerts had not been received because of account-related issues and who were instructed to provide documentation for resolution."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5248,7 +5248,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5282,7 +5282,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5316,7 +5316,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5350,7 +5350,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5369,19 +5369,19 @@
         "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Kaduna State Government has announced plans to increase pensions for retirees while Governor Uba Sani has provided additional institutional support to the Nigeria Union of Pensioners, including an operational bus and land for a permanent state secretariat. The development follows the administration's reported disbursement of more than ₦21 billion toward pension arrears, gratuities and death benefits since assuming office.",
+      "lead_narrative": "The Kaduna State Government has announced plans to increase pensions for retirees while Governor Uba Sani has provided additional institutional support to the Nigeria Union of Pensioners, including an operational bus and land for a permanent state secretariat. The development follows the administration's reported disbursement of more than \u20a621 billion toward pension arrears, gratuities and death benefits since assuming office.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Uba Sani announced the planned pension increase as part of a broader package of measures aimed at improving the welfare of retirees across Kaduna State. The announcement came alongside the presentation of an official operational bus to the Nigeria Union of Pensioners and the allocation of a parcel of land for the construction of the union's permanent state secretariat. According to the Kaduna State government publication, the latest measures extend an existing programme of pension payments and settlement of outstanding obligations to retirees and families of deceased pensioners.",
-        "The welfare intervention follows the administration's recent approval of ₦3.959 billion for the settlement of pension arrears, gratuities and death benefits. That release brought the cumulative amount reportedly paid by the administration for such obligations to ₦21.455 billion, with 9,683 pensioners and beneficiaries identified as having benefited. The figures place the pension programme within a broader fiscal commitment to clearing inherited obligations while maintaining regular payments to retirees. The latest announcement therefore concerns both the stock of outstanding liabilities already addressed and the continuing financial support required to maintain pension obligations.",
+        "The welfare intervention follows the administration's recent approval of \u20a63.959 billion for the settlement of pension arrears, gratuities and death benefits. That release brought the cumulative amount reportedly paid by the administration for such obligations to \u20a621.455 billion, with 9,683 pensioners and beneficiaries identified as having benefited. The figures place the pension programme within a broader fiscal commitment to clearing inherited obligations while maintaining regular payments to retirees. The latest announcement therefore concerns both the stock of outstanding liabilities already addressed and the continuing financial support required to maintain pension obligations.",
         "The government publication also records a change in the timing of pension payments under the present administration. Pensioners reportedly now receive their payments at the same time as serving civil servants and before the end of each month. The Nigeria Union of Pensioners contrasted this arrangement with an earlier situation in which local government pensioners could wait as long as two weeks after state pensioners had received their payments. The union said that gap had now been eliminated, creating a more uniform payment schedule for pensioners across the state. The reported pension increase would add another dimension to the welfare framework by addressing the level of retirement income rather than payment timing alone.",
         "The Nigeria Union of Pensioners formally acknowledged the administration's actions during its engagement with Governor Sani, expressing appreciation for the payment of arrears, gratuities and death benefits as well as the regular monthly pension arrangements. The union subsequently honoured the governor with a Pensioner-Friendly Governor award in recognition of what it described as the administration's efforts on behalf of retirees. The operational bus and proposed permanent secretariat site also have an organisational dimension, providing the union with additional logistical capacity and a basis for a permanent institutional presence in Kaduna State.",
-        "The combined measures represent a continuing state-government intervention in pension administration rather than a single payment event. As of October 7, 2026, the Kaduna State government publication records more than ₦21 billion in cumulative payments to pensioners and beneficiaries, the recent ₦3.959 billion release, regular payment arrangements and a newly announced plan to increase pensions. The governor's award from the pensioners' union followed these reported measures, while the bus and land allocation provide additional support to the union's operations. The immediate policy direction is therefore centred on sustaining retiree payments and expanding welfare support across Kaduna State."
+        "The combined measures represent a continuing state-government intervention in pension administration rather than a single payment event. As of October 7, 2026, the Kaduna State government publication records more than \u20a621 billion in cumulative payments to pensioners and beneficiaries, the recent \u20a63.959 billion release, regular payment arrangements and a newly announced plan to increase pensions. The governor's award from the pensioners' union followed these reported measures, while the bus and land allocation provide additional support to the union's operations. The immediate policy direction is therefore centred on sustaining retiree payments and expanding welfare support across Kaduna State."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5412,7 +5412,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5420,7 +5420,7 @@
       "type": "news_report",
       "id": "news-2026-10-07-23",
       "published": false,
-      "title": "Kaduna Pensioners Commend Uba Sani as Cumulative Retiree Payments Reach ₦21.455 Billion",
+      "title": "Kaduna Pensioners Commend Uba Sani as Cumulative Retiree Payments Reach \u20a621.455 Billion",
       "labels": [
         "News Report",
         "Kaduna State"
@@ -5431,19 +5431,19 @@
         "aria_label": "Kaduna State Governor Uba Sani Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "The Nigeria Union of Pensioners has commended Kaduna State Governor Uba Sani for what it described as consistent attention to pension obligations, following the administration's reported cumulative payment of ₦21.455 billion to pensioners and beneficiaries across the state.",
+      "lead_narrative": "The Nigeria Union of Pensioners has commended Kaduna State Governor Uba Sani for what it described as consistent attention to pension obligations, following the administration's reported cumulative payment of \u20a621.455 billion to pensioners and beneficiaries across the state.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
-        "The Nigeria Union of Pensioners paid a courtesy visit to Governor Uba Sani at Sir Kashim Ibrahim House, with the delegation led by the union's Deputy National Chairman, Comrade Chief Abdullahi Onu Usman. According to the Kaduna State government publication, the visit was intended in part to express appreciation for the administration's handling of pension arrears and gratuities. The engagement followed the governor's approval of a fresh ₦3.959 billion release to settle pension arrears, gratuities and death benefits owed to retirees and families of deceased pensioners.",
-        "The latest release takes the administration's reported cumulative payments for these obligations to ₦21.455 billion and has benefited 9,683 pensioners and beneficiaries. The figures cover several categories of retirement-related obligations, including arrears owed to pensioners, gratuities and death benefits. The government publication presents the payments as part of an ongoing effort to address retiree obligations rather than as a single disbursement, with the latest approval adding another ₦3.959 billion to the amount already reported as paid by the administration.",
+        "The Nigeria Union of Pensioners paid a courtesy visit to Governor Uba Sani at Sir Kashim Ibrahim House, with the delegation led by the union's Deputy National Chairman, Comrade Chief Abdullahi Onu Usman. According to the Kaduna State government publication, the visit was intended in part to express appreciation for the administration's handling of pension arrears and gratuities. The engagement followed the governor's approval of a fresh \u20a63.959 billion release to settle pension arrears, gratuities and death benefits owed to retirees and families of deceased pensioners.",
+        "The latest release takes the administration's reported cumulative payments for these obligations to \u20a621.455 billion and has benefited 9,683 pensioners and beneficiaries. The figures cover several categories of retirement-related obligations, including arrears owed to pensioners, gratuities and death benefits. The government publication presents the payments as part of an ongoing effort to address retiree obligations rather than as a single disbursement, with the latest approval adding another \u20a63.959 billion to the amount already reported as paid by the administration.",
         "The pensioners' union also highlighted a change in the timing of monthly payments. It said pensioners now receive their payments at the same time as serving civil servants and before the end of each month. The union contrasted the arrangement with previous payment patterns in which local government pensioners could wait for as long as two weeks after state pensioners had been paid. According to the union, that distinction has been removed under the current administration, resulting in pensioners across Kaduna State receiving payments on the same schedule.",
         "The engagement therefore centred on both arrears clearance and regular pension administration. The union's appreciation reflects the importance of payment predictability to retirees, particularly where pensioners depend on regular income after leaving active service. The administration's reported settlement of pension arrears, gratuities and death benefits addresses accumulated obligations, while the monthly payment arrangement concerns the continuing administration of pension commitments. The government publication records the pensioners as attributing particular significance to these measures and expressing strong appreciation for the governor's approach to retiree welfare.",
-        "The pensioners' commendation forms part of a broader set of measures announced by Governor Sani on October 7, 2026, including a planned increase in pensions, an operational bus for the Nigeria Union of Pensioners and land for construction of a permanent union secretariat. The union subsequently honoured the governor with a Pensioner-Friendly Governor award. The reported ₦21.455 billion cumulative payment, the recent ₦3.959 billion release and the continuing monthly payment arrangement provide the financial and administrative context for the recognition recorded by the union."
+        "The pensioners' commendation forms part of a broader set of measures announced by Governor Sani on October 7, 2026, including a planned increase in pensions, an operational bus for the Nigeria Union of Pensioners and land for construction of a permanent union secretariat. The union subsequently honoured the governor with a Pensioner-Friendly Governor award. The reported \u20a621.455 billion cumulative payment, the recent \u20a63.959 billion release and the continuing monthly payment arrangement provide the financial and administrative context for the recognition recorded by the union."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5451,7 +5451,7 @@
       "type": "news_report",
       "id": "news-2026-10-07-24",
       "published": false,
-      "title": "Katsina to Flag Off Matazu Empowerment Programme with 3,000 Educational Materials and Women’s Support",
+      "title": "Katsina to Flag Off Matazu Empowerment Programme with 3,000 Educational Materials and Women\u2019s Support",
       "labels": [
         "News Report",
         "Katsina State"
@@ -5466,15 +5466,15 @@
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Dikko Umaru Radda is scheduled to flag off the Katsina Rises Again 2.0 empowerment programme at 10:00 a.m. on October 7, 2026, at the Matazu Local Government Secretariat. The programme was initiated by Professor Saifullahi Sani Ibrahim Matazu, Director-General of the Katsina State Bureau of Statistics, and is designed around educational support and economic empowerment at the grassroots. The Katsina State government publication presents the intervention as part of the administration's wider Building Your Future agenda.",
-        "The principal education component is the planned distribution of more than 3,000 educational materials and textbooks to students across Matazu Local Government Area. The intervention builds on the first edition of the programme, under which students who achieved a grade-point average of 3.5 and above received ₦100,000 each as academic support. The second edition therefore combines the distribution of learning materials with a continuation of the programme's broader emphasis on supporting students and strengthening human-capital development.",
+        "The principal education component is the planned distribution of more than 3,000 educational materials and textbooks to students across Matazu Local Government Area. The intervention builds on the first edition of the programme, under which students who achieved a grade-point average of 3.5 and above received \u20a6100,000 each as academic support. The second edition therefore combines the distribution of learning materials with a continuation of the programme's broader emphasis on supporting students and strengthening human-capital development.",
         "The programme also contains an economic empowerment component directed at women. One hundred women are expected to receive start-up capital to establish or strengthen small businesses. The intervention consequently extends beyond school-based support and connects educational assistance with livelihood development. At the level of local government implementation, the two components target different dimensions of household and community welfare: students receive materials intended to support learning, while selected women receive financial support intended to establish or improve income-generating activities.",
         "The state government publication places the programme within Governor Radda's Building Your Future agenda, which prioritises human capital development, education and economic empowerment. The use of a local government-level flag-off also gives the programme a defined geographic implementation point in Matazu. However, the October 7 report describes the distribution and financial support as components of a programme scheduled to be flagged off rather than as completed outcomes. The stated quantities therefore represent the announced scope of the intervention at the time of the report.",
-        "The scheduled flag-off on October 7, 2026, provides the immediate administrative milestone for Katsina Rises Again 2.0. More than 3,000 educational materials and textbooks are planned for distribution to students, while 100 women are to receive start-up capital. The programme follows an earlier edition that provided ₦100,000 academic support to qualifying students and is being presented by the state as another grassroots human-capital and economic-empowerment intervention under the Building Your Future agenda."
+        "The scheduled flag-off on October 7, 2026, provides the immediate administrative milestone for Katsina Rises Again 2.0. More than 3,000 educational materials and textbooks are planned for distribution to students, while 100 women are to receive start-up capital. The programme follows an earlier edition that provided \u20a6100,000 academic support to qualifying students and is being presented by the state as another grassroots human-capital and economic-empowerment intervention under the Building Your Future agenda."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5505,7 +5505,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5513,7 +5513,7 @@
       "type": "news_report",
       "id": "news-2026-10-07-26",
       "published": false,
-      "title": "Akwa Ibom Declares Education Emergency, Approves 2,000 Teachers and ₦50,000 Wardrobe Allowance",
+      "title": "Akwa Ibom Declares Education Emergency, Approves 2,000 Teachers and \u20a650,000 Wardrobe Allowance",
       "labels": [
         "News Report",
         "Akwa Ibom State"
@@ -5524,19 +5524,19 @@
         "aria_label": "Akwa Ibom State Governor Umo Eno Governance Policy Intelligence",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Akwa Ibom State Governor Umo Eno has declared a state of emergency in the education sector and announced a package of measures including the recruitment of 2,000 additional primary school teachers, a ₦50,000 wardrobe allowance for each teacher in state employment and ₦500,000 support for each of the state's 1,776 registered private schools.",
+      "lead_narrative": "Akwa Ibom State Governor Umo Eno has declared a state of emergency in the education sector and announced a package of measures including the recruitment of 2,000 additional primary school teachers, a \u20a650,000 wardrobe allowance for each teacher in state employment and \u20a6500,000 support for each of the state's 1,776 registered private schools.",
       "editorial_notice": "This News Report provides qualitative subnational coverage. Developing events in this narrative maintain visibility across tracked jurisdictions and do not alter current Policy Signal Index (PSI) standings.",
       "story_body": [
         "Governor Umo Eno declared a state of emergency in Akwa Ibom's education sector during the state's World Teachers' Day celebration at Uyo Township Stadium. The declaration, reported by the Akwa Ibom State government publication on October 7, 2026, places education reform at the centre of the administration's current policy agenda and was accompanied by a series of financial, staffing and institutional measures intended to improve teaching and learning across the state.",
-        "The most immediate staffing intervention is the approval of an additional 2,000 primary school teachers. The recruitment is intended to strengthen the state's teaching workforce and support the delivery of primary education across communities. Alongside the recruitment, the governor approved a ₦50,000 wardrobe allowance for each teacher in state employment. The measure adds a direct welfare component to the education-sector intervention, linking the administration's stated effort to improve teaching standards with support for serving personnel.",
-        "The package also extends beyond government-owned schools. Governor Eno approved ₦500,000 support for each of the state's 1,776 registered private schools. The intervention therefore covers a substantial segment of the education ecosystem outside the direct public-school workforce. The government publication presents the support as part of the wider response to the condition of education in the state, while the governor's declaration of an emergency indicates that the administration intends to subject the sector to a more comprehensive policy review rather than rely solely on individual interventions.",
+        "The most immediate staffing intervention is the approval of an additional 2,000 primary school teachers. The recruitment is intended to strengthen the state's teaching workforce and support the delivery of primary education across communities. Alongside the recruitment, the governor approved a \u20a650,000 wardrobe allowance for each teacher in state employment. The measure adds a direct welfare component to the education-sector intervention, linking the administration's stated effort to improve teaching standards with support for serving personnel.",
+        "The package also extends beyond government-owned schools. Governor Eno approved \u20a6500,000 support for each of the state's 1,776 registered private schools. The intervention therefore covers a substantial segment of the education ecosystem outside the direct public-school workforce. The government publication presents the support as part of the wider response to the condition of education in the state, while the governor's declaration of an emergency indicates that the administration intends to subject the sector to a more comprehensive policy review rather than rely solely on individual interventions.",
         "To support that review, Eno directed that a high-powered committee be constituted to examine the state's educational system and develop a comprehensive framework for improving standards. The committee is to be coordinated by the Deputy Governor in collaboration with the Commissioner for Education. The proposed framework is intended to provide an institutional basis for addressing the issues identified by the administration and for coordinating future interventions across the education system. The governor linked the effort to the broader importance of educating children and preparing them to navigate future economic and social opportunities.",
-        "The education announcement was made during a teachers' celebration at which the governor also acknowledged teachers' role in shaping the future of Akwa Ibom. As of October 7, 2026, the announced measures comprise 2,000 additional primary-school teaching positions, a ₦50,000 wardrobe allowance for each state-employed teacher, ₦500,000 support for each of 1,776 registered private schools and the planned high-powered review committee. The declaration of a state of emergency consequently marks the beginning of a broader education-sector intervention whose implementation and resulting standards remain to be assessed."
+        "The education announcement was made during a teachers' celebration at which the governor also acknowledged teachers' role in shaping the future of Akwa Ibom. As of October 7, 2026, the announced measures comprise 2,000 additional primary-school teaching positions, a \u20a650,000 wardrobe allowance for each state-employed teacher, \u20a6500,000 support for each of 1,776 registered private schools and the planned high-powered review committee. The declaration of a state of emergency consequently marks the beginning of a broader education-sector intervention whose implementation and resulting standards remain to be assessed."
       ],
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5567,7 +5567,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5598,7 +5598,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5629,7 +5629,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5660,7 +5660,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5691,7 +5691,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5722,7 +5722,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5753,7 +5753,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5784,7 +5784,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     },
@@ -5815,7 +5815,7 @@
       "call_to_action": {
         "heading": "Diploman Times Telemetry Interlink",
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
-        "button_label": "Explore Macro Intelligence Terminal →",
+        "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
       }
     }
