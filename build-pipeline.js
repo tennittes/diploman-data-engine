@@ -8,10 +8,6 @@ const OUTPUT_HTML_DIR = path.join(__dirname, 'dist/html');
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
-/**
- * Automatically locate the most recently modified master-data.json
- * across all month directories (e.g., oct2026, nov2026, jan2027)
- */
 function findLatestMasterDataFile() {
   const entries = fs.readdirSync(__dirname, { withFileTypes: true });
   let latestFile = null;
@@ -30,7 +26,6 @@ function findLatestMasterDataFile() {
     }
   }
 
-  // Fallback to root master-data.json if no subdirectory match is found
   if (!latestFile) {
     const rootCandidate = path.join(__dirname, 'master-data.json');
     if (fs.existsSync(rootCandidate)) return rootCandidate;
