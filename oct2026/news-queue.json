@@ -4425,7 +4425,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-53",
       "title": "Bayelsa and Lesotho Explore Economic Cooperation Across Oil, Agriculture, Tourism and Energy",
       "labels": [
@@ -4457,7 +4457,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-54",
       "title": "Plateau Unveils Investment Drive as ACCI Plans 20-Hectare Industrial Park",
       "labels": [
@@ -4489,7 +4489,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-55",
       "title": "Plateau's 70-Transformer Electricity Programme Reaches 98 Percent Completion",
       "labels": [
@@ -4521,7 +4521,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-56",
       "title": "Plateau Government Orders Security Investigation Into Attack on Traders in Bukuru",
       "labels": [
