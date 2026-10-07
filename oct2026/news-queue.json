@@ -3786,7 +3786,7 @@
     {
       "id": "news-2026-10-06-33",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Gombe Youths Urged to Support Peace, Unity and Development Initiatives at Funakaye Maulud Rally",
       "labels": [
         "News Report",
@@ -3818,7 +3818,7 @@
     {
       "id": "news-2026-10-06-34",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Gombe Establishes Sanitation and Hygiene Clubs in 80 Schools Across Seven LGAs",
       "labels": [
         "News Report",
@@ -3850,7 +3850,7 @@
     {
       "id": "news-2026-10-06-35",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Gombe Commissions More Than 86km of Roads and Bridges Under Network-1100 Programme",
       "labels": [
         "News Report",
@@ -3882,7 +3882,7 @@
     {
       "id": "news-2026-10-06-36",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Gombe Opens Kwami West LCDA Secretariat as Government Expands Grassroots Administrative Structure",
       "labels": [
         "News Report",
