@@ -3,9 +3,7 @@ name: Build and Validate Intelligence Pipeline
 on:
   push:
     paths:
-      - 'oct2026/master-data.json'
-      - 'sep2026/master-data.json'
-      - 'aug2026/master-data.json'
+      - '*202*/master-data.json'
       - 'build-pipeline.js'
   workflow_dispatch:
 
