@@ -3530,7 +3530,7 @@
     {
       "id": "news-2026-10-06-25",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Adeleke Signs Osun Park Management Bill into Law, Begins New Transport Framework",
       "labels": [
         "News Report",
@@ -3562,7 +3562,7 @@
     {
       "id": "news-2026-10-06-26",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Adeleke Reiterates Osun Government Commitment to Teachers' Welfare on World Teachers' Day",
       "labels": [
         "News Report",
@@ -3594,7 +3594,7 @@
     {
       "id": "news-2026-10-06-27",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo-CSDA General Manager Receives NYCN Recognition for Community and Youth Development",
       "labels": [
         "News Report",
@@ -3626,7 +3626,7 @@
     {
       "id": "news-2026-10-06-28",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Edo Government Plans Custodial Decongestion, Education and Skills Support for Oko Inmates",
       "labels": [
         "News Report",
