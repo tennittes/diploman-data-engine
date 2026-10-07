@@ -4298,7 +4298,7 @@
     {
       "id": "news-2026-10-06-49",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Soludo Swears In Newly Elected Mayors and Deputy Mayors Across Anambra's 21 LGAs",
       "labels": [
         "News Report",
@@ -4330,7 +4330,7 @@
     {
       "id": "news-2026-10-06-50",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Abia Approves \u20a61 Billion Teachers' Appreciation Allowance as Otti Outlines Education Reforms",
       "labels": [
         "News Report",
@@ -4361,7 +4361,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-51",
       "title": "Abia Governor Otti Approves Three New Appointments",
       "labels": [
@@ -4393,7 +4393,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-52",
       "title": "Abia Government Lists Schools, Health Facilities and Roads Under Otti Administration in Ohafia",
       "labels": [
