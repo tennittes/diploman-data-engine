@@ -1458,6 +1458,294 @@
       "whyItMatters": "This 5.2 PSI Moderate Signal courtesy engagement supports executive leadership development and civic training partnerships within the North-Central geopolitical zone."
     },
     "intent": "Fostering institutional relationships with leadership and civic development institutes."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "NIGER",
+    "stateName": "Niger State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Federal Government Approves ₦1.5 Trillion Bida-Mokwa Highway Dualization; Niger Regulates Artisanal Mining",
+    "psi": 9.1,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Federal Government Approves ₦1.5 Trillion Bida-Mokwa Highway Dualization; Niger Regulates Artisanal Mining",
+      "whatHappened": "The Federal Government approved ₦1.5 trillion for the reconstruction and dualization of the Lambata–Bida–Mokwa–Kontagora federal highway with groundbreaking set for Bida, while Governor Bago engaged Inter-Tribal leaders to organize artisanal miners into safe cooperatives following mine site casualties.",
+      "whyItMatters": "This 9.1 PSI Optimum Signal milestone unlocks a vital national freight corridor while instituting grassroots cooperative structures and safety regulations to eliminate illegal mining risks."
+    },
+    "intent": "Securing major federal infrastructure investments for state transit corridors while regulating artisanal mining operations."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Nasir Idris Approves ₦75,000 Minimum Wage for 17,620 Kebbi School Teachers",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Governor Nasir Idris Approves ₦75,000 Minimum Wage for 17,620 Kebbi School Teachers",
+      "whatHappened": "Governor Nasir Idris approved a ₦75,000 minimum wage benchmark for 17,620 primary and secondary school teachers across Kebbi State following a comprehensive workforce audit report.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal policy implementation aligns educator remuneration with civil service wage scales, elevating teacher welfare and professional motivation across the state."
+    },
+    "intent": "Enhancing basic education standards through baseline wage adjustments and public school workforce audit reforms."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Lagos Partners SOGON on Maternal Health, Launches Statewide HIV Drive, and Reaffirms Industrial Power Plan",
+    "psi": 8.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos Partners SOGON on Maternal Health, Launches Statewide HIV Drive, and Reaffirms Industrial Power Plan",
+      "whatHappened": "Lagos State Primary Health Care Board partnered with SOGON to deploy voluntary obstetricians to primary health centers; LSACA mobilized 57 LGAs/LCDAs for statewide HIV screening; and Commerce Ministry backed MAN's AGM using the Lagos Electricity Law 2024.",
+      "whyItMatters": "This 8.9 PSI High Signal multi-agency delivery strengthens grassroots maternal and newborn survival rates while establishing decentralized energy frameworks for industrial manufacturing competitiveness."
+    },
+    "intent": "Deploying clinical specialists to primary health facilities while advancing industrial electricity regulations and public health drives."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Uba Sani Announces Pension Increases and Matches ₦2.5M Innovation Award for SmartFarm Drone",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Uba Sani Announces Pension Increases and Matches ₦2.5M Innovation Award for SmartFarm Drone",
+      "whatHappened": "Governor Uba Sani announced upcoming pension hikes after liquidating over ₦21B in arrears, donated an operational bus and secretariat land to the NUP, and matched a ₦2.5 million national award for an undergraduate who invented an agricultural spraying drone.",
+      "whyItMatters": "This 8.8 PSI High Signal dual policy action reinforces social security for state retirees while providing direct financial backing to local youth agricultural tech innovations."
+    },
+    "intent": "Sustaining retiree welfare enhancements while funding youth-led agricultural technology solutions."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "CROSS RIVER",
+    "stateName": "Cross River State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Cross River Inorganizes NG-CARES 2.0, Rolls Out Tax Waivers, Partners UNICEF, and Seals 14 Schools",
+    "psi": 8.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Cross River Inorganizes NG-CARES 2.0, Rolls Out Tax Waivers, Partners UNICEF, and Seals 14 Schools",
+      "whatHappened": "Cross River inaugurated its NG-CARES 2.0 committee following ₦49.43B earnings under Phase 1; CRIRS launched Tax Customer Service Week with 100% penalty waivers; UNICEF partnered on disease awareness; and Ministry of Education sealed 14 unapproved schools.",
+      "whyItMatters": "This 8.8 PSI High Signal multi-sectoral initiative expands social safety nets, provides taxpayer relief, and enforces educational quality standards across the state."
+    },
+    "intent": "Scaling social safety interventions, streamlining tax administration, and enforcing quality standards in basic education."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Radda Commissions Matazu Water Scheme, Delivers 100 Motorcycles, and Partners ECHO",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Radda Commissions Matazu Water Scheme, Delivers 100 Motorcycles, and Partners ECHO",
+      "whatHappened": "Governor Dikko Umaru Radda commissioned the upgraded Matazu water scheme (17 wells, 350kL tank), delivered 100 motorcycles, launched a skills acquisition centre, granted ₦50k each to 250 trainees, and secured EU ECHO humanitarian funding commitments.",
+      "whyItMatters": "This 8.7 PSI High Signal intervention solves long-standing potable water shortages while expanding grassroots youth self-reliance and international humanitarian co-funding."
+    },
+    "intent": "Expanding municipal water infrastructure, delivering grassroots empowerment, and securing international humanitarian support."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Mutfwang Flags Off 41km Bisichi–Mangu Road Asphaltation and Installs New Long Pan",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Mutfwang Flags Off 41km Bisichi–Mangu Road Asphaltation and Installs New Long Pan",
+      "whatHappened": "Governor Caleb Mutfwang flagged off the asphalt reconstruction of the 41km Bisichi–Fan–Mangu Halle Road, installed HRH Jerome Goewam Leklak II as the new Long Pan of Pan Chiefdom, and received federal approval for the Mararaban Jama’a–Shendam road.",
+      "whyItMatters": "This 8.6 PSI High Signal milestone upgrades inter-district economic transport corridors while stabilizing traditional governance institutions to foster communal unity."
+    },
+    "intent": "Upgrading vital subnational road infrastructure and restoring traditional governance institutions."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Edo Intervenes at Ojirami Dam, Expands E-Governance, Distributes School Materials, and Opens SDG Bids",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo Intervenes at Ojirami Dam, Expands E-Governance, Distributes School Materials, and Opens SDG Bids",
+      "whatHappened": "Akoko-Edo LGA partially relieved water pressure at malfunctioning Ojirami Dam; Head of Service engaged Oil & Gas Ministry on digital processes and 50 CNG buses; First Lady/MTN distributed 1,200 school bags; and SDGs Office opened public bids for 5 rural projects.",
+      "whyItMatters": "This 8.5 PSI High Signal multi-agency execution averts catastrophic dam flooding, expands civil service digitalization, and delivers public community development assets."
+    },
+    "intent": "Averting environmental infrastructure disasters, strengthening civil service e-governance, and executing public SDG bids."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "ANAMBRA",
+    "stateName": "Anambra State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Soludo Enforces Ceasefire and Pledges State Rebuilding of Destroyed Idigo Palace",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Soludo Enforces Ceasefire and Pledges State Rebuilding of Destroyed Idigo Palace",
+      "whatHappened": "Governor Charles Soludo convened stakeholders from Aguleri and Umuoba Anam, enforcing an immediate ceasefire, directing security prosecution of perpetrators, pledging state assistance to rebuild the desecrated Idigo Palace, and setting up a 4-month Commission of Inquiry.",
+      "whyItMatters": "This 8.3 PSI High Signal executive intervention halts communal violence, restores traditional authority, and establishes formal judicial mechanisms for permanent dispute resolution."
+    },
+    "intent": "Enforcing subnational peace agreements, restoring desecrated traditional institutions, and instituting judicial inquiry panels."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "ENUGU",
+    "stateName": "Enugu State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Peter Mbah Unveils 10-Year Education Policy and Appoints Transport Commissioner",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Peter Mbah Unveils 10-Year Education Policy and Appoints Transport Commissioner",
+      "whatHappened": "Governor Peter Mbah unveiled the Enugu State Education Policy to guide sector transformation over the next 6 to 10 years around Smart Green Schools and experiential learning, while appointing Barr. Richard Agu as Commissioner-Designate for Transport.",
+      "whyItMatters": "This 8.2 PSI High Signal policy release establishes a long-term institutional framework for experiential learning and digital literacy while reinforcing state transport administration."
+    },
+    "intent": "Institutionalizing long-term educational curriculum reforms and strengthening state transport cabinet leadership."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "ONDO",
+    "stateName": "Ondo State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Aiyedatiwa Visits Air Force Aircraft Crash Site in Igbokoda to Oversee Recovery",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Aiyedatiwa Visits Air Force Aircraft Crash Site in Igbokoda to Oversee Recovery",
+      "whatHappened": "Governor Lucky Aiyedatiwa conducted an on-the-spot visit to the Nigerian Air Force aircraft crash site in Igbokoda, Ilaje LGA, commiserating with the Military High Command and coordinating multi-agency search and recovery efforts.",
+      "whyItMatters": "This 8.0 PSI High Signal executive presence ensures sustained state logistics and local community support for military disaster recovery operations in swampy coastal terrains."
+    },
+    "intent": "Providing executive leadership and state logistical support during national defense disaster recovery operations."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Governor Oborevwori Directs Emergency Relief and Health Support for Trans-Forcados Oil Spill",
+    "psi": 7.9,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Oborevwori Directs Emergency Relief and Health Support for Trans-Forcados Oil Spill",
+      "whatHappened": "Governor Sheriff Oborevwori inspected Odidi Community in Warri South-West LGA, ordering immediate medical deployment and directing Heritage Energy to supply relief materials and cleanup 216 oil spill affected communities.",
+      "whyItMatters": "This 7.9 PSI High Signal intervention protects coastal livelihoods and enforces corporate environmental restoration commitments across affected riverine communities."
+    },
+    "intent": "Directing emergency environmental cleanup and medical relief to oil spill impacted coastal host communities."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Federal Fire Service Saves ₦3.11 Billion Assets; GOSEPA Concludes School Hygiene Training",
+    "psi": 7.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Federal Fire Service Saves ₦3.11 Billion Assets; GOSEPA Concludes School Hygiene Training",
+      "whatHappened": "The Federal Fire Service Gombe Command reported saving property worth ₦3.117 billion across 24 fire incidents between Jan–Sept 2026, while GOSEPA concluded a two-day sanitation training for school Hygiene Clubs.",
+      "whyItMatters": "This 7.4 PSI High Signal performance demonstrates emergency response efficiency while building grassroots youth capacity for environmental health and sanitation."
+    },
+    "intent": "Protecting public commercial assets through emergency fire suppression and building school environmental hygiene capacity."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Adamawa Ministry of Energy Opens Public Bids for 132kV Power Transmission Project",
+    "psi": 7.1,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Adamawa Ministry of Energy Opens Public Bids for 132kV Power Transmission Project",
+      "whatHappened": "The Adamawa State Ministry of Energy conducted a transparent public bid opening for the construction of an 11km 132kV double-circuit power transmission line and towers from Wuro Ngayadi to Gulak.",
+      "whyItMatters": "This 7.1 PSI High Signal procurement action advances subnational electricity grid expansion, improving bulk power supply to commercial and residential rural corridors."
+    },
+    "intent": "Expanding subnational electricity transmission infrastructure through public procurement processes."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Zamfara Teachers' Service Board Conducts TRCN Professional Compliance Monitoring in Kaura Namoda",
+    "psi": 7.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Teachers' Service Board Conducts TRCN Professional Compliance Monitoring in Kaura Namoda",
+      "whatHappened": "Executive Chairperson of Zamfara TSB, Hajiya Ummu Yusuf Anka, inspected TRCN compliance and data-capturing exercises across schools in Kaura Namoda LGA to verify teacher qualifications.",
+      "whyItMatters": "This 7.0 PSI High Signal administrative exercise enforces professional standards and captures accurate baseline workforce data to drive basic education planning."
+    },
+    "intent": "Enforcing professional teaching standards and capturing accurate civil service workforce data."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "OYO",
+    "stateName": "Oyo State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Akinyele Local Government Constructs 3.5km Access Road to New Container Terminal",
+    "psi": 6.8,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Akinyele Local Government Constructs 3.5km Access Road to New Container Terminal",
+      "whatHappened": "Akinyele Local Government Council commenced construction of the 3.5km dual carriageway rigid pavement road linking Moniya-Iseyin Road to the new Bonded Warehouse and Container Terminal.",
+      "whyItMatters": "This 6.8 PSI Moderate Signal infrastructure project connects industrial freight terminals to arterial highways, enhancing trade logistics and local government revenue generation."
+    },
+    "intent": "Constructing specialized industrial access roads to support freight logistics hubs and inland container terminals."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "EKITI",
+    "stateName": "Ekiti State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Ekiti State Executive Council Approves 2027–2029 Medium-Term Expenditure Framework",
+    "psi": 6.5,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Ekiti State Executive Council Approves 2027–2029 Medium-Term Expenditure Framework",
+      "whatHappened": "The Ekiti State Executive Council, at its 8th meeting of 2026, approved the 2027–2029 Medium-Term Expenditure Framework (MTEF) for transmission to the State House of Assembly.",
+      "whyItMatters": "This 6.5 PSI Moderate Signal fiscal planning step establishes multi-year expenditure baselines to sustain subnational budget discipline and economic stability."
+    },
+    "intent": "Establishing multi-year subnational fiscal expenditure baselines through legislative framework approvals."
+  },
+  {
+    "dayNumber": 8,
+    "stateKey": "BAYELSA",
+    "stateName": "Bayelsa State",
+    "displayDate": "Thursday, October 8, 2026",
+    "headline": "Bayelsa Reviews 30 Years of Progress; Highlights Senatorial Roads, Power, and Education Investments",
+    "psi": 6.2,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "Bayelsa Reviews 30 Years of Progress; Highlights Senatorial Roads, Power, and Education Investments",
+      "whatHappened": "The Bayelsa State Government reviewed six years of the Assured Prosperity Agenda on its 30th creation anniversary, highlighting progress on three Senatorial roads, the 60MW Gas Turbine, and technical colleges across 8 LGAs.",
+      "whyItMatters": "This 6.2 PSI Moderate Signal administrative review benchmarks long-term infrastructure delivery across riverine transport routes and state independent power generation."
+    },
+    "intent": "Benchmarking subnational progress across major riverine transportation infrastructure and power generation assets."
   }
   ],
 
@@ -3560,6 +3848,426 @@
         },
         "securityAnalysis": "Nasarawa State (5.2 PSI / Moderate Signal / SIS 2.6 / SECURE / Defensive-Growth / Emerging Gamma Opportunity) provides a secure baseline for civil society and leadership institute engagements."
       }
+     ]
+    },
+    "08": {
+      "date": "2026-10-08",
+      "formattedDate": "October 8, 2026",
+      "metadata": {
+        "compositePsi": 7.7,
+        "activeJurisdictionsCount": 18,
+        "unlistedJurisdictionsCount": 19,
+        "unlistedNote": "The 19 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Niger Leads 18 Active Jurisdictions in Diploman Times October 8, 2026 Governance Policy Analysis and Intelligence Headlines",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive momentum on October 8, 2026, recorded a 7.7 PSI net composite average, led by ₦1.5T federal highway dualization approval in Niger, ₦75,000 teacher minimum wage approval in Kebbi, primary health specialist deployment in Lagos, and ₦21B pension backlog settlement in Kaduna."
+        },
+        "security": {
+          "title": "Subnational Advisory Profile Demonstrates Prime Alpha Opportunities Amid Secure Commercial Hubs and Monitored Transport Routes",
+          "summary": "Comprehensive subnational risk analysis for October 8, 2026, evaluating State Instability Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's commercial, maritime, agrarian, and logistics corridors."
+        },
+        "policy": {
+          "title": "Subnational Executive Delivery Reaches 7.7 Net Composite Average Across Federal Highway Investments, Teacher Wage Reforms, and Primary Healthcare",
+          "summary": "Nigeria’s state executives record a 7.7 net PSI composite average on October 8, 2026, driven by high-velocity governance across major highway dualization approvals, civil service teacher minimum wage alignment, maternal health clinical partnerships, and open SDG procurement."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded an expansive operational performance during the active reporting window ending October 8, 2026. The 37-jurisdiction net Policy Signal Index (PSI) baseline settled at a composite average of 7.7, reflecting strong executive commitment to strategic transport infrastructure, educational wage policy alignment, maternal health clinical support, and environmental risk mitigation.\n\nAcross every geopolitical zone, state governors and executive councils demonstrated high-capacity governance by translating administrative intent into measurable outcomes. From securing federal approvals for a ₦1.5 trillion highway dualization project in Niger and approving a ₦75,000 minimum wage for 17,620 teachers in Kebbi to deploying voluntary specialist obstetricians across primary health facilities in Lagos and enforcing peace agreements in Anambra, subnational governance displayed sustained structural momentum aimed at long-term economic stability and human capital resilience.",
+          "emergingPatterns": "The active reporting window reveals a decisive shift toward multi-sectoral public asset creation, human capital preservation, and inter-governmental synergy. State governments are combining large-scale capital infrastructure projects with grassroots social safety net expansion, teacher welfare optimization, and proactive disaster response. This balanced approach to physical infrastructure and human capital development reinforces subnational stability and public trust.",
+          "strategicOutlook": "Sustaining current subnational performance will require continuous inter-agency coordination, strict public procurement oversight, and proactive risk management in flood-prone and coastal zones. States that combine infrastructure dualization with aggressive investment in basic education and healthcare will absorb economic shocks effectively, preserving fiscal autonomy and investor alignment.",
+          "conclusion": "The subnational executive governance landscape for October 8, 2026, reflects measurable administrative progress and strategic institutional alignment. By grounding governance in public asset creation, worker welfare, and transparent fiscal management, Nigeria’s subnational executives continue to strengthen the foundations of sustainable economic development."
+        },
+        "security": {
+          "introduction": "The subnational investment and operational risk landscape across Nigeria’s 36 States and the Federal Capital Territory for October 8, 2026, demonstrates high physical stability, with primary commercial, industrial, and maritime centers displaying robust security metrics and favorable risk-reward dynamics. Investors, development finance institutions, and corporate decision-makers navigating subnational markets can access high-alpha returns in logistics, agribusiness, legal services, and real estate across jurisdictions that maintain low operational friction. Through the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index (PSI), raw derived State Instability Score (SIS), Risk Indicator classification, and derived Investment Decision Profile.",
+          "emergingPatterns": "Subnational security mapping indicates that coastal maritime, industrial, and financial hubs maintain highly stable SECURE (SIS < 3.0) environments ideal for long-term equity positions, commercial real estate, and municipal bond investments. In contrast, northern transit corridors and agricultural areas require active security oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in agribusiness and mining must be paired with tactical security coordination, cooperative structuring, and community peace frameworks.",
+          "strategicOutlook": "Corporate decision-makers and private equity funds should prioritize subnational jurisdictions that combine high executive policy signals with secure physical transport corridors. Capital deployments in independent power, educational infrastructure, freight logistics, and commercial agriculture will yield superior risk-adjusted returns when aligned with verified state-level executive priorities.",
+          "conclusion": "Navigating Nigeria’s subnational economy requires rigorous, metric-backed evaluation. By aligning capital allocation with verified Policy Signal Index ratings and State Instability Scores, institutional investors can capture substantial subnational growth while maintaining robust capital preservation."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Federal Highway Dualization, Transport Infrastructure, and Logistics Corridors",
+          "states": ["Niger", "Plateau", "Adamawa", "Oyo", "Bayelsa"]
+        },
+        {
+          "groupTitle": "Basic Education Wage Reforms, Civil Service Empowerment, and Human Capital",
+          "states": ["Kebbi", "Kaduna", "Cross River", "Enugu", "Zamfara"]
+        },
+        {
+          "groupTitle": "Primary Healthcare Specialist Deployment, Public Safety, and Industrial Power",
+          "states": ["Lagos", "Katsina", "Edo", "Gombe"]
+        },
+        {
+          "groupTitle": "Communal Conflict Resolution, Environmental Disaster Relief, and Fiscal Planning",
+          "states": ["Anambra", "Ondo", "Delta", "Ekiti"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Niger",
+          "governor": "Mohammed Umaru Bago",
+          "metrics": {
+            "psiScore": 9.1,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 4.0,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Federal Government Approves ₦1.5 Trillion Bida-Mokwa Highway Dualization; Niger Regulates Artisanal Mining.",
+          "impactVector": "The Federal Government approved ₦1.5 trillion for the reconstruction and dualization of the Lambata–Bida–Mokwa–Kontagora federal highway with groundbreaking set for Bida, while Governor Bago engaged Inter-Tribal leaders to organize artisanal miners into safe cooperatives following mine site casualties.",
+          "policyBreakdown": {
+            "category": "Federal Highway Corridor Investment, Industrial Infrastructure, and Artisanal Mining Regulation",
+            "body": "In Niger State, Governor Mohammed Umaru Bago announced the upcoming groundbreaking ceremony for the ₦1.5 trillion reconstruction and dualization of the Lambata–Bida–Mokwa–Kontagora Federal Highway following Federal Government approval. Crucial stakeholders including Dangote Group and the Ministry of Works are set to attend the event in Bida. Concurrently, Governor Bago addressed artisanal mining hazards during a condolence visit by the Inter-Tribal Association over miner deaths in NSCDC custody, directing that informal miners be organized into cooperatives equipped with safety gear while urging parents to prevent youth thuggery around mining sites. Earning an OPTIMUM SIGNAL (9.1 PSI / Accelerating Momentum), Niger State advances major arterial transport infrastructure while instituting structural safety governance across its solid minerals sector."
+          },
+          "securityAnalysis": "Niger State (9.1 PSI / Optimum Signal / SIS 4.0 / MONITORED / Defensive-Growth / Value with Stabilization) combines massive federal highway corridor dualization with active security oversight across mining and agricultural zones."
+        },
+        {
+          "state": "Kebbi",
+          "governor": "Nasir Idris",
+          "metrics": {
+            "psiScore": 9.0,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Governor Nasir Idris Approves ₦75,000 Minimum Wage for 17,620 Kebbi School Teachers.",
+          "impactVector": "Governor Nasir Idris approved a ₦75,000 minimum wage benchmark for 17,620 primary and secondary school teachers across Kebbi State following a comprehensive workforce audit report.",
+          "policyBreakdown": {
+            "category": "Basic Education Minimum Wage Reform, Teaching Workforce Audit, and Public School Infrastructure",
+            "body": "Kebbi State Governor Comrade Dr. Nasir Idris approved the implementation of a ₦75,000 baseline minimum wage for 17,620 public school teachers across the state, bringing educator compensation in line with state civil service benchmarks effective October 2026. The endorsement follows the government White Paper on the workforce audit committee report, which established verified teaching strength and qualification levels (NCE entry baseline). Nigeria Union of Teachers (NUT) leadership commended Governor Idris for the wage increase, school infrastructure investments (2,650 rehabilitated and 200 new schools built), and the extension of teacher service years to 40 years/65 years of age. Earning an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum), Kebbi State establishes an institutional benchmark for basic education workforce welfare."
+          },
+          "securityAnalysis": "Kebbi State (9.0 PSI / Optimum Signal / SIS 2.7 / SECURE / Defensive-Growth / Emerging Gamma Opportunity) maintains a highly peaceful social environment, supporting teacher welfare reforms and agricultural human capital development."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 8.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Lagos Partners SOGON on Maternal Health, Launches Statewide HIV Drive, and Reaffirms Industrial Power Plan.",
+          "impactVector": "Lagos State Primary Health Care Board partnered with SOGON to deploy voluntary obstetricians to primary health centers; LSACA mobilized 57 LGAs/LCDAs for statewide HIV screening; and Commerce Ministry backed MAN's AGM using the Lagos Electricity Law 2024.",
+          "policyBreakdown": {
+            "category": "Grassroots Maternal Health Specialist Deployment, Statewide Public Health Mobilization, and Industrial Electricity Market Regulation",
+            "body": "Lagos State Primary Health Care Board received a strategic proposal from SOGON (Lagos Chapter) to deploy voluntary obstetricians and gynaecologists to primary health centers across IBILE divisions to mentor staff and manage emergency complications. Concurrently, LSACA CEO Dr. Folakemi Animashaun charged all 57 LGAs/LCDAs to take ownership of the upcoming statewide HIV screening and the 2025–2027 Sustainability Plan. On the economic front, Commissioner Folashade Ambrose-Medebem reaffirmed Lagos State's commitment to industrial growth at MAN's 54th AGM, detailing how the Lagos Electricity Law 2024 (creating LASERC, LSEA, and LAISO) will ensure reliable power for manufacturers. Earning a HIGH SIGNAL (8.9 PSI / Advancing Momentum), Lagos showcases multi-agency execution across healthcare delivery and industrial policy."
+          },
+          "securityAnalysis": "Lagos State (8.9 PSI / High Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) displays outstanding physical, commercial, and industrial regulatory stability, offering premier risk-adjusted returns for private capital."
+        },
+        {
+          "state": "Kaduna",
+          "governor": "Uba Sani",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.8,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Governor Uba Sani Announces Pension Increases and Matches ₦2.5M Innovation Award for SmartFarm Drone.",
+          "impactVector": "Governor Uba Sani announced upcoming pension hikes after liquidating over ₦21B in arrears, donated an operational bus and secretariat land to the NUP, and matched a ₦2.5 million national award for an undergraduate who invented an agricultural spraying drone.",
+          "policyBreakdown": {
+            "category": "Retiree Welfare Expansion, Social Security Asset Deployment, and Youth Agricultural Tech Innovation",
+            "body": "Kaduna State Governor Senator Uba Sani announced plans to further increase monthly pensions during a courtesy visit by the Nigeria Union of Pensioners (NUP) at Sir Kashim Ibrahim House. Having disbursed over ₦21 billion in arrears and death benefits to 9,683 retirees, the Governor was honored with the 'Pensioner-Friendly Governor' award, endorsed for 2027, and presented the NUP with an operational bus and land for their permanent secretariat. On youth innovation, Deputy Governor Dr. Hadiza Balarabe represented Governor Sani at the NASENI InnovateNaija Awards in Abuja, where Kaduna state champion Abdulrahaman Bin Umar received a ₦2.5 million grant for his 11-hectare/hour SmartFarm drone; Governor Sani matched the prize, bringing total startup funding to ₦5 million. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), Kaduna effectively pairs retiree social safety with youth technology grants."
+          },
+          "securityAnalysis": "Kaduna State (8.8 PSI / High Signal / SIS 3.8 / MONITORED / Growth-Oriented / Expansion with Optimization) balances rapid social security liquidation and youth innovation funding with active security management across transit corridors."
+        },
+        {
+          "state": "Cross River",
+          "governor": "Bassey Otu",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Cross River Inorganizes NG-CARES 2.0, Rolls Out Tax Waivers, Partners UNICEF, and Seals 14 Schools.",
+          "impactVector": "Cross River inaugurated its NG-CARES 2.0 committee following ₦49.43B earnings under Phase 1; CRIRS launched Tax Customer Service Week with 100% penalty waivers; UNICEF partnered on disease awareness; and Ministry of Education sealed 14 unapproved schools.",
+          "policyBreakdown": {
+            "category": "Social Safety Net Expansion (NG-CARES 2.0), Revenue Customer Service Relief, Public Health Awareness, and Education Quality Assurance",
+            "body": "Cross River State Governor Bassey Otu, represented by Deputy Governor Peter Odey, inaugurated the State Steering Committee for NG-CARES 2.0 following Phase 1 earnings of ₦49.43 billion (ranking 2nd nationally, 1st in South-South). Concurrently, Cross River IRS Chairman Prince Edwin Okon launched Customer Service Week under 'The Extra Mile' theme, offering 100% penalty/interest waivers through Oct 9 (50% through Oct 31) alongside ₦4.5m in education/farming CSR packages. In public health, the state partnered with UNICEF on a Calabar sensitization drive against cholera, Lassa fever, and flood risks. In education enforcement, Education Commissioner Sen. Prof. Stephen Odey sealed 14 unapproved schools in Calabar South for operating without Approval to Operate (ATO). Finally, Commissioner Francis Ekpenyong directed butchers to end cash payments to unauthorized agents in favor of direct government accounts. Earning a HIGH SIGNAL (8.8 PSI / Advancing Momentum), Cross River delivers multi-agency governance across social safety, revenue, health, and basic education."
+          },
+          "securityAnalysis": "Cross River State (8.8 PSI / High Signal / SIS 1.9 / SECURE / Growth-Oriented / Growth Beta Opportunity) exhibits excellent physical security stability, allowing the state to focus on education quality assurance, revenue digitization, and disease prevention."
+        },
+        {
+          "state": "Katsina",
+          "governor": "Dikko Umaru Radda",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Governor Radda Commissions Matazu Water Scheme, Delivers 100 Motorcycles, and Partners ECHO.",
+          "impactVector": "Governor Dikko Umaru Radda commissioned the upgraded Matazu water scheme (17 wells, 350kL tank), delivered 100 motorcycles, launched a skills acquisition centre, granted ₦50k each to 250 trainees, and secured EU ECHO humanitarian funding commitments.",
+          "policyBreakdown": {
+            "category": "Municipal Water Infrastructure Upgrade, Grassroots Youth Empowerment, and International Humanitarian Partnership",
+            "body": "Katsina State Governor Malam Dikko Umaru Radda commissioned the upgraded Matazu Semi-Urban Water Supply Scheme featuring 17 wells, a 350,000-litre ground tank, and solar-powered installations. At Matazu Secretariat, Governor Radda delivered 100 motorcycles (part of Dujima's constituency scheme), commissioned the Haj. Zulaihat Dikko Radda Skills Acquisition Centre, Hisbah Office, and 2 mass transit vehicles, while announcing 560 job opportunities secured by Hon. Abdullahi Aliyu Ahmed. In Malumfashi, Governor Radda awarded a personal ₦50,000 grant to each of 250 Andaje skills graduates (supplemented by ₦100,000 from KASEDA). At Government House, Governor Radda received EU ECHO Team Lead Mr. Alexandre, securing continued matching funds and institutional support for nutrition, food security, and humanitarian projects. Earning a HIGH SIGNAL (8.7 PSI / Advancing Momentum), Katsina executes major municipal infrastructure while scaling grassroots youth empowerment and international development partnerships."
+          },
+          "securityAnalysis": "Katsina State (8.7 PSI / High Signal / SIS 4.1 / MONITORED / Growth-Oriented / Expansion with Optimization) showcases broad public asset creation and international donor alignment while managing monitored security conditions in agrarian hinterlands."
+        },
+        {
+          "state": "Plateau",
+          "governor": "Caleb Mutfwang",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.6,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Governor Mutfwang Flags Off 41km Bisichi–Mangu Road Asphaltation and Installs New Long Pan.",
+          "impactVector": "Governor Caleb Mutfwang flagged off the asphalt reconstruction of the 41km Bisichi–Fan–Mangu Halle Road, installed HRH Jerome Goewam Leklak II as the new Long Pan of Pan Chiefdom, and received federal approval for the Mararaban Jama’a–Shendam road.",
+          "policyBreakdown": {
+            "category": "Inter-District Transport Infrastructure Upgrade, Traditional Institution Stabilization, and Regional Road Approvals",
+            "body": "Plateau State Governor Caleb Manasseh Mutfwang flagged off the full asphalt reconstruction of the 41-kilometre Bisichi–Fan–Mangu Halle Road in Barkin-Ladi LGA, upgrading the 2012 surface-dressed specification to support heavy inter-district traffic. Governor Mutfwang also announced that President Bola Tinubu granted full approval for the Mararaban Jama’a–Mangu–Shendam–Ibi road corridor. In Qua’an-Pan LGA, Governor Mutfwang installed HRH Miskagam Jerome Goewam Leklak II as the First-Class Long Pan of Pan Chiefdom, presenting his Staff of Office, pledging completion of the 61km Dokan Tofa–Kurgwi road, and commissioning the remodelled Long Pan Palace and Snakebite Treatment Centre in Doemak. Earning a HIGH SIGNAL (8.6 PSI / Advancing Momentum), Plateau advances inter-district transport connectivity and traditional governance restoration."
+          },
+          "securityAnalysis": "Plateau State (8.6 PSI / High Signal / SIS 3.6 / MONITORED / Defensive-Growth / Value with Stabilization) integrates traditional chiefdom stabilization with major asphalt road construction across central and southern transport corridors."
+        },
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 8.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Edo Intervenes at Ojirami Dam, Expands E-Governance, Distributes School Materials, and Opens SDG Bids.",
+          "impactVector": "Akoko-Edo LGA partially relieved water pressure at malfunctioning Ojirami Dam; Head of Service engaged Oil & Gas Ministry on digital processes and 50 CNG buses; First Lady/MTN distributed 1,200 school bags; and SDGs Office opened public bids for 5 rural projects.",
+          "policyBreakdown": {
+            "category": "Emergency Dam Safety Intervention, Civil Service Digitalization & Welfare, Basic Education Supplies, and SDG Procurement",
+            "body": "Edo State recorded multi-agency executive action as Akoko-Edo LGA Chairman Hon. Robert Akande Olumole intervened at Ojirami Dam following a release mechanism malfunction, easing water pressure to prevent catastrophic flooding. In civil service administration, Head of Service Dr. Anthony Okungbowa engaged the Ministry of Oil and Gas Resources on complete e-governance adoption, announcing 50 CNG buses for civil servant transport, promotion arrear clearances, and secretariat sick bay plans. In basic education, First Lady Mrs. Edesili Okpebholo Anani partnered with MTN Foundation to distribute 1,200 bags, 12,000 exercise books, and 1,200 water bottles to Oba Akenzua II JSS. In public procurement, SDG Office DG Hon. Julius Ogieva conducted transparent bid openings for 5 community projects including Ekpon solar mini-market and Agua-Era health centre. Finally, Building Control Agency MD TPl. Igabali Darlington met TOPREC, ARCON, and COREN to curb quackery in building approvals. Earning a HIGH SIGNAL (8.5 PSI / Advancing Momentum), Edo combines infrastructure safety with digital public administration."
+          },
+          "securityAnalysis": "Edo State (8.5 PSI / High Signal / SIS 2.4 / SECURE / Growth-Oriented / Growth Beta Opportunity) showcases strong administrative stability and proactive local infrastructure safety enforcement across the state."
+        },
+        {
+          "state": "Anambra",
+          "governor": "Charles Soludo",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Governor Soludo Enforces Ceasefire and Pledges State Rebuilding of Destroyed Idigo Palace.",
+          "impactVector": "Governor Charles Soludo convened stakeholders from Aguleri and Umuoba Anam, enforcing an immediate ceasefire, directing security prosecution of perpetrators, pledging state assistance to rebuild the desecrated Idigo Palace, and setting up a 4-month Commission of Inquiry.",
+          "policyBreakdown": {
+            "category": "Inter-Communal Conflict Ceasefire, Traditional Heritage Preservation, and Judicial Commission of Inquiry",
+            "body": "Anambra State Governor Prof. Chukwuma Charles Soludo convened a high-level security meeting with critical stakeholders from Aguleri, Umuoba Anam, Umueri, and the extended Anam clan following violent communal clashes that resulted in loss of life and the desecration/destruction of the Idigo Palace. Governor Soludo condemned the self-help violence and enforced a 5-point binding resolution: immediate total ceasefire, prosecution of all culprits, proactive conflict management by traditional rulers, state financial assistance to rebuild the historic Idigo Palace, and the establishment of a 4-month Commission of Inquiry to resolve underlying land and historical petitions. Earning a HIGH SIGNAL (8.3 PSI / Advancing Momentum), Anambra State exercises firm executive authority to restore peace and traditional institution sanctity."
+          },
+          "securityAnalysis": "Anambra State (8.3 PSI / High Signal / SIS 3.1 / MONITORED / Growth-Oriented / Expansion with Optimization) exercises decisive security enforcement to resolve communal border disputes and rebuild desecrated traditional heritage sites."
+        },
+        {
+          "state": "Enugu",
+          "governor": "Peter Mbah",
+          "metrics": {
+            "psiScore": 8.2,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Governor Peter Mbah Unveils 10-Year Education Policy and Appoints Transport Commissioner.",
+          "impactVector": "Governor Peter Mbah unveiled the Enugu State Education Policy to guide sector transformation over the next 6 to 10 years around Smart Green Schools and experiential learning, while appointing Barr. Richard Agu as Commissioner-Designate for Transport.",
+          "policyBreakdown": {
+            "category": "Long-Term Education Sector Policy Framework, Digital Literacy & Smart Green Schools, and Executive Cabinet Structuring",
+            "body": "Enugu State Governor Dr. Peter Ndubuisi Mbah officially unveiled the Enugu State Education Policy, establishing a strategic 6 to 10-year transformation roadmap aimed at equipping children with functional digital literacy, foundational learning, and experiential skills to thrive in a modern economy. The policy builds upon ongoing capital investments in Smart Green Schools and comprehensive teacher development. Concurrently, Governor Mbah approved the appointment of Barr. Richard Agu (Board Chairman of Enugu Air) as Commissioner-Designate for the Ministry of Transport, forwarding his nomination to the State House of Assembly for confirmation. Earning a HIGH SIGNAL (8.2 PSI / Advancing Momentum), Enugu State strengthens institutional policy governance and executive cabinet capacity."
+          },
+          "securityAnalysis": "Enugu State (8.2 PSI / High Signal / SIS 2.2 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains an exceptionally secure operating environment, backing its economic growth with 10-year structural education policies."
+        },
+        {
+          "state": "Ondo",
+          "governor": "Lucky Aiyedatiwa",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Governor Aiyedatiwa Visits Air Force Aircraft Crash Site in Igbokoda to Oversee Recovery.",
+          "impactVector": "Governor Lucky Aiyedatiwa conducted an on-the-spot visit to the Nigerian Air Force aircraft crash site in Igbokoda, Ilaje LGA, commiserating with the Military High Command and coordinating multi-agency search and recovery efforts.",
+          "policyBreakdown": {
+            "category": "National Defense Emergency Response, Coastal Crash Site Inspection, and Multi-Agency Logistics Coordination",
+            "body": "Ondo State Governor Lucky Aiyedatiwa visited the Nigerian Air Force aircraft crash site in Igbokoda, Ilaje LGA, personally inspecting ongoing search and recovery operations in the swampy terrain. Expressing deep condolences to President Bola Ahmed Tinubu, the Military High Command, and families of the fallen officers who died while on a military mission from Benin to Lagos, Governor Aiyedatiwa reaffirmed the full deployment of state emergency equipment, naval units, and local community assets to assist recovery teams. Earning a HIGH SIGNAL (8.0 PSI / Advancing Momentum), Ondo State provides compassionate executive leadership and logistical support during a national defense emergency."
+          },
+          "securityAnalysis": "Ondo State (8.0 PSI / High Signal / SIS 1.6 / SECURE / Growth-Oriented / Growth Beta Opportunity) demonstrates high operational security and inter-agency coordination during search and recovery operations along coastal transit routes."
+        },
+        {
+          "state": "Delta",
+          "governor": "Sheriff Oborevwori",
+          "metrics": {
+            "psiScore": 7.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Governor Oborevwori Directs Emergency Relief and Health Support for Trans-Forcados Oil Spill.",
+          "impactVector": "Governor Sheriff Oborevwori inspected Odidi Community in Warri South-West LGA, ordering immediate medical deployment and directing Heritage Energy to supply relief materials and cleanup 216 oil spill affected communities.",
+          "policyBreakdown": {
+            "category": "Coastal Environmental Spill Intervention, Community Health Relief, and Host Community Resource Management",
+            "body": "Delta State Governor Sheriff Oborevwori conducted an on-site inspection of Odidi Community in Warri South-West LGA following a severe oil spill along the Trans-Forcados pipeline system that impacted 216 riverine communities. Governor Oborevwori ordered immediate emergency medical teams to assess affected residents, directed Heritage Energy Operational Services Limited to provide comprehensive health support and relief materials, and instructed the Commissioners for Environment and Oil & Gas to oversee technical cleanup operations. Additionally, the Governor approved a new landing jetty for Odidi and directed the LGA Council to construct a modern health centre. Earning a HIGH SIGNAL (7.9 PSI / Advancing Momentum), Delta State actively enforces corporate environmental responsibility and protects coastal riverine livelihoods."
+          },
+          "securityAnalysis": "Delta State (7.9 PSI / High Signal / SIS 2.6 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains firm security and regulatory oversight across its industrial maritime corridors and oil-producing host communities."
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 7.4,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Federal Fire Service Saves ₦3.11 Billion Assets; GOSEPA Concludes School Hygiene Training.",
+          "impactVector": "The Federal Fire Service Gombe Command reported saving property worth ₦3.117 billion across 24 fire incidents between Jan–Sept 2026, while GOSEPA concluded a two-day sanitation training for school Hygiene Clubs.",
+          "policyBreakdown": {
+            "category": "Public Commercial Asset Protection, Emergency Fire Response, and Environmental Sanitation Education",
+            "body": "Federal Fire Service (FFS) Gombe State Command announced that prompt emergency responses across 24 fire incidents between January and September 2026 saved property worth an estimated ₦3.117 billion (against ₦814 million lost). Concurrently, the Gombe State Environmental Sanitation and Protection Agency (GOSEPA) concluded a two-day intensive training for Hygiene and Sanitation Club members across primary and secondary schools at the Education Resource Centre in Gombe. Executive Secretary Dr. Auwal Babajida emphasized building student ambassadors to extend sanitation best practices into households. Earning a HIGH SIGNAL (7.4 PSI / Advancing Momentum), Gombe protects public commercial assets while instilling environmental health habits at the grassroots."
+          },
+          "securityAnalysis": "Gombe State (7.4 PSI / High Signal / SIS 2.1 / SECURE / Defensive-Growth / Emerging Gamma Opportunity) offers excellent commercial safety and environmental stability within the North-East geopolitical zone."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 7.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Adamawa Ministry of Energy Opens Public Bids for 132kV Power Transmission Project.",
+          "impactVector": "The Adamawa State Ministry of Energy conducted a transparent public bid opening for the construction of an 11km 132kV double-circuit power transmission line and towers from Wuro Ngayadi to Gulak.",
+          "policyBreakdown": {
+            "category": "State Electricity Infrastructure Expansion, Public Procurement Transparency, and Power Transmission Line Bidding",
+            "body": "Adamawa State Ministry of Energy conducted a formal public bid opening exercise for the construction of an 11-kilometre 132kV double-circuit power transmission line and towers from Wuro Ngayadi to Gulak. Energy Commissioner Hon. Bramcy Samuel Caleb and Permanent Secretary Dogara Paul Musa emphasized strict technical competence, quality workmanship, and procurement transparency under Malam Nuhu Hayatu. Earning a HIGH SIGNAL (7.1 PSI / Advancing Momentum), Adamawa State expands bulk power transmission infrastructure to stabilize electricity supply across Northern Adamawa communities."
+          },
+          "securityAnalysis": "Adamawa State (7.1 PSI / High Signal / SIS 3.2 / MONITORED / Defensive-Growth / Value with Stabilization) advances energy grid infrastructure while maintaining security surveillance along northern transit corridors."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 7.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.8,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Zamfara Teachers' Service Board Conducts TRCN Professional Compliance Monitoring in Kaura Namoda.",
+          "impactVector": "Executive Chairperson of Zamfara TSB, Hajiya Ummu Yusuf Anka, inspected TRCN compliance and data-capturing exercises across schools in Kaura Namoda LGA to verify teacher qualifications.",
+          "policyBreakdown": {
+            "category": "Teaching Profession Qualification Audit, Civil Service Teacher Data Verification, and TRCN Standards Compliance",
+            "body": "Zamfara State Teachers’ Service Board (TSB) Executive Chairperson Hajiya Ummu Yusuf Anka conducted an extensive monitoring tour of primary and secondary schools in Kaura Namoda Local Government Area. The exercise evaluated ongoing Teachers Registration Council of Nigeria (TRCN) compliance monitoring and captured accurate workforce data to eliminate unqualified personnel and improve basic education delivery. Earning a HIGH SIGNAL (7.0 PSI / Advancing Momentum), Zamfara State strengthens teacher professionalization and civil service record accuracy."
+          },
+          "securityAnalysis": "Zamfara State (7.0 PSI / High Signal / SIS 4.8 / MONITORED / Defensive-Growth / Value with Stabilization) pursues teacher professionalization and basic civil service data audits within a monitored security environment."
+        },
+        {
+          "state": "Oyo",
+          "governor": "Seyi Makinde",
+          "metrics": {
+            "psiScore": 6.8,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Consolidating",
+            "sisScore": 1.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Akinyele Local Government Constructs 3.5km Access Road to New Container Terminal.",
+          "impactVector": "Akinyele Local Government Council commenced construction of the 3.5km dual carriageway rigid pavement road linking Moniya-Iseyin Road to the new Bonded Warehouse and Container Terminal.",
+          "policyBreakdown": {
+            "category": "Local Government Industrial Access Infrastructure, Freight Terminal Logistics, and Rigid Pavement Construction",
+            "body": "Oyo State Government announced that Akinyele Local Government Council is constructing a 3.5-kilometre dual carriageway access road featuring rigid concrete pavement, drainage channels, walkways, and medians. The road links the Moniya-Iseyin arterial highway directly to the newly established Bonded Warehouse and Container Terminal project. Earning a MODERATE SIGNAL (6.8 PSI / Consolidating Momentum), this local government capital infrastructure project strengthens industrial freight logistics and inland port connectivity."
+          },
+          "securityAnalysis": "Oyo State (6.8 PSI / Moderate Signal / SIS 1.7 / SECURE / Growth-Oriented / Growth Beta Opportunity) presents a highly secure operating environment, fostering municipal infrastructure development for trade and freight terminals."
+        },
+        {
+          "state": "Ekiti",
+          "governor": "Biodun Oyebanji",
+          "metrics": {
+            "psiScore": 6.5,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Consolidating",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Ekiti State Executive Council Approves 2027–2029 Medium-Term Expenditure Framework.",
+          "impactVector": "The Ekiti State Executive Council, at its 8th meeting of 2026, approved the 2027–2029 Medium-Term Expenditure Framework (MTEF) for transmission to the State House of Assembly.",
+          "policyBreakdown": {
+            "category": "Medium-Term Fiscal Framework Planning, Legislative Budget Alignment, and Subnational Financial Discipline",
+            "body": "Ekiti State Executive Council, convened at its Eighth Meeting of 2026 in Ado-Ekiti under Governor Biodun Oyebanji, considered and approved the 2027–2029 Medium-Term Expenditure Framework (MTEF). The macro-fiscal planning document was authorized for immediate presentation to the Ekiti State House of Assembly for legislative processing and passage. Earning a MODERATE SIGNAL (6.5 PSI / Consolidating Momentum), Ekiti State maintains rigorous multi-year budget planning to safeguard subnational fiscal discipline."
+          },
+          "securityAnalysis": "Ekiti State (6.5 PSI / Moderate Signal / SIS 1.5 / SECURE / Defensive-Growth / Emerging Gamma Opportunity) offers stable public security and disciplined fiscal governance, making it an ideal environment for long-term development planning."
+        },
+        {
+          "state": "Bayelsa",
+          "governor": "Douye Diri",
+          "metrics": {
+            "psiScore": 6.2,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Consolidating",
+            "sisScore": 2.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Bayelsa Reviews 30 Years of Progress; Highlights Senatorial Roads, Power, and Education Investments.",
+          "impactVector": "The Bayelsa State Government reviewed six years of the Assured Prosperity Agenda on its 30th creation anniversary, highlighting progress on three Senatorial roads, the 60MW Gas Turbine, and technical colleges across 8 LGAs.",
+          "policyBreakdown": {
+            "category": "Subnational Development Review, Riverine Senatorial Road Construction, and Independent Power Generation",
+            "body": "Bayelsa State Government conducted a comprehensive administrative review marking 30 years since state creation and six years under Governor Douye Diri’s Assured Prosperity Agenda. The review highlighted major investments across riverine transport infrastructure (Sagbama–Ekeremor–Agge, Yenagoa–Oporoma–Ukubie, and Nembe–Brass roads), the 60MW Gas Turbine IPP for uninterrupted power in Yenagoa, technical/vocational colleges built across all 8 LGAs, BayelsaPRIME primary education technology, and security surveillance systems. Earning a MODERATE SIGNAL (6.2 PSI / Consolidating Momentum), Bayelsa State benchmarks its multi-sectoral capital delivery across maritime communities."
+          },
+          "securityAnalysis": "Bayelsa State (6.2 PSI / Moderate Signal / SIS 2.7 / SECURE / Growth-Oriented / Growth Beta Opportunity) maintains peaceful maritime and riverine security stability, supporting capital-intensive infrastructure and energy projects."
+        }
      ]
     }
   },
@@ -6140,6 +6848,524 @@
     "sisStatus": "SECURE",
     "alphaProfile": "High-Alpha",
     "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 9.1,
+    "sis": 4.0,
+    "focus": "Federal Highway Corridor Dualization (₦1.5T) & Artisanal Mining Regulation",
+    "dailyBrief": "FG approved ₦1.5T for Bida–Mokwa–Kontagora road dualization with groundbreaking set for Bida; Gov Bago directed artisanal miners to organize into safe cooperatives.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 9.0,
+    "sis": 2.7,
+    "focus": "Basic Education Wage Benchmark Alignment & Teacher Audit Reforms",
+    "dailyBrief": "Gov Nasir Idris approved ₦75,000 minimum wage for 17,620 verified teachers following workforce audit, backed by rehabilitation of 2,650 schools.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.9,
+    "sis": 1.2,
+    "focus": "Maternal Healthcare Specialist Deployment, HIV Screening & Industrial Power",
+    "dailyBrief": "Partnered with SOGON for voluntary obstetricians in PHCs; LSACA mobilized 57 LGAs for HIV screening; reaffirmed industrial electricity market laws at MAN AGM.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 8.8,
+    "sis": 3.8,
+    "focus": "Pension Increases, Retiree Asset Grants & Youth AgTech Innovation Funding",
+    "dailyBrief": "Announced pension hikes after paying ₦21B+ in arrears, donated land/bus to NUP, and matched ₦2.5M national award for SmartFarm agricultural drone inventor.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.8,
+    "sis": 1.9,
+    "focus": "NG-CARES 2.0 Launch, Tax Penalty Waivers, Disease Campaign & School Sealing",
+    "dailyBrief": "Inaugurated NG-CARES 2.0 after ₦49.43B Phase 1 output; IRS rolled out 100% tax penalty waivers; UNICEF launched health campaign; sealed 14 unapproved schools.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 8.7,
+    "sis": 4.1,
+    "focus": "Water Infrastructure Upgrade, Youth Empowerment & ECHO Humanitarian Alliance",
+    "dailyBrief": "Commissioned Matazu water scheme (17 wells); delivered 100 motorcycles and skills center; granted ₦50k each to 250 trainees; secured EU ECHO funding.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.6,
+    "sis": 3.6,
+    "focus": "41km Asphalt Road Reconstruction & Long Pan First-Class Monarchy Installation",
+    "dailyBrief": "Flagged off full asphaltation of 41km Bisichi–Mangu road; installed HRH Jerome Leklak II as Long Pan; received FG approval for Mararaban Jama'a–Shendam road.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.4,
+    "focus": "Ojirami Dam Emergency Mitigation, E-Governance, School Supplies & SDG Bids",
+    "dailyBrief": "Averted Ojirami Dam disaster via partial water release; HOS advanced e-governance and 50 CNG buses; First Lady/MTN distributed school bags; opened SDG bids.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 8.3,
+    "sis": 3.1,
+    "focus": "Inter-Communal Conflict Ceasefire, Palace Rebuilding & Judicial Inquiry",
+    "dailyBrief": "Enforced ceasefire in Aguleri-Umuoba Anam crisis, ordered prosecution of killers, pledged state support to rebuild Idigo Palace, and created Commission of Inquiry.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 8.2,
+    "sis": 2.2,
+    "focus": "10-Year Long-Term Education Policy & Transport Cabinet Executive Appointment",
+    "dailyBrief": "Unveiled 10-year Education Policy focused on Smart Green Schools and experiential learning; appointed Barr. Richard Agu as Transport Commissioner-Designate.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 8.0,
+    "sis": 1.6,
+    "focus": "National Defense Aircraft Crash Disaster Recovery & On-Site Supervision",
+    "dailyBrief": "Gov Aiyedatiwa visited Air Force aircraft crash site in Igbokoda, coordinating search and recovery operations with NEMA, military, and local marine units.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 7.9,
+    "sis": 2.6,
+    "focus": "Trans-Forcados Oil Spill Emergency Relief & Riverine Health Interventions",
+    "dailyBrief": "Inspected Odidi Community spill site (216 communities affected); directed Heritage Energy to supply medical relief/cleanup; approved Odidi landing jetty.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 7.4,
+    "sis": 2.1,
+    "focus": "Public Asset Fire Protection (₦3.11B Saved) & School Hygiene Clubs",
+    "dailyBrief": "Federal Fire Service saved ₦3.117 billion in property across 24 incidents; GOSEPA completed 2-day hygiene and sanitation training for school clubs.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.1,
+    "sis": 3.2,
+    "focus": "Subnational Power Transmission Grid Infrastructure Bidding",
+    "dailyBrief": "Ministry of Energy opened public bids for 11km 132kV double-circuit power transmission line and towers from Wuro Ngayadi to Gulak.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 7.0,
+    "sis": 4.8,
+    "focus": "TRCN Professional Teacher Qualification Audit & Data Verification",
+    "dailyBrief": "TSB Chairperson inspected TRCN compliance and data-capturing exercises across schools in Kaura Namoda LGA to verify teacher qualifications.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 6.8,
+    "sis": 1.7,
+    "focus": "Freight Terminal Access Infrastructure & Rigid Pavement Construction",
+    "dailyBrief": "Akinyele LGA commenced construction of 3.5km dual carriageway rigid pavement road connecting Moniya-Iseyin highway to new Container Terminal.",
+    "psiSignalLevel": "MODERATE SIGNAL",
+    "psiMomentum": "Consolidating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 6.5,
+    "sis": 1.5,
+    "focus": "Medium-Term Fiscal Framework Legislative Submission (2027–2029)",
+    "dailyBrief": "State Executive Council approved 2027–2029 Medium-Term Expenditure Framework (MTEF) for transmission to the State House of Assembly.",
+    "psiSignalLevel": "MODERATE SIGNAL",
+    "psiMomentum": "Consolidating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 6.2,
+    "sis": 2.7,
+    "focus": "30-Year Subnational Progress Review & Senatorial Highway Infrastructure",
+    "dailyBrief": "Reviewed 6 years of Assured Prosperity Agenda on 30th state anniversary, highlighting 3 Senatorial roads, 60MW Gas Turbine IPP, and vocational colleges.",
+    "psiSignalLevel": "MODERATE SIGNAL",
+    "psiMomentum": "Consolidating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.4,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 8,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Routine Administrative Maintenance Cycle",
+    "dailyBrief": "Baseline institutional frameworks continue operating under normal civil service maintenance with no qualifying strategic executive signals.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
   }
  ]
 }
