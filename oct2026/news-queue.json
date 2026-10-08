@@ -5129,7 +5129,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-14",
-      "published": false,
+      "published": true,
       "title": "Egor Council Swears In 10 Appointees, Sets Governance and Service Delivery Expectations",
       "labels": [
         "News Report",
@@ -5158,12 +5158,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/egor-council-swears-in-10-appointees.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/egor-council-swears-in-10-appointees.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-15",
-      "published": false,
+      "published": true,
       "title": "Governor Sule Receives Leadership Institute Delegation Ahead of November Academy Launch",
       "labels": [
         "News Report",
@@ -5192,12 +5194,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/governor-sule-receives-leadership.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/governor-sule-receives-leadership.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-16",
-      "published": false,
+      "published": true,
       "title": "Ogun Clears \u20a63.503 Billion Severance Liabilities Owed to 1,042 Former Local Government Officials",
       "labels": [
         "News Report",
@@ -5226,12 +5230,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/ogun-clears-3503-billion-severance.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/ogun-clears-3503-billion-severance.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-17",
-      "published": false,
+      "published": true,
       "title": "Zamfara Governor Joins Federal Delegation on Ethiopia Nutrition Leadership Exchange",
       "labels": [
         "News Report",
@@ -5260,12 +5266,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/zamfara-governor-joins-federal.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/zamfara-governor-joins-federal.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-18",
-      "published": false,
+      "published": true,
       "title": "Benue Gives Unauthorised Billboard Operators Two Weeks to Regularise Structures",
       "labels": [
         "News Report",
@@ -5294,7 +5302,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/benue-gives-unauthorised-billboard.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/benue-gives-unauthorised-billboard.html"
     },
     {
       "type": "news_report",
