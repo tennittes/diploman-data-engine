@@ -232,26 +232,14 @@ def build_news_report_html(item):
             </p>
             """).strip())
 
-    if "call_to_action" in item:
-        cta = item["call_to_action"]
-        html_parts.append(textwrap.dedent(f"""
-        <div style="background: linear-gradient(135deg, #193731 0%, #112521 100%); border: 1px solid #234d44; border-left: 4px solid #38bdf8; border-radius: 6px; padding: 16px 20px; margin: 28px 0; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 8px;">
-            <span style="display: inline-block; width: 6px; height: 6px; background-color: #38bdf8; border-radius: 50%;"></span>
-            <span style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: #38bdf8; letter-spacing: 0.08em;">
-              {cta.get('heading', 'Diploman Times Telemetry Interlink')}
-            </span>
-          </div>
-          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px;">
-            <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #e2e8f0; max-width: 540px; font-weight: 400;">
-              {cta.get('text', '')}
-            </p>
-            <a href="{cta.get('button_url', '#')}" target="_top" style="display: inline-flex; align-items: center; gap: 6px; background-color: #2A4B23; color: #ffffff; font-size: 12px; font-weight: 700; text-decoration: none; padding: 9px 16px; border-radius: 4px; border: 1px solid #3a6631; transition: all 0.2s ease; white-space: nowrap;">
-              {cta.get('button_label', 'Explore Terminal →')}
-            </a>
-          </div>
-        </div>
-        """).strip())
+    # Standalone right-aligned return button pointing directly to www.diplomantimes.com
+    html_parts.append(textwrap.dedent("""
+    <div style="display: flex; justify-content: flex-end; margin: 28px 0;">
+      <a href="https://www.diplomantimes.com/" target="_top" style="display: inline-flex; align-items: center; justify-content: center; background-color: #ffffff; color: #193731; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-decoration: none; padding: 6px 14px; border-radius: 4px; border: 1px solid #cbd5e1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); white-space: nowrap; transition: all 0.15s ease;">
+        Back To Policy Reports &rarr;
+      </a>
+    </div>
+    """).strip())
 
     raw_html = "\n\n".join(html_parts)
     return optimize_blogger_images(raw_html)
