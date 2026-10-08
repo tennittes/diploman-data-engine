@@ -7,10 +7,15 @@ on:
   workflow_dispatch:
     inputs:
       publish_all:
-        description: 'Publish all available pending posts in queue?'
+        description: 'Publish ALL pending posts in queue?'
         type: boolean
         required: false
-        default: true
+        default: false
+      batch_limit:
+        description: 'Number of posts to publish (ignored if publish_all is checked)'
+        type: string
+        required: false
+        default: '5'
       month_folder:
         description: 'Target specific month folder (optional, e.g. oct2026)'
         type: string
@@ -50,17 +55,24 @@ jobs:
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
         run: |
-          # Build dynamic command flags based on workflow input or automated schedule
           CMD="python publish.py"
-          
-          if [ "${{ github.event.inputs.publish_all }}" != "false" ]; then
+
+          # Handle publish_all explicit check
+          if [ "${{ github.event.inputs.publish_all }}" == "true" ]; then
             CMD="$CMD --publish-all"
+          else
+            # Determine batch limit (use input if available, else default to 5)
+            LIMIT="${{ github.event.inputs.batch_limit }}"
+            if [ -z "$LIMIT" ]; then
+              LIMIT="5"
+            fi
+            CMD="$CMD --limit $LIMIT"
           fi
-          
+
           if [ -n "${{ github.event.inputs.month_folder }}" ]; then
             CMD="$CMD --month-folder ${{ github.event.inputs.month_folder }}"
           fi
-          
+
           echo "Executing: $CMD"
           eval $CMD
 
