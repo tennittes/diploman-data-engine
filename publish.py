@@ -308,7 +308,7 @@ def get_target_file_and_data(override_folder=None):
 
     return target_file, data
 
-def publish_batch_content(publish_all=False, limit=None, target_folder=None):
+def publish_batch_content(publish_all=False, limit=5, target_folder=None):
     published_count = 0
     file_path = None
     data = None
@@ -329,12 +329,9 @@ def publish_batch_content(publish_all=False, limit=None, target_folder=None):
         if publish_all:
             batch_limit = len(pending_items)
             print(f"[+] Dynamic Full Batch Mode: Publishing all {batch_limit} pending items.")
-        elif limit is not None:
-            batch_limit = limit
-            print(f"[+] Fixed Limit Mode: Publishing up to {batch_limit} items.")
         else:
-            batch_limit = len(pending_items)
-            print(f"[+] Auto-Detect Queue Mode: Publishing all {batch_limit} pending items found.")
+            batch_limit = min(limit, len(pending_items))
+            print(f"[+] Batch Limit Mode: Targeted maximum of {batch_limit} items (5 per run safety cap).")
 
         if batch_limit == 0:
             print("[=] No pending items available to publish.")
@@ -380,7 +377,8 @@ def publish_batch_content(publish_all=False, limit=None, target_folder=None):
                     posts = service.posts()
                     result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
                     post_url = result.get('url')
-                    print(f"[{published_count + 1}/{batch_limit}] Published: '{title}' -> {post_url}")
+                    published_count += 1
+                    print(f"[{published_count}/{batch_limit}] Published: '{title}' -> {post_url}")
 
                     # Mark published and attach verified live Blogger URL directly back to item
                     item["published"] = True
@@ -388,11 +386,14 @@ def publish_batch_content(publish_all=False, limit=None, target_folder=None):
                         item["url"] = post_url
                         item["permalink"] = post_url
 
-                    published_count += 1
-                    time.sleep(2)
+                    time.sleep(5)  # Safe delay between API writes
                     
                 except Exception as post_err:
-                    print(f"Warning: Failed to publish '{title}': {post_err}")
+                    err_msg = str(post_err)
+                    print(f"Warning: Failed to publish '{title}': {err_msg}")
+                    if "429" in err_msg or "rateLimitExceeded" in err_msg:
+                        print("Rate limit reached (429). Halting remaining batch execution to avoid further quota rejection.")
+                        break
                     continue
 
         if published_count > 0 and file_path and data:
@@ -429,7 +430,7 @@ def publish_batch_content(publish_all=False, limit=None, target_folder=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Diploman Times Batch Blogger Publisher")
     parser.add_argument("--publish-all", action="store_true", help="Publish every pending item in queue without limit")
-    parser.add_argument("--limit", type=int, default=None, help="Specific maximum limit of posts to publish")
+    parser.add_argument("--limit", type=int, default=5, help="Specific maximum limit of posts to publish (default: 5)")
     parser.add_argument("--month-folder", type=str, default=None, help="Target specific month directory (e.g. oct2026)")
     
     args = parser.parse_args()
