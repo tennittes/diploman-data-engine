@@ -4553,7 +4553,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-57",
       "title": "Lagos Finance Ministry Pushes Stronger Collaboration and Performance in Public Financial Management",
       "labels": [
@@ -4585,7 +4585,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-58",
       "title": "Lagos Reviews Clean Electricity Market as State Targets More Reliable Power Supply",
       "labels": [
@@ -4617,7 +4617,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-59",
       "title": "Kwara Awards About \u20a6120 Million to Outstanding Teachers and School Leaders",
       "labels": [
@@ -4649,7 +4649,7 @@
     },
     {
       "type": "news_report",
-      "published": false,
+      "published": true,
       "id": "news-2026-10-06-60",
       "title": "Jigawa Governor Signs \u20a663.48 Billion Supplementary Budget",
       "labels": [
