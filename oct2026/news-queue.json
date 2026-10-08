@@ -4682,7 +4682,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-01",
-      "published": false,
+      "published": true,
       "title": "Ondo Deploys More Resources as Recovery Operation Continues After Igbokoda NAF Crash",
       "labels": [
         "News Report",
@@ -4715,7 +4715,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-02",
-      "published": false,
+      "published": true,
       "title": "Kefas Joins High-Level Forum on Repositioning MNJTF Against Evolving Lake Chad Threats",
       "labels": [
         "News Report",
@@ -4748,7 +4748,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-03",
-      "published": false,
+      "published": true,
       "title": "Otu Assesses Odukpani Fire and Landslide Damage as Cross River Plans Relief Intervention",
       "labels": [
         "News Report",
@@ -4781,7 +4781,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-04",
-      "published": false,
+      "published": true,
       "title": "Kebbi Approves \u20a663.65 Million Registration Fees for 67 Nigerian Law School Students",
       "labels": [
         "News Report",
