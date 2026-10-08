@@ -4814,7 +4814,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-05",
-      "published": false,
+      "published": true,
       "title": "Fintiri Strengthens Adamawa Energy Ministry with New Hilux for Field Monitoring",
       "labels": [
         "News Report",
@@ -4847,7 +4847,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-06",
-      "published": false,
+      "published": true,
       "title": "Governor Okpebholo Threatens Arrest of Contractor Over Abandoned Benin-Abraka Road Project",
       "labels": [
         "News Report",
@@ -4881,7 +4881,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-07",
-      "published": false,
+      "published": true,
       "title": "Governor Bago Calls for Wider Access to NELFUND Across Tertiary Institutions",
       "labels": [
         "News Report",
@@ -4915,7 +4915,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-08",
-      "published": false,
+      "published": true,
       "title": "Osun Taskforce Engages Traditional and Religious Leaders on Indiscriminate Waste Disposal",
       "labels": [
         "News Report",
