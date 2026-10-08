@@ -5309,7 +5309,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-19",
-      "published": false,
+      "published": true,
       "title": "Zamfara RUWATSAN and UNICEF Train Pit Emptiers on Safer Faecal Sludge Management",
       "labels": [
         "News Report",
@@ -5338,12 +5338,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/zamfara-ruwatsan-and-unicef-train-pit.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/zamfara-ruwatsan-and-unicef-train-pit.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-20",
-      "published": false,
+      "published": true,
       "title": "Ekiti Reports Higher 2025 Output for Major Food Crops as Cassava Production Exceeds 2.1 Million Tonnes",
       "labels": [
         "News Report",
@@ -5372,12 +5374,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/ekiti-reports-higher-2025-output-for.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/ekiti-reports-higher-2025-output-for.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-21",
-      "published": false,
+      "published": true,
       "title": "Kaduna Announces Pension Increase as Uba Sani Receives Pensioner-Friendly Governor Award",
       "labels": [
         "News Report",
@@ -5403,12 +5407,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/kaduna-announces-pension-increase-as.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/kaduna-announces-pension-increase-as.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-22",
-      "published": false,
+      "published": true,
       "title": "World Bank Expresses Interest in Katsina Community Development Programme Framework",
       "labels": [
         "News Report",
@@ -5434,12 +5440,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/world-bank-expresses-interest-in.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/world-bank-expresses-interest-in.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-23",
-      "published": false,
+      "published": true,
       "title": "Kaduna Pensioners Commend Uba Sani as Cumulative Retiree Payments Reach \u20a621.455 Billion",
       "labels": [
         "News Report",
@@ -5465,7 +5473,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/kaduna-pensioners-commend-uba-sani-as.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/kaduna-pensioners-commend-uba-sani-as.html"
     },
     {
       "type": "news_report",
