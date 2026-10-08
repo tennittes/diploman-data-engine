@@ -4949,7 +4949,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-07-09",
-      "published": false,
+      "published": true,
       "title": "Former Niger Assembly Speakers Condole Governor Bago Over Artisanal Mining Deaths",
       "labels": [
         "News Report",
@@ -4978,12 +4978,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/former-niger-assembly-speakers-condole.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/former-niger-assembly-speakers-condole.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-10",
-      "published": false,
+      "published": true,
       "title": "Governor Bago Presents 34-Seater Bus to Niger Tornadoes",
       "labels": [
         "News Report",
@@ -5012,12 +5014,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/governor-bago-presents-34-seater-bus-to.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/governor-bago-presents-34-seater-bus-to.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-11",
-      "published": false,
+      "published": true,
       "title": "Delta Security Operations Rescue Kidnap Victim, Arrest Five Suspects and Recover Weapons",
       "labels": [
         "News Report",
@@ -5046,12 +5050,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/delta-security-operations-rescue-kidnap.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/delta-security-operations-rescue-kidnap.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-12",
-      "published": false,
+      "published": true,
       "title": "Edo Government Orders Security Agencies to Rescue 90-Year-Old Abduction Victim",
       "labels": [
         "News Report",
@@ -5080,12 +5086,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/edo-government-orders-security-agencies.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/edo-government-orders-security-agencies.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-07-13",
-      "published": false,
+      "published": true,
       "title": "Gombe Records 80 Points in Latest National Open Governance Ranking",
       "labels": [
         "News Report",
@@ -5114,7 +5122,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/gombe-records-80-points-in-latest.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/gombe-records-80-points-in-latest.html"
     },
     {
       "type": "news_report",
