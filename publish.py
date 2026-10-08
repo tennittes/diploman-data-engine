@@ -7,6 +7,7 @@ import re
 import urllib.request
 import time
 import datetime
+import argparse
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -14,8 +15,6 @@ CLIENT_ID = os.environ.get("BLOGGER_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
-
-BATCH_LIMIT = 4
 
 def get_blogger_service():
     creds = Credentials(
@@ -110,7 +109,6 @@ def format_front_page_layout_data(items):
     """Sorts items by PSI descending and maps them to center and flanking columns using the registry."""
     registry = load_governors_registry()
     
-    # Sort items by PSI score descending if available
     sorted_items = sorted(items, key=lambda x: float(x.get('psi', 3.0)), reverse=True)
     
     def get_reg_info(state_name):
@@ -125,7 +123,6 @@ def format_front_page_layout_data(items):
     center_column = {}
     flanking_columns = []
 
-    # Map top 3 for center column
     center_keys = ["leadStory", "firstRunnerUp", "secondRunnerUp"]
     for idx, key in enumerate(center_keys):
         if idx < len(sorted_items):
@@ -145,7 +142,6 @@ def format_front_page_layout_data(items):
                 "imageAriaLabel": reg["aria_label"]
             }
 
-    # Map ranks 4 through 12 to left/right flanking columns alternatively
     flanking_states = sorted_items[3:12]
     for idx, item in enumerate(flanking_states):
         state_name = item.get('stateName', item.get('state', 'Unknown'))
@@ -188,7 +184,6 @@ def build_news_report_html(item):
         img_alt = img.get('alt', '')
         aria_label = img.get('aria_label', aria_label)
 
-    # 1. Check if queue image URL is provided AND working. If broken, trigger registry fallback.
     if queue_img_src and is_image_url_working(queue_img_src):
         img_src = queue_img_src
     else:
@@ -204,7 +199,6 @@ def build_news_report_html(item):
         img_alt = reg.get("alt", f"{state_name} Executive Office")
         aria_label = reg.get("aria_label", f"{state_name} Governance Policy Intelligence")
 
-    # 2. Featured Image Container Render
     if img_src:
         html_parts.append(textwrap.dedent(f"""
         <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 8px; padding: 0px; position: relative; width: 100%;">
@@ -214,7 +208,6 @@ def build_news_report_html(item):
         </figure>
         """).strip())
 
-    # 3. Lead Narrative
     if "lead_narrative" in item:
         html_parts.append(textwrap.dedent(f"""
         <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
@@ -223,7 +216,6 @@ def build_news_report_html(item):
         <!--more-->
         """).strip())
 
-    # 4. Editorial Notice Badge
     if "editorial_notice" in item:
         notice_text = item['editorial_notice'].replace('EDITORIAL NOTICE:', '').strip()
         html_parts.append(textwrap.dedent(f"""
@@ -232,7 +224,6 @@ def build_news_report_html(item):
         </div>
         """).strip())
 
-    # 5. Body Paragraphs
     if "story_body" in item:
         for p in item["story_body"]:
             html_parts.append(textwrap.dedent(f"""
@@ -241,7 +232,6 @@ def build_news_report_html(item):
             </p>
             """).strip())
 
-    # 6. Call To Action Terminal Interlink Block
     if "call_to_action" in item:
         cta = item["call_to_action"]
         html_parts.append(textwrap.dedent(f"""
@@ -266,11 +256,11 @@ def build_news_report_html(item):
     raw_html = "\n\n".join(html_parts)
     return optimize_blogger_images(raw_html)
 
-def get_target_file_and_data():
-    """Dynamically locates the active month's queue file or scans all queues for unpublished items."""
+def get_target_file_and_data(override_folder=None):
+    """Locates target queue file or scans queues for unpublished items."""
     now = datetime.datetime.now()
     month_key = now.strftime("%b").lower()  # e.g. 'oct'
-    current_month_folder = f"{month_key}{now.year}"  # e.g. 'oct2026'
+    current_month_folder = override_folder or f"{month_key}{now.year}"  # e.g. 'oct2026'
     dynamic_target = os.path.join(current_month_folder, "news-queue.json")
 
     target_file = None
@@ -284,11 +274,9 @@ def get_target_file_and_data():
         except Exception:
             return False
 
-    # Check 1: Target current dynamic month folder (e.g., oct2026/news-queue.json) if pending posts exist
     if os.path.exists(dynamic_target) and file_has_unpublished(dynamic_target):
         target_file = dynamic_target
     else:
-        # Check 2: Scan all news-queue.json files across the repository for pending posts
         all_queues = glob.glob("**/news-queue.json", recursive=True)
         if os.path.exists("news-queue.json"):
             all_queues.append("news-queue.json")
@@ -298,7 +286,6 @@ def get_target_file_and_data():
                 target_file = queue_path
                 break
 
-    # Fallback: Default to dynamic target, root file, or first available file
     if not target_file:
         if os.path.exists(dynamic_target):
             target_file = dynamic_target
@@ -321,13 +308,13 @@ def get_target_file_and_data():
 
     return target_file, data
 
-def publish_batch_content():
+def publish_batch_content(publish_all=False, limit=None, target_folder=None):
     published_count = 0
     file_path = None
     data = None
 
     try:
-        file_path, data = get_target_file_and_data()
+        file_path, data = get_target_file_and_data(override_folder=target_folder)
         
         if isinstance(data, dict) and "newsReports" in data:
             items = data["newsReports"]
@@ -336,27 +323,41 @@ def publish_batch_content():
         else:
             items = []
 
-        # Ensure output directory exists for compiler artifacts
+        pending_items = [item for item in items if not item.get("published", False)]
+        
+        # Dynamic Limit Calculation
+        if publish_all:
+            batch_limit = len(pending_items)
+            print(f"[+] Dynamic Full Batch Mode: Publishing all {batch_limit} pending items.")
+        elif limit is not None:
+            batch_limit = limit
+            print(f"[+] Fixed Limit Mode: Publishing up to {batch_limit} items.")
+        else:
+            batch_limit = len(pending_items)
+            print(f"[+] Auto-Detect Queue Mode: Publishing all {batch_limit} pending items found.")
+
+        if batch_limit == 0:
+            print("[=] No pending items available to publish.")
+            return
+
         os.makedirs('output', exist_ok=True)
 
-        # 1. Process and save structured front page layout mapping if items exist
         if items:
             front_page_layout = format_front_page_layout_data(items)
             with open('output/front-page-engine.json', 'w', encoding='utf-8') as f_out:
                 json.dump(front_page_layout, f_out, indent=2)
             print("Successfully compiled and updated output/front-page-engine.json layout mappings.")
 
-        # 2. Process and copy/validate budget analysis data for widget output pipeline
         budget_data = load_budget_analysis()
         if budget_data:
             with open('budget-analysis.json', 'w', encoding='utf-8') as f_budget:
                 json.dump(budget_data, f_budget, indent=2)
-            print("Successfully validated and synced budget-analysis.json to output directory.")
+            print("Successfully validated and synced budget-analysis.json.")
 
         service = get_blogger_service()
 
         for item in items:
-            if published_count >= BATCH_LIMIT:
+            if published_count >= batch_limit:
                 break
 
             if not item.get("published", False):
@@ -379,13 +380,16 @@ def publish_batch_content():
                     posts = service.posts()
                     result = posts.insert(blogId=BLOG_ID, body=body, isDraft=False).execute()
                     post_url = result.get('url')
-                    print(f"[{published_count + 1}/{BATCH_LIMIT}] Published: '{title}' -> {post_url}")
+                    print(f"[{published_count + 1}/{batch_limit}] Published: '{title}' -> {post_url}")
 
+                    # Mark published and attach verified live Blogger URL directly back to item
                     item["published"] = True
+                    if post_url:
+                        item["url"] = post_url
+                        item["permalink"] = post_url
+
                     published_count += 1
-                    
-                    # Throttle requests to prevent API block/rate-limit dropping
-                    time.sleep(3)
+                    time.sleep(2)
                     
                 except Exception as post_err:
                     print(f"Warning: Failed to publish '{title}': {post_err}")
@@ -394,14 +398,14 @@ def publish_batch_content():
         if published_count > 0 and file_path and data:
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
-            print(f"Updated {published_count} item(s) to 'published': true in {file_path}")
+            print(f"Updated {published_count} item(s) with live URLs and 'published': true in {file_path}")
 
     except json.JSONDecodeError as json_err:
         print(f"Error: Publishing halted due to malformed JSON syntax at line {json_err.lineno} column {json_err.colno}: {json_err.msg}")
     except Exception as auth_err:
-        print(f"Warning: Blogger API initialization skipped due to authentication/token error: {auth_err}")
+        print(f"Warning: Blogger API execution error: {auth_err}")
 
-    # Commit and push queue updates and output artifacts cleanly to GitHub
+    # Commit queue updates and output artifacts to GitHub
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
@@ -416,11 +420,17 @@ def publish_batch_content():
         if status_result.stdout.strip():
             subprocess.run(["git", "commit", "-m", "auto: publish batch post state, budget analysis sync, and layout updates [skip ci]"], check=True)
             subprocess.run(["git", "push"], check=True)
-            print("Successfully pushed publishing queue state, budget analysis, and layout mapping to repository.")
+            print("Successfully pushed publishing queue state and layout mappings to repository.")
         else:
             print("No changes detected; git commit/push skipped.")
     except Exception as e:
         print(f"Note: Git auto-commit skipped or failed: {e}")
 
 if __name__ == "__main__":
-    publish_batch_content()
+    parser = argparse.ArgumentParser(description="Diploman Times Batch Blogger Publisher")
+    parser.add_argument("--publish-all", action="store_true", help="Publish every pending item in queue without limit")
+    parser.add_argument("--limit", type=int, default=None, help="Specific maximum limit of posts to publish")
+    parser.add_argument("--month-folder", type=str, default=None, help="Target specific month directory (e.g. oct2026)")
+    
+    args = parser.parse_args()
+    publish_batch_content(publish_all=args.publish_all, limit=args.limit, target_folder=args.month_folder)
