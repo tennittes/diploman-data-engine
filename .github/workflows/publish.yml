@@ -2,9 +2,20 @@ name: Automated Blogger Publisher
 
 on:
   schedule:
-    # Runs every hour at minute 0, 24/7 (UTC time)
+    # Runs hourly at minute 17 (UTC time)
     - cron: '17 * * * *'
   workflow_dispatch:
+    inputs:
+      publish_all:
+        description: 'Publish all available pending posts in queue?'
+        type: boolean
+        required: false
+        default: true
+      month_folder:
+        description: 'Target specific month folder (optional, e.g. oct2026)'
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -32,13 +43,26 @@ jobs:
       - name: Update Ticker Data
         run: python update_ticker.py
 
-      - name: Execute Publishing Script
+      - name: Execute Batch Publishing Script
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
-        run: python publish.py
+        run: |
+          # Build dynamic command flags based on workflow input or automated schedule
+          CMD="python publish.py"
+          
+          if [ "${{ github.event.inputs.publish_all }}" != "false" ]; then
+            CMD="$CMD --publish-all"
+          fi
+          
+          if [ -n "${{ github.event.inputs.month_folder }}" ]; then
+            CMD="$CMD --month-folder ${{ github.event.inputs.month_folder }}"
+          fi
+          
+          echo "Executing: $CMD"
+          eval $CMD
 
       - name: Commit and Push Queue State Changes
         run: |
@@ -46,7 +70,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
           git add ticker.json output/front-page-engine.json budget-analysis.json "**/news-queue.json" "**/social-queue.json"
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update published queue, ticker state, social queue, and budget analysis artifacts [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: publish batch post state, ticker state, social queue, and budget analysis updates [skip ci]" && git push)
 
       - name: Run Social Distribution Pipeline
         env:
