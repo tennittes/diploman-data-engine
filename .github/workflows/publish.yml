@@ -82,7 +82,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
           git add ticker.json output/front-page-engine.json budget-analysis.json "**/news-queue.json" "**/social-queue.json"
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: publish batch post state, ticker state, social queue, and budget analysis updates [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: publish batch post state, ticker state, social queue, and layout updates [skip ci]" && git push)
 
       - name: Run Social Distribution Pipeline
         env:
