@@ -6536,7 +6536,7 @@
     {
       "id": "news-2026-10-08-21",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Katsina Commissions Upgraded Matazu Water Scheme with 17 Wells and Solar Power",
       "labels": [
         "News Report",
@@ -6562,12 +6562,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/katsina-commissions-upgraded-matazu.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/katsina-commissions-upgraded-matazu.html"
     },
     {
       "id": "news-2026-10-08-22",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Ekiti Executive Council Approves 2027\u20132029 Medium-Term Expenditure Framework",
       "labels": [
         "News Report",
@@ -6593,12 +6595,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/ekiti-executive-council-approves.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/ekiti-executive-council-approves.html"
     },
     {
       "id": "news-2026-10-08-23",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Oyo Council Builds 3.5km Road to Connect Bonded Warehouse and Container Terminal",
       "labels": [
         "News Report",
@@ -6624,12 +6628,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/oyo-council-builds-35km-road-to-connect.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/oyo-council-builds-35km-road-to-connect.html"
     },
     {
       "id": "news-2026-10-08-24",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Katsina Empowerment Plan Targets 3,000 Learning Materials and 100 Women Entrepreneurs",
       "labels": [
         "News Report",
@@ -6655,12 +6661,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/katsina-empowerment-plan-targets-3000.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/katsina-empowerment-plan-targets-3000.html"
     },
     {
       "id": "news-2026-10-08-25",
       "type": "news_report",
-      "published": false,
+      "published": true,
       "title": "Zamfara Teachers' Board Monitors TRCN Registration Compliance in Kaura Namoda",
       "labels": [
         "News Report",
@@ -6686,7 +6694,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/zamfara-teachers-board-monitors-trcn.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/zamfara-teachers-board-monitors-trcn.html"
     },
     {
       "id": "news-2026-10-08-26",
