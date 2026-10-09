@@ -6041,7 +6041,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-08-06",
-      "published": false,
+      "published": true,
       "title": "Kebbi Approves \u20a675,000 Minimum Wage for 17,620 Teachers From October",
       "labels": [
         "News Report",
@@ -6067,12 +6067,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/kebbi-approves-75000-minimum-wage-for.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/kebbi-approves-75000-minimum-wage-for.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-07",
-      "published": false,
+      "published": true,
       "title": "Enugu Unveils Six-to-Ten-Year Education Policy to Guide Sector Transformation",
       "labels": [
         "News Report",
@@ -6098,12 +6100,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/enugu-unveils-six-to-ten-year-education.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/enugu-unveils-six-to-ten-year-education.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-08",
-      "published": false,
+      "published": true,
       "title": "Enugu Forwards Richard Agu's Nomination as Transport Commissioner-Designate",
       "labels": [
         "News Report",
@@ -6129,12 +6133,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/enugu-forwards-richard-agus-nomination.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/enugu-forwards-richard-agus-nomination.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-09",
-      "published": false,
+      "published": true,
       "title": "Ondo Community Mourns Nigerian Air Force Personnel After Igbokoda Crash",
       "labels": [
         "News Report",
@@ -6160,12 +6166,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/ondo-community-mourns-nigerian-air.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/ondo-community-mourns-nigerian-air.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-10",
-      "published": false,
+      "published": true,
       "title": "Cross River Orders Direct Government Payments, Tightens Slaughterhouse and Meat-Safety Controls",
       "labels": [
         "News Report",
@@ -6191,7 +6199,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/cross-river-orders-direct-government.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/cross-river-orders-direct-government.html"
     },
     {
       "type": "news_report",
