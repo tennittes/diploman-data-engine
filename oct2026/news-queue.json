@@ -6206,7 +6206,7 @@
     {
       "type": "news_report",
       "id": "news-2026-10-08-11",
-      "published": false,
+      "published": true,
       "title": "Niger Schedules Groundbreaking for \u20a61.5 Trillion Lambata\u2013Bida\u2013Mokwa\u2013Kontagora Highway Project",
       "labels": [
         "News Report",
@@ -6232,12 +6232,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/niger-schedules-groundbreaking-for-15.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/niger-schedules-groundbreaking-for-15.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-12",
-      "published": false,
+      "published": true,
       "title": "Edo Intervenes at Ojirami Dam After Water-Release Mechanism Malfunctions",
       "labels": [
         "News Report",
@@ -6263,12 +6265,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/edo-intervenes-at-ojirami-dam-after.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/edo-intervenes-at-ojirami-dam-after.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-13",
-      "published": false,
+      "published": true,
       "title": "Niger, Federal Government Pursue Framework to Organise Artisanal Mining",
       "labels": [
         "News Report",
@@ -6294,12 +6298,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/niger-federal-government-pursue.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/niger-federal-government-pursue.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-14",
-      "published": false,
+      "published": true,
       "title": "Edo Head of Service Reviews E-Governance, Staff Welfare and Digital Skills",
       "labels": [
         "News Report",
@@ -6325,12 +6331,14 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/edo-head-of-service-reviews-e.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/edo-head-of-service-reviews-e.html"
     },
     {
       "type": "news_report",
       "id": "news-2026-10-08-15",
-      "published": false,
+      "published": true,
       "title": "Edo, MTN Foundation Distribute School Bags, Books and Bottles to Pupils",
       "labels": [
         "News Report",
@@ -6356,7 +6364,9 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal \u2192",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+      },
+      "url": "https://www.diplomantimes.com/2026/10/edo-mtn-foundation-distribute-school.html",
+      "permalink": "https://www.diplomantimes.com/2026/10/edo-mtn-foundation-distribute-school.html"
     },
     {
       "id": "news-2026-10-08-16",
