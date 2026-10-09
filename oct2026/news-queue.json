@@ -4982,7 +4982,7 @@
       "url": "https://www.diplomantimes.com/2026/10/former-niger-assembly-speakers-condole.html",
       "permalink": "https://www.diplomantimes.com/2026/10/former-niger-assembly-speakers-condole.html"
     },
-    {
+   {
       "type": "news_report",
       "id": "news-2026-10-07-10",
       "published": true,
@@ -7018,6 +7018,6 @@
         "text": "Track subnational policy execution, fiscal performance, and security conditions across Nigeria's 36 states and FCT on the live terminal.",
         "button_label": "Explore Macro Intelligence Terminal →",
         "button_url": "https://www.diplomantimes.com/p/daily-macro-terminal.html"
-      }
+    }
   ]
 }
