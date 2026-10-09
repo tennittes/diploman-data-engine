@@ -6,11 +6,12 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from b2sdk.v2 import B2Api, InMemoryAccountInfo
 
-# Environment Credentials
+# Backblaze B2 Environment Credentials
 B2_KEY_ID = os.environ.get("B2_APPLICATION_KEY_ID")
 B2_KEY = os.environ.get("B2_APPLICATION_KEY")
 B2_BUCKET_NAME = os.environ.get("B2_BUCKET_NAME", "diploman-times-data")
 
+# Blogger API Credentials
 CLIENT_ID = os.environ.get("BLOGGER_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
@@ -29,9 +30,9 @@ def get_blogger_service():
     return build('blogger', 'v3', credentials=creds)
 
 def fetch_master_data_from_b2():
-    """Authenticates with Backblaze B2 and downloads master-data.json from the active month folder."""
+    """First and foremost downloads master-data.json from B2 cloud vault."""
     if not B2_KEY_ID or not B2_KEY:
-        print("Warning: B2 credentials not found in env. Falling back to local filesystem...")
+        print("⚠️ B2 Credentials not found in environment. Attempting local file fallback...")
         return None, None
 
     try:
@@ -44,26 +45,30 @@ def fetch_master_data_from_b2():
         month_folder = f"{now.strftime('%b').lower()}{now.year}"  # e.g., oct2026
         target_b2_path = f"{month_folder}/master-data.json"
 
-        # Download master-data.json
         master_data = None
-        with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False) as tmp:
+        with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False, suffix='.json') as tmp:
             try:
+                print(f"📥 Downloading primary source: {target_b2_path} from B2 bucket '{B2_BUCKET_NAME}'...")
                 downloaded_file = bucket.download_file_by_name(target_b2_path)
                 downloaded_file.save(tmp.name)
                 with open(tmp.name, 'r', encoding='utf-8') as f:
                     master_data = json.load(f)
-                print(f"Successfully retrieved master data from B2: {target_b2_path}")
+                print(f"✅ Successfully retrieved master data from B2: {target_b2_path}")
             except Exception as e:
-                print(f"B2 path {target_b2_path} failed ({e}). Attempting root master-data.json...")
-                downloaded_file = bucket.download_file_by_name("master-data.json")
-                downloaded_file.save(tmp.name)
-                with open(tmp.name, 'r', encoding='utf-8') as f:
-                    master_data = json.load(f)
+                print(f"⚠️ Target path {target_b2_path} failed ({e}). Attempting root 'master-data.json'...")
+                try:
+                    downloaded_file = bucket.download_file_by_name("master-data.json")
+                    downloaded_file.save(tmp.name)
+                    with open(tmp.name, 'r', encoding='utf-8') as f:
+                        master_data = json.load(f)
+                except Exception as err:
+                    print(f"❌ Root master-data.json also failed on B2: {err}")
+                    return None, None
 
         # Download Governors Registry lookup if available
         registry_data = {}
         try:
-            with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False) as tmp_reg:
+            with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False, suffix='.json') as tmp_reg:
                 downloaded_reg = bucket.download_file_by_name("governors-registry.json")
                 downloaded_reg.save(tmp_reg.name)
                 with open(tmp_reg.name, 'r', encoding='utf-8') as f_reg:
@@ -74,7 +79,7 @@ def fetch_master_data_from_b2():
         return master_data, registry_data
 
     except Exception as err:
-        print(f"Error connecting to B2: {err}")
+        print(f"❌ Error connecting to B2: {err}")
         return None, None
 
 def load_local_fallback():
@@ -133,7 +138,6 @@ def extract_state_name(item, registry):
 def extract_top_performers(items, registry):
     processed = []
     for item in items:
-        # Check published state across master data items
         if item.get("published", False) or item.get("status") == "published":
             state = extract_state_name(item, registry)
             psi = float(item.get('psi', 8.5))
@@ -270,7 +274,7 @@ www.diplomantimes.com"""
     html_content = f"""
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1e293b; max-width: 800px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #193731; border-bottom: 2px solid #234d44; padding-bottom: 8px;">Diploman Times - Weekly Social Brief Engine</h2>
-        <p style="font-size: 13px; color: #64748b;">Source: <strong>B2 Vault (master-data.json)</strong> | Compiled: <strong>{week_str}</strong></p>
+        <p style="font-size: 13px; color: #64748b;">Primary Source: <strong>B2 Vault (master-data.json)</strong> | Compiled: <strong>{week_str}</strong></p>
 
         <!-- LinkedIn Block -->
         <div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0a66c2; border-radius: 6px; padding: 18px; margin-bottom: 24px;">
@@ -297,14 +301,14 @@ def update_blogger_page(html_content):
     service = get_blogger_service()
     title = f"Weekly Policy Brief Workspace - {datetime.datetime.now().strftime('%b %d, %Y')}"
     body = {"title": title, "content": html_content}
-    
+
     if PAGE_ID:
         try:
             pages = service.pages()
             result = pages.patch(blogId=BLOG_ID, pageId=PAGE_ID, body=body).execute()
-            print(f"Successfully updated Blogger Workspace Page via B2 master-data.json: {result.get('url')}")
+            print(f"🚀 Successfully patched Blogger Workspace Page using B2 master-data.json: {result.get('url')}")
         except Exception as e:
-            print(f"Error patching page: {e}")
+            print(f"❌ Error patching page: {e}")
 
 if __name__ == "__main__":
     master_data, registry_data = fetch_master_data_from_b2()
