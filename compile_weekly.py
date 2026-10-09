@@ -1,15 +1,21 @@
 import os
 import json
-import glob
 import datetime
+import tempfile
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
+from b2sdk.v2 import B2Api, InMemoryAccountInfo
+
+# Environment Credentials
+B2_KEY_ID = os.environ.get("B2_APPLICATION_KEY_ID")
+B2_KEY = os.environ.get("B2_APPLICATION_KEY")
+B2_BUCKET_NAME = os.environ.get("B2_BUCKET_NAME", "diploman-times-data")
 
 CLIENT_ID = os.environ.get("BLOGGER_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
-PAGE_ID = os.environ.get("BLOGGER_WEEKLY_PAGE_ID")  # Target Blogger Page ID
+PAGE_ID = os.environ.get("BLOGGER_WEEKLY_PAGE_ID")
 
 def get_blogger_service():
     creds = Credentials(
@@ -22,56 +28,153 @@ def get_blogger_service():
     )
     return build('blogger', 'v3', credentials=creds)
 
-def fetch_weekly_data():
-    """Locates queue files and extracts published posts from the current week."""
-    all_queues = glob.glob("**/news-queue.json", recursive=True)
-    if os.path.exists("news-queue.json"):
-        all_queues.append("news-queue.json")
+def fetch_master_data_from_b2():
+    """Authenticates with Backblaze B2 and downloads master-data.json from the active month folder."""
+    if not B2_KEY_ID or not B2_KEY:
+        print("Warning: B2 credentials not found in env. Falling back to local filesystem...")
+        return None, None
 
-    weekly_posts = []
-    for q_path in all_queues:
+    try:
+        info = InMemoryAccountInfo()
+        b2_api = B2Api(info)
+        b2_api.authorize_account("production", B2_KEY_ID, B2_KEY)
+        bucket = b2_api.get_bucket_by_name(B2_BUCKET_NAME)
+
+        now = datetime.datetime.now()
+        month_folder = f"{now.strftime('%b').lower()}{now.year}"  # e.g., oct2026
+        target_b2_path = f"{month_folder}/master-data.json"
+
+        # Download master-data.json
+        master_data = None
+        with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False) as tmp:
+            try:
+                downloaded_file = bucket.download_file_by_name(target_b2_path)
+                downloaded_file.save(tmp.name)
+                with open(tmp.name, 'r', encoding='utf-8') as f:
+                    master_data = json.load(f)
+                print(f"Successfully retrieved master data from B2: {target_b2_path}")
+            except Exception as e:
+                print(f"B2 path {target_b2_path} failed ({e}). Attempting root master-data.json...")
+                downloaded_file = bucket.download_file_by_name("master-data.json")
+                downloaded_file.save(tmp.name)
+                with open(tmp.name, 'r', encoding='utf-8') as f:
+                    master_data = json.load(f)
+
+        # Download Governors Registry lookup if available
+        registry_data = {}
         try:
-            with open(q_path, "r", encoding="utf-8") as f:
-                content = json.load(f)
-                items = content.get("newsReports", []) if isinstance(content, dict) else content
-                for item in items:
-                    if item.get("published", False):
-                        weekly_posts.append(item)
-        except Exception as e:
-            print(f"Warning reading {q_path}: {e}")
+            with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False) as tmp_reg:
+                downloaded_reg = bucket.download_file_by_name("governors-registry.json")
+                downloaded_reg.save(tmp_reg.name)
+                with open(tmp_reg.name, 'r', encoding='utf-8') as f_reg:
+                    registry_data = json.load(f_reg)
+        except Exception:
+            pass
 
-    return weekly_posts
+        return master_data, registry_data
 
-def extract_top_performers(weekly_posts):
-    """Sorts posts to dynamically extract top PSI and top secure (lowest SIS) states."""
-    psi_items = sorted(weekly_posts, key=lambda x: float(x.get('psi', 8.0)), reverse=True)
-    sis_items = sorted(weekly_posts, key=lambda x: float(x.get('sis', 3.0)))
+    except Exception as err:
+        print(f"Error connecting to B2: {err}")
+        return None, None
+
+def load_local_fallback():
+    """Fallback reader if B2 is unreachable."""
+    now = datetime.datetime.now()
+    month_folder = f"{now.strftime('%b').lower()}{now.year}"
+    target_local = os.path.join(month_folder, "master-data.json")
+
+    master_data = None
+    registry_data = {}
+
+    if os.path.exists(target_local):
+        with open(target_local, "r", encoding="utf-8") as f:
+            master_data = json.load(f)
+    elif os.path.exists("master-data.json"):
+        with open("master-data.json", "r", encoding="utf-8") as f:
+            master_data = json.load(f)
+
+    if os.path.exists("governors-registry.json"):
+        with open("governors-registry.json", "r", encoding="utf-8") as f:
+            registry_data = json.load(f)
+
+    return master_data, registry_data
+
+def extract_state_name(item, registry):
+    raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
+    title = (item.get('title') or item.get('headline') or "").lower()
+
+    if raw_state:
+        for s_name in registry.keys():
+            if s_name.lower() == str(raw_state).strip().lower():
+                return s_name
+        return str(raw_state).strip()
+
+    governor_aliases = {
+        "nwifuru": "Ebonyi", "okpebholo": "Edo", "kefas": "Taraba", "zulum": "Borno",
+        "uzodimma": "Imo", "fintiri": "Adamawa", "bago": "Niger", "adeleke": "Osun",
+        "makinde": "Oyo", "soludo": "Anambra", "sanwo-olu": "Lagos", "wike": "FCT Abuja",
+        "aliyu": "Sokoto", "mutfwang": "Plateau"
+    }
+    for alias, state_name in governor_aliases.items():
+        if alias in title:
+            return state_name
+
+    for s_name in registry.keys():
+        if s_name.lower() in title:
+            return s_name
+
+    labels = item.get("labels", [])
+    for l in labels:
+        if l != "News Report":
+            return l
+
+    return "Subnational State"
+
+def extract_top_performers(items, registry):
+    processed = []
+    for item in items:
+        # Check published state across master data items
+        if item.get("published", False) or item.get("status") == "published":
+            state = extract_state_name(item, registry)
+            psi = float(item.get('psi', 8.5))
+            sis = float(item.get('sis', 2.8))
+            processed.append({'state': state, 'psi': psi, 'sis': sis})
+
+    psi_sorted = sorted(processed, key=lambda x: x['psi'], reverse=True)
+    sis_sorted = sorted(processed, key=lambda x: x['sis'])
 
     top_psi = []
-    for p in psi_items[:3]:
-        st = p.get('stateName') or p.get('state') or 'Jurisdiction'
-        val = p.get('psi', '8.5')
-        top_psi.append(f"{st} {val}PSI")
+    seen_psi = set()
+    for p in psi_sorted:
+        st = p['state']
+        if st not in seen_psi and st != "Subnational State":
+            seen_psi.add(st)
+            top_psi.append(f"{st} {p['psi']}PSI")
+        if len(top_psi) == 3:
+            break
 
     top_sis = []
-    for p in sis_items[:3]:
-        st = p.get('stateName') or p.get('state') or 'Jurisdiction'
-        val = p.get('sis', '2.5')
-        top_sis.append(f"{st} {val}SIS")
+    seen_sis = set()
+    for p in sis_sorted:
+        st = p['state']
+        if st not in seen_sis and st != "Subnational State":
+            seen_sis.add(st)
+            top_sis.append(f"{st} {p['sis']}SIS")
+        if len(top_sis) == 3:
+            break
 
     psi_str = " | ".join(top_psi) if top_psi else "Sokoto 9.2PSI | Taraba 9.1PSI | Plateau 9.0PSI"
     sis_str = " | ".join(top_sis) if top_sis else "Ogun 1.4SIS | Ekiti 1.8SIS | Abia 2.9SIS"
 
     return psi_str, sis_str
 
-def generate_weekly_html(weekly_posts):
-    """Generates a clean HTML layout hosting both LinkedIn and Facebook draft blocks."""
+def generate_weekly_html(master_data, registry_data):
     now = datetime.datetime.now()
     week_str = now.strftime("%B %d, %Y")
 
-    psi_leaderboard, sis_leaderboard = extract_top_performers(weekly_posts)
+    items = master_data.get("newsReports", []) if isinstance(master_data, dict) else (master_data or [])
+    psi_leaderboard, sis_leaderboard = extract_top_performers(items, registry_data)
 
-    # LinkedIn Draft (Includes Top 3 Tiers & Fits Within 3,000 Char Limit)
     linkedin_text = f"""NIGERIA SUBNATIONAL GOVERNANCE INTELLIGENCE | WEEKLY EXECUTIVE BRIEF
 Reporting Cycle: Week Ending {week_str} | Diploman Times Telemetry
 
@@ -98,7 +201,6 @@ Sustaining momentum into the next cycle requires subnational administrations to 
 🌐 Track live PSI/SIS standings across all 37 jurisdictions:
 https://www.diplomantimes.com/"""
 
-    # Extended Facebook Draft (Deep-Dive Analysis)
     facebook_text = f"""NIGERIA SUBNATIONAL GOVERNANCE BRIEF | WEEKLY POLICY ROUNDUP 🇳🇬
 Reporting Cycle: Week Ending {week_str} | Subnational Governance Telemetry
 
@@ -168,7 +270,7 @@ www.diplomantimes.com"""
     html_content = f"""
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1e293b; max-width: 800px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #193731; border-bottom: 2px solid #234d44; padding-bottom: 8px;">Diploman Times - Weekly Social Brief Engine</h2>
-        <p style="font-size: 13px; color: #64748b;">Automated compilation cycle: <strong>{week_str}</strong></p>
+        <p style="font-size: 13px; color: #64748b;">Source: <strong>B2 Vault (master-data.json)</strong> | Compiled: <strong>{week_str}</strong></p>
 
         <!-- LinkedIn Block -->
         <div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0a66c2; border-radius: 6px; padding: 18px; margin-bottom: 24px;">
@@ -194,29 +296,20 @@ www.diplomantimes.com"""
 def update_blogger_page(html_content):
     service = get_blogger_service()
     title = f"Weekly Policy Brief Workspace - {datetime.datetime.now().strftime('%b %d, %Y')}"
-    
-    body = {
-        "title": title,
-        "content": html_content
-    }
+    body = {"title": title, "content": html_content}
     
     if PAGE_ID:
         try:
             pages = service.pages()
             result = pages.patch(blogId=BLOG_ID, pageId=PAGE_ID, body=body).execute()
-            print(f"Successfully updated Blogger Workspace Page: {result.get('url')}")
+            print(f"Successfully updated Blogger Workspace Page via B2 master-data.json: {result.get('url')}")
         except Exception as e:
             print(f"Error patching page: {e}")
-    else:
-        try:
-            posts = service.posts()
-            result = posts.insert(blogId=BLOG_ID, body=body, isDraft=True).execute()
-            print(f"Successfully created Weekly Draft Post: {result.get('url')}")
-        except Exception as e:
-            print(f"Error creating draft post: {e}")
 
 if __name__ == "__main__":
-    posts = fetch_weekly_data()
-    print(f"Retrieved {len(posts)} published items from queue.")
-    html = generate_weekly_html(posts)
+    master_data, registry_data = fetch_master_data_from_b2()
+    if not master_data:
+        master_data, registry_data = load_local_fallback()
+
+    html = generate_weekly_html(master_data, registry_data)
     update_blogger_page(html)
