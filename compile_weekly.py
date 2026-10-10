@@ -1,5 +1,7 @@
 import os
+import sys
 import json
+import argparse
 import datetime
 import tempfile
 import html
@@ -30,8 +32,28 @@ def get_blogger_service():
     )
     return build('blogger', 'v3', credentials=creds)
 
-def fetch_master_data_from_b2():
-    """Downloads master-data.json from B2 cloud vault."""
+def resolve_iso_week_window(target_week_input):
+    """Calculates the exact Monday-to-Friday ISO week date boundaries (5-day cycle)."""
+    today = datetime.date.today()
+    iso_year, iso_week, _ = today.isocalendar()
+
+    if target_week_input == "previous_iso_week":
+        target_date = today - datetime.timedelta(days=7)
+        iso_year, iso_week, _ = target_date.isocalendar()
+    elif target_week_input.startswith("ISO Week "):
+        try:
+            week_num = int(target_week_input.replace("ISO Week ", "").strip())
+            iso_week = week_num
+        except ValueError:
+            pass
+
+    monday_date = datetime.date.fromisocalendar(iso_year, iso_week, 1)
+    friday_date = datetime.date.fromisocalendar(iso_year, iso_week, 5)
+
+    return iso_year, iso_week, monday_date, friday_date
+
+def fetch_master_data_from_b2(iso_year, iso_week):
+    """Downloads master-data.json from B2 cloud vault for target month/year."""
     if not B2_KEY_ID or not B2_KEY:
         print("⚠️ B2 Credentials not found in environment. Attempting local file fallback...")
         return None, None
@@ -43,7 +65,7 @@ def fetch_master_data_from_b2():
         bucket = b2_api.get_bucket_by_name(B2_BUCKET_NAME)
 
         now = datetime.datetime.now()
-        month_folder = f"{now.strftime('%b').lower()}{now.year}"  # e.g., oct2026
+        month_folder = f"{now.strftime('%b').lower()}{now.year}"
         target_b2_path = f"{month_folder}/master-data.json"
 
         master_data = None
@@ -66,7 +88,6 @@ def fetch_master_data_from_b2():
                     print(f"❌ Root master-data.json also failed on B2: {err}")
                     return None, None
 
-        # Download Governors Registry lookup if available
         registry_data = {}
         try:
             with tempfile.NamedTemporaryFile(mode='w+', encoding='utf-8', delete=False, suffix='.json') as tmp_reg:
@@ -84,7 +105,6 @@ def fetch_master_data_from_b2():
         return None, None
 
 def load_local_fallback():
-    """Fallback reader if B2 is unreachable."""
     now = datetime.datetime.now()
     month_folder = f"{now.strftime('%b').lower()}{now.year}"
     target_local = os.path.join(month_folder, "master-data.json")
@@ -104,6 +124,22 @@ def load_local_fallback():
             registry_data = json.load(f)
 
     return master_data, registry_data
+
+def filter_items_by_iso_window(reports, monday_date, friday_date):
+    """Filters reports strictly falling within the Mon-Fri 5-day ISO window."""
+    filtered = []
+    for item in reports:
+        pub_str = item.get("published_at") or item.get("date") or ""
+        if not pub_str:
+            filtered.append(item)
+            continue
+        try:
+            dt = datetime.datetime.fromisoformat(pub_str.replace("Z", "+00:00")).date()
+            if monday_date <= dt <= friday_date:
+                filtered.append(item)
+        except ValueError:
+            filtered.append(item)
+    return filtered if filtered else reports
 
 def extract_state_name(item, registry):
     raw_state = item.get('stateName') or item.get('state') or item.get('jurisdiction')
@@ -148,8 +184,7 @@ def extract_top_performers(items, registry):
     psi_sorted = sorted(processed, key=lambda x: x['psi'], reverse=True)
     sis_sorted = sorted(processed, key=lambda x: x['sis'])
 
-    top_psi = []
-    seen_psi = set()
+    top_psi, seen_psi = [], set()
     for p in psi_sorted:
         st = p['state']
         if st not in seen_psi and st != "Subnational State":
@@ -158,8 +193,7 @@ def extract_top_performers(items, registry):
         if len(top_psi) == 3:
             break
 
-    top_sis = []
-    seen_sis = set()
+    top_sis, seen_sis = [], set()
     for p in sis_sorted:
         st = p['state']
         if st not in seen_sis and st != "Subnational State":
@@ -173,22 +207,22 @@ def extract_top_performers(items, registry):
 
     return psi_str, sis_str
 
-def generate_weekly_html(master_data, registry_data):
-    now = datetime.datetime.now()
-    week_str = now.strftime("%B %d, %Y")
-    month_folder = f"{now.strftime('%b').lower()}{now.year}"
-    iso_week = now.isocalendar()[1]
+def generate_weekly_html(master_data, registry_data, iso_year, iso_week, monday_date, friday_date):
+    week_str = f"ISO Week {iso_week} ({monday_date.strftime('%b %d')} – {friday_date.strftime('%b %d, %Y')})"
+    month_folder = f"{monday_date.strftime('%b').lower()}{iso_year}"
 
-    items = master_data.get("newsReports", []) if isinstance(master_data, dict) else (master_data or [])
-    psi_leaderboard, sis_leaderboard = extract_top_performers(items, registry_data)
+    all_reports = master_data.get("newsReports", []) if isinstance(master_data, dict) else (master_data or [])
+    reports = filter_items_by_iso_window(all_reports, monday_date, friday_date)
+
+    psi_leaderboard, sis_leaderboard = extract_top_performers(reports, registry_data)
 
     linkedin_text = f"""NIGERIA SUBNATIONAL GOVERNANCE INTELLIGENCE | WEEKLY EXECUTIVE BRIEF
-Reporting Cycle: Week Ending {week_str} | Diploman Times Telemetry
+Reporting Cycle: {week_str} | Diploman Times Telemetry
 
 Top 3 Performing States — {psi_leaderboard.replace(' • ', ' | ')}
 Top 3 Secure States — {sis_leaderboard.replace(' • ', ' | ')}
 
-Subnational executive governance across Nigeria’s 36 states and FCT demonstrated a strategic shift toward dual-track execution over the past week: pairing high-capacity security defense with targeted fiscal and structural interventions.
+Subnational executive governance across Nigeria’s 36 states and FCT demonstrated a strategic shift toward dual-track execution over the 5-day ISO cycle: pairing high-capacity security defense with targeted fiscal and structural interventions.
 
 Our consolidated Policy Signal Index (PSI) and State Instability Score (SIS) analytics reveal key macro trends across active jurisdictions:
 
@@ -209,12 +243,12 @@ Sustaining momentum into the next cycle requires subnational administrations to 
 https://www.diplomantimes.com/"""
 
     facebook_text = f"""NIGERIA SUBNATIONAL GOVERNANCE BRIEF | WEEKLY POLICY ROUNDUP 🇳🇬
-Reporting Cycle: Week Ending {week_str} | Subnational Governance Telemetry
+Reporting Cycle: {week_str} | Subnational Governance Telemetry
 
 Top 3 Performing States for the week — {psi_leaderboard.replace(' • ', ' | ')}
 Top 3 Secure States for the week — {sis_leaderboard.replace(' • ', ' | ')}
 
-Subnational executive governance across Nigeria’s 36 states and the Federal Capital Territory (FCT) recorded significant structural shifts over the past week. Rather than viewing daily state announcements in isolation, our weekly intelligence synthesis evaluates how state governors are managing the complex balance between rural security enforcement, public debt transparency, and long-term energy independence.
+Subnational executive governance across Nigeria’s 36 states and the Federal Capital Territory (FCT) recorded significant structural shifts during the Mon-Fri ISO reporting cycle. Rather than viewing daily state announcements in isolation, our weekly intelligence synthesis evaluates how state governors are managing the complex balance between rural security enforcement, public debt transparency, and long-term energy independence.
 
 Across tracked jurisdictions, state administrations that combined tactical hardware investments with open fiscal auditing demonstrated superior policy stability and lower state instability scores.
 
@@ -466,9 +500,9 @@ www.diplomantimes.com"""
     """
     return html_content
 
-def update_blogger_page(html_content):
+def update_blogger_page(html_content, iso_week, monday_date, friday_date):
     service = get_blogger_service()
-    title = f"Weekly Policy Brief Workspace - {datetime.datetime.now().strftime('%b %d, %Y')}"
+    title = f"Weekly Policy Brief Workspace - ISO Week {iso_week} ({monday_date.strftime('%b %d')} - {friday_date.strftime('%b %d, %Y')})"
     body = {"title": title, "content": html_content}
 
     if PAGE_ID:
@@ -480,9 +514,16 @@ def update_blogger_page(html_content):
             print(f"❌ Error patching page: {e}")
 
 if __name__ == "__main__":
-    master_data, registry_data = fetch_master_data_from_b2()
+    parser = argparse.ArgumentParser(description="Weekly Governance Report Compiler Engine")
+    parser.add_argument("--week", type=str, default="current_iso_week", help="Target ISO week string")
+    args = parser.parse_args()
+
+    iso_year, iso_week, monday_date, friday_date = resolve_iso_week_window(args.week)
+    print(f"🗓️ ISO Calendar Target: Year {iso_year}, Week {iso_week} | Window: {monday_date} (Mon) to {friday_date} (Fri)")
+
+    master_data, registry_data = fetch_master_data_from_b2(iso_year, iso_week)
     if not master_data:
         master_data, registry_data = load_local_fallback()
 
-    html = generate_weekly_html(master_data, registry_data)
-    update_blogger_page(html)
+    html = generate_weekly_html(master_data, registry_data, iso_year, iso_week, monday_date, friday_date)
+    update_blogger_page(html, iso_week, monday_date, friday_date)
