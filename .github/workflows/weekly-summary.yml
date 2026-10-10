@@ -22,7 +22,7 @@ on:
           - 'Week 34 (AUG 21)'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   compile_weekly:
@@ -37,7 +37,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install Dependencies
         run: |
