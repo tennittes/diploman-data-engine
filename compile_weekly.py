@@ -2,6 +2,7 @@ import os
 import json
 import datetime
 import tempfile
+import html
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from b2sdk.v2 import B2Api, InMemoryAccountInfo
@@ -30,7 +31,7 @@ def get_blogger_service():
     return build('blogger', 'v3', credentials=creds)
 
 def fetch_master_data_from_b2():
-    """First and foremost downloads master-data.json from B2 cloud vault."""
+    """Downloads master-data.json from B2 cloud vault."""
     if not B2_KEY_ID or not B2_KEY:
         print("⚠️ B2 Credentials not found in environment. Attempting local file fallback...")
         return None, None
@@ -153,7 +154,7 @@ def extract_top_performers(items, registry):
         st = p['state']
         if st not in seen_psi and st != "Subnational State":
             seen_psi.add(st)
-            top_psi.append(f"{st} {p['psi']}PSI")
+            top_psi.append(f"{st} ({p['psi']} PSI)")
         if len(top_psi) == 3:
             break
 
@@ -163,18 +164,20 @@ def extract_top_performers(items, registry):
         st = p['state']
         if st not in seen_sis and st != "Subnational State":
             seen_sis.add(st)
-            top_sis.append(f"{st} {p['sis']}SIS")
+            top_sis.append(f"{st} ({p['sis']} SIS)")
         if len(top_sis) == 3:
             break
 
-    psi_str = " | ".join(top_psi) if top_psi else "Sokoto 9.2PSI | Taraba 9.1PSI | Plateau 9.0PSI"
-    sis_str = " | ".join(top_sis) if top_sis else "Ogun 1.4SIS | Ekiti 1.8SIS | Abia 2.9SIS"
+    psi_str = " • ".join([f"{idx+1}. {item}" for idx, item in enumerate(top_psi)]) if top_psi else "1. Sokoto (9.2 PSI) • 2. Taraba (9.1 PSI) • 3. Plateau (9.0 PSI)"
+    sis_str = " • ".join([f"{idx+1}. {item}" for idx, item in enumerate(top_sis)]) if top_sis else "1. Ogun (1.4 SIS) • 2. Ekiti (1.8 SIS) • 3. Abia (2.9 SIS)"
 
     return psi_str, sis_str
 
 def generate_weekly_html(master_data, registry_data):
     now = datetime.datetime.now()
     week_str = now.strftime("%B %d, %Y")
+    month_folder = f"{now.strftime('%b').lower()}{now.year}"
+    iso_week = now.isocalendar()[1]
 
     items = master_data.get("newsReports", []) if isinstance(master_data, dict) else (master_data or [])
     psi_leaderboard, sis_leaderboard = extract_top_performers(items, registry_data)
@@ -182,8 +185,8 @@ def generate_weekly_html(master_data, registry_data):
     linkedin_text = f"""NIGERIA SUBNATIONAL GOVERNANCE INTELLIGENCE | WEEKLY EXECUTIVE BRIEF
 Reporting Cycle: Week Ending {week_str} | Diploman Times Telemetry
 
-Top 3 Performing States — {psi_leaderboard}
-Top 3 Secure States — {sis_leaderboard}
+Top 3 Performing States — {psi_leaderboard.replace(' • ', ' | ')}
+Top 3 Secure States — {sis_leaderboard.replace(' • ', ' | ')}
 
 Subnational executive governance across Nigeria’s 36 states and FCT demonstrated a strategic shift toward dual-track execution over the past week: pairing high-capacity security defense with targeted fiscal and structural interventions.
 
@@ -208,8 +211,8 @@ https://www.diplomantimes.com/"""
     facebook_text = f"""NIGERIA SUBNATIONAL GOVERNANCE BRIEF | WEEKLY POLICY ROUNDUP 🇳🇬
 Reporting Cycle: Week Ending {week_str} | Subnational Governance Telemetry
 
-Top 3 Performing States for the week — {psi_leaderboard}
-Top 3 Secure States for the week — {sis_leaderboard}
+Top 3 Performing States for the week — {psi_leaderboard.replace(' • ', ' | ')}
+Top 3 Secure States for the week — {sis_leaderboard.replace(' • ', ' | ')}
 
 Subnational executive governance across Nigeria’s 36 states and the Federal Capital Territory (FCT) recorded significant structural shifts over the past week. Rather than viewing daily state announcements in isolation, our weekly intelligence synthesis evaluates how state governors are managing the complex balance between rural security enforcement, public debt transparency, and long-term energy independence.
 
@@ -262,7 +265,7 @@ As subnational administrations prepare for the final quarter of 2026, our weekly
 2. Debt transparency lowers risk: Public financial disclosures are essential for maintaining stable State Instability Scores (SIS) and unlocking institutional credit.
 3. Energy autonomy accelerates industry: Independent state power projects are the primary catalyst for subnational industrialization.
 
- Diploman Times will continue to track, benchmark, and analyze executive performance across all 37 subnational jurisdictions.
+Diploman Times will continue to track, benchmark, and analyze executive performance across all 37 subnational jurisdictions.
 
 📲 SWIPE THROUGH THE CAROUSEL SLIDES ABOVE for state-by-state scorecards, momentum indicators, and investment decision profiles!
 
@@ -271,8 +274,165 @@ As subnational administrations prepare for the final quarter of 2026, our weekly
 🌐 Explore live daily Policy Trackers, Security Metric Tables, and Budget Audits across all 36 States + FCT:
 www.diplomantimes.com"""
 
+    raw_blogger_template = f"""<!-- DIPLOMAN TIMES SUBNATIONAL WEEKLY EXECUTIVE PAGE TEMPLATE -->
+<div class="dt-executive-page-wrapper" itemscope itemtype="https://schema.org/Report" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.7; max-width: 860px; margin: 0 auto; padding: 10px 0;">
+
+  <!-- 1. FEATURED GRAPHIC -->
+  <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; position: relative; width: 100%;">
+    <a href="https://www.diplomantimes.com/" aria-label="Diploman Times Subnational Telemetry Scorecard" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
+      <img id="dt-featured-chart" alt="Diploman Times Weekly Telemetry Scorecard - PSI &amp; SIS Distribution" border="0" src="https://raw.githubusercontent.com/DiplomanTimes/telemetry/main/{month_folder}/week_{iso_week}_chart.png" style="border: 0px; border-radius: 6px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
+    </a>
+  </figure>
+
+  <!-- 2. QUANTITATIVE INDEX LEADERBOARD -->
+  <section style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #193731; border-radius: 4px; padding: 16px 18px; margin-bottom: 28px;">
+    <h2 style="margin: 0 0 12px 0; font-size: 12.5px; font-weight: 900; color: #193731; text-transform: uppercase; letter-spacing: 0.8px;">
+      Subnational Index Performance Benchmarks
+    </h2>
+    
+    <div class="dt-leaderboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+      <div style="background-color: #ffffff; padding: 10px 14px; border: 1px solid #e2e8f0; border-radius: 4px;">
+        <div style="font-size: 10px; font-weight: 900; color: #059669; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px;">
+          POLICY SIGNAL INDEX (PSI) &bull; TOP PERFORMERS
+        </div>
+        <div id="dt-psi-leaderboard" style="font-size: 12.5px; font-weight: 800; color: #0f172a;">
+          {psi_leaderboard}
+        </div>
+      </div>
+
+      <div style="background-color: #ffffff; padding: 10px 14px; border: 1px solid #e2e8f0; border-radius: 4px;">
+        <div style="font-size: 10px; font-weight: 900; color: #1d4ed8; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px;">
+          STATE INSTABILITY SCORE (SIS) &bull; LOWEST RISK
+        </div>
+        <div id="dt-sis-leaderboard" style="font-size: 12.5px; font-weight: 800; color: #0f172a;">
+          {sis_leaderboard}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. EXECUTIVE MACRO SYNTHESIS -->
+  <section style="margin-bottom: 32px;">
+    <h2 style="font-size: 16px; font-weight: 900; color: #193731; text-transform: uppercase; margin: 0 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px;">
+      Macro Policy Synthesis &amp; Subnational Dynamics
+    </h2>
+    <p id="dt-macro-p1" style="text-align: justify; margin-bottom: 14px;">
+      Executive governance across Nigeria’s 36 subnational jurisdictions and the Federal Capital Territory (FCT) reflected strategic recalibration over the current reporting cycle. Evaluating subnational executive actions through quantitative telemetry reveals a distinct structural transition: state governors are increasingly prioritizing active non-kinetic defense hardware investments, institutional financial audits, and decentralized renewable energy infrastructure over traditional administrative announcements.
+    </p>
+    <p id="dt-macro-p2" style="text-align: justify; margin-bottom: 14px;">
+      Comparative empirical tracking derived from the <code>master-data.json</code> telemetry feed demonstrates that subnational administrations combining tactical hardware procurement with open debt accounting achieve higher Policy Signal Index (PSI) ratings while systematically compressing their State Instability Scores (SIS).
+    </p>
+  </section>
+
+  <!-- 4. THREE CORE POLICY PILLARS -->
+  <article style="margin-bottom: 32px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;">
+      <span style="background-color: #193731; color: #ffffff; font-size: 10px; font-weight: 900; padding: 2px 7px; border-radius: 3px;">PILLAR 01</span>
+      <h3 id="dt-p1-title" style="font-size: 15px; font-weight: 900; color: #193731; text-transform: uppercase; margin: 0;">
+        Rural Security Architecture &amp; Tactical Hardware Deployment
+      </h3>
+    </div>
+    <div id="dt-p1-focus" style="font-size: 10.5px; font-weight: 800; color: #d97706; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+      PRIMARY FOCUS: NON-KINETIC DEFENSE, AGRICULTURAL CORRIDOR PROTECTION &amp; HARDWARE SCALING
+    </div>
+    
+    <div id="dt-p1-narrative">
+      <p style="text-align: justify;">
+        Across northern agricultural belts, subnational security challenges continue to dictate local trade logistics and agrarian output. Over the reporting period, state executives accelerated the transition from passive surveillance toward state-managed defense infrastructure.
+      </p>
+      <p style="text-align: justify;">
+        <strong>Sokoto State</strong> anchored this operational model under Governor Ahmed Aliyu, executing a comprehensive hardware deployment comprising <strong>100 Buffalo Armoured Personnel Carriers (APCs)</strong>, 100 thermal imaging scopes, 200 night-vision goggles, 3,200 specialized tactical personnel, and 700 motorcycles assigned to the State Guard Corps.
+      </p>
+    </div>
+
+    <div style="background-color: #f8fafc; border-left: 4px solid #193731; border: 1px solid #e2e8f0; border-left-width: 4px; padding: 12px 16px; margin: 16px 0; font-size: 12.5px;">
+      <strong style="color: #193731; text-transform: uppercase; font-size: 10.5px; display: block; margin-bottom: 4px;">Strategic Policy Implications:</strong>
+      <span id="dt-p1-impact">Equipping subnational defense units with thermal optics and rapid-response mobility establishes an operative security perimeter around agrarian LGAs. For institutional investors and agricultural logistics networks, state-backed hardware deployments reduce supply corridor risk and stabilize local commodity pricing.</span>
+    </div>
+  </article>
+
+  <article style="margin-bottom: 32px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;">
+      <span style="background-color: #193731; color: #ffffff; font-size: 10px; font-weight: 900; padding: 2px 7px; border-radius: 3px;">PILLAR 02</span>
+      <h3 id="dt-p2-title" style="font-size: 15px; font-weight: 900; color: #193731; text-transform: uppercase; margin: 0;">
+        Fiscal Auditing, Debt Disclosures &amp; Ward-Level Relief
+      </h3>
+    </div>
+    <div id="dt-p2-focus" style="font-size: 10.5px; font-weight: 800; color: #d97706; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+      PRIMARY FOCUS: PUBLIC EXPENDITURE ACCOUNTING, WARD CAPITAL ALLOCATIONS &amp; RELIEF MOBILIZATION
+    </div>
+
+    <div id="dt-p2-narrative">
+      <p style="text-align: justify;">
+        In North-Eastern and North-Central zones, governance velocity was defined by rigorous public expenditure auditing coupled with direct ward-level capital injection. Subnational leadership is leveraging open fiscal accounting to reinforce creditor confidence while providing targeted social buffers.
+      </p>
+      <p style="text-align: justify;">
+        <strong>Taraba State</strong> spearheaded this fiscal methodology under Governor Agbu Kefas, enacting mandates for comprehensive public debt disclosures and independent financial audits. Concurrently, the administration authorized a <strong>N2.5 billion multi-sector intervention fund</strong> (including N500m TARABA CARES, N1bn youth enterprise development, and N1bn crisis recovery), alongside capital projects across all 168 political wards.
+      </p>
+    </div>
+
+    <div style="background-color: #f8fafc; border-left: 4px solid #193731; border: 1px solid #e2e8f0; border-left-width: 4px; padding: 12px 16px; margin: 16px 0; font-size: 12.5px;">
+      <strong style="color: #193731; text-transform: uppercase; font-size: 10.5px; display: block; margin-bottom: 4px;">Strategic Policy Implications:</strong>
+      <span id="dt-p2-impact">Aligning public debt disclosures with direct ward-level capital execution limits expenditure leakage and improves state creditworthiness. Transparent public financial management directly correlates with compressed State Instability Scores (SIS 3.6/10).</span>
+    </div>
+  </article>
+
+  <article style="margin-bottom: 32px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;">
+      <span style="background-color: #193731; color: #ffffff; font-size: 10px; font-weight: 900; padding: 2px 7px; border-radius: 3px;">PILLAR 03</span>
+      <h3 id="dt-p3-title" style="font-size: 15px; font-weight: 900; color: #193731; text-transform: uppercase; margin: 0;">
+        Subnational Energy Decentralization &amp; Urban Planning
+      </h3>
+    </div>
+    <div id="dt-p3-focus" style="font-size: 10.5px; font-weight: 800; color: #d97706; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+      PRIMARY FOCUS: BILATERAL PARTNERSHIPS, HYDROELECTRIC GENERATION &amp; MUNICIPAL RENEWAL
+    </div>
+
+    <div id="dt-p3-narrative">
+      <p style="text-align: justify;">
+        Subnational administrations are actively exercising devolved constitutional powers to establish independent power networks and negotiate directly with international development partners.
+      </p>
+      <p style="text-align: justify;">
+        <strong>Plateau State</strong> demonstrated subnational institutional autonomy as Governor Caleb Mutfwang finalized bilateral execution agreements with the European Union Ambassador. Key initiatives include the <strong>5MW Assop Falls Hydroelectric Project</strong>, agricultural export trade pipelines, and municipal waste-to-fertilizer integration under the revised Greater Jos Master Plan.
+      </p>
+    </div>
+
+    <div style="background-color: #f8fafc; border-left: 4px solid #193731; border: 1px solid #e2e8f0; border-left-width: 4px; padding: 12px 16px; margin: 16px 0; font-size: 12.5px;">
+      <strong style="color: #193731; text-transform: uppercase; font-size: 10.5px; display: block; margin-bottom: 4px;">Strategic Policy Implications:</strong>
+      <span id="dt-p3-impact">Transitioning commercial corridors to localized hydro and renewable energy grids provides the baseload stability required for industrial SMEs. Integrating energy generation into urban master planning enhances state risk-adjusted investment profiles.</span>
+    </div>
+  </article>
+
+  <!-- 5. EXECUTIVE OUTLOOK -->
+  <section style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; padding: 20px; margin: 32px 0;">
+    <h3 style="font-size: 13px; font-weight: 900; color: #193731; text-transform: uppercase; margin: 0 0 10px 0;">
+      Executive Governance Outlook
+    </h3>
+    <ol id="dt-outlook-list" style="margin: 0; padding-left: 18px; font-size: 12.5px; line-height: 1.7; color: #334155;">
+      <li><strong>Security Drives Commercial Velocity:</strong> Without active protection of trade and transit routes, fiscal and agricultural incentives yield sub-optimal output.</li>
+      <li><strong>Debt Transparency Safeguards Fiscal Stability:</strong> Public debt disclosures remain essential for maintaining favorable State Instability Scores (SIS).</li>
+      <li><strong>Energy Sovereignty Catalyzes Industrial Growth:</strong> Decentralized state power networks represent the primary foundation for sustained commercial expansion.</li>
+    </ol>
+  </section>
+
+  <!-- CTA LINK -->
+  <div style="margin: 32px 0 20px 0; text-align: right;">
+    <a href="https://www.diplomantimes.com/p/consolidated-monthly-analysis.html" target="_top" style="background-color: #ffffff; color: #193731; border: 1px solid #cbd5e1; padding: 9px 18px; text-decoration: none; font-weight: 900; font-size: 8.6px; border-radius: 4.5px; text-transform: uppercase; letter-spacing: 0.8px; display: inline-block;">
+      SEE MONTHLY REPORT &rarr;
+    </a>
+  </div>
+
+</div>
+<style>
+  @media only screen and (max-width: 600px) {
+    .dt-leaderboard-grid { grid-template-columns: 1fr !important; }
+  }
+</style>"""
+
+    escaped_blogger_code = html.escape(raw_blogger_template)
+
     html_content = f"""
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1e293b; max-width: 800px; margin: 0 auto; padding: 20px;">
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1e293b; max-width: 860px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #193731; border-bottom: 2px solid #234d44; padding-bottom: 8px;">Diploman Times - Weekly Social Brief Engine</h2>
         <p style="font-size: 13px; color: #64748b;">Primary Source: <strong>B2 Vault (master-data.json)</strong> | Compiled: <strong>{week_str}</strong></p>
 
@@ -286,12 +446,21 @@ www.diplomantimes.com"""
         </div>
 
         <!-- Facebook Block -->
-        <div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #1877f2; border-radius: 6px; padding: 18px;">
+        <div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #1877f2; border-radius: 6px; padding: 18px; margin-bottom: 24px;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                 <h3 style="margin: 0; color: #1877f2; font-size: 16px;">Facebook Draft (Extended Deep-Dive)</h3>
                 <button onclick="navigator.clipboard.writeText(document.getElementById('facebook-draft').innerText)" style="background-color: #1877f2; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; font-weight: bold; cursor: pointer;">Copy Facebook Text</button>
             </div>
             <pre id="facebook-draft" style="white-space: pre-wrap; font-family: inherit; font-size: 13.5px; line-height: 1.6; color: #334155; margin: 0;">{facebook_text.strip()}</pre>
+        </div>
+
+        <!-- Blogger Block -->
+        <div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #059669; border-radius: 6px; padding: 18px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <h3 style="margin: 0; color: #059669; font-size: 16px;">Blogger HTML Draft (Executive Web Page)</h3>
+                <button onclick="navigator.clipboard.writeText(document.getElementById('blogger-draft').innerText)" style="background-color: #059669; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; font-weight: bold; cursor: pointer;">Copy Blogger HTML</button>
+            </div>
+            <pre id="blogger-draft" style="white-space: pre-wrap; font-family: monospace; font-size: 12px; background: #0f172a; color: #f8fafc; padding: 14px; border-radius: 6px; overflow-x: auto; max-height: 450px;">{escaped_blogger_code}</pre>
         </div>
     </div>
     """
