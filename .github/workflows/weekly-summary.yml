@@ -7,18 +7,19 @@ on:
   workflow_dispatch:
     inputs:
       target_week:
-        description: 'Target Reporting ISO Week (Mon-Fri 5-Day Cycle)'
+        description: 'Target Reporting Week (Mon-Fri Cycle)'
         required: false
-        default: 'current_iso_week'
+        default: 'Week 41 (OCT 09) [CURRENT]'
         type: choice
         options:
-          - 'current_iso_week'
-          - 'previous_iso_week'
-          - 'ISO Week 1'
-          - 'ISO Week 2'
-          - 'ISO Week 3'
-          - 'ISO Week 4'
-          - 'ISO Week 5'
+          - 'Week 41 (OCT 09) [CURRENT]'
+          - 'Week 40 (OCT 02)'
+          - 'Week 39 (SEP 25)'
+          - 'Week 38 (SEP 18)'
+          - 'Week 37 (SEP 11)'
+          - 'Week 36 (SEP 04)'
+          - 'Week 35 (AUG 28)'
+          - 'Week 34 (AUG 21)'
 
 permissions:
   contents: read
@@ -56,6 +57,6 @@ jobs:
         run: |
           TARGET_INPUT="${{ github.event.inputs.target_week }}"
           if [ -z "$TARGET_INPUT" ]; then
-            TARGET_INPUT="current_iso_week"
+            TARGET_INPUT="Week 41 (OCT 09) [CURRENT]"
           fi
           python compile_weekly.py --week "$TARGET_INPUT"
