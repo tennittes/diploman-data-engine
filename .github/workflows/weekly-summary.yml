@@ -5,6 +5,20 @@ on:
     # Runs every Friday at 16:00 UTC (5:00 PM WAT)
     - cron: '0 16 * * 5'
   workflow_dispatch:
+    inputs:
+      target_week:
+        description: 'Target Reporting ISO Week (Mon-Fri 5-Day Cycle)'
+        required: false
+        default: 'current_iso_week'
+        type: choice
+        options:
+          - 'current_iso_week'
+          - 'previous_iso_week'
+          - 'ISO Week 1'
+          - 'ISO Week 2'
+          - 'ISO Week 3'
+          - 'ISO Week 4'
+          - 'ISO Week 5'
 
 permissions:
   contents: read
@@ -39,4 +53,9 @@ jobs:
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           BLOGGER_WEEKLY_PAGE_ID: ${{ secrets.BLOGGER_WEEKLY_PAGE_ID }}
-        run: python compile_weekly.py
+        run: |
+          TARGET_INPUT="${{ github.event.inputs.target_week }}"
+          if [ -z "$TARGET_INPUT" ]; then
+            TARGET_INPUT="current_iso_week"
+          fi
+          python compile_weekly.py --week "$TARGET_INPUT"
