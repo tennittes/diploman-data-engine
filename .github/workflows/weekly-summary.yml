@@ -54,15 +54,18 @@ jobs:
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           BLOGGER_WEEKLY_PAGE_ID: ${{ secrets.BLOGGER_WEEKLY_PAGE_ID }}
         run: |
-          TARGET_INPUT="${{ github.event.inputs.target_week }}"
-          if [ -z "$TARGET_INPUT" ]; then
-            TARGET_INPUT="Week 41 (OCT 09) [CURRENT]"
+          RAW_INPUT="${{ github.event.inputs.target_week }}"
+          if [ -z "$RAW_INPUT" ]; then
+            RAW_INPUT="Week 41"
           fi
-          python compile_weekly.py --week "$TARGET_INPUT"
+          # Extracts clean 'Week 41' or 'Week 40' from the dropdown option
+          CLEAN_WEEK=$(echo "$RAW_INPUT" | grep -oE 'Week [0-9]+' || echo "Week 41")
+          echo "Processing target cycle: $CLEAN_WEEK"
+          python compile_weekly.py --week "$CLEAN_WEEK"
 
       - name: Commit and Push Compiled Master Data
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: publish compiled weekly telemetry data [${{ github.event.inputs.target_week || 'Week 41' }}]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: compile and publish weekly telemetry data" && git push)
