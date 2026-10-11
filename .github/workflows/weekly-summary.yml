@@ -43,7 +43,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib b2sdk
 
-      - name: Run Weekly Report Generator (B2 Data Source)
+      - name: Run Weekly Report Generator
         env:
           B2_APPLICATION_KEY_ID: ${{ secrets.B2_APPLICATION_KEY_ID }}
           B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
@@ -55,17 +55,18 @@ jobs:
           BLOGGER_WEEKLY_PAGE_ID: ${{ secrets.BLOGGER_WEEKLY_PAGE_ID }}
         run: |
           RAW_INPUT="${{ github.event.inputs.target_week }}"
-          if [ -z "$RAW_INPUT" ]; then
-            RAW_INPUT="Week 41"
+          if [ -n "$RAW_INPUT" ]; then
+            CLEAN_WEEK=$(echo "$RAW_INPUT" | grep -oE 'Week [0-9]+')
+            echo "Manual execution for target cycle: $CLEAN_WEEK"
+            python compile_weekly.py --week "$CLEAN_WEEK"
+          else
+            echo "Scheduled cron run detected. Auto-computing current ISO week..."
+            python compile_weekly.py
           fi
-          # Extracts clean 'Week 41' or 'Week 40' from the dropdown option
-          CLEAN_WEEK=$(echo "$RAW_INPUT" | grep -oE 'Week [0-9]+' || echo "Week 41")
-          echo "Processing target cycle: $CLEAN_WEEK"
-          python compile_weekly.py --week "$CLEAN_WEEK"
 
-      - name: Commit and Push Compiled Master Data
+      - name: Commit and Push Compiled Data & Social Drafts
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add dist/ *.json || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "auto: compile and publish weekly telemetry data" && git push)
