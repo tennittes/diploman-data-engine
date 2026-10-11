@@ -59,3 +59,10 @@ jobs:
             TARGET_INPUT="Week 41 (OCT 09) [CURRENT]"
           fi
           python compile_weekly.py --week "$TARGET_INPUT"
+
+      - name: Commit and Push Compiled Master Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: publish compiled weekly telemetry data [${{ github.event.inputs.target_week || 'Week 41' }}]" && git push)
