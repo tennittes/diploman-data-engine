@@ -188,7 +188,7 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
       </div>
     </article>"""
     else:
-        corridor_html_blocks = """
+        corridor_html_blocks = f"""
     <article style="margin-bottom: 36px;">
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
         <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
@@ -199,7 +199,7 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
       <div style="margin-top: 12px;">
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Subnational Executive Leadership Overview &bull; Week """ + str(iso_week) + """
+            Subnational Executive Leadership Overview &bull; Week {iso_week}
           </div>
           <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
             <strong>Key developments and governance significance:</strong> State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and public service sustainability frameworks.
@@ -213,7 +213,7 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
 
   <!-- DYNAMIC TITLE HEADLINE -->
   <h1 style="font-size: 22px; font-weight: 900; color: #064e3b; margin: 0 0 16px 0; line-height: 1.35; border-bottom: 2px solid #064e3b; padding-bottom: 10px;">
-    {dynamicTitle}
+    {dynamic_title}
   </h1>
 
   <!-- FEATURED IMAGE CONTAINER -->
