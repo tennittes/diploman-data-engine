@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 compile-weekly.py • Diploman Times Weekly Executive Social Brief Compiler
-Fully preserves all 37 subnational narratives without truncation.
+RESTRICTED: Reads strictly from B2 daily structures (YYYY-MM-DD.json) across Mon-Fri.
 """
 
 import os
@@ -21,35 +21,99 @@ def resolve_week(target):
     iso_year, current_iso_week, _ = now.date().isocalendar()
     iso_week = int(re.search(r'\d+', str(target)).group()) if target and re.search(r'\d+', str(target)) else current_iso_week
     friday = datetime.date.fromisocalendar(iso_year, iso_week, 5)
-    return iso_year, iso_week, friday
+    monday = datetime.date.fromisocalendar(iso_year, iso_week, 1)
+    return iso_year, iso_week, monday, friday
 
 def sanitize(text):
     if not text: return ""
     decoded = html.unescape(str(text))
     return decoded.replace("&#8358;", "₦").replace("&amp;#8358;", "₦").replace("&amp;", "&").strip()
 
-def load_data(iso_year, iso_week):
-    month_keys = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
-    _, _, friday = resolve_week(str(iso_week))
-    folder = f"{month_keys[friday.month - 1]}{iso_year}"
+def load_b2_structure_data(iso_year, iso_week, monday, folder):
+    """
+    STRICT B2 RESTRICTION: Loads ONLY daily JSON payloads (YYYY-MM-DD.json)
+    for Monday through Friday of the specified target week.
+    """
+    daily_records = []
     
-    paths = [
-        f"{folder}/master-data.json",
-        f"week_{iso_week}/master-data.json",
-        f"vault/week_{iso_week}.json",
-        f"week{iso_week}-master.json",
-        "master-data.json"
-    ]
-    for p in paths:
-        if os.path.exists(p):
-            with open(p, "r", encoding="utf-8") as f:
-                return json.load(f), folder
-    return None, folder
+    for i in range(5):  # Monday (0) to Friday (4)
+        day_date = monday + datetime.timedelta(days=i)
+        date_str = day_date.strftime("%Y-%m-%d")
+        
+        # B2 directory path hierarchy
+        b2_paths = [
+            f"{folder}/{date_str}.json",
+            f"{iso_year}/{date_str}.json",
+            f"{date_str}.json"
+        ]
+        
+        for path in b2_paths:
+            if os.path.exists(path):
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        record = json.load(f)
+                        daily_records.append(record)
+                    print(f"[B2 FETCH] Loaded daily payload: {path}")
+                    break
+                except Exception as e:
+                    print(f"[B2 ERROR] Could not parse {path}: {e}")
+                    
+    return daily_records
+
+def process_b2_corridors_and_scores(daily_records):
+    """Extracts, aggregates, and averages B2 daily records."""
+    corridors = []
+    psi_sums, psi_counts = {}, {}
+    sis_sums, sis_counts = {}, {}
+
+    for day in daily_records:
+        # 1. Parse Quantitative Index Scores
+        state_scores = day.get("state_scores") or day.get("scores") or day.get("states", [])
+        if isinstance(state_scores, list):
+            for s in state_scores:
+                st = s.get("state") or s.get("name")
+                if st:
+                    if s.get("psi") is not None:
+                        psi_sums[st] = psi_sums.get(st, 0) + float(s["psi"])
+                        psiCounts = psi_counts[st] = psi_counts.get(st, 0) + 1
+                    if s.get("sis") is not None:
+                        sis_sums[st] = sis_sums.get(st, 0) + float(s["sis"])
+                        sisCounts = sis_counts[st] = sis_counts.get(st, 0) + 1
+
+        # 2. Parse Subnational Governance Corridors
+        corridors_data = day.get("corridors") or day.get("corridor_groups", [])
+        if isinstance(corridors_data, list):
+            for c in corridors_data:
+                grp = c.get("corridorGroup") or c.get("group", 1)
+                governors = c.get("governors") or c.get("items", [])
+                
+                if isinstance(governors, list):
+                    for g in governors:
+                        summary = g.get("impact") or g.get("fullSummary") or g.get("summary")
+                        if summary:
+                            corridors.append({
+                                "state": g.get("state", "State"),
+                                "governor": g.get("name", g.get("governor", "Governor")),
+                                "region": g.get("region", "NIGERIA"),
+                                "corridorGroup": grp,
+                                "summary": sanitize(summary)
+                            })
+
+    # Calculate Mathematical Averages for PSI / SIS
+    psi_avg = [(st, psi_sums[st] / psi_counts[st]) for st in psi_sums if psi_counts[st] > 0]
+    sis_avg = [(st, sis_sums[st] / sis_counts[st]) for st in sis_sums if sis_counts[st] > 0]
+
+    psi_sorted = sorted(psi_avg, key=lambda x: x[1], reverse=True)[:3]
+    sis_sorted = sorted(sis_avg, key=lambda x: x[1])[:3]
+
+    top_psi = " • ".join([f"{idx+1}. {st} ({sc:.1f} PSI)" for idx, (st, sc) in enumerate(psi_sorted)]) or "1. Lagos (8.7 PSI) • 2. Cross River (8.6 PSI) • 3. Edo (8.2 PSI)"
+    top_sis = " • ".join([f"{idx+1}. {st} ({sc:.1f} SIS)" for idx, (st, sc) in enumerate(sis_sorted)]) or "1. Ogun (1.4 SIS) • 2. Lagos (1.4 SIS) • 3. Ekiti (1.5 SIS)"
+
+    return top_psi, top_sis, corridors
 
 def build_blogger_html(iso_week, ending_date, folder, top_psi, top_sis, corridors):
     dynamic_title = f"Nigeria Subnational Governance Brief Week {iso_week} Policy Roundup Ending {ending_date}"
     
-    # Organize corridors into 3 explicit groups
     groups = {1: [], 2: [], 3: []}
     for c in corridors:
         grp = c.get('corridorGroup', 1)
@@ -110,28 +174,17 @@ def build_blogger_html(iso_week, ending_date, folder, top_psi, top_sis, corridor
 
 def main():
     args = parse_args()
-    iso_year, iso_week, friday = resolve_week(args.week)
-    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    ending_date = f"{months[friday.month - 1]} {friday.day:02d}, {iso_year}"
-
-    data, folder = load_data(iso_year, iso_week)
+    iso_year, iso_week, monday, friday = resolve_week(args.week)
     
-    corridors = []
-    top_psi = "1. Lagos (8.7 PSI) • 2. Cross River (8.6 PSI) • 3. Edo (8.2 PSI)"
-    top_sis = "1. Ogun (1.4 SIS) • 2. Lagos (1.4 SIS) • 3. Ekiti (1.5 SIS)"
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    month_keys = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+    
+    ending_date = f"{months[friday.month - 1]} {friday.day:02d}, {iso_year}"
+    folder = f"{month_keys[friday.month - 1]}{iso_year}"
 
-    if data:
-        items = data if isinstance(data, list) else data.get("states", data.get("data", []))
-        for item in items:
-            summary = item.get("fullSummary") or item.get("summary") or item.get("details")
-            if summary:
-                corridors.append({
-                    "state": item.get("stateName", item.get("state", "State")),
-                    "governor": item.get("governor", "Governor"),
-                    "region": item.get("region", "NIGERIA"),
-                    "corridorGroup": item.get("corridorGroup", 1),
-                    "summary": sanitize(summary)
-                })
+    # Load Strictly from B2 Daily Files
+    daily_records = load_b2_structure_data(iso_year, iso_week, monday, folder)
+    top_psi, top_sis, corridors = process_b2_corridors_and_scores(daily_records)
 
     blogger = build_blogger_html(iso_week, ending_date, folder, top_psi, top_sis, corridors)
     
@@ -148,13 +201,24 @@ def main():
         "linkedinText": li
     }
 
-    os.makedirs(f"dist/week_{iso_week}", exist_ok=True)
-    with open(f"week{iso_week}-data.json", "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
-    with open(f"dist/week_{iso_week}/data.json", "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
+    # Write output files to all expected targets
+    directories = [".", folder, f"dist/week_{iso_week}"]
+    for d in directories:
+        os.makedirs(d, exist_ok=True)
 
-    print(f"[SUCCESS] Compiled Week {iso_week} artifacts.")
+    targets = [
+        f"week{iso_week}-data.json",
+        f"week_{iso_week}_data.json",
+        f"{folder}/week{iso_week}-data.json",
+        f"{folder}/week_{iso_week}_data.json",
+        f"dist/week_{iso_week}/data.json"
+    ]
+
+    for target in targets:
+        with open(target, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"[B2 SUCCESS] Compiled Week {iso_week} artifacts strictly from {len(daily_records)} B2 daily file(s).")
 
 if __name__ == "__main__":
     main()
