@@ -61,6 +61,7 @@ jobs:
             YEAR_ARGS=(--year "$MANUAL_YEAR")
           fi
           echo "Compiling target: $TARGET_WEEK ${MANUAL_YEAR:+for ISO year $MANUAL_YEAR}"
+          python -m py_compile compile-weekly.py
           python compile-weekly.py --week "$TARGET_WEEK" "${YEAR_ARGS[@]}"
 
       - name: Commit and push compiled data
