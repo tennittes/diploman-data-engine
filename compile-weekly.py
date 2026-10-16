@@ -2,7 +2,7 @@
 """
 compile-weekly.py
 Diploman Times • Weekly Executive Social Brief Compiler Engine
-Exact full-fidelity replication of LinkedIn, Facebook, and Blogger drafts.
+Full-fidelity, un-truncated report generation matching the Workspace layout.
 """
 
 import os
@@ -181,9 +181,10 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
     formatted_title_date = to_title_case(ending_date_str)
     dynamic_title = f"Nigeria Subnational Governance Brief Week {iso_week} Policy Roundup {formatted_title_date}"
 
+    # Group state details dynamically or fall back to default groups
     g1_items = [c for c in corridor_items if c.get('corridorGroup') == 1] or corridor_items[0:4]
     g2_items = [c for c in corridor_items if c.get('corridorGroup') == 2] or corridor_items[4:8]
-    g3_items = [c for c in corridor_items if c.get('corridorGroup') == 3] or corridor_items[8:12]
+    g3_items = [c for c in corridor_items if c.get('corridorGroup') == 3] or corridor_items[8:]
 
     def build_group_html(title, group_num, items_list):
         if not items_list:
@@ -309,7 +310,11 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
 </div>"""
 
 
-def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis):
+def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
+    state_bullets = ""
+    for c in corridor_items:
+        state_bullets += f"\n\n• {c['state'].upper()}: {c['summary']}"
+
     raw = f"""Subnational Governance Intelligence Brief Week {iso_week} Policy Roundup Ending {ending_date_str} 🇳🇬
 
 Top Performing States: {top_psi}
@@ -320,14 +325,7 @@ Nigeria's subnational governance landscape this week reflected a broad push towa
 
 Our dual-metric scorecards help decision-makers compare policy implementation, security stability and governance performance across Nigeria’s states.
 
-1. FISCAL DISCIPLINE, ENERGY AND ECONOMIC INFRASTRUCTURE
-State executive leadership focused on early fiscal planning, revenue management, and critical infrastructure deployment across major economic corridors.
-
-2. HEALTHCARE, EDUCATION AND PUBLIC-SECTOR ACCOUNTABILITY
-Targeted investments in primary healthcare centres, human resource expansion, and institutional oversight advanced social service delivery.
-
-3. DISASTER RESPONSE, SOCIAL PROTECTION AND LOCAL DEVELOPMENT
-Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
+STATE EXECUTIVE DEVELOPMENTS & HIGHLIGHTS:{state_bullets}
 
 STRATEGIC ASSESSMENT
 Three priorities stand out from the week's developments:
@@ -348,7 +346,11 @@ Diploman Times - Strategic Governance Intelligence."""
     return sanitize_plain_text(raw)
 
 
-def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis):
+def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
+    state_bullets = ""
+    for c in corridor_items:
+        state_bullets += f"\n\n► {c['state'].upper()} ({c['governor']})\n{c['summary']}"
+
     raw = f"""[WEEKLY {iso_week} POLICY BRIEF] Subnational Governance Intelligence Roundup Ending {ending_date_str} 🇳🇬
 
 TOP PERFORMERS: {top_psi}
@@ -357,14 +359,7 @@ TOP SECURITY-RATED: {top_sis}
 EXECUTIVE SUMMARY
 Executive activity across Nigeria’s 36 states and the FCT covered fiscal governance, energy, healthcare, education and social protection. Our index tracks policy progress and benchmarks performance, giving business leaders and policy analysts a verified baseline to assess implementation and long-term project delivery.
 
-FISCAL PLANNING & INFRASTRUCTURE
-State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and debt sustainability frameworks.
-
-HEALTHCARE, EDUCATION & ACCOUNTABILITY
-Targeted programs accelerated primary healthcare facility upgrades, workforce recruitment, educational infrastructure, and operational transparency.
-
-DISASTER RESPONSE & LOCAL DEVELOPMENT
-Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
+STATE-BY-STATE EXECUTIVE ACTIONS:{state_bullets}
 
 STRATEGIC OUTLOOK
 Fiscal credibility requires transparent spending and verified delivery. Health, education, pensions and skills training matter when they improve access and quality. Infrastructure and emergency programmes need maintenance and oversight.
@@ -385,7 +380,7 @@ def main():
     month_names = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]
     ending_date_str = f"{month_names[friday_date.month - 1]} {friday_date.day:02d}, {iso_year}"
 
-    print(f"[START] Compiling briefs for ISO Week {iso_week} ({monday_date} to {friday_date})")
+    print(f"[START] Compiling full-fidelity briefs for ISO Week {iso_week} ({monday_date} to {friday_date})")
     
     data_payload, folder_name = load_master_data(iso_year, iso_week)
     top_psi, top_sis, corridor_items = extract_rankings_and_corridors(data_payload)
@@ -395,8 +390,8 @@ def main():
     os.makedirs("dist", exist_ok=True)
 
     blogger_content = compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis, corridor_items)
-    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis)
-    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis)
+    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
+    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
 
     vault_payload = {
         "week": iso_week,
@@ -425,7 +420,7 @@ def main():
     with open(f"week{iso_week}-data.json", "w", encoding="utf-8") as f:
         json.dump(vault_payload, f, indent=2, ensure_ascii=False)
 
-    print(f"[SUCCESS] Compiled Week {iso_week} reports saved to {dist_dir}/ and week{iso_week}-data.json")
+    print(f"[SUCCESS] Compiled Week {iso_week} un-truncated reports saved to {dist_dir}/ and week{iso_week}-data.json")
 
 
 if __name__ == "__main__":
