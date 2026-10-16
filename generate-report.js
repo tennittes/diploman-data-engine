@@ -1,31 +1,15 @@
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
 
-// Helper to fetch JSON over HTTPS with redirect support
-function fetchJsonData(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'Node.js' } }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return fetchJsonData(res.headers.location).then(resolve).catch(reject);
-      }
-      if (res.statusCode !== 200) {
-        return reject(new Error(`HTTP ${res.statusCode} at ${url}`));
-      }
-      let rawData = '';
-      res.on('data', chunk => rawData += chunk);
-      res.on('end', () => {
-        try {
-          resolve(JSON.parse(rawData));
-        } catch (e) {
-          reject(e);
-        }
-      });
-    }).on('error', reject);
-  });
-}
+// State Code Mapping Table
+const stateCodeMap = {
+  'KTS': 'Katsina', 'LOS': 'Lagos', 'GMB': 'Gombe', 'OGN': 'Ogun',
+  'KDN': 'Kaduna', 'IMO': 'Imo', 'ADM': 'Adamawa', 'KNO': 'Kano',
+  'CRS': 'Cross River', 'EBY': 'Ebonyi', 'ABI': 'Abia', 'EDO': 'Edo',
+  'KWR': 'Kwara', 'AKI': 'Akwa Ibom', 'PLT': 'Plateau', 'TRB': 'Taraba'
+};
 
-// Safely extract string or object values into clean text
+// Extract string or array values into single text block
 function extractText(field, defaultValue = '') {
   if (!field) return defaultValue;
   if (typeof field === 'string') return field;
@@ -33,14 +17,6 @@ function extractText(field, defaultValue = '') {
   if (typeof field === 'object') return Object.values(field).filter(Boolean).join(' ');
   return String(field);
 }
-
-// Map short state codes to full state names if needed
-const stateCodeMap = {
-  'KTS': 'Katsina', 'LOS': 'Lagos', 'GMB': 'Gombe', 'OGN': 'Ogun',
-  'KDN': 'Kaduna', 'IMO': 'Imo', 'ADM': 'Adamawa', 'KNO': 'Kano',
-  'CRS': 'Cross River', 'EBY': 'Ebonyi', 'ABI': 'Abia', 'EDO': 'Edo',
-   'KWR': 'Kwara', 'AKI': 'Akwa Ibom', 'PLT': 'Plateau', 'TRB': 'Taraba'
-};
 
 // Calculate target ISO week and Friday date
 function getTargetWeekDetails(targetDate = new Date()) {
@@ -77,14 +53,14 @@ function buildLeaderboards(jurisdictions) {
 
   const psiList = [...jurisdictions]
     .map(j => ({ state: j.state || stateCodeMap[j.stateCode] || j.stateCode, score: parseFloat(getPsi(j)) }))
-    .filter(item => !isNaN(item.score))
+    .filter(item => item.score !== null && !isNaN(item.score))
     .sort((a, b) => b.score - a.score)
     .slice(0, 3)
     .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} PSI)`);
 
   const sisList = [...jurisdictions]
     .map(j => ({ state: j.state || stateCodeMap[j.stateCode] || j.stateCode, score: parseFloat(getSis(j)) }))
-    .filter(item => !isNaN(item.score))
+    .filter(item => item.score !== null && !isNaN(item.score))
     .sort((a, b) => a.score - b.score)
     .slice(0, 3)
     .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} SIS)`);
@@ -130,12 +106,12 @@ function renderHtmlReport(rawPayload, weekDetails) {
     "This week's record reflects active policymaking across several sectors; however, the volume of announcements is not, by itself, evidence of effective governance. Diploman Times will continue to track executive decisions across all 36 states and the FCT."
   );
 
-  // Build Corridor Groups with robust state matching
+  // Build Corridor Groups with robust state code mapping
   const corridorHtmlBlocks = corridorGroups.map((group, index) => {
     const groupNum = String(index + 1).padStart(2, '0');
     const rawGroupStates = Array.isArray(group.states) ? group.states : [];
 
-    // Filter matching jurisdictions for this corridor group
+    // Match jurisdictions for this corridor group
     const statesInGroup = jurisdictions.filter(j => {
       const stateName = (j.state || '').toLowerCase();
       const stateCode = (j.stateCode || '').toLowerCase();
@@ -277,37 +253,33 @@ function renderHtmlReport(rawPayload, weekDetails) {
 </div>`;
 }
 
-// Main execution function
-async function run() {
+// Execution entry point reading local files directly
+function run() {
   try {
     const weekDetails = getTargetWeekDetails();
-    const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'tennittes';
     
-    // Target week URL vs Oct2026 local fallback URL
-    const jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/diploman-data-engine/main/${weekDetails.yearMonthFolder}/master-data.json`;
-    const fallbackUrl = `https://raw.githubusercontent.com/${repoOwner}/diploman-data-engine/main/oct2026/master-data.json`;
+    // Direct local filesystem resolution
+    const primaryPath = path.join(__dirname, weekDetails.yearMonthFolder, 'master-data.json');
+    const octPath = path.join(__dirname, 'oct2026', 'master-data.json');
+    const rootPath = path.join(__dirname, 'master-data.json');
 
-    console.log(`Fetching data for Week ${weekDetails.weekNumber}...`);
-
-    let masterData;
-    try {
-      masterData = await fetchJsonData(jsonUrl);
-    } catch (err) {
-      console.warn(`Target week URL unavailable. Falling back to active month dataset...`);
-      try {
-        masterData = await fetchJsonData(fallbackUrl);
-      } catch (fallbackErr) {
-        const localPath = path.join(__dirname, 'oct2026', 'master-data.json');
-        if (fs.existsSync(localPath)) {
-          masterData = JSON.parse(fs.readFileSync(localPath, 'utf8'));
-        } else {
-          throw new Error('No valid dataset found.');
-        }
-      }
+    let rawData;
+    if (fs.existsSync(primaryPath)) {
+      console.log(`Reading dataset from ${primaryPath}...`);
+      rawData = fs.readFileSync(primaryPath, 'utf8');
+    } else if (fs.existsSync(octPath)) {
+      console.log(`Reading dataset from ${octPath}...`);
+      rawData = fs.readFileSync(octPath, 'utf8');
+    } else if (fs.existsSync(rootPath)) {
+      console.log(`Reading dataset from ${rootPath}...`);
+      rawData = fs.readFileSync(rootPath, 'utf8');
+    } else {
+      throw new Error(`Could not find master-data.json in local repository paths.`);
     }
 
+    const masterData = JSON.parse(rawData);
     const htmlOutput = renderHtmlReport(masterData, weekDetails);
-    
+
     const outputDir = path.join(__dirname, 'output');
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
