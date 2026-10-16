@@ -4,7 +4,11 @@ on:
   schedule:
     # Runs every Friday at 18:00 UTC
     - cron: '0 18 * * 5'
-  workflow_dispatch: # Enables manual trigger button in GitHub Actions UI
+  workflow_dispatch:
+
+# GRANT WRITE PERMISSION TO GITHUB ACTIONS BOT
+permissions:
+  contents: write
 
 jobs:
   build-report:
