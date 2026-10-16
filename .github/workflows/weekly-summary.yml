@@ -9,10 +9,12 @@ on:
       target_week:
         description: 'Target Reporting Week (Mon-Fri Cycle)'
         required: false
-        default: 'Week 41 (OCT 09) [CURRENT]'
+        default: 'Auto-detect Current Week'
         type: choice
         options:
-          - 'Week 41 (OCT 09) [CURRENT]'
+          - 'Auto-detect Current Week'
+          - 'Week 42 (OCT 16) [CURRENT]'
+          - 'Week 41 (OCT 09)'
           - 'Week 40 (OCT 02)'
           - 'Week 39 (SEP 25)'
           - 'Week 38 (SEP 18)'
@@ -55,12 +57,13 @@ jobs:
           BLOGGER_WEEKLY_PAGE_ID: ${{ secrets.BLOGGER_WEEKLY_PAGE_ID }}
         run: |
           RAW_INPUT="${{ github.event.inputs.target_week }}"
-          if [ -n "$RAW_INPUT" ]; then
-            CLEAN_WEEK=$(echo "$RAW_INPUT" | grep -oE 'Week [0-9]+')
-            echo "Manual execution for target cycle: $CLEAN_WEEK"
+          CLEAN_WEEK=$(echo "$RAW_INPUT" | grep -oE 'Week [0-9]+')
+
+          if [ -n "$CLEAN_WEEK" ]; then
+            echo "Manual execution specified for target cycle: $CLEAN_WEEK"
             python compile_weekly.py --week "$CLEAN_WEEK"
           else
-            echo "Scheduled cron run detected. Auto-computing current ISO week..."
+            echo "Auto-detect triggered or scheduled run. Auto-computing current ISO week..."
             python compile_weekly.py
           fi
 
