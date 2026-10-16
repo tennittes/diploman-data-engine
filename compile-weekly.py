@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-compile_weekly.py
+compile-weekly.py
 Diploman Times • Weekly Executive Social Brief Compiler Engine
-Full-fidelity, un-truncated report generation for Blogger, Facebook, LinkedIn, and Vaults.
+Exact full-fidelity replication of LinkedIn, Facebook, and Blogger drafts.
 """
 
 import os
@@ -217,27 +217,6 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
     corridor_html_blocks += build_group_html("Primary Healthcare Revitalisation, Audit & Procurement Control Hubs", 2, g2_items)
     corridor_html_blocks += build_group_html("Vocational TVET, Disaster Relief & Market Real Estate", 3, g3_items)
 
-    if not corridor_html_blocks:
-        corridor_html_blocks = f"""
-    <article style="margin-bottom: 36px;">
-      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
-        <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
-        <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
-          Subnational Executive Action & Strategic Governance Highlights
-        </h3>
-      </div>
-      <div style="margin-top: 12px;">
-        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
-          <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Executive Leadership & State Operations &bull; Week {iso_week}
-          </div>
-          <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
-            <strong>Key developments and governance significance:</strong> Across Nigeria’s subnational jurisdictions, state administrations advanced legislative approvals, capital infrastructure investments, healthcare expansion, and revenue optimization pipelines.
-          </p>
-        </div>
-      </div>
-    </article>"""
-
     return f"""<!-- DIPLOMAN TIMES SUBNATIONAL WEEKLY EXECUTIVE PAGE TEMPLATE -->
 <div class="dt-executive-page-wrapper" itemscope itemtype="https://schema.org/Report" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.7; max-width: 860px; margin: 0 auto; padding: 10px 0;">
 
@@ -274,6 +253,7 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
           {top_psi}
         </div>
       </div>
+
       <div style="background-color: #ffffff; padding: 10px 14px; border: 1px solid #e2e8f0; border-radius: 4px;">
         <div style="font-size: 10px; font-weight: 900; color: #1d4ed8; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px;">
           STATE INSTABILITY SCORE (SIS) &bull; LOWEST RISK
@@ -291,12 +271,15 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
       Macro Governance Synthesis &amp; Policy Dynamics
     </h2>
     <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
-      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during the week focused on fiscal planning, energy development, public-service delivery and social protection. State administrative programs illustrate the range of priorities competing for public resources and local governance execution.
+      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during the week focused on fiscal planning, energy development, public-service delivery and social protection. Katsina’s early approval of its 2027 budget and solar investments, Lagos’s work on electricity and urban infrastructure, and several states’ commitments to healthcare and education illustrate the range of priorities competing for public resources. The significance of these initiatives will ultimately depend on implementation: whether approved funds are released as intended, projects meet quality and delivery standards, and citizens experience measurable improvements in essential services.
+    </p>
+    <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
+      The reported State Instability Score (SIS) places Ogun, Lagos and Ekiti among the lowest-scoring jurisdictions in this week’s comparison. The State Instability Score (SIS) gives decision-makers a high-level, quantitative view of subnational risk. Although it tracks broader trends rather than individual incidents, it provides an important strategic baseline. Government leaders and institutional investors should assess SIS scorecards alongside the PSI values.
     </p>
   </section>
 
   <section style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #64748b; padding: 12px 16px; margin: 0 0 28px 0; border-radius: 4px;">
-    <p style="font-size: 12px; color: #475569; line-height: 1.65; margin: 0; text-align: justify;"><strong>Editorial note:</strong> PSI and SIS rankings are reproduced from the reporting dataset for comparative use. Financial figures, projected savings, project status and reported outcomes should be interpreted according to their stated status and verified against official records.</p>
+    <p style="font-size: 12px; color: #475569; line-height: 1.65; margin: 0; text-align: justify;"><strong>Editorial note:</strong> PSI and SIS rankings are reproduced from the reporting dataset for comparative use. Financial figures, projected savings, project status and reported outcomes should be interpreted according to their stated status and verified against the relevant official records. A policy announcement or approved allocation should not be treated as evidence that a project is complete or that a public outcome has been measured.</p>
   </section>
 
   <!-- 3. DYNAMIC CORRIDOR GROUPS WITH GOVERNOR IMPACT VECTORS -->
@@ -313,56 +296,84 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
       Strategic Policy Outlook
     </h3>
     <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0 0 18px 0; text-align: justify;">
-      The week’s announcements identify several priorities for continued executive scrutiny. Fiscal plans should be judged against budget execution, revenue collection, debt reporting and procurement disclosures.
+      The week’s announcements identify several priorities for continued executive scrutiny. First, fiscal plans should be judged against budget execution, revenue collection, debt reporting and the timely publication of procurement information. Second, renewable-energy projects need clear maintenance arrangements, reliable service data and transparent reporting of projected savings against realised savings. Third, pension settlements and social-protection programmes require auditable beneficiary records and predictable payment schedules. Finally, infrastructure commitments should be assessed against milestones, construction quality, operating costs and the communities actually served. For businesses and investors, index scores and early budget approvals can inform further analysis, but they should not replace due diligence on security, regulation, infrastructure and public finances.
     </p>
+
     <h3 style="font-size: 11px; font-weight: 900; color: #064e3b; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 8px 0; border-top: 1px solid #e2e8f0; padding-top: 14px;">
       Executive Risk Conclusion
     </h3>
     <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0; text-align: justify;">
-      This week’s record reflects policymaking across several sectors. Diploman Times will continue to track executive decisions across all 36 states and the Federal Capital Territory, compare reported performance, and examine outcomes.
+      This week’s record reflects policymaking across several sectors; however, the volume of announcements is not, by itself, evidence of effective governance. A sound assessment distinguishes between proposals, approvals, projects under construction and completed services. It also asks whether spending represents value for money, whether delivery is equitable and whether results can be independently verified. Diploman Times will continue to track executive decisions across all 36 states and the Federal Capital Territory, compare reported performance, and examine the gap between policy commitments and outcomes for residents, public institutions and investors.
     </p>
   </section>
 </div>"""
 
 
-def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
-    summary_highlights = ""
-    for c in corridor_items[:6]:
-        summary_highlights += f"\n• {c['state'].upper()}: {c['summary'][:160]}..."
-
+def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis):
     raw = f"""Subnational Governance Intelligence Brief Week {iso_week} Policy Roundup Ending {ending_date_str} 🇳🇬
 
 Top Performing States: {top_psi}
 Top Security-Rated States: {top_sis}
 
 EXECUTIVE SUMMARY
-Nigeria's subnational governance landscape in Week {iso_week} reflected a broad push towards infrastructure delivery, fiscal discipline, social protection, energy development and public-service reform.
+Nigeria's subnational governance landscape this week reflected a broad push towards infrastructure delivery, fiscal discipline, social protection, energy development and public-service reform. From early budget approval and renewable energy investment to healthcare expansion, education support and disaster response, state governments recorded initiatives with potential for economic productivity and public welfare.
 
-EXECUTIVE IMPACT HIGHLIGHTS:{summary_highlights}
+Our dual-metric scorecards help decision-makers compare policy implementation, security stability and governance performance across Nigeria’s states.
+
+1. FISCAL DISCIPLINE, ENERGY AND ECONOMIC INFRASTRUCTURE
+State executive leadership focused on early fiscal planning, revenue management, and critical infrastructure deployment across major economic corridors.
+
+2. HEALTHCARE, EDUCATION AND PUBLIC-SECTOR ACCOUNTABILITY
+Targeted investments in primary healthcare centres, human resource expansion, and institutional oversight advanced social service delivery.
+
+3. DISASTER RESPONSE, SOCIAL PROTECTION AND LOCAL DEVELOPMENT
+Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
+
+STRATEGIC ASSESSMENT
+Three priorities stand out from the week's developments:
+Fiscal credibility: Early budgeting, rising internally generated revenue and transparent procurement can strengthen investor confidence.
+
+Human-capital investment: Healthcare, education, pensions and vocational training remain essential to productivity and social stability.
+
+Implementation and resilience: Roads, electricity, drainage and disaster-response programmes require maintenance, credible timelines and independent oversight.
+
+THE WEEK AHEAD
+The overall picture is one of active subnational policymaking, with notable initiatives in fiscal management, public services and infrastructure.
+
+Diploman Times will continue tracking executive decisions, measuring reported performance and examining outcomes across Nigeria's 36 states and the Federal Capital Territory.
 
 🌐 Explore daily governance updates, security indicators and budget analysis at www.diplomantimes.com.
 
-Diploman Times — Strategic Governance Intelligence."""
+Diploman Times - Strategic Governance Intelligence."""
     return sanitize_plain_text(raw)
 
 
-def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
-    summary_highlights = ""
-    for c in corridor_items[:5]:
-        summary_highlights += f"\n\n► {c['state'].upper()} ({c['governor']})\n{c['summary']}"
-
+def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis):
     raw = f"""[WEEKLY {iso_week} POLICY BRIEF] Subnational Governance Intelligence Roundup Ending {ending_date_str} 🇳🇬
 
 TOP PERFORMERS: {top_psi}
 TOP SECURITY-RATED: {top_sis}
 
 EXECUTIVE SUMMARY
-Executive activity across Nigeria's 36 states and the FCT in Week {iso_week} covered fiscal governance, energy, healthcare, education and social protection. Our index tracks policy progress and benchmarks performance.
+Executive activity across Nigeria’s 36 states and the FCT covered fiscal governance, energy, healthcare, education and social protection. Our index tracks policy progress and benchmarks performance, giving business leaders and policy analysts a verified baseline to assess implementation and long-term project delivery.
 
-STATE HIGHLIGHTS & GOVERNANCE VECTORS:{summary_highlights}
+FISCAL PLANNING & INFRASTRUCTURE
+State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and debt sustainability frameworks.
 
-🌐 Explore daily governance updates, security indicators and budget analysis: www.diplomantimes.com
-Diploman Times — State Governance. Measurable Impact."""
+HEALTHCARE, EDUCATION & ACCOUNTABILITY
+Targeted programs accelerated primary healthcare facility upgrades, workforce recruitment, educational infrastructure, and operational transparency.
+
+DISASTER RESPONSE & LOCAL DEVELOPMENT
+Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
+
+STRATEGIC OUTLOOK
+Fiscal credibility requires transparent spending and verified delivery. Health, education, pensions and skills training matter when they improve access and quality. Infrastructure and emergency programmes need maintenance and oversight.
+
+WEEKLY VERDICT
+Policy activity was substantial, but announcements alone do not prove governance success. Progress depends on completion, beneficiaries, cost and lasting results. Diploman Times will track executive decisions and outcomes across Nigeria's 36 states and the FCT.
+
+🌐 Governance updates, security indicators and budget analysis: www.diplomantimes.com
+Diploman Times - Subnational Governance Intelligence."""
     return sanitize_plain_text(raw)
 
 
@@ -384,8 +395,8 @@ def main():
     os.makedirs("dist", exist_ok=True)
 
     blogger_content = compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis, corridor_items)
-    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
-    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
+    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis)
+    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis)
 
     vault_payload = {
         "week": iso_week,
