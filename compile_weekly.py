@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 compile_weekly.py
-Diploman Times • Weekly Executive Social Brief Compiler
-Strictly compiles standardized reports for Blogger, Facebook, LinkedIn, and Workspace Vaults from master-data.json.
+Diploman Times • Weekly Executive Social Brief Compiler Engine
+Strictly compiles standardized reports for Blogger, Facebook, LinkedIn, and Workspace Vaults matching the exact operational template.
 """
 
 import os
@@ -15,18 +15,12 @@ import html
 
 
 def parse_args():
-    """Parses command-line arguments passed from GitHub Actions or local CLI executions."""
     parser = argparse.ArgumentParser(description="Diploman Times Weekly Telemetry Compiler Engine")
-    parser.add_argument("--week", type=str, default=None, help="Target reporting week (e.g. 'Week 42', 'Week 42 (OCT 16)')")
+    parser.add_argument("--week", type=str, default=None, help="Target reporting week (e.g. 'Week 42')")
     return parser.parse_args()
 
 
 def resolve_iso_week_window(target_week_input=None):
-    """
-    Parses input strings like 'Week 42 (OCT 16) [CURRENT]' or 'Week 41'
-    and derives the exact ISO Monday-to-Friday (5-day) reporting window.
-    Defaults to current ISO week if input is missing or unparseable.
-    """
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     today = now_utc.date()
     iso_year, current_iso_week, _ = today.isocalendar()
@@ -40,7 +34,6 @@ def resolve_iso_week_window(target_week_input=None):
     if not iso_week:
         iso_week = current_iso_week
 
-    # Derive Monday (ISO weekday 1) and Friday (ISO weekday 5)
     monday_date = datetime.date.fromisocalendar(iso_year, iso_week, 1)
     friday_date = datetime.date.fromisocalendar(iso_year, iso_week, 5)
 
@@ -48,35 +41,35 @@ def resolve_iso_week_window(target_week_input=None):
 
 
 def sanitize_plain_text(raw_text):
-    """
-    Decodes HTML entities to pure UTF-8 plain text for Facebook and LinkedIn.
-    Prevents formatting leaks like &#8358; (₦) or &#8217; (').
-    """
     if not raw_text:
         return ""
-    
     decoded = html.unescape(str(raw_text))
-    decoded = decoded.replace("&#8358;", "₦").replace("&#8217;", "'")
-    decoded = decoded.replace("&#8220;", '"').replace("&#8221;", '"')
-    decoded = decoded.replace("&#8211;", "–").replace("&#8212;", "—")
+    decoded = decoded.replace("&#8358;", "₦").replace("&amp;#8358;", "₦")
+    decoded = decoded.replace("&#8217;", "'").replace("&amp;#8217;", "'")
+    decoded = decoded.replace("&#8220;", '"').replace("&amp;#8220;", '"')
+    decoded = decoded.replace("&#8221;", '"').replace("&amp;#8221;", '"')
+    decoded = decoded.replace("&#8211;", "–").replace("&amp;#8211;", "–")
+    decoded = decoded.replace("&#8212;", "—").replace("&amp;#8212;", "—")
     decoded = decoded.replace("&amp;", "&")
     return decoded.strip()
 
 
 def normalize_state_name(raw):
-    """Standardizes state entity names."""
     if not raw:
         return ""
     clean = str(raw).strip().title().replace(" State", "")
-    if clean.upper() in ["Fct", "Abuja", "Fct-Abuja", "Fct Abuja"]:
+    if clean.upper() in ["FCT", "ABUJA", "FCT-ABUJA", "FCT ABUJA"]:
         return "FCT Abuja"
     return clean
 
 
+def to_title_case(str_val):
+    if not str_val:
+        return ""
+    return str_val.lower().title()
+
+
 def load_master_data(iso_year, iso_week):
-    """
-    Attempts to locate and load the week's master-data.json from local workspace paths.
-    """
     month_keys = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
     friday_date = datetime.date.fromisocalendar(iso_year, iso_week, 5)
     month_folder = f"{month_keys[friday_date.month - 1]}{iso_year}"
@@ -97,20 +90,16 @@ def load_master_data(iso_year, iso_week):
             except Exception as e:
                 print(f"[WARN] Failed to parse JSON at {path}: {e}")
 
-    print(f"[WARN] No master-data.json found for ISO Week {iso_week}. Processing with benchmark default structures.")
+    print(f"[WARN] No master-data.json found for ISO Week {iso_week}.")
     return None, month_folder
 
 
-def extract_rankings_and_highlights(payload):
-    """
-    Extracts top PSI and SIS scores dynamically from raw payload if present.
-    Falls back gracefully to benchmark defaults if missing.
-    """
+def extract_rankings_and_corridors(payload):
     top_psi_str = "1. Lagos (8.7 PSI) • 2. Cross River (8.6 PSI) • 3. Edo (8.2 PSI)"
     top_sis_str = "1. Ogun (1.4 SIS) • 2. Lagos (1.4 SIS) • 3. Ekiti (1.5 SIS)"
 
     if not payload:
-        return top_psi_str, top_sis_str
+        return top_psi_str, top_sis_str, []
 
     items = []
     if isinstance(payload, list):
@@ -122,6 +111,7 @@ def extract_rankings_and_highlights(payload):
 
     state_psi_map = {}
     state_sis_map = {}
+    corridor_items = []
 
     for item in items:
         if not isinstance(item, dict):
@@ -146,6 +136,15 @@ def extract_rankings_and_highlights(payload):
             except (ValueError, TypeError):
                 pass
 
+        summary = item.get("summary") or item.get("details") or item.get("narrative") or item.get("highlights")
+        if summary:
+            corridor_items.append({
+                "state": st_name,
+                "governor": item.get("governor", f"Governor of {st_name}"),
+                "region": item.get("region", "NIGERIA"),
+                "summary": sanitize_plain_text(summary)
+            })
+
     if state_psi_map:
         sorted_psi = sorted(state_psi_map.items(), key=lambda x: x[1], reverse=True)[:3]
         top_psi_str = " • ".join([f"{i+1}. {name} ({score:.1f} PSI)" for i, (name, score) in enumerate(sorted_psi)])
@@ -154,25 +153,87 @@ def extract_rankings_and_highlights(payload):
         sorted_sis = sorted(state_sis_map.items(), key=lambda x: x[1])[:3]
         top_sis_str = " • ".join([f"{i+1}. {name} ({score:.1f} SIS)" for i, (name, score) in enumerate(sorted_sis)])
 
-    return top_psi_str, top_sis_str
+    return top_psi_str, top_sis_str, corridor_items
 
 
-def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis):
-    """Generates full, untruncated Blogger HTML report."""
+def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis, corridor_items):
+    formatted_title_date = to_title_case(ending_date_str)
+    dynamic_title = f"Nigeria Subnational Governance Brief Week {iso_week} Policy Roundup {formatted_title_date}"
+
+    # Build Corridor HTML blocks dynamically
+    corridor_html_blocks = ""
+    if corridor_items:
+        corridor_html_blocks += """
+    <article style="margin-bottom: 36px;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
+        <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
+        <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
+          Subnational Executive Action & Strategic Governance Highlights
+        </h3>
+      </div>
+      <div style="margin-top: 12px;">"""
+        
+        for c in corridor_items[:12]:
+            corridor_html_blocks += f"""
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
+          <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
+            {c['governor']} &bull; {c['state']} State ({c['region']})
+          </div>
+          <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
+            <strong>Key developments and governance significance:</strong> {c['summary']}
+          </p>
+        </div>"""
+        
+        corridor_html_blocks += """
+      </div>
+    </article>"""
+    else:
+        corridor_html_blocks = """
+    <article style="margin-bottom: 36px;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
+        <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
+        <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
+          Early Fiscal Planning, Renewable Energy & Energy Corridors
+        </h3>
+      </div>
+      <div style="margin-top: 12px;">
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
+          <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
+            Subnational Executive Leadership Overview &bull; Week """ + str(iso_week) + """
+          </div>
+          <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
+            <strong>Key developments and governance significance:</strong> State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and public service sustainability frameworks.
+          </p>
+        </div>
+      </div>
+    </article>"""
+
     return f"""<!-- DIPLOMAN TIMES SUBNATIONAL WEEKLY EXECUTIVE PAGE TEMPLATE -->
 <div class="dt-executive-page-wrapper" itemscope itemtype="https://schema.org/Report" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.7; max-width: 860px; margin: 0 auto; padding: 10px 0;">
 
-  <!-- 1. FEATURED GRAPHIC -->
-  <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; position: relative; width: 100%;">
-    <a href="https://www.diplomantimes.com/" aria-label="Diploman Times Subnational Telemetry Scorecard" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
-      <img id="dt-featured-chart" alt="Diploman Times Weekly Telemetry Scorecard - PSI &amp; SIS Distribution" border="0" src="https://raw.githubusercontent.com/tennittes/diploman-data-engine/main/{folder_name}/week_{iso_week}_chart.png" style="border: 0px; border-radius: 6px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
+  <!-- DYNAMIC TITLE HEADLINE -->
+  <h1 style="font-size: 22px; font-weight: 900; color: #064e3b; margin: 0 0 16px 0; line-height: 1.35; border-bottom: 2px solid #064e3b; padding-bottom: 10px;">
+    {dynamicTitle}
+  </h1>
+
+  <!-- FEATURED IMAGE CONTAINER -->
+  <figure class="post-featured-image-container" style="box-sizing: border-box; margin: 0px 0px 16px; padding: 0px; position: relative; width: 100%;">
+    <a href="https://www.diplomantimes.com/" aria-label="Nigeria State Governors" style="display: block; margin: 0px; padding: 0px; text-decoration: none;">
+      <img alt="Nigeria State Governors" border="0" src="https://raw.githubusercontent.com/tennittes/diploman-data-engine/main/{folder_name}/week_{iso_week}_chart.png" style="border: 0px; display: block; height: auto; margin: 0px; padding: 0px; width: 100%;" />
     </a>
   </figure>
 
-  <!-- 2. QUANTITATIVE INDEX LEADERBOARD -->
+  <!-- LEAD NARRATIVE / BLOGGER SNIPPET -->
+  <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
+    Nigeria’s subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development. State governments advanced vital legislative budgets, social protection schemes, and regional infrastructure pipelines to strengthen local economic productivity and governance accountability across the country.
+  </p>
+
+  <!--more-->
+
+  <!-- 1. QUANTITATIVE INDEX LEADERBOARD -->
   <section style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #064e3b; border-radius: 4px; padding: 16px 18px; margin-bottom: 28px;">
     <h2 style="margin: 0 0 12px 0; font-size: 12.5px; font-weight: 900; color: #064e3b; text-transform: uppercase; letter-spacing: 0.8px;">
-      Subnational Index Performance Benchmarks (Week {iso_week} • Ending {ending_date_str})
+      Subnational Index Performance Benchmarks
     </h2>
     <div class="dt-leaderboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
       <div style="background-color: #ffffff; padding: 10px 14px; border: 1px solid #e2e8f0; border-radius: 4px;">
@@ -194,32 +255,54 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
     </div>
   </section>
 
-  <!-- 3. DYNAMIC MACRO ANALYSIS SYNTHESIS -->
+  <!-- 2. DYNAMIC MACRO ANALYSIS SYNTHESIS -->
   <section style="margin-bottom: 32px;">
     <h2 style="font-size: 16px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px;">
       Macro Governance Synthesis &amp; Policy Dynamics
     </h2>
-    <p style="text-align: justify; margin-bottom: 14px;">
-      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during Week {iso_week} focused on fiscal planning, energy development, public-service delivery and social protection. Policy implementations and infrastructure investments illustrate the range of strategic priorities driving state performance metrics across key corridors.
+    <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
+      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during Week {iso_week} focused on fiscal planning, energy development, public-service delivery and social protection. State administrative programs illustrate the range of priorities competing for public resources and local governance execution.
     </p>
   </section>
 
   <section style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #64748b; padding: 12px 16px; margin: 0 0 28px 0; border-radius: 4px;">
     <p style="font-size: 12px; color: #475569; line-height: 1.65; margin: 0; text-align: justify;"><strong>Editorial note:</strong> PSI and SIS rankings are reproduced from the reporting dataset for comparative use. Financial figures, projected savings, project status and reported outcomes should be interpreted according to their stated status and verified against official records.</p>
   </section>
+
+  <!-- 3. DYNAMIC CORRIDOR GROUPS WITH GOVERNOR IMPACT VECTORS -->
+  <section style="margin-bottom: 32px;">
+    <h2 style="font-size: 16px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0 0 16px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px;">
+      Subnational Strategic Corridor Group Analysis
+    </h2>
+    {corridor_html_blocks}
+  </section>
+
+  <!-- 4. STRATEGIC OUTLOOK & CONCLUSION -->
+  <section style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; padding: 20px; margin: 24px 0 12px 0;">
+    <h3 style="font-size: 11px; font-weight: 900; color: #064e3b; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 8px 0;">
+      Strategic Policy Outlook
+    </h3>
+    <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0 0 18px 0; text-align: justify;">
+      The week’s announcements identify several priorities for continued executive scrutiny. Fiscal plans should be judged against budget execution, revenue collection, debt reporting and procurement disclosures.
+    </p>
+    <h3 style="font-size: 11px; font-weight: 900; color: #064e3b; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 8px 0; border-top: 1px solid #e2e8f0; padding-top: 14px;">
+      Executive Risk Conclusion
+    </h3>
+    <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0; text-align: justify;">
+      This week’s record reflects policymaking across several sectors. Diploman Times will continue to track executive decisions across all 36 states and the Federal Capital Territory, compare reported performance, and examine outcomes.
+    </p>
+  </section>
 </div>"""
 
 
 def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis):
-    """Generates standardized UTF-8 plain text for Facebook."""
-    raw = f"""NIGERIA SUBNATIONAL GOVERNANCE BRIEF
-WEEKLY POLICY ROUNDUP 🇳🇬
-Reporting Cycle: Week {iso_week} | Ending {ending_date_str}
+    raw = f"""Subnational Governance Intelligence Brief Week {iso_week} Policy Roundup Ending {ending_date_str} 🇳🇬
+
 Top Performing States: {top_psi}
 Top Security-Rated States: {top_sis}
 
 EXECUTIVE SUMMARY
-Nigeria’s subnational governance landscape in Week {iso_week} reflected a broad push towards infrastructure delivery, fiscal discipline, social protection, energy development and public-service reform.
+Nigeria's subnational governance landscape in Week {iso_week} reflected a broad push towards infrastructure delivery, fiscal discipline, social protection, energy development and public-service reform.
 
 1. FISCAL DISCIPLINE, ENERGY AND ECONOMIC INFRASTRUCTURE
 State executive leadership focused on early fiscal planning, revenue management, and critical infrastructure deployment across major economic corridors.
@@ -231,12 +314,12 @@ Targeted investments in primary healthcare centres, human resource expansion, an
 Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
 
 🌐 Explore daily governance updates, security indicators and budget analysis at www.diplomantimes.com.
-Diploman Times — State Governance. Measurable Impact."""
+
+Diploman Times — Strategic Governance Intelligence."""
     return sanitize_plain_text(raw)
 
 
 def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis):
-    """Generates standardized UTF-8 plain text for LinkedIn."""
     raw = f"""[WEEKLY {iso_week} POLICY BRIEF] Subnational Governance Intelligence Roundup Ending {ending_date_str} 🇳🇬
 
 TOP PERFORMERS: {top_psi}
@@ -258,8 +341,6 @@ Diploman Times — State Governance. Measurable Impact."""
 
 def main():
     args = parse_args()
-    
-    # Resolve target input hierarchy: CLI Arg -> Env Var -> Default Current
     raw_input = args.week or os.getenv("REPORTING_WEEK") or "auto"
     iso_year, iso_week, monday_date, friday_date = resolve_iso_week_window(raw_input)
     
@@ -269,19 +350,16 @@ def main():
     print(f"[START] Compiling briefs for ISO Week {iso_week} ({monday_date} to {friday_date})")
     
     data_payload, folder_name = load_master_data(iso_year, iso_week)
-    top_psi, top_sis = extract_rankings_and_highlights(data_payload)
+    top_psi, top_sis, corridor_items = extract_rankings_and_corridors(data_payload)
 
-    # Dist & Output Directories Setup
     dist_dir = os.path.join("dist", f"week_{iso_week}")
     os.makedirs(dist_dir, exist_ok=True)
     os.makedirs("dist", exist_ok=True)
 
-    # Compile files
-    blogger_content = compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis)
+    blogger_content = compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis, corridor_items)
     facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis)
     linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis)
 
-    # Construct JSON Vault Payload for Live Workspace Loaders
     vault_payload = {
         "week": iso_week,
         "year": iso_year,
@@ -294,7 +372,6 @@ def main():
         "bloggerHtml": blogger_content
     }
 
-    # Write Output Files
     with open(os.path.join(dist_dir, "blogger.html"), "w", encoding="utf-8") as f:
         f.write(blogger_content)
 
@@ -304,7 +381,6 @@ def main():
     with open(os.path.join(dist_dir, "linkedin.txt"), "w", encoding="utf-8") as f:
         f.write(linkedin_content)
 
-    # Write Vault JSON feeds
     with open(os.path.join(dist_dir, "data.json"), "w", encoding="utf-8") as f:
         json.dump(vault_payload, f, indent=2, ensure_ascii=False)
 
