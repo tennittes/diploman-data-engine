@@ -2,7 +2,7 @@
 """
 compile_weekly.py
 Diploman Times • Weekly Executive Social Brief Compiler Engine
-Strictly compiles standardized reports for Blogger, Facebook, LinkedIn, and Workspace Vaults matching the exact operational template.
+Full-fidelity, un-truncated report generation for Blogger, Facebook, LinkedIn, and Vaults.
 """
 
 import os
@@ -105,9 +105,17 @@ def extract_rankings_and_corridors(payload):
     if isinstance(payload, list):
         items = payload
     elif isinstance(payload, dict):
-        for k, v in payload.items():
-            if isinstance(v, list):
-                items.extend(v)
+        if "states" in payload and isinstance(payload["states"], list):
+            items = payload["states"]
+        elif "data" in payload and isinstance(payload["data"], list):
+            items = payload["data"]
+        else:
+            for k, v in payload.items():
+                if isinstance(v, list):
+                    items.extend(v)
+                elif isinstance(v, dict):
+                    v["stateName"] = k
+                    items.append(v)
 
     state_psi_map = {}
     state_sis_map = {}
@@ -116,7 +124,7 @@ def extract_rankings_and_corridors(payload):
     for item in items:
         if not isinstance(item, dict):
             continue
-        raw_name = item.get("stateName") or item.get("stateKey") or item.get("jurisdiction") or item.get("state")
+        raw_name = item.get("stateName") or item.get("stateKey") or item.get("jurisdiction") or item.get("state") or item.get("name")
         st_name = normalize_state_name(raw_name)
         if not st_name:
             continue
@@ -136,13 +144,26 @@ def extract_rankings_and_corridors(payload):
             except (ValueError, TypeError):
                 pass
 
-        summary = item.get("summary") or item.get("details") or item.get("narrative") or item.get("highlights")
-        if summary:
+        summary = (
+            item.get("fullSummary") or 
+            item.get("summary") or 
+            item.get("details") or 
+            item.get("narrative") or 
+            item.get("highlights") or 
+            item.get("executiveAction") or 
+            item.get("content")
+        )
+        
+        if isinstance(summary, list):
+            summary = " ".join([str(x) for x in summary])
+
+        if summary and len(str(summary).strip()) > 10:
             corridor_items.append({
                 "state": st_name,
-                "governor": item.get("governor", f"Governor of {st_name}"),
-                "region": item.get("region", "NIGERIA"),
-                "summary": sanitize_plain_text(summary)
+                "governor": item.get("governor") or f"Governor of {st_name}",
+                "region": item.get("region") or "NIGERIA",
+                "corridorGroup": item.get("corridorGroup") or 1,
+                "summary": sanitize_plain_text(str(summary))
             })
 
     if state_psi_map:
@@ -160,21 +181,24 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
     formatted_title_date = to_title_case(ending_date_str)
     dynamic_title = f"Nigeria Subnational Governance Brief Week {iso_week} Policy Roundup {formatted_title_date}"
 
-    # Build Corridor HTML blocks dynamically
-    corridor_html_blocks = ""
-    if corridor_items:
-        corridor_html_blocks += """
+    g1_items = [c for c in corridor_items if c.get('corridorGroup') == 1] or corridor_items[0:4]
+    g2_items = [c for c in corridor_items if c.get('corridorGroup') == 2] or corridor_items[4:8]
+    g3_items = [c for c in corridor_items if c.get('corridorGroup') == 3] or corridor_items[8:12]
+
+    def build_group_html(title, group_num, items_list):
+        if not items_list:
+            return ""
+        html_out = f"""
     <article style="margin-bottom: 36px;">
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
-        <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
+        <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 0{group_num}</span>
         <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
-          Subnational Executive Action & Strategic Governance Highlights
+          {title}
         </h3>
       </div>
       <div style="margin-top: 12px;">"""
-        
-        for c in corridor_items[:12]:
-            corridor_html_blocks += f"""
+        for c in items_list:
+            html_out += f"""
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
             {c['governor']} &bull; {c['state']} State ({c['region']})
@@ -183,26 +207,32 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
             <strong>Key developments and governance significance:</strong> {c['summary']}
           </p>
         </div>"""
-        
-        corridor_html_blocks += """
+        html_out += """
       </div>
     </article>"""
-    else:
+        return html_out
+
+    corridor_html_blocks = ""
+    corridor_html_blocks += build_group_html("Early Fiscal Planning, Renewable Energy & Energy Corridors", 1, g1_items)
+    corridor_html_blocks += build_group_html("Primary Healthcare Revitalisation, Audit & Procurement Control Hubs", 2, g2_items)
+    corridor_html_blocks += build_group_html("Vocational TVET, Disaster Relief & Market Real Estate", 3, g3_items)
+
+    if not corridor_html_blocks:
         corridor_html_blocks = f"""
     <article style="margin-bottom: 36px;">
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
         <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP 01</span>
         <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
-          Early Fiscal Planning, Renewable Energy & Energy Corridors
+          Subnational Executive Action & Strategic Governance Highlights
         </h3>
       </div>
       <div style="margin-top: 12px;">
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Subnational Executive Leadership Overview &bull; Week {iso_week}
+            Executive Leadership & State Operations &bull; Week {iso_week}
           </div>
           <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
-            <strong>Key developments and governance significance:</strong> State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and public service sustainability frameworks.
+            <strong>Key developments and governance significance:</strong> Across Nigeria’s subnational jurisdictions, state administrations advanced legislative approvals, capital infrastructure investments, healthcare expansion, and revenue optimization pipelines.
           </p>
         </div>
       </div>
@@ -261,7 +291,7 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
       Macro Governance Synthesis &amp; Policy Dynamics
     </h2>
     <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
-      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during Week {iso_week} focused on fiscal planning, energy development, public-service delivery and social protection. State administrative programs illustrate the range of priorities competing for public resources and local governance execution.
+      Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity during the week focused on fiscal planning, energy development, public-service delivery and social protection. State administrative programs illustrate the range of priorities competing for public resources and local governance execution.
     </p>
   </section>
 
@@ -295,7 +325,11 @@ def compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_si
 </div>"""
 
 
-def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis):
+def compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
+    summary_highlights = ""
+    for c in corridor_items[:6]:
+        summary_highlights += f"\n• {c['state'].upper()}: {c['summary'][:160]}..."
+
     raw = f"""Subnational Governance Intelligence Brief Week {iso_week} Policy Roundup Ending {ending_date_str} 🇳🇬
 
 Top Performing States: {top_psi}
@@ -304,14 +338,7 @@ Top Security-Rated States: {top_sis}
 EXECUTIVE SUMMARY
 Nigeria's subnational governance landscape in Week {iso_week} reflected a broad push towards infrastructure delivery, fiscal discipline, social protection, energy development and public-service reform.
 
-1. FISCAL DISCIPLINE, ENERGY AND ECONOMIC INFRASTRUCTURE
-State executive leadership focused on early fiscal planning, revenue management, and critical infrastructure deployment across major economic corridors.
-
-2. HEALTHCARE, EDUCATION AND PUBLIC-SECTOR ACCOUNTABILITY
-Targeted investments in primary healthcare centres, human resource expansion, and institutional oversight advanced social service delivery.
-
-3. DISASTER RESPONSE, SOCIAL PROTECTION AND LOCAL DEVELOPMENT
-Integrated relief interventions, vocational development, and community support systems were deployed to bolster regional stability.
+EXECUTIVE IMPACT HIGHLIGHTS:{summary_highlights}
 
 🌐 Explore daily governance updates, security indicators and budget analysis at www.diplomantimes.com.
 
@@ -319,20 +346,20 @@ Diploman Times — Strategic Governance Intelligence."""
     return sanitize_plain_text(raw)
 
 
-def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis):
+def compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items):
+    summary_highlights = ""
+    for c in corridor_items[:5]:
+        summary_highlights += f"\n\n► {c['state'].upper()} ({c['governor']})\n{c['summary']}"
+
     raw = f"""[WEEKLY {iso_week} POLICY BRIEF] Subnational Governance Intelligence Roundup Ending {ending_date_str} 🇳🇬
 
 TOP PERFORMERS: {top_psi}
 TOP SECURITY-RATED: {top_sis}
 
 EXECUTIVE SUMMARY
-Executive activity across Nigeria's 36 states and the FCT in Week {iso_week} covered fiscal governance, energy, healthcare, education and social protection. Our index tracks policy progress and benchmarks performance, giving business leaders and policy analysts a verified baseline to assess implementation and long-term project delivery.
+Executive activity across Nigeria's 36 states and the FCT in Week {iso_week} covered fiscal governance, energy, healthcare, education and social protection. Our index tracks policy progress and benchmarks performance.
 
-FISCAL PLANNING & INFRASTRUCTURE
-State administrations prioritized capital allocation, revenue optimization, energy infrastructure development, and debt sustainability frameworks.
-
-PUBLIC SERVICE & INSTITUTIONAL DELIVERY
-Targeted programs accelerated primary healthcare facility upgrades, workforce recruitment, educational infrastructure, and operational transparency.
+STATE HIGHLIGHTS & GOVERNANCE VECTORS:{summary_highlights}
 
 🌐 Explore daily governance updates, security indicators and budget analysis: www.diplomantimes.com
 Diploman Times — State Governance. Measurable Impact."""
@@ -357,8 +384,8 @@ def main():
     os.makedirs("dist", exist_ok=True)
 
     blogger_content = compile_blogger_html(iso_week, ending_date_str, folder_name, top_psi, top_sis, corridor_items)
-    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis)
-    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis)
+    facebook_content = compile_facebook_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
+    linkedin_content = compile_linkedin_text(iso_week, ending_date_str, top_psi, top_sis, corridor_items)
 
     vault_payload = {
         "week": iso_week,
