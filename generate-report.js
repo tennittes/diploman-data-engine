@@ -2,10 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Helper to fetch JSON from GitHub raw URL or local fallback
+// Helper to fetch JSON via HTTPS with redirect support
 function fetchJsonData(url) {
   return new Promise((resolve, reject) => {
     https.get(url, { headers: { 'User-Agent': 'Node.js' } }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchJsonData(res.headers.location).then(resolve).catch(reject);
+      }
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
@@ -19,17 +22,23 @@ function fetchJsonData(url) {
   });
 }
 
+// Helper to safely extract narrative text from string or array
+function extractText(field, defaultValue = '') {
+  if (!field) return defaultValue;
+  if (Array.isArray(field)) return field.filter(Boolean).join(' ');
+  if (typeof field === 'object') return Object.values(field).filter(Boolean).join(' ');
+  return String(field);
+}
+
 // Calculate target ISO week and Friday date
 function getTargetWeekDetails(targetDate = new Date()) {
   const d = new Date(Date.UTC(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate()));
   const dayNum = d.getUTCDay() || 7;
   
-  // Set to nearest Thursday: current date + 4 - current day number
   d.setUTCDate(d.getUTCDate() + 4 - dayNum);
   const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
   const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
   
-  // Get Friday of the given week
   const friday = new Date(d);
   friday.setUTCDate(d.getUTCDate() + (5 - (d.getUTCDay() || 7)));
 
@@ -45,25 +54,31 @@ function getTargetWeekDetails(targetDate = new Date()) {
   };
 }
 
-// Extract top leaderboard performers from jurisdictions dataset
+// Build Top Performers & Lowest Risk Leaderboards from Jurisdictions Dataset
 function buildLeaderboards(jurisdictions) {
+  if (!Array.isArray(jurisdictions) || jurisdictions.length === 0) {
+    return { psiLeaderboard: 'N/A', sisLeaderboard: 'N/A' };
+  }
+
   const psiList = [...jurisdictions]
+    .filter(j => j.metrics && j.metrics.psi !== undefined)
     .sort((a, b) => parseFloat(b.metrics.psi) - parseFloat(a.metrics.psi))
     .slice(0, 3)
     .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.psi).toFixed(1)} PSI)`);
 
   const sisList = [...jurisdictions]
+    .filter(j => j.metrics && j.metrics.sis !== undefined)
     .sort((a, b) => parseFloat(a.metrics.sis) - parseFloat(b.metrics.sis))
     .slice(0, 3)
     .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.sis).toFixed(1)} SIS)`);
 
   return {
-    psiLeaderboard: psiList.join(' • '),
-    sisLeaderboard: sisList.join(' • ')
+    psiLeaderboard: psiList.join(' • ') || 'N/A',
+    sisLeaderboard: sisList.join(' • ') || 'N/A'
   };
 }
 
-// Build HTML markup matching the Diploman Times template flow
+// Build HTML Report Output
 function renderHtmlReport(data, weekDetails) {
   const globalData = data.globalData || {};
   const corridorGroups = data.corridorGroups || [];
@@ -71,23 +86,56 @@ function renderHtmlReport(data, weekDetails) {
 
   const { psiLeaderboard, sisLeaderboard } = buildLeaderboards(jurisdictions);
 
-  // Group states by Corridor Group
+  // Extract Global Narratives safely
+  const leadNarrativeText = extractText(
+    globalData.leadNarrative || globalData.leadNarratives,
+    "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development. State governments advanced vital legislative budgets, social protection schemes, and regional infrastructure pipelines to strengthen local economic productivity and governance accountability across the country."
+  );
+
+  const macroSynthesisText = extractText(
+    globalData.macroSynthesis || globalData.macroAnalysis,
+    "Across Nigeria's 36 states and the Federal Capital Territory, reported executive activity during the week focused on fiscal planning, energy development, public-service delivery and social protection."
+  );
+
+  const riskAnalysisText = extractText(
+    globalData.riskAnalysis || globalData.instabilityAnalysis,
+    "The State Instability Score (SIS) gives decision-makers a high-level, quantitative view of subnational risk. Although it tracks broader trends rather than individual incidents, it provides an important strategic baseline."
+  );
+
+  const strategicOutlookText = extractText(
+    globalData.strategicOutlook || globalData.outlook,
+    "The week's announcements identify several priorities for continued executive scrutiny across budget execution, energy infrastructure maintenance, and social protection verification."
+  );
+
+  const conclusionText = extractText(
+    globalData.conclusion || globalData.executiveConclusion,
+    "This week's record reflects active policymaking across several sectors; however, the volume of announcements is not, by itself, evidence of effective governance. Diploman Times will continue to track executive decisions across all 36 states and the FCT."
+  );
+
+  // Build Corridor Groups Markup
   const corridorHtmlBlocks = corridorGroups.map((group, index) => {
     const groupNum = String(index + 1).padStart(2, '0');
-    
-    // Find states matching group
-    const statesInGroup = jurisdictions.filter(j => group.states.includes(j.state));
+    const groupStates = Array.isArray(group.states) ? group.states : [];
+
+    // Filter matching jurisdictions for this corridor group
+    const statesInGroup = jurisdictions.filter(j => groupStates.includes(j.state));
 
     const stateCards = statesInGroup.map(item => {
-      // Grouping all weekly developments under governor heading
-      const developmentsText = item.policyBreakdown 
-        ? item.policyBreakdown.map(p => p.body || p.impactVector || '').filter(Boolean).join(' ') 
-        : (item.impactVector || item.headline || '');
+      let developmentsText = '';
+
+      if (Array.isArray(item.policyBreakdown) && item.policyBreakdown.length > 0) {
+        developmentsText = item.policyBreakdown
+          .map(p => p.body || p.impactVector || p.headline || '')
+          .filter(Boolean)
+          .join(' ');
+      } else {
+        developmentsText = item.impactVector || item.headline || item.summary || '';
+      }
 
       return `
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Governor ${item.governor} &bull; ${item.state} State (${item.zone || 'NIGERIA'})
+            Governor ${item.governor || 'Executive'} &bull; ${item.state} State (${item.zone || 'NIGERIA'})
           </div>
           <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
             <strong>Key developments and governance significance:</strong> ${developmentsText}
@@ -100,7 +148,7 @@ function renderHtmlReport(data, weekDetails) {
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
         <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP ${groupNum}</span>
         <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
-          ${group.groupTitle}
+          ${group.groupTitle || group.title || 'Strategic Corridor'}
         </h3>
       </div>
       <div style="margin-top: 12px;">
@@ -126,7 +174,7 @@ function renderHtmlReport(data, weekDetails) {
 
   <!-- LEAD NARRATIVE / BLOGGER SNIPPET -->
   <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
-    ${globalData.leadNarrative || "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development."}
+    ${leadNarrativeText}
   </p>
 
   <a name='more'></a>
@@ -164,10 +212,10 @@ function renderHtmlReport(data, weekDetails) {
       Macro Governance Synthesis &amp; Policy Dynamics
     </h2>
     <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
-      ${globalData.macroSynthesis || 'Across Nigeria’s 36 states and the Federal Capital Territory, reported executive activity focused on strategic priorities.'}
+      ${macroSynthesisText}
     </p>
     <p style="color: #334155; font-size: 15px; font-weight: 500; line-height: 1.8; margin-bottom: 12px;">
-      ${globalData.riskAnalysis || 'The State Instability Score (SIS) provides decision-makers with a high-level quantitative view of subnational risk and stability trends.'}
+      ${riskAnalysisText}
     </p>
   </section>
 
@@ -190,14 +238,14 @@ function renderHtmlReport(data, weekDetails) {
       Strategic Policy Outlook
     </h3>
     <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0 0 18px 0; text-align: justify;">
-      ${globalData.strategicOutlook || 'The week’s announcements identify several priorities for continued executive scrutiny.'}
+      ${strategicOutlookText}
     </p>
 
     <h3 style="font-size: 11px; font-weight: 900; color: #064e3b; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 8px 0; border-top: 1px solid #e2e8f0; padding-top: 14px;">
       Executive Risk Conclusion
     </h3>
     <p style="font-size: 12.5px; color: #334155; line-height: 1.6; margin: 0; text-align: justify;">
-      ${globalData.conclusion || 'Diploman Times will continue to track executive decisions across all 36 states and the Federal Capital Territory.'}
+      ${conclusionText}
     </p>
   </section>
 </div>`;
@@ -207,7 +255,7 @@ function renderHtmlReport(data, weekDetails) {
 async function run() {
   try {
     const weekDetails = getTargetWeekDetails();
-    const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'diploman-data-engine';
+    const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'tennittes';
     const jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/diploman-data-engine/main/${weekDetails.yearMonthFolder}/master-data.json`;
 
     console.log(`Fetching data for Week ${weekDetails.weekNumber} (${weekDetails.formattedFriday}) from ${jsonUrl}...`);
@@ -216,12 +264,16 @@ async function run() {
     try {
       masterData = await fetchJsonData(jsonUrl);
     } catch (err) {
-      console.warn(`Could not fetch distant repository directly. Attempting local dataset fallback...`);
-      const localPath = path.join(__dirname, 'master-data.json');
+      console.warn(`Fetch failed from raw GitHub URL. Attempting local dataset fallback...`);
+      const localPath = path.join(__dirname, weekDetails.yearMonthFolder, 'master-data.json');
+      const rootLocalPath = path.join(__dirname, 'master-data.json');
+      
       if (fs.existsSync(localPath)) {
         masterData = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+      } else if (fs.existsSync(rootLocalPath)) {
+        masterData = JSON.parse(fs.readFileSync(rootLocalPath, 'utf8'));
       } else {
-        throw new Error(`Data source not available at ${jsonUrl} or ${localPath}`);
+        throw new Error(`Data source not available at ${jsonUrl} or local paths.`);
       }
     }
 
