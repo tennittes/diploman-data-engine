@@ -9,12 +9,17 @@ on:
         default: "Week 42"
         type: choice
         options:
+          - "Week 40"
           - "Week 41"
           - "Week 42"
           - "Week 43"
           - "Week 44"
+          - "Week 45"
   schedule:
     - cron: "0 18 * * 5"
+
+permissions:
+  contents: write
 
 jobs:
   compile_weekly:
@@ -22,22 +27,32 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run Weekly Report Generator
+      - name: Resolve ISO Target Week & Run Generator
         env:
-          REPORTING_WEEK: ${{ github.event.inputs.reporting_week }}
+          MANUAL_WEEK: ${{ github.event.inputs.reporting_week }}
         run: |
-          python compile-weekly.py --week "$REPORTING_WEEK"
+          if [ -n "$MANUAL_WEEK" ]; then
+            TARGET_WEEK="$MANUAL_WEEK"
+          else
+            # Calculate current ISO week automatically for scheduled runs
+            ISO_WEEK=$(date +%V)
+            TARGET_WEEK="Week $ISO_WEEK"
+          fi
+          echo "Compiling for: $TARGET_WEEK"
+          python compile-weekly.py --week "$TARGET_WEEK"
 
       - name: Commit and Push Compiled Data & Social Drafts
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/ week*-data.json
-          git commit -m "auto: compile telemetry brief artifacts for $REPORTING_WEEK" || echo "No changes to commit"
+          git add dist/ week*-data.json || true
+          git commit -m "auto: compile weekly policy brief artifacts [skip ci]" || echo "No changes to commit"
           git push origin main
