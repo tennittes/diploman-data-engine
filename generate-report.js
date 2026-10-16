@@ -2,12 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Helper to fetch JSON via HTTPS with redirect support
+// Fetch JSON over HTTPS with status check and redirect support
 function fetchJsonData(url) {
   return new Promise((resolve, reject) => {
     https.get(url, { headers: { 'User-Agent': 'Node.js' } }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetchJsonData(res.headers.location).then(resolve).catch(reject);
+      }
+      if (res.statusCode !== 200) {
+        return reject(new Error(`HTTP ${res.statusCode} - File not found at ${url}`));
       }
       let rawData = '';
       res.on('data', chunk => rawData += chunk);
@@ -22,7 +25,7 @@ function fetchJsonData(url) {
   });
 }
 
-// Helper to safely convert text/arrays into clean paragraphs
+// Safely extract string/array data into single text block
 function extractText(field, defaultValue = '') {
   if (!field) return defaultValue;
   if (Array.isArray(field)) return field.filter(Boolean).join(' ');
@@ -54,23 +57,33 @@ function getTargetWeekDetails(targetDate = new Date()) {
   };
 }
 
-// Build Top Performers & Lowest Risk Leaderboards from Jurisdictions Dataset
+// Build Leaderboards using master-data.json metric keys
 function buildLeaderboards(jurisdictions) {
   if (!Array.isArray(jurisdictions) || jurisdictions.length === 0) {
     return { psiLeaderboard: 'N/A', sisLeaderboard: 'N/A' };
   }
 
+  const getMetric = (j, keys) => {
+    for (const k of keys) {
+      if (j.metrics && j.metrics[k] !== undefined) return parseFloat(j.metrics[k]);
+      if (j[k] !== undefined) return parseFloat(j[k]);
+    }
+    return null;
+  };
+
   const psiList = [...jurisdictions]
-    .filter(j => j.metrics && (j.metrics.psi !== undefined || j.metrics.PSI !== undefined))
-    .sort((a, b) => parseFloat(b.metrics.psi || b.metrics.PSI) - parseFloat(a.metrics.psi || a.metrics.PSI))
+    .map(j => ({ state: j.state || j.jurisdiction || j.id, score: getMetric(j, ['psi', 'PSI', 'policySignalIndex', 'policy_signal_index']) }))
+    .filter(item => item.score !== null && !isNaN(item.score))
+    .sort((a, b) => b.score - a.score)
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.psi || item.metrics.PSI).toFixed(1)} PSI)`);
+    .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} PSI)`);
 
   const sisList = [...jurisdictions]
-    .filter(j => j.metrics && (j.metrics.sis !== undefined || j.metrics.SIS !== undefined))
-    .sort((a, b) => parseFloat(a.metrics.sis || a.metrics.SIS) - parseFloat(b.metrics.sis || b.metrics.SIS))
+    .map(j => ({ state: j.state || j.jurisdiction || j.id, score: getMetric(j, ['sis', 'SIS', 'stateInstabilityScore', 'instabilityScore']) }))
+    .filter(item => item.score !== null && !isNaN(item.score))
+    .sort((a, b) => a.score - b.score)
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.sis || item.metrics.SIS).toFixed(1)} SIS)`);
+    .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} SIS)`);
 
   return {
     psiLeaderboard: psiList.join(' • ') || 'N/A',
@@ -78,19 +91,18 @@ function buildLeaderboards(jurisdictions) {
   };
 }
 
-// Build HTML Report Output
+// Render HTML Report Output
 function renderHtmlReport(rawPayload, weekDetails) {
-  // UNWRAP ROOT DATA PAYLOAD SAFELY
   const rootData = rawPayload.data || rawPayload;
-  const globalData = rootData.globalData || {};
-  const corridorGroups = rootData.corridorGroups || [];
+  const globalData = rootData.globalData || rootData.global_data || {};
+  const corridorGroups = rootData.corridorGroups || rootData.corridor_groups || [];
   const jurisdictions = rootData.jurisdictions || [];
 
   const { psiLeaderboard, sisLeaderboard } = buildLeaderboards(jurisdictions);
 
-  // Extract Global Narratives safely across schema variants
+  // Extract Global Narratives
   const leadNarrativeText = extractText(
-    globalData.leadNarrative || globalData.leadNarratives || globalData.summary,
+    globalData.leadNarrative || globalData.executiveSummary || globalData.summary || globalData.leadNarratives,
     "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development. State governments advanced vital legislative budgets, social protection schemes, and regional infrastructure pipelines to strengthen local economic productivity and governance accountability across the country."
   );
 
@@ -114,32 +126,32 @@ function renderHtmlReport(rawPayload, weekDetails) {
     "This week's record reflects active policymaking across several sectors; however, the volume of announcements is not, by itself, evidence of effective governance. Diploman Times will continue to track executive decisions across all 36 states and the FCT."
   );
 
-  // Build Corridor Groups Markup
+  // Build Corridor Groups
   const corridorHtmlBlocks = corridorGroups.map((group, index) => {
     const groupNum = String(index + 1).padStart(2, '0');
-    const groupStates = Array.isArray(group.states) ? group.states : [];
+    const groupStates = Array.isArray(group.states) ? group.states : (group.jurisdictions || []);
 
-    // Match jurisdictions by state name or state code
-    const statesInGroup = jurisdictions.filter(j => 
-      groupStates.includes(j.state) || groupStates.includes(j.stateCode) || groupStates.includes(j.id)
-    );
+    const statesInGroup = jurisdictions.filter(j => {
+      const stateIdentifier = j.state || j.jurisdiction || j.stateCode || j.id;
+      return groupStates.some(st => String(st).toLowerCase() === String(stateIdentifier).toLowerCase());
+    });
 
     const stateCards = statesInGroup.map(item => {
       let developmentsText = '';
 
       if (Array.isArray(item.policyBreakdown) && item.policyBreakdown.length > 0) {
         developmentsText = item.policyBreakdown
-          .map(p => p.body || p.impactVector || p.headline || '')
+          .map(p => p.body || p.impactVector || p.headline || p.summary || '')
           .filter(Boolean)
           .join(' ');
       } else {
-        developmentsText = item.impactVector || item.headline || item.summary || item.body || '';
+        developmentsText = item.impactVector || item.headline || item.summary || item.body || item.details || '';
       }
 
       return `
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Governor ${item.governor || 'Executive'} &bull; ${item.state} State (${item.zone || 'NIGERIA'})
+            Governor ${item.governor || 'Executive'} &bull; ${item.state || item.jurisdiction} State (${item.zone || 'NIGERIA'})
           </div>
           <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
             <strong>Key developments and governance significance:</strong> ${developmentsText}
@@ -260,24 +272,36 @@ async function run() {
   try {
     const weekDetails = getTargetWeekDetails();
     const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'tennittes';
+    
+    // Primary path for target week
     const jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/diploman-data-engine/main/${weekDetails.yearMonthFolder}/master-data.json`;
+    // Fallback path for testing/active week data
+    const fallbackUrl = `https://raw.githubusercontent.com/${repoOwner}/diploman-data-engine/main/oct2026/master-data.json`;
 
-    console.log(`Fetching data for Week ${weekDetails.weekNumber} (${weekDetails.formattedFriday}) from ${jsonUrl}...`);
+    console.log(`Attempting to fetch Week ${weekDetails.weekNumber} (${weekDetails.formattedFriday}) from ${jsonUrl}...`);
 
     let masterData;
     try {
       masterData = await fetchJsonData(jsonUrl);
     } catch (err) {
-      console.warn(`Fetch failed from raw GitHub URL. Attempting local dataset fallback...`);
-      const localPath = path.join(__dirname, weekDetails.yearMonthFolder, 'master-data.json');
-      const rootLocalPath = path.join(__dirname, 'master-data.json');
-      
-      if (fs.existsSync(localPath)) {
-        masterData = JSON.parse(fs.readFileSync(localPath, 'utf8'));
-      } else if (fs.existsSync(rootLocalPath)) {
-        masterData = JSON.parse(fs.readFileSync(rootLocalPath, 'utf8'));
-      } else {
-        throw new Error(`Data source not available at ${jsonUrl} or local paths.`);
+      console.warn(`Target week data not found (${err.message}). Fetching fallback dataset from ${fallbackUrl}...`);
+      try {
+        masterData = await fetchJsonData(fallbackUrl);
+      } catch (fallbackErr) {
+        // Local file fallbacks
+        const localPath = path.join(__dirname, weekDetails.yearMonthFolder, 'master-data.json');
+        const octLocalPath = path.join(__dirname, 'oct2026', 'master-data.json');
+        const rootLocalPath = path.join(__dirname, 'master-data.json');
+
+        if (fs.existsSync(localPath)) {
+          masterData = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+        } else if (fs.existsSync(octLocalPath)) {
+          masterData = JSON.parse(fs.readFileSync(octLocalPath, 'utf8'));
+        } else if (fs.existsSync(rootLocalPath)) {
+          masterData = JSON.parse(fs.readFileSync(rootLocalPath, 'utf8'));
+        } else {
+          throw new Error('No valid dataset found remotely or locally.');
+        }
       }
     }
 
