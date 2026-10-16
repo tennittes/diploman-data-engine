@@ -1,0 +1,33 @@
+name: Generate Weekly Executive Governance Report
+
+on:
+  schedule:
+    # Runs every Friday at 18:00 UTC
+    - cron: '0 18 * * 5'
+  workflow_dispatch: # Enables manual trigger button in GitHub Actions UI
+
+jobs:
+  build-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Generate Dynamic Weekly Report
+        run: node generate-report.js
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+
+      - name: Commit and Push Generated Report
+        run: |
+          git config --global user.name "Diploman Automation Engine"
+          git config --global user.email "automation@diplomantimes.com"
+          git add output/
+          git commit -m "auto: Generate weekly executive report [skip ci]" || exit 0
+          git push
