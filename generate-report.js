@@ -9,11 +9,11 @@ function fetchJsonData(url) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetchJsonData(res.headers.location).then(resolve).catch(reject);
       }
-      let data = '';
-      res.on('data', chunk => data += chunk);
+      let rawData = '';
+      res.on('data', chunk => rawData += chunk);
       res.on('end', () => {
         try {
-          resolve(JSON.parse(data));
+          resolve(JSON.parse(rawData));
         } catch (e) {
           reject(e);
         }
@@ -22,7 +22,7 @@ function fetchJsonData(url) {
   });
 }
 
-// Helper to safely extract narrative text from string or array
+// Helper to safely convert text/arrays into clean paragraphs
 function extractText(field, defaultValue = '') {
   if (!field) return defaultValue;
   if (Array.isArray(field)) return field.filter(Boolean).join(' ');
@@ -61,16 +61,16 @@ function buildLeaderboards(jurisdictions) {
   }
 
   const psiList = [...jurisdictions]
-    .filter(j => j.metrics && j.metrics.psi !== undefined)
-    .sort((a, b) => parseFloat(b.metrics.psi) - parseFloat(a.metrics.psi))
+    .filter(j => j.metrics && (j.metrics.psi !== undefined || j.metrics.PSI !== undefined))
+    .sort((a, b) => parseFloat(b.metrics.psi || b.metrics.PSI) - parseFloat(a.metrics.psi || a.metrics.PSI))
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.psi).toFixed(1)} PSI)`);
+    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.psi || item.metrics.PSI).toFixed(1)} PSI)`);
 
   const sisList = [...jurisdictions]
-    .filter(j => j.metrics && j.metrics.sis !== undefined)
-    .sort((a, b) => parseFloat(a.metrics.sis) - parseFloat(b.metrics.sis))
+    .filter(j => j.metrics && (j.metrics.sis !== undefined || j.metrics.SIS !== undefined))
+    .sort((a, b) => parseFloat(a.metrics.sis || a.metrics.SIS) - parseFloat(b.metrics.sis || b.metrics.SIS))
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.sis).toFixed(1)} SIS)`);
+    .map((item, idx) => `${idx + 1}. ${item.state} (${parseFloat(item.metrics.sis || item.metrics.SIS).toFixed(1)} SIS)`);
 
   return {
     psiLeaderboard: psiList.join(' • ') || 'N/A',
@@ -79,16 +79,18 @@ function buildLeaderboards(jurisdictions) {
 }
 
 // Build HTML Report Output
-function renderHtmlReport(data, weekDetails) {
-  const globalData = data.globalData || {};
-  const corridorGroups = data.corridorGroups || [];
-  const jurisdictions = data.jurisdictions || [];
+function renderHtmlReport(rawPayload, weekDetails) {
+  // UNWRAP ROOT DATA PAYLOAD SAFELY
+  const rootData = rawPayload.data || rawPayload;
+  const globalData = rootData.globalData || {};
+  const corridorGroups = rootData.corridorGroups || [];
+  const jurisdictions = rootData.jurisdictions || [];
 
   const { psiLeaderboard, sisLeaderboard } = buildLeaderboards(jurisdictions);
 
-  // Extract Global Narratives safely
+  // Extract Global Narratives safely across schema variants
   const leadNarrativeText = extractText(
-    globalData.leadNarrative || globalData.leadNarratives,
+    globalData.leadNarrative || globalData.leadNarratives || globalData.summary,
     "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development. State governments advanced vital legislative budgets, social protection schemes, and regional infrastructure pipelines to strengthen local economic productivity and governance accountability across the country."
   );
 
@@ -117,8 +119,10 @@ function renderHtmlReport(data, weekDetails) {
     const groupNum = String(index + 1).padStart(2, '0');
     const groupStates = Array.isArray(group.states) ? group.states : [];
 
-    // Filter matching jurisdictions for this corridor group
-    const statesInGroup = jurisdictions.filter(j => groupStates.includes(j.state));
+    // Match jurisdictions by state name or state code
+    const statesInGroup = jurisdictions.filter(j => 
+      groupStates.includes(j.state) || groupStates.includes(j.stateCode) || groupStates.includes(j.id)
+    );
 
     const stateCards = statesInGroup.map(item => {
       let developmentsText = '';
@@ -129,7 +133,7 @@ function renderHtmlReport(data, weekDetails) {
           .filter(Boolean)
           .join(' ');
       } else {
-        developmentsText = item.impactVector || item.headline || item.summary || '';
+        developmentsText = item.impactVector || item.headline || item.summary || item.body || '';
       }
 
       return `
