@@ -1,24 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-// State Code Mapping Table
-const stateCodeMap = {
-  'KTS': 'Katsina', 'LOS': 'Lagos', 'GMB': 'Gombe', 'OGN': 'Ogun',
-  'KDN': 'Kaduna', 'IMO': 'Imo', 'ADM': 'Adamawa', 'KNO': 'Kano',
-  'CRS': 'Cross River', 'EBY': 'Ebonyi', 'ABI': 'Abia', 'EDO': 'Edo',
-  'KWR': 'Kwara', 'AKI': 'Akwa Ibom', 'PLT': 'Plateau', 'TRB': 'Taraba'
-};
-
-// Extract string or array values into single text block
-function extractText(field, defaultValue = '') {
-  if (!field) return defaultValue;
+// Extract text safely from string, array, or nested object
+function extractText(field, fallback = '') {
+  if (!field) return fallback;
   if (typeof field === 'string') return field;
   if (Array.isArray(field)) return field.filter(Boolean).join(' ');
-  if (typeof field === 'object') return Object.values(field).filter(Boolean).join(' ');
-  return String(field);
+  if (typeof field === 'object') {
+    return Object.values(field).filter(Boolean).join('\n\n');
+  }
+  return String(fallback);
 }
 
-// Calculate target ISO week and Friday date
+// Target ISO Week Calculation
 function getTargetWeekDetails(targetDate = new Date()) {
   const d = new Date(Date.UTC(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate()));
   const dayNum = d.getUTCDay() || 7;
@@ -34,36 +28,36 @@ function getTargetWeekDetails(targetDate = new Date()) {
   const formattedFriday = `${monthNames[friday.getUTCMonth()]} ${String(friday.getUTCDate()).padStart(2, '0')}, ${friday.getUTCFullYear()}`;
   const yearMonthFolder = `${monthNames[friday.getUTCMonth()].toLowerCase()}${friday.getUTCFullYear()}`;
 
-  return {
-    weekNumber: weekNo,
-    year: friday.getUTCFullYear(),
-    formattedFriday,
-    yearMonthFolder
-  };
+  return { weekNumber: weekNo, year: friday.getUTCFullYear(), formattedFriday, yearMonthFolder };
 }
 
-// Build Leaderboard Benchmarks from Jurisdictions Data
+// Build PSI & SIS Leaderboards from B2 Metrics
 function buildLeaderboards(jurisdictions) {
   if (!Array.isArray(jurisdictions) || jurisdictions.length === 0) {
     return { psiLeaderboard: 'N/A', sisLeaderboard: 'N/A' };
   }
 
-  const getPsi = j => j.metrics?.psi ?? j.metrics?.PSI ?? j.metrics?.policySignalIndex ?? null;
-  const getSis = j => j.metrics?.sis ?? j.metrics?.SIS ?? j.metrics?.stateInstabilityScore ?? null;
-
   const psiList = [...jurisdictions]
-    .map(j => ({ state: j.state || stateCodeMap[j.stateCode] || j.stateCode, score: parseFloat(getPsi(j)) }))
-    .filter(item => item.score !== null && !isNaN(item.score))
+    .map(j => {
+      const score = parseFloat(j.metrics?.psiScore ?? j.metrics?.psi ?? j.metrics?.PSI);
+      const name = j.state || j.jurisdiction || 'Unknown';
+      return { name, score };
+    })
+    .filter(item => !isNaN(item.score))
     .sort((a, b) => b.score - a.score)
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} PSI)`);
+    .map((item, idx) => `${idx + 1}. ${item.name} (${item.score.toFixed(1)} PSI)`);
 
   const sisList = [...jurisdictions]
-    .map(j => ({ state: j.state || stateCodeMap[j.stateCode] || j.stateCode, score: parseFloat(getSis(j)) }))
-    .filter(item => item.score !== null && !isNaN(item.score))
+    .map(j => {
+      const score = parseFloat(j.metrics?.sisScore ?? j.metrics?.sis ?? j.metrics?.SIS);
+      const name = j.state || j.jurisdiction || 'Unknown';
+      return { name, score };
+    })
+    .filter(item => !isNaN(item.score))
     .sort((a, b) => a.score - b.score)
     .slice(0, 3)
-    .map((item, idx) => `${idx + 1}. ${item.state} (${item.score.toFixed(1)} SIS)`);
+    .map((item, idx) => `${idx + 1}. ${item.name} (${item.score.toFixed(1)} SIS)`);
 
   return {
     psiLeaderboard: psiList.join(' • ') || 'N/A',
@@ -71,73 +65,48 @@ function buildLeaderboards(jurisdictions) {
   };
 }
 
-// Render Complete HTML Executive Report
-function renderHtmlReport(rawPayload, weekDetails) {
-  const rootData = rawPayload.data || rawPayload;
-  const globalData = rootData.globalData || rootData.global_data || {};
-  const corridorGroups = rootData.corridorGroups || rootData.corridor_groups || [];
-  const jurisdictions = rootData.jurisdictions || [];
+// Main Render Function for B2 Schema
+function renderHtmlReport(b2Data, weekDetails) {
+  const reportTitles = b2Data.reportTitles || {};
+  const macroAnalysis = b2Data.macroAnalysis || {};
+  const corridorGroups = b2Data.corridorGroups || [];
+  const jurisdictions = b2Data.jurisdictions || [];
 
   const { psiLeaderboard, sisLeaderboard } = buildLeaderboards(jurisdictions);
 
-  // Extract Global Narratives safely
-  const leadNarrativeText = extractText(
-    globalData.leadNarrative || globalData.executiveSummary || globalData.summary || globalData.leadNarratives,
-    "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development. State governments advanced vital legislative budgets, social protection schemes, and regional infrastructure pipelines to strengthen local economic productivity and governance accountability across the country."
-  );
+  // Global Text Summaries
+  const leadNarrativeText = extractText(reportTitles.headlines?.summary, "Nigeria's subnational governance landscape this week reflected strategic progress across fiscal discipline, infrastructure, healthcare expansion, and energy development.");
+  const macroSynthesisText = extractText(macroAnalysis.policy, "Across Nigeria's 36 states and the Federal Capital Territory, reported executive activity focused on strategic governance priorities.");
+  const riskAnalysisText = extractText(macroAnalysis.security, "The State Instability Score (SIS) gives decision-makers a high-level, quantitative view of subnational risk.");
+  
+  const strategicOutlookText = extractText(macroAnalysis.policy?.strategicOutlook || macroAnalysis.security?.strategicOutlook, "The week's announcements identify several priorities for continued executive scrutiny across budget execution, energy infrastructure maintenance, and social protection verification.");
+  const conclusionText = extractText(macroAnalysis.policy?.conclusion || macroAnalysis.security?.conclusion, "Diploman Times will continue to track executive decisions across all 36 states and the FCT.");
 
-  const macroSynthesisText = extractText(
-    globalData.macroSynthesis || globalData.macroAnalysis,
-    "Across Nigeria's 36 states and the Federal Capital Territory, reported executive activity during the week focused on fiscal planning, energy development, public-service delivery and social protection."
-  );
-
-  const riskAnalysisText = extractText(
-    globalData.riskAnalysis || globalData.instabilityAnalysis,
-    "The State Instability Score (SIS) gives decision-makers a high-level, quantitative view of subnational risk. Although it tracks broader trends rather than individual incidents, it provides an important strategic baseline."
-  );
-
-  const strategicOutlookText = extractText(
-    globalData.strategicOutlook || globalData.outlook,
-    "The week's announcements identify several priorities for continued executive scrutiny across budget execution, energy infrastructure maintenance, and social protection verification."
-  );
-
-  const conclusionText = extractText(
-    globalData.conclusion || globalData.executiveConclusion,
-    "This week's record reflects active policymaking across several sectors; however, the volume of announcements is not, by itself, evidence of effective governance. Diploman Times will continue to track executive decisions across all 36 states and the FCT."
-  );
-
-  // Build Corridor Groups with robust state code mapping
+  // Corridor Group Render
   const corridorHtmlBlocks = corridorGroups.map((group, index) => {
     const groupNum = String(index + 1).padStart(2, '0');
-    const rawGroupStates = Array.isArray(group.states) ? group.states : [];
+    const groupStates = Array.isArray(group.states) ? group.states : [];
 
-    // Match jurisdictions for this corridor group
+    // Match states by state name
     const statesInGroup = jurisdictions.filter(j => {
-      const stateName = (j.state || '').toLowerCase();
-      const stateCode = (j.stateCode || '').toLowerCase();
-      return rawGroupStates.some(st => {
-        const s = String(st).toLowerCase();
-        const mappedName = (stateCodeMap[st] || '').toLowerCase();
-        return s === stateName || s === stateCode || mappedName === stateName;
-      });
+      const stateName = (j.state || '').trim().toLowerCase();
+      return groupStates.some(st => String(st).trim().toLowerCase() === stateName);
     });
 
     const stateCards = statesInGroup.map(item => {
       let developmentsText = '';
-
-      if (Array.isArray(item.policyBreakdown) && item.policyBreakdown.length > 0) {
-        developmentsText = item.policyBreakdown
-          .map(p => p.body || p.impactVector || p.headline || p.summary || '')
-          .filter(Boolean)
-          .join(' ');
-      } else {
-        developmentsText = item.impactVector || item.headline || item.summary || item.body || item.details || '';
+      if (item.policyBreakdown && typeof item.policyBreakdown === 'object') {
+        developmentsText = item.policyBreakdown.body || item.policyBreakdown.summary || '';
+      }
+      
+      if (!developmentsText) {
+        developmentsText = item.impactVector || item.headline || item.summary || '';
       }
 
       return `
         <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #064e3b; padding: 14px 16px; margin-bottom: 12px; border-radius: 4px;">
           <div style="font-size: 13.5px; font-weight: 800; color: #064e3b; margin-bottom: 4px;">
-            Governor ${item.governor || 'Executive'} &bull; ${item.state || stateCodeMap[item.stateCode] || item.stateCode} State (${item.zone || 'NIGERIA'})
+            Governor ${item.governor || 'Executive'} &bull; ${item.state} State (${item.zone || 'NIGERIA'})
           </div>
           <p style="margin: 0; font-size: 13px; color: #334155; line-height: 1.6; text-align: justify;">
             <strong>Key developments and governance significance:</strong> ${developmentsText}
@@ -150,7 +119,7 @@ function renderHtmlReport(rawPayload, weekDetails) {
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;">
         <span style="background-color: #064e3b; color: #ffffff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 3px;">CORRIDOR GROUP ${groupNum}</span>
         <h3 style="font-size: 15px; font-weight: 900; color: #064e3b; text-transform: uppercase; margin: 0;">
-          ${group.groupTitle || group.title || 'Strategic Corridor'}
+          ${group.groupTitle || 'Strategic Corridor'}
         </h3>
       </div>
       <div style="margin-top: 12px;">
@@ -253,44 +222,52 @@ function renderHtmlReport(rawPayload, weekDetails) {
 </div>`;
 }
 
-// Execution entry point reading local files directly
+// Execution Entry
 function run() {
   try {
     const weekDetails = getTargetWeekDetails();
-    
-    // Direct local filesystem resolution
-    const primaryPath = path.join(__dirname, weekDetails.yearMonthFolder, 'master-data.json');
     const octPath = path.join(__dirname, 'oct2026', 'master-data.json');
     const rootPath = path.join(__dirname, 'master-data.json');
 
     let rawData;
-    if (fs.existsSync(primaryPath)) {
-      console.log(`Reading dataset from ${primaryPath}...`);
-      rawData = fs.readFileSync(primaryPath, 'utf8');
-    } else if (fs.existsSync(octPath)) {
-      console.log(`Reading dataset from ${octPath}...`);
+    if (fs.existsSync(octPath)) {
       rawData = fs.readFileSync(octPath, 'utf8');
     } else if (fs.existsSync(rootPath)) {
-      console.log(`Reading dataset from ${rootPath}...`);
       rawData = fs.readFileSync(rootPath, 'utf8');
     } else {
-      throw new Error(`Could not find master-data.json in local repository paths.`);
+      throw new Error("Master dataset JSON file not found.");
     }
 
-    const masterData = JSON.parse(rawData);
-    const htmlOutput = renderHtmlReport(masterData, weekDetails);
+    const jsonParsed = JSON.parse(rawData);
+    
+    // Automatically find the active week key (e.g. "16", "data", "41")
+    let b2Payload = jsonParsed;
+    if (jsonParsed["16"]) {
+      b2Payload = jsonParsed["16"];
+    } else if (jsonParsed.data) {
+      b2Payload = jsonParsed.data;
+    } else {
+      // Find first object containing reportTitles or jurisdictions
+      const keys = Object.keys(jsonParsed);
+      for (const k of keys) {
+        if (jsonParsed[k] && (jsonParsed[k].reportTitles || jsonParsed[k].jurisdictions)) {
+          b2Payload = jsonParsed[k];
+          break;
+        }
+      }
+    }
+
+    const htmlOutput = renderHtmlReport(b2Payload, weekDetails);
 
     const outputDir = path.join(__dirname, 'output');
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
     const outputPath = path.join(outputDir, `weekly-report-week${weekDetails.weekNumber}.html`);
     fs.writeFileSync(outputPath, htmlOutput, 'utf8');
 
-    console.log(`Report generated successfully at: ${outputPath}`);
+    console.log(`Successfully compiled report at: ${outputPath}`);
   } catch (error) {
-    console.error('Error generating weekly executive report:', error);
+    console.error('Error generating report:', error);
     process.exit(1);
   }
 }
