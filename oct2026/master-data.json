@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "activeMonth": "October 2026",
 
   "globalCodeData_B1": [
@@ -4002,6 +4002,214 @@
           "whyItMatters": "This 7.8 PSI High Signal humanitarian intervention cushions food hardship for displaced households while reaffirming government support for frontline security agencies."
         },
         "intent": "Providing emergency humanitarian relief to displaced communities and supporting security personnel families."
+    },
+    {
+        "dayNumber": 21,
+        "stateKey": "KATSINA",
+        "stateName": "Katsina State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Radda Launches Virtual Courts, Judicial Welfare, and Grants for Student Innovators",
+        "psi": 9.2,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Governor Radda Launches Virtual Courts, Judicial Welfare, and Grants for Student Innovators",
+          "whatHappened": "Governor Dikko Umaru Radda declared open the 2026/2027 Legal Year announcing court digitisation, virtual proceedings, solar installations, and land plots for judges, while backing Students' Week with Songhai graduate farming and N500k KASEDA innovator grants.",
+          "whyItMatters": "This 9.2 PSI Optimum Signal combination modernizes state judicial infrastructure while providing direct entrepreneurship support and practical agribusiness training to young graduates."
+        },
+        "intent": "Modernizing judicial infrastructure through digital court processes while empowering student innovators and graduate agribusiness entrepreneurs."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "JIGAWA",
+        "stateName": "Jigawa State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Namadi Approves N3.94 Billion for Constituency Projects, CBT Labs, SAPZ Land, and Water Schemes",
+        "psi": 9.1,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Governor Namadi Approves N3.94 Billion for Constituency Projects, CBT Labs, SAPZ Land, and Water Schemes",
+          "whatHappened": "Governor Umar Namadi chaired the Executive Council approving N1.478bn for 30 constituency projects, N977m for CBT/computer labs, N675m for SAPZ/JATA land compensation, N432m for 21 solar water schemes, N380m for ICT solar power, and the Gender in Education Policy.",
+          "whyItMatters": "This 9.1 PSI Optimum Signal fiscal release accelerates grassroots infrastructure, digital educational testing, agricultural processing zone land acquisition, and rural water supply."
+        },
+        "intent": "Executing multi-sectoral public capital expenditure across constituency projects, digital education, agricultural processing zones, and rural water infrastructure."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "GOMBE",
+        "stateName": "Gombe State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Gov Inuwa Yahaya Swears In Commissioners, Procures 1.72M RUTF Sachets with UNICEF, and Reshuffles Cabinet",
+        "psi": 9.0,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gov Inuwa Yahaya Swears In Commissioners, Procures 1.72M RUTF Sachets with UNICEF, and Reshuffles Cabinet",
+          "whatHappened": "Governor Inuwa Yahaya swore in three Commissioners and three Special Advisers during a cabinet reshuffle, while handing over 11,518 cartons (1.72M sachets) of RUTF with UNICEF under a N500m counterpart fund match.",
+          "whyItMatters": "This 9.0 PSI Optimum Signal policy suite strengthens executive cabinet capacity while combating severe acute child malnutrition across all local governments."
+        },
+        "intent": "Strengthening cabinet governance capacity and expanding child malnutrition treatment through counterpart nutrition funding."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "EDO",
+        "stateName": "Edo State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Edo Expands LIFE-ND to 18 LGAs, Pledges Rural Roads, Celebrates Oba's Coronation, and Hosts Rubber Summit",
+        "psi": 8.9,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Edo Expands LIFE-ND to 18 LGAs, Pledges Rural Roads, Celebrates Oba's Coronation, and Hosts Rubber Summit",
+          "whatHappened": "Governor Monday Okpebholo expanded LIFE-ND agribusiness to all 18 LGAs, pledged expanded rural road rehabilitation via EDSRARA, congratulated the Oba of Benin on his 10th coronation anniversary, and hosted the IRRDB International Rubber Conference.",
+          "whyItMatters": "This 8.9 PSI High Signal portfolio expands agribusiness value chains, rural road connectivity, cultural heritage support, and industrial rubber investment."
+        },
+        "intent": "Expanding rural agribusiness value chains, rehabilitating rural access roads, supporting cultural heritage, and attracting international rubber industry investment."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "ADAMAWA",
+        "stateName": "Adamawa State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Adamawa Opens Bids for 300 Tractors, Fertilizer, and Rice; Fintiri Pledges New NUJ Secretariat",
+        "psi": 8.8,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Adamawa Opens Bids for 300 Tractors, Fertilizer, and Rice; Fintiri Pledges New NUJ Secretariat",
+          "whatHappened": "Governor Ahmadu Umaru Fintiri pledged to build a modern NUJ Secretariat and operational bus, while the Agriculture Ministry opened public bids for 300 75-hp tractors, NPK fertilizer, and processed rice grains.",
+          "whyItMatters": "This 8.8 PSI High Signal action drives transparent agricultural mechanization procurement while supporting media union infrastructure and security reporting."
+        },
+        "intent": "Executing transparent agricultural mechanization procurement and strengthening media union infrastructure."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "OSUN",
+        "stateName": "Osun State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Adeleke Deploys 24/7 AI, Drone, and Radar Security Platform with Shanghai Firm Shengwen IT",
+        "psi": 8.7,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Governor Adeleke Deploys 24/7 AI, Drone, and Radar Security Platform with Shanghai Firm Shengwen IT",
+          "whatHappened": "Governor Ademola Adeleke finalized an agreement with Shanghai-quoted Shengwen IT to install a statewide AI, drone, radar, and safe-school surveillance system linked to a central Command Centre.",
+          "whyItMatters": "This 8.7 PSI High Signal technology partnership elevates statewide security intelligence, safe school protection, and digital crime prevention."
+        },
+        "intent": "Deploying advanced AI, drone, and radar technology for statewide surveillance and safe school protection."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "ZAMFARA",
+        "stateName": "Zamfara State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Lawal Prepares Over 70 Completed Projects for Commissioning to Mark 30th Anniversary",
+        "psi": 8.6,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Governor Lawal Prepares Over 70 Completed Projects for Commissioning to Mark 30th Anniversary",
+          "whatHappened": "Governor Dauda Lawal finalized plans to commission over 70 completed projects spanning general hospitals, safe schools, stadium upgrades, market shops, and army/police facilities for Zamfara's 30th anniversary.",
+          "whyItMatters": "This 8.6 PSI High Signal milestone delivers massive multi-sectoral public infrastructure across healthcare, basic education, commerce, and security institutions."
+        },
+        "intent": "Commissioning multi-sectoral public infrastructure assets to mark state anniversary and improve public service delivery."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "EBONYI",
+        "stateName": "Ebonyi State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Nwifuru Nominated Sun Governor of the Year 2026 for Human Capital and Gratuity Clearance",
+        "psi": 8.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Governor Nwifuru Nominated Sun Governor of the Year 2026 for Human Capital and Gratuity Clearance",
+          "whatHappened": "Governor Francis Nwifuru accepted nomination as The Sun Governor of the Year 2026, highlighting the recruitment of 3,800 workers, ICT/Aerospace Universities, 280 conflict housing units, and worker gratuity clearance.",
+          "whyItMatters": "This 8.5 PSI High Signal recognition validates subnational investment in human capital development, conflict resettlement, and worker welfare reforms."
+        },
+        "intent": "Consolidating public sector recruitment, specialized higher education, conflict victim housing, and worker gratuity clearance."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "CROSS RIVER",
+        "stateName": "Cross River State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Cross River Strengthens NSCDC Carnival Synergy and Flags Off Ember Month Anti-Extortion Traffic Campaign",
+        "psi": 8.4,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Cross River Strengthens NSCDC Carnival Synergy and Flags Off Ember Month Anti-Extortion Traffic Campaign",
+          "whatHappened": "Information Commissioner Pastor Ekpenyong Cobham boosted NSCDC operational synergy for Carnival Calabar, while Transport Commissioner Kingsley Egumi launched an Ember Month campaign banning traffic officer extortion.",
+          "whyItMatters": "This 8.4 PSI High Signal dual action guarantees festival security while enforcing professional conduct and safety across state transport corridors."
+        },
+        "intent": "Enhancing inter-agency security operations for major events while banning traffic enforcement extortion."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "YOBE",
+        "stateName": "Yobe State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Gov Buni Reviews Permanent Secretary Salaries and Welcomes 400 Indian-Trained 'Buni Scholars'",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov Buni Reviews Permanent Secretary Salaries and Welcomes 400 Indian-Trained 'Buni Scholars'",
+          "whatHappened": "Governor Mai Mala Buni received Permanent Secretaries following an upward salary review and welcomed over 400 Indian-trained 'Buni Scholars' graduating in medicine and engineering.",
+          "whyItMatters": "This 8.3 PSI High Signal welfare and education milestone enhances civil service executive motivation while absorbing specialized medical and engineering talent into the workforce."
+        },
+        "intent": "Upgrading civil service executive welfare and deploying specialized international medical/engineering graduates."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "KEBBI",
+        "stateName": "Kebbi State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Kebbi Government Clarifies Pension Entitlements for Garkuwan Yauri, Citing Constitutional Provisions",
+        "psi": 8.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Kebbi Government Clarifies Pension Entitlements for Garkuwan Yauri, Citing Constitutional Provisions",
+          "whatHappened": "Information Commissioner Yakubu Ahmed Birnin Kebbi clarified legal pension guidelines regarding former Governor Garkuwan Yauri, detailing ongoing state medical trip sponsorships and Warah infrastructure projects.",
+          "whyItMatters": "This 8.1 PSI High Signal clarification upholds statutory rule of law in executive pension administration while demonstrating goodwill toward elder statesmen."
+        },
+        "intent": "Upholding constitutional and statutory provisions in executive pension administration while maintaining welfare goodwill."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "NASARAWA",
+        "stateName": "Nasarawa State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Gov Sule Hosts Chinese Ambassador Yu Dunhai to Discuss Mining Cooperation and Zero-Tariff Trade",
+        "psi": 8.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov Sule Hosts Chinese Ambassador Yu Dunhai to Discuss Mining Cooperation and Zero-Tariff Trade",
+          "whatHappened": "Governor Abdullahi Sule received Chinese Ambassador Yu Dunhai to discuss mineral exploration cooperation, curbing illegal mining, human capital training, and China's zero-tariff policy on African goods.",
+          "whyItMatters": "This 8.1 PSI High Signal diplomatic engagement drives solid mineral industrialization, export expansion, and technical capacity building."
+        },
+        "intent": "Advancing solid mineral exploration cooperation, curbing illegal mining, and expanding zero-tariff international trade."
+      },
+      {
+        "dayNumber": 21,
+        "stateKey": "RIVERS",
+        "stateName": "Rivers State",
+        "displayDate": "Wednesday, October 21, 2026",
+        "headline": "Governor Fubara Tasks 3,280 NYSC Corps Members on Community Development and SAED Wealth Creation",
+        "psi": 8.0,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Governor Fubara Tasks 3,280 NYSC Corps Members on Community Development and SAED Wealth Creation",
+          "whatHappened": "Governor Siminalayi Fubara passed out 3,280 NYSC Batch C Stream I corps members at Nonwa-Gbam, urging selfless service, community integration, and post-camp SAED entrepreneurship training.",
+          "whyItMatters": "This 8.0 PSI High Signal engagement strengthens local community service delivery and promotes post-service graduate self-reliance."
+        },
+        "intent": "Fostering youth civic responsibility, community integration, and entrepreneurial skill development."
       }
   ],
 
@@ -9799,6 +10007,326 @@
             "body": "Zamfara State Government, represented by Deputy Governor Mani Malam Mummuni Masamar Mudi, donated 500 bags of grains to communities displaced by banditry in Bukuyum LGA, while extending condolences to Gwashi community over lost security personnel."
           },
           "securityAnalysis": "Zamfara State (7.8 PSI / High Signal / SIS 5.4 / MONITORED / Defensive / Value with Stabilization) actively manages localized security risks while delivering emergency food relief to displaced populations."
+        }
+      ]
+    },
+    "21": {
+      "date": "2026-10-21",
+      "formattedDate": "October 21, 2026",
+      "metadata": {
+        "compositePsi": 7.8,
+        "activeJurisdictionsCount": 13,
+        "unlistedJurisdictionsCount": 24,
+        "unlistedNote": "The 24 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact. Inspect full interactive scorecards and B3 advisory datasets at diplomantimes.com."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 13 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive momentum on October 21, 2026, recorded a high 7.8 PSI average, led by Katsina's judicial digitisation and student grants, Jigawa's N3.94bn capital approvals, and Gombe's RUTF procurement with UNICEF."
+        },
+        "security": {
+          "title": "Subnational Advisory Profile Demonstrates High-Alpha Opportunities Amid Secure Reforestation, Tourism, and Health Corridors",
+          "summary": "Comprehensive subnational risk analysis for October 21, 2026, evaluating State Instability Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's commercial, coastal, and agrarian corridors."
+        },
+        "policy": {
+          "title": "Subnational Executive Momentum Reaches 7.8 Net Composite Average Across Reforestation, Enterprise Grants, and Healthcare",
+          "summary": "Nigeria’s state executives record a 7.8 net PSI composite average on October 21, 2026, driven by high-velocity governance across mega climate programs, grassroots business cash grants, and specialized secondary health facilities."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded an expansive operational performance during the active reporting window ending October 21, 2026. The 37-jurisdiction net Policy Signal Index (PSI) baseline settled at a high composite average of 7.8, reflecting intense executive commitment to environmental sustainability, direct enterprise grant funding, specialized hospital construction, and local government worker welfare.\n\nAcross every geopolitical zone, state governors and executive councils demonstrated high-capacity governance by translating administrative intent into measurable outcomes. From mega 11-million tree reforestation rollouts and ₦5 billion small business grants to ultra-modern hospital annexes and local government gratuity clearance agreements, subnational governance displayed sustained structural momentum aimed at long-term economic resilience and citizen welfare.",
+          "emergingPatterns": "The active reporting window reveals a decisive shift toward climate adaptation, direct MSME financial capitalization, and local public service welfare. State governments are increasingly pairing environmental conservation with non-interest enterprise financing to drive grassroots productivity and reduce poverty.",
+          "strategicOutlook": "Sustaining current subnational performance will require continuous inter-agency collaboration, strict civil service oversight, and proactive risk management in urban flood drainage and emergency relief coordination. States that combine regulatory compliance with grassroots capital expenditure will absorb economic shocks effectively.",
+          "conclusion": "The subnational executive governance landscape for October 21, 2026, reflects measurable administrative progress and strategic institutional alignment. By grounding governance in environmental protection, enterprise support, and transparent fiscal management, Nigeria’s subnational executives continue to strengthen the foundations of sustainable economic development."
+        },
+        "security": {
+          "introduction": "The subnational investment and operational risk landscape across Nigeria for October 21, 2026, demonstrates high physical stability, with primary economic centers displaying robust security metrics and favorable risk-reward dynamics. Through the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index (PSI), raw derived State Instability Score (SIS), Risk Indicator classification, and derived Investment Decision Profile.",
+          "emergingPatterns": "Subnational security mapping indicates that southern coastal, commercial, and agricultural hubs maintain SECURE (SIS < 3.0) environments ideal for long-term private equity, health infrastructure, and tourism investments. Northern agrarian zones require active risk oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield potential in farming and MSME commerce must be paired with security coordination and humanitarian relief.",
+          "strategicOutlook": "Corporate decision-makers and private equity funds should prioritize subnational jurisdictions that combine high executive policy signals with secure physical transport corridors. Capital deployments in healthcare facilities, agricultural value chains, and digital enterprise support will yield superior risk-adjusted returns.",
+          "conclusion": "Navigating Nigeria’s subnational economy requires rigorous, metric-backed evaluation. By aligning capital allocation with verified Policy Signal Index ratings and State Instability Scores, institutional investors can capture substantial subnational growth."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Judicial Reform, Higher Education Innovation, and Capital Procurement",
+          "states": ["Katsina", "Jigawa", "Gombe", "Adamawa"]
+        },
+        {
+          "groupTitle": "Agribusiness Diversification, Industrial Rubber, and Rural Infrastructure",
+          "states": ["Edo", "Zamfara", "Ebonyi"]
+        },
+        {
+          "groupTitle": "Statewide AI Surveillance, International Trade, and Civil Service Welfare",
+          "states": ["Osun", "Kebbi", "Yobe", "Nasarawa"]
+        },
+        {
+          "groupTitle": "Security Operations, Technical Education, and Civic Governance",
+          "states": ["Cross River", "Rivers", "Bayelsa", "Plateau", "Ondo", "Lagos", "Kwara", "Oyo"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Katsina",
+          "governor": "Dikko Umaru Radda",
+          "metrics": {
+            "psiScore": 9.2,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 4.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Governor Radda Launches Virtual Courts, Judicial Welfare, and Grants for Student Innovators",
+          "impactVector": "Governor Dikko Umaru Radda declared open the 2026/2027 Legal Year announcing court digitisation, virtual proceedings, solar installations, and land plots for judges, while backing Students' Week with Songhai graduate farming and N500k KASEDA innovator grants.",
+          "policyBreakdown": {
+            "category": "Judicial Process Digitisation, Court Infrastructure, and Student Agribusiness Innovation",
+            "body": "Governor Dikko Umaru Radda declared open the 2026/2027 Legal Year, announcing court digitisation, virtual proceedings, solar installations, and land plots for judges. He also addressed the Katsina Students' Week finale, pledging graduate agribusiness training at Songhai Farms and ₦500,000 KASEDA grants for young innovators."
+          },
+          "securityAnalysis": "Katsina State (9.2 PSI / Optimum Signal / SIS 4.1 / MONITORED / Growth-Oriented / Expansion with Optimization) drives major judicial digitisation and youth innovation under active security surveillance."
+        },
+        {
+          "state": "Jigawa",
+          "governor": "Umar Namadi",
+          "metrics": {
+            "psiScore": 9.1,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Governor Namadi Approves N3.94 Billion for Constituency Projects, CBT Labs, SAPZ Land, and Water Schemes",
+          "impactVector": "Governor Umar Namadi chaired the Executive Council approving N1.478bn for 30 constituency projects, N977m for CBT/computer labs, N675m for SAPZ/JATA land compensation, N432m for 21 solar water schemes, N380m for ICT solar power, and the Gender in Education Policy.",
+          "policyBreakdown": {
+            "category": "Constituency Capital Expenditure, Digital Education, SAPZ Compensation, and Water Infrastructure",
+            "body": "Governor Umar Namadi chaired the Executive Council meeting approving ₦3.94 billion in capital investments, including ₦1.478 billion for constituency projects, ₦977 million for Jahun CBT Centre and school computer labs, ₦675 million for SAPZ/JATA land compensation, ₦432 million for 21 solar water schemes, ₦380 million for ICT solar power, and the Gender in Education Policy."
+          },
+          "securityAnalysis": "Jigawa State (9.1 PSI / Optimum Signal / SIS 1.8 / SECURE / Growth-Oriented / Growth Beta Opportunity) provides exceptional physical security backing multi-billion naira educational and agricultural capital projects."
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 9.0,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov Inuwa Yahaya Swears In Commissioners, Procures 1.72M RUTF Sachets with UNICEF, and Reshuffles Cabinet",
+          "impactVector": "Governor Inuwa Yahaya swore in three Commissioners and three Special Advisers during a cabinet reshuffle, while handing over 11,518 cartons (1.72M sachets) of RUTF with UNICEF under a N500m counterpart fund match.",
+          "policyBreakdown": {
+            "category": "Executive Cabinet Expansion, Child Nutrition Counterpart Fund, and Harmattan Safety",
+            "body": "Governor Inuwa Yahaya swore in three Commissioners and three Special Advisers while executing a minor cabinet reshuffle. The state government handed over 11,518 cartons (1.72M sachets) of RUTF with UNICEF under a ₦500m Child Nutrition Fund match, NAFDAC registered 'Garin Inuwa', and Federal Fire Service launched Harmattan prevention."
+          },
+          "securityAnalysis": "Gombe State (9.0 PSI / Optimum Signal / SIS 2.1 / SECURE / Defensive / Emerging Gamma Opportunity) maintains strong operational stability, facilitating seamless health supply chains and executive governance."
+        },
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 8.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Edo Expands LIFE-ND to 18 LGAs, Pledges Rural Roads, Celebrates Oba's Coronation, and Hosts Rubber Summit",
+          "impactVector": "Governor Monday Okpebholo expanded LIFE-ND agribusiness to all 18 LGAs, pledged rural road rehabilitation via EDSRARA, congratulated the Oba of Benin on his 10th coronation anniversary, and hosted the IRRDB International Rubber Conference.",
+          "policyBreakdown": {
+            "category": "Agribusiness LGA Expansion, Rural Access Roads, Cultural Heritage, and Rubber Processing",
+            "body": "Governor Monday Okpebholo announced the expansion of LIFE-ND agribusiness to all 18 LGAs, pledged expanded rural road rehabilitation via EDSRARA DG Engr. Goodluck Oghenakhoghe, congratulated the Oba of Benin on his 10th coronation anniversary, and hosted the IRRDB International Rubber Conference in Benin City across 23 member nations."
+          },
+          "securityAnalysis": "Edo State (8.9 PSI / High Signal / SIS 2.2 / SECURE / Growth-Oriented / Growth Beta Opportunity) offers a highly secure climate for international industrial rubber delegates and rural road agency execution."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Adamawa Opens Bids for 300 Tractors, Fertilizer, and Rice; Fintiri Pledges New NUJ Secretariat",
+          "impactVector": "Governor Ahmadu Umaru Fintiri pledged to build a modern NUJ Secretariat and operational bus, while the Agriculture Ministry opened public bids for 300 75-hp tractors, NPK fertilizer, and processed rice grains.",
+          "policyBreakdown": {
+            "category": "Agricultural Mechanization Procurement Tenders and Media Union Infrastructure",
+            "body": "Governor Ahmadu Umaru Fintiri pledged to build a modern NUJ Secretariat, supply an operational bus, and upgrade ATV Yola, while the Agriculture Ministry opened public tenders for 300 75-hp tractors, NPK fertilizer, and rice grains."
+          },
+          "securityAnalysis": "Adamawa State (8.8 PSI / High Signal / SIS 2.9 / SECURE / Defensive / Emerging Gamma Opportunity) remains physically stable, supporting agricultural equipment tenders and public media upgrades."
+        },
+        {
+          "state": "Osun",
+          "governor": "Ademola Adeleke",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Governor Adeleke Deploys 24/7 AI, Drone, and Radar Security Platform with Shanghai Firm Shengwen IT",
+          "impactVector": "Governor Ademola Adeleke finalized an agreement with Shanghai-quoted Shengwen IT to install a statewide AI, drone, radar, and safe-school surveillance system linked to a central Command Centre.",
+          "policyBreakdown": {
+            "category": "Statewide AI Security Platform, Drone Surveillance, and Safe School Project",
+            "body": "Governor Ademola Adeleke partnered with Shanghai-quoted Shengwen IT to deploy a statewide 24/7 AI, drone, radar, and safe-school surveillance system linked to a central Command Centre ahead of his second term inauguration."
+          },
+          "securityAnalysis": "Osun State (8.7 PSI / High Signal / SIS 1.6 / SECURE / Defensive / Emerging Gamma Opportunity) demonstrates top-tier physical security while introducing cutting-edge AI surveillance technology."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 5.4,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Governor Lawal Prepares Over 70 Completed Projects for Commissioning to Mark 30th Anniversary",
+          "impactVector": "Governor Dauda Lawal finalized plans to commission over 70 completed projects spanning general hospitals, safe schools, stadium upgrades, market shops, and army/police facilities for Zamfara's 30th anniversary.",
+          "policyBreakdown": {
+            "category": "Multi-Sectoral Infrastructure Commissioning and State Anniversary Projects",
+            "body": "Governor Dauda Lawal finalized preparations to commission over 70 completed projects across health, education, infrastructure, sports, and security sectors to mark 30 years of state creation."
+          },
+          "securityAnalysis": "Zamfara State (8.6 PSI / High Signal / SIS 5.4 / MONITORED / Defensive / Value with Stabilization) manages ongoing regional risks while completing massive public infrastructure rehabilitation."
+        },
+        {
+          "state": "Ebonyi",
+          "governor": "Francis Nwifuru",
+          "metrics": {
+            "psiScore": 8.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Governor Nwifuru Nominated Sun Governor of the Year 2026 for Human Capital and Gratuity Clearance",
+          "impactVector": "Governor Francis Nwifuru accepted nomination as The Sun Governor of the Year 2026, highlighting the recruitment of 3,800 workers, ICT/Aerospace Universities, 280 conflict housing units, and worker gratuity clearance.",
+          "policyBreakdown": {
+            "category": "Governance Recognition, Civil Service Employment, and Conflict Resettlement Housing",
+            "body": "Governor Francis Nwifuru accepted nomination as The Sun Governor of the Year 2026, citing public recruitment of 3,800 personnel, ICT/Aerospace Universities, 280 communal conflict bungalows, and worker gratuity settlements."
+          },
+          "securityAnalysis": "Ebonyi State (8.5 PSI / High Signal / SIS 2.5 / SECURE / Defensive / Emerging Gamma Opportunity) exhibits stable conditions supporting housing construction for conflict victims and university expansion."
+        },
+        {
+          "state": "Cross River",
+          "governor": "Bassey Otu",
+          "metrics": {
+            "psiScore": 8.4,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Cross River Strengthens NSCDC Carnival Synergy and Flags Off Ember Month Anti-Extortion Traffic Campaign",
+          "impactVector": "Information Commissioner Pastor Ekpenyong Cobham boosted NSCDC operational synergy for Carnival Calabar, while Transport Commissioner Kingsley Egumi launched an Ember Month campaign banning traffic officer extortion.",
+          "policyBreakdown": {
+            "category": "Inter-Agency Security Synergy and Ember Month Traffic Enforcement Standards",
+            "body": "Information Commissioner Pastor Ekpenyong Cobham strengthened NSCDC synergy for Carnival Calabar and general elections, while Transport Commissioner Kingsley Egumi launched an Ember Month campaign banning traffic extortion."
+          },
+          "securityAnalysis": "Cross River State (8.4 PSI / High Signal / SIS 1.9 / SECURE / Growth-Oriented / Growth Beta Opportunity) maintains superior physical security across festive tourism and commercial transport corridors."
+        },
+        {
+          "state": "Yobe",
+          "governor": "Mai Mala Buni",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.5,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov Buni Reviews Permanent Secretary Salaries and Welcomes 400 Indian-Trained 'Buni Scholars'",
+          "impactVector": "Governor Mai Mala Buni received Permanent Secretaries following an upward salary review and welcomed over 400 Indian-trained 'Buni Scholars' graduating in medicine and engineering.",
+          "policyBreakdown": {
+            "category": "Executive Civil Service Compensation and Foreign Scholarship Graduate Integration",
+            "body": "Governor Mai Mala Buni received Permanent Secretaries following an upward salary review and welcomed over 400 Indian-trained 'Buni Scholars' graduating in medicine and engineering."
+          },
+          "securityAnalysis": "Yobe State (8.3 PSI / High Signal / SIS 4.5 / MONITORED / Defensive / Value with Stabilization) actively stabilizes regional security while integrating foreign-trained medical and technical graduates."
+        },
+        {
+          "state": "Kebbi",
+          "governor": "Nasir Idris",
+          "metrics": {
+            "psiScore": 8.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Kebbi Government Clarifies Pension Entitlements for Garkuwan Yauri, Citing Constitutional Provisions",
+          "impactVector": "Information Commissioner Yakubu Ahmed Birnin Kebbi clarified legal pension guidelines regarding former Governor Garkuwan Yauri, detailing ongoing state medical trip sponsorships and Warah infrastructure projects.",
+          "policyBreakdown": {
+            "category": "Executive Pension Legislation, Rule of Law, and Goodwill Welfare",
+            "body": "Information Commissioner Yakubu Ahmed Birnin Kebbi clarified constitutional pension guidelines regarding former Governor Garkuwan Yauri, detailing ongoing state medical trip sponsorships and Warah infrastructure projects."
+          },
+          "securityAnalysis": "Kebbi State (8.1 PSI / High Signal / SIS 2.7 / SECURE / Defensive / Emerging Gamma Opportunity) remains safe and stable, upholding legal frameworks in public finance administration."
+        },
+        {
+          "state": "Nasarawa",
+          "governor": "Abdullahi Sule",
+          "metrics": {
+            "psiScore": 8.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov Sule Hosts Chinese Ambassador Yu Dunhai to Discuss Mining Cooperation and Zero-Tariff Trade",
+          "impactVector": "Governor Abdullahi Sule received Chinese Ambassador Yu Dunhai to discuss mineral exploration cooperation, curbing illegal mining, human capital training, and China's zero-tariff policy on African goods.",
+          "policyBreakdown": {
+            "category": "Bilateral Trade Diplomacy, Solid Minerals Exploration, and Technical Capacity Building",
+            "body": "Governor Abdullahi Sule hosted Chinese Ambassador Yu Dunhai to discuss mining sector cooperation, human capital development, and China's zero-tariff policy on African goods."
+          },
+          "securityAnalysis": "Nasarawa State (8.1 PSI / High Signal / SIS 2.6 / SECURE / Defensive / Emerging Gamma Opportunity) displays robust physical security across its industrial mining corridors."
+        },
+        {
+          "state": "Rivers",
+          "governor": "Siminalayi Fubara",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Governor Fubara Tasks 3,280 NYSC Corps Members on Community Development and SAED Wealth Creation",
+          "impactVector": "Governor Siminalayi Fubara passed out 3,280 NYSC Batch C Stream I corps members at Nonwa-Gbam, urging selfless service, community integration, and post-camp SAED entrepreneurship training.",
+          "policyBreakdown": {
+            "category": "National Youth Integration, Community Service, and SAED Entrepreneurship",
+            "body": "Governor Siminalayi Fubara passed out 3,280 NYSC Batch C Stream I corps members at Nonwa-Gbam, urging selfless service and SAED post-camp participation."
+          },
+          "securityAnalysis": "Rivers State (8.0 PSI / High Signal / SIS 2.8 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains secure conditions for national youth orientation and host community integration."
         }
       ]
     }
@@ -17037,6 +17565,524 @@
     "sis": 4.5,
     "focus": "Routine Post-Conflict Rebuilding and Public Sector Oversight",
     "dailyBrief": "Maintained standard civil service operations and routine community development oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.2,
+    "sis": 4.1,
+    "focus": "Judicial Process Digitisation, Court Infrastructure & Student Innovator Grants",
+    "dailyBrief": "Declared open Legal Year announcing virtual courts, solar systems, and judge land plots, while pledging Songhai agribusiness training and N500k KASEDA grants.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 9.1,
+    "sis": 1.8,
+    "focus": "N3.94bn Approval for Constituency Projects, CBT Labs, SAPZ Land & Water",
+    "dailyBrief": "Approved N3.94bn across 6 council memos including N1.478bn constituency projects, N977m CBT/labs, N675m SAPZ land compensation, and Gender Education policy.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 9.0,
+    "sis": 2.1,
+    "focus": "Executive Cabinet Swearing-In, 1.72M RUTF Sachets & Fire Safety",
+    "dailyBrief": "Swore in 3 Commissioners and 3 Special Advisers, received 1.72M RUTF sachets with UNICEF under N500m match, and launched Harmattan fire campaign.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.9,
+    "sis": 2.2,
+    "focus": "LIFE-ND 18 LGA Expansion, EDSRARA Rural Roads & Rubber Summit",
+    "dailyBrief": "Expanded LIFE-ND agribusiness to 18 LGAs, pledged rural road rehabilitation, congratulated Oba of Benin, and hosted IRRDB International Rubber Conference.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 8.8,
+    "sis": 2.9,
+    "focus": "Bids for 300 Tractors, Fertilizer & Rice; NUJ Secretariat Promise",
+    "dailyBrief": "Opened bids for 300 75-hp tractors, NPK fertilizer, and rice, while Governor Fintiri promised a modern NUJ Secretariat and operational bus.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.6,
+    "focus": "Statewide 24/7 AI, Drone & Radar Security Platform with Shengwen IT",
+    "dailyBrief": "Partnered with Shanghai-quoted Shengwen IT to deploy a statewide AI, drone, radar, and safe-school surveillance system linked to a Command Centre.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.6,
+    "sis": 5.4,
+    "focus": "Over 70 Completed Projects Ready for 30th Anniversary Commissioning",
+    "dailyBrief": "Finalized plans to commission over 70 completed projects across health, education, infrastructure, sports, and security for 30th state creation anniversary.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 8.5,
+    "sis": 2.5,
+    "focus": "The Sun Governor of Year 2026 Nomination & Gratuity Clearance",
+    "dailyBrief": "Nominated Sun Governor of the Year 2026, citing 3,800 public recruitment, ICT/Aerospace Universities, 280 conflict houses, and pension clearance.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 8.4,
+    "sis": 1.9,
+    "focus": "NSCDC Security Synergy for Carnival & Ember Month Anti-Extortion Drive",
+    "dailyBrief": "Strengthened NSCDC security synergy for Carnival Calabar and elections, and launched Ember Month campaign banning traffic officer extortion.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 8.3,
+    "sis": 4.5,
+    "focus": "Permanent Secretary Salary Review & 400 Indian-Trained 'Buni Scholars'",
+    "dailyBrief": "Approved upward salary review for Permanent Secretaries and welcomed over 400 Indian-trained 'Buni Scholars' graduating in medicine and engineering.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 8.1,
+    "sis": 2.7,
+    "focus": "Constitutional Pension Clarification for Garkuwan Yauri & Medical Trips",
+    "dailyBrief": "Clarified legal pension guidelines for former Governor Garkuwan Yauri while highlighting ongoing medical trip sponsorships and Warah projects.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 8.1,
+    "sis": 2.6,
+    "focus": "Bilateral Trade & Mining Cooperation Talks with Chinese Ambassador",
+    "dailyBrief": "Hosted Chinese Ambassador Yu Dunhai to discuss mineral exploration cooperation, curbing illegal mining, and China's zero-tariff African policy.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 8.0,
+    "sis": 2.8,
+    "focus": "NYSC Orientation Passing Out & SAED Wealth Creation Charge",
+    "dailyBrief": "Passed out 3,280 NYSC Batch C Stream I corps members, urging selfless community service and SAED post-camp entrepreneurship participation.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "FCT (Abuja)",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Routine Administrative Operations and Municipal Infrastructure",
+    "dailyBrief": "Maintained routine administrative processes and baseline public infrastructure maintenance across the territory.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.9,
+    "focus": "Routine Civil Service Bureaucracy and Public Works Oversight",
+    "dailyBrief": "Maintained baseline civil service operations and routine public works supervision.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Administrative Processes and Coastal Monitoring",
+    "dailyBrief": "Maintained standard administrative operations and baseline maritime logistics monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Routine Public Sector Administration and Market Security Patrols",
+    "dailyBrief": "Maintained standard civil service bureaucracy and routine commercial zone security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Administrative Operations and Civil Service Bureaucracy",
+    "dailyBrief": "Maintained routine public service operations and standard rural development monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Routine Agrarian Administrative Operations",
+    "dailyBrief": "Maintained baseline agrarian administration and routine state civil service bureaucracy.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Routine Resettlement and Regional Security Surveillance",
+    "dailyBrief": "Maintained routine humanitarian coordination and standard regional security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Routine Grassroots Governance and Public Works Monitoring",
+    "dailyBrief": "Maintained routine public service administration and standard municipal project monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Operations and Municipal Oversight",
+    "dailyBrief": "Maintained standard civil service operations and routine public infrastructure oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Routine Public Administration and Civil Service Operations",
+    "dailyBrief": "Maintained routine public service processes and baseline social service monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Routine Civil Service Bureaucracy and Security Oversight",
+    "dailyBrief": "Maintained standard public sector processes and routine urban security monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 3.8,
+    "focus": "Routine Public Sector Administration and Urban Services",
+    "dailyBrief": "Maintained baseline public sector operations and routine urban service monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Commercial Zone Monitoring and Administrative Operations",
+    "dailyBrief": "Maintained routine civil service operations and standard commercial zone oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Civil Service Bureaucracy and Transport Security",
+    "dailyBrief": "Maintained baseline civil service administration and routine highway security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Legislative Constitutional Amendment Approval for State Police",
+    "dailyBrief": "State House of Assembly approved the proposed 1999 constitutional amendment providing a legal framework for State Police.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.2,
+    "focus": "Zero Tolerance on Drainage Obstructions & Free TB Screening",
+    "dailyBrief": "Restated zero tolerance for building materials blocking drainages/roads, and urged residents to embrace free TB screening.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Routine Agricultural Oversight and Security Monitoring",
+    "dailyBrief": "Maintained standard state civil service bureaucracy and routine security patrol coordination.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Executive Governance and Civil Service Supervision",
+    "dailyBrief": "Maintained baseline executive administration and standard public service supervision.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Governor Mourns Passing of Pa Reuben Fasoranti at 100",
+    "dailyBrief": "Governor Lucky Aiyedatiwa formally announced the passing of elder statesman and Afenifere leader Pa Reuben Famuyide Fasoranti at 100.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Completed RAAMP Oja Oba Market Reconstruction in Ibarapa Central",
+    "dailyBrief": "Completed the reconstruction of Oja Oba Market in Ibarapa Central Local Government Area under RAAMP.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Deputy Governor Advocates Women's Inclusion at NILOWV @30",
+    "dailyBrief": "Deputy Governor Josephine Piyo addressed NILOWV's 30th anniversary in Jos, advocating for women's political participation.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Fonibiri Technical College Inspection",
+    "dailyBrief": "Education Commissioner inspected ongoing construction at Fonibiri Science, Technical and Vocational College in Southern Ijaw LGA.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Border Administrative Oversight and Security Monitoring",
+    "dailyBrief": "Maintained baseline civil service administration and routine border security oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Monitored",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 21,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Routine Agricultural Administration and Security Surveillance",
+    "dailyBrief": "Maintained baseline public service operations and routine inter-community peace monitoring.",
     "psiSignalLevel": "BASELINE SIGNAL",
     "psiMomentum": "Stable",
     "sisStatus": "MONITORED",
