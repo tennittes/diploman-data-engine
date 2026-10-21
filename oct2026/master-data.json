@@ -4210,7 +4210,199 @@
           "whyItMatters": "This 8.0 PSI High Signal engagement strengthens local community service delivery and promotes post-service graduate self-reliance."
         },
         "intent": "Fostering youth civic responsibility, community integration, and entrepreneurial skill development."
-      }
+      },
+    {
+    "dayNumber": 22,
+    "stateKey": "KATSINA",
+    "stateName": "Katsina State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Katsina Hits Over 30MW Renewable Energy Milestone as Governor Radda Unveils State Climate Policy",
+    "psi": 9.2,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Katsina Hits Over 30MW Renewable Energy Milestone as Governor Radda Unveils State Climate Policy",
+      "whatHappened": "Governor Dikko Umaru Radda unveiled the Katsina State Climate Change Policy in Abuja, disclosing that over 30MW of renewable energy capacity has been deployed toward a 70MW target, alongside an 11-million tree initiative and ₦7.6bn solar street-lighting.",
+      "whyItMatters": "This 9.2 PSI Optimum Signal milestone establishes Katsina as a green economy leader, lowering carbon exposure while expanding solar electricity access for schools, healthcare, and business hubs."
+    },
+    "intent": "Deploying utility-scale solar infrastructure, enacting climate governance, and driving landscape restoration."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "ABIA",
+    "stateName": "Abia State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Gov Otti Flags Off Reconstruction of Uratta and Old Express Roads in Aba; Announces 10 New Courthouses",
+    "psi": 9.0,
+    "intensity": "OPTIMUM",
+    "momentum": "Accelerating",
+    "impactMatrix": {
+      "headline": "Gov Otti Flags Off Reconstruction of Uratta and Old Express Roads in Aba; Announces 10 New Courthouses",
+      "whatHappened": "Governor Alex Otti flagged off the reconstruction of the 3.1km Uratta Road and 3.95km Old Express Road in Aba under the AfDB/IsDB-backed ABSIID project, while announcing the upcoming commissioning of 10 new courthouses across Abia State.",
+      "whyItMatters": "This 9.0 PSI Optimum Signal intervention resolves a 25-year infrastructure failure in Aba's commercial core, restoring business logistics while modernizing judicial infrastructure."
+    },
+    "intent": "Eliminating urban infrastructure bottlenecks, unlocking commercial trade corridors, and modernizing judicial facilities."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "LAGOS",
+    "stateName": "Lagos State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Lagos OEQA Seeks Global Best Practices To Strengthen Education Quality Assurance",
+    "psi": 8.7,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Lagos OEQA Seeks Global Best Practices To Strengthen Education Quality Assurance",
+      "whatHappened": "Lagos State Ministry of Basic and Secondary Education and OEQA convened a roundtable with Finnish education experts to introduce digital monitoring, school self-evaluation, and teacher capacity building across post-primary schools.",
+      "whyItMatters": "This 8.7 PSI High Signal engagement modernizes education governance, leveraging Finnish pedagogical expertise to raise learning outcomes across public and non-state schools."
+    },
+    "intent": "Institutionalizing digital education quality assurance and benchmarking international teacher training frameworks."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "KEBBI",
+    "stateName": "Kebbi State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Gov Idris Flags Off Construction of 102km Unguwar Jeji–Diggi–Maidahini and Bunza–Makera Rural Roads",
+    "psi": 8.6,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Idris Flags Off Construction of 102km Unguwar Jeji–Diggi–Maidahini and Bunza–Makera Rural Roads",
+      "whatHappened": "Governor Nasir Idris flagged off the construction of two major rural road projects totaling 102 kilometers: the 41km Unguwar Jeji–Diggi–Maidahini Road and the 61km Bunza–Makera Road to support agrarian transport.",
+      "whyItMatters": "This 8.6 PSI High Signal deployment connects isolated agrarian communities to markets, lowering food transit costs and boosting local agricultural output."
+    },
+    "intent": "Expanding rural transport networks, improving agricultural market access, and strengthening agrarian value chains."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "DELTA",
+    "stateName": "Delta State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Delta State House of Assembly Approves Proposed Sixth Alteration Bill for State Police",
+    "psi": 8.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Delta State House of Assembly Approves Proposed Sixth Alteration Bill for State Police",
+      "whatHappened": "The Delta State House of Assembly unanimously passed the Sixth Alteration Bill to the 1999 Constitution, with 23 lawmakers voting to establish a constitutional framework for State Police Services.",
+      "whyItMatters": "This 8.5 PSI High Signal legislative vote advances subnational security decentralization, strengthening grassroots intelligence to protect industrial and maritime assets."
+    },
+    "intent": "Enacting constitutional security reforms and establishing localized policing frameworks to protect state economic assets."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "ZAMFARA",
+    "stateName": "Zamfara State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Zamfara Govt Unveils Fresh Security Measures, Trains 1,000 Forest Guards and Deploys 25 APCs",
+    "psi": 8.4,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Zamfara Govt Unveils Fresh Security Measures, Trains 1,000 Forest Guards and Deploys 25 APCs",
+      "whatHappened": "Information Commissioner Mahmud Muhammad Abdullahi announced the training of 1,000 Forest Guards, deployment of 150 Hilux vehicles, 25 APCs, and drones, alongside dry-season clearance operations against bandits.",
+      "whyItMatters": "This 8.4 PSI High Signal defense posture deploys hardware and community personnel to stabilize rural farming hubs and protect lives."
+    },
+    "intent": "Strengthening rural tactical defense, deploying tactical armor, and neutralizing security threats in agrarian zones."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "PLATEAU",
+    "stateName": "Plateau State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Plateau Free Medical Outreach Records Impact in Shendam and Mangu as Beneficiary Names Baby Caleb",
+    "psi": 8.3,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Plateau Free Medical Outreach Records Impact in Shendam and Mangu as Beneficiary Names Baby Caleb",
+      "whatHappened": "Governor Caleb Mutfwang’s sponsored free medical outreach delivered surgeries, consultations, and emergency Caesarean sections across General Hospitals in Shendam and Mangu LGAs.",
+      "whyItMatters": "This 8.3 PSI High Signal healthcare intervention provides direct medical relief to indigent rural populations, reducing health costs and saving lives."
+    },
+    "intent": "Expanding access to specialized rural healthcare, performing free surgeries, and safeguarding vulnerable populations."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "EDO",
+    "stateName": "Edo State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Edo State Seeks Partnership With Netherlands On Climate Change, Biodiversity and Oil Palm Sustainability",
+    "psi": 8.2,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Edo State Seeks Partnership With Netherlands On Climate Change, Biodiversity and Oil Palm Sustainability",
+      "whatHappened": "Environment Commissioner Hon. Nosa Adams hosted Netherlands Consul-General Frank Keurhorst to deepen collaboration on climate resilience, EdoFEWMA erosion control, and NISCOPS sustainable oil palm smallholder programs.",
+      "whyItMatters": "This 8.2 PSI High Signal bilateral meeting attracts international technical support for forest conservation, flood mitigation, and sustainable agriculture."
+    },
+    "intent": "Fostering international environmental partnerships, advancing climate adaptation, and promoting sustainable oil palm farming."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "OGUN",
+    "stateName": "Ogun State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Ogun Approves ₦50,000 Welfare Palliative for 3,050 NYSC Corps Members and Donates 500 Mattresses",
+    "psi": 8.0,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Ogun Approves ₦50,000 Welfare Palliative for 3,050 NYSC Corps Members and Donates 500 Mattresses",
+      "whatHappened": "Governor Dapo Abiodun approved a ₦50,000 cash palliative for each of the 3,050 NYSC Batch C Stream I corps members in Sagamu and donated 500 mattresses to improve camp facilities.",
+      "whyItMatters": "This 8.0 PSI High Signal welfare disbursement supports youth social inclusion, easing economic pressures for corps members serving in public sectors."
+    },
+    "intent": "Supporting youth welfare, easing economic inflation for public service volunteers, and upgrading orientation infrastructure."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "ADAMAWA",
+    "stateName": "Adamawa State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Gov Fintiri Appoints Prof Ibrahim Danjuma New Rector For Adamawa State Polytechnic",
+    "psi": 7.8,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Gov Fintiri Appoints Prof Ibrahim Danjuma New Rector For Adamawa State Polytechnic",
+      "whatHappened": "Governor Ahmadu Umaru Fintiri approved the appointment of Professor Ibrahim Danjuma as the new Rector of Adamawa State Polytechnic, Yola, charging him to drive academic discipline and technological innovation.",
+      "whyItMatters": "This 7.8 PSI High Signal administrative decision strengthens tertiary institutional leadership, aligning technical education with state development priorities."
+    },
+    "intent": "Restructuring tertiary education administration, enforcing academic discipline, and driving technological innovation."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "GOMBE",
+    "stateName": "Gombe State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "Governor Inuwa Yahaya Appoints Rev. Wakil Joel Phillip as Executive Secretary of Christian Pilgrims Welfare Board",
+    "psi": 7.5,
+    "intensity": "HIGH",
+    "momentum": "Advancing",
+    "impactMatrix": {
+      "headline": "Governor Inuwa Yahaya Appoints Rev. Wakil Joel Phillip as Executive Secretary of Christian Pilgrims Welfare Board",
+      "whatHappened": "Governor Muhammadu Inuwa Yahaya approved the appointment of Rev. Wakil Joel Phillip as the Executive Secretary of the Gombe State Christian Pilgrims Welfare Board to coordinate pilgrim affairs.",
+      "whyItMatters": "This 7.5 PSI High Signal appointment maintains administrative efficiency and inter-faith harmony within state public service structures."
+    },
+    "intent": "Optimizing public administrative boards, facilitating religious welfare services, and promoting social harmony."
+  },
+  {
+    "dayNumber": 22,
+    "stateKey": "KADUNA",
+    "stateName": "Kaduna State",
+    "displayDate": "Thursday, October 22, 2026",
+    "headline": "KADSUBEB Issues Disclaimer on False Teacher Recruitment Information",
+    "psi": 5.0,
+    "intensity": "MODERATE",
+    "momentum": "Consolidating",
+    "impactMatrix": {
+      "headline": "KADSUBEB Issues Disclaimer on False Teacher Recruitment Information",
+      "whatHappened": "Kaduna State Universal Basic Education Board (KADSUBEB) issued an official disclaimer alerting the public to disregard false social media messages claiming the board was collecting CVs for recruitment.",
+      "whyItMatters": "This 5.0 PSI Moderate Signal institutional clarification safeguards public integrity, preventing recruitment fraud in basic education administration."
+    },
+    "intent": "Protecting public administration integrity, preventing recruitment fraud, and maintaining institutional transparency."
+  }
   ],
 
   "globalCodeData_B2": {
@@ -10327,6 +10519,305 @@
             "body": "Governor Siminalayi Fubara passed out 3,280 NYSC Batch C Stream I corps members at Nonwa-Gbam, urging selfless service and SAED post-camp participation."
           },
           "securityAnalysis": "Rivers State (8.0 PSI / High Signal / SIS 2.8 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains secure conditions for national youth orientation and host community integration."
+        }
+      ]
+    },
+    "22": {
+      "date": "2026-10-22",
+      "formattedDate": "October 22, 2026",
+      "metadata": {
+        "compositePsi": 8.1,
+        "activeJurisdictionsCount": 13,
+        "unlistedJurisdictionsCount": 24,
+        "unlistedNote": "The 24 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and public impact. Inspect full interactive scorecards at diplomantimes.com."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 13 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive momentum on October 22, 2026, recorded an 8.1 PSI average, led by Cross River's historic N987.8bn capital budget, Katsina's 30MW+ solar milestone, Abia's road flag-offs in Aba, and legislative approvals for State Police in Cross River and Delta."
+        },
+        "security": {
+          "title": "Subnational Advisory Profile Highlights Capital Expansion and Decentralized Police Governance",
+          "summary": "Comprehensive subnational risk analysis evaluating State Instability Scores, Investment Decision Profiles, and capital deployment across Nigeria's commercial, maritime, and agrarian corridors."
+        },
+        "policy": {
+          "title": "Subnational Executive Momentum Reaches 8.1 Composite Average Across Infrastructure, Climate, and Fiscal Reforms",
+          "summary": "Nigeria’s state executives record an 8.1 net PSI average, driven by capital expenditure budgeting, renewable energy rollouts, urban road reconstruction, and basic education quality assurance."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded an expansive performance during the reporting window ending October 22, 2026. The net Policy Signal Index settled at a composite average of 8.1, reflecting intense commitment to physical asset creation, fiscal transparency, renewable energy, and judicial infrastructure.",
+          "emergingPatterns": "The active reporting window demonstrates a shift toward high capital-to-recurrent budget ratios, state-level climate transition governance, and constitutional security decentralization. State governments are deploying capital infrastructure across urban transport, basic education, and healthcare while establishing legal frameworks for State Police.",
+          "strategicOutlook": "Sustaining subnational momentum will require strict civil service oversight, project delivery within stipulated timelines, and proactive risk mitigation. States combining fiscal discipline with grassroots capital projects will effectively absorb macro shocks.",
+          "conclusion": "The subnational governance landscape reflects measurable administrative progress. By grounding governance in public asset creation, climate resilience, and legislative security reform, subnational executives continue to strengthen economic development."
+        },
+        "security": {
+          "introduction": "The subnational investment and operational risk landscape for October 22, 2026, demonstrates high physical stability across major economic hubs. Through the compulsory B3 State Advisory Data framework, jurisdictions are evaluated using their Policy Signal Index, State Instability Score (SIS), Risk Indicator, and Investment Decision Profile.",
+          "emergingPatterns": "Security mapping indicates that southern maritime and financial hubs maintain stable SECURE (SIS < 3.0) environments ideal for long-term equity and municipal infrastructure investments. In contrast, northern agrarian corridors require active risk oversight (MONITORED: 3.0 <= SIS <= 6.5), where high yield in farming and mining is paired with tactical security personnel deployments.",
+          "strategicOutlook": "Corporate investors should prioritize jurisdictions combining high policy signals with secure transport corridors. Capital deployments in independent power, agricultural logistics, and urban infrastructure yield superior risk-adjusted returns when aligned with verified state priorities.",
+          "conclusion": "Navigating Nigeria’s subnational economy requires metric-backed evaluation. By aligning capital allocation with verified PSI and SIS ratings, institutional investors can capture growth while preserving capital."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Maritime, Aviation, and Commercial Transport Hubs",
+          "states": ["Lagos", "Abia"]
+        },
+        {
+          "groupTitle": "Coastal Energy, Security Alignment, and Reconciliation Corridors",
+          "states": ["Cross River", "Delta", "Edo"]
+        },
+        {
+          "groupTitle": "Agrarian Corridors, Health Security, and Public Infrastructure",
+          "states": ["Katsina", "Kebbi", "Adamawa", "Plateau"]
+        },
+        {
+          "groupTitle": "Frontier Security, Microfinance, and Emergency Protocols",
+          "states": ["Zamfara", "Ogun", "Gombe", "Kaduna"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Cross River",
+          "governor": "Bassey Otu",
+          "metrics": {
+            "psiScore": 9.3,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "C'RIVER 2027 BUDGET: GOV OTU PRESENTS ₦987.8bn ESTIMATES TO ASSEMBLY",
+          "impactVector": "Governor Otu presented a proposed N987.8 billion 2027 budget allocating N708.4 billion (71.72%) to capital projects, while the Assembly passed the State Police bill.",
+          "policyBreakdown": {
+            "category": "Capital Budget Expenditure and State Police Constitutional Legislation",
+            "body": "Cross River State Governor Bassey Edet Otu presented a N987.8 billion 2027 Appropriation Bill to the House of Assembly, committing 71.72% (N708.4bn) to capital infrastructure, healthcare, education, and the Bakassi Deep Seaport. Concurrently, the Assembly voted 22-0 to pass the State Police bill, earning an OPTIMUM SIGNAL (9.3 PSI / Accelerating Momentum)."
+          },
+          "securityAnalysis": "Cross River State (9.3 PSI / Optimum Signal / SIS 1.9 / SECURE / Growth-Oriented / Growth Beta Opportunity) offers low physical risk and high fiscal execution capacity."
+        },
+        {
+          "state": "Katsina",
+          "governor": "Dikko Umaru Radda",
+          "metrics": {
+            "psiScore": 9.2,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 4.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Katsina Hits Over 30MW Renewable Energy Milestone as Governor Radda Unveils State Climate Policy",
+          "impactVector": "Governor Radda launched the Katsina State Climate Change Policy in Abuja, disclosing 30MW+ active solar capacity toward a 70MW target by 2031.",
+          "policyBreakdown": {
+            "category": "State Climate Policy Framework and Renewable Solar Deployment",
+            "body": "Katsina State Governor Dikko Umaru Radda unveiled the state Climate Change Policy in Abuja, announcing over 30MW deployed solar capacity, an 11-million tree planting drive, and a ₦7.6bn solar street-lighting rollout across 85km. This generated an OPTIMUM SIGNAL (9.2 PSI / Accelerating Momentum)."
+          },
+          "securityAnalysis": "Katsina State (9.2 PSI / Optimum Signal / SIS 4.1 / MONITORED / Growth-Oriented / Expansion with Optimization) demonstrates strong climate leadership alongside monitored rural security."
+        },
+        {
+          "state": "Abia",
+          "governor": "Alex Otti",
+          "metrics": {
+            "psiScore": 9.0,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov Otti Flags Off Reconstruction of Uratta and Old Express Roads in Aba; Announces 10 New Courthouses",
+          "impactVector": "Governor Otti flagged off the reconstruction of Uratta and Old Express roads in Aba under ABSIID and announced 10 new courthouses.",
+          "policyBreakdown": {
+            "category": "Urban Road Reconstruction and Judicial Infrastructure Modernization",
+            "body": "Abia State Governor Alex Otti flagged off the reconstruction of the 3.1km Uratta Road and 3.95km Old Express Road in Aba under the AfDB/IsDB-backed ABSIID project, resolving a 25-year infrastructure breakdown. He also announced 10 new ultra-modern courthouses, earning an OPTIMUM SIGNAL (9.0 PSI / Accelerating Momentum)."
+          },
+          "securityAnalysis": "Abia State (9.0 PSI / Optimum Signal / SIS 2.9 / SECURE / Growth-Oriented / Growth Beta Opportunity) displays solid commercial infrastructure recovery and low operational risk."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "LAGOS OEQA SEEKS GLOBAL BEST PRACTICES TO STRENGTHEN EDUCATION QUALITY ASSURANCE",
+          "impactVector": "Lagos State partnered with Finnish education experts to introduce digital monitoring, school self-evaluation, and teacher training.",
+          "policyBreakdown": {
+            "category": "Education Quality Assurance Reform and International Teacher Capacity Building",
+            "body": "Lagos State Ministry of Basic Education and OEQA hosted Finnish education experts to benchmark global best practices, proposing digital monitoring, school self-evaluation, and teacher capacity building across post-primary schools (8.7 PSI / High Signal / Advancing Momentum)."
+          },
+          "securityAnalysis": "Lagos State (8.7 PSI / High Signal / SIS 1.2 / SECURE / High-Alpha / Prime Alpha Opportunity) maintains exceptional commercial stability and institutional execution capacity."
+        },
+        {
+          "state": "Kebbi",
+          "governor": "Nasir Idris",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov Idris Flags Off Construction of 102km Unguwar Jeji–Diggi–Maidahini and Bunza–Makera Rural Roads",
+          "impactVector": "Governor Idris flagged off 102km of rural roads to connect agricultural communities to commercial markets.",
+          "policyBreakdown": {
+            "category": "Rural Transport Infrastructure Expansion and Agrarian Enablement",
+            "body": "Kebbi State Governor Nasir Idris flagged off 102 kilometers of rural road construction across Kalgo and Bunza LGAs to support agricultural transport and economic connectivity (8.6 PSI / High Signal / Advancing Momentum)."
+          },
+          "securityAnalysis": null
+        },
+        {
+          "state": "Delta",
+          "governor": "Sheriff Oborevwori",
+          "metrics": {
+            "psiScore": 8.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Delta State House of Assembly Approves Proposed Sixth Alteration Bill for State Police",
+          "impactVector": "Delta Assembly unanimously approved the State Police constitutional bill with 23 votes.",
+          "policyBreakdown": {
+            "category": "Constitutional Security Legislation and Localized Policing Framework",
+            "body": "Delta State House of Assembly passed the 6th Alteration Bill to the 1999 Constitution to establish State Police Services, transmitting the resolution to the National Assembly (8.5 PSI / High Signal / Advancing Momentum)."
+          },
+          "securityAnalysis": "Delta State (8.5 PSI / High Signal / SIS 2.6 / SECURE / High-Alpha / Prime Alpha Opportunity) reinforces maritime asset safety through proactive legislative security reforms."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 8.4,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.8,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Zamfara Govt Unveils Fresh Security Measures, Trains 1,000 Forest Guards and Deploys 25 APCs",
+          "impactVector": "Zamfara State deployed 1,000 Forest Guards, 150 Hilux vans, 25 APCs, and drones to secure rural communities.",
+          "policyBreakdown": null,
+          "securityAnalysis": "Zamfara State (8.4 PSI / High Signal / SIS 4.8 / MONITORED / Defensive-Growth / Value with Stabilization) actively mitigates security threats through rural tactical deployments."
+        },
+        {
+          "state": "Plateau",
+          "governor": "Caleb Mutfwang",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.6,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Plateau Free Medical Outreach Records Impact in Shendam and Mangu as Beneficiary Names Baby Caleb",
+          "impactVector": "Free medical outreach delivered surgeries and clinical care to indigent families across Shendam and Mangu LGAs.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
+        },
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 8.2,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Edo State Seeks Partnership With Netherlands On Climate Change, Biodiversity and Oil Palm Sustainability",
+          "impactVector": "Environment Ministry engaged Netherlands Embassy on forestry conservation, EdoFEWMA erosion control, and NISCOPS smallholder oil palm programs.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
+        },
+        {
+          "state": "Ogun",
+          "governor": "Dapo Abiodun",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Ogun Approves ₦50,000 Welfare Palliative for 3,050 NYSC Corps Members and Donates 500 Mattresses",
+          "impactVector": "Ogun State disbursed ₦50,000 to each of 3,050 NYSC corps members and donated 500 mattresses to the Sagamu orientation camp.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 7.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov Fintiri Appoints Prof Ibrahim Danjuma New Rector For Adamawa State Polytechnic",
+          "impactVector": "Governor Fintiri appointed Prof. Ibrahim Danjuma as Polytechnic Rector and partnered with Ethics Corps on public ethics.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 7.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Governor Inuwa Yahaya Appoints Rev. Wakil Joel Phillip as Executive Secretary of Christian Pilgrims Welfare Board",
+          "impactVector": "Governor Inuwa Yahaya appointed Rev. Wakil Joel Phillip to lead the Christian Pilgrims Welfare Board.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
+        },
+        {
+          "state": "Kaduna",
+          "governor": "Uba Sani",
+          "metrics": {
+            "psiScore": 5.0,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Consolidating",
+            "sisScore": 3.8,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "KADSUBEB Issues Disclaimer on False Teacher Recruitment Information",
+          "impactVector": "KADSUBEB alerted the public against fraudulent social media recruitment claims.",
+          "policyBreakdown": null,
+          "securityAnalysis": null
         }
       ]
     }
@@ -18083,6 +18574,524 @@
     "sis": 3.6,
     "focus": "Routine Agricultural Administration and Security Surveillance",
     "dailyBrief": "Maintained baseline public service operations and routine inter-community peace monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Cross River",
+    "zone": "South-South",
+    "psi": 9.3,
+    "sis": 1.9,
+    "focus": "N987.8bn 2027 Capital Budget Presentation & State Police Legislation",
+    "dailyBrief": "Presented proposed N987.8bn 2027 budget allocating N708.4bn (71.72%) to capital projects, while Assembly passed State Police bill and launched Climate Transition Plan.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Katsina",
+    "zone": "North-West",
+    "psi": 9.2,
+    "sis": 4.1,
+    "focus": "30MW+ Renewable Energy Milestone & State Climate Change Policy",
+    "dailyBrief": "Unveiled Climate Change Policy in Abuja, disclosing 30MW+ solar capacity deployed toward 70MW target, ₦7.6bn solar lighting, and 11M tree initiative.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Abia",
+    "zone": "South-East",
+    "psi": 9.0,
+    "sis": 2.9,
+    "focus": "ABSIID Uratta & Old Express Road Flag-Offs & 10 New Courthouses",
+    "dailyBrief": "Flagged off reconstruction of 3.1km Uratta and 3.95km Old Express roads in Aba under AfDB/IsDB project, and announced 10 ultra-modern courthouses.",
+    "psiSignalLevel": "OPTIMUM SIGNAL",
+    "psiMomentum": "Accelerating",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Lagos",
+    "zone": "South-West",
+    "psi": 8.7,
+    "sis": 1.2,
+    "focus": "Education Quality Assurance Reform & Finnish Teacher Training Partnership",
+    "dailyBrief": "Hosted Finnish education experts at OEQA roundtable to benchmark digital monitoring, school self-evaluation, and post-primary teacher capacity building.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Kebbi",
+    "zone": "North-West",
+    "psi": 8.6,
+    "sis": 2.7,
+    "focus": "102km Unguwar Jeji–Diggi–Maidahini and Bunza–Makera Rural Roads",
+    "dailyBrief": "Flagged off construction of two rural roads spanning 102km to connect agrarian communities to commercial markets and ease agricultural transit.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Delta",
+    "zone": "South-South",
+    "psi": 8.5,
+    "sis": 2.6,
+    "focus": "Unanimous Legislative Approval of 6th Alteration State Police Bill",
+    "dailyBrief": "State Assembly passed 1999 Constitution Sixth Alteration Bill with 23 votes to establish State Police, transmitting resolution to National Assembly.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Zamfara",
+    "zone": "North-West",
+    "psi": 8.4,
+    "sis": 4.8,
+    "focus": "1,000 Forest Guards Training, 25 APCs & Dry-Season Anti-Bandit Operations",
+    "dailyBrief": "Announced training of 1,000 Forest Guards, deployment of 150 Hilux vans, 25 APCs, and drones to secure rural farming communities against banditry.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Plateau",
+    "zone": "North-Central",
+    "psi": 8.3,
+    "sis": 3.6,
+    "focus": "Free Medical Outreach & Surgical Interventions in Shendam & Mangu",
+    "dailyBrief": "Delivered free surgical operations, consultations, and emergency Caesarean sections across Shendam and Mangu General Hospitals for indigent residents.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Edo",
+    "zone": "South-South",
+    "psi": 8.2,
+    "sis": 2.4,
+    "focus": "Netherlands Bilateral Climate Partnership & Oil & Gas Dispute Mediation",
+    "dailyBrief": "Engaged Netherlands Consul-General on EdoFEWMA erosion control and NISCOPS smallholder oil palm, while mediating Urhonigbe-Platform Petroleum dispute.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Ogun",
+    "zone": "South-West",
+    "psi": 8.0,
+    "sis": 1.4,
+    "focus": "₦50,000 Welfare Palliative for 3,050 NYSC Corps Members & 500 Mattresses",
+    "dailyBrief": "Approved ₦50,000 direct cash palliative for each of 3,050 NYSC corps members in Sagamu orientation camp and donated 500 mattresses.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Adamawa",
+    "zone": "North-East",
+    "psi": 7.8,
+    "sis": 3.2,
+    "focus": "Polytechnic Rector Appointment & Community Ethics Partnership",
+    "dailyBrief": "Appointed Prof. Ibrahim Danjuma as Adamawa State Polytechnic Rector and partnered with Ethics Corps on public ethics and environmental compliance.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Gombe",
+    "zone": "North-East",
+    "psi": 7.5,
+    "sis": 2.1,
+    "focus": "Executive Secretary Appointment for Christian Pilgrims Welfare Board",
+    "dailyBrief": "Appointed Rev. Wakil Joel Phillip as Executive Secretary of the Gombe State Christian Pilgrims Welfare Board to coordinate pilgrim welfare.",
+    "psiSignalLevel": "HIGH SIGNAL",
+    "psiMomentum": "Advancing",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Kaduna",
+    "zone": "North-West",
+    "psi": 5.0,
+    "sis": 3.8,
+    "focus": "KADSUBEB Public Disclaimer on Fraudulent Teacher Recruitment",
+    "dailyBrief": "Issued an official public alert disclaiming false social media rumors regarding CV collection for basic education teacher recruitment.",
+    "psiSignalLevel": "MODERATE SIGNAL",
+    "psiMomentum": "Consolidating",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "FCT Abuja",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Routine Administrative Operations and Municipal Infrastructure",
+    "dailyBrief": "Maintained routine administrative processes and baseline public infrastructure maintenance across the territory.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Akwa Ibom",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Administrative Processes and Coastal Monitoring",
+    "dailyBrief": "Maintained standard administrative operations and baseline maritime logistics monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Anambra",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.1,
+    "focus": "Routine Public Sector Administration and Market Security Patrols",
+    "dailyBrief": "Maintained standard civil service bureaucracy and routine commercial zone security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Bauchi",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 2.3,
+    "focus": "Routine Administrative Operations and Civil Service Bureaucracy",
+    "dailyBrief": "Maintained routine public service operations and standard rural development monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Bayelsa",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.7,
+    "focus": "Routine Executive Governance and Maritime Security Oversight",
+    "dailyBrief": "Maintained baseline administrative governance and standard coastal security surveillance.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Benue",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 3.9,
+    "focus": "Routine Agrarian Administrative Operations",
+    "dailyBrief": "Maintained baseline agrarian administration and routine state civil service bureaucracy.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Borno",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 5.2,
+    "focus": "Routine Resettlement and Regional Security Surveillance",
+    "dailyBrief": "Maintained routine humanitarian coordination and standard regional security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Ebonyi",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.5,
+    "focus": "Routine Public Service Administration and Grassroots Governance",
+    "dailyBrief": "Maintained baseline civil service administration and standard local council oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Ekiti",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.5,
+    "focus": "Routine Public Administration and Civil Service Operations",
+    "dailyBrief": "Maintained routine public service processes and baseline social service monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Enugu",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 2.2,
+    "focus": "Routine Civil Service Operations and Municipal Oversight",
+    "dailyBrief": "Maintained standard civil service operations and routine public infrastructure oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Imo",
+    "zone": "South-East",
+    "psi": 3.0,
+    "sis": 3.4,
+    "focus": "Routine Civil Service Bureaucracy and Security Oversight",
+    "dailyBrief": "Maintained standard public sector processes and routine urban security monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Expansion with Optimization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Jigawa",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 1.8,
+    "focus": "Routine Agrarian Administrative Oversight and Public Works",
+    "dailyBrief": "Maintained baseline agricultural administration and standard civil service governance.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Kano",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 2.1,
+    "focus": "Routine Commercial Zone Monitoring and Administrative Operations",
+    "dailyBrief": "Maintained routine civil service operations and standard commercial zone oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Kogi",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Civil Service Bureaucracy and Transport Security",
+    "dailyBrief": "Maintained baseline civil service administration and routine highway security patrols.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Kwara",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Routine Public Governance and Educational Monitoring",
+    "dailyBrief": "Maintained baseline public service operations and standard educational monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Nasarawa",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 2.6,
+    "focus": "Routine Mining Corridor Oversight and Civil Service Management",
+    "dailyBrief": "Maintained standard public sector operations and routine mineral site oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Niger",
+    "zone": "North-Central",
+    "psi": 3.0,
+    "sis": 4.0,
+    "focus": "Routine Agricultural Oversight and Security Monitoring",
+    "dailyBrief": "Maintained standard state civil service bureaucracy and routine security patrol coordination.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Ondo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Routine Executive Administration and Health Surveillance",
+    "dailyBrief": "Maintained standard public health oversight and routine executive governance.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Osun",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.6,
+    "focus": "Routine Governance Operations and Civil Service Management",
+    "dailyBrief": "Maintained baseline state civil service operations and standard public service oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Emerging Gamma Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Oyo",
+    "zone": "South-West",
+    "psi": 3.0,
+    "sis": 1.7,
+    "focus": "Routine Municipal Governance and Infrastructure Oversight",
+    "dailyBrief": "Maintained standard civil service bureaucracy and routine municipal infrastructure monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "Growth-Oriented",
+    "investmentDecision": "Growth Beta Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Rivers",
+    "zone": "South-South",
+    "psi": 3.0,
+    "sis": 2.8,
+    "focus": "Routine Executive Governance and Maritime Logistics Surveillance",
+    "dailyBrief": "Maintained baseline public sector administration and standard maritime industrial security.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "SECURE",
+    "alphaProfile": "High-Alpha",
+    "investmentDecision": "Prime Alpha Opportunity"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Sokoto",
+    "zone": "North-West",
+    "psi": 3.0,
+    "sis": 4.2,
+    "focus": "Routine Border Administrative Oversight and Security Monitoring",
+    "dailyBrief": "Maintained baseline civil service administration and routine border security oversight.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Taraba",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 3.6,
+    "focus": "Routine Agricultural Administration and Security Surveillance",
+    "dailyBrief": "Maintained baseline public service operations and routine inter-community peace monitoring.",
+    "psiSignalLevel": "BASELINE SIGNAL",
+    "psiMomentum": "Stable",
+    "sisStatus": "MONITORED",
+    "alphaProfile": "Defensive-Growth",
+    "investmentDecision": "Value with Stabilization"
+  },
+  {
+    "dayNumber": 22,
+    "stateName": "Yobe",
+    "zone": "North-East",
+    "psi": 3.0,
+    "sis": 4.5,
+    "focus": "Routine Public Service Governance and Microfinance Monitoring",
+    "dailyBrief": "Maintained baseline civil service operations and standard rural financial inclusion monitoring.",
     "psiSignalLevel": "BASELINE SIGNAL",
     "psiMomentum": "Stable",
     "sisStatus": "MONITORED",
