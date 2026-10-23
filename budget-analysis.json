@@ -1,159 +1,164 @@
-{
-  "jurisdiction": "Jigawa State",
-  "releaseDate": "2026-08-17",
-  "badge": "SEC Release",
-  "financialType": "Capital Allocation Release",
-  "totalCapitalPool": 3448763103.93,
-  "macroSectorBreakdown": {
-    "Agriculture": 15,
-    "Roads & Mobility": 32,
-    "Infrastructure": 12,
-    "Housing & Welfare": 26,
-    "Empowerment": 15
-  },
-  "lineItems": [
-    {
-      "id": "JIG-01",
-      "title": "Settlement of 2026 National Examination Registration Charges",
-      "sector": "Empowerment",
-      "budget": 1056213457.5,
-      "area": "Statewide",
-      "details": "Payment of outstanding 2026 national examination registration fees covering NECO, NABTEB, and NBAIS examinations for eligible students.",
-      "metricMultiplier": {
-        "label": "Students Sponsored",
-        "unit": "Students",
-        "ratioPerBillion": 38070
-      }
+[
+  {
+    "jurisdiction": "Jigawa State",
+    "releaseDate": "2026-08-17",
+    "badge": "SEC Release",
+    "financialType": "Capital Allocation Release",
+    "totalCapitalPool": 3448763103.93,
+    "macroSectorBreakdown": {
+      "Agriculture": 15,
+      "Roads & Mobility": 32,
+      "Infrastructure": 12,
+      "Housing & Welfare": 26,
+      "Empowerment": 15
     },
-    {
-      "id": "JIG-02",
-      "title": "Limintani-Kagadama Road Culverts and Drainage Construction",
-      "sector": "Roads & Mobility",
-      "budget": 748730659.51,
-      "area": "Babura LGA",
-      "details": "Construction of access road culverts and drainage infrastructure to mitigate flooding and protect road infrastructure.",
-      "metricMultiplier": {
-        "label": "Drainage Projects",
-        "unit": "Units",
-        "ratioPerBillion": 1.34
-      }
-    },
-    {
-      "id": "JIG-03",
-      "title": "Sponsorship for Indigenes at Near East University, Cyprus",
-      "sector": "Housing & Welfare",
-      "budget": 891660000.0,
-      "area": "Statewide",
-      "details": "Payment of tuition, administrative fees, accommodation, and living allowances for 193 Jigawa indigenes studying Medical and Applied Medical Sciences.",
-      "metricMultiplier": {
-        "label": "Students Funded",
-        "unit": "Students",
-        "ratioPerBillion": 216
-      }
-    },
-    {
-      "id": "JIG-04",
-      "title": "Renovation of Dilapidated Classroom Blocks",
-      "sector": "Infrastructure",
-      "budget": 405160444.14,
-      "area": "Statewide",
-      "details": "Rehabilitation and renovation of dilapidated classroom blocks under the 2026 Capital Development Programme.",
-      "metricMultiplier": {
-        "label": "Classroom Interventions",
-        "unit": "Units",
-        "ratioPerBillion": 2.47
-      }
-    },
-    {
-      "id": "JIG-05",
-      "title": "Sansani-Ganau-Samai Road Culverts and Drainage Construction",
-      "sector": "Roads & Mobility",
-      "budget": 346998542.78,
-      "area": "Miga LGA",
-      "details": "Construction of access road culverts and drainage infrastructure along Sansani-Ganau-Samai Road with a 16-week completion period.",
-      "metricMultiplier": {
-        "label": "Drainage Projects",
-        "unit": "Units",
-        "ratioPerBillion": 2.88
+    "lineItems": [
+      {
+        "id": "JIG-01",
+        "title": "Settlement of 2026 National Examination Registration Charges",
+        "sector": "Empowerment",
+        "budget": 1056213457.5,
+        "area": "Statewide",
+        "details": "Payment of outstanding 2026 national examination registration fees covering NECO, NABTEB, and NBAIS examinations for eligible students.",
+        "metricMultiplier": {
+          "label": "Students Sponsored",
+          "unit": "Students",
+          "ratioPerBillion": 38070
+        }
       },
       {
-  "jurisdiction": "Katsina State",
-  "releaseDate": "2026-09-08",
-  "badge": "2027 Appropriation Bill",
-  "financialType": "Statutory Budget",
-  "totalCapitalPool": 637910000000.00,
-  "macroSectorBreakdown": {
-    "Agriculture": 20.00,
-    "Roads & Mobility": 25.00,
-    "Infrastructure": 25.00,
-    "Housing & Welfare": 20.00,
-    "Empowerment": 10.00
+        "id": "JIG-02",
+        "title": "Limintani-Kagadama Road Culverts and Drainage Construction",
+        "sector": "Roads & Mobility",
+        "budget": 748730659.51,
+        "area": "Babura LGA",
+        "details": "Construction of access road culverts and drainage infrastructure to mitigate flooding and protect road infrastructure.",
+        "metricMultiplier": {
+          "label": "Drainage Projects",
+          "unit": "Units",
+          "ratioPerBillion": 1.34
+        }
+      },
+      {
+        "id": "JIG-03",
+        "title": "Sponsorship for Indigenes at Near East University, Cyprus",
+        "sector": "Housing & Welfare",
+        "budget": 891660000.0,
+        "area": "Statewide",
+        "details": "Payment of tuition, administrative fees, accommodation, and living allowances for 193 Jigawa indigenes studying Medical and Applied Medical Sciences.",
+        "metricMultiplier": {
+          "label": "Students Funded",
+          "unit": "Students",
+          "ratioPerBillion": 216
+        }
+      },
+      {
+        "id": "JIG-04",
+        "title": "Renovation of Dilapidated Classroom Blocks",
+        "sector": "Infrastructure",
+        "budget": 405160444.14,
+        "area": "Statewide",
+        "details": "Rehabilitation and renovation of dilapidated classroom blocks under the 2026 Capital Development Programme.",
+        "metricMultiplier": {
+          "label": "Classroom Interventions",
+          "unit": "Units",
+          "ratioPerBillion": 2.47
+        }
+      },
+      {
+        "id": "JIG-05",
+        "title": "Sansani-Ganau-Samai Road Culverts and Drainage Construction",
+        "sector": "Roads & Mobility",
+        "budget": 346998542.78,
+        "area": "Miga LGA",
+        "details": "Construction of access road culverts and drainage infrastructure along Sansani-Ganau-Samai Road with a 16-week completion period.",
+        "metricMultiplier": {
+          "label": "Drainage Projects",
+          "unit": "Units",
+          "ratioPerBillion": 2.88
+        }
+      }
+    ]
   },
-  "lineItems": [
-    {
-      "id": "KAT-01",
-      "title": "Works and Housing Infrastructure Development",
-      "sector": "Roads & Mobility",
-      "budget": 71600000000.00,
-      "area": "Statewide",
-      "details": "Construction and expansion of urban renewal road networks, state highways, and public housing development projects.",
-      "metricMultiplier": {
-        "label": "Roads Paved",
-        "unit": "km",
-        "ratioPerBillion": 2.5
-      }
+  {
+    "jurisdiction": "Katsina State",
+    "releaseDate": "2026-09-08",
+    "badge": "2027 Appropriation Bill",
+    "financialType": "Statutory Budget",
+    "totalCapitalPool": 637910000000.0,
+    "macroSectorBreakdown": {
+      "Agriculture": 20.0,
+      "Roads & Mobility": 25.0,
+      "Infrastructure": 25.0,
+      "Housing & Welfare": 20.0,
+      "Empowerment": 10.0
     },
-    {
-      "id": "KAT-02",
-      "title": "Basic and Higher Education Expansion",
-      "sector": "Housing & Welfare",
-      "budget": 83820000000.00,
-      "area": "Statewide",
-      "details": "Constructing and rehabilitating classroom infrastructure, funding student scholarship programs, and upgrading model schools.",
-      "metricMultiplier": {
-        "label": "Classrooms Upgraded",
-        "unit": "Units",
-        "ratioPerBillion": 12.0
+    "lineItems": [
+      {
+        "id": "KAT-01",
+        "title": "Works and Housing Infrastructure Development",
+        "sector": "Roads & Mobility",
+        "budget": 71600000000.0,
+        "area": "Statewide",
+        "details": "Construction and expansion of urban renewal road networks, state highways, and public housing development projects.",
+        "metricMultiplier": {
+          "label": "Roads Paved",
+          "unit": "km",
+          "ratioPerBillion": 2.5
+        }
+      },
+      {
+        "id": "KAT-02",
+        "title": "Basic and Higher Education Expansion",
+        "sector": "Housing & Welfare",
+        "budget": 83820000000.0,
+        "area": "Statewide",
+        "details": "Constructing and rehabilitating classroom infrastructure, funding student scholarship programs, and upgrading model schools.",
+        "metricMultiplier": {
+          "label": "Classrooms Upgraded",
+          "unit": "Units",
+          "ratioPerBillion": 12.0
+        }
+      },
+      {
+        "id": "KAT-03",
+        "title": "Agriculture and Livestock Enhancement",
+        "sector": "Agriculture",
+        "budget": 65880000000.0,
+        "area": "Statewide",
+        "details": "Procurement and distribution of fertilizer, irrigation development initiatives, and livestock value chain expansion.",
+        "metricMultiplier": {
+          "label": "Farmers Reached",
+          "unit": "Farmers",
+          "ratioPerBillion": 1500.0
+        }
+      },
+      {
+        "id": "KAT-04",
+        "title": "Healthcare Facilities & Emergency Systems",
+        "sector": "Infrastructure",
+        "budget": 53640000000.0,
+        "area": "Statewide",
+        "details": "Equipping primary, secondary, and tertiary health institutions, alongside expanding the State Emergency Medical Service.",
+        "metricMultiplier": {
+          "label": "Health Facilities Upgraded",
+          "unit": "Units",
+          "ratioPerBillion": 4.0
+        }
+      },
+      {
+        "id": "KAT-05",
+        "title": "361-Ward Community Grassroots Special Projects",
+        "sector": "Empowerment",
+        "budget": 50510000000.0,
+        "area": "361 Wards",
+        "details": "Targeted rural development interventions selected directly by residents during the Citizens' Budget Exercise across all wards.",
+        "metricMultiplier": {
+          "label": "Ward Interventions Funded",
+          "unit": "Projects",
+          "ratioPerBillion": 7.2
+        }
       }
-    },
-    {
-      "id": "KAT-03",
-      "title": "Agriculture and Livestock Enhancement",
-      "sector": "Agriculture",
-      "budget": 65880000000.00,
-      "area": "Statewide",
-      "details": "Procurement and distribution of fertilizer, irrigation development initiatives, and livestock value chain expansion.",
-      "metricMultiplier": {
-        "label": "Farmers Reached",
-        "unit": "Farmers",
-        "ratioPerBillion": 1500.0
-      }
-    },
-    {
-      "id": "KAT-04",
-      "title": "Healthcare Facilities & Emergency Systems",
-      "sector": "Infrastructure",
-      "budget": 53640000000.00,
-      "area": "Statewide",
-      "details": "Equipping primary, secondary, and tertiary health institutions, alongside expanding the State Emergency Medical Service.",
-      "metricMultiplier": {
-        "label": "Health Facilities Upgraded",
-        "unit": "Units",
-        "ratioPerBillion": 4.0
-      }
-    },
-    {
-      "id": "KAT-05",
-      "title": "361-Ward Community Grassroots Special Projects",
-      "sector": "Empowerment",
-      "budget": 50510000000.00,
-      "area": "361 Wards",
-      "details": "Targeted rural development interventions selected directly by residents during the Citizens' Budget Exercise across all wards.",
-      "metricMultiplier": {
-        "label": "Ward Interventions Funded",
-        "unit": "Projects",
-        "ratioPerBillion": 7.2
-      }
-    }
-  ]
-}
+    ]
+  }
+]
