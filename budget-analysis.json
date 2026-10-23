@@ -1,29 +1,148 @@
-{
-  "jurisdiction": "[State Name or FCT Abuja]",
-  "releaseDate": "2026-10-01",
-  "badge": "[e.g. Executive Approvals, Supplementary Bill, SEC Release]",
-  "financialType": "[e.g. Capital Allocation Release, Statutory Budget]",
-  "totalCapitalPool": 0,
-  "macroSectorBreakdown": {
-    "Agriculture": 0,
-    "Roads & Mobility": 0,
-    "Infrastructure": 0,
-    "Housing & Welfare": 0,
-    "Empowerment": 0
-  },
-  "lineItems": [
-    {
-      "id": "[3-LETTER-CODE]-01",
-      "title": "[Project / Initiative Title]",
-      "sector": "[Sector Name]",
-      "budget": 0,
-      "area": "[Specific LGA / City / Statewide]",
-      "details": "[Concise 1-2 sentence description of the project scope.]",
-      "metricMultiplier": {
-        "label": "[e.g. Farmers Reached, Roads Paved, Solar Lights]",
-        "unit": "[e.g. Farmers, km, Units, Stalls]",
-        "ratioPerBillion": 0
+[
+  {
+    "jurisdiction": "Katsina State",
+    "releaseDate": "2026-10-23",
+    "badge": "2027 Appropriation Bill",
+    "financialType": "Statutory Budget",
+    "totalCapitalPool": 638051909950.44,
+    "macroSectorBreakdown": {
+      "Economic Affairs": 44,
+      "Housing & Community Amenities": 24,
+      "Education": 0,
+      "Health": 0,
+      "General Public Services": 16,
+      "Social Protection": 16,
+      "Environmental Protection": 0,
+      "Public Order & Safety": 0,
+      "Recreation, Culture & Religion": 0,
+      "Defense": 0
+    },
+    "lineItems": [
+      {
+        "id": "KAT-01",
+        "title": "Advanced Imaging and Cancer Centre Equipment Procurement",
+        "sector": "Housing & Community Amenities",
+        "budget": 15000000000.00,
+        "area": "GARSH, Katsina",
+        "details": "Equipping the Advanced Imaging and Cancer Centre with diagnostic, surgical, and radiation oncology systems alongside an 80-bed inpatient facility.",
+        "metricMultiplier": {
+          "label": "Specialized Hospital Beds Supported",
+          "unit": "Beds",
+          "ratioPerBillion": 5.33
+        }
+      },
+      {
+        "id": "KAT-02",
+        "title": "Asphaltic Road Construction at Rafukka Axis",
+        "sector": "Economic Affairs",
+        "budget": 3500000000.00,
+        "area": "Katsina Metropolis",
+        "details": "Reconstruction of the Rafukka axis road using asphaltic wearing course to combat stormwater erosion and stabilize urban supply chains.",
+        "metricMultiplier": {
+          "label": "Metropolitan Road Paved",
+          "unit": "km",
+          "ratioPerBillion": 1.43
+        }
+      },
+      {
+        "id": "KAT-03",
+        "title": "Hybrid Bus Intra-City Fleet Operations & Maintenance Infrastructure",
+        "sector": "Economic Affairs",
+        "budget": 4200000000.00,
+        "area": "Katsina, Daura & Funtua",
+        "details": "Rollout and operational management of 30 hybrid shuttle buses, solar-inverter microgrids, transformer substations, and digital fleet monitoring.",
+        "metricMultiplier": {
+          "label": "Hybrid Bus Operations Managed",
+          "unit": "Buses",
+          "ratioPerBillion": 7.14
+        }
       }
-    }
-  ]
-}
+    ]
+  },
+  {
+    "jurisdiction": "Cross River State",
+    "releaseDate": "2026-10-21",
+    "badge": "2027 Appropriation Bill",
+    "financialType": "Statutory Budget",
+    "totalCapitalPool": 708430000000.00,
+    "macroSectorBreakdown": {
+      "Economic Affairs": 50,
+      "Housing & Community Amenities": 0,
+      "Education": 18,
+      "Health": 15,
+      "General Public Services": 12,
+      "Social Protection": 5,
+      "Environmental Protection": 0,
+      "Public Order & Safety": 0,
+      "Recreation, Culture & Religion": 0,
+      "Defense": 0
+    },
+    "lineItems": [
+      {
+        "id": "CRR-01",
+        "title": "Statewide Transport Infrastructure & Road Development",
+        "sector": "Economic Affairs",
+        "budget": 246100000000.00,
+        "area": "Statewide",
+        "details": "Priority capital investment in state road construction, civil works, and public mobility infrastructure across Cross River State.",
+        "metricMultiplier": {
+          "label": "Infrastructure Development Coverage",
+          "unit": "Projects",
+          "ratioPerBillion": 1.25
+        }
+      },
+      {
+        "id": "CRR-02",
+        "title": "Universal Basic Education & School Facilities Upgrade",
+        "sector": "Education",
+        "budget": 99600000000.00,
+        "area": "Statewide",
+        "details": "Free primary to junior secondary education support, classroom construction, WAEC examination fee coverage, and vocational training expansion.",
+        "metricMultiplier": {
+          "label": "Students Sponsored & Supported",
+          "unit": "Students",
+          "ratioPerBillion": 438.7
+        }
+      },
+      {
+        "id": "CRR-03",
+        "title": "Healthcare Facilities & Nursing School Accreditation Upgrades",
+        "sector": "Health",
+        "budget": 85400000000.00,
+        "area": "Statewide",
+        "details": "Upgrading state-owned Schools of Nursing and Midwifery, expanding immunisation coverage, and funding secondary health facilities.",
+        "metricMultiplier": {
+          "label": "Health Interventions Funded",
+          "unit": "Facilities",
+          "ratioPerBillion": 2.1
+        }
+      },
+      {
+        "id": "CRR-04",
+        "title": "Aviation Fleet Integration & Regional Airport Expansion",
+        "sector": "Economic Affairs",
+        "budget": 21800000000.00,
+        "area": "Obudu & Calabar",
+        "details": "Integration of a fifth Bombardier CRJ jet into state aviation assets and accelerated construction of Obudu International Passenger and Cargo Airport.",
+        "metricMultiplier": {
+          "label": "Aviation Infrastructure Assets",
+          "unit": "Units",
+          "ratioPerBillion": 0.23
+        }
+      },
+      {
+        "id": "CRR-05",
+        "title": "Electric Vehicle Fleet Acquisition & Green Public Transit",
+        "sector": "Economic Affairs",
+        "budget": 16600000000.00,
+        "area": "Statewide",
+        "details": "Procurement of 730 electric vehicles, including metropolitan buses, tricycles, and motorcycles for clean public transportation.",
+        "metricMultiplier": {
+          "label": "EV Fleet Deployed",
+          "unit": "Vehicles",
+          "ratioPerBillion": 43.98
+        }
+      }
+    ]
+  }
+]
