@@ -1,69 +1,65 @@
 [
   {
     "jurisdiction": "Katsina State",
-    "activeReleaseType": "Annual Budget",
-    "releases": [
+    "releaseType": "Annual Budget",
+    "releaseDate": "2026-10-23",
+    "badge": "2027 Appropriation Bill",
+    "financialType": "Statutory Annual Budget",
+    "totalCapitalPool": 638051909950.44,
+    "dataSourceUrl": "Official Katsina State Government Press Release",
+    "macroSectorBreakdown": {
+      "Economic Affairs": 44,
+      "Housing & Community Amenities": 24,
+      "General Public Services": 16,
+      "Social Protection": 16,
+      "Education": 0,
+      "Health": 0,
+      "Environmental Protection": 0,
+      "Public Order & Safety": 0,
+      "Recreation, Culture & Religion": 0,
+      "Defense": 0
+    },
+    "lineItems": [
       {
-        "releaseType": "Annual Budget",
-        "releaseDate": "2026-10-23",
-        "badge": "2027 Appropriation Bill",
-        "financialType": "Statutory Annual Budget",
-        "totalCapitalPool": 638051909950.44,
-        "dataSourceUrl": "Official Katsina State Government Press Release",
-        "macroSectorBreakdown": {
-          "Economic Affairs": 44,
-          "Housing & Community Amenities": 24,
-          "General Public Services": 16,
-          "Social Protection": 16,
-          "Education": 0,
-          "Health": 0,
-          "Environmental Protection": 0,
-          "Public Order & Safety": 0,
-          "Recreation, Culture & Religion": 0,
-          "Defense": 0
-        },
-        "lineItems": [
-          {
-            "id": "KAT-AB-01",
-            "title": "Advanced Imaging and Cancer Centre Equipment Procurement",
-            "sector": "Housing & Community Amenities",
-            "budget": 15000000000.00,
-            "area": "GARSH, Katsina",
-            "details": "Equipping the Advanced Imaging and Cancer Centre with diagnostic systems.",
-            "metricMultiplier": { "label": "Specialized Hospital Beds Supported", "unit": "Beds", "ratioPerBillion": 5.33 }
-          }
-        ]
-      },
+        "id": "KAT-AB-01",
+        "title": "Advanced Imaging and Cancer Centre Equipment Procurement",
+        "sector": "Housing & Community Amenities",
+        "budget": 15000000000.00,
+        "area": "GARSH, Katsina",
+        "details": "Equipping the Advanced Imaging and Cancer Centre with diagnostic systems.",
+        "metricMultiplier": { "label": "Specialized Hospital Beds Supported", "unit": "Beds", "ratioPerBillion": 5.33 }
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Katsina State",
+    "releaseType": "Supplementary Budget",
+    "releaseDate": "2026-11-10",
+    "badge": "Supplementary Bill V1",
+    "financialType": "Supplementary Capital Release",
+    "totalCapitalPool": 42500000000.00,
+    "dataSourceUrl": "Official Katsina State Executive Council Gazette",
+    "macroSectorBreakdown": {
+      "Economic Affairs": 60,
+      "Health": 20,
+      "Education": 20,
+      "General Public Services": 0,
+      "Housing & Community Amenities": 0,
+      "Social Protection": 0,
+      "Environmental Protection": 0,
+      "Public Order & Safety": 0,
+      "Recreation, Culture & Religion": 0,
+      "Defense": 0
+    },
+    "lineItems": [
       {
-        "releaseType": "Supplementary Budget",
-        "releaseDate": "2026-11-10",
-        "badge": "Supplementary Bill V1",
-        "financialType": "Supplementary Capital Release",
-        "totalCapitalPool": 42500000000.00,
-        "dataSourceUrl": "Official Katsina State Executive Council Gazette",
-        "macroSectorBreakdown": {
-          "Economic Affairs": 60,
-          "Health": 20,
-          "Education": 20,
-          "General Public Services": 0,
-          "Housing & Community Amenities": 0,
-          "Social Protection": 0,
-          "Environmental Protection": 0,
-          "Public Order & Safety": 0,
-          "Recreation, Culture & Religion": 0,
-          "Defense": 0
-        },
-        "lineItems": [
-          {
-            "id": "KAT-SUP-01",
-            "title": "Emergency Rural Drainage and Culvert Infrastructure",
-            "sector": "Economic Affairs",
-            "budget": 25500000000.00,
-            "area": "Funtua & Daura LGAs",
-            "details": "Supplementary allocation for flood control and culvert expansion.",
-            "metricMultiplier": { "label": "Culverts Constructed", "unit": "Units", "ratioPerBillion": 2.4 }
-          }
-        ]
+        "id": "KAT-SUP-01",
+        "title": "Emergency Rural Drainage and Culvert Infrastructure",
+        "sector": "Economic Affairs",
+        "budget": 25500000000.00,
+        "area": "Funtua & Daura LGAs",
+        "details": "Supplementary allocation for flood control and culvert expansion.",
+        "metricMultiplier": { "label": "Culverts Constructed", "unit": "Units", "ratioPerBillion": 2.4 }
       }
     ]
   }
