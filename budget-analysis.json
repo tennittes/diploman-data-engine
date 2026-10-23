@@ -75,6 +75,84 @@
         "label": "Drainage Projects",
         "unit": "Units",
         "ratioPerBillion": 2.88
+      },
+      {
+  "jurisdiction": "Katsina State",
+  "releaseDate": "2026-09-08",
+  "badge": "2027 Appropriation Bill",
+  "financialType": "Statutory Budget",
+  "totalCapitalPool": 637910000000.00,
+  "macroSectorBreakdown": {
+    "Agriculture": 20.00,
+    "Roads & Mobility": 25.00,
+    "Infrastructure": 25.00,
+    "Housing & Welfare": 20.00,
+    "Empowerment": 10.00
+  },
+  "lineItems": [
+    {
+      "id": "KAT-01",
+      "title": "Works and Housing Infrastructure Development",
+      "sector": "Roads & Mobility",
+      "budget": 71600000000.00,
+      "area": "Statewide",
+      "details": "Construction and expansion of urban renewal road networks, state highways, and public housing development projects.",
+      "metricMultiplier": {
+        "label": "Roads Paved",
+        "unit": "km",
+        "ratioPerBillion": 2.5
+      }
+    },
+    {
+      "id": "KAT-02",
+      "title": "Basic and Higher Education Expansion",
+      "sector": "Housing & Welfare",
+      "budget": 83820000000.00,
+      "area": "Statewide",
+      "details": "Constructing and rehabilitating classroom infrastructure, funding student scholarship programs, and upgrading model schools.",
+      "metricMultiplier": {
+        "label": "Classrooms Upgraded",
+        "unit": "Units",
+        "ratioPerBillion": 12.0
+      }
+    },
+    {
+      "id": "KAT-03",
+      "title": "Agriculture and Livestock Enhancement",
+      "sector": "Agriculture",
+      "budget": 65880000000.00,
+      "area": "Statewide",
+      "details": "Procurement and distribution of fertilizer, irrigation development initiatives, and livestock value chain expansion.",
+      "metricMultiplier": {
+        "label": "Farmers Reached",
+        "unit": "Farmers",
+        "ratioPerBillion": 1500.0
+      }
+    },
+    {
+      "id": "KAT-04",
+      "title": "Healthcare Facilities & Emergency Systems",
+      "sector": "Infrastructure",
+      "budget": 53640000000.00,
+      "area": "Statewide",
+      "details": "Equipping primary, secondary, and tertiary health institutions, alongside expanding the State Emergency Medical Service.",
+      "metricMultiplier": {
+        "label": "Health Facilities Upgraded",
+        "unit": "Units",
+        "ratioPerBillion": 4.0
+      }
+    },
+    {
+      "id": "KAT-05",
+      "title": "361-Ward Community Grassroots Special Projects",
+      "sector": "Empowerment",
+      "budget": 50510000000.00,
+      "area": "361 Wards",
+      "details": "Targeted rural development interventions selected directly by residents during the Citizens' Budget Exercise across all wards.",
+      "metricMultiplier": {
+        "label": "Ward Interventions Funded",
+        "unit": "Projects",
+        "ratioPerBillion": 7.2
       }
     }
   ]
