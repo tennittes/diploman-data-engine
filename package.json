@@ -1,0 +1,9 @@
+{
+  "name": "diploman-football-stats",
+  "version": "1.0.0",
+  "description": "Scoring engine for Diploman Football Stats",
+  "main": "scripts/update_tables.js",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
