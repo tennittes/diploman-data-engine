@@ -22,7 +22,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function fetchAndCalculateDFS(leagueCode, competitionId) {
   try {
     const response = await axios.get(`https://api.football-data.org/v4/competitions/${competitionId}/matches`, {
-      headers: { 'X-Auth-Token': API_KEY }
+      headers: { 'a79fe1103d1346e9954ca7369cbbaf79': API_KEY }
     });
 
     const matches = response.data.matches.filter(m => m.status === 'FINISHED');
