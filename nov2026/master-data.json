@@ -1,0 +1,224 @@
+{
+        "dayNumber": 2,
+        "stateKey": "EBONYI",
+        "stateName": "Ebonyi State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Nwifuru Transmits Executive Bill Seeking Capital Punishment for Kidnapping at Funeral of Murdered Monarch",
+        "psi": 9.3,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gov. Nwifuru Transmits Executive Bill Seeking Capital Punishment for Kidnapping at Funeral of Murdered Monarch",
+          "whatHappened": "Gov. Francis Nwifuru announced during the funeral of HRH Eze Francis Igwe that an executive bill making kidnapping a capital offence has been transmitted to the House of Assembly.",
+          "whyItMatters": "Establishes a severe legislative security signal to deter violent crime and protect traditional institutions across the state."
+        },
+        "intent": "Deterring violent crimes, protecting traditional rulers, and hardening state security laws."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "ABUJA-FCT",
+        "stateName": "Federal Capital Territory",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "FCT Minister Wike Commissions Dunamis Pedestrian Bridge, Approves 50% CSR Refund & Backs LGAN Golf Championship",
+        "psi": 9.2,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "FCT Minister Wike Commissions Dunamis Pedestrian Bridge, Approves 50% CSR Refund & Backs LGAN Golf Championship",
+          "whatHappened": "FCT Minister Nyesom Wike commissioned a 10-lane pedestrian bridge built by Dunamis Church, offering a 50% refund, and allocated land and funds for LGAN.",
+          "whyItMatters": "Promotes public-private co-funding for urban infrastructure while elevating international sports tourism."
+        },
+        "intent": "Encouraging private infrastructure CSR, reducing pedestrian highway fatalities, and backing continental sports events."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "PLATEAU",
+        "stateName": "Plateau State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Plateau Bans Raw Agricultural Sales, Launches 'Plateau Potatoes' Brand, Cold Storage Units, and Trade Park Blueprint",
+        "psi": 9.1,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Plateau Bans Raw Agricultural Sales, Launches 'Plateau Potatoes' Brand, Cold Storage Units, and Trade Park Blueprint",
+          "whatHappened": "Plateau State declared an end to raw produce sales, launching processed 'Plateau Potatoes' branding, cold storage deployment, and an International Trade Park land committee.",
+          "whyItMatters": "Transforms agrarian primary production into high-value processed industrial exports to expand state revenues."
+        },
+        "intent": "Enforcing agro-industrial processing, stopping post-harvest losses, and attracting foreign trade investments."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "ZAMFARA",
+        "stateName": "Zamfara State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "EFCC Boss Praises Gov. Lawal's Governance; Security Neutralizes 30 Bandits; Gov. Presents SUVs to 19 Emirs",
+        "psi": 8.8,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "EFCC Boss Praises Gov. Lawal's Governance; Security Neutralizes 30 Bandits; Gov. Presents SUVs to 19 Emirs",
+          "whatHappened": "EFCC Chairman praised Gov. Lawal's transformational leadership; security killed 30+ bandits in Bukuyum; and Gov. Lawal presented vehicles to 19 Emirs.",
+          "whyItMatters": "Combines high anti-corruption endorsement with decisive tactical counter-banditry and traditional institution support."
+        },
+        "intent": "Demonstrating public accountability, repelling banditry attacks, and empowering royal institutions."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "DELTA",
+        "stateName": "Delta State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Delta Reduces Legacy Debt by ₦400bn; Inspects Ayakoromo Bridge & Begins Akumazi-Umuocha Road Works",
+        "psi": 8.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Delta Reduces Legacy Debt by ₦400bn; Inspects Ayakoromo Bridge & Begins Akumazi-Umuocha Road Works",
+          "whatHappened": "Delta State announced a debt reduction from ₦463bn to ₦63bn, while inspecting Ayakoromo Bridge and commencing rural road construction.",
+          "whyItMatters": "Restructures state balance sheets to unlock long-term capital expenditure for critical transit routes."
+        },
+        "intent": "Liquidating state debt burdens, prioritizing capital projects, and expanding rural road networks."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "EDO",
+        "stateName": "Edo State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Edo Mining Ministry Resolves Ikpoba-Oregbeni Dredging Dispute; Gov. Okpebholo Engages EU on Irregular Migration",
+        "psi": 8.4,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Edo Mining Ministry Resolves Ikpoba-Oregbeni Dredging Dispute; Gov. Okpebholo Engages EU on Irregular Migration",
+          "whatHappened": "Mining Ministry mandated equal 5% CDA split between Ikpoba and Oregbeni communities; Gov. Okpebholo met EU delegation on migration.",
+          "whyItMatters": "Secures communal peace in mineral-rich river basins while building international partnerships to manage migration."
+        },
+        "intent": "Ensuring equitable mining benefit-sharing and addressing migration challenges through global diplomacy."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "OYO",
+        "stateName": "Oyo State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Makinde Approves ₦4.6bn Compensation for Circular Road Phase 1 Landowners; Fences 75m Corridor",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Makinde Approves ₦4.6bn Compensation for Circular Road Phase 1 Landowners; Fences 75m Corridor",
+          "whatHappened": "Gov. Seyi Makinde approved ₦4.6bn compensation for Rashidi Ladoja Circular Road Phase 1 and announced corridor fencing.",
+          "whyItMatters": "Resolves citizen displacement grievances while guaranteeing uninterrupted execution of major ring-road infrastructure."
+        },
+        "intent": "Fulfilling right-of-way compensation pledges and mitigating urban project displacement."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "ONDO",
+        "stateName": "Ondo State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Ondo Distributes Appointment Letters to 637 Absorbed Primary Teachers; Constitutes Burial Panel for Pa Fasoranti",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Ondo Distributes Appointment Letters to 637 Absorbed Primary Teachers; Constitutes Burial Panel for Pa Fasoranti",
+          "whatHappened": "Ondo State presented employment letters to 637 primary school teachers and set up a state burial panel for Pa Reuben Fasoranti.",
+          "whyItMatters": "Rectifies past recruitment errors to boost primary education staffing while honoring prominent statesmen."
+        },
+        "intent": "Strengthening primary education workforce and organizing state honors for elder statesmen."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "ADAMAWA",
+        "stateName": "Adamawa State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Fintiri Donates ₦35m to Clear FMC Mubi Patients' Bills; Rural Ministry Urges Civil Service Discipline",
+        "psi": 8.2,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Fintiri Donates ₦35m to Clear FMC Mubi Patients' Bills; Rural Ministry Urges Civil Service Discipline",
+          "whatHappened": "Gov. Fintiri and associate donated ₦35m to pay outstanding bills at FMC Mubi, while Rural Ministry charged staff on rules compliance.",
+          "whyItMatters": "Provides immediate medical financial relief to indigent citizens while enforcing civil service operational standards."
+        },
+        "intent": "Delivering executive medical interventions and reinforcing civil service operational discipline."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "AKWA IBOM",
+        "stateName": "Akwa Ibom State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Eno Approves 13th-Month Pension Bonus & ₦10k Welfare; Appoints Aniefiok Johnson as Chief of Staff",
+        "psi": 8.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Eno Approves 13th-Month Pension Bonus & ₦10k Welfare; Appoints Aniefiok Johnson as Chief of Staff",
+          "whatHappened": "Gov. Umo Eno approved 13th-month bonus and welfare support for pensioners, having paid ₦100bn of inherited backlog, and named a new CoS.",
+          "whyItMatters": "Enhances social safety nets for elderly retirees while consolidating top-level executive governance structure."
+        },
+        "intent": "Relieving pension backlog burdens and filling key executive cabinet positions."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "CROSS RIVER",
+        "stateName": "Cross River State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Otu Flags Off 2026 Calabar Marathon; CR-SUBEB Trains Evaluators on New Data Collect App",
+        "psi": 8.0,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Otu Flags Off 2026 Calabar Marathon; CR-SUBEB Trains Evaluators on New Data Collect App",
+          "whatHappened": "Gov. Bassey Otu launched Calabar Marathon 'Run Against Poverty', while CR-SUBEB deployed a mobile data app for basic education.",
+          "whyItMatters": "Promotes sports tourism while leveraging mobile technology to enforce accountability in basic education monitoring."
+        },
+        "intent": "Stimulating tourism activity and digitizing basic education monitoring systems."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "OGUN",
+        "stateName": "Ogun State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Abiodun Highlights ₦1bn Grants for Traders & Artisans at 2026 World Trade Day",
+        "psi": 7.9,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Abiodun Highlights ₦1bn Grants for Traders & Artisans at 2026 World Trade Day",
+          "whatHappened": "Gov. Dapo Abiodun marked World Trade Day, highlighting over ₦1bn provided to MSMEs, artisans, and 200 community development associations.",
+          "whyItMatters": "Strengthens grassroots economic resilience and supports informal enterprise trade capacity."
+        },
+        "intent": "Empowering grassroots micro-enterprises and expanding community development funding."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "LAGOS",
+        "stateName": "Lagos State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "LASCOPA Issues MANCAP Logo Advisory; LASEMA Subdues Isheri Workshop Fire; Health District V Conducts Safety Training",
+        "psi": 7.8,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "LASCOPA Issues MANCAP Logo Advisory; LASEMA Subdues Isheri Workshop Fire; Health District V Conducts Safety Training",
+          "whatHappened": "LASCOPA advised consumers on updated MANCAP product logos; LASEMA saved a fuel station from a workshop fire; and Health District V trained staff.",
+          "whyItMatters": "Protects public consumer awareness, prevents urban commercial fire disasters, and improves pharmaceutical safety."
+        },
+        "intent": "Safeguarding consumer interests, executing rapid emergency response, and improving healthcare delivery."
+      },
+      {
+        "dayNumber": 2,
+        "stateKey": "RIVERS",
+        "stateName": "Rivers State",
+        "displayDate": "Monday, November 2, 2026",
+        "headline": "Gov. Fubara Appoints Eze Sergeant Chidi Awuse as Chairman, Rivers State Council of Traditional Rulers",
+        "psi": 7.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Fubara Appoints Eze Sergeant Chidi Awuse as Chairman, Rivers State Council of Traditional Rulers",
+          "whatHappened": "Gov. Siminalayi Fubara approved the immediate appointment of His Majesty Eze Sergeant Chidi Awuse to lead the Traditional Rulers Council.",
+          "whyItMatters": "Stabilizes royal governance leadership and reinforces peacebuilding frameworks across traditional domains."
+        },
+        "intent": "Re-organizing traditional institutional leadership and securing grassroots stability."
+      }
