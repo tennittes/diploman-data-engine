@@ -888,6 +888,466 @@
           },
           "securityAnalysis": "Rivers State (7.5 PSI / SIS 2.5 / SECURE) maintains strong economic alpha while stabilizing traditional institutions."
         }
+      ]
+    },
+    "3": {
+      "date": "2026-11-03",
+      "formattedDate": "November 3, 2026",
+      "metadata": {
+        "compositePsi": 8.3,
+        "activeJurisdictionsCount": 20,
+        "unlistedJurisdictionsCount": 17,
+        "unlistedNote": "The 17 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 20 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive momentum on November 3, 2026, recorded an 8.3 net PSI composite average, led by pension reforms in Edo, produce export bans in Plateau, civic infrastructure in FCT, debt reduction in Delta, and national security lectures in Adamawa."
+        },
+        "security": {
+          "title": "Subnational Advisory Profile Demonstrates High-Alpha Opportunities Amid Secure Utility and Commercial Corridors",
+          "summary": "Comprehensive subnational risk analysis evaluating State Instability Scores (SIS), Investment Decision Profiles, and capital deployment across Nigeria's economic corridors."
+        },
+        "policy": {
+          "title": "Subnational Executive Momentum Reaches 8.3 Net Composite Average Across Pension Restructuring, Agro-Processing, and Capital Anti-Crime Laws",
+          "summary": "Nigeria’s state executives record an 8.3 net PSI composite average driven by pension overhauls, agricultural value addition, municipal infrastructure co-funding, and legislative crime deterrence."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria’s 36 States and the Federal Capital Territory recorded strong operational velocity on November 3, 2026, delivering an active composite Policy Signal Index (PSI) baseline average of 8.3 across 20 active jurisdictions. State executive leadership translated policy intent into structural pension migrations, major public debt write-downs, capital anti-crime legislation, and bans on raw agricultural exports.",
+          "emergingPatterns": "Key governance dynamics reveal an aggressive focus on civil service welfare reform, subnational balance sheet cleanup, public-private municipal infrastructure co-funding, and equipping grassroots border defenders against rural insecurity.",
+          "strategicOutlook": "Sustaining current performance requires maintaining fiscal discipline during capital project execution, ensuring strict regulatory enforcement in mineral and water resources, and expanding rural basic utility infrastructure.",
+          "conclusion": "The subnational executive landscape demonstrates strong execution alignment as state leadership balances economic value creation with tough public security policies."
+        },
+        "security": {
+          "introduction": "The subnational investment and operational risk landscape for November 3, 2026, exhibits favorable stability across major urban, coastal, and agricultural corridors. Low risk profiles in primary commercial centers support high-alpha capital deployments in infrastructure, agribusiness, and municipal public works.",
+          "emergingPatterns": "Subnational security mapping indicates that key commercial and coastal hubs maintain SECURE (SIS < 3.0) operational environments, while frontier and agricultural zones maintain active security surveillance (MONITORED: 3.0 <= SIS <= 6.5).",
+          "strategicOutlook": "Institutional stakeholders should focus on jurisdictions combining high executive policy signals with secure transit and digital infrastructure corridors.",
+          "conclusion": "Rigorous, metric-backed evaluation confirms that aligning private capital with verified subnational executive priorities maximizes growth while preserving capital safety."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Federal Capital Territory & Central Urban Transport Corridors",
+          "states": ["Abuja-FCT", "Lagos"]
+        },
+        {
+          "groupTitle": "Coastal Energy, Legislative Reform, and Maritime Corridors",
+          "states": ["Edo", "Delta", "Ebonyi", "Enugu", "Akwa Ibom", "Cross River", "Rivers"]
+        },
+        {
+          "groupTitle": "Agrarian Industrial, Value Addition, and Infrastructure Corridors",
+          "states": ["Plateau", "Adamawa", "Kaduna", "Taraba", "Ondo", "Ogun", "Kano"]
+        },
+        {
+          "groupTitle": "Frontier Safety, Industrial Recognition, and Governance Stability Corridors",
+          "states": ["Gombe", "Zamfara", "Ekiti", "Benue"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 9.4,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Okpebholo Approves Migration of Pre-2017 Staff to DBS, Doubles Gratuity Subvention to ₦400M & Empowers Petty Traders",
+          "impactVector": "Edo State approved returning pre-2017 staff from CPS to DBS, doubled monthly gratuity subventions to ₦400m, and resolved a communal river dredging dispute.",
+          "policyBreakdown": {
+            "category": "Civil Service Pension Reform, Communal Resource Resolution & Market Empowerment",
+            "body": "Governor Monday Okpebholo approved the migration of civil servants employed before 2017 from CPS to DBS, doubled gratuity subventions to ₦400m, and directed equal 5% CDA split for Ikpoba-Oregbeni communities."
+          },
+          "securityAnalysis": "Edo State (9.4 PSI / SIS 2.3 / SECURE) maintains a highly stable administrative and social climate."
+        },
+        {
+          "state": "Plateau",
+          "governor": "Caleb Mutfwang",
+          "metrics": {
+            "psiScore": 9.3,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 3.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Plateau Declares End to Sale of Raw Produce, Unveils Six-Point Investment Blueprint, NIPR Peace Summit & Commissioned Projects",
+          "impactVector": "Plateau banned raw produce sales, launching 'Plateau Potatoes' export branding, cold storage networks, and a China Trade Park land committee.",
+          "policyBreakdown": {
+            "category": "Agro-Industrial Value Addition, Peace Summit & Municipal Infrastructure",
+            "body": "Plateau State declared an end to raw produce sales, launched 'Plateau Potatoes' export branding, hosted the NIPR Peace Summit, and commissioned Jos South Council projects."
+          },
+          "securityAnalysis": "Plateau State (9.3 PSI / SIS 3.2 / MONITORED) combines aggressive agro-processing expansion with active rural security monitoring."
+        },
+        {
+          "state": "Abuja-FCT",
+          "governor": "Nyesom Wike (Minister)",
+          "metrics": {
+            "psiScore": 9.2,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "FCT Minister Wike Commissions Gwagwalada Civic Centre, Orders Stadium Completion & Approves 50% Pedestrian Bridge Refund",
+          "impactVector": "FCT commissioned Gwagwalada Civic Centre, ordered completion of Gwagwalada Mini-Stadium, and approved a 50% refund for Airport Expressway pedestrian bridge.",
+          "policyBreakdown": {
+            "category": "Municipal Infrastructure Execution & Public-Private CSR Co-Funding",
+            "body": "Minister Nyesom Wike commissioned Gwagwalada Civic Centre, ordered stadium completion, and approved a 50% refund for Airport Expressway pedestrian bridge."
+          },
+          "securityAnalysis": "FCT Abuja (9.2 PSI / SIS 1.5 / SECURE) maintains top-tier urban transit safety and institutional stability."
+        },
+        {
+          "state": "Delta",
+          "governor": "Sheriff Oborevwori",
+          "metrics": {
+            "psiScore": 9.0,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Delta Slashes Legacy Debt by ₦400 Billion, Launches 3-Day Medical Outreach in Uzere & Advances Key Infrastructure",
+          "impactVector": "Delta reduced legacy debt from ₦463bn to ₦63bn while launching a fully funded 3-day medical outreach in Uzere.",
+          "policyBreakdown": {
+            "category": "Fiscal Debt Restructuring & Emergency Health Response",
+            "body": "Delta State reduced legacy debt by ₦400bn, targeting full clearance by Q1 2027, and launched emergency health outreach in Uzere."
+          },
+          "securityAnalysis": "Delta State (9.0 PSI / SIS 2.5 / SECURE) provides strong financial stability and expanding civil infrastructure."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 3.4,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Fintiri Donates ₦35M to FMC Mubi Patients, Delivers NISS Security Lecture & Inspects Kofare Road Works",
+          "impactVector": "Gov. Fintiri donated ₦35m to clear medical bills for FMC Mubi patients and delivered a national security lecture at NISS Abuja.",
+          "policyBreakdown": {
+            "category": "Healthcare Relief, National Security Policy & Urban Engineering",
+            "body": "Governor Fintiri donated ₦35m to FMC Mubi patients, spoke on ethnic militias at NISS, and inspected Kofare drainage works."
+          },
+          "securityAnalysis": "Adamawa State (8.8 PSI / SIS 3.4 / MONITORED) maintains strong executive presence across northern commercial zones."
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov. Inuwa Yahaya Receives Czech Industrial Icon Award, Hikes Tertiary Subvention by 48% & Flags Off Fire Safety Week",
+          "impactVector": "Gombe received Czech Industrial Icon Award, raised tertiary institution subventions by 48%, and flagged off Fire Safety Week.",
+          "policyBreakdown": {
+            "category": "Industrial Investment Recognition & Tertiary Education Subvention",
+            "body": "Governor Inuwa Yahaya received the Czech Industrial Icon Award and approved a 48% monthly subvention increase for state tertiary institutions."
+          },
+          "securityAnalysis": "Gombe State (8.7 PSI / SIS 2.1 / SECURE) offers low physical risk and expanding industrial partnerships."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.5,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "EFCC Boss Praises Gov. Lawal; Security Kills 30 Bandits in Bukuyum; 19 Emirs Coronated; IOM Empowers 80 Vulnerable Persons",
+          "impactVector": "EFCC commended Gov. Lawal's reforms; joint operations killed 30+ bandits in Bukuyum; and 19 Emirs received official vehicles.",
+          "policyBreakdown": {
+            "category": "Counter-Banditry Operations, Governance Endorsement & Royal Support",
+            "body": "EFCC Chairman praised state leadership, security forces killed 30 bandits in Bukuyum, and Gov. Lawal presented vehicles to 19 traditional rulers."
+          },
+          "securityAnalysis": "Zamfara State (8.7 PSI / SIS 4.5 / MONITORED) pairs high executive governance ratings with intense tactical counter-banditry operations."
+        },
+        {
+          "state": "Ebonyi",
+          "governor": "Francis Nwifuru",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Nwifuru Transmits Executive Bill Making Kidnapping a Capital Offence Following Funeral of Slain Monarch",
+          "impactVector": "Ebonyi State transmitted an executive bill making kidnapping a capital offence to harden security laws following the murder of HRH Eze Francis Igwe.",
+          "policyBreakdown": {
+            "category": "Anti-Crime Legislative Hardening & Traditional Institution Protection",
+            "body": "Governor Francis Nwifuru transmitted an executive bill seeking the death penalty for kidnapping to the House of Assembly during the burial of slain monarch Eze Francis Igwe."
+          },
+          "securityAnalysis": "Ebonyi State (8.6 PSI / SIS 2.2 / SECURE) demonstrates uncompromising executive resolve against violent crime."
+        },
+        {
+          "state": "Kaduna",
+          "governor": "Uba Sani",
+          "metrics": {
+            "psiScore": 8.4,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.8,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Gov. Uba Sani Completes Major Urban Renewal Overhaul of Bank Road, Kashim Ibrahim Way & Abakpa Corridors",
+          "impactVector": "Kaduna completed urban renewal dualization of major corridors from UTC to Government House with solar streetlights.",
+          "policyBreakdown": {
+            "category": "Urban Renewal Infrastructure & Municipal Safety",
+            "body": "Kaduna State completed full reconstruction and dualization of Bank Road, Kashim Ibrahim Way, and Abakpa corridor with solar lighting."
+          },
+          "securityAnalysis": "Kaduna State (8.4 PSI / SIS 3.8 / MONITORED) balances aggressive capital urban renewal with monitored security protocols."
+        },
+        {
+          "state": "Taraba",
+          "governor": "Agbu Kefas",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.0,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Kefas Arms Karim Lamido Hunters with 40 Motorcycles, Fuel & Food Supplies Following Binnari Attack",
+          "impactVector": "Taraba provided 40 motorcycles, fuel, and food to local border hunters in Karim Lamido to defend against armed invaders.",
+          "policyBreakdown": {
+            "category": "Border Defense Logistics & Grassroots Security Partnerships",
+            "body": "Governor Agbu Kefas deployed 40 motorcycles and logistics to local hunters in Karim Lamido following attacks on Binnari."
+          },
+          "securityAnalysis": "Taraba State (8.3 PSI / SIS 3.0 / MONITORED) maintains active border security operations to insulate local communities."
+        },
+        {
+          "state": "Ondo",
+          "governor": "Lucky Aiyedatiwa",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Ondo Distributes Employment Letters to 637 Absorbed Primary Teachers & Unveils Fresh Media Strategy",
+          "impactVector": "Ondo absorbed 637 teachers to rectify past recruitment lapses and unveiled new TV programs.",
+          "policyBreakdown": {
+            "category": "Education Workforce Absorption & Public Information Strategy",
+            "body": "Ondo State presented letters to 637 absorbed primary school teachers and unveiled fresh TV documentaries to showcase achievements."
+          },
+          "securityAnalysis": "Ondo State (8.3 PSI / SIS 1.3 / SECURE) exhibits high social and political stability."
+        },
+        {
+          "state": "Enugu",
+          "governor": "Peter Mbah",
+          "metrics": {
+            "psiScore": 8.2,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Mbah Fulfills Three-Week Pledge, Restores Potable Water Supply to Ebia Ikem Community",
+          "impactVector": "Enugu activated clean water infrastructure in Ebia Ikem community three weeks after Governor Mbah's initial commitment.",
+          "policyBreakdown": {
+            "category": "Rural Utility Restoration & Responsive Governance",
+            "body": "Governor Peter Mbah delivered a clean water project to Ebia Ikem community in Isi-Uzo LGA three weeks after pledging intervention."
+          },
+          "securityAnalysis": "Enugu State (8.2 PSI / SIS 1.5 / SECURE) maintains superior public safety and high rural service delivery momentum."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 8.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "COWLSO Conference Awards Apartment to Retiring Teacher & SUV to LAGFERRY Officer; Health District V Trains Attendants",
+          "impactVector": "Lagos COWLSO conference concluded with apartment and SUV prizes, Health District V held IPC training, and Chef Hannah won Eko Flavours.",
+          "policyBreakdown": {
+            "category": "Public Welfare Recognition, Healthcare Training & Creative Economy",
+            "body": "Lagos COWLSO draw awarded an apartment to a retiring teacher, Health District V trained staff on IPC, and Eko Flavours crowned Season 3 winner."
+          },
+          "securityAnalysis": "Lagos State (8.1 PSI / SIS 1.2 / SECURE) maintains national leadership in public welfare and municipal governance."
+        },
+        {
+          "state": "Ekiti",
+          "governor": "Biodun Oyebanji",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Ekiti State Emerges Top Three Finalist for 2026 National Pension Award Under CPS Implementation Category",
+          "impactVector": "Ekiti was nominated by PenCom as a top three finalist for the 2026 National Pension Award.",
+          "policyBreakdown": {
+            "category": "Contributory Pension Scheme Execution & Fiscal Governance",
+            "body": "PenCom nominated Ekiti State for its remarkable strides in adopting, executing, and sustaining the Contributory Pension Scheme."
+          },
+          "securityAnalysis": "Ekiti State (8.0 PSI / SIS 1.5 / SECURE) maintains exemplary institutional stability."
+        },
+        {
+          "state": "Benue",
+          "governor": "Hyacinth Alia",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.9,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Alia Constitutes 5-Member Primary Health Care Board & Approves 23 Replacement Appointments",
+          "impactVector": "Benue constituted a 5-member Primary Health Care Board and approved 23 executive replacement appointments.",
+          "policyBreakdown": {
+            "category": "Primary Health Governance & Executive Cabinet Appointments",
+            "body": "Governor Hyacinth Alia constituted the Primary Health Care Board and approved 23 appointments to fill vacant government positions."
+          },
+          "securityAnalysis": "Benue State (8.0 PSI / SIS 3.9 / MONITORED) stabilizes public administration while managing regional security."
+        },
+        {
+          "state": "Ogun",
+          "governor": "Dapo Abiodun",
+          "metrics": {
+            "psiScore": 7.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Abiodun Celebrates Sagamu Day, Reaffirms Infrastructure Commitments & Highlights ₦1Bn MSME Support",
+          "impactVector": "Ogun State celebrated Sagamu Day, highlighting ₦1bn in financial support provided to MSMEs and artisans.",
+          "policyBreakdown": {
+            "category": "MSME Financial Empowerment & Grassroots Development",
+            "body": "Governor Dapo Abiodun marked Sagamu Day by highlighting over ₦1bn disbursed to traders, artisans, and cooperatives."
+          },
+          "securityAnalysis": "Ogun State (7.9 PSI / SIS 1.4 / SECURE) offers an elite industrial investment climate."
+        },
+        {
+          "state": "Akwa Ibom",
+          "governor": "Umo Eno",
+          "metrics": {
+            "psiScore": 7.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Eno Approves 13th-Month Pension Bonus & Appoints Aniefiok Johnson as Chief of Staff",
+          "impactVector": "Akwa Ibom approved a 13th-month pension bonus and appointed a new Chief of Staff to the Governor.",
+          "policyBreakdown": {
+            "category": "Pension Welfare Expansion & Executive Cabinet Appointment",
+            "body": "Governor Umo Eno approved a 13th-month bonus for retirees, having cleared ₦100bn of pension backlog, and appointed Aniefiok Johnson as CoS."
+          },
+          "securityAnalysis": "Akwa Ibom State (7.9 PSI / SIS 1.8 / SECURE) offers low physical risk and strong civil welfare support."
+        },
+        {
+          "state": "Cross River",
+          "governor": "Bassey Otu",
+          "metrics": {
+            "psiScore": 7.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.0,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Otu Flags Off 2026 Calabar Marathon as Plateau Athletes Sweep Top Prizes; CR-SUBEB Trains Staff on New App",
+          "impactVector": "Cross River flagged off the Calabar Marathon and launched the CR-SUBEB Collect App for digital education monitoring.",
+          "policyBreakdown": {
+            "category": "Sports Tourism & Digital Basic Education Monitoring",
+            "body": "Cross River State flagged off the 2026 Calabar Marathon and deployed a mobile application to digitize school evaluation data."
+          },
+          "securityAnalysis": "Cross River State (7.8 PSI / SIS 2.0 / SECURE) demonstrates robust tourism security and administrative modernization."
+        },
+        {
+          "state": "Rivers",
+          "governor": "Siminalayi Fubara",
+          "metrics": {
+            "psiScore": 7.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Fubara Appoints Eze Sergeant Chidi Awuse as Chairman, Rivers State Council of Traditional Rulers",
+          "impactVector": "Rivers State appointed Eze Sergeant Chidi Awuse as Chairman of the Council of Traditional Rulers.",
+          "policyBreakdown": {
+            "category": "Traditional Institution Leadership Re-Organization",
+            "body": "Governor Siminalayi Fubara approved the immediate appointment of Eze Sergeant Chidi Awuse to lead the State Traditional Rulers Council."
+          },
+          "securityAnalysis": "Rivers State (7.6 PSI / SIS 2.5 / SECURE) maintains strong economic alpha while stabilizing traditional institutions."
+        },
+        {
+          "state": "Kano",
+          "governor": "Abba Kabir Yusuf",
+          "metrics": {
+            "psiScore": 7.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Yusuf Mourns Business Tycoon Isma'il Maibiskit; Completes Neighborhood Watch Station in Wudil",
+          "impactVector": "Kano mourned industrialist Isma'il Maibiskit and completed a neighborhood watch corp station in Wudil.",
+          "policyBreakdown": {
+            "category": "Commercial Legacy Recognition & Grassroots Security Infrastructure",
+            "body": "Governor Abba Kabir Yusuf mourned late businessman Isma'il Maibiskit and completed a neighborhood watch station in Wudil LGA."
+          },
+          "securityAnalysis": "Kano State (7.5 PSI / SIS 2.1 / SECURE) maintains strong municipal stability."
+        }
      ]
     }
   },
