@@ -1058,8 +1058,8 @@
           "whyItMatters": "Upgrades agricultural trade infrastructure to reduce post-harvest losses and improve rural market access for smallholder farmers."
         },
         "intent": "Executing rural agricultural market upgrades and enhancing agrarian trade logistics."
-      }
-    {
+      },
+      {
         "dayNumber": 6,
         "stateKey": "LAGOS",
         "stateName": "Lagos State",
