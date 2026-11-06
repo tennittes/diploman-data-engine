@@ -6,29 +6,21 @@ import subprocess
 from datetime import datetime
 
 
-def is_active_jurisdiction(record):
-    """
-    Include only jurisdictions explicitly identified as ACTIVE.
-    Dormant, baseline, missing and unrecognised statuses are excluded.
-    """
+def get_psi_value(record):
+    """Read and safely convert PSI or psiScore."""
 
-    status_fields = [
-        "status",
-        "jurisdictionStatus",
-        "activityStatus",
-        "operationalStatus"
-    ]
+    psi = record.get("psi")
 
-    for field in status_fields:
-        value = record.get(field)
+    if psi is None or str(psi).strip() == "":
+        psi = record.get("psiScore")
 
-        if value is not None:
-            return str(value).strip().upper() in {
-                "ACTIVE",
-                "ACTIVATED"
-            }
+    if psi is None or str(psi).strip() == "":
+        return None
 
-    return False
+    try:
+        return float(str(psi).replace(",", "").strip())
+    except (ValueError, TypeError):
+        return None
 
 
 def generate_latest_day_ticker():
@@ -40,12 +32,13 @@ def generate_latest_day_ticker():
 
     target_master = f"{current_month_key}/master-data.json"
 
+    # Locate latest available master-data file if current month is absent.
     if not os.path.exists(target_master):
 
         master_files = glob.glob("**/master-data.json", recursive=True)
 
         if not master_files:
-            print("No master-data.json found.")
+            print("No master-data.json found for ticker generation.")
             return
 
         def parse_folder_date(filepath):
@@ -85,10 +78,11 @@ def generate_latest_day_ticker():
                 elif isinstance(val, dict):
 
                     for sub_val in val.values():
+
                         if isinstance(sub_val, list):
                             all_records.extend(sub_val)
 
-        # Identify latest available telemetry day.
+        # Determine the latest telemetry day.
         max_day = 0
 
         for record in all_records:
@@ -96,26 +90,33 @@ def generate_latest_day_ticker():
             if not isinstance(record, dict):
                 continue
 
-            day_num = record.get("dayNumber") or record.get("day")
+            day_num = record.get("dayNumber")
+
+            if day_num is None:
+                day_num = record.get("day")
 
             try:
-                d_int = int(day_num)
-                max_day = max(max_day, d_int)
+                max_day = max(max_day, int(day_num))
             except (ValueError, TypeError):
                 continue
 
         print(f"Latest telemetry day: {max_day}")
 
+        # Counters for classification and extraction.
         active_count = 0
-        excluded_count = 0
+        dormant_count = 0
+        invalid_psi_count = 0
 
-        # Extract qualifying records from the latest day only.
+        # Extract headlines exclusively from the latest day.
         for record in all_records:
 
             if not isinstance(record, dict):
                 continue
 
-            day_num = record.get("dayNumber") or record.get("day")
+            day_num = record.get("dayNumber")
+
+            if day_num is None:
+                day_num = record.get("day")
 
             try:
                 if int(day_num) != max_day:
@@ -123,11 +124,22 @@ def generate_latest_day_ticker():
             except (ValueError, TypeError):
                 continue
 
-            # Enforce active-jurisdiction filter.
-            if not is_active_jurisdiction(record):
-                excluded_count += 1
+            # Read authoritative PSI classification.
+            psi_val = get_psi_value(record)
+
+            if psi_val is None:
+                invalid_psi_count += 1
                 continue
 
+            # DORMANT: PSI <= 3.0.
+            if psi_val <= 3.0:
+                dormant_count += 1
+                continue
+
+            # ACTIVE: PSI > 3.0.
+            active_count += 1
+
+            # Extract headline information.
             brief = (
                 record.get("dailyBrief")
                 or record.get("summary")
@@ -140,37 +152,37 @@ def generate_latest_day_ticker():
                 or record.get("jurisdiction")
             )
 
-            psi = record.get("psi") or record.get("psiScore")
-
             if not brief or len(str(brief)) <= 10:
                 continue
 
             if "baseline administrative" in str(brief).lower():
                 continue
 
+            # Sanitize headline and jurisdiction name.
             clean_brief = str(brief).strip().strip('"\'“”‘’')
-            clean_state = str(state).strip().upper() if state else ""
 
-            psi_val = None
+            clean_state = (
+                str(state).strip().upper()
+                if state else ""
+            )
 
-            if psi is not None and str(psi).strip() != "":
-                try:
-                    psi_val = float(psi)
-                except (ValueError, TypeError):
-                    pass
-
-            if clean_state and psi_val is not None:
+            # Format ticker headline.
+            if clean_state:
                 clean_text = (
                     f"{clean_state} (PSI {psi_val:.1f}): {clean_brief}"
                 )
             else:
                 clean_text = clean_brief
 
+            # Prevent duplicate headlines.
             if clean_text not in items:
                 items.append(clean_text)
-                active_count += 1
 
-        # Archive fallback.
+        print(f"Active jurisdictions detected: {active_count}")
+        print(f"Dormant jurisdictions excluded: {dormant_count}")
+        print(f"Records with invalid/missing PSI: {invalid_psi_count}")
+
+        # Preserve archive fallback when no qualifying headlines exist.
         if not items:
 
             items = [
@@ -178,9 +190,13 @@ def generate_latest_day_ticker():
                 "Tracking Policy Signals and Public Order Strain Across 37 Jurisdictions."
             ]
 
+            print("No qualifying active headlines. Archive fallback applied.")
+
+        # Generate ticker JSON.
         ticker_payload = {"items": items}
 
         with open("ticker.json", "w", encoding="utf-8") as out_f:
+
             json.dump(
                 ticker_payload,
                 out_f,
@@ -189,19 +205,21 @@ def generate_latest_day_ticker():
             )
 
         print(
-            f"Ticker generated: {len(items)} headlines. "
-            f"Active records included: {active_count}. "
-            f"Records excluded: {excluded_count}."
+            f"Successfully generated latest-day ticker: "
+            f"{len(items)} headlines from Day {max_day}."
         )
 
     except Exception as e:
-        print(f"Error generating ticker: {e}")
+
+        print(f"Error generating ticker JSON: {e}")
+        raise
 
 
 if __name__ == "__main__":
 
     generate_latest_day_ticker()
 
+    # Commit and push ticker.json updates.
     try:
 
         subprocess.run(
@@ -226,7 +244,10 @@ if __name__ == "__main__":
 
         if status_result.stdout.strip():
 
-            subprocess.run(["git", "add", "ticker.json"], check=True)
+            subprocess.run(
+                ["git", "add", "ticker.json"],
+                check=True
+            )
 
             subprocess.run(
                 [
@@ -238,12 +259,17 @@ if __name__ == "__main__":
                 check=True
             )
 
-            subprocess.run(["git", "push"], check=True)
+            subprocess.run(
+                ["git", "push"],
+                check=True
+            )
 
             print("Successfully pushed ticker.json update.")
 
         else:
-            print("No ticker changes detected.")
+
+            print("No changes detected in ticker.json; push skipped.")
 
     except Exception as e:
+
         print(f"Git auto-commit skipped or failed: {e}")
