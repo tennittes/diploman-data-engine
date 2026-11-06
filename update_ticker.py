@@ -133,7 +133,7 @@ def generate_latest_day_ticker():
             
         ticker_payload = {"items": items}
         
-        with open("ticker.json", "w", encoding="out_f" if False else "utf-8") as out_f:
+        with open("ticker.json", "w", encoding="utf-8") as out_f:
             json.dump(ticker_payload, out_f, indent=2, ensure_ascii=False)
             
         print(f"Successfully generated latest day (Day {max_day}) active ticker JSON with {len(items)} headlines.")
