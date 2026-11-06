@@ -20,23 +20,20 @@ def generate_latest_day_ticker():
     """
     items = []
     
-    # Target current active month explicitly based on system repository structure
     now = datetime.now()
-    current_month_key = f"{now.strftime('%b').lower()}{now.year}" # e.g. nov2026
+    current_month_key = f"{now.strftime('%b').lower()}{now.year}"
     
     target_master = f"{current_month_key}/master-data.json"
     if not os.path.exists(target_master):
-        # Fallback: find all master-data.json files and sort them chronologically
         master_files = glob.glob("**/master-data.json", recursive=True)
         if not master_files:
             print("No master-data.json found for ticker generation.")
             return
         
-        # Sort folders properly by parsing year and month rather than pure string sorting
         def parse_folder_date(filepath):
             parts = filepath.split(os.sep)
             for part in parts:
-                if len(part) >= 5: # e.g. oct2026, nov2026
+                if len(part) >= 5:
                     try:
                         month_str = part[:3]
                         year_str = part[3:]
@@ -55,16 +52,22 @@ def generate_latest_day_ticker():
             payload = json.load(f)
             
         all_records = []
-        if isinstance(payload, list):
-            all_records = payload
-        elif isinstance(payload, dict):
-            for key, val in payload.items():
-                if isinstance(val, list):
-                    all_records.extend(val)
-                elif isinstance(val, dict):
-                    for sub_val in val.values():
-                        if isinstance(sub_val, list):
-                            all_records.extend(sub_val)
+        
+        # Robust payload flattener for multi-stream objects (B1, B2, B3, day keys)
+        def extract_records(node):
+            if isinstance(node, list):
+                for item in node:
+                    extract_records(item)
+            elif isinstance(node, dict):
+                # If the node itself looks like a jurisdiction record
+                if any(k in node for k in ('state', 'stateName', 'jurisdiction', 'stateKey', 'dailyBrief', 'summary', 'headline')):
+                    all_records.append(node)
+                # Otherwise, recurse deeper into dictionary values
+                for val in node.values():
+                    if isinstance(val, (list, dict)):
+                        extract_records(val)
+
+        extract_records(payload)
         
         # Find the maximum day number available
         max_day = 0
@@ -88,19 +91,15 @@ def generate_latest_day_ticker():
             day_num = record.get('dayNumber') or record.get('day')
             if day_num is not None and int(day_num) == max_day:
                 
-                # 1. Validate state name presence and active status
                 state = record.get('stateName') or record.get('stateKey') or record.get('jurisdiction') or record.get('state')
                 if not state:
                     continue
                 
                 clean_state = str(state).strip().upper()
-                
-                # Check if state matches one of the 37 official jurisdictions
                 is_valid_jurisdiction = any(v.upper() == clean_state for v in MASTER_JURISDICTIONS)
                 if not is_valid_jurisdiction:
                     continue
                 
-                # Explicitly skip if status is marked dormant or inactive
                 status = str(record.get('status', '')).lower()
                 if status in ['dormant', 'inactive', 'suspended']:
                     continue
@@ -109,10 +108,8 @@ def generate_latest_day_ticker():
                 psi = record.get('psi') or record.get('psiScore')
                 
                 if brief and len(str(brief)) > 10 and not "baseline administrative" in str(brief).lower():
-                    # Sanitize text: strip leading/trailing whitespace and remove stray quotation/citation marks
                     clean_brief = str(brief).strip().strip('"\'“”‘’')
                     
-                    # Safely parse PSI value
                     psi_val = None
                     if psi is not None and str(psi).strip() != "":
                         try:
@@ -144,7 +141,6 @@ def generate_latest_day_ticker():
 if __name__ == "__main__":
     generate_latest_day_ticker()
     
-    # Safely commit and push ticker.json updates
     try:
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
