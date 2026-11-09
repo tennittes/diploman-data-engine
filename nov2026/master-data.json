@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-10",
   "activeMonth": "November 2026",
 
   "globalCodeData_B1": [
@@ -1666,6 +1666,150 @@
           "whyItMatters": "Mobilizes external development financing and international partnership support for subnational reconstruction."
         },
         "intent": "Attracting global and national development partnerships to accelerate state economic recovery."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "CROSS RIVER",
+        "stateName": "Cross River State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Prepares ₦987.81Bn 2027 Budget for defence, Woos Blue Economy Investors & Extends Relief to 22 SPAR Mall Businesses",
+        "psi": 9.6,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Prepares ₦987.81Bn 2027 Budget for defence, Woos Blue Economy Investors & Extends Relief to 22 SPAR Mall Businesses",
+          "whatHappened": "Gov. Bassey Otu presented a ₦987.81bn 2027 budget proposal (71.72% capital) to the Assembly, pitched blue economy and Bakassi Deep Seaport investments at the Governor's Ball, extended ₦100m+ relief to 22 additional SPAR Mall fire-affected businesses, inaugurated an Inter-Ministerial Monitoring Committee for the Calabar Ultramodern Market, backed the Global Project Responsible Land Governance (GP Land), and began renovating Information Ministry headquarters.",
+          "whyItMatters": "Establishes massive capital-budget expansion while systematically backing private enterprise recovery, maritime blue economy investments, and transparent land governance."
+        },
+        "intent": "Pioneering major fiscal budget expansion, attracting blue economy private capital, and guaranteeing commercial disaster recovery."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "PLATEAU",
+        "stateName": "Plateau State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Graduates 350+ Operation Rainbow Operatives with Gun Trucks & Signs Jos-Kano/Jos-Owerri Flight MOU",
+        "psi": 9.3,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Graduates 350+ Operation Rainbow Operatives with Gun Trucks & Signs Jos-Kano/Jos-Owerri Flight MOU",
+          "whatHappened": "Gov. Caleb Mutfwang graduated and retrained 350+ Operation Rainbow operatives equipped with gun trucks, operational vehicles, and 11 local camps; the state signed an MOU with United Nigeria Airlines for twice-weekly Jos-Kano and Jos-Owerri commercial flights starting Nov 15.",
+          "whyItMatters": "Combines high-tech community surveillance and local security forces with expanded inter-regional aviation logistics to boost subnational commerce."
+        },
+        "intent": "Fortifying community-based security command centers and expanding strategic subnational air transport links."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "ABIA",
+        "stateName": "Abia State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Gov. Otti Outlines 4.5-Year Consolidation Agenda, Decouples 8 LGAs from NERC Grid & Addresses Dominion City Conference",
+        "psi": 9.1,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gov. Otti Outlines 4.5-Year Consolidation Agenda, Decouples 8 LGAs from NERC Grid & Addresses Dominion City Conference",
+          "whatHappened": "Gov. Alex Otti announced a 4.5-year consolidation plan at the Dominion City Conference in Aba, revealing the state decoupled its remaining 8 LGAs from NERC regulation to enforce subnational power autonomy, while reaffirming merit-based governance and monthly media transparency.",
+          "whyItMatters": "Achieves 100% state-wide electrical regulatory independence to guarantee commercial power reliability while structural reforms deepen."
+        },
+        "intent": "Institutionalizing subnational power sector autonomy, executing meritocratic administration, and driving long-term governance consolidation."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "NIGER",
+        "stateName": "Niger State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Gov. Bago Secures 5 IsDB Smart Boarding Schools Under $110M SmartEdu Transformation Project",
+        "psi": 8.8,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gov. Bago Secures 5 IsDB Smart Boarding Schools Under $110M SmartEdu Transformation Project",
+          "whatHappened": "Gov. Mohammed Umaru Bago hosted an Islamic Development Bank (IsDB) preparation mission led by Imtiaz Alam, securing 5 smart boarding schools under the $110m SmartEdu project alongside updates on 75% completed Minna-Bida road and solar projects.",
+          "whyItMatters": "Captures international development bank funding to construct mega digital boarding schools and complete critical regional transport corridors."
+        },
+        "intent": "Mobilizing multilateral education transformation capital and executing major regional highway infrastructure."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "LAGOS",
+        "stateName": "Lagos State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Partners Ogun on Traditional Medicine Regulation & Hosts SMEDAN National MSME Conference 2026",
+        "psi": 8.6,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Partners Ogun on Traditional Medicine Regulation & Hosts SMEDAN National MSME Conference 2026",
+          "whatHappened": "Lagos State Traditional Medicine Board hosted Ogun State Alternative Medicine Board to share regulatory expertise across 9,645 registered practitioners; Gov. Babajide Sanwo-Olu opened the National MSME Conference 2026 and Grow MSME Marketplace with SMEDAN.",
+          "whyItMatters": "Leads inter-state alternative healthcare regulatory standards while driving national micro-enterprise commercial support."
+        },
+        "intent": "Pioneering inter-state health regulatory frameworks and fostering micro-enterprise commercial growth."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "ADAMAWA",
+        "stateName": "Adamawa State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Gov. Fintiri Inspects Yola Stadium Reconstruction, Guarantees Project Delivery Before May 2027",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Fintiri Inspects Yola Stadium Reconstruction, Guarantees Project Delivery Before May 2027",
+          "whatHappened": "Gov. Ahmadu Umaru Fintiri led an inspection team to the ongoing Yola Stadium reconstruction, confirming arena completion by Dec 2026 and parking works by Jan 2027 while committing to complete all state projects before May 2027.",
+          "whyItMatters": "Reinforces public trust in state contract execution timelines and sports infrastructure development."
+        },
+        "intent": "Enforcing contractual project completion standards and upgrading sports urban infrastructure."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "ZAMFARA",
+        "stateName": "Zamfara State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Gov. Lawal Approves 250 Teacher Trainings, Renovation of 6 Secondary Schools & Curriculum Rollout",
+        "psi": 8.2,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Lawal Approves 250 Teacher Trainings, Renovation of 6 Secondary Schools & Curriculum Rollout",
+          "whatHappened": "Gov. Dauda Lawal approved capacity-building training for 250 additional teachers, infrastructure renovations across 6 secondary schools (including GGSS Kotorkoshi and GTC Kaura Namoda), and state-wide distribution of standardized curriculum materials.",
+          "whyItMatters": "Upgrades basic education physical assets while establishing uniform curriculum standards across secondary schools."
+        },
+        "intent": "Rehabilitating educational infrastructure, expanding teacher capacity, and enforcing uniform curriculum standards."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "OGUN",
+        "stateName": "Ogun State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Clarifies NYSC Orientation Camp Logistics, Highlights ₦50k Corps Grant & Partners Lagos on Health Rules",
+        "psi": 8.0,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Clarifies NYSC Orientation Camp Logistics, Highlights ₦50k Corps Grant & Partners Lagos on Health Rules",
+          "whatHappened": "Ogun State Government clarified camp registration responsibilities for 4,300+ corps members while highlighting state provision of 800 mattresses and ₦50,000 welfare grants; Ogun Alternative Medicine Board visited Lagos to study traditional medicine regulatory models.",
+          "whyItMatters": "Protects subnational administrative reputation while actively borrowing best-practice healthcare regulation from Lagos."
+        },
+        "intent": "Ensuring public communication transparency on youth programs and upgrading alternative healthcare oversight."
+      },
+      {
+        "dayNumber": 10,
+        "stateKey": "GOMBE",
+        "stateName": "Gombe State",
+        "displayDate": "Tuesday, November 10, 2026",
+        "headline": "Steps Down Grassroots Paralegal Training for 100+ Community Women on Rights & Conflict Resolution",
+        "psi": 7.8,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Steps Down Grassroots Paralegal Training for 100+ Community Women on Rights & Conflict Resolution",
+          "whatHappened": "Over 100 community women in Sabon Tasha received paralegal step-down training on domestic violence prevention, women's rights, and peaceful conflict resolution organized in collaboration with the German Embassy and Interfaith Mediation Centre.",
+          "whyItMatters": "Empowers grassroots female paralegals to resolve community disputes and prevent gender-based violence."
+        },
+        "intent": "Expanding community paralegal capacity and promoting grassroots peaceful dispute resolution."
       }
       ],
 
@@ -4107,6 +4251,242 @@
             "body": "Yobe State hosted a Development and Partnership Roundtable in Abuja to mobilize global and national resources for state development."
           },
           "securityAnalysis": "Yobe State (7.1 PSI / SIS 4.5 / MONITORED) is leveraging external partnership roundtables to accelerate economic recovery."
+        }
+      ]
+    },
+    "10": {
+      "date": "2026-11-10",
+      "formattedDate": "November 10, 2026",
+      "metadata": {
+        "compositePsi": 8.7,
+        "activeJurisdictionsCount": 9,
+        "unlistedJurisdictionsCount": 28,
+        "unlistedNote": "The 28 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 9 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive velocity on November 10, 2026, recorded an 8.7 net PSI composite average across 9 active jurisdictions, headlined by Cross River State's ₦987.81bn 2027 budget proposal and blue economy pitch, Plateau State's 350+ Operation Rainbow graduates and Jos-Kano/Owerri flight MOU, Abia State's 4.5-year consolidation plan and 8-LGA NERC grid decoupling, and Niger State's 5 IsDB Smart Boarding Schools."
+        },
+        "security": {
+          "title": "Subnational Risk Profile Highlights Operation Rainbow Retraining and Technological Emergency Response Systems",
+          "summary": "Comprehensive subnational risk assessment evaluating State Instability Scores (SIS), Investment Decision Profiles, and structural capital deployment across Nigeria's economic zones."
+        },
+        "policy": {
+          "title": "Subnational Executive Execution Reaches 8.7 Baseline Across Mega Budget Proposals, Power Decoupling, and Multilateral Smart Schools",
+          "summary": "Nigeria's state leadership demonstrates elevated governance momentum through ₦987.81bn state budget presentations, complete electrical regulatory decoupling, multilateral education funding, and inter-state health regulation."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria recorded an active composite Policy Signal Index (PSI) baseline average of 8.7 on November 10, 2026, across 9 active jurisdictions. State executives prioritized massive capital budget expansions, power sector regulatory independence, multilateral education infrastructure, and inter-state regulatory collaboration.",
+          "emergingPatterns": "Key executive trends highlight historic fiscal expansion—such as Cross River's ₦987.81bn 2027 budget proposal defence with 71.72% allocated to capital expenditure-alongside structural power sector reform, seen in Abia State decoupling its remaining 8 LGAs from NERC regulation. Furthermore, states are securing international development bank funding, notably Niger State securing 5 IsDB Smart Boarding Schools, while Lagos and Ogun states pioneered cross-border alternative medicine regulation.",
+          "strategicOutlook": "Sustaining administrative velocity requires rigorous legislative defense of capital budget allocations, rapid execution of subnational power regulatory frameworks, and strict monitoring of infrastructure delivery timelines across active corridors.",
+          "conclusion": "The subnational executive landscape shows strong momentum toward structural energy independence, aggressive capital allocation, and modernized public-private service delivery."
+        },
+        "security": {
+          "introduction": "Operational security benchmarks across active subnational corridors remained highly stable (SIS < 3.0 in primary commercial and coastal hubs) on November 10, 2026. Subnational governments are systematically strengthening community-based security apparatuses.",
+          "emergingPatterns": "Plateau State's retraining and passing-out parade of 350+ Operation Rainbow operatives equipped with 25+ gun trucks and 11 local activity camps illustrates a highly structured neighborhood defense network. Simultaneously, Cross River State's expanded emergency management partnership with the SSDC for fire and disaster response enhances commercial safety.",
+          "strategicOutlook": "Investors can deploy capital with confidence across corridors where subnational administrations are backing community surveillance networks with dedicated logistics and real-time activity command centers.",
+          "conclusion": "Proactive security investments—ranging from community-rooted neighborhood watch outfits to integrated disaster response units—continue to guarantee peaceful commercial environments."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Coastal Energy, Maritime Logistics, and Commercial Enterprise Corridors",
+          "states": ["Cross River", "Abia", "Lagos", "Ogun"]
+        },
+        {
+          "groupTitle": "Agrarian Security, Aviation Connectivity, and Transport Corridors",
+          "states": ["Plateau", "Adamawa"]
+        },
+        {
+          "groupTitle": "Multilateral Education, Smart Infrastructure, and Grassroots Rights Corridors",
+          "states": ["Niger", "Zamfara", "Gombe"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Cross River",
+          "governor": "Bassey Edet Otu",
+          "metrics": {
+            "psiScore": 9.6,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Presents ₦987.81Bn 2027 Budget Proposal, Woos Blue Economy Investors & Extends Relief to 22 SPAR Mall Businesses",
+          "impactVector": "Cross River Assembly prepares ₦987.81bn 2027 budget proposal (71.72% capital expenditure) for defence, pitched maritime blue economy opportunities at the Governor's Ball, extended ₦100m+ relief to 22 SPAR Mall fire victims, inaugurated a monitoring committee for the Calabar Ultramodern Market, and backed the GP Land governance project.",
+          "policyBreakdown": {
+            "category": "Fiscal Budget Expansion, Blue Economy Investment & Disaster Recovery",
+            "body": "Cross River Assembly prepares ₦987.81 billion 2027 budget proposal featuring 71.72% capital expenditure for defence as Gov Otu pitches blue economy investments and extends ₦100m+ commercial relief."
+          },
+          "securityAnalysis": "Cross River State (9.6 PSI / SIS 1.9 / SECURE) retains top-tier public safety backing major capital budget expansion and blue economy investments."
+        },
+        {
+          "state": "Plateau",
+          "governor": "Caleb Mutfwang",
+          "metrics": {
+            "psiScore": 9.3,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 3.0,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Graduates 350+ Operation Rainbow Operatives with Gun Trucks & Signs Jos-Kano/Jos-Owerri Flight MOU",
+          "impactVector": "Gov. Caleb Mutfwang graduated 350+ retrained Operation Rainbow operatives with gun trucks, motorcycles, and 11 local activity camps; the state signed an MOU with United Nigeria Airlines for twice-weekly Jos-Kano and Jos-Owerri flights.",
+          "policyBreakdown": {
+            "category": "Community Security Command & Inter-Regional Aviation Connectivity",
+            "body": "Plateau State graduated 350+ retrained Operation Rainbow security operatives equipped with gun trucks while signing an MOU for new commercial air routes to Kano and Owerri."
+          },
+          "securityAnalysis": "Plateau State (9.3 PSI / SIS 3.0 / MONITORED) is deploying 3,000 community operatives and 11 local camps to reinforce rural stability."
+        },
+        {
+          "state": "Abia",
+          "governor": "Alex Otti",
+          "metrics": {
+            "psiScore": 9.1,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.0,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Otti Outlines 4.5-Year Consolidation Agenda, Decouples 8 LGAs from NERC Grid & Addresses Dominion City Conference",
+          "impactVector": "Gov. Alex Otti stated his administration's 3-year record is a foundation for 4.5 years of consolidation, revealing the state decoupled its remaining 8 LGAs from NERC regulation to enforce subnational power autonomy and complete electricity access.",
+          "policyBreakdown": {
+            "category": "Power Sector Regulatory Independence & Strategic Reform Consolidation",
+            "body": "Governor Alex Otti announced the decoupling of Abia State's remaining eight local government areas from federal NERC regulation to build a standalone state power grid framework."
+          },
+          "securityAnalysis": "Abia State (9.1 PSI / SIS 2.0 / SECURE) maintains superior public safety and commercial stability supporting statewide energy autonomy."
+        },
+        {
+          "state": "Niger",
+          "governor": "Mohammed Umaru Bago",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 3.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Bago Secures 5 IsDB Smart Boarding Schools Under $110M SmartEdu Transformation Project",
+          "impactVector": "Gov. Mohammed Umaru Bago hosted an IsDB preparation delegation led by Imtiaz Alam, securing 5 smart boarding schools under the $110m SmartEdu project alongside updates on 75% completed Minna-Bida road and solar projects.",
+          "policyBreakdown": {
+            "category": "Multilateral Education Infrastructure & Critical Road Corridors",
+            "body": "Niger State partnered with the Islamic Development Bank to establish five smart boarding schools under a $110 million project while advancing Minna-Bida road works."
+          },
+          "securityAnalysis": "Niger State (8.8 PSI / SIS 3.1 / MONITORED) provides structured administrative coordination for major international development projects."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Partners Ogun on Traditional Medicine Regulation & Hosts SMEDAN National MSME Conference 2026",
+          "impactVector": "Lagos State Traditional Medicine Board hosted Ogun State counterpart to share regulatory framework across 9,645 practitioners; Gov. Sanwo-Olu opened the SMEDAN National MSME Conference 2026 in Lagos.",
+          "policyBreakdown": {
+            "category": "Inter-State Healthcare Standardization & Small Business Support",
+            "body": "Lagos State partnered with Ogun State on traditional medicine regulation while hosting the SMEDAN National MSME Conference 2026 to support home-grown enterprise."
+          },
+          "securityAnalysis": "Lagos State (8.6 PSI / SIS 1.2 / SECURE) maintains Nigeria's gold standard in commercial safety and institutional regulatory capacity."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.3,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Fintiri Inspects Yola Stadium Reconstruction, Guarantees Project Delivery Before May 2027",
+          "impactVector": "Gov. Ahmadu Umaru Fintiri inspected the Yola Stadium reconstruction, confirming arena completion by Dec 2026 and parking works by Jan 2027 while assuring all state projects will be delivered before May 2027.",
+          "policyBreakdown": {
+            "category": "Public Infrastructure Delivery & Urban Sports Renewal",
+            "body": "Governor Ahmadu Umaru Fintiri inspected the Adamawa Stadium reconstruction in Yola, confirming arena completion by December 2026."
+          },
+          "securityAnalysis": "Adamawa State (8.3 PSI / SIS 3.3 / MONITORED) sustains strong civil public works delivery amidst monitored regional security conditions."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 8.2,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.4,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Lawal Approves 250 Teacher Trainings, Renovation of 6 Secondary Schools & Curriculum Rollout",
+          "impactVector": "Gov. Dauda Lawal approved capacity-building training for 250 teachers, infrastructure renovation of 6 secondary schools (including GGSS Kotorkoshi and GTC Kaura Namoda), and state-wide curriculum materials distribution.",
+          "policyBreakdown": {
+            "category": "Educational Infrastructure Rehabilitation & Capacity Building",
+            "body": "Zamfara State approved training for 250 teachers, renovations for six secondary schools, and distribution of standardized curriculum materials."
+          },
+          "securityAnalysis": "Zamfara State (8.2 PSI / SIS 4.4 / MONITORED) continues prioritizing educational infrastructure upgrades to strengthen social resilience."
+        },
+        {
+          "state": "Ogun",
+          "governor": "Dapo Abiodun",
+          "metrics": {
+            "psiScore": 8.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Clarifies NYSC Orientation Camp Logistics, Highlights ₦50k Corps Grant & Partners Lagos on Health Rules",
+          "impactVector": "Ogun State clarified camp registration logistics for 4,300+ corps members while highlighting state provision of 800 mattresses and ₦50,000 welfare grants; Ogun Alternative Medicine Board visited Lagos to study traditional medicine regulation.",
+          "policyBreakdown": {
+            "category": "Youth Welfare Administration & Inter-State Health Collaboration",
+            "body": "Ogun State clarified NYSC camp logistics while highlighting ₦50,000 corps grants and studying Lagos State's traditional medicine regulatory framework."
+          },
+          "securityAnalysis": "Ogun State (8.0 PSI / SIS 1.4 / SECURE) provides high operational security across industrial hubs and federal orientation sites."
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 7.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.1,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Steps Down Grassroots Paralegal Training for 100+ Community Women on Rights & Conflict Resolution",
+          "impactVector": "Over 100 community women in Sabon Tasha received paralegal step-down training on domestic violence prevention, women's rights, and peaceful conflict resolution in partnership with the German Embassy and Interfaith Mediation Centre.",
+          "policyBreakdown": {
+            "category": "Grassroots Paralegal Empowerment & Conflict Mediation",
+            "body": "Gombe State supported step-down paralegal training for over 100 community women on domestic violence prevention and peaceful dispute resolution."
+          },
+          "securityAnalysis": "Gombe State (7.8 PSI / SIS 2.1 / SECURE) remains a peaceful benchmark in the North-East, actively fostering grassroots conflict resolution."
         }
       ]
     }
@@ -7215,6 +7595,524 @@
         "sis": 4.2,
         "focus": "Baseline Security Monitoring",
         "dailyBrief": "Continued routine administrative functions under standard regional security surveillance.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Cross River",
+        "zone": "South-South",
+        "psi": 9.6,
+        "sis": 1.9,
+        "focus": "₦987.81Bn 2027 Budget Proposal, Blue Economy Investment Drive & SPAR Mall Relief",
+        "dailyBrief": "Cross River Assembly prepares ₦987.81bn 2027 budget proposal (71.72% capital) for defence, Gov Otu pitched blue economy investments at the Governor's Ball, extended ₦100m+ relief to 22 SPAR Mall fire victims, inaugurated an Ultramodern Market monitoring committee, and backed GP Land governance.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Plateau",
+        "zone": "North-Central",
+        "psi": 9.3,
+        "sis": 3.0,
+        "focus": "350+ Operation Rainbow Operatives Graduation & Jos-Kano/Owerri Commercial Flight MOU",
+        "dailyBrief": "Gov. Caleb Mutfwang graduated 350+ retrained Operation Rainbow operatives equipped with gun trucks, motorcycles, and 11 local activity camps; the state signed an MOU with United Nigeria Airlines for twice-weekly Jos-Kano and Jos-Owerri flights starting Nov 15.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Abia",
+        "zone": "South-East",
+        "psi": 9.1,
+        "sis": 2.0,
+        "focus": "4.5-Year Consolidation Agenda & 8-LGA Electrical Regulatory Decoupling from NERC",
+        "dailyBrief": "Gov. Alex Otti announced a 4.5-year consolidation plan at Dominion City Conference in Aba, revealing the state decoupled its remaining 8 LGAs from NERC regulation to enforce subnational power autonomy, while reiterating merit-based governance.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Niger",
+        "zone": "North-Central",
+        "psi": 8.8,
+        "sis": 3.1,
+        "focus": "5 IsDB Smart Boarding Schools Partnership & Minna-Bida Road Execution",
+        "dailyBrief": "Gov. Mohammed Umaru Bago hosted an IsDB preparation delegation led by Imtiaz Alam, securing 5 smart boarding schools under the $110m SmartEdu project alongside updates on 75% completed Minna-Bida road and solar projects.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Lagos",
+        "zone": "South-West",
+        "psi": 8.6,
+        "sis": 1.2,
+        "focus": "Inter-State Traditional Medicine Regulation & SMEDAN National MSME Conference 2026 Host",
+        "dailyBrief": "Lagos State Traditional Medicine Board hosted Ogun State counterpart to share regulatory framework across 9,645 practitioners; Gov. Sanwo-Olu opened the SMEDAN National MSME Conference 2026 in Lagos.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Adamawa",
+        "zone": "North-East",
+        "psi": 8.3,
+        "sis": 3.3,
+        "focus": "Yola Stadium Reconstruction Inspection & Project Completion Guarantee Before May 2027",
+        "dailyBrief": "Gov. Ahmadu Umaru Fintiri inspected the Yola Stadium reconstruction, confirming arena completion by Dec 2026 and parking works by Jan 2027 while assuring all state projects will be delivered before May 2027.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Zamfara",
+        "zone": "North-West",
+        "psi": 8.2,
+        "sis": 4.4,
+        "focus": "250 Teacher Trainings Approval & 6 Secondary Schools Infrastructure Renovation",
+        "dailyBrief": "Gov. Dauda Lawal approved capacity-building training for 250 teachers, infrastructure renovation of 6 secondary schools (including GGSS Kotorkoshi and GTC Kaura Namoda), and state-wide curriculum materials distribution.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Ogun",
+        "zone": "South-West",
+        "psi": 8.0,
+        "sis": 1.4,
+        "focus": "NYSC Orientation Camp Logistics Clarification & Lagos Health Regulatory Exchange",
+        "dailyBrief": "Ogun State clarified camp registration logistics for 4,300+ corps members while highlighting state provision of 800 mattresses and ₦50,000 welfare grants; Ogun Alternative Medicine Board visited Lagos to study traditional medicine regulation.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Gombe",
+        "zone": "North-East",
+        "psi": 7.8,
+        "sis": 2.1,
+        "focus": "Grassroots Paralegal Step-Down Training for 100+ Women on Rights & Conflict Resolution",
+        "dailyBrief": "Over 100 community women in Sabon Tasha received paralegal step-down training on domestic violence prevention, women's rights, and peaceful conflict resolution in partnership with the German Embassy and Interfaith Mediation Centre.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Akwa Ibom",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 1.8,
+        "focus": "Baseline Civil Service & Tourism Oversight",
+        "dailyBrief": "Operated under standard subnational administrative maintenance following recent presidential infrastructure commissioning.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Anambra",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 2.0,
+        "focus": "Baseline Civil Service & Commercial Maintenance",
+        "dailyBrief": "Maintained routine administrative operations across state ministries and commercial agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Bauchi",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 2.3,
+        "focus": "Baseline Public Service Governance",
+        "dailyBrief": "Operated under standard civil service protocols without major executive policy releases.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Bayelsa",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.7,
+        "focus": "Baseline Governance & Infrastructure Branding",
+        "dailyBrief": "Maintained routine public sector administrative continuity across coastal transport LGAs.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Benue",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 3.8,
+        "focus": "Baseline Civil Service & Democratic Discourse Oversight",
+        "dailyBrief": "Sustained routine governance operations following anti-political violence executive guidance.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Borno",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 5.2,
+        "focus": "Institutional Security Containment & Reconstruction Oversight",
+        "dailyBrief": "Continued baseline administrative governance within existing regional security containment zones.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Delta",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.5,
+        "focus": "Baseline Urban Administration & Law Enforcement Oversight",
+        "dailyBrief": "Maintained routine administrative continuity following recent public safety directives in Asaba.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Ebonyi",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Public Protection & Judicial Coordination",
+        "dailyBrief": "Operated under standard civil service and legal protection baseline protocols.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Edo",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.3,
+        "focus": "Baseline Micro-Project & Commercial Recovery Oversight",
+        "dailyBrief": "Sustained standard administrative parameters across state public building and emergency management agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Ekiti",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.5,
+        "focus": "Baseline Civil Service Oversight",
+        "dailyBrief": "Operated under standard administrative parameters across executive ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Enugu",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 1.5,
+        "focus": "Grassroots Administration & Emergency System Maintenance",
+        "dailyBrief": "Sustained routine governance operations across development centers and emergency response networks.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "FCT Abuja",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 1.5,
+        "focus": "Municipal Infrastructure Oversight",
+        "dailyBrief": "Sustained baseline municipal administration and project execution monitoring.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Imo",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 3.4,
+        "focus": "Baseline Executive Governance & Security Monitoring",
+        "dailyBrief": "Operated under routine public sector administration with ongoing security surveillance.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Jigawa",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 1.8,
+        "focus": "Baseline Basic Education & Multilateral Grant Oversight",
+        "dailyBrief": "Maintained routine administrative oversight following recent Islamic Development Bank SMART project engagements.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Kaduna",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 3.8,
+        "focus": "Baseline Public Education & Revenue Monitoring",
+        "dailyBrief": "Maintained routine administrative continuity across state education and revenue collection frameworks.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Kano",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 2.1,
+        "focus": "Baseline Urban Administration & Academic Funding Execution",
+        "dailyBrief": "Sustained routine governance operations across municipal and higher education institutions.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Katsina",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 4.1,
+        "focus": "Baseline Civil Service & Security Oversight",
+        "dailyBrief": "Maintained routine administrative functions under standard regional security surveillance.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Kebbi",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 2.7,
+        "focus": "Agrarian Administrative Maintenance",
+        "dailyBrief": "Operated under standard civil service and agrarian governance baseline protocols.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Kogi",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Primary Health & Infrastructure Monitoring",
+        "dailyBrief": "Maintained routine administrative operations following recent solar PHC remodeling rollouts.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Kwara",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.7,
+        "focus": "Baseline Public Education & Local Infrastructure Oversight",
+        "dailyBrief": "Operated within standard subnational administrative parameters following academic award recognitions.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Nasarawa",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 2.4,
+        "focus": "Baseline Transit Infrastructure & Higher Education Oversight",
+        "dailyBrief": "Sustained standard administrative monitoring across flyover and higher education construction sites.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Ondo",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.3,
+        "focus": "Baseline Civil Governance & Coastal Oversight",
+        "dailyBrief": "Operated under standard administrative parameters across state secretariats.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Osun",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.6,
+        "focus": "Standard Civil Service Maintenance",
+        "dailyBrief": "Operated within standard subnational administrative parameters with routine governance operations.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Oyo",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.7,
+        "focus": "Baseline Urban & Rural Administration",
+        "dailyBrief": "Maintained routine administrative continuity across municipal and agricultural agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Rivers",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.5,
+        "focus": "Baseline Tertiary Education Oversight",
+        "dailyBrief": "Sustained routine governance operations across state educational and civil service institutions.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Sokoto",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 4.2,
+        "focus": "Baseline Security Monitoring",
+        "dailyBrief": "Continued routine administrative functions under standard regional security surveillance.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Taraba",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 3.0,
+        "focus": "Baseline Civil Service & Community Relations",
+        "dailyBrief": "Maintained routine public sector administration across state secretariats and regional offices.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 10,
+        "stateName": "Yobe",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 4.5,
+        "focus": "Development Partnership Monitoring",
+        "dailyBrief": "Sustained baseline administrative operations following recent Abuja partnership roundtables.",
         "psiSignalLevel": "BASELINE SIGNAL",
         "psiMomentum": "Stable",
         "sisStatus": "MONITORED",
