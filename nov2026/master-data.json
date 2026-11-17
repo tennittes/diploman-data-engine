@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16",
+  "lastUpdated": "2026-11-17",
   "activeMonth": "November 2026",
 
   "globalCodeData_B1": [
@@ -2914,6 +2914,246 @@
           "whyItMatters": "Highlights institutional recognition of Taraba State's governance reforms and executive leadership."
         },
         "intent": "Reinforcing purposeful public service and institutional partnerships between governance and academia."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "GOMBE",
+        "stateName": "Gombe State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "SEC Approves 97km Roads Worth Over ₦113Bn, 40 CNG Emergency/Water Vehicles, 2027–2029 MTEF & Kolmani Oil Readiness",
+        "psi": 9.5,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "SEC Approves 97km Roads Worth Over ₦113Bn, 40 CNG Emergency/Water Vehicles, 2027–2029 MTEF & Kolmani Oil Readiness",
+          "whatHappened": "Gov. Muhammadu Inuwa Yahaya's SEC approved 7 road contracts spanning 97km across 4 LGAs, ₦3.8bn for 20 CNG firefighting trucks and 20 water tankers, the 2027–2029 MTEF, an updated 2027–2030 Social Protection Policy, and reviewed preparations ahead of December 2026 Kolmani oil drilling resumption.",
+          "whyItMatters": "Expands the Network 1100km Road Initiative, transitions emergency fleets to CNG, and positions Gombe for oil-producing status and revenue."
+        },
+        "intent": "Scaling rural road connectivity, modernizing CNG emergency infrastructure, and preparing for Kolmani oil exploration."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "DELTA",
+        "stateName": "Delta State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gov. Oborevwori Presents ₦1.23Tn 2027 Budget, Cuts Debt from ₦463Bn to ₦63Bn & Approves Allowances for 3,537 Health Workers",
+        "psi": 9.3,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gov. Oborevwori Presents ₦1.23Tn 2027 Budget, Cuts Debt from ₦463Bn to ₦63Bn & Approves Allowances for 3,537 Health Workers",
+          "whatHappened": "Gov. Sheriff Oborevwori presented a ₦1.23 trillion 2027 Budget (65% capital, 35% recurrent), disclosed cutting state debt from ₦463bn to ₦63bn with ₦283bn projected 2026 IGR, approved federal-aligned salary tables for doctors plus uniform allowances for 3,537 health workers, and received the Unity Adeda inquiry report.",
+          "whyItMatters": "Combines aggressive debt reduction and high capital allocation with health workforce retention and civil service accountability."
+        },
+        "intent": "Sustaining capital-led fiscal growth, deleveraging state debt, and stabilizing public healthcare staffing."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "LAGOS",
+        "stateName": "Lagos State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gifts ₦300M & iPhone 18 Pro Max to FIFA U-17 Champions Flamingos, Hosts Floyd Mayweather, Honours 986 Civil Servants & Issues Detty December Scam Alert",
+        "psi": 9.1,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Gifts ₦300M & iPhone 18 Pro Max to FIFA U-17 Champions Flamingos, Hosts Floyd Mayweather, Honours 986 Civil Servants & Issues Detty December Scam Alert",
+          "whatHappened": "Gov. Babajide Sanwo-Olu gifted ₦300m and iPhone 18 Pro Max devices to the victorious Flamingos, hosted boxing champion Floyd Mayweather Jr. on youth sports partnerships, honoured 986 long-serving public servants, launched school child-safeguarding training, and issued LASCOPA anti-scam warnings for Detty December visitors.",
+          "whyItMatters": "Incentivizes national sporting excellence, strengthens public service morale, protects school children, and safeguards festive tourism."
+        },
+        "intent": "Championing sports excellence, rewarding civil service longevity, and enforcing consumer and child protection."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "OYO",
+        "stateName": "Oyo State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Unveils ₦1.115Tn 2027 Budget (60.1% Capital), Starts Circular Road Segment 2 Verification & Condemns Attack on Rule of Law Team",
+        "psi": 8.9,
+        "intensity": "HIGH",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Unveils ₦1.115Tn 2027 Budget (60.1% Capital), Starts Circular Road Segment 2 Verification & Condemns Attack on Rule of Law Team",
+          "whatHappened": "Oyo presented its ₦1.115 trillion 2027 Budget breakdown (₦670.03bn capital, ₦618.72bn Jan–Sep 2026 revenue), commenced property owner verification for Segment II of the Ibadan Circular Road, and condemned armed herder attacks on OYRLEA enforcement officers in Kajola LGA.",
+          "whyItMatters": "Prioritizes capital infrastructure delivery and transparent right-of-way compensation while reinforcing rule-of-law enforcement."
+        },
+        "intent": "Sustaining capital-heavy fiscal execution, transparent land compensation, and anti-open-grazing enforcement."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "KANO",
+        "stateName": "Kano State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gov. Yusuf Injects ₦5Bn in 7th Pension Payment Round, Clearing ₦37Bn of ₦40Bn Inherited Backlog",
+        "psi": 8.7,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Yusuf Injects ₦5Bn in 7th Pension Payment Round, Clearing ₦37Bn of ₦40Bn Inherited Backlog",
+          "whatHappened": "Gov. Abba Kabir Yusuf flagged off the seventh tranche of retirement benefit disbursements with a fresh ₦5 billion injection, bringing total pension arrears paid to ₦37 billion out of over ₦40 billion inherited.",
+          "whyItMatters": "Substantially liquidates legacy retiree liabilities and restores financial dignity to senior citizens across Kano State."
+        },
+        "intent": "Eliminating inherited pension backlogs through disciplined, multi-tranche fiscal disbursements."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "KADUNA",
+        "stateName": "Kaduna State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gov. Uba Sani Completes Ultramodern Kakuri (Southern) Bus Terminal Project",
+        "psi": 8.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Uba Sani Completes Ultramodern Kakuri (Southern) Bus Terminal Project",
+          "whatHappened": "Gov. Uba Sani's administration completed the ultramodern Kakuri Bus Terminal (Southern Terminal) featuring four commuter terminals, a motel, shops, and a fire station, complementing Millennium City and Rigachikun terminals.",
+          "whyItMatters": "Modernizes urban and inter-state mass transit logistics and decongests southern Kaduna metropolitan corridors."
+        },
+        "intent": "Expanding modern public transit terminals and integrated commercial transport hubs across Kaduna."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "EDO",
+        "stateName": "Edo State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gov. Okpebholo Named Silverbird Man of the Year for Anti-Cultism & Kidnapping Gains; EDOHERMA Licenses Diaspora JEMA Hospitals",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Okpebholo Named Silverbird Man of the Year for Anti-Cultism & Kidnapping Gains; EDOHERMA Licenses Diaspora JEMA Hospitals",
+          "whatHappened": "SSG Umar Ikhilor announced Gov. Monday Okpebholo's selection for the Silverbird Man of the Year Award for combating cultism and kidnapping during an Auchi stakeholder engagement, while EDOHERMA issued five regulatory certificates to US diaspora-backed JEMA Hospitals.",
+          "whyItMatters": "Validates Edo's crackdown on violent crime while encouraging diaspora healthcare investments through transparent clinical regulation."
+        },
+        "intent": "Consolidating anti-cultism security gains and attracting diaspora medical capital via strict quality regulation."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "CROSS RIVER",
+        "stateName": "Cross River State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Reopens Renovated Calabar Int'l Convention Centre for Global MICE Economy & Assesses Calabar South Fire Losses",
+        "psi": 8.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Reopens Renovated Calabar Int'l Convention Centre for Global MICE Economy & Assesses Calabar South Fire Losses",
+          "whatHappened": "Cross River highlighted the renovation and reopening of the Calabar International Convention Centre (CICC) to drive global MICE tourism following AfSNET and Bakassi port milestones, while CR-SEMA assessed fire damage at 37 Ebuka Street, Calabar South for victim relief.",
+          "whyItMatters": "Diversifies Cross River's tourism economy into high-yield international conferences while delivering responsive disaster relief."
+        },
+        "intent": "Repositioning public hospitality assets for global MICE revenue and supporting fire-affected residents."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "ADAMAWA",
+        "stateName": "Adamawa State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Completes Mararaban Garta–Kamale Road with 4-Cell Bridge & Inspects Dougire Primary School for Flood Mitigation",
+        "psi": 7.9,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Completes Mararaban Garta–Kamale Road with 4-Cell Bridge & Inspects Dougire Primary School for Flood Mitigation",
+          "whatHappened": "Gov. Ahmadu Fintiri's administration completed the Mararaban Garta to Kamale Road in Michika LGA featuring a four-cell bridge and drainage, while Works Commissioner Mohammed Suleiman inspected runoff flooding at Dougire Primary School in Yola.",
+          "whyItMatters": "Enhances rural connectivity in Michika LGA while initiating rapid engineering mitigation to protect public school infrastructure."
+        },
+        "intent": "Delivering durable rural road-and-bridge links and safeguarding school premises from runoff flooding."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "IMO",
+        "stateName": "Imo State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Gov. Uzodimma Facilitates Maiden International Commercial Flight Lifting at Upgraded Sam Mbakwe Cargo Airport",
+        "psi": 7.8,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Uzodimma Facilitates Maiden International Commercial Flight Lifting at Upgraded Sam Mbakwe Cargo Airport",
+          "whatHappened": "Gov. Hope Uzodimma announced the successful lifting of the maiden commercial international flights from the remodeled and upgraded Sam Mbakwe International Cargo Airport (SMICA), Owerri.",
+          "whyItMatters": "Transforms Owerri into a direct international aviation gateway for export-import trade, tourism, and diaspora travel."
+        },
+        "intent": "Expanding international aviation and cargo connectivity to accelerate state trade and investment."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "ENUGU",
+        "stateName": "Enugu State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Completes Comprehensive Redevelopment of Government Technical College (GTC) Enugu",
+        "psi": 7.6,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Completes Comprehensive Redevelopment of Government Technical College (GTC) Enugu",
+          "whatHappened": "Gov. Peter Mbah's administration completed a full-scale upgrade of Government Technical College (GTC) Enugu, delivering modern classrooms, workshops, student hostels, and staff quarters alongside its Smart Green Schools rollout.",
+          "whyItMatters": "Revitalizes technical and vocational education infrastructure to equip youths with practical industrial skills."
+        },
+        "intent": "Modernizing legacy technical colleges to align student training with practical skills-based careers."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "NASARAWA",
+        "stateName": "Nasarawa State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "First Lady Launches ₦50,000 Women Empowerment Grants in Akwanga; Gov. Sule Welcomes New CP Sheikh Danko",
+        "psi": 7.4,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "First Lady Launches ₦50,000 Women Empowerment Grants in Akwanga; Gov. Sule Welcomes New CP Sheikh Danko",
+          "whatHappened": "Nasarawa First Lady Haj. Farida Sule flagged off ₦50,000 cash grants and wrappers for hundreds of women in Agyaga and Nunku wards of Akwanga LGA, while Gov. Abdullahi Sule received incoming Police Commissioner Sheikh Mohammed Danko and commended outgoing AIG Shetima Jauro Mohammed.",
+          "whyItMatters": "Boosts grassroots women-owned micro-enterprises while ensuring seamless police leadership continuity."
+        },
+        "intent": "Empowering rural women economically and maintaining strong executive-police security coordination."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "FCT ABUJA",
+        "stateName": "FCT Abuja",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "FCTA Clarifies UNIABUJA Land Rationalisation to 4,519.80 Hectares Based on 2016 Joint Committee Report",
+        "psi": 7.2,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "FCTA Clarifies UNIABUJA Land Rationalisation to 4,519.80 Hectares Based on 2016 Joint Committee Report",
+          "whatHappened": "FCTA clarified that Minister Nyesom Wike's allocation of 4,519.80 hectares to UNIABUJA (down from 11,824.04 hectares) exceeded the 100-hectare NUC benchmark recommended by a 2016 FCTA-UNIABUJA Joint Committee and curbed unauthorized land sales.",
+          "whyItMatters": "Enforces statutory land-use compliance and prevents unauthorized alienation of public institutional land in the FCT."
+        },
+        "intent": "Enforcing master-plan land administration and curbing unauthorized institutional land sales."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "ZAMFARA",
+        "stateName": "Zamfara State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Partners UNICEF to Host Youth Behavioural Change Summit on Child Rights, Health, Nutrition & WASH",
+        "psi": 7.0,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Partners UNICEF to Host Youth Behavioural Change Summit on Child Rights, Health, Nutrition & WASH",
+          "whatHappened": "Zamfara Ministry of Information and Culture, supported by UNICEF and traditional rulers, convened a Youth Summit on Behavioural Change mobilizing young leaders across child rights, health, education, nutrition, and WASH.",
+          "whyItMatters": "Engages youth platforms to drive grassroots public health, hygiene, and educational outcomes."
+        },
+        "intent": "Mobilizing youth-led advocacy to accelerate UNICEF-backed health, nutrition, and WASH interventions."
+      },
+      {
+        "dayNumber": 17,
+        "stateKey": "OSUN",
+        "stateName": "Osun State",
+        "displayDate": "Tuesday, November 17, 2026",
+        "headline": "Debunks Fake News on Ruler Demotion, Clarifying Ataoja-in-Council Discipline of Two Baales Over Land Grabbing",
+        "psi": 6.6,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Debunks Fake News on Ruler Demotion, Clarifying Ataoja-in-Council Discipline of Two Baales Over Land Grabbing",
+          "whatHappened": "Gov. Ademola Adeleke's spokesperson Mallam Olawale Rasheed refuted claims of partisan demotion of monarchs, clarifying that the Ataoja-in-Council disciplined two local Baales over land grabbing and insubordination.",
+          "whyItMatters": "Protects institutional clarity regarding traditional council jurisdiction and counters political disinformation."
+        },
+        "intent": "Clarifying traditional council autonomy and countering misinformation regarding local chieftaincy matters."
       }
   ],
   "globalCodeData_B2": {
@@ -7194,6 +7434,362 @@
             "body": "Governor Agbu Kefas received an honorary Doctor of Humane Letters from the University of Uyo for public service."
           },
           "securityAnalysis": "Taraba State (7.0 PSI / SIS 3.0 / MONITORED) maintains steady administrative continuity under standard regional monitoring."
+        }
+      ]
+    },
+    "17": {
+      "date": "2026-11-17",
+      "formattedDate": "November 17, 2026",
+      "metadata": {
+        "compositePsi": 8.1,
+        "activeJurisdictionsCount": 15,
+        "unlistedJurisdictionsCount": 22,
+        "unlistedNote": "The 22 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 15 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive velocity on November 17, 2026, recorded an 8.1 net PSI composite average across 15 active jurisdictions, headlined by Gombe State's SEC approval of 97km of roads, 40 CNG emergency/water vehicles, and Kolmani oil preparations; Delta State's ₦1.23tn 2027 Budget and ₦400bn debt reduction; Lagos State's ₦300m reward to FIFA U-17 champions Flamingos; Oyo State's ₦1.115tn capital-focused 2027 Budget; and Kano State's ₦5bn pension backlog clearance."
+        },
+        "security": {
+          "title": "Subnational Risk Profile Highlights Anti-Cultism Recognition in Edo, Police Transition in Nasarawa, and Rule-of-Law Enforcement in Oyo",
+          "summary": "Comprehensive subnational risk assessment evaluating State Instability Scores (SIS), Investment Decision Profiles, and structural capital deployment across Nigeria's economic zones."
+        },
+        "policy": {
+          "title": "Subnational Executive Execution Reaches 8.1 Baseline Across 2027 Capital Budgets, Rural Road Networks, Pension Clearance, and Aviation",
+          "summary": "Nigeria's state leadership demonstrates disciplined fiscal planning through 60%+ capital-weighted 2027 budgets, pension liability reductions, CNG fleet modernization, and international airport upgrades."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria recorded an active composite Policy Signal Index (PSI) baseline average of 8.1 on November 17, 2026, across 15 active jurisdictions. State governments prioritized 2027 capital budget presentations, multi-billion-naira road awards, pension liability clearance, and transport infrastructure completions.",
+          "emergingPatterns": "Key executive trends highlight strong capital expenditure ratios and fiscal discipline—led by Delta State's ₦1.23tn 2027 Budget (65% capital) alongside cutting state debt from ₦463bn to ₦63bn, and Oyo State's ₦1.115tn budget dedicating 60.1% to capital projects. Concurrently, Gombe State approved 97km of rural roads and 40 CNG emergency vehicles ahead of Kolmani oil drilling, Kano injected ₦5bn to reach ₦37bn in cleared pension arrears, and Imo lifted maiden international flights at Sam Mbakwe Airport.",
+          "strategicOutlook": "Sustaining momentum requires timely legislative passage of the 2027 budgets in Delta and Oyo, seamless December oil drilling resumption in Gombe's Kolmani corridor, and sustained revenue growth across upgraded aviation and transit terminals.",
+          "conclusion": "The subnational governance landscape reflects strong commitment to capital-led budgeting, debt reduction, clean fleet modernization, and social welfare."
+        },
+        "security": {
+          "introduction": "Operational security benchmarks across active subnational corridors showed active institutional enforcement and leadership transitions on November 17, 2026.",
+          "emergingPatterns": "Edo State highlighted Governor Monday Okpebholo's selection for the Silverbird Man of the Year Award in recognition of decisive anti-cultism and anti-kidnapping gains. In Oyo State, the Rule of Law Enforcement Authority condemned armed herder attacks on officers enforcing anti-open-grazing regulations in Kajola LGA as police intervened, while Nasarawa State executed a smooth police commissioner transition.",
+          "strategicOutlook": "Private operators and investors benefit from strengthened anti-cultism enforcement in Edo and transparent regulatory protection in Lagos and Oyo.",
+          "conclusion": "Coordinated rule-of-law enforcement, police leadership continuity, and consumer protection frameworks continue to reinforce subnational operating stability."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "2027 Capital Budgets, Debt Deleveraging, and Pension Clearance Corridors",
+          "states": ["Gombe", "Delta", "Oyo", "Kano", "FCT Abuja"]
+        },
+        {
+          "groupTitle": "Transport Terminals, Aviation Gateways, and Road Infrastructure Corridors",
+          "states": ["Kaduna", "Adamawa", "Imo", "Cross River", "Enugu"]
+        },
+        {
+          "groupTitle": "Sports Excellence, Anti-Cultism Security, and Social Protection Corridors",
+          "states": ["Lagos", "Edo", "Nasarawa", "Zamfara", "Osun"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 9.5,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.0,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "SEC Approves 97km Roads Worth Over ₦113Bn, 40 CNG Emergency/Water Vehicles, 2027–2029 MTEF & Kolmani Oil Readiness",
+          "impactVector": "Gov. Muhammadu Inuwa Yahaya's SEC approved 7 road contracts spanning 97km across 4 LGAs, ₦3.8bn for 20 CNG firefighting trucks and 20 water tankers, the 2027–2029 MTEF, an updated 2027–2030 Social Protection Policy, and reviewed preparations ahead of December 2026 Kolmani oil drilling resumption.",
+          "policyBreakdown": {
+            "category": "Rural Road Expansion, CNG Emergency Fleet & Kolmani Oil Readiness",
+            "body": "Gombe SEC approved 97km of roads, 40 CNG firefighting/water vehicles, the 2027–2029 MTEF, and December Kolmani drilling preparations."
+          },
+          "securityAnalysis": "Gombe State (9.5 PSI / SIS 2.0 / SECURE) expands statewide firefighting capacity with 20 CNG fire trucks while maintaining civic calm."
+        },
+        {
+          "state": "Delta",
+          "governor": "Sheriff Oborevwori",
+          "metrics": {
+            "psiScore": 9.3,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Oborevwori Presents ₦1.23Tn 2027 Budget, Cuts Debt from ₦463Bn to ₦63Bn & Approves Allowances for 3,537 Health Workers",
+          "impactVector": "Gov. Sheriff Oborevwori presented a ₦1.23 trillion 2027 Budget (65% capital, 35% recurrent), disclosed cutting state debt from ₦463bn to ₦63bn with ₦283bn projected 2026 IGR, approved federal-aligned salary tables for doctors plus uniform allowances for 3,537 health workers, and received the Unity Adeda inquiry report.",
+          "policyBreakdown": {
+            "category": "2027 Capital Budget, Debt Reduction & Health Worker Welfare",
+            "body": "Delta presented a ₦1.23tn 2027 Budget (65% capital), reduced debt by ₦400bn, and approved allowances for 3,537 health workers."
+          },
+          "securityAnalysis": "Delta State (9.3 PSI / SIS 2.5 / SECURE) sustains fiscal and institutional stability alongside dedicated 2027 security allocations."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 9.1,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gifts ₦300M & iPhone 18 Pro Max to FIFA U-17 Champions Flamingos, Hosts Floyd Mayweather, Honours 986 Civil Servants & Issues Detty December Scam Alert",
+          "impactVector": "Gov. Babajide Sanwo-Olu gifted ₦300m and iPhone 18 Pro Max devices to the victorious Flamingos, hosted boxing champion Floyd Mayweather Jr. on youth sports partnerships, honoured 986 long-serving public servants, launched school child-safeguarding training, and issued LASCOPA anti-scam warnings for Detty December visitors.",
+          "policyBreakdown": {
+            "category": "Sports Development, Civil Service Recognition & Consumer Protection",
+            "body": "Lagos rewarded the FIFA U-17 champion Flamingos with ₦300m, honoured 986 public servants, and issued Detty December fraud alerts."
+          },
+          "securityAnalysis": "Lagos State (9.1 PSI / SIS 1.2 / SECURE) reinforces school child safeguarding and festive consumer protection across all districts."
+        },
+        {
+          "state": "Oyo",
+          "governor": "Seyi Makinde",
+          "metrics": {
+            "psiScore": 8.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Unveils ₦1.115Tn 2027 Budget (60.1% Capital), Starts Circular Road Segment 2 Verification & Condemns Attack on Rule of Law Team",
+          "impactVector": "Oyo presented its ₦1.115 trillion 2027 Budget breakdown (₦670.03bn capital, ₦618.72bn Jan–Sep 2026 revenue), commenced property owner verification for Segment II of the Ibadan Circular Road, and condemned armed herder attacks on OYRLEA enforcement officers in Kajola LGA.",
+          "policyBreakdown": {
+            "category": "2027 Capital Budget Breakdown, Corridor Compensation & Rule of Law",
+            "body": "Oyo detailed its ₦1.115tn 2027 budget (60.1% capital), began Circular Road Segment 2 verification, and condemned attacks on OYRLEA."
+          },
+          "securityAnalysis": "Oyo State (8.9 PSI / SIS 1.6 / SECURE) deployed police response to contain armed resistance against anti-open-grazing enforcement in Kajola LGA."
+        },
+        {
+          "state": "Kano",
+          "governor": "Abba Kabir Yusuf",
+          "metrics": {
+            "psiScore": 8.7,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.0,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Yusuf Injects ₦5Bn in 7th Pension Payment Round, Clearing ₦37Bn of ₦40Bn Inherited Backlog",
+          "impactVector": "Gov. Abba Kabir Yusuf flagged off the seventh tranche of retirement benefit disbursements with a fresh ₦5 billion injection, bringing total pension arrears paid to ₦37 billion out of over ₦40 billion inherited.",
+          "policyBreakdown": {
+            "category": "Pension Arrears Liquidation & Senior Citizen Welfare",
+            "body": "Kano injected ₦5bn in its seventh pension disbursement round, clearing ₦37bn out of over ₦40bn in inherited liabilities."
+          },
+          "securityAnalysis": "Kano State (8.7 PSI / SIS 2.0 / SECURE) maintains strong social stability through consistent retiree entitlement payments."
+        },
+        {
+          "state": "Kaduna",
+          "governor": "Uba Sani",
+          "metrics": {
+            "psiScore": 8.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.7,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Gov. Uba Sani Completes Ultramodern Kakuri (Southern) Bus Terminal Project",
+          "impactVector": "Gov. Uba Sani's administration completed the ultramodern Kakuri Bus Terminal (Southern Terminal) featuring four commuter terminals, a motel, shops, and a fire station, complementing Millennium City and Rigachikun terminals.",
+          "policyBreakdown": {
+            "category": "Urban Mass Transit & Commercial Terminal Infrastructure",
+            "body": "Kaduna completed the ultramodern Kakuri (Southern) Bus Terminal with four commuter terminals, fire station, and commercial facilities."
+          },
+          "securityAnalysis": "Kaduna State (8.5 PSI / SIS 3.7 / MONITORED) enhances organized commuter transport hubs across southern Kaduna metropolis."
+        },
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Okpebholo Named Silverbird Man of the Year for Anti-Cultism & Kidnapping Gains; EDOHERMA Licenses Diaspora JEMA Hospitals",
+          "impactVector": "SSG Umar Ikhilor announced Gov. Monday Okpebholo's selection for the Silverbird Man of the Year Award for combating cultism and kidnapping during an Auchi stakeholder engagement, while EDOHERMA issued five regulatory certificates to US diaspora-backed JEMA Hospitals.",
+          "policyBreakdown": {
+            "category": "Security Leadership Recognition & Diaspora Healthcare Regulation",
+            "body": "Gov. Okpebholo earned the Silverbird Man of the Year Award for anti-cultism gains while EDOHERMA certified diaspora-owned JEMA Hospitals."
+          },
+          "securityAnalysis": "Edo State (8.3 PSI / SIS 2.2 / SECURE) receives national recognition for sustained reductions in cultism and kidnapping."
+        },
+        {
+          "state": "Cross River",
+          "governor": "Bassey Edet Otu",
+          "metrics": {
+            "psiScore": 8.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Reopens Renovated Calabar Int'l Convention Centre for Global MICE Economy & Assesses Calabar South Fire Losses",
+          "impactVector": "Cross River highlighted the renovation and reopening of the Calabar International Convention Centre (CICC) to drive global MICE tourism following AfSNET and Bakassi port milestones, while CR-SEMA assessed fire damage at 37 Ebuka Street, Calabar South for victim relief.",
+          "policyBreakdown": {
+            "category": "MICE Tourism Infrastructure Revitalisation & Emergency Relief",
+            "body": "Cross River reopened the renovated Calabar International Convention Centre and dispatched CR-SEMA to assess Calabar South fire losses."
+          },
+          "securityAnalysis": "Cross River State (8.1 PSI / SIS 1.8 / SECURE) pairs conference tourism readiness with rapid emergency agency response."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 7.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Completes Mararaban Garta–Kamale Road with 4-Cell Bridge & Inspects Dougire Primary School for Flood Mitigation",
+          "impactVector": "Gov. Ahmadu Fintiri's administration completed the Mararaban Garta to Kamale Road in Michika LGA featuring a four-cell bridge and drainage, while Works Commissioner Mohammed Suleiman inspected runoff flooding at Dougire Primary School in Yola.",
+          "policyBreakdown": {
+            "category": "Rural Road Completion & School Flood Mitigation Engineering",
+            "body": "Adamawa completed the Mararaban Garta–Kamale Road in Michika LGA and assessed runoff drainage at Dougire Primary School in Yola."
+          },
+          "securityAnalysis": "Adamawa State (7.9 PSI / SIS 3.1 / MONITORED) sustains rural civil works execution in Michika LGA under standard regional monitoring."
+        },
+        {
+          "state": "Imo",
+          "governor": "Hope Uzodimma",
+          "metrics": {
+            "psiScore": 7.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.4,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Gov. Uzodimma Facilitates Maiden International Commercial Flight Lifting at Upgraded Sam Mbakwe Cargo Airport",
+          "impactVector": "Gov. Hope Uzodimma announced the successful lifting of the maiden commercial international flights from the remodeled and upgraded Sam Mbakwe International Cargo Airport (SMICA), Owerri.",
+          "policyBreakdown": {
+            "category": "International Aviation & Cargo Gateway Upgrade",
+            "body": "Imo facilitated the maiden commercial international flight lifting from the remodeled Sam Mbakwe International Cargo Airport in Owerri."
+          },
+          "securityAnalysis": "Imo State (7.8 PSI / SIS 3.4 / MONITORED) expands international air transport operations under standard regional security protocols."
+        },
+        {
+          "state": "Enugu",
+          "governor": "Peter Mbah",
+          "metrics": {
+            "psiScore": 7.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Completes Comprehensive Redevelopment of Government Technical College (GTC) Enugu",
+          "impactVector": "Gov. Peter Mbah's administration completed a full-scale upgrade of Government Technical College (GTC) Enugu, delivering modern classrooms, workshops, student hostels, and staff quarters alongside its Smart Green Schools rollout.",
+          "policyBreakdown": {
+            "category": "Technical & Vocational Education Infrastructure Renewal",
+            "body": "Enugu completed the comprehensive redevelopment of Government Technical College (GTC) Enugu with modern workshops and hostels."
+          },
+          "securityAnalysis": "Enugu State (7.6 PSI / SIS 1.5 / SECURE) maintains top-tier educational and civic stability across the state capital."
+        },
+        {
+          "state": "Nasarawa",
+          "governor": "Abdullahi Sule",
+          "metrics": {
+            "psiScore": 7.4,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "First Lady Launches ₦50,000 Women Empowerment Grants in Akwanga; Gov. Sule Welcomes New CP Sheikh Danko",
+          "impactVector": "Nasarawa First Lady Haj. Farida Sule flagged off ₦50,000 cash grants and wrappers for hundreds of women in Agyaga and Nunku wards of Akwanga LGA, while Gov. Abdullahi Sule received incoming Police Commissioner Sheikh Mohammed Danko and commended outgoing AIG Shetima Jauro Mohammed.",
+          "policyBreakdown": {
+            "category": "Grassroots Women Micro-Grants & Police Command Transition",
+            "body": "Nasarawa launched ₦50,000 women empowerment grants in Akwanga LGA and welcomed new Police Commissioner Sheikh Mohammed Danko."
+          },
+          "securityAnalysis": "Nasarawa State (7.4 PSI / SIS 2.3 / SECURE) ensures seamless state police leadership handover and grassroots stability."
+        },
+        {
+          "state": "FCT Abuja",
+          "governor": "Nyesom Wike (Minister)",
+          "metrics": {
+            "psiScore": 7.2,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.4,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "FCTA Clarifies UNIABUJA Land Rationalisation to 4,519.80 Hectares Based on 2016 Joint Committee Report",
+          "impactVector": "FCTA clarified that Minister Nyesom Wike's allocation of 4,519.80 hectares to UNIABUJA (down from 11,824.04 hectares) exceeded the 100-hectare NUC benchmark recommended by a 2016 FCTA-UNIABUJA Joint Committee and curbed unauthorized land sales.",
+          "policyBreakdown": {
+            "category": "Federal Capital Land Administration & Master-Plan Compliance",
+            "body": "FCTA defended UNIABUJA's 4,519.80-hectare land rationalization as implementing a 2016 joint committee report and halting illegal sales."
+          },
+          "securityAnalysis": "FCT Abuja (7.2 PSI / SIS 1.4 / SECURE) enforces land-use compliance and orderly administrative governance across the capital territory."
+        },
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 7.0,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 4.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Partners UNICEF to Host Youth Behavioural Change Summit on Child Rights, Health, Nutrition & WASH",
+          "impactVector": "Zamfara Ministry of Information and Culture, supported by UNICEF and traditional rulers, convened a Youth Summit on Behavioural Change mobilizing young leaders across child rights, health, education, nutrition, and WASH.",
+          "policyBreakdown": {
+            "category": "Youth Advocacy, Public Health & WASH Behavioural Change",
+            "body": "Zamfara and UNICEF hosted a Youth Behavioural Change Summit promoting child rights, nutrition, education, and WASH."
+          },
+          "securityAnalysis": "Zamfara State (7.0 PSI / SIS 4.2 / MONITORED) advances youth-led social development under ongoing regional security monitoring."
+        },
+        {
+          "state": "Osun",
+          "governor": "Ademola Adeleke",
+          "metrics": {
+            "psiScore": 6.6,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Debunks Fake News on Ruler Demotion, Clarifying Ataoja-in-Council Discipline of Two Baales Over Land Grabbing",
+          "impactVector": "Gov. Ademola Adeleke's spokesperson Mallam Olawale Rasheed refuted claims of partisan demotion of monarchs, clarifying that the Ataoja-in-Council disciplined two local Baales over land grabbing and insubordination.",
+          "policyBreakdown": {
+            "category": "Traditional Institution Autonomy & Anti-Disinformation",
+            "body": "Osun State debunked fake news on monarch demotions, clarifying the Ataoja-in-Council disciplined two Baales for land grabbing."
+          },
+          "securityAnalysis": "Osun State (6.6 PSI / SIS 1.6 / SECURE) maintains civic calm and respect for traditional council jurisdiction."
         }
       ]
     }
@@ -12886,6 +13482,524 @@
       },
       {
         "dayNumber": 16,
+        "stateName": "Yobe",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 4.5,
+        "focus": "Baseline Health & Public Service Oversight",
+        "dailyBrief": "Sustained routine governance operations across state ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Gombe",
+        "zone": "North-East",
+        "psi": 9.5,
+        "sis": 2.0,
+        "focus": "SEC Approval of 97km Roads, 40 CNG Emergency/Water Vehicles, 2027–2029 MTEF & Kolmani Oil",
+        "dailyBrief": "Gov. Muhammadu Inuwa Yahaya's SEC approved 7 road contracts spanning 97km across 4 LGAs, ₦3.8bn for 20 CNG firefighting trucks and 20 water tankers, the 2027–2029 MTEF, an updated 2027–2030 Social Protection Policy, and reviewed preparations ahead of December 2026 Kolmani oil drilling resumption.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Delta",
+        "zone": "South-South",
+        "psi": 9.3,
+        "sis": 2.5,
+        "focus": "₦1.23Tn 2027 Budget Presentation, ₦400Bn Debt Cut & Allowances for 3,537 Health Workers",
+        "dailyBrief": "Gov. Sheriff Oborevwori presented a ₦1.23 trillion 2027 Budget (65% capital, 35% recurrent), disclosed cutting state debt from ₦463bn to ₦63bn with ₦283bn projected 2026 IGR, approved federal-aligned salary tables for doctors plus uniform allowances for 3,537 health workers, and received the Unity Adeda inquiry report.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Lagos",
+        "zone": "South-West",
+        "psi": 9.1,
+        "sis": 1.2,
+        "focus": "₦300M Reward to FIFA U-17 Champions Flamingos, Mayweather Visit, 986 Long Service Awards & LASCOPA Alert",
+        "dailyBrief": "Gov. Babajide Sanwo-Olu gifted ₦300m and iPhone 18 Pro Max devices to the victorious Flamingos, hosted boxing champion Floyd Mayweather Jr. on youth sports partnerships, honoured 986 long-serving public servants, launched school child-safeguarding training, and issued LASCOPA anti-scam warnings for Detty December visitors.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Oyo",
+        "zone": "South-West",
+        "psi": 8.9,
+        "sis": 1.6,
+        "focus": "₦1.115Tn 2027 Budget (60.1% Capital), Circular Road Segment 2 Verification & OYRLEA Attack Response",
+        "dailyBrief": "Oyo presented its ₦1.115 trillion 2027 Budget breakdown (₦670.03bn capital, ₦618.72bn Jan–Sep 2026 revenue), commenced property owner verification for Segment II of the Ibadan Circular Road, and condemned armed herder attacks on OYRLEA enforcement officers in Kajola LGA.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Kano",
+        "zone": "North-West",
+        "psi": 8.7,
+        "sis": 2.0,
+        "focus": "₦5Bn 7th Pension Payment Tranche Bringing Total Cleared Backlog to ₦37Bn",
+        "dailyBrief": "Gov. Abba Kabir Yusuf flagged off the seventh tranche of retirement benefit disbursements with a fresh ₦5 billion injection, bringing total pension arrears paid to ₦37 billion out of over ₦40 billion inherited.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Kaduna",
+        "zone": "North-West",
+        "psi": 8.5,
+        "sis": 3.7,
+        "focus": "Completion of Ultramodern Kakuri (Southern) Bus Terminal Project",
+        "dailyBrief": "Gov. Uba Sani's administration completed the ultramodern Kakuri Bus Terminal (Southern Terminal) featuring four commuter terminals, a motel, shops, and a fire station, complementing Millennium City and Rigachikun terminals.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Edo",
+        "zone": "South-South",
+        "psi": 8.3,
+        "sis": 2.2,
+        "focus": "Silverbird Man of the Year Award for Anti-Cultism Gains & EDOHERMA Licensing of JEMA Hospitals",
+        "dailyBrief": "SSG Umar Ikhilor announced Gov. Monday Okpebholo's selection for the Silverbird Man of the Year Award for combating cultism and kidnapping during an Auchi stakeholder engagement, while EDOHERMA issued five regulatory certificates to US diaspora-backed JEMA Hospitals.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Cross River",
+        "zone": "South-South",
+        "psi": 8.1,
+        "sis": 1.8,
+        "focus": "Calabar Int'l Convention Centre Reopening for Global MICE Economy & Calabar South Fire Assessment",
+        "dailyBrief": "Cross River highlighted the renovation and reopening of the Calabar International Convention Centre (CICC) to drive global MICE tourism following AfSNET and Bakassi port milestones, while CR-SEMA assessed fire damage at 37 Ebuka Street, Calabar South for victim relief.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Adamawa",
+        "zone": "North-East",
+        "psi": 7.9,
+        "sis": 3.1,
+        "focus": "Completion of Mararaban Garta–Kamale Road & Dougire Primary School Flood Assessment",
+        "dailyBrief": "Gov. Ahmadu Fintiri's administration completed the Mararaban Garta to Kamale Road in Michika LGA featuring a four-cell bridge and drainage, while Works Commissioner Mohammed Suleiman inspected runoff flooding at Dougire Primary School in Yola.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Imo",
+        "zone": "South-East",
+        "psi": 7.8,
+        "sis": 3.4,
+        "focus": "Maiden Commercial International Flight Lifting at Upgraded Sam Mbakwe Cargo Airport",
+        "dailyBrief": "Gov. Hope Uzodimma announced the successful lifting of the maiden commercial international flights from the remodeled and upgraded Sam Mbakwe International Cargo Airport (SMICA), Owerri.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Enugu",
+        "zone": "South-East",
+        "psi": 7.6,
+        "sis": 1.5,
+        "focus": "Comprehensive Redevelopment of Government Technical College (GTC) Enugu",
+        "dailyBrief": "Gov. Peter Mbah's administration completed a full-scale upgrade of Government Technical College (GTC) Enugu, delivering modern classrooms, workshops, student hostels, and staff quarters alongside its Smart Green Schools rollout.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Nasarawa",
+        "zone": "North-Central",
+        "psi": 7.4,
+        "sis": 2.3,
+        "focus": "First Lady's ₦50,000 Women Grants in Akwanga & Reception of New CP Sheikh Mohammed Danko",
+        "dailyBrief": "Nasarawa First Lady Haj. Farida Sule flagged off ₦50,000 cash grants and wrappers for hundreds of women in Agyaga and Nunku wards of Akwanga LGA, while Gov. Abdullahi Sule received incoming Police Commissioner Sheikh Mohammed Danko and commended outgoing AIG Shetima Jauro Mohammed.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "FCT Abuja",
+        "zone": "North-Central",
+        "psi": 7.2,
+        "sis": 1.4,
+        "focus": "FCTA Clarification on UNIABUJA 4,519.80-Hectare Land Rationalisation",
+        "dailyBrief": "FCTA clarified that Minister Nyesom Wike's allocation of 4,519.80 hectares to UNIABUJA (down from 11,824.04 hectares) exceeded the 100-hectare NUC benchmark recommended by a 2016 FCTA-UNIABUJA Joint Committee and curbed unauthorized land sales.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Zamfara",
+        "zone": "North-West",
+        "psi": 7.0,
+        "sis": 4.2,
+        "focus": "UNICEF-Backed Youth Behavioural Change Summit on Child Rights, Health, Nutrition & WASH",
+        "dailyBrief": "Zamfara Ministry of Information and Culture, supported by UNICEF and traditional rulers, convened a Youth Summit on Behavioural Change mobilizing young leaders across child rights, health, education, nutrition, and WASH.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Osun",
+        "zone": "South-West",
+        "psi": 6.6,
+        "sis": 1.6,
+        "focus": "Clarification on Ataoja-in-Council Discipline of Two Baales Over Land Grabbing",
+        "dailyBrief": "Gov. Ademola Adeleke's spokesperson Mallam Olawale Rasheed refuted claims of partisan demotion of monarchs, clarifying that the Ataoja-in-Council disciplined two local Baales over land grabbing and insubordination.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Abia",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 1.9,
+        "focus": "Baseline Civil Service & Road Infrastructure Oversight",
+        "dailyBrief": "Maintained routine public sector administration across state ministries and works departments.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Akwa Ibom",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 1.7,
+        "focus": "Baseline ARISE 2.0 & Civil Service Administration",
+        "dailyBrief": "Sustained routine administrative governance across state ministries and rural housing boards.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Anambra",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 1.9,
+        "focus": "Baseline Youth Skills & Civil Service Operations",
+        "dailyBrief": "Sustained routine administrative governance across state ministries and vocational portals.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Bauchi",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 2.3,
+        "focus": "Baseline Civil Service Operations",
+        "dailyBrief": "Operated under standard civil service protocols without major executive policy releases.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Bayelsa",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.6,
+        "focus": "Baseline Energy & Administrative Oversight",
+        "dailyBrief": "Maintained routine governance operations across state ministries and investment agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Benue",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 3.5,
+        "focus": "Baseline Fiscal & Social Stimulus Implementation",
+        "dailyBrief": "Sustained routine administrative operations following recent Executive Council fiscal approvals.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Borno",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 5.2,
+        "focus": "Security Containment & Relief Oversight",
+        "dailyBrief": "Continued baseline administrative governance within existing regional security containment zones.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Ebonyi",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Youth & Sports Oversight",
+        "dailyBrief": "Sustained routine public sector administration across state departments.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Ekiti",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.5,
+        "focus": "Baseline Digital Economy & Education Administration",
+        "dailyBrief": "Sustained routine governance operations across state ministries and innovation agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Jigawa",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 1.8,
+        "focus": "Baseline Capital Project & Health Implementation",
+        "dailyBrief": "Maintained routine administrative oversight following recent Executive Council capital approvals.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Katsina",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 4.1,
+        "focus": "Baseline Forest Security & Civil Service Oversight",
+        "dailyBrief": "Maintained routine administrative functions alongside newly deployed National Forest Guards.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Kebbi",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 2.7,
+        "focus": "Agrarian Administrative Maintenance",
+        "dailyBrief": "Operated under standard civil service and agrarian governance baseline protocols.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Kogi",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Infrastructure Oversight",
+        "dailyBrief": "Sustained routine governance operations across state ministries and agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Kwara",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.6,
+        "focus": "Baseline Agribusiness & Health Oversight",
+        "dailyBrief": "Maintained routine administrative continuity across state ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Niger",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 3.0,
+        "focus": "Baseline Creative Hub & Agricultural Oversight",
+        "dailyBrief": "Operated under standard civil service parameters across local government areas.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Ogun",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.3,
+        "focus": "Baseline Industrial Park & Infrastructure Oversight",
+        "dailyBrief": "Sustained routine administrative operations across state secretariats and industrial zones.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Ondo",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.3,
+        "focus": "Baseline Health Insurance & Education Oversight",
+        "dailyBrief": "Sustained routine governance operations across executive agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Plateau",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 2.6,
+        "focus": "Baseline Digital BPO & Security Administration",
+        "dailyBrief": "Maintained routine administrative oversight across state ministries and security hubs.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Rivers",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.3,
+        "focus": "Baseline Energy Corridor & Civic Administration",
+        "dailyBrief": "Maintained routine administrative continuity across state ministries and host-community committees.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Sokoto",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 4.2,
+        "focus": "Baseline Rural Electrification & Health Oversight",
+        "dailyBrief": "Continued routine administrative functions following recent EXCO power and PHC contract awards.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
+        "stateName": "Taraba",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 3.0,
+        "focus": "Baseline Civil Service Operations",
+        "dailyBrief": "Maintained routine public sector administration across state secretariats.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 17,
         "stateName": "Yobe",
         "zone": "North-East",
         "psi": 3.0,
