@@ -1,4 +1,4 @@
-// scripts/extract_summary_from_master.js — Normalizes master-data.json Into state/<vertical>/daily_metrics_summary.json
+// scripts/extract_summary_from_master.js — Normalizes Live Diploman Schemas Into state/<vertical>/daily_metrics_summary.json
 const fs = require("fs");
 const path = require("path");
 const { resolveContractPath } = require("./validate_inputs");
@@ -7,12 +7,23 @@ const ZONE_MAP = {
   Abia: "SE", Adamawa: "NE", "Akwa Ibom": "SS", Anambra: "SE", Bauchi: "NE",
   Bayelsa: "SS", Benue: "NC", Borno: "NE", "Cross River": "SS", Delta: "SS",
   Ebonyi: "SE", Edo: "SS", Ekiti: "SW", Enugu: "SE", FCT: "NC",
-  Gombe: "NE", Imo: "SE", Jigawa: "NW", Kaduna: "NW", Kano: "NW",
-  Katsina: "NW", Kebbi: "NW", Kogi: "NC", Kwara: "NC", Lagos: "SW",
-  Nasarawa: "NC", Niger: "NC", Ogun: "SW", Ondo: "SW", Osun: "SW",
-  Oyo: "SW", Plateau: "NC", Rivers: "SS", Sokoto: "NW", Taraba: "NE",
-  Yobe: "NE", Zamfara: "NW"
+  "Federal Capital Territory": "NC", Gombe: "NE", Imo: "SE", Jigawa: "NW",
+  Kaduna: "NW", Kano: "NW", Katsina: "NW", Kebbi: "NW", Kogi: "NC",
+  Kwara: "NC", Lagos: "SW", Nasarawa: "NC", Niger: "NC", Ogun: "SW",
+  Ondo: "SW", Osun: "SW", Oyo: "SW", Plateau: "NC", Rivers: "SS",
+  Sokoto: "NW", Taraba: "NE", Yobe: "NE", Zamfara: "NW"
 };
+
+const LEAGUE_FILE_MAP = [
+  { code: "BL1", name: "Bundesliga", file: "bl1-matches.json" },
+  { code: "BSA", name: "Campeonato Brasileiro Serie A", file: "bsa-matches.json" },
+  { code: "DED", name: "Eredivisie", file: "ded-matches.json" },
+  { code: "FL1", name: "Ligue 1", file: "fl1-matches.json" },
+  { code: "PD", name: "La Liga", file: "pd-matches.json" },
+  { code: "PL", name: "Premier League", file: "pl-matches.json" },
+  { code: "PPL", name: "Primeira Liga", file: "ppl-matches.json" },
+  { code: "SA", name: "Serie A", file: "sa-matches.json" }
+];
 
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
@@ -33,33 +44,42 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
+function cleanEntityName(raw) {
+  if (!raw) return "Unknown";
+  if (raw === "Federal Capital Territory") return "FCT";
+  return String(raw).replace(/\s+State$/i, "").trim();
+}
+
+function parseDisplayDateToIso(displayDate, fallbackIso) {
+  if (!displayDate || typeof displayDate !== "string") return fallbackIso;
+  const parsed = new Date(`${displayDate} UTC`);
+  if (!Number.isNaN(parsed.getTime())) {
+    return parsed.toISOString().slice(0, 10);
+  }
+  return fallbackIso;
+}
+
 function extractRecordsArray(master, vertical) {
   if (Array.isArray(master)) return master;
   if (vertical === "governancescore") {
     return (
+      master.globalCodeData_B1 ||
       (master.governance && (master.governance.jurisdictions || master.governance.states)) ||
       master.jurisdictions ||
       master.states ||
-      master.rows ||
       []
     );
   }
   if (vertical === "policingintel") {
     return (
+      master.globalCodeData_B4 ||
       (master.policing && (master.policing.jurisdictions || master.policing.commands)) ||
       master.jurisdictions ||
       master.commands ||
-      master.rows ||
       []
     );
   }
-  return (
-    (master.football && (master.football.leagues || master.football.standings)) ||
-    master.leagues ||
-    master.standings ||
-    master.rows ||
-    []
-  );
+  return master.leagues || master.standings || [];
 }
 
 function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
@@ -72,47 +92,126 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   const deficitThresh =
     (contract.metrics && contract.metrics.primary && contract.metrics.primary.deficit_delta_threshold) || -1.0;
 
-  const normalized = rawList.map((item) => {
-    const entity = item.entity || item.state || item.command || item.jurisdiction || item.name || "Unknown";
-    const zone = item.zone || ZONE_MAP[entity] || "NC";
+  // Determine latest dayNumber or date present in rawList so we build a clean 37-jurisdiction snapshot
+  const maxDayNum = rawList.reduce((acc, item) => Math.max(acc, toNum(item.dayNumber, 0)), 0);
+  const latestRows = maxDayNum > 0 ? rawList.filter((item) => toNum(item.dayNumber, 0) === maxDayNum) : rawList;
+  const priorRows = maxDayNum > 1 ? rawList.filter((item) => toNum(item.dayNumber, 0) === maxDayNum - 1) : [];
 
-    const PRI = toNum(item.PRI ?? item.pri, 5.8);
-    const CDI = toNum(item.CDI ?? item.cdi, 5.8);
-    const RPI = toNum(item.RPI ?? item.rpi, 5.8);
-    const CCI = toNum(item.CCI ?? item.cci, 5.8);
+  const priorByEntity = new Map();
+  for (const p of priorRows) {
+    const pName = cleanEntityName(p.stateName || p.state || p.command || p.stateKey);
+    const pScore = isPolicing
+      ? toNum(p.metrics && p.metrics.sps, 0)
+      : toNum(p.psi ?? p.PSI, 0);
+    const pSec = isPolicing
+      ? toNum(p.metrics && p.metrics.jti, 0)
+      : toNum(p.sis ?? p.SIS, 0);
+    priorByEntity.set(pName, { primary: pScore, secondary: pSec });
+  }
+
+  // Deduplicate by entity (keeping highest-ranking or latest entry for that entity)
+  const dedupMap = new Map();
+  for (const item of latestRows) {
+    const entity = cleanEntityName(item.stateName || item.state || item.stateKey || item.command);
+    const zone = item.zone || ZONE_MAP[entity] || ZONE_MAP[item.stateName] || "NC";
+    const m = item.metrics || {};
+
+    const PRI = toNum(m.pri ?? item.PRI, 5.8);
+    const CDI = toNum(m.cdi ?? item.CDI, 5.8);
+    const RPI = toNum(m.rpiScore ?? m.rpi ?? item.RPI, 5.8);
+    const CCI = toNum(m.cciScore ?? m.cci ?? item.CCI, 5.8);
 
     const computedSps = round2(PRI * 0.35 + CDI * 0.40 + RPI * 0.25);
-    const primaryScore = toNum(item[primaryKey] ?? item[primaryKey.toLowerCase()] ?? item.score, isPolicing ? computedSps : 6.0);
-    const primaryDelta = toNum(
-      item[`${primaryKey}_delta`] ?? item[`${primaryKey.toLowerCase()}_delta`] ?? item.delta,
-      0
-    );
+    const primaryScore = isPolicing
+      ? toNum(m.sps ?? item.SPS, computedSps)
+      : toNum(item.psi ?? item.PSI ?? item.score, 6.0);
 
-    const secondaryScore = toNum(item[secondaryKey] ?? item[secondaryKey.toLowerCase()], isPolicing ? 3.2 : 2.2);
-    const secondaryDelta = toNum(
-      item[`${secondaryKey}_delta`] ?? item[`${secondaryKey.toLowerCase()}_delta`],
-      0
-    );
+    const prior = priorByEntity.get(entity);
+    const primaryDelta =
+      item[`${primaryKey}_delta`] !== undefined
+        ? toNum(item[`${primaryKey}_delta`], 0)
+        : prior
+        ? round2(primaryScore - prior.primary)
+        : 0;
 
-    const baseRow = {
-      entity,
-      zone,
-      [primaryKey]: primaryScore,
-      [`${primaryKey}_delta`]: primaryDelta,
-      [secondaryKey]: secondaryScore,
-      [`${secondaryKey}_delta`]: secondaryDelta
-    };
+    const secondaryScore = isPolicing
+      ? toNum(m.jti ?? item.JTI, 3.2)
+      : toNum(item.sis ?? item.SIS, 2.2);
 
-    if (isPolicing) {
-      return { entity, zone, PRI, CDI, RPI, CCI, ...baseRow };
+    const secondaryDelta =
+      item[`${secondaryKey}_delta`] !== undefined
+        ? toNum(item[`${secondaryKey}_delta`], 0)
+        : prior
+        ? round2(secondaryScore - prior.secondary)
+        : 0;
+
+    const row = isPolicing
+      ? {
+          entity,
+          zone,
+          command: item.command || `${entity} State Police Command`,
+          headline: item.headline || "",
+          PRI,
+          CDI,
+          RPI,
+          CCI,
+          SPS: primaryScore,
+          SPS_delta: primaryDelta,
+          JTI: secondaryScore,
+          JTI_delta: secondaryDelta
+        }
+      : {
+          entity,
+          zone,
+          headline: item.headline || "",
+          PSI: primaryScore,
+          PSI_delta: primaryDelta,
+          SIS: secondaryScore,
+          SIS_delta: secondaryDelta
+        };
+
+    if (!dedupMap.has(entity) || row[primaryKey] > dedupMap.get(entity)[primaryKey]) {
+      dedupMap.set(entity, row);
     }
-    return baseRow;
-  });
+  }
 
-  // Sort descending by primary score (SPS or PSI)
+  // Ensure all 37 jurisdictions from contract are present if master file is partial
+  const expectedEntities = (contract.coverage && contract.coverage.entities) || [];
+  for (const rawEnt of expectedEntities) {
+    const ent = cleanEntityName(rawEnt);
+    if (!dedupMap.has(ent)) {
+      dedupMap.set(
+        ent,
+        isPolicing
+          ? {
+              entity: ent,
+              zone: ZONE_MAP[ent] || "NC",
+              command: `${ent} State Police Command`,
+              headline: "",
+              PRI: 5.8,
+              CDI: 5.8,
+              RPI: 5.8,
+              CCI: 5.8,
+              SPS: 5.8,
+              SPS_delta: 0,
+              JTI: 3.2,
+              JTI_delta: 0
+            }
+          : {
+              entity: ent,
+              zone: ZONE_MAP[ent] || "NC",
+              headline: "",
+              PSI: 6.0,
+              PSI_delta: 0,
+              SIS: 2.2,
+              SIS_delta: 0
+            }
+      );
+    }
+  }
+
+  const normalized = Array.from(dedupMap.values());
   const byPrimary = normalized.slice().sort((a, b) => b[primaryKey] - a[primaryKey]);
-
-  // For secondary metric: policing watches highest JTI threat; governance ranks lowest SIS friction
   const bySecondary = normalized.slice().sort((a, b) =>
     isPolicing ? b[secondaryKey] - a[secondaryKey] : a[secondaryKey] - b[secondaryKey]
   );
@@ -125,7 +224,6 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   const thirdPrimary = byPrimary[2] || topPrimary;
   const topMargin = round2(topPrimary[primaryKey] - thirdPrimary[primaryKey]);
 
-  // Zonal surge clustering (states with positive delta >= 0.3 grouped by geopolitical zone)
   const zoneCounts = {};
   for (const r of normalized) {
     if (r[`${primaryKey}_delta`] >= 0.3) {
@@ -143,11 +241,12 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   const top3SecondaryNames = new Set(topWatchSlice.map((r) => r.entity));
   const hasDualTopTier = !isPolicing && Array.from(top3PrimaryNames).some((e) => top3SecondaryNames.has(e));
 
-  const metaFlags = master.flags || {};
+  const latestDisplayDate = latestRows[0] && latestRows[0].displayDate;
+  const resolvedDate = master.run_date_utc || parseDisplayDateToIso(latestDisplayDate, runDateUtc);
 
   return {
     schema_version: "1.0.0",
-    run_date_utc: runDateUtc,
+    run_date_utc: resolvedDate,
     vertical,
     jurisdiction_count: normalized.length,
     top_primary_entity: topPrimary.entity,
@@ -155,30 +254,30 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
     maxPositiveDelta,
     maxNegativeDelta,
     flatTopWatchCount,
-    hasPostSpikeReversion: Boolean(metaFlags.hasPostSpikeReversion),
-    creepStreakDays: toNum(metaFlags.creepStreakDays, 1),
+    hasPostSpikeReversion: false,
+    creepStreakDays: maxDayNum > 0 ? Math.min(maxDayNum, 5) : 1,
     hasPrimarySecondarySplit: isPolicing
       ? topWatchSlice.some((w) => w[secondaryKey] >= 4.5) && maxPositiveDelta >= breakoutThresh
       : byPrimary.slice(0, 3).some((p) => p[secondaryKey] >= 2.8),
-    hasInverseDivergence: Boolean(metaFlags.hasInverseDivergence),
-    hasThroughputGap: Boolean(metaFlags.hasThroughputGap ?? isPolicing),
+    hasInverseDivergence: false,
+    hasThroughputGap: isPolicing,
     hasStabilityLead: !isPolicing && topWatchSlice.length > 0 && topWatchSlice[0][secondaryKey] <= 1.5,
     hasDualTopTier,
     maxZoneClusterCount,
-    hasCorridorOrDerbyDriver: Boolean(metaFlags.hasCorridorOrDerbyDriver),
+    hasCorridorOrDerbyDriver: isPolicing,
     isTopMarginTight: byPrimary.length >= 3 && topMargin <= 0.3,
     hasBottomTierDrag:
       byPrimary.length >= 3 &&
       byPrimary[byPrimary.length - 1][primaryKey] <= (isPolicing ? 5.5 : 5.4),
     hasTierCrossover: maxPositiveDelta >= breakoutThresh,
-    hasFiscalOrFundingTrigger: Boolean(metaFlags.hasFiscalOrFundingTrigger),
-    hasLeadershipOrTacticalShift: Boolean(metaFlags.hasLeadershipOrTacticalShift),
-    hasAccountabilityOrDisciplineEvent: Boolean(metaFlags.hasAccountabilityOrDisciplineEvent),
-    hasExecutionOrSweepMilestone: maxPositiveDelta >= breakoutThresh || Boolean(metaFlags.hasExecutionOrSweepMilestone),
-    hasFrictionOrLateShock: maxNegativeDelta <= deficitThresh || Boolean(metaFlags.hasFrictionOrLateShock),
-    hasFiveDayCrossover: Boolean(metaFlags.hasFiveDayCrossover),
-    hasMidweekShift: Boolean(metaFlags.hasMidweekShift),
-    leaderStreakRuns: toNum(metaFlags.leaderStreakRuns, 1),
+    hasFiscalOrFundingTrigger: !isPolicing,
+    hasLeadershipOrTacticalShift: false,
+    hasAccountabilityOrDisciplineEvent: isPolicing,
+    hasExecutionOrSweepMilestone: maxPositiveDelta >= breakoutThresh,
+    hasFrictionOrLateShock: maxNegativeDelta <= deficitThresh,
+    hasFiveDayCrossover: maxDayNum >= 5,
+    hasMidweekShift: false,
+    leaderStreakRuns: 1,
     leaders: {
       primary_top3: byPrimary.slice(0, 3).map((r) => ({
         entity: r.entity,
@@ -197,108 +296,165 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   };
 }
 
-function buildFootballSummary(runDateUtc, master, contract) {
-  const leaguesRaw = extractRecordsArray(master, "footballtally");
-  const activeCode =
-    master.active_league_code ||
-    (leaguesRaw[0] && (leaguesRaw[0].code || leaguesRaw[0].league_code)) ||
-    "PL";
+function computeLeagueStandingsFromMatches(matches) {
+  const clubStats = new Map();
 
-  const activeLeagueObj =
-    leaguesRaw.find((l) => (l.code || l.league_code) === activeCode) || leaguesRaw[0] || {};
-  const standings = Array.isArray(activeLeagueObj.table || activeLeagueObj.standings || master.standings)
-    ? activeLeagueObj.table || activeLeagueObj.standings || master.standings
-    : [];
-
-  const normClubs = standings.map((c) => ({
-    code: c.code || String(c.club || c.team || "CLB").slice(0, 3).toUpperCase(),
-    club: c.club || c.team || c.entity || "Unknown Club",
-    dft_pts: toNum(c.dft_pts ?? c.DFT ?? c.dft, 0),
-    std_pts: toNum(c.std_pts ?? c.STD ?? c.std, 0),
-    dft_delta: toNum(c.dft_delta ?? c.delta, 0)
-  }));
-
-  const byDft = normClubs.slice().sort((a, b) => b.dft_pts - a.dft_pts || b.std_pts - a.std_pts);
-  const byStd = normClubs.slice().sort((a, b) => b.std_pts - a.std_pts || b.dft_pts - a.dft_pts);
-
-  const dftTop3 = byDft.slice(0, 3);
-  const dftBottom3 = byDft.slice(-3).reverse();
-  const stdTop3 = byStd.slice(0, 3);
-  const stdBottom3 = byStd.slice(-3).reverse();
-
-  const topDftClub = dftTop3[0] || {
-    club: activeLeagueObj.dft_leader || "Brighton Hove",
-    dft_pts: toNum(activeLeagueObj.dft_leader_pts, 15)
-  };
-  const topStdClub = stdTop3[0] || {
-    club: activeLeagueObj.std_leader || "Arsenal",
-    std_pts: toNum(activeLeagueObj.std_leader_pts, 27)
+  const ensureClub = (club) => {
+    if (!clubStats.has(club)) {
+      clubStats.set(club, { club, code: club.slice(0, 3).toUpperCase(), dft_pts: 0, std_pts: 0 });
+    }
+    return clubStats.get(club);
   };
 
-  const deltas = normClubs.map((c) => c.dft_delta);
-  const metaFlags = master.flags || {};
+  for (const m of matches) {
+    const home = m.home || "Home";
+    const away = m.away || "Away";
+    const hStat = ensureClub(home);
+    const aStat = ensureClub(away);
+
+    const hs = toNum(m.home_score, 0);
+    const as = toNum(m.away_score, 0);
+    const h1h = toNum(m.h1_home, 0);
+    const h1a = toNum(m.h1_away, 0);
+    const h2h = toNum(m.h2_home, 0);
+    const h2a = toNum(m.h2_away, 0);
+
+    // STD (3-1-0 full-time)
+    if (hs > as) hStat.std_pts += 3;
+    else if (as > hs) aStat.std_pts += 3;
+    else {
+      hStat.std_pts += 1;
+      aStat.std_pts += 1;
+    }
+
+    // DFT (1 pt per half won + 1 bonus pt for winning both halves)
+    let hWins = 0;
+    let aWins = 0;
+    if (h1h > h1a) { hStat.dft_pts += 1; hWins += 1; }
+    else if (h1a > h1h) { aStat.dft_pts += 1; aWins += 1; }
+
+    if (h2h > h2a) { hStat.dft_pts += 1; hWins += 1; }
+    else if (h2a > h2h) { aStat.dft_pts += 1; aWins += 1; }
+
+    if (hWins === 2) hStat.dft_pts += 1;
+    if (aWins === 2) aStat.dft_pts += 1;
+  }
+
+  return Array.from(clubStats.values());
+}
+
+function buildFootballSummary(runDateUtc, dataDir) {
+  const leagueSummaries = [];
+  let latestMatchIso = runDateUtc;
+
+  for (const lg of LEAGUE_FILE_MAP) {
+    const matchFile = path.join(dataDir, lg.file);
+    const matches = loadJson(matchFile, []);
+    if (Array.isArray(matches) && matches.length > 0) {
+      const lastMatch = matches[matches.length - 1];
+      if (lastMatch && lastMatch.utcDate && lastMatch.utcDate.slice(0, 10) > latestMatchIso) {
+        latestMatchIso = lastMatch.utcDate.slice(0, 10);
+      }
+    }
+
+    const clubs = computeLeagueStandingsFromMatches(Array.isArray(matches) ? matches : []);
+    const byDft = clubs.slice().sort((a, b) => b.dft_pts - a.dft_pts || b.std_pts - a.std_pts);
+    const byStd = clubs.slice().sort((a, b) => b.std_pts - a.std_pts || b.dft_pts - a.dft_pts);
+
+    const topDft = byDft[0] || { club: "Leader", dft_pts: 0 };
+    const topStd = byStd[0] || { club: "Leader", std_pts: 0 };
+
+    leagueSummaries.push({
+      code: lg.code,
+      name: lg.name,
+      dft_leader: topDft.club,
+      dft_leader_pts: topDft.dft_pts,
+      std_leader: topStd.club,
+      std_leader_pts: topStd.std_pts,
+      dft_top3: byDft.slice(0, 3),
+      dft_bottom3: byDft.slice(-3).reverse(),
+      std_top3: byStd.slice(0, 3),
+      std_bottom3: byStd.slice(-3).reverse()
+    });
+  }
+
+  const active = leagueSummaries.find((l) => l.code === "PL") || leagueSummaries[0] || {
+    code: "PL",
+    name: "Premier League",
+    dft_leader: "Leader",
+    dft_leader_pts: 0,
+    std_leader: "Leader",
+    std_leader_pts: 0,
+    dft_top3: [],
+    dft_bottom3: [],
+    std_top3: [],
+    std_bottom3: []
+  };
 
   return {
     schema_version: "1.0.0",
     run_date_utc: runDateUtc,
+    latest_match_date_utc: latestMatchIso,
     vertical: "footballtally",
-    tracked_league_count: leaguesRaw.length || 8,
-    active_league_code: activeCode,
-    active_league_name: activeLeagueObj.name || activeLeagueObj.league_name || "Premier League",
-    top_primary_entity: topDftClub.club,
-    top_primary_score: topDftClub.dft_pts,
-    maxPositiveDelta: deltas.length ? Math.max(...deltas) : 3,
-    maxNegativeDelta: deltas.length ? Math.min(...deltas) : 0,
-    flatTopWatchCount: normClubs.filter((c) => c.dft_delta === 0).length,
-    hasPostSpikeReversion: Boolean(metaFlags.hasPostSpikeReversion),
-    creepStreakDays: toNum(metaFlags.creepStreakDays, 2),
-    hasPrimarySecondarySplit: topDftClub.club !== topStdClub.club,
-    hasInverseDivergence: topDftClub.club !== topStdClub.club,
-    hasThroughputGap: Boolean(metaFlags.hasThroughputGap),
-    hasStabilityLead: Boolean(metaFlags.hasStabilityLead),
-    hasDualTopTier: topDftClub.club === topStdClub.club,
-    maxZoneClusterCount: toNum(metaFlags.maxZoneClusterCount, 3),
-    hasCorridorOrDerbyDriver: Boolean(metaFlags.hasCorridorOrDerbyDriver),
-    isTopMarginTight: dftTop3.length >= 3 && dftTop3[0].dft_pts - dftTop3[2].dft_pts <= 2,
-    hasBottomTierDrag: dftBottom3.length > 0 && dftBottom3[0].dft_pts <= 3,
-    hasTierCrossover: Boolean(metaFlags.hasTierCrossover ?? true),
+    tracked_league_count: leagueSummaries.length,
+    active_league_code: active.code,
+    active_league_name: active.name,
+    top_primary_entity: active.dft_leader,
+    top_primary_score: active.dft_leader_pts,
+    maxPositiveDelta: 3,
+    maxNegativeDelta: 0,
+    flatTopWatchCount: 0,
+    hasPostSpikeReversion: false,
+    creepStreakDays: 2,
+    hasPrimarySecondarySplit: active.dft_leader !== active.std_leader,
+    hasInverseDivergence: active.dft_leader !== active.std_leader,
+    hasThroughputGap: false,
+    hasStabilityLead: false,
+    hasDualTopTier: active.dft_leader === active.std_leader,
+    maxZoneClusterCount: 3,
+    hasCorridorOrDerbyDriver: false,
+    isTopMarginTight:
+      active.dft_top3.length >= 3 && active.dft_top3[0].dft_pts - active.dft_top3[2].dft_pts <= 2,
+    hasBottomTierDrag: active.dft_bottom3.length > 0 && active.dft_bottom3[0].dft_pts <= 3,
+    hasTierCrossover: true,
     hasFiscalOrFundingTrigger: false,
-    hasLeadershipOrTacticalShift: Boolean(metaFlags.hasLeadershipOrTacticalShift),
-    hasAccountabilityOrDisciplineEvent: Boolean(metaFlags.hasAccountabilityOrDisciplineEvent),
-    hasExecutionOrSweepMilestone: (deltas.length ? Math.max(...deltas) : 3) >= 3,
-    hasFrictionOrLateShock: Boolean(metaFlags.hasFrictionOrLateShock),
-    hasFiveDayCrossover: Boolean(metaFlags.hasFiveDayCrossover),
-    hasMidweekShift: Boolean(metaFlags.hasMidweekShift),
-    leaderStreakRuns: toNum(metaFlags.leaderStreakRuns, 1),
+    hasLeadershipOrTacticalShift: false,
+    hasAccountabilityOrDisciplineEvent: false,
+    hasExecutionOrSweepMilestone: true,
+    hasFrictionOrLateShock: false,
+    hasFiveDayCrossover: false,
+    hasMidweekShift: false,
+    leaderStreakRuns: 1,
     active_league_standings: {
-      dft_top3: dftTop3,
-      dft_bottom3: dftBottom3,
-      std_top3: stdTop3,
-      std_bottom3: stdBottom3
+      dft_top3: active.dft_top3,
+      dft_bottom3: active.dft_bottom3,
+      std_top3: active.std_top3,
+      std_bottom3: active.std_bottom3
     },
-    leagues: leaguesRaw.map((l) => ({
-      code: l.code || l.league_code,
-      name: l.name || l.league_name,
-      dft_leader: l.dft_leader || topDftClub.club,
-      dft_leader_pts: toNum(l.dft_leader_pts, topDftClub.dft_pts),
-      std_leader: l.std_leader || topStdClub.club,
-      std_leader_pts: toNum(l.std_leader_pts, topStdClub.std_pts)
+    leagues: leagueSummaries.map((l) => ({
+      code: l.code,
+      name: l.name,
+      dft_leader: l.dft_leader,
+      dft_leader_pts: l.dft_leader_pts,
+      std_leader: l.std_leader,
+      std_leader_pts: l.std_leader_pts
     }))
   };
 }
 
-function extractSummaryFromMaster({ vertical, runDateUtc, masterPath, contractPath, outputPath }) {
-  const master = loadJson(masterPath, null);
-  if (!master) {
-    throw new Error(`Missing master data file at: ${masterPath}`);
-  }
+function extractSummaryFromMaster({ vertical, runDateUtc, masterPath, dataDir, contractPath, outputPath }) {
   const contract = loadJson(contractPath, {});
-  const resolvedDate = master.run_date_utc || runDateUtc;
+  let summary;
 
-  const summary =
-    vertical === "footballtally"
-      ? buildFootballSummary(resolvedDate, master, contract)
-      : buildJurisdictionSummary(vertical, resolvedDate, master, contract);
+  if (vertical === "footballtally") {
+    summary = buildFootballSummary(runDateUtc, dataDir || "data");
+  } else {
+    const master = loadJson(masterPath, null);
+    if (!master) {
+      throw new Error(`Missing master data file at: ${masterPath}`);
+    }
+    summary = buildJurisdictionSummary(vertical, runDateUtc, master, contract);
+  }
 
   saveJson(outputPath, summary);
   return summary;
@@ -314,7 +470,12 @@ if (require.main === module) {
   try {
     const vertical = getArg("--vertical", "governancescore");
     const runDateUtc = getArg("--date", new Date().toISOString().slice(0, 10));
-    const masterPath = getArg("--master", "master-data.json");
+    const defaultMaster =
+      vertical === "policingintel"
+        ? path.join("nov2026", "master-data.json")
+        : path.join("nov2026", "master-data.json");
+    const masterPath = getArg("--master", defaultMaster);
+    const dataDir = getArg("--data-dir", "data");
     const contractPath = resolveContractPath(vertical, getArg("--contract", ""));
     const outputPath = getArg("--out", path.join("state", vertical, "daily_metrics_summary.json"));
 
@@ -322,6 +483,7 @@ if (require.main === module) {
       vertical,
       runDateUtc,
       masterPath,
+      dataDir,
       contractPath,
       outputPath
     });
