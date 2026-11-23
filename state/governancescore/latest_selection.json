@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "run_date_utc": null,
+  "vertical": "REPLACE_WITH_VERTICAL_KEY",
+  "domain": "REPLACE_WITH_SUBDOMAIN_URL",
+  "is_thursday_rollover": false,
+  "selected_angle_id": null,
+  "family": null,
+  "opening_class": null,
+  "headline_skeleton": null,
+  "lede_rule": null,
+  "excluded_recent_ids": []
+}
