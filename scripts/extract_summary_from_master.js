@@ -3,6 +3,24 @@ const fs = require("fs");
 const path = require("path");
 const { resolveContractPath } = require("./validate_inputs");
 
+const CANONICAL_ENTITIES = [
+  "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue",
+  "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu",
+  "FCT", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi",
+  "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun",
+  "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara"
+];
+
+const ALIAS_MAP = {
+  "federal capital territory": "FCT",
+  "abuja-fct": "FCT",
+  "abuja fct": "FCT",
+  "abuja": "FCT",
+  "fct abuja": "FCT",
+  "akwa-ibom": "Akwa Ibom",
+  "cross-river": "Cross River"
+};
+
 const ZONE_MAP = {
   Abia: "SE", Adamawa: "NE", "Akwa Ibom": "SS", Anambra: "SE", Bauchi: "NE",
   Bayelsa: "SS", Benue: "NC", Borno: "NE", "Cross River": "SS", Delta: "SS",
@@ -45,9 +63,23 @@ function round2(n) {
 }
 
 function cleanEntityName(raw) {
-  if (!raw) return "Unknown";
-  if (raw === "Federal Capital Territory") return "FCT";
-  return String(raw).replace(/\s+State$/i, "").trim();
+  if (!raw) return null;
+  const cleaned = String(raw)
+    .replace(/\s+State$/i, "")
+    .replace(/\s+Command$/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const lower = cleaned.toLowerCase();
+  if (ALIAS_MAP[lower]) return ALIAS_MAP[lower];
+
+  const exact = CANONICAL_ENTITIES.find((e) => e.toLowerCase() === lower);
+  if (exact) return exact;
+
+  const prefixMatch = CANONICAL_ENTITIES.find(
+    (e) => e.length >= 4 && lower.startsWith(e.toLowerCase() + " ")
+  );
+  return prefixMatch || null;
 }
 
 function parseDisplayDateToIso(displayDate, fallbackIso) {
@@ -92,7 +124,7 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   const deficitThresh =
     (contract.metrics && contract.metrics.primary && contract.metrics.primary.deficit_delta_threshold) || -1.0;
 
-  // Determine latest dayNumber or date present in rawList so we build a clean 37-jurisdiction snapshot
+  // Determine latest dayNumber present in rawList so we build a clean 37-jurisdiction snapshot
   const maxDayNum = rawList.reduce((acc, item) => Math.max(acc, toNum(item.dayNumber, 0)), 0);
   const latestRows = maxDayNum > 0 ? rawList.filter((item) => toNum(item.dayNumber, 0) === maxDayNum) : rawList;
   const priorRows = maxDayNum > 1 ? rawList.filter((item) => toNum(item.dayNumber, 0) === maxDayNum - 1) : [];
@@ -100,6 +132,7 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
   const priorByEntity = new Map();
   for (const p of priorRows) {
     const pName = cleanEntityName(p.stateName || p.state || p.command || p.stateKey);
+    if (!pName) continue;
     const pScore = isPolicing
       ? toNum(p.metrics && p.metrics.sps, 0)
       : toNum(p.psi ?? p.PSI, 0);
@@ -109,10 +142,13 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
     priorByEntity.set(pName, { primary: pScore, secondary: pSec });
   }
 
-  // Deduplicate by entity (keeping highest-ranking or latest entry for that entity)
+  // Deduplicate by canonical entity (keeping highest primary score if duplicate aliases appear)
   const dedupMap = new Map();
   for (const item of latestRows) {
-    const entity = cleanEntityName(item.stateName || item.state || item.stateKey || item.command);
+    const rawCandidate = item.stateName || item.state || item.stateKey || item.command;
+    const entity = cleanEntityName(rawCandidate);
+    if (!entity) continue;
+
     const zone = item.zone || ZONE_MAP[entity] || ZONE_MAP[item.stateName] || "NC";
     const m = item.metrics || {};
 
@@ -175,10 +211,14 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
     }
   }
 
-  // Ensure all 37 jurisdictions from contract are present if master file is partial
-  const expectedEntities = (contract.coverage && contract.coverage.entities) || [];
+  // Ensure all 37 canonical jurisdictions from contract/master set are present
+  const expectedEntities =
+    (contract.coverage && Array.isArray(contract.coverage.entities) && contract.coverage.entities.length === 37)
+      ? contract.coverage.entities
+      : CANONICAL_ENTITIES;
+
   for (const rawEnt of expectedEntities) {
-    const ent = cleanEntityName(rawEnt);
+    const ent = cleanEntityName(rawEnt) || rawEnt;
     if (!dedupMap.has(ent)) {
       dedupMap.set(
         ent,
@@ -210,7 +250,10 @@ function buildJurisdictionSummary(vertical, runDateUtc, master, contract) {
     }
   }
 
-  const normalized = Array.from(dedupMap.values());
+  // Strictly retain only the 37 canonical entities
+  const canonicalSet = new Set(expectedEntities.map((e) => cleanEntityName(e) || e));
+  const normalized = Array.from(dedupMap.values()).filter((r) => canonicalSet.has(r.entity));
+
   const byPrimary = normalized.slice().sort((a, b) => b[primaryKey] - a[primaryKey]);
   const bySecondary = normalized.slice().sort((a, b) =>
     isPolicing ? b[secondaryKey] - a[secondaryKey] : a[secondaryKey] - b[secondaryKey]
