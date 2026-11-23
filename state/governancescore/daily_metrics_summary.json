@@ -1,82 +1,408 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-23",
+  "run_date_utc": "2026-11-20",
   "vertical": "governancescore",
   "jurisdiction_count": 37,
-  "top_primary_entity": "Lagos",
-  "top_primary_score": 8.5,
-  "maxPositiveDelta": 2.4,
-  "maxNegativeDelta": -0.6,
-  "flatTopWatchCount": 1,
+  "top_primary_entity": "Kebbi",
+  "top_primary_score": 9.3,
+  "maxPositiveDelta": 0.4,
+  "maxNegativeDelta": -2.7,
+  "flatTopWatchCount": 3,
   "hasPostSpikeReversion": false,
-  "creepStreakDays": 2,
-  "hasPrimarySecondarySplit": true,
+  "creepStreakDays": 5,
+  "hasPrimarySecondarySplit": false,
   "hasInverseDivergence": false,
   "hasThroughputGap": false,
-  "hasStabilityLead": true,
+  "hasStabilityLead": false,
   "hasDualTopTier": true,
-  "maxZoneClusterCount": 3,
+  "maxZoneClusterCount": 1,
   "hasCorridorOrDerbyDriver": false,
   "isTopMarginTight": false,
   "hasBottomTierDrag": false,
-  "hasTierCrossover": true,
+  "hasTierCrossover": false,
   "hasFiscalOrFundingTrigger": true,
   "hasLeadershipOrTacticalShift": false,
   "hasAccountabilityOrDisciplineEvent": false,
-  "hasExecutionOrSweepMilestone": true,
-  "hasFrictionOrLateShock": false,
-  "hasFiveDayCrossover": false,
+  "hasExecutionOrSweepMilestone": false,
+  "hasFrictionOrLateShock": true,
+  "hasFiveDayCrossover": true,
   "hasMidweekShift": false,
-  "leaderStreakRuns": 3,
+  "leaderStreakRuns": 1,
   "leaders": {
     "primary_top3": [
-      { "entity": "Lagos", "zone": "SW", "score": 8.5, "delta": 0.1 },
-      { "entity": "Plateau", "zone": "NC", "score": 7.9, "delta": 0.5 },
-      { "entity": "Enugu", "zone": "SE", "score": 7.8, "delta": 2.4 }
+      {
+        "entity": "Kebbi",
+        "zone": "NW",
+        "score": 9.3,
+        "delta": 0
+      },
+      {
+        "entity": "Zamfara",
+        "zone": "NW",
+        "score": 9,
+        "delta": 0
+      },
+      {
+        "entity": "Rivers",
+        "zone": "SS",
+        "score": 8.7,
+        "delta": 0
+      }
     ],
     "secondary_top3": [
-      { "entity": "Lagos", "zone": "SW", "score": 1.2, "delta": -0.1 },
-      { "entity": "Ondo", "zone": "SW", "score": 1.3, "delta": -0.3 },
-      { "entity": "Ogun", "zone": "SW", "score": 1.4, "delta": 0.0 }
+      {
+        "entity": "Kebbi",
+        "zone": "NW",
+        "score": 2.2,
+        "delta": 0
+      },
+      {
+        "entity": "Zamfara",
+        "zone": "NW",
+        "score": 2.2,
+        "delta": 0
+      },
+      {
+        "entity": "Rivers",
+        "zone": "SS",
+        "score": 2.2,
+        "delta": 0
+      }
     ]
   },
   "jurisdictions": [
-    { "entity": "Abia", "zone": "SE", "PSI": 6.4, "PSI_delta": 0.3, "SIS": 2.1, "SIS_delta": -0.1 },
-    { "entity": "Adamawa", "zone": "NE", "PSI": 5.8, "PSI_delta": 0.1, "SIS": 2.8, "SIS_delta": 0.0 },
-    { "entity": "Akwa Ibom", "zone": "SS", "PSI": 6.9, "PSI_delta": 0.2, "SIS": 1.9, "SIS_delta": -0.1 },
-    { "entity": "Anambra", "zone": "SE", "PSI": 6.7, "PSI_delta": 0.4, "SIS": 2.0, "SIS_delta": 0.0 },
-    { "entity": "Bauchi", "zone": "NE", "PSI": 5.6, "PSI_delta": 0.0, "SIS": 3.0, "SIS_delta": 0.1 },
-    { "entity": "Bayelsa", "zone": "SS", "PSI": 6.1, "PSI_delta": 0.1, "SIS": 2.5, "SIS_delta": 0.0 },
-    { "entity": "Benue", "zone": "NC", "PSI": 5.9, "PSI_delta": -0.2, "SIS": 3.2, "SIS_delta": 0.2 },
-    { "entity": "Borno", "zone": "NE", "PSI": 6.3, "PSI_delta": 0.2, "SIS": 2.9, "SIS_delta": 0.0 },
-    { "entity": "Cross River", "zone": "SS", "PSI": 6.0, "PSI_delta": 0.1, "SIS": 2.4, "SIS_delta": -0.1 },
-    { "entity": "Delta", "zone": "SS", "PSI": 6.8, "PSI_delta": 0.3, "SIS": 2.2, "SIS_delta": 0.0 },
-    { "entity": "Ebonyi", "zone": "SE", "PSI": 6.2, "PSI_delta": 0.2, "SIS": 2.3, "SIS_delta": -0.1 },
-    { "entity": "Edo", "zone": "SS", "PSI": 6.5, "PSI_delta": 0.1, "SIS": 2.6, "SIS_delta": 0.1 },
-    { "entity": "Ekiti", "zone": "SW", "PSI": 6.6, "PSI_delta": 0.2, "SIS": 1.6, "SIS_delta": -0.1 },
-    { "entity": "Enugu", "zone": "SE", "PSI": 7.8, "PSI_delta": 2.4, "SIS": 1.8, "SIS_delta": -0.2 },
-    { "entity": "FCT", "zone": "NC", "PSI": 7.4, "PSI_delta": 0.4, "SIS": 1.7, "SIS_delta": 0.0 },
-    { "entity": "Gombe", "zone": "NE", "PSI": 5.7, "PSI_delta": 0.0, "SIS": 2.7, "SIS_delta": 0.0 },
-    { "entity": "Imo", "zone": "SE", "PSI": 5.9, "PSI_delta": -0.3, "SIS": 3.1, "SIS_delta": 0.2 },
-    { "entity": "Jigawa", "zone": "NW", "PSI": 6.1, "PSI_delta": 0.2, "SIS": 2.3, "SIS_delta": 0.0 },
-    { "entity": "Kaduna", "zone": "NW", "PSI": 7.1, "PSI_delta": 0.5, "SIS": 2.4, "SIS_delta": -0.1 },
-    { "entity": "Kano", "zone": "NW", "PSI": 7.0, "PSI_delta": 0.3, "SIS": 2.6, "SIS_delta": 0.1 },
-    { "entity": "Katsina", "zone": "NW", "PSI": 6.0, "PSI_delta": 0.1, "SIS": 2.9, "SIS_delta": 0.0 },
-    { "entity": "Kebbi", "zone": "NW", "PSI": 5.5, "PSI_delta": -0.1, "SIS": 2.8, "SIS_delta": 0.0 },
-    { "entity": "Kogi", "zone": "NC", "PSI": 5.8, "PSI_delta": 0.0, "SIS": 2.7, "SIS_delta": 0.1 },
-    { "entity": "Kwara", "zone": "NC", "PSI": 6.5, "PSI_delta": 0.2, "SIS": 1.8, "SIS_delta": -0.1 },
-    { "entity": "Lagos", "zone": "SW", "PSI": 8.5, "PSI_delta": 0.1, "SIS": 1.2, "SIS_delta": -0.1 },
-    { "entity": "Nasarawa", "zone": "NC", "PSI": 6.3, "PSI_delta": 0.3, "SIS": 2.2, "SIS_delta": 0.0 },
-    { "entity": "Niger", "zone": "NC", "PSI": 6.2, "PSI_delta": 0.2, "SIS": 2.5, "SIS_delta": -0.1 },
-    { "entity": "Ogun", "zone": "SW", "PSI": 7.3, "PSI_delta": 0.3, "SIS": 1.4, "SIS_delta": 0.0 },
-    { "entity": "Ondo", "zone": "SW", "PSI": 6.9, "PSI_delta": 0.2, "SIS": 1.3, "SIS_delta": -0.3 },
-    { "entity": "Osun", "zone": "SW", "PSI": 6.4, "PSI_delta": 0.1, "SIS": 1.9, "SIS_delta": 0.0 },
-    { "entity": "Oyo", "zone": "SW", "PSI": 7.2, "PSI_delta": 0.4, "SIS": 1.7, "SIS_delta": -0.1 },
-    { "entity": "Plateau", "zone": "NC", "PSI": 7.9, "PSI_delta": 0.5, "SIS": 2.1, "SIS_delta": -0.2 },
-    { "entity": "Rivers", "zone": "SS", "PSI": 7.0, "PSI_delta": -0.6, "SIS": 3.4, "SIS_delta": 0.4 },
-    { "entity": "Sokoto", "zone": "NW", "PSI": 5.6, "PSI_delta": 0.0, "SIS": 2.9, "SIS_delta": 0.0 },
-    { "entity": "Taraba", "zone": "NE", "PSI": 5.4, "PSI_delta": -0.2, "SIS": 3.1, "SIS_delta": 0.1 },
-    { "entity": "Yobe", "zone": "NE", "PSI": 5.7, "PSI_delta": 0.1, "SIS": 2.8, "SIS_delta": 0.0 },
-    { "entity": "Zamfara", "zone": "NW", "PSI": 5.3, "PSI_delta": -0.1, "SIS": 3.3, "SIS_delta": 0.1 }
+    {
+      "entity": "Kebbi",
+      "zone": "NW",
+      "headline": "Gov. Idris Flags Off Over ₦8Bn Community Investment Fund Disbursement to 3,000+ Women Affinity Groups Across Kebbi",
+      "PSI": 9.3,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Zamfara",
+      "zone": "NW",
+      "headline": "Launches Statewide Security Campaign with 1,000 Commands, Partners NEMSAS on Maternal Emergency Transport & Reviews Tertiary Salaries",
+      "PSI": 9,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Rivers",
+      "zone": "SS",
+      "headline": "Commences New Wage Implementation for Polytechnic Lecturers to End ASUP Strike & Accelerates Ngo-Atlantic Oyorokoto Beach Road",
+      "PSI": 8.7,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Osun",
+      "zone": "SW",
+      "headline": "State Executive Council Approves 2027 Draft Budget for Legislative Transmission & Ratifies New Owamiran of Esa-Oke",
+      "PSI": 8.5,
+      "PSI_delta": 0.4,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Enugu",
+      "zone": "SE",
+      "headline": "Gov. Mbah Rolls Out Earth-Moving Equipment to Commence 54km Nsukka–Adani Highway Reconstruction",
+      "PSI": 8.3,
+      "PSI_delta": -0.5,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Plateau",
+      "zone": "NC",
+      "headline": "Intensifies Statewide Diabetes Screening & PLASCHEMA Coverage, Distributes SURWASH Toilet Materials in Langtang North",
+      "PSI": 8,
+      "PSI_delta": -0.4,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Lagos",
+      "zone": "SW",
+      "headline": "LASISMA Showcases Solar Kiosks, CNG Spaces & e-PPPS to FCTA Delegation, Trains Sanitation Workforce on Safety",
+      "PSI": 7.8,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Kwara",
+      "zone": "NC",
+      "headline": "Gov. AbdulRazaq Rewards Flamingos Coach & Defender with ₦10M and Houses Each, Announces ₦100M Team Incentive",
+      "PSI": 7.6,
+      "PSI_delta": 0.4,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Kano",
+      "zone": "NW",
+      "headline": "SSG Inaugurates Investigation Committee into Administration of Kano State College of Nursing Sciences",
+      "PSI": 7.4,
+      "PSI_delta": -1.6,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Gombe",
+      "zone": "NE",
+      "headline": "Gov. Yahaya Visits Cham & Dadiya Chiefdoms, Orders Immediate Environmental Assessment of Dadiya Gully Erosion",
+      "PSI": 7.2,
+      "PSI_delta": 0.2,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Edo",
+      "zone": "SS",
+      "headline": "First Lady's Office & Edo Police Command Launch Joint Tactical Sting Operations Against 'One Chance' Robberies & Night Harassment",
+      "PSI": 7,
+      "PSI_delta": -0.6,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Cross River",
+      "zone": "SS",
+      "headline": "Information Commissioner Cobham Cites Homeland Security Success to Back State Police Domestication",
+      "PSI": 6.7,
+      "PSI_delta": -2.7,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Adamawa",
+      "zone": "NE",
+      "headline": "Government Delegation for 2026 Christian Pilgrimage to Israel & Jordan Holds Pre-Departure Coordination Meeting",
+      "PSI": 6.4,
+      "PSI_delta": -2.2,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Abia",
+      "zone": "SE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Akwa Ibom",
+      "zone": "SS",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Anambra",
+      "zone": "SE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Bauchi",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Bayelsa",
+      "zone": "SS",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Benue",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Borno",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Delta",
+      "zone": "SS",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Ebonyi",
+      "zone": "SE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Ekiti",
+      "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "FCT",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Imo",
+      "zone": "SE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Jigawa",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Kaduna",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Katsina",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Kogi",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Nasarawa",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Niger",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Ogun",
+      "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Ondo",
+      "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Oyo",
+      "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Sokoto",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Taraba",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Yobe",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    }
   ]
 }

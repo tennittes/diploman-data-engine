@@ -1,6 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "vertical": "REPLACE_WITH_VERTICAL_KEY",
+  "vertical": "governancescore",
   "cooldown_window_runs": 7,
-  "entries": []
+  "entries": [
+    {
+      "run_date_utc": "2026-11-20",
+      "angle_id": "02",
+      "family": "baseline_deviations",
+      "opening_class": "entity_first"
+    }
+  ]
 }

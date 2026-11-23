@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": null,
-  "vertical": "REPLACE_WITH_VERTICAL_KEY",
-  "domain": "REPLACE_WITH_SUBDOMAIN_URL",
+  "run_date_utc": "2026-11-20",
+  "vertical": "governancescore",
+  "domain": "https://governancescore.diplomantimes.com/",
   "is_thursday_rollover": false,
-  "selected_angle_id": null,
-  "family": null,
-  "opening_class": null,
-  "headline_skeleton": null,
-  "lede_rule": null,
+  "selected_angle_id": "02",
+  "family": "baseline_deviations",
+  "opening_class": "entity_first",
+  "headline_skeleton": "[State] Slips [Δ] Below Policy Baseline Amid [Institutional/Fiscal Bottleneck]",
+  "lede_rule": "Sentence 1 reports the drop relative to baseline and the operational or table driver behind it; Sentence 2 compares against the broader tier or opposite-moving metric.",
   "excluded_recent_ids": []
 }
