@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "default_cooldown_days": 7,
+  "angles": [
+    {
+      "id": "01",
+      "family": "baseline_deviations",
+      "name": "single_day_breakout_surge",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 55,
+      "lede_rule": "Sentence 1 states the exact breakout score and positive delta alongside the concrete real-world trigger; Sentence 2 provides the secondary contrast metric or runner-up context.",
+      "syntax": {
+        "governancescore": "[State] Posts +[Δ] Policy Surge to [Score] PSI Following [Fiscal/Policy Event]",
+        "policingintel": "[Command] Command Climbs +[Δ] to [Score] SPS After [Tactical Operation]",
+        "footballtally": "[Club] Surges in [League] DFT Standings With Two-Half Sweep Over [Opponent]"
+      }
+    },
+    {
+      "id": "02",
+      "family": "baseline_deviations",
+      "name": "baseline_deficit_regression",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 54,
+      "lede_rule": "Sentence 1 reports the drop relative to baseline and the operational or table driver behind it; Sentence 2 compares against the broader tier or opposite-moving metric.",
+      "syntax": {
+        "governancescore": "[State] Slips [Δ] Below Policy Baseline Amid [Institutional/Fiscal Bottleneck]",
+        "policingintel": "[Command] Drops [Δ] to [Score] SPS as [Security/Operational Incident] Tests Baseline",
+        "footballtally": "[Club] Falls Below Two-Half Pace in [League] After Second-Half Collapse at [Opponent]"
+      }
+    },
+    {
+      "id": "03",
+      "family": "baseline_deviations",
+      "name": "chronic_baseline_stagnation",
+      "cooldown_days": 7,
+      "opening_class": "metric_first",
+      "base_weight": 48,
+      "lede_rule": "Sentence 1 highlights the unchanged baseline or zero-delta persistence across named jurisdictions or clubs; Sentence 2 notes where active movement occurred elsewhere in the table.",
+      "syntax": {
+        "governancescore": "Policy Output Holds Flat at +0.0 Across [State A], [State B], and [State C]",
+        "policingintel": "High-Watch Threat Baselines Hold Unchanged at [Score] JTI in [State A] and [State B]",
+        "footballtally": "[Club A] and [Club B] Stall on [X] DFT Points as Two-Half Drought Extends in [League]"
+      }
+    },
+    {
+      "id": "04",
+      "family": "baseline_deviations",
+      "name": "post_spike_mean_reversion",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 50,
+      "lede_rule": "Sentence 1 notes how the entity cooled or reverted toward baseline after a prior-session spike; Sentence 2 gives the exact current figure and baseline reference.",
+      "syntax": {
+        "governancescore": "[State] Moderates to [Score] PSI Following Prior-Session [Policy/Budget] Spike",
+        "policingintel": "[Command] Normalizes Toward [Score] SPS Baseline After Elevated Tactical Tempo",
+        "footballtally": "[Club] Reverts to Standard Pace in [League] After Split Halves Against [Opponent]"
+      }
+    },
+    {
+      "id": "05",
+      "family": "baseline_deviations",
+      "name": "silent_baseline_creep",
+      "cooldown_days": 7,
+      "opening_class": "qualifier_first",
+      "base_weight": 51,
+      "lede_rule": "Sentence 1 describes the cumulative multi-session climb without a single-day spike; Sentence 2 cites the exact current score and streak length.",
+      "syntax": {
+        "governancescore": "Incremental Gains Lift [State] to [Score] PSI Without Single-Day Headline Spike",
+        "policingintel": "Steady Tactical Output Pushes [Command] to [Score] SPS Over [N] Consecutive Sessions",
+        "footballtally": "Quiet Two-Half Consistency Lifts [Club] Into [League] DFT Top Three"
+      }
+    },
+    {
+      "id": "06",
+      "family": "paired_metric_tension",
+      "name": "primary_vs_secondary_split",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 54,
+      "lede_rule": "Sentence 1 states the primary metric achievement and score; Sentence 2 pairs it with the contrasting secondary metric reading to explain the tension.",
+      "syntax": {
+        "governancescore": "[State] Pairs Strong [Score] PSI Output With Elevated [Score] SIS Friction",
+        "policingintel": "[Command] Posts [Score] SPS Enforcement Gain Even as [Score] JTI Threat Persists",
+        "footballtally": "[Club] Ranks Top-Three on DFT ([X] Pts) Despite Mid-Table STD Position"
+      }
+    },
+    {
+      "id": "07",
+      "family": "paired_metric_tension",
+      "name": "inverse_divergence_hidden_weakness",
+      "cooldown_days": 7,
+      "opening_class": "contrast_first",
+      "base_weight": 53,
+      "lede_rule": "Sentence 1 exposes the gap between a favorable surface reading and a lagging underlying metric; Sentence 2 names the specific entity and exact figures.",
+      "syntax": {
+        "governancescore": "Low Instability ([Score] SIS) Masks Sub-Baseline Policy Execution in [State]",
+        "policingintel": "Quiet Threat Reading ([Score] JTI) Contrasts With Sub-Baseline [Score] SPS Tempo in [Command]",
+        "footballtally": "Why [Club] Trails on DFT ([X] Pts) Despite Leading [League] STD Standings"
+      }
+    },
+    {
+      "id": "08",
+      "family": "paired_metric_tension",
+      "name": "enforcement_to_justice_throughput_gap",
+      "cooldown_days": 7,
+      "opening_class": "process_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 details the operational or executive output count; Sentence 2 contrasts the follow-through or secondary index standing.",
+      "syntax": {
+        "governancescore": "Executive Policy Filings Outpace Legislative Action in [State] ([Score] PSI vs. [Score] SIS)",
+        "policingintel": "Tactical Arrests Lift [Command] SPS to [Score] While Judicial Throughput Lags on JTI",
+        "footballtally": "First-Half Dominance Fails to Convert Into Full-Time Points for [Club] in [League]"
+      }
+    },
+    {
+      "id": "09",
+      "family": "paired_metric_tension",
+      "name": "stability_or_containment_led",
+      "cooldown_days": 7,
+      "opening_class": "metric_first",
+      "base_weight": 50,
+      "lede_rule": "Sentence 1 leads with the stability, threat containment, or defensive half-control reading; Sentence 2 connects it to the overall ranking or score.",
+      "syntax": {
+        "governancescore": "Low Friction Anchors [State] at [Score] SIS as Institutional Stability Holds",
+        "policingintel": "Containment Discipline Keeps [Command] at [Score] JTI Baseline Across [Corridor]",
+        "footballtally": "Defensive Half-Control Powers [Club] Climb in [League] Two-Half Standings"
+      }
+    },
+    {
+      "id": "10",
+      "family": "paired_metric_tension",
+      "name": "dual_metric_outperformance",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 55,
+      "lede_rule": "Sentence 1 highlights top-tier performance across both primary and secondary metrics simultaneously; Sentence 2 gives the exact scores and nearest challengers.",
+      "syntax": {
+        "governancescore": "[State] Sweeps Top Tier on Both Policy Output ([Score] PSI) and Stability ([Score] SIS)",
+        "policingintel": "[Command] Leads Both Enforcement ([Score] SPS) and Threat Containment ([Score] JTI)",
+        "footballtally": "[Club] Commands Both DFT ([X] Pts) and STD ([Y] Pts) Tables Across [League]"
+      }
+    },
+    {
+      "id": "11",
+      "family": "zonal_tier_league_clusters",
+      "name": "zonal_or_league_wide_sweep",
+      "cooldown_days": 7,
+      "opening_class": "cluster_first",
+      "base_weight": 53,
+      "lede_rule": "Sentence 1 identifies the geopolitical zone or league cluster driving broad movement; Sentence 2 specifies the leading states, commands, or clubs and their scores.",
+      "syntax": {
+        "governancescore": "[Zone] States Drive National Policy Gains as [State A] and [State B] Advance",
+        "policingintel": "[Zone] Commands Lead Daily Enforcement Telemetry With Coordinated Tactical Gains",
+        "footballtally": "Home Sweeps Reshape [League] DFT Table as [X] Clubs Claim Two-Half Bonuses"
+      }
+    },
+    {
+      "id": "12",
+      "family": "zonal_tier_league_clusters",
+      "name": "corridor_or_derby_spillover",
+      "cooldown_days": 7,
+      "opening_class": "process_first",
+      "base_weight": 51,
+      "lede_rule": "Sentence 1 names the shared corridor, border, or rival fixture linking the movers; Sentence 2 provides the exact scores or standings impact.",
+      "syntax": {
+        "governancescore": "Cross-Border Infrastructure Push Lifts [State A] and [State B] Policy Scores",
+        "policingintel": "Joint Corridor Operations Boost [Command A] and [Command B] SPS Baselines",
+        "footballtally": "Matchday Swings Between [Club A] and [Club B] Alter [League] Top-Four Margin"
+      }
+    },
+    {
+      "id": "13",
+      "family": "zonal_tier_league_clusters",
+      "name": "top_tier_margin_compression",
+      "cooldown_days": 7,
+      "opening_class": "metric_first",
+      "base_weight": 50,
+      "lede_rule": "Sentence 1 states how tightly the top-ranked entities are clustered; Sentence 2 lists the exact scores or point gaps separating the top tier.",
+      "syntax": {
+        "governancescore": "Top-Three Policy Margin Narrows to [Gap] Points Behind [State] at [Score] PSI",
+        "policingintel": "Three Commands Cluster Within [Gap] SPS Points at Top of Daily Security Table",
+        "footballtally": "[Gap]-Point Gap Separates Top Three in [League] DFT Standings After Matchday [N]"
+      }
+    },
+    {
+      "id": "14",
+      "family": "zonal_tier_league_clusters",
+      "name": "bottom_tier_drag_watch",
+      "cooldown_days": 7,
+      "opening_class": "cluster_first",
+      "base_weight": 48,
+      "lede_rule": "Sentence 1 identifies the lowest-ranked entities lagging the baseline or median; Sentence 2 notes the score gap and any secondary indicator.",
+      "syntax": {
+        "governancescore": "[State A], [State B], and [State C] Trail Subnational Policy Median at Foot of PSI Table",
+        "policingintel": "Persistent Threat Readings Keep [Command A] and [Command B] at Foot of JTI Watch",
+        "footballtally": "[Club A] and [Club B] Anchor Bottom of [League] DFT Table on [X] Points"
+      }
+    },
+    {
+      "id": "15",
+      "family": "zonal_tier_league_clusters",
+      "name": "mid_table_tier_crossover",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 names the entity crossing into a higher ranking tier and the driver behind it; Sentence 2 gives the updated score and prior position.",
+      "syntax": {
+        "governancescore": "[State] Breaks Into Subnational Top Tier at [Score] PSI on [Policy/Fiscal Driver]",
+        "policingintel": "[Command] Enters Top-Three Enforcement Tier Following [LGA/Unit] Breakthrough",
+        "footballtally": "[Club] Climbs Into [League] DFT Top Three After Back-to-Back Half Wins"
+      }
+    },
+    {
+      "id": "16",
+      "family": "operational_event_triggers",
+      "name": "fiscal_capital_or_funding_trigger",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 53,
+      "lede_rule": "Sentence 1 links the budget, capital allocation, or resource commitment to the updated score; Sentence 2 details the sector scope or follow-on effect.",
+      "syntax": {
+        "governancescore": "[State] Posts [Score] PSI After Unveiling ₦[Amount] [Sector] Capital Allocation",
+        "policingintel": "State Security Funding Boost Reinforces [Command] Operational Readiness at [Score] SPS",
+        "footballtally": "Squad Depth Pays Off in Second Half as [Club] Extends [League] DFT Streak"
+      }
+    },
+    {
+      "id": "17",
+      "family": "operational_event_triggers",
+      "name": "leadership_redeployment_or_tactical_shift",
+      "cooldown_days": 7,
+      "opening_class": "process_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 states the command redeployment, cabinet/leadership move, or tactical adjustment; Sentence 2 reports the resulting metric reading or delta.",
+      "syntax": {
+        "governancescore": "Executive Reshuffle Shifts [State] Stability Baseline to [Score] SIS",
+        "policingintel": "Command Redeployment Coincides With [Δ] SPS Shift Across [Command] Division",
+        "footballtally": "Second-Half Tactical Adjustment Sparks [Club] Comeback in [League] DFT Table"
+      }
+    },
+    {
+      "id": "18",
+      "family": "operational_event_triggers",
+      "name": "oversight_audit_or_accountability_event",
+      "cooldown_days": 7,
+      "opening_class": "process_first",
+      "base_weight": 51,
+      "lede_rule": "Sentence 1 details the audit, arraignment, disciplinary ruling, or matchday disciplinary event; Sentence 2 shows how it reflects in the relevant score or half tally.",
+      "syntax": {
+        "governancescore": "Grant Audit Compliance Lifts [State] Policy Credibility to [Score] PSI",
+        "policingintel": "Court Arraignments and Discipline Rulings Advance [Command] JTI Accountability",
+        "footballtally": "Red Card and Late Discipline Swing Decisive Half-Point in [Club A] vs. [Club B]"
+      }
+    },
+    {
+      "id": "19",
+      "family": "operational_event_triggers",
+      "name": "execution_rescue_or_sweep_milestone",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 54,
+      "lede_rule": "Sentence 1 leads with the concrete commissioning, rescue/recovery count, or two-half sweep result; Sentence 2 cites the resulting score or table standing.",
+      "syntax": {
+        "governancescore": "Project Commissioning Lifts [State] Execution Score by [Δ] to [Score] PSI",
+        "policingintel": "[N] Victims Rescued as [Command] Records [Score] SPS Tactical High",
+        "footballtally": "[Club] Completes [N]-Goal Two-Half Sweep to Claim Maximum [3] DFT Points"
+      }
+    },
+    {
+      "id": "20",
+      "family": "operational_event_triggers",
+      "name": "friction_incident_or_late_shock",
+      "cooldown_days": 7,
+      "opening_class": "process_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 describes the friction shock, security incident, or late-game decisive goal; Sentence 2 states the exact score or point impact.",
+      "syntax": {
+        "governancescore": "[Institutional Dispute] Pushes [State] Instability Reading to [Score] SIS",
+        "policingintel": "[Security Incident] Tests [Command] Baseline as Threat Index Registers [Score] JTI",
+        "footballtally": "Stoppage-Time Goal Strips [Club] of Second-Half Point in [League] Clash"
+      }
+    },
+    {
+      "id": "21",
+      "family": "temporal_rollover_trajectory",
+      "name": "five_day_progressive_crossover",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 51,
+      "lede_rule": "Sentence 1 reports the 5-day progressive average crossing its prior benchmark; Sentence 2 gives the current score and rolling delta.",
+      "syntax": {
+        "governancescore": "[State] Five-Day Policy Average Crosses [Score] PSI Ahead of Weekly Rollover",
+        "policingintel": "[Command] Five-Day Enforcement Average Climbs to [Score] SPS Baseline",
+        "footballtally": "[Club] Five-Match Two-Half Pace Outstrips Early-Season [League] Baseline"
+      }
+    },
+    {
+      "id": "22",
+      "family": "temporal_rollover_trajectory",
+      "name": "midweek_inflection_point",
+      "cooldown_days": 7,
+      "opening_class": "qualifier_first",
+      "base_weight": 50,
+      "lede_rule": "Sentence 1 frames the midweek shift ahead of the Thursday rollover window; Sentence 2 names the key movers and exact scores.",
+      "syntax": {
+        "governancescore": "Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover",
+        "policingintel": "Midweek Tactical Operations Shift Command Baselines Across [Zone] Jurisdictions",
+        "footballtally": "Midweek Fixture Congestion Reshuffles [League] DFT vs. STD Standings"
+      }
+    },
+    {
+      "id": "23",
+      "family": "temporal_rollover_trajectory",
+      "name": "thursday_weekly_rollover_anchor",
+      "cooldown_days": 7,
+      "opening_class": "rollover_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 summarizes the 7-day window close or Thursday rollover headline result; Sentence 2 highlights the top performer and key metric divergence.",
+      "syntax": {
+        "governancescore": "Weekly Governance Rollover: [State] Closes Window at [Score] PSI as [State B] Leads Stability",
+        "policingintel": "Weekly Policing Rollover: [Command] Tops 7-Day Enforcement at [Score] SPS",
+        "footballtally": "Weekly Football Rollover: [League] DFT Leaders Diverge From STD Table"
+      }
+    },
+    {
+      "id": "24",
+      "family": "temporal_rollover_trajectory",
+      "name": "consecutive_session_streak_defense",
+      "cooldown_days": 7,
+      "opening_class": "entity_first",
+      "base_weight": 51,
+      "lede_rule": "Sentence 1 states how many consecutive scored sessions or matchdays the leader has held top spot; Sentence 2 cites the current score and closest challenger.",
+      "syntax": {
+        "governancescore": "[State] Extends Subnational Policy Lead to [N] Straight Sessions at [Score] PSI",
+        "policingintel": "[Command] Holds Top Enforcement Ranking for [N] Consecutive Cycles at [Score] SPS",
+        "footballtally": "[Club] Defends [League] DFT Summit for [N] Straight Matchdays"
+      }
+    },
+    {
+      "id": "25",
+      "family": "temporal_rollover_trajectory",
+      "name": "month_to_date_baseline_recalibration",
+      "cooldown_days": 7,
+      "opening_class": "qualifier_first",
+      "base_weight": 52,
+      "lede_rule": "Sentence 1 presents the month-to-date cumulative leader and net monthly movement; Sentence 2 notes the baseline recalibration or secondary metric standing.",
+      "syntax": {
+        "governancescore": "Month-to-Date Telemetry: [State] Leads November Policy Gains With +[Δ] Net Surge",
+        "policingintel": "Month-to-Date Command Telemetry: [Command] Leads Net SPS Gains Across 37 Jurisdictions",
+        "footballtally": "Cumulative Two-Half Index: [Club] Sets Pace Across [League] First-Quarter Schedule"
+      }
+    }
+  ]
+}
