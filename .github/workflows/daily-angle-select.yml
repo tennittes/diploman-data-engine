@@ -1,14 +1,18 @@
-name: Daily 25-Angle Selection
+name: Daily 25-Angle Selection & Diploman Times Queue
 
 on:
+  push:
+    paths:
+      - "master-data.json"
+      - "state/**/daily_metrics_summary.json"
   schedule:
-    - cron: "0 1 * * *" # 01:00 UTC daily
+    - cron: "0 1 * * *" # 01:00 UTC daily backup trigger
   workflow_dispatch:
     inputs:
       vertical:
         description: "Vertical key (governancescore | footballtally | policingintel)"
         required: true
-        default: "policingintel"
+        default: "governancescore"
       run_date_utc:
         description: "Optional UTC date override (YYYY-MM-DD); defaults to today UTC"
         required: false
@@ -18,7 +22,7 @@ permissions:
   contents: write
 
 jobs:
-  select-daily-angle:
+  select-and-queue:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -49,14 +53,14 @@ jobs:
           echo "vertical=$VERTICAL" >> "$GITHUB_OUTPUT"
           echo "run_date_utc=$RUN_DATE" >> "$GITHUB_OUTPUT"
 
-      - name: Validate incoming daily metrics
+      - name: 1. Validate incoming daily metrics
         run: >
           node scripts/validate_inputs.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
           --date "${{ steps.run_meta.outputs.run_date_utc }}"
           --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
 
-      - name: Select daily headline angle
+      - name: 2. Select daily headline angle (25-Angle Matrix)
         run: >
           node scripts/select_angle.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
@@ -66,14 +70,22 @@ jobs:
           --history "state/${{ steps.run_meta.outputs.vertical }}/angle_history.json"
           --out "state/${{ steps.run_meta.outputs.vertical }}/latest_selection.json"
 
-      - name: Commit updated angle state
+      - name: 3. Queue scored brief for Diploman Times (news-queue.json)
+        run: >
+          node scripts/queue_scored_brief.js
+          --vertical "${{ steps.run_meta.outputs.vertical }}"
+          --selection "state/${{ steps.run_meta.outputs.vertical }}/latest_selection.json"
+          --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
+          --queue "news-queue.json"
+
+      - name: Commit updated angle state and news-queue.json
         run: |
           VERTICAL="${{ steps.run_meta.outputs.vertical }}"
           RUN_DATE="${{ steps.run_meta.outputs.run_date_utc }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "state/${VERTICAL}/angle_history.json" "state/${VERTICAL}/latest_selection.json"
+          git add "state/${VERTICAL}/angle_history.json" "state/${VERTICAL}/latest_selection.json" "news-queue.json"
           if ! git diff --staged --quiet; then
-            git commit -m "chore(${VERTICAL}): select angle for ${RUN_DATE}"
+            git commit -m "chore(${VERTICAL}): select angle & queue Diploman Times brief for ${RUN_DATE}"
             git push
           fi
