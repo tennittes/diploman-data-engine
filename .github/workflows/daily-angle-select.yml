@@ -1,0 +1,79 @@
+name: Daily 25-Angle Selection
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # 01:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      vertical:
+        description: "Vertical key (governancescore | footballtally | policingintel)"
+        required: true
+        default: "policingintel"
+      run_date_utc:
+        description: "Optional UTC date override (YYYY-MM-DD); defaults to today UTC"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  select-daily-angle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Resolve vertical and UTC run date
+        id: run_meta
+        run: |
+          VERTICAL="${{ github.event.inputs.vertical }}"
+          if [ -z "$VERTICAL" ]; then
+            if [ -f "config/policing-contract.json" ] && [ ! -f "config/governance-contract.json" ]; then
+              VERTICAL="policingintel"
+            else
+              VERTICAL="governancescore"
+            fi
+          fi
+
+          RUN_DATE="${{ github.event.inputs.run_date_utc }}"
+          if [ -z "$RUN_DATE" ]; then
+            RUN_DATE=$(date -u +%F)
+          fi
+
+          echo "vertical=$VERTICAL" >> "$GITHUB_OUTPUT"
+          echo "run_date_utc=$RUN_DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Validate incoming daily metrics
+        run: >
+          node scripts/validate_inputs.js
+          --vertical "${{ steps.run_meta.outputs.vertical }}"
+          --date "${{ steps.run_meta.outputs.run_date_utc }}"
+          --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
+
+      - name: Select daily headline angle
+        run: >
+          node scripts/select_angle.js
+          --vertical "${{ steps.run_meta.outputs.vertical }}"
+          --date "${{ steps.run_meta.outputs.run_date_utc }}"
+          --angles "config/angles-25-master.json"
+          --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
+          --history "state/${{ steps.run_meta.outputs.vertical }}/angle_history.json"
+          --out "state/${{ steps.run_meta.outputs.vertical }}/latest_selection.json"
+
+      - name: Commit updated angle state
+        run: |
+          VERTICAL="${{ steps.run_meta.outputs.vertical }}"
+          RUN_DATE="${{ steps.run_meta.outputs.run_date_utc }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "state/${VERTICAL}/angle_history.json" "state/${VERTICAL}/latest_selection.json"
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(${VERTICAL}): select angle for ${RUN_DATE}"
+            git push
+          fi
