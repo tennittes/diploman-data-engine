@@ -4,6 +4,7 @@
       "type": "scored_brief",
       "id": "scored-gov-2026-11-20-02",
       "published": false,
+      "target_url": "https://www.diplomantimes.com",
       "vertical": "governancescore",
       "source_domain": "https://governancescore.diplomantimes.com/",
       "angle_id": "02",
@@ -11,7 +12,8 @@
       "opening_class": "entity_first",
       "headline_skeleton": "[State] Slips [Δ] Below Policy Baseline Amid [Institutional/Fiscal Bottleneck]",
       "lede_rule": "Sentence 1 reports the drop relative to baseline and the operational or table driver behind it; Sentence 2 compares against the broader tier or opposite-moving metric.",
-      "title": "Kebbi Posts +0.4 Policy Surge to 9.3 PSI as Kebbi Holds Subnational Lead",
+      "title": "-2.7 Shift Tests Cross River as Kebbi Holds 9.3 PSI Lead",
+      "summary": "Cross River posted a -2.7 PSI movement on 2026-11-20 UTC across the 37 jurisdictions, while Kebbi remained at the top of the Policy Signal Index table on 9.3 PSI. Steepest daily movement across the board reached +0.4 on the upside and -2.7 on the downside.",
       "labels": [
         "News Report",
         "Diploman Times",
@@ -21,16 +23,17 @@
       ],
       "featured_image": {
         "src": "",
-        "alt": "Kebbi Subnational Governance Score Telemetry",
+        "alt": "Kebbi Governance Score Telemetry",
         "target_url": "https://www.diplomantimes.com"
       },
-      "lead_narrative": "Kebbi recorded the sharpest subnational policy movement across Nigeria's 37 jurisdictions on 2026-11-20, climbing +0.4 to 9.3 PSI, while Kebbi retained the overall Policy Signal Index lead at 9.3 PSI. On the stability front, Kebbi anchored the State Instability Score table at 2.2 SIS.",
-      "editorial_notice": "This Scored Intelligence Brief translates subnational Policy Signal Index (PSI) and State Instability Score (SIS) telemetry across 37 Nigerian jurisdictions into verified news coverage for Diploman Times.",
+      "lead_narrative": "Cross River posted a -2.7 PSI movement on 2026-11-20 UTC across the 37 jurisdictions, while Kebbi remained at the top of the Policy Signal Index table on 9.3 PSI. Steepest daily movement across the board reached +0.4 on the upside and -2.7 on the downside.",
       "story_body": [
-        "Engine telemetry processed under Angle 02 (baseline_deviations) highlights Kebbi's upward Policy Signal Index shift alongside sustained top-tier execution from Kebbi (9.3 PSI).",
-        "Across the broader 37-jurisdiction board, Kebbi (9.3 PSI, +0), Zamfara (9 PSI, +0), Rivers (8.7 PSI, +0) paced daily policy output.",
-        "Institutional friction readings remained lowest in Kebbi (2.2 SIS), Zamfara (2.2 SIS), Rivers (2.2 SIS), reinforcing subnational divergence ahead of the Thursday 00:00 UTC rollover window."
-      ]
+        "Leading Policy Signal Index positions across the 37 jurisdictions on 2026-11-20 UTC stand at 1. Kebbi (9.3 PSI, 0), 2. Zamfara (9 PSI, 0), and 3. Rivers (8.7 PSI, 0). Kebbi holds a 0.3-point margin over Zamfara in the primary ranking.",
+        "On the State Instability Score side, notable readings include Kebbi (2.2 SIS, 0), Zamfara (2.2 SIS, 0), and Rivers (2.2 SIS, 0), highlighting jurisdictions where secondary risk or instability indicators behave differently from top PSI totals.",
+        "Lower-ranked jurisdictions on the PSI board include Yobe (6 PSI, 0), Taraba (6 PSI, 0), and Sokoto (6 PSI, 0), illustrating the spread between frontrunners and trailing states as of 2026-11-20 UTC.",
+        "Regional distribution across geopolitical zones spans NW (7), SS (6), SW (6), SE (5), NC (7), NE (6), capturing broad subnational comparisons without relying on single-location snapshots."
+      ],
+      "queued_at_utc": "2026-11-23T12:54:17.690Z"
     },
     {
       "type": "news_report",
