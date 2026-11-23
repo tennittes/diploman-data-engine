@@ -3,7 +3,7 @@
     {
       "type": "scored_brief",
       "id": "scored-gov-2026-11-20-02",
-      "published": false,
+      "published": true,
       "target_url": "https://www.diplomantimes.com",
       "vertical": "governancescore",
       "source_domain": "https://governancescore.diplomantimes.com/",
@@ -36,8 +36,8 @@
       "queued_at_utc": "2026-11-23T15:21:43.357Z",
       "blogger_draft": true,
       "blogger_post_id": "545642880650351394",
-      "url": "https://www.diplomantimes.com/",
-      "permalink": "https://www.diplomantimes.com/"
+      "url": "https://www.diplomantimes.com/2026/11/27-shift-tests-cross-river-as-kebbi.html",
+      "permalink": "https://www.diplomantimes.com/2026/11/27-shift-tests-cross-river-as-kebbi.html"
     },
     {
       "type": "news_report",
