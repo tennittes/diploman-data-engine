@@ -1,35 +1,8 @@
-// scripts/queue_scored_brief.js — Formats Selected 25-Angle Scored Brief Into Diploman Times news-queue.json
+// scripts/queue_scored_brief.js — Generates Dynamic, Boilerplate-Free Scored Briefs Into news-queue.json
 const fs = require("fs");
 const path = require("path");
 
 const DIPLOMAN_TIMES_URL = "https://www.diplomantimes.com";
-
-const VERTICAL_META = {
-  governancescore: {
-    label: "Governance Score",
-    prefix: "gov",
-    primaryMetric: "PSI",
-    secondaryMetric: "SIS",
-    notice:
-      "This Scored Intelligence Brief translates subnational Policy Signal Index (PSI) and State Instability Score (SIS) telemetry across 37 Nigerian jurisdictions into verified news coverage for Diploman Times."
-  },
-  policingintel: {
-    label: "Policing Intel",
-    prefix: "pol",
-    primaryMetric: "SPS",
-    secondaryMetric: "JTI",
-    notice:
-      "This Scored Intelligence Brief translates Security Performance Score (SPS) and Jurisdiction Threat Index (JTI) command telemetry across 37 Nigerian jurisdictions into verified news coverage for Diploman Times."
-  },
-  footballtally: {
-    label: "Football Tally",
-    prefix: "ftb",
-    primaryMetric: "DFT",
-    secondaryMetric: "STD",
-    notice:
-      "This Scored Intelligence Brief translates Diploman Football Tally (DFT) two-half consistency metrics against Standard Full-Time Points (STD) across 8 tracked leagues for Diploman Times."
-  }
-};
 
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
@@ -41,186 +14,372 @@ function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
 }
 
-function buildStoryDraft(vertical, selection, metrics) {
-  const meta = VERTICAL_META[vertical] || VERTICAL_META.governancescore;
-  const topEntity = metrics.top_primary_entity || "Tracked Leader";
-  const topScore = metrics.top_primary_score !== undefined ? metrics.top_primary_score : "N/A";
-  const maxPosDelta =
-    typeof metrics.maxPositiveDelta === "number"
-      ? `${metrics.maxPositiveDelta >= 0 ? "+" : ""}${metrics.maxPositiveDelta}`
-      : "+0.0";
+function formatDelta(val) {
+  const n = Number(val ?? 0);
+  if (!Number.isFinite(n)) return "0";
+  if (n > 0) return `+${n}`;
+  return `${n}`;
+}
 
-  if (vertical === "governancescore") {
-    const pTop = (metrics.leaders && metrics.leaders.primary_top3) || [];
-    const sTop = (metrics.leaders && metrics.leaders.secondary_top3) || [];
-    const breakout = pTop.slice().sort((a, b) => (b.delta || 0) - (a.delta || 0))[0] || pTop[0] || {};
-    const stabilityLead = sTop[0] || {};
+function formatList(items, formatter, conjunction = "and") {
+  const list = Array.isArray(items) ? items.filter(Boolean) : [];
+  if (list.length === 0) return "";
+  const formatted = list.map(formatter);
+  if (formatted.length === 1) return formatted[0];
+  if (formatted.length === 2) return `${formatted[0]} ${conjunction} ${formatted[1]}`;
+  return `${formatted.slice(0, -1).join(", ")}, ${conjunction} ${formatted[formatted.length - 1]}`;
+}
 
-    return {
-      title: `${breakout.entity || topEntity} Posts ${maxPosDelta} Policy Surge to ${breakout.score || topScore} PSI as ${topEntity} Holds Subnational Lead`,
-      labels: [
-        "News Report",
-        "Diploman Times",
-        "Governance Score",
-        breakout.entity || topEntity,
-        `Angle ${selection.selected_angle_id}`
-      ],
-      alt: `${breakout.entity || topEntity} Subnational Governance Score Telemetry`,
-      lead_narrative: `${breakout.entity || topEntity} recorded the sharpest subnational policy movement across Nigeria's 37 jurisdictions on ${selection.run_date_utc}, climbing ${maxPosDelta} to ${breakout.score || topScore} PSI, while ${topEntity} retained the overall Policy Signal Index lead at ${topScore} PSI. On the stability front, ${stabilityLead.entity || "Lagos"} anchored the State Instability Score table at ${stabilityLead.score !== undefined ? stabilityLead.score : "1.2"} SIS.`,
-      story_body: [
-        `Engine telemetry processed under Angle ${selection.selected_angle_id} (${selection.family}) highlights ${breakout.entity || topEntity}'s upward Policy Signal Index shift alongside sustained top-tier execution from ${topEntity} (${topScore} PSI).`,
-        `Across the broader 37-jurisdiction board, ${pTop.map((x) => `${x.entity} (${x.score} PSI, ${x.delta >= 0 ? "+" : ""}${x.delta})`).join(", ") || `${topEntity} (${topScore} PSI)`} paced daily policy output.`,
-        `Institutional friction readings remained lowest in ${sTop.map((x) => `${x.entity} (${x.score} SIS)`).join(", ") || "top-performing stability jurisdictions"}, reinforcing subnational divergence ahead of the Thursday 00:00 UTC rollover window.`
-      ]
-    };
+function buildFootballDraft(selection, metrics, dateStr) {
+  const angleId = selection.selected_angle_id || "04";
+  const topEntity = metrics.top_primary_entity || "Brighton Hove";
+  const topScore = metrics.top_primary_score ?? 0;
+
+  const leagueName = metrics.active_league_name || "Premier League";
+  const leagueCode = metrics.active_league_code || "PL";
+  const standings = metrics.active_league_standings || {};
+  const dftTop3 = Array.isArray(standings.dft_top3) ? standings.dft_top3 : [];
+  const dftBottom3 = Array.isArray(standings.dft_bottom3) ? standings.dft_bottom3 : [];
+  const stdTop3 = Array.isArray(standings.std_top3) ? standings.std_top3 : [];
+  const stdBottom3 = Array.isArray(standings.std_bottom3) ? standings.std_bottom3 : [];
+
+  const runnerUp = dftTop3[1] || { club: "nearest rival", dft_pts: topScore };
+  const thirdClub = dftTop3[2] || null;
+  const tailClub = dftBottom3[0] || { club: "the bottom club", dft_pts: 0 };
+  const stdLeader = stdTop3[0] || { club: topEntity, std_pts: topScore };
+  const stdRunnerUp = stdTop3[1] || null;
+
+  let title;
+  let leadNarrative;
+
+  switch (angleId) {
+    case "07": {
+      title = `Lower-Tier Pressure Persists on ${tailClub.club} (${tailClub.dft_pts} Pts) as ${topEntity} Stays Ahead on ${topScore} DFT Pts`;
+      leadNarrative =
+        `${tailClub.club} sits at the bottom of the ${leagueName} (${leagueCode}) two-half table on ${tailClub.dft_pts} points as of ${dateStr} UTC, ` +
+        `while ${topEntity} maintains the top spot on ${topScore} points. ` +
+        `Across the wider ${leagueName} table split, ${stdLeader.club} holds first place on the standard full-time standings with ${stdLeader.std_pts} points.`;
+      break;
+    }
+    case "04":
+    case "09": {
+      title = `${topEntity} Tops ${leagueName} DFT Tally (${topScore} Pts) While ${stdLeader.club} Leads Full-Time Table (${stdLeader.std_pts} Pts)`;
+      leadNarrative =
+        `${topEntity} leads the ${leagueName} (${leagueCode}) two-half table with ${topScore} points as of ${dateStr} UTC, ` +
+        `while ${stdLeader.club} sits atop the standard full-time standings on ${stdLeader.std_pts} points. ` +
+        `The split between half-by-half control and final match outcomes continues to reshape positions across ${leagueName}.`;
+      break;
+    }
+    case "06": {
+      title = `${topEntity} (${topScore} Pts) Edges Narrow Lead Over ${runnerUp.club} (${runnerUp.dft_pts} Pts) in ${leagueName} DFT Race`;
+      leadNarrative =
+        `${topEntity} holds a narrow lead on ${topScore} two-half points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) in ${leagueName} (${leagueCode}) as of ${dateStr} UTC. ` +
+        `In the standard full-time table, ${stdLeader.club} sets the pace on ${stdLeader.std_pts} points, keeping both races tightly contested.`;
+      break;
+    }
+    default: {
+      title = `${topEntity} Holds ${leagueName} DFT Lead on ${topScore} Pts Ahead of ${runnerUp.club} (${runnerUp.dft_pts} Pts)`;
+      leadNarrative =
+        `${topEntity} paces the ${leagueName} (${leagueCode}) two-half table with ${topScore} points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) as of ${dateStr} UTC. ` +
+        `Meanwhile, ${stdLeader.club} leads the standard full-time standings on ${stdLeader.std_pts} points, underscoring different paths to points accumulation.`;
+      break;
+    }
   }
 
-  if (vertical === "policingintel") {
-    const pTop = (metrics.leaders && metrics.leaders.primary_top3) || [];
-    const watchTop = (metrics.leaders && metrics.leaders.secondary_top_watch) || [];
+  const dftPodiumText = dftTop3.length
+    ? formatList(dftTop3, (c, idx) => `${idx + 1}. ${c.club} (${c.dft_pts} pts)`)
+    : `${topEntity} (${topScore} pts)`;
 
-    return {
-      title: `${topEntity} Command Climbs ${maxPosDelta} to ${topScore} SPS as High-Watch Threat Baselines Hold Steady`,
-      labels: [
-        "News Report",
-        "Diploman Times",
-        "Policing Intel",
-        topEntity,
-        `Angle ${selection.selected_angle_id}`
-      ],
-      alt: `${topEntity} State Police Command Security Performance Score Telemetry`,
-      lead_narrative: `${topEntity} State Police Command led national daily enforcement performance across 37 jurisdictions on ${selection.run_date_utc} at ${topScore} SPS (${maxPosDelta}), driven by coordinated operational output. Meanwhile, ${watchTop.map((w) => `${w.entity} (${w.score} JTI)`).join(", ") || "high-watch commands"} remained the highest-watch threat jurisdictions with zero net daily movement (+0.0).`,
-      story_body: [
-        `Structured under Angle ${selection.selected_angle_id} (${selection.family}), daily command telemetry places ${pTop.map((x) => `${x.entity} (${x.score} SPS, ${x.delta >= 0 ? "+" : ""}${x.delta})`).join(", ") || `${topEntity} (${topScore} SPS)`} at the top of the Security Performance Score rankings.`,
-        `Each command's SPS composite weighs Patrol & Response Index (PRI, 35%), Crime Deterrence Index (CDI, 40%), and Rapid Policing Index (RPI, 25%) against calibrated 5.5–7.5 baseline bands.`,
-        `On the Jurisdiction Threat Index (JTI, 2.5–4.5 baseline band), persistent readings in ${watchTop.map((w) => `${w.entity} (${w.score} JTI)`).join(", ") || "monitored northeastern and northwestern corridors"} underscore ongoing containment priorities across the federation.`
-      ]
-    };
-  }
+  const gapToSecond = Math.max(0, Number(topScore) - Number(runnerUp.dft_pts ?? topScore));
+  const gapToThird = thirdClub
+    ? Math.max(0, Number(topScore) - Number(thirdClub.dft_pts ?? topScore))
+    : 0;
 
-  // footballtally
-  const leagueName = metrics.active_league_name || metrics.active_league_code || "Premier League";
-  const dftTop = (metrics.active_league_standings && metrics.active_league_standings.dft_top3) || [];
-  const dftBottom = (metrics.active_league_standings && metrics.active_league_standings.dft_bottom3) || [];
-  const stdTop = (metrics.active_league_standings && metrics.active_league_standings.std_top3) || [];
-  const stdLeader = stdTop[0] || { club: "Arsenal", std_pts: 27, dft_pts: 13 };
+  const p1 =
+    `At the top of the ${leagueName} two-half standings, the leading trio sits at ${dftPodiumText}. ` +
+    `${topEntity} holds a ${gapToSecond}-point cushion over ${runnerUp.club}` +
+    (thirdClub ? ` and leads third-placed ${thirdClub.club} by ${gapToThird} points.` : ".");
+
+  const stdTopText = stdTop3.length
+    ? formatList(stdTop3, (c) => `${c.club} (${c.std_pts} pts)`)
+    : `${stdLeader.club} (${stdLeader.std_pts} pts)`;
+
+  const p2 =
+    `The standard full-time standings present a contrasting picture, led by ${stdTopText}. ` +
+    (stdRunnerUp
+      ? `${stdLeader.club} stays ${Math.max(0, Number(stdLeader.std_pts ?? 0) - Number(stdRunnerUp.std_pts ?? 0))} points clear of ${stdRunnerUp.club} in full-time points, `
+      : "") +
+    `showing how clubs that close out full matches can hold higher standard totals even when half-by-half tallies distribute points differently.`;
+
+  const tailText = dftBottom3.length
+    ? formatList(dftBottom3, (c) => `${c.club} (${c.dft_pts} pts)`)
+    : `${tailClub.club} (${tailClub.dft_pts} pts)`;
+
+  const stdTailText = stdBottom3.length
+    ? formatList(stdBottom3, (c) => `${c.club} (${c.std_pts} pts)`)
+    : "";
+
+  const p3 =
+    `At the opposite end of the ${leagueName} two-half table, ${tailText} sit under sustained points pressure` +
+    (stdTailText ? `, while ${stdTailText} occupy the lower full-time spots.` : ".");
+
+  const otherLeagues = (Array.isArray(metrics.leagues) ? metrics.leagues : [])
+    .filter((l) => l.code !== leagueCode)
+    .slice(0, 7);
+
+  const crossLeagueText = otherLeagues.length
+    ? formatList(
+        otherLeagues,
+        (l) =>
+          `${l.name} (${l.dft_leader} on ${l.dft_leader_pts} two-half pts; ${l.std_leader} on ${l.std_leader_pts} full-time pts)`
+      )
+    : "";
+
+  const p4 = crossLeagueText
+    ? `Across other tracked top-flight competitions on ${dateStr} UTC, table leaders include ${crossLeagueText}.`
+    : `Match tallies across tracked domestic leagues continue to update alongside ${leagueName} as fixtures conclude.`;
 
   return {
-    title: `${topEntity} Leads ${leagueName} DFT Table on ${topScore} Pts Despite Trailing ${stdLeader.club} on STD Standings`,
+    title,
+    summary: leadNarrative,
+    leadNarrative,
+    storyBody: [p1, p2, p3, p4],
     labels: [
       "News Report",
       "Diploman Times",
       "Football Tally",
-      leagueName,
-      topEntity,
-      `Angle ${selection.selected_angle_id}`
+      leagueCode,
+      `Angle ${angleId}`
     ],
-    alt: `${topEntity} ${leagueName} Diploman Football Tally Standings`,
-    lead_narrative: `${topEntity} topped the ${leagueName} Diploman Football Tally (DFT) standings with ${topScore} pts on ${selection.run_date_utc}—outpacing standard full-time leader ${stdLeader.club} (${stdLeader.std_pts} STD pts, ${stdLeader.dft_pts} DFT pts)—through sustained two-half sweep bonuses. At the foot of the two-half table, ${dftBottom.slice(0, 2).map((c) => `${c.club} (${c.dft_pts} DFT pts)`).join(" and ") || "bottom-tier clubs"} remained anchored on low half-by-half returns.`,
-    story_body: [
-      `Evaluated under Angle ${selection.selected_angle_id} (${selection.family}), ${leagueName} two-half telemetry highlights ${dftTop.map((c) => `${c.club} (${c.dft_pts} DFT / ${c.std_pts} STD)`).join(", ") || `${topEntity} (${topScore} DFT pts)`}.`,
-      `Under the DFT scoring engine, clubs earn 1 pt per half won plus a +1 sweep bonus for winning both 45-minute halves, exposing sharp divergence from conventional 3-1-0 full-time tables.`,
-      `Across all 8 tracked competitions, two-half consistency continues to separate teams controlling both halves from clubs reliant on single-half surges.`
-    ]
+    featuredImage: {
+      src: "",
+      alt: `${leagueName} Football Tally Standings`,
+      target_url: DIPLOMAN_TIMES_URL
+    }
   };
 }
 
-function queueScoredBrief({
-  vertical,
-  selectionPath,
-  metricsPath,
-  queuePath,
-  featuredImageSrc
-}) {
+function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
+  const isPolicing = vertical === "policingintel";
+  const primaryKey = isPolicing ? "SPS" : "PSI";
+  const secondaryKey = isPolicing ? "JTI" : "SIS";
+  const metricLabel = isPolicing ? "Security Performance Score" : "Policy Signal Index";
+  const secLabel = isPolicing ? "Jurisdiction Threat Index" : "State Instability Score";
+  const verticalTag = isPolicing ? "Policing Intel" : "Governance Score";
+
+  const angleId = selection.selected_angle_id || "01";
+  const topEntity = metrics.top_primary_entity || "Lagos";
+  const topScore = metrics.top_primary_score ?? 0;
+  const maxPos = formatDelta(metrics.maxPositiveDelta);
+  const maxNeg = formatDelta(metrics.maxNegativeDelta);
+
+  const leaders = metrics.leaders || {};
+  const primaryTop3 = Array.isArray(leaders.primary_top3) ? leaders.primary_top3 : [];
+  const secondaryTop = Array.isArray(
+    isPolicing ? leaders.secondary_top_watch : leaders.secondary_top3
+  )
+    ? isPolicing
+      ? leaders.secondary_top_watch
+      : leaders.secondary_top3
+    : [];
+
+  const jurisdictions = Array.isArray(metrics.jurisdictions) ? metrics.jurisdictions : [];
+  const trailing = jurisdictions.slice(-3).reverse();
+
+  const runnerUp = primaryTop3[1] || null;
+  const leadMover =
+    jurisdictions
+      .slice()
+      .sort((a, b) => Number(b[`${primaryKey}_delta`] ?? 0) - Number(a[`${primaryKey}_delta`] ?? 0))[0] ||
+    null;
+
+  let title;
+  let leadNarrative;
+
+  if (angleId === "02" && Number(metrics.maxNegativeDelta ?? 0) < 0) {
+    const dropper =
+      jurisdictions
+        .slice()
+        .sort((a, b) => Number(a[`${primaryKey}_delta`] ?? 0) - Number(b[`${primaryKey}_delta`] ?? 0))[0] ||
+      { entity: topEntity, [`${primaryKey}_delta`]: maxNeg };
+    const dropDelta = formatDelta(dropper[`${primaryKey}_delta`]);
+    title = `${dropDelta} Shift Tests ${dropper.entity} as ${topEntity} Holds ${topScore} ${primaryKey} Lead`;
+    leadNarrative =
+      `${dropper.entity} posted a ${dropDelta} ${primaryKey} movement on ${dateStr} UTC across the 37 jurisdictions, ` +
+      `while ${topEntity} remained at the top of the ${metricLabel} table on ${topScore} ${primaryKey}. ` +
+      `Steepest daily movement across the board reached ${maxPos} on the upside and ${maxNeg} on the downside.`;
+  } else if (angleId === "06" && runnerUp) {
+    title = `${topEntity} (${topScore} ${primaryKey}) Holds Narrow Lead Over ${runnerUp.entity} (${runnerUp.score} ${primaryKey})`;
+    leadNarrative =
+      `${topEntity} leads the 37-jurisdiction ${metricLabel} rankings on ${topScore} ${primaryKey} as of ${dateStr} UTC, ` +
+      `just ahead of ${runnerUp.entity} on ${runnerUp.score} ${primaryKey}. ` +
+      `Across all tracked jurisdictions, daily ${primaryKey} shifts ranged from ${maxNeg} to ${maxPos}.`;
+  } else {
+    const moverEntity = leadMover ? leadMover.entity : topEntity;
+    const moverDelta = leadMover ? formatDelta(leadMover[`${primaryKey}_delta`]) : maxPos;
+    title = `${moverEntity} Posts ${moverDelta} ${primaryKey} Shift as ${topEntity} Leads on ${topScore} ${primaryKey}`;
+    leadNarrative =
+      `${moverEntity} recorded a ${moverDelta} ${primaryKey} shift on ${dateStr} UTC, while ${topEntity} held the overall ${metricLabel} lead at ${topScore} ${primaryKey} across 37 jurisdictions. ` +
+      `Daily shifts across the board spanned ${maxNeg} to ${maxPos} ${primaryKey}.`;
+  }
+
+  const top3Text = primaryTop3.length
+    ? formatList(
+        primaryTop3,
+        (r, idx) => `${idx + 1}. ${r.entity} (${r.score} ${primaryKey}, ${formatDelta(r.delta)})`
+      )
+    : `${topEntity} (${topScore} ${primaryKey})`;
+
+  const p1 =
+    `Leading ${metricLabel} positions across the 37 jurisdictions on ${dateStr} UTC stand at ${top3Text}. ` +
+    (runnerUp
+      ? `${topEntity} holds a ${(Number(topScore) - Number(runnerUp.score ?? topScore)).toFixed(2).replace(/\.?0+$/, "")}-point margin over ${runnerUp.entity} in the primary ranking.`
+      : `Daily ${primaryKey} readings reflect comparative performance across state commands and administrations.`);
+
+  const secText = secondaryTop.length
+    ? formatList(
+        secondaryTop,
+        (r) => `${r.entity} (${r.score} ${secondaryKey}, ${formatDelta(r.delta)})`
+      )
+    : "";
+
+  const p2 = secText
+    ? `On the ${secLabel} side, notable readings include ${secText}, ` +
+      `highlighting jurisdictions where secondary risk or instability indicators behave differently from top ${primaryKey} totals.`
+    : `Secondary ${secondaryKey} readings across the 37 jurisdictions continue to be tracked alongside ${primaryKey} movement.`;
+
+  const trailingText = trailing.length
+    ? formatList(
+        trailing,
+        (r) => `${r.entity} (${r[primaryKey]} ${primaryKey}, ${formatDelta(r[`${primaryKey}_delta`])})`
+      )
+    : "";
+
+  const p3 = trailingText
+    ? `Lower-ranked jurisdictions on the ${primaryKey} board include ${trailingText}, ` +
+      `illustrating the spread between frontrunners and trailing states as of ${dateStr} UTC.`
+    : `Rankings across all 37 jurisdictions remain updated for ${dateStr} UTC.`;
+
+  const activeZones = jurisdictions.reduce((acc, r) => {
+    const z = r.zone || "NC";
+    acc[z] = (acc[z] || 0) + 1;
+    return acc;
+  }, {});
+
+  const zoneSummary = Object.entries(activeZones)
+    .map(([z, count]) => `${z} (${count})`)
+    .join(", ");
+
+  const p4 = zoneSummary
+    ? `Regional distribution across geopolitical zones spans ${zoneSummary}, capturing broad subnational comparisons without relying on single-location snapshots.`
+    : `Subnational comparisons span all 37 jurisdictions nationwide.`;
+
+  return {
+    title,
+    summary: leadNarrative,
+    leadNarrative,
+    storyBody: [p1, p2, p3, p4],
+    labels: [
+      "News Report",
+      "Diploman Times",
+      verticalTag,
+      topEntity,
+      `Angle ${angleId}`
+    ],
+    featuredImage: {
+      src: "",
+      alt: `${topEntity} ${verticalTag} Telemetry`,
+      target_url: DIPLOMAN_TIMES_URL
+    }
+  };
+}
+
+function buildStoryDraft(vertical, selection, metrics) {
+  const dateStr = selection.run_date_utc || metrics.run_date_utc || new Date().toISOString().slice(0, 10);
+  if (vertical === "footballtally") {
+    return buildFootballDraft(selection, metrics, dateStr);
+  }
+  return buildJurisdictionDraft(vertical, selection, metrics, dateStr);
+}
+
+function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
   const selection = loadJson(selectionPath, null);
-  if (!selection || !selection.selected_angle_id || !selection.run_date_utc) {
-    throw new Error(`Invalid or empty latest_selection.json at: ${selectionPath}`);
+  if (!selection) {
+    throw new Error(`Missing angle selection file at: ${selectionPath}`);
   }
+  const metrics = loadJson(metricsPath, {});
+  const existingQueue = loadJson(queuePath, { newsReports: [] });
 
-  const metrics = loadJson(metricsPath, null);
-  if (!metrics) {
-    throw new Error(`Missing daily_metrics_summary.json at: ${metricsPath}`);
-  }
+  const prefixMap = {
+    governancescore: "scored-gov",
+    footballtally: "scored-ftb",
+    policingintel: "scored-pol"
+  };
+  const prefix = prefixMap[vertical] || `scored-${vertical}`;
+  const runDate = selection.run_date_utc || metrics.run_date_utc || new Date().toISOString().slice(0, 10);
+  const angleId = selection.selected_angle_id || "01";
+  const id = `${prefix}-${runDate}-${angleId}`;
 
-  const queueData = loadJson(queuePath, { newsReports: [] });
-  if (!Array.isArray(queueData.newsReports)) {
-    queueData.newsReports = [];
-  }
-
-  const meta = VERTICAL_META[vertical] || VERTICAL_META.governancescore;
   const draft = buildStoryDraft(vertical, selection, metrics);
-  const reportId = `scored-${meta.prefix}-${selection.run_date_utc}-${selection.selected_angle_id}`;
 
   const entry = {
     type: "scored_brief",
-    id: reportId,
+    id,
     published: false,
+    target_url: DIPLOMAN_TIMES_URL,
     vertical,
-    source_domain: selection.domain,
-    angle_id: selection.selected_angle_id,
-    angle_family: selection.family,
-    opening_class: selection.opening_class,
-    headline_skeleton: selection.headline_skeleton,
-    lede_rule: selection.lede_rule,
+    source_domain: selection.domain || DIPLOMAN_TIMES_URL,
+    angle_id: angleId,
+    angle_family: selection.family || "general",
+    opening_class: selection.opening_class || "entity_first",
+    headline_skeleton: selection.headline_skeleton || "",
+    lede_rule: selection.lede_rule || "",
     title: draft.title,
+    summary: draft.summary,
     labels: draft.labels,
-    featured_image: {
-      src: featuredImageSrc || "",
-      alt: draft.alt,
-      target_url: DIPLOMAN_TIMES_URL
-    },
-    lead_narrative: draft.lead_narrative,
-    editorial_notice: meta.notice,
-    story_body: draft.story_body
+    featured_image: draft.featuredImage,
+    lead_narrative: draft.leadNarrative,
+    story_body: draft.storyBody,
+    queued_at_utc: new Date().toISOString()
   };
 
-  // Upsert by reportId so same-day reruns update in place without duplicates
-  const existingIdx = queueData.newsReports.findIndex((item) => item.id === reportId);
-  if (existingIdx >= 0) {
-    // Preserve published: true if already published on the same date/angle
-    entry.published = Boolean(queueData.newsReports[existingIdx].published);
-    queueData.newsReports[existingIdx] = entry;
-  } else {
-    queueData.newsReports.unshift(entry);
-  }
+  const existingList = Array.isArray(existingQueue)
+    ? existingQueue
+    : Array.isArray(existingQueue.newsReports)
+    ? existingQueue.newsReports
+    : Array.isArray(existingQueue.items)
+    ? existingQueue.items
+    : [];
 
-  saveJson(queuePath, queueData);
-  return entry;
+  const updatedReports = [entry, ...existingList.filter((item) => item.id !== id)];
+  saveJson(queuePath, { newsReports: updatedReports });
+
+  return {
+    status: "QUEUED",
+    target_url: DIPLOMAN_TIMES_URL,
+    entry
+  };
 }
 
 if (require.main === module) {
   const args = process.argv.slice(2);
-  const getArg = (flag, def) => {
+  const getArg = (flag, def = "") => {
     const idx = args.indexOf(flag);
     return idx >= 0 && args[idx + 1] ? args[idx + 1] : def;
   };
 
   try {
-    const vertical = getArg("--vertical", "governancescore");
-    const selectionPath = getArg(
-      "--selection",
-      path.join("state", vertical, "latest_selection.json")
-    );
-    const metricsPath = getArg(
-      "--metrics",
-      path.join("state", vertical, "daily_metrics_summary.json")
-    );
+    const vertical = getArg("--vertical", "footballtally");
+    const selectionPath = getArg("--selection", path.join("state", vertical, "latest_selection.json"));
+    const metricsPath = getArg("--metrics", path.join("state", vertical, "daily_metrics_summary.json"));
     const queuePath = getArg("--queue", "news-queue.json");
-    const featuredImageSrc = getArg("--image", "");
 
-    const queued = queueScoredBrief({
-      vertical,
-      selectionPath,
-      metricsPath,
-      queuePath,
-      featuredImageSrc
-    });
-
-    console.log(JSON.stringify({ status: "QUEUED", target_url: DIPLOMAN_TIMES_URL, entry: queued }, null, 2));
+    const result = queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath });
+    console.log(JSON.stringify(result, null, 2));
   } catch (err) {
     console.error(JSON.stringify({ status: "ERROR", message: err.message }, null, 2));
     process.exit(1);
   }
 }
 
-module.exports = { queueScoredBrief, buildStoryDraft, DIPLOMAN_TIMES_URL };
+module.exports = { queueScoredBrief };
