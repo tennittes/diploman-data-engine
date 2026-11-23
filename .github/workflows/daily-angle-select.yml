@@ -3,13 +3,15 @@ name: Daily 25-Angle Selection & Diploman Times Queue
 on:
   push:
     paths:
-      - "master-data.json"
+      - "nov2026/master-data.json"
+      - "*/master-data.json"
+      - "data/*-matches.json"
   schedule:
     - cron: "0 1 * * *" # 01:00 UTC daily
   workflow_dispatch:
     inputs:
       vertical:
-        description: "Vertical key (governancescore | footballtally | policingintel)"
+        description: "Vertical key (governancescore | policingintel | footballtally)"
         required: true
         default: "governancescore"
       run_date_utc:
@@ -32,13 +34,15 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Resolve vertical and UTC run date
+      - name: Resolve vertical, data source, and UTC run date
         id: run_meta
         run: |
           VERTICAL="${{ github.event.inputs.vertical }}"
           if [ -z "$VERTICAL" ]; then
             if [ -f "config/policing-contract.json" ] && [ ! -f "config/governance-contract.json" ]; then
               VERTICAL="policingintel"
+            elif [ -f "data/pl-matches.json" ]; then
+              VERTICAL="footballtally"
             else
               VERTICAL="governancescore"
             fi
@@ -49,15 +53,25 @@ jobs:
             RUN_DATE=$(date -u +%F)
           fi
 
+          MASTER_FILE="nov2026/master-data.json"
+          if [ ! -f "$MASTER_FILE" ]; then
+            FOUND_MASTER=$(find . -maxdepth 2 -name "master-data.json" | head -n 1)
+            if [ -n "$FOUND_MASTER" ]; then
+              MASTER_FILE="${FOUND_MASTER#./}"
+            fi
+          fi
+
           echo "vertical=$VERTICAL" >> "$GITHUB_OUTPUT"
           echo "run_date_utc=$RUN_DATE" >> "$GITHUB_OUTPUT"
+          echo "master_file=$MASTER_FILE" >> "$GITHUB_OUTPUT"
 
-      - name: 1. Extract daily metrics summary from master-data.json
+      - name: 1. Extract daily metrics summary
         run: >
           node scripts/extract_summary_from_master.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
           --date "${{ steps.run_meta.outputs.run_date_utc }}"
-          --master "master-data.json"
+          --master "${{ steps.run_meta.outputs.master_file }}"
+          --data-dir "data"
           --out "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
 
       - name: 2. Validate incoming daily metrics
