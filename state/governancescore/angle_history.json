@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0.0",
+  "vertical": "REPLACE_WITH_VERTICAL_KEY",
+  "cooldown_window_runs": 7,
+  "entries": []
+}
