@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "run_date_utc": "2026-11-23",
+  "vertical": "footballtally",
+  "tracked_league_count": 8,
+  "active_league_code": "PL",
+  "active_league_name": "Premier League",
+  "top_primary_entity": "Brighton Hove",
+  "top_primary_score": 15,
+  "maxPositiveDelta": 3,
+  "maxNegativeDelta": 0,
+  "flatTopWatchCount": 2,
+  "hasPostSpikeReversion": false,
+  "creepStreakDays": 3,
+  "hasPrimarySecondarySplit": true,
+  "hasInverseDivergence": true,
+  "hasThroughputGap": false,
+  "hasStabilityLead": false,
+  "hasDualTopTier": false,
+  "maxZoneClusterCount": 3,
+  "hasCorridorOrDerbyDriver": false,
+  "isTopMarginTight": true,
+  "hasBottomTierDrag": true,
+  "hasTierCrossover": true,
+  "hasFiscalOrFundingTrigger": false,
+  "hasLeadershipOrTacticalShift": false,
+  "hasAccountabilityOrDisciplineEvent": false,
+  "hasExecutionOrSweepMilestone": true,
+  "hasFrictionOrLateShock": false,
+  "hasFiveDayCrossover": false,
+  "hasMidweekShift": false,
+  "leaderStreakRuns": 2,
+  "active_league_standings": {
+    "dft_top3": [
+      { "code": "BHO", "club": "Brighton Hove", "dft_pts": 15, "std_pts": 22 },
+      { "code": "BOU", "club": "Bournemouth", "dft_pts": 13, "std_pts": 18 },
+      { "code": "ARS", "club": "Arsenal", "dft_pts": 13, "std_pts": 27 }
+    ],
+    "dft_bottom3": [
+      { "code": "SUN", "club": "Sunderland", "dft_pts": 2, "std_pts": 8 },
+      { "code": "MUN", "club": "Man United", "dft_pts": 2, "std_pts": 8 },
+      { "code": "NOT", "club": "Nottingham", "dft_pts": 3, "std_pts": 10 }
+    ],
+    "std_top3": [
+      { "code": "ARS", "club": "Arsenal", "std_pts": 27, "dft_pts": 13 },
+      { "code": "BHO", "club": "Brighton Hove", "std_pts": 22, "dft_pts": 15 },
+      { "code": "MCI", "club": "Man City", "std_pts": 21, "dft_pts": 12 }
+    ],
+    "std_bottom3": [
+      { "code": "CPA", "club": "Crystal Palace", "std_pts": 7, "dft_pts": 4 },
+      { "code": "SUN", "club": "Sunderland", "std_pts": 8, "dft_pts": 2 },
+      { "code": "MUN", "club": "Man United", "std_pts": 8, "dft_pts": 2 }
+    ]
+  },
+  "leagues": [
+    { "code": "PL", "name": "Premier League", "dft_leader": "Brighton Hove", "dft_leader_pts": 15, "std_leader": "Arsenal", "std_leader_pts": 27 },
+    { "code": "LL", "name": "La Liga", "dft_leader": "Barcelona", "dft_leader_pts": 17, "std_leader": "Barcelona", "std_leader_pts": 30 },
+    { "code": "SA", "name": "Serie A", "dft_leader": "Atalanta", "dft_leader_pts": 14, "std_leader": "Inter", "std_leader_pts": 26 },
+    { "code": "BL", "name": "Bundesliga", "dft_leader": "Bayern Munich", "dft_leader_pts": 16, "std_leader": "Bayern Munich", "std_leader_pts": 28 },
+    { "code": "L1", "name": "Ligue 1", "dft_leader": "PSG", "dft_leader_pts": 15, "std_leader": "PSG", "std_leader_pts": 27 },
+    { "code": "UCL", "name": "UEFA Champions League", "dft_leader": "Liverpool", "dft_leader_pts": 9, "std_leader": "Liverpool", "std_leader_pts": 12 },
+    { "code": "UEL", "name": "UEFA Europa League", "dft_leader": "Lazio", "dft_leader_pts": 8, "std_leader": "Lazio", "std_leader_pts": 12 },
+    { "code": "NPFL", "name": "Nigeria Premier Football League", "dft_leader": "Remo Stars", "dft_leader_pts": 14, "std_leader": "Remo Stars", "std_leader_pts": 23 }
+  ]
+}
