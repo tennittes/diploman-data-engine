@@ -1,0 +1,72 @@
+name: Central Diploman Times 3-Vertical Publisher
+
+on:
+  schedule:
+    - cron: "20 1 * * *" # Runs at 01:20 UTC after all 3 vertical queues finish generating
+  workflow_dispatch:
+    inputs:
+      vertical:
+        description: "Vertical to deploy (all, governancescore, policingintel, footballtally)"
+        required: false
+        default: "all"
+      draft:
+        description: "Publish as Blogger draft instead of live"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  publish-diploman-times:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Diploman Times (central publisher)
+        uses: actions/checkout@v4
+        with:
+          path: central
+
+      - name: Checkout Governance Score repo
+        uses: actions/checkout@v4
+        with:
+          repository: <OWNER>/<GOVERNANCE_REPO>
+          token: ${{ secrets.CROSS_REPO_PAT }}
+          path: repos/governance
+
+      - name: Checkout Policing Intel repo
+        uses: actions/checkout@v4
+        with:
+          repository: <OWNER>/<POLICING_REPO>
+          token: ${{ secrets.CROSS_REPO_PAT }}
+          path: repos/policing
+
+      - name: Checkout Football Tally repo
+        uses: actions/checkout@v4
+        with:
+          repository: tennittes/diploman-football-tally
+          token: ${{ secrets.CROSS_REPO_PAT }}
+          path: repos/football
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Google Blogger API client
+        run: pip install --quiet google-api-python-client google-auth
+
+      - name: Publish Governance Score, Policing Intel & Football Tally to Diploman Times
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+        run: |
+          DRAFT_FLAG=""
+          if [ "${{ github.event.inputs.draft }}" = "true" ]; then
+            DRAFT_FLAG="--draft"
+          fi
+          VERTICAL="${{ github.event.inputs.vertical || 'all' }}"
+          python central/scripts/publish_diploman_times.py \
+            --repo-dirs repos/governance repos/policing repos/football \
+            --vertical "$VERTICAL" \
+            --limit 6 \
+            $DRAFT_FLAG
