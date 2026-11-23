@@ -18,23 +18,18 @@ on:
 jobs:
   publish-diploman-times:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Diploman Times (central publisher)
+      - name: Checkout Diploman Times & Governance Score repo
         uses: actions/checkout@v4
         with:
           path: central
 
-      - name: Checkout Governance Score repo
-        uses: actions/checkout@v4
-        with:
-          repository: <OWNER>/<GOVERNANCE_REPO>
-          token: ${{ secrets.CROSS_REPO_PAT }}
-          path: repos/governance
-
       - name: Checkout Policing Intel repo
         uses: actions/checkout@v4
         with:
-          repository: <OWNER>/<POLICING_REPO>
+          repository: tennittes/diploman-policing-intel
           token: ${{ secrets.CROSS_REPO_PAT }}
           path: repos/policing
 
@@ -66,7 +61,7 @@ jobs:
           fi
           VERTICAL="${{ github.event.inputs.vertical || 'all' }}"
           python central/scripts/publish_diploman_times.py \
-            --repo-dirs repos/governance repos/policing repos/football \
+            --repo-dirs central repos/policing repos/football \
             --vertical "$VERTICAL" \
             --limit 6 \
             $DRAFT_FLAG
