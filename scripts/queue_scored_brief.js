@@ -50,38 +50,48 @@ function buildFootballDraft(selection, metrics, dateStr) {
   const stdRunnerUp = stdTop3[1] || null;
 
   let title;
+  let summary;
   let leadNarrative;
 
   switch (angleId) {
     case "07": {
       title = `Lower-Tier Pressure Persists on ${tailClub.club} (${tailClub.dft_pts} Pts) as ${topEntity} Stays Ahead on ${topScore} DFT Pts`;
+      summary =
+        `${tailClub.club} remains bottom of the ${leagueName} two-half standings on ${tailClub.dft_pts} points while ${topEntity} leads on ${topScore} points.`;
       leadNarrative =
-        `${tailClub.club} sits at the bottom of the ${leagueName} (${leagueCode}) two-half table on ${tailClub.dft_pts} points as of ${dateStr} UTC, ` +
-        `while ${topEntity} maintains the top spot on ${topScore} points. ` +
-        `Across the wider ${leagueName} table split, ${stdLeader.club} holds first place on the standard full-time standings with ${stdLeader.std_pts} points.`;
+        `Bottom-ranked ${tailClub.club} sits at the foot of the ${leagueName} (${leagueCode}) two-half table with ${tailClub.dft_pts} points as of ${dateStr}, ` +
+        `contrasting sharply with frontrunner ${topEntity} on ${topScore} points. ` +
+        `Across the wider ${leagueName} table split, ${stdLeader.club} paces the standard full-time standings with ${stdLeader.std_pts} points.`;
       break;
     }
     case "04":
     case "09": {
       title = `${topEntity} Tops ${leagueName} DFT Tally (${topScore} Pts) While ${stdLeader.club} Leads Full-Time Table (${stdLeader.std_pts} Pts)`;
+      summary =
+        `${topEntity} holds the ${leagueName} two-half lead on ${topScore} points as ${stdLeader.club} tops the full-time standings on ${stdLeader.std_pts} points.`;
       leadNarrative =
-        `${topEntity} leads the ${leagueName} (${leagueCode}) two-half table with ${topScore} points as of ${dateStr} UTC, ` +
-        `while ${stdLeader.club} sits atop the standard full-time standings on ${stdLeader.std_pts} points. ` +
-        `The split between half-by-half control and final match outcomes continues to reshape positions across ${leagueName}.`;
+        `${topEntity} commands first place in the ${leagueName} (${leagueCode}) two-half standings with ${topScore} points on ${dateStr}, ` +
+        `whereas ${stdLeader.club} leads the standard full-time table on ${stdLeader.std_pts} points. ` +
+        `The divergence between half-by-half control and final match outcomes continues to separate contenders across ${leagueName}.`;
       break;
     }
     case "06": {
       title = `${topEntity} (${topScore} Pts) Edges Narrow Lead Over ${runnerUp.club} (${runnerUp.dft_pts} Pts) in ${leagueName} DFT Race`;
+      summary =
+        `${topEntity} holds a slim ${leagueName} two-half advantage on ${topScore} points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points).`;
       leadNarrative =
-        `${topEntity} holds a narrow lead on ${topScore} two-half points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) in ${leagueName} (${leagueCode}) as of ${dateStr} UTC. ` +
-        `In the standard full-time table, ${stdLeader.club} sets the pace on ${stdLeader.std_pts} points, keeping both races tightly contested.`;
+        `A tight race at the summit of the ${leagueName} (${leagueCode}) two-half table sees ${topEntity} on ${topScore} points ` +
+        `just ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) as of ${dateStr}. ` +
+        `In the standard full-time standings, ${stdLeader.club} sets the pace with ${stdLeader.std_pts} points.`;
       break;
     }
     default: {
       title = `${topEntity} Holds ${leagueName} DFT Lead on ${topScore} Pts Ahead of ${runnerUp.club} (${runnerUp.dft_pts} Pts)`;
+      summary =
+        `${topEntity} leads the ${leagueName} two-half table on ${topScore} points ahead of ${runnerUp.club}, while ${stdLeader.club} tops full-time standings.`;
       leadNarrative =
-        `${topEntity} paces the ${leagueName} (${leagueCode}) two-half table with ${topScore} points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) as of ${dateStr} UTC. ` +
-        `Meanwhile, ${stdLeader.club} leads the standard full-time standings on ${stdLeader.std_pts} points, underscoring different paths to points accumulation.`;
+        `${topEntity} paces the ${leagueName} (${leagueCode}) two-half standings with ${topScore} points ahead of ${runnerUp.club} (${runnerUp.dft_pts} points) on ${dateStr}. ` +
+        `Meanwhile, ${stdLeader.club} holds first place in the standard full-time table on ${stdLeader.std_pts} points, highlighting contrasting paths to points accumulation.`;
       break;
     }
   }
@@ -136,12 +146,12 @@ function buildFootballDraft(selection, metrics, dateStr) {
     : "";
 
   const p4 = crossLeagueText
-    ? `Across other tracked top-flight competitions on ${dateStr} UTC, table leaders include ${crossLeagueText}.`
+    ? `Across other tracked top-flight competitions on ${dateStr}, table leaders include ${crossLeagueText}.`
     : `Match tallies across tracked domestic leagues continue to update alongside ${leagueName} as fixtures conclude.`;
 
   return {
     title,
-    summary: leadNarrative,
+    summary,
     leadNarrative,
     storyBody: [p1, p2, p3, p4],
     labels: [
@@ -194,6 +204,7 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
     null;
 
   let title;
+  let summary;
   let leadNarrative;
 
   if (angleId === "02" && Number(metrics.maxNegativeDelta ?? 0) < 0) {
@@ -204,23 +215,29 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
       { entity: topEntity, [`${primaryKey}_delta`]: maxNeg };
     const dropDelta = formatDelta(dropper[`${primaryKey}_delta`]);
     title = `${dropDelta} Shift Tests ${dropper.entity} as ${topEntity} Holds ${topScore} ${primaryKey} Lead`;
+    summary =
+      `${dropper.entity} recorded a ${dropDelta} ${primaryKey} movement while ${topEntity} retained first place on ${topScore} ${primaryKey}.`;
     leadNarrative =
-      `${dropper.entity} posted a ${dropDelta} ${primaryKey} movement on ${dateStr} UTC across the 37 jurisdictions, ` +
-      `while ${topEntity} remained at the top of the ${metricLabel} table on ${topScore} ${primaryKey}. ` +
-      `Steepest daily movement across the board reached ${maxPos} on the upside and ${maxNeg} on the downside.`;
+      `${dropper.entity} experienced a ${dropDelta} ${primaryKey} drop across the 37 jurisdictions on ${dateStr}, ` +
+      `even as ${topEntity} stayed atop the ${metricLabel} table on ${topScore} ${primaryKey}. ` +
+      `Overall daily movement across tracked states ranged from ${maxNeg} to ${maxPos}.`;
   } else if (angleId === "06" && runnerUp) {
     title = `${topEntity} (${topScore} ${primaryKey}) Holds Narrow Lead Over ${runnerUp.entity} (${runnerUp.score} ${primaryKey})`;
+    summary =
+      `${topEntity} edges ${runnerUp.entity} (${runnerUp.score} ${primaryKey}) to keep the 37-jurisdiction ${primaryKey} lead at ${topScore}.`;
     leadNarrative =
-      `${topEntity} leads the 37-jurisdiction ${metricLabel} rankings on ${topScore} ${primaryKey} as of ${dateStr} UTC, ` +
-      `just ahead of ${runnerUp.entity} on ${runnerUp.score} ${primaryKey}. ` +
-      `Across all tracked jurisdictions, daily ${primaryKey} shifts ranged from ${maxNeg} to ${maxPos}.`;
+      `A close margin at the top of the 37-jurisdiction ${metricLabel} standings places ${topEntity} on ${topScore} ${primaryKey} as of ${dateStr}, ` +
+      `narrowly ahead of ${runnerUp.entity} on ${runnerUp.score} ${primaryKey}. ` +
+      `Across all tracked jurisdictions, daily ${primaryKey} shifts spanned ${maxNeg} to ${maxPos}.`;
   } else {
     const moverEntity = leadMover ? leadMover.entity : topEntity;
     const moverDelta = leadMover ? formatDelta(leadMover[`${primaryKey}_delta`]) : maxPos;
     title = `${moverEntity} Posts ${moverDelta} ${primaryKey} Shift as ${topEntity} Leads on ${topScore} ${primaryKey}`;
+    summary =
+      `${moverEntity} registered a ${moverDelta} ${primaryKey} gain while ${topEntity} led the 37-jurisdiction rankings at ${topScore} ${primaryKey}.`;
     leadNarrative =
-      `${moverEntity} recorded a ${moverDelta} ${primaryKey} shift on ${dateStr} UTC, while ${topEntity} held the overall ${metricLabel} lead at ${topScore} ${primaryKey} across 37 jurisdictions. ` +
-      `Daily shifts across the board spanned ${maxNeg} to ${maxPos} ${primaryKey}.`;
+      `${moverEntity} logged the sharpest upward ${primaryKey} movement at ${moverDelta} on ${dateStr}, while ${topEntity} maintained the overall ${metricLabel} lead at ${topScore} ${primaryKey} across 37 jurisdictions. ` +
+      `Daily changes across the federation ranged between ${maxNeg} and ${maxPos} ${primaryKey}.`;
   }
 
   const top3Text = primaryTop3.length
@@ -231,7 +248,7 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
     : `${topEntity} (${topScore} ${primaryKey})`;
 
   const p1 =
-    `Leading ${metricLabel} positions across the 37 jurisdictions on ${dateStr} UTC stand at ${top3Text}. ` +
+    `Leading ${metricLabel} positions across the 37 jurisdictions on ${dateStr} stand at ${top3Text}. ` +
     (runnerUp
       ? `${topEntity} holds a ${(Number(topScore) - Number(runnerUp.score ?? topScore)).toFixed(2).replace(/\.?0+$/, "")}-point margin over ${runnerUp.entity} in the primary ranking.`
       : `Daily ${primaryKey} readings reflect comparative performance across state commands and administrations.`);
@@ -257,8 +274,8 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
 
   const p3 = trailingText
     ? `Lower-ranked jurisdictions on the ${primaryKey} board include ${trailingText}, ` +
-      `illustrating the spread between frontrunners and trailing states as of ${dateStr} UTC.`
-    : `Rankings across all 37 jurisdictions remain updated for ${dateStr} UTC.`;
+      `illustrating the spread between frontrunners and trailing states as of ${dateStr}.`
+    : `Rankings across all 37 jurisdictions remain updated for ${dateStr}.`;
 
   const activeZones = jurisdictions.reduce((acc, r) => {
     const z = r.zone || "NC";
@@ -276,7 +293,7 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
 
   return {
     title,
-    summary: leadNarrative,
+    summary,
     leadNarrative,
     storyBody: [p1, p2, p3, p4],
     labels: [
