@@ -4,12 +4,24 @@
   "vertical": "governancescore",
   "domain": "https://governancescore.diplomantimes.com/",
   "is_thursday_rollover": false,
-  "selected_angle_id": "05",
-  "family": "baseline_deviations",
-  "opening_class": "qualifier_first",
-  "headline_skeleton": "Incremental Gains Lift [State] to [Score] PSI Without Single-Day Headline Spike",
-  "lede_rule": "Sentence 1 describes the cumulative multi-session climb without a single-day spike; Sentence 2 cites the exact current score and streak length.",
+  "selected_angle_id": "12",
+  "angle_name": "corridor_or_derby_spillover",
+  "family": "zonal_tier_league_clusters",
+  "opening_class": "process_first",
+  "headline_skeleton": "Cross-Border Infrastructure Push Lifts [State A] and [State B] Policy Scores",
+  "lede_rule": "Sentence 1 names the shared corridor, border, or rival fixture linking the movers; Sentence 2 provides the exact scores or standings impact.",
+  "weak_points_context": {
+    "has_divergence": false,
+    "top_club": null,
+    "max_weak_points": 0,
+    "lowest_club": null,
+    "min_weak_points": 0
+  },
   "excluded_recent_ids": [
-    "02"
+    "02",
+    "05"
+  ],
+  "excluded_recent_families": [
+    "baseline_deviations"
   ]
 }

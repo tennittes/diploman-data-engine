@@ -1,1 +1,41 @@
-{"newsReports": []}
+{
+  "newsReports": [
+    {
+      "type": "scored_brief",
+      "id": "scored-gov-2026-11-24",
+      "run_date_utc": "2026-11-24",
+      "published": false,
+      "target_url": "https://www.diplomantimes.com",
+      "vertical": "governancescore",
+      "source_domain": "https://governancescore.diplomantimes.com/",
+      "angle_id": "12",
+      "angle_name": "corridor_or_derby_spillover",
+      "angle_family": "zonal_tier_league_clusters",
+      "opening_class": "process_first",
+      "headline_skeleton": "Cross-Border Infrastructure Push Lifts [State A] and [State B] Policy Scores",
+      "lede_rule": "Sentence 1 names the shared corridor, border, or rival fixture linking the movers; Sentence 2 provides the exact scores or standings impact.",
+      "title": "Subnational Momentum Lifts Zamfara (+1.4) and Ekiti Policy Scores",
+      "summary": "Zamfara (+1.4) and Ekiti led upward PSI movement on 2026-11-24.",
+      "labels": [
+        "News Report",
+        "Diploman Times",
+        "Governance Score",
+        "Lagos",
+        "Angle 12"
+      ],
+      "featured_image": {
+        "src": "",
+        "alt": "Lagos Governance Score Telemetry",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Coordinated upward movement across tracked jurisdictions lifted Zamfara (+1.4 to 8.3 PSI) and Ekiti on 2026-11-24, reinforcing the upper tier behind Lagos (9.2 PSI).",
+      "story_body": [
+        "Leading Policy Signal Index positions across the 37 jurisdictions on 2026-11-24 stand at 1. Lagos (9.2 PSI, +0.3), 2. Ebonyi (9 PSI, +1.3), and 3. Gombe (8.6 PSI, +1.2). Lagos holds a 0.20-point margin over Ebonyi in the primary ranking.",
+        "On the State Instability Score side, notable readings include Lagos (2.2 SIS, +2.2), Ebonyi (2.2 SIS, +2.2), and Gombe (2.2 SIS, +2.2), highlighting jurisdictions where secondary risk or instability indicators behave differently from top PSI totals.",
+        "Lower-ranked jurisdictions on the PSI board include Yobe (6 PSI, 0), Taraba (6 PSI, 0), and Sokoto (6 PSI, 0), illustrating the spread between frontrunners and trailing states as of 2026-11-24.",
+        "Regional distribution across geopolitical zones spans SW (6), SE (5), NE (6), NW (7), SS (6), NC (7), capturing broad subnational comparisons without relying on single-location snapshots."
+      ],
+      "queued_at_utc": "2026-11-24T14:39:42.742Z"
+    }
+  ]
+}

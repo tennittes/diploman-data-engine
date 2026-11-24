@@ -1,7 +1,6 @@
 {
   "schema_version": "1.0.0",
   "vertical": "governancescore",
-  "cooldown_window_runs": 7,
   "entries": [
     {
       "run_date_utc": "2026-11-20",
@@ -14,6 +13,14 @@
       "angle_id": "05",
       "family": "baseline_deviations",
       "opening_class": "qualifier_first"
+    },
+    {
+      "run_date_utc": "2026-11-24",
+      "vertical": "governancescore",
+      "angle_id": "12",
+      "angle_name": "corridor_or_derby_spillover",
+      "family": "zonal_tier_league_clusters",
+      "opening_class": "process_first"
     }
   ]
 }
