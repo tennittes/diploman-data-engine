@@ -57,6 +57,24 @@ def get_blogger_service():
     return build("blogger", "v3", credentials=creds)
 
 
+def get_live_published_verticals_for_utc_date(service, target_utc_date):
+    """Queries the latest Blogger posts to find which verticals already published on target_utc_date (YYYY-MM-DD)."""
+    already_live = set()
+    try:
+        res = service.posts().list(blogId=BLOG_ID, maxResults=12, fetchBodies=False).execute()
+        for post in res.get("items", []):
+            pub_raw = str(post.get("published", ""))
+            if not pub_raw.startswith(target_utc_date):
+                continue
+            labels = [str(lbl).strip().lower() for lbl in post.get("labels", [])]
+            for v_key, v_cfg in VERTICAL_CONFIG.items():
+                if v_cfg["label"].lower() in labels:
+                    already_live.add(v_key)
+    except Exception as e:
+        print(f"Warning: Could not verify existing live posts via Blogger API: {e}")
+    return already_live
+
+
 def optimize_blogger_images(html_content):
     """Forces Blogger image CDN URLs to an optimized width (s720) with WebP compression (-rw)."""
     if not html_content:
@@ -305,15 +323,33 @@ def commit_and_push_repo(repo_dir, queue_file_path):
         print(f"[git] Warning: Could not push update for {repo_dir}: {e}")
 
 
-def publish_across_repos(repo_dirs, publish_all=False, limit=5, target_folder=None, vertical="all", is_draft=False):
+def publish_across_repos(
+    repo_dirs,
+    publish_all=False,
+    limit=3,
+    target_folder=None,
+    vertical="all",
+    is_draft=False,
+    max_per_vertical_daily=1,
+):
     requested_vertical = str(vertical or "all").strip().lower()
     if requested_vertical != "all" and requested_vertical not in ALLOWED_VERTICALS:
         raise ValueError(
             f"Unsupported vertical '{vertical}'. Allowed: governancescore, policingintel, footballtally, all"
         )
 
+    today_utc = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     registry = load_governors_registry(search_roots=repo_dirs)
     service = get_blogger_service()
+
+    # Check live blog posts so a vertical never double-publishes on the same UTC date
+    vertical_daily_counts = {v: 0 for v in ALLOWED_VERTICALS}
+    if not is_draft:
+        already_live = get_live_published_verticals_for_utc_date(service, today_utc)
+        for v_key in already_live:
+            vertical_daily_counts[v_key] = max_per_vertical_daily
+            print(f"[guard] {VERTICAL_CONFIG[v_key]['label']} already published on {today_utc} UTC; locking slot.")
+
     total_published = 0
 
     for repo_dir in repo_dirs:
@@ -344,73 +380,95 @@ def publish_across_repos(repo_dirs, publish_all=False, limit=5, target_folder=No
         else:
             items = []
 
+        # Also check queue metadata for any item already marked published today in UTC
+        for entry in items:
+            if is_allowed_vertical(entry) and entry.get("published") and entry.get("published_utc_date") == today_utc:
+                v_k = str(entry.get("vertical", "")).strip().lower()
+                vertical_daily_counts[v_k] = max(vertical_daily_counts[v_k], max_per_vertical_daily)
+
         def matches_target(entry):
             if not is_allowed_vertical(entry) or entry.get("published", False):
                 return False
-            if requested_vertical == "all":
-                return True
-            return str(entry.get("vertical", "")).strip().lower() == requested_vertical
+            v_k = str(entry.get("vertical", "")).strip().lower()
+            if requested_vertical != "all" and v_k != requested_vertical:
+                return False
+            return True
 
-        repo_published = 0
+        repo_modified = False
         rate_limited = False
 
-        for item in items:
+        # Iterate newest-first so if multiple items piled up in a queue, the latest brief wins today's slot
+        for item in reversed(items):
             if not publish_all and total_published >= limit:
                 break
 
-            if matches_target(item):
-                v_key = str(item.get("vertical", "")).strip().lower()
-                v_cfg = VERTICAL_CONFIG[v_key]
-                title = item.get("title", f"Diploman Times {v_cfg['label']} Report")
-                labels = resolve_vertical_labels(item)
+            if not matches_target(item):
+                continue
 
-                if item.get("type") in ("news_report", "scored_brief") or "lead_narrative" in item:
-                    content = build_news_report_html(item, registry)
-                else:
-                    content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
+            v_key = str(item.get("vertical", "")).strip().lower()
+            v_cfg = VERTICAL_CONFIG[v_key]
 
-                body = {
-                    "kind": "blogger#post",
-                    "title": title,
-                    "content": content,
-                    "labels": labels,
-                }
+            # Enforce strict 1-post-per-vertical-per-UTC-day cap
+            if vertical_daily_counts[v_key] >= max_per_vertical_daily:
+                item["published"] = True
+                item["skipped_duplicate_daily"] = True
+                item["published_utc_date"] = today_utc
+                repo_modified = True
+                print(f"[guard] Skipped excess {v_cfg['label']} queued item for {today_utc} UTC: '{item.get('title')}'")
+                continue
 
-                try:
-                    result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=is_draft).execute()
-                    post_url = result.get("url")
-                    repo_published += 1
-                    total_published += 1
-                    print(f"[{total_published}] [{v_cfg['label']}] Published: '{title}' -> {post_url}")
+            title = item.get("title", f"Diploman Times {v_cfg['label']} Report")
+            labels = resolve_vertical_labels(item)
 
-                    item["published"] = not is_draft
-                    item["blogger_draft"] = bool(is_draft)
-                    item["blogger_post_id"] = result.get("id")
-                    if post_url:
-                        item["url"] = post_url
-                        item["permalink"] = post_url
+            if item.get("type") in ("news_report", "scored_brief") or "lead_narrative" in item:
+                content = build_news_report_html(item, registry)
+            else:
+                content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
 
-                    time.sleep(5)
+            body = {
+                "kind": "blogger#post",
+                "title": title,
+                "content": content,
+                "labels": labels,
+            }
 
-                except Exception as post_err:
-                    err_msg = str(post_err)
-                    print(f"Warning: Failed to publish '{title}': {err_msg}")
-                    if "429" in err_msg or "rateLimitExceeded" in err_msg:
-                        print("Rate limit reached (429). Halting remaining batch execution.")
-                        rate_limited = True
-                        break
-                    continue
+            try:
+                result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=is_draft).execute()
+                post_url = result.get("url")
+                vertical_daily_counts[v_key] += 1
+                total_published += 1
+                repo_modified = True
+                print(f"[{total_published}] [{v_cfg['label']}] Published: '{title}' -> {post_url}")
 
-        if repo_published > 0:
+                item["published"] = not is_draft
+                item["published_utc_date"] = today_utc
+                item["blogger_draft"] = bool(is_draft)
+                item["blogger_post_id"] = result.get("id")
+                if post_url:
+                    item["url"] = post_url
+                    item["permalink"] = post_url
+
+                time.sleep(5)
+
+            except Exception as post_err:
+                err_msg = str(post_err)
+                print(f"Warning: Failed to publish '{title}': {err_msg}")
+                if "429" in err_msg or "rateLimitExceeded" in err_msg:
+                    print("Rate limit reached (429). Halting remaining batch execution.")
+                    rate_limited = True
+                    break
+                continue
+
+        if repo_modified:
             with open(queue_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
-            print(f"Updated {repo_published} item(s) in {queue_path}")
+            print(f"Updated queue state in {queue_path}")
             commit_and_push_repo(repo_dir, queue_path)
 
         if rate_limited:
             break
 
-    print(f"Done. Total briefs deployed across verticals: {total_published}")
+    print(f"Done. Total briefs deployed across verticals on {today_utc} UTC: {total_published}")
 
 
 if __name__ == "__main__":
@@ -422,7 +480,7 @@ if __name__ == "__main__":
         help="List of checked-out repository directories containing news-queue.json",
     )
     parser.add_argument("--publish-all", action="store_true", help="Publish every pending item across all queues")
-    parser.add_argument("--limit", type=int, default=6, help="Max total posts per run across all 3 verticals (default: 6)")
+    parser.add_argument("--limit", type=int, default=3, help="Max total posts per run across all 3 verticals (default: 3)")
     parser.add_argument("--month-folder", type=str, default=None, help="Optional month folder override (e.g. nov2026)")
     parser.add_argument(
         "--vertical",
