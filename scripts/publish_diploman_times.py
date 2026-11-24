@@ -19,9 +19,9 @@ BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 DIPLOMAN_TIMES_URL = "https://www.diplomantimes.com"
 
 VERTICAL_HOMEPAGE_URLS = {
-    "governancescore": "https://governancescore.diplomantimes.com/",
-    "policingintel": "https://policingintel.diplomantimes.com/",
-    "footballtally": "https://footballtally.diplomantimes.com/",
+    "governancescore": f"{DIPLOMAN_TIMES_URL}/",
+    "policingintel": f"{DIPLOMAN_TIMES_URL}/",
+    "footballtally": f"{DIPLOMAN_TIMES_URL}/",
 }
 
 VERTICAL_CONFIG = {
@@ -88,6 +88,29 @@ def optimize_blogger_images(html_content):
     pattern = r"(https?://blogger\.googleusercontent\.com/img/[^/]+/)s\d+((-[a-zA-Z0-9\-_]+)*)(/)"
     replacement = r"\1s720-rw\2\4"
     return re.sub(pattern, replacement, html_content)
+
+
+def format_human_date(iso_date_str):
+    """Formats YYYY-MM-DD as 'Nov 24, 2026' without leading zero on day."""
+    try:
+        dt = datetime.datetime.strptime(str(iso_date_str).strip()[:10], "%Y-%m-%d")
+        return f"{dt.strftime('%b')} {dt.day}, {dt.year}"
+    except Exception:
+        return str(iso_date_str)
+
+
+def replace_iso_dates_in_text(text, fallback_iso_date=None):
+    """Replaces YYYY-MM-DD date strings in report prose with 'Mon D, YYYY'."""
+    if not text:
+        return text
+    result = re.sub(
+        r"\b(\d{4})-(\d{2})-(\d{2})\b",
+        lambda m: format_human_date(m.group(0)),
+        str(text),
+    )
+    if fallback_iso_date and re.search(r"\b\d{4}-\d{2}-\d{2}\b", result) is None:
+        return result
+    return result
 
 
 def load_governors_registry(search_roots=None):
@@ -161,7 +184,11 @@ def resolve_vertical_labels(item):
     v_cfg = VERTICAL_CONFIG[v_key]
     provided = item.get("labels")
     if isinstance(provided, list) and len(provided) > 0:
-        labels = list(provided)
+        labels = [
+            str(lbl).strip()
+            for lbl in provided
+            if lbl and not re.fullmatch(r"angle\s*\d+", str(lbl).strip(), flags=re.IGNORECASE)
+        ]
     else:
         labels = ["News Report", "Diploman Times", v_cfg["label"]]
     if v_cfg["label"] not in labels:
@@ -172,10 +199,11 @@ def resolve_vertical_labels(item):
 def build_news_report_html(item, registry):
     v_key = str(item.get("vertical", "")).strip().lower()
     v_cfg = VERTICAL_CONFIG[v_key]
+    run_date = item.get("run_date_utc")
 
     html_parts = []
     img_src = ""
-    img_alt = v_cfg["default_alt"]
+    img_alt = replace_iso_dates_in_text(v_cfg["default_alt"], run_date)
     target_url = DIPLOMAN_TIMES_URL
     aria_label = v_cfg["aria_label"]
 
@@ -184,7 +212,8 @@ def build_news_report_html(item, registry):
         img = item["featured_image"]
         target_url = img.get("target_url") or DIPLOMAN_TIMES_URL
         queue_img_src = img.get("src", "")
-        img_alt = img.get("alt") or item.get("title") or v_cfg["default_alt"]
+        raw_alt = img.get("alt") or item.get("title") or v_cfg["default_alt"]
+        img_alt = replace_iso_dates_in_text(raw_alt, run_date)
         aria_label = img.get("aria_label") or v_cfg["aria_label"]
 
     if queue_img_src and is_image_url_working(queue_img_src):
@@ -202,7 +231,9 @@ def build_news_report_html(item, registry):
             },
         )
         img_src = reg.get("src", "")
-        img_alt = reg.get("alt") or f"{state_name} Executive Office"
+        img_alt = replace_iso_dates_in_text(
+            reg.get("alt") or f"{state_name} Executive Office", run_date
+        )
         aria_label = reg.get("aria_label") or v_cfg["aria_label"]
 
     if img_src:
@@ -219,11 +250,12 @@ def build_news_report_html(item, registry):
         )
 
     if "lead_narrative" in item and item["lead_narrative"]:
+        formatted_lead = replace_iso_dates_in_text(item["lead_narrative"], run_date)
         html_parts.append(
             textwrap.dedent(
                 f"""
         <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 12px; font-weight: 500;">
-          {item['lead_narrative']}
+          {formatted_lead}
         </p>
         <!--more-->
         """
@@ -232,11 +264,12 @@ def build_news_report_html(item, registry):
 
     if "editorial_notice" in item and item["editorial_notice"]:
         notice_text = str(item["editorial_notice"]).replace("EDITORIAL NOTICE:", "").strip()
+        formatted_notice = replace_iso_dates_in_text(notice_text, run_date)
         html_parts.append(
             textwrap.dedent(
                 f"""
         <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #173730; padding: 10px 14px; margin: 16px 0 24px 0; border-radius: 4px; font-size: 12px; color: #475569;">
-          <strong>EDITORIAL NOTICE:</strong> {notice_text}
+          <strong>EDITORIAL NOTICE:</strong> {formatted_notice}
         </div>
         """
             ).strip()
@@ -245,11 +278,12 @@ def build_news_report_html(item, registry):
     if "story_body" in item and isinstance(item["story_body"], list):
         for p in item["story_body"]:
             if p and str(p).strip():
+                formatted_p = replace_iso_dates_in_text(p, run_date)
                 html_parts.append(
                     textwrap.dedent(
                         f"""
             <p style="font-size: 15px; line-height: 1.8; color: #334155; margin-bottom: 18px;">
-              {p}
+              {formatted_p}
             </p>
             """
                     ).strip()
