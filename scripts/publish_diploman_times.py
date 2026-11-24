@@ -18,6 +18,12 @@ BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
 
 DIPLOMAN_TIMES_URL = "https://www.diplomantimes.com"
 
+VERTICAL_HOMEPAGE_URLS = {
+    "governancescore": "https://governancescore.diplomantimes.com/",
+    "policingintel": "https://policingintel.diplomantimes.com/",
+    "footballtally": "https://footballtally.diplomantimes.com/",
+}
+
 VERTICAL_CONFIG = {
     "governancescore": {
         "label": "Governance Score",
@@ -249,12 +255,14 @@ def build_news_report_html(item, registry):
                     ).strip()
                 )
 
+    homepage_url = VERTICAL_HOMEPAGE_URLS.get(v_key, f"{DIPLOMAN_TIMES_URL}/")
+
     html_parts.append(
         textwrap.dedent(
             f"""
     <div style="display: flex; justify-content: flex-end; margin: 28px 0;">
-      <a href="{DIPLOMAN_TIMES_URL}/" target="_top" style="display: inline-flex; align-items: center; justify-content: center; background-color: #ffffff; color: #193731; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-decoration: none; padding: 6px 14px; border-radius: 4px; border: 1px solid #cbd5e1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); white-space: nowrap; transition: all 0.15s ease;">
-        Back To Diploman Times →
+      <a href="{homepage_url}" target="_top" style="display: inline-flex; align-items: center; justify-content: center; background-color: #ffffff; color: #193731; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-decoration: none; padding: 6px 14px; border-radius: 4px; border: 1px solid #cbd5e1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); white-space: nowrap; transition: all 0.15s ease;">
+        Back To Homepage →
       </a>
     </div>
     """
