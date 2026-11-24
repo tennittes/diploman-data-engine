@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-20",
+  "run_date_utc": "2026-11-24",
   "vertical": "governancescore",
   "jurisdiction_count": 37,
-  "top_primary_entity": "Kebbi",
-  "top_primary_score": 9.3,
-  "maxPositiveDelta": 0.4,
-  "maxNegativeDelta": -2.7,
-  "flatTopWatchCount": 3,
+  "top_primary_entity": "Lagos",
+  "top_primary_score": 9.2,
+  "maxPositiveDelta": 1.4,
+  "maxNegativeDelta": -0.9,
+  "flatTopWatchCount": 0,
   "hasPostSpikeReversion": false,
   "creepStreakDays": 5,
   "hasPrimarySecondarySplit": false,
@@ -15,7 +15,7 @@
   "hasThroughputGap": false,
   "hasStabilityLead": false,
   "hasDualTopTier": true,
-  "maxZoneClusterCount": 1,
+  "maxZoneClusterCount": 2,
   "hasCorridorOrDerbyDriver": false,
   "isTopMarginTight": false,
   "hasBottomTierDrag": false,
@@ -24,182 +24,173 @@
   "hasLeadershipOrTacticalShift": false,
   "hasAccountabilityOrDisciplineEvent": false,
   "hasExecutionOrSweepMilestone": false,
-  "hasFrictionOrLateShock": true,
+  "hasFrictionOrLateShock": false,
   "hasFiveDayCrossover": true,
   "hasMidweekShift": false,
   "leaderStreakRuns": 1,
   "leaders": {
     "primary_top3": [
       {
-        "entity": "Kebbi",
-        "zone": "NW",
-        "score": 9.3,
-        "delta": 0
+        "entity": "Lagos",
+        "zone": "SW",
+        "score": 9.2,
+        "delta": 0.3
       },
       {
-        "entity": "Zamfara",
-        "zone": "NW",
+        "entity": "Ebonyi",
+        "zone": "SE",
         "score": 9,
-        "delta": 0
+        "delta": 1.3
       },
       {
-        "entity": "Rivers",
-        "zone": "SS",
-        "score": 8.7,
-        "delta": 0
+        "entity": "Gombe",
+        "zone": "NE",
+        "score": 8.6,
+        "delta": 1.2
       }
     ],
     "secondary_top3": [
       {
-        "entity": "Kebbi",
-        "zone": "NW",
+        "entity": "Lagos",
+        "zone": "SW",
         "score": 2.2,
-        "delta": 0
+        "delta": 2.2
       },
       {
-        "entity": "Zamfara",
-        "zone": "NW",
+        "entity": "Ebonyi",
+        "zone": "SE",
         "score": 2.2,
-        "delta": 0
+        "delta": 2.2
       },
       {
-        "entity": "Rivers",
-        "zone": "SS",
+        "entity": "Gombe",
+        "zone": "NE",
         "score": 2.2,
-        "delta": 0
+        "delta": 2.2
       }
     ]
   },
   "jurisdictions": [
     {
-      "entity": "Kebbi",
-      "zone": "NW",
-      "headline": "Gov. Idris Flags Off Over ₦8Bn Community Investment Fund Disbursement to 3,000+ Women Affinity Groups Across Kebbi",
-      "PSI": 9.3,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Zamfara",
-      "zone": "NW",
-      "headline": "Launches Statewide Security Campaign with 1,000 Commands, Partners NEMSAS on Maternal Emergency Transport & Reviews Tertiary Salaries",
-      "PSI": 9,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Rivers",
-      "zone": "SS",
-      "headline": "Commences New Wage Implementation for Polytechnic Lecturers to End ASUP Strike & Accelerates Ngo-Atlantic Oyorokoto Beach Road",
-      "PSI": 8.7,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Osun",
-      "zone": "SW",
-      "headline": "State Executive Council Approves 2027 Draft Budget for Legislative Transmission & Ratifies New Owamiran of Esa-Oke",
-      "PSI": 8.5,
-      "PSI_delta": 0.4,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Enugu",
-      "zone": "SE",
-      "headline": "Gov. Mbah Rolls Out Earth-Moving Equipment to Commence 54km Nsukka–Adani Highway Reconstruction",
-      "PSI": 8.3,
-      "PSI_delta": -0.5,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Plateau",
-      "zone": "NC",
-      "headline": "Intensifies Statewide Diabetes Screening & PLASCHEMA Coverage, Distributes SURWASH Toilet Materials in Langtang North",
-      "PSI": 8,
-      "PSI_delta": -0.4,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
       "entity": "Lagos",
       "zone": "SW",
-      "headline": "LASISMA Showcases Solar Kiosks, CNG Spaces & e-PPPS to FCTA Delegation, Trains Sanitation Workforce on Safety",
-      "PSI": 7.8,
-      "PSI_delta": 0,
+      "headline": "Signs Tripartite Okobaba Sawmill Regeneration Pact (Laguna Park), Resolves 29,801 CMB Disputes (₦943.89M) & Champions PPP Execution",
+      "PSI": 9.2,
+      "PSI_delta": 0.3,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
-      "entity": "Kwara",
-      "zone": "NC",
-      "headline": "Gov. AbdulRazaq Rewards Flamingos Coach & Defender with ₦10M and Houses Each, Announces ₦100M Team Incentive",
-      "PSI": 7.6,
-      "PSI_delta": 0.4,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Kano",
-      "zone": "NW",
-      "headline": "SSG Inaugurates Investigation Committee into Administration of Kano State College of Nursing Sciences",
-      "PSI": 7.4,
-      "PSI_delta": -1.6,
+      "entity": "Ebonyi",
+      "zone": "SE",
+      "headline": "Approves 933.78-Hectare FON Smart City & 3.3km River Dredging in Abakaliki, Bankrolls Free Cataract Surgeries for 400+ Patients",
+      "PSI": 9,
+      "PSI_delta": 1.3,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
       "entity": "Gombe",
       "zone": "NE",
-      "headline": "Gov. Yahaya Visits Cham & Dadiya Chiefdoms, Orders Immediate Environmental Assessment of Dadiya Gully Erosion",
-      "PSI": 7.2,
-      "PSI_delta": 0.2,
+      "headline": "Commissions 30 Gombe Line Buses (110 Total) with EV/CNG Transition Plan, Deploys Federal Fire Service to Dukku & Empowers 150 Women",
+      "PSI": 8.6,
+      "PSI_delta": 1.2,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
-      "entity": "Edo",
-      "zone": "SS",
-      "headline": "First Lady's Office & Edo Police Command Launch Joint Tactical Sting Operations Against 'One Chance' Robberies & Night Harassment",
-      "PSI": 7,
-      "PSI_delta": -0.6,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Cross River",
-      "zone": "SS",
-      "headline": "Information Commissioner Cobham Cites Homeland Security Success to Back State Police Domestication",
-      "PSI": 6.7,
-      "PSI_delta": -2.7,
+      "entity": "Zamfara",
+      "zone": "NW",
+      "headline": "Distributes 2,080 Vehicles in Phase II Youth Empowerment & Suspends Maru Campaign Following Fatal Gummi Road Accident",
+      "PSI": 8.3,
+      "PSI_delta": 1.4,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
       "entity": "Adamawa",
       "zone": "NE",
-      "headline": "Government Delegation for 2026 Christian Pilgrimage to Israel & Jordan Holds Pre-Departure Coordination Meeting",
-      "PSI": 6.4,
-      "PSI_delta": -2.2,
+      "headline": "Launches 2027–2031 Demographic Dividend Roadmap & Assesses Ganye LGA Roads Alongside 5km Jada Township Asphalt Work",
+      "PSI": 8.1,
+      "PSI_delta": 1,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
-      "entity": "Abia",
+      "entity": "Kano",
+      "zone": "NW",
+      "headline": "Flags Off Distribution of Tricycle Ambulances Across All 484 Wards in 44 Local Government Areas",
+      "PSI": 7.9,
+      "PSI_delta": 1.3,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Edo",
+      "zone": "SS",
+      "headline": "EDOHERMA Mandates Approved Channels for 2027 Health Facility Licence Renewals & Explores Joint Enforcement with CPC",
+      "PSI": 7.6,
+      "PSI_delta": -0.4,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Plateau",
+      "zone": "NC",
+      "headline": "Conducts Joint UNDP Technical Assessment of Mangu Widowhood Centre Under ISSP & Honours PRUWASSA Leadership",
+      "PSI": 7.4,
+      "PSI_delta": 0.9,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Ekiti",
+      "zone": "SW",
+      "headline": "Highlights Over 5,000 Youths Engaged in Bring Back Youth into Agriculture Programme Driving Farm Cluster Profits",
+      "PSI": 7.2,
+      "PSI_delta": 1.4,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Delta",
+      "zone": "SS",
+      "headline": "Gov. Oborevwori Imposes 6pm–6am Curfew Across Ughelli North LGA & Orders Probe Following Uduere Killings",
+      "PSI": 7.1,
+      "PSI_delta": 1.1,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Enugu",
       "zone": "SE",
-      "headline": "",
-      "PSI": 6,
+      "headline": "Gov. Mbah Advances Upgrade of Nnamdi Azikiwe Stadium to FIFA Standards with VAR & Olympic Swimming Pool",
+      "PSI": 7,
+      "PSI_delta": -0.9,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Akwa Ibom",
+      "zone": "SS",
+      "headline": "Gov. Eno Receives Police Peace & Security Award; Announces Nov 24–27 Unity Park Maintenance Ahead of Christmas Unplugged 4.0",
+      "PSI": 6.7,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Niger",
+      "zone": "NC",
+      "headline": "Gov. Bago Commiserates with State Judiciary Over Demise of Former Chief Judge Justice Muhammad Aliyu Mayaki",
+      "PSI": 6.2,
       "PSI_delta": 0,
       "SIS": 2.2,
       "SIS_delta": 0
     },
     {
-      "entity": "Akwa Ibom",
-      "zone": "SS",
+      "entity": "Abia",
+      "zone": "SE",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,
@@ -252,26 +243,8 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Delta",
+      "entity": "Cross River",
       "zone": "SS",
-      "headline": "",
-      "PSI": 6,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Ebonyi",
-      "zone": "SE",
-      "headline": "",
-      "PSI": 6,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Ekiti",
-      "zone": "SW",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,
@@ -324,6 +297,15 @@
       "SIS_delta": 0
     },
     {
+      "entity": "Kebbi",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
       "entity": "Kogi",
       "zone": "NC",
       "headline": "",
@@ -333,7 +315,7 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Nasarawa",
+      "entity": "Kwara",
       "zone": "NC",
       "headline": "",
       "PSI": 6,
@@ -342,7 +324,7 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Niger",
+      "entity": "Nasarawa",
       "zone": "NC",
       "headline": "",
       "PSI": 6,
@@ -369,8 +351,26 @@
       "SIS_delta": 0
     },
     {
+      "entity": "Osun",
+      "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
       "entity": "Oyo",
       "zone": "SW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Rivers",
+      "zone": "SS",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,

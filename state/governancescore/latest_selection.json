@@ -1,13 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-20",
+  "run_date_utc": "2026-11-24",
   "vertical": "governancescore",
   "domain": "https://governancescore.diplomantimes.com/",
   "is_thursday_rollover": false,
-  "selected_angle_id": "02",
+  "selected_angle_id": "05",
   "family": "baseline_deviations",
-  "opening_class": "entity_first",
-  "headline_skeleton": "[State] Slips [Δ] Below Policy Baseline Amid [Institutional/Fiscal Bottleneck]",
-  "lede_rule": "Sentence 1 reports the drop relative to baseline and the operational or table driver behind it; Sentence 2 compares against the broader tier or opposite-moving metric.",
-  "excluded_recent_ids": []
+  "opening_class": "qualifier_first",
+  "headline_skeleton": "Incremental Gains Lift [State] to [Score] PSI Without Single-Day Headline Spike",
+  "lede_rule": "Sentence 1 describes the cumulative multi-session climb without a single-day spike; Sentence 2 cites the exact current score and streak length.",
+  "excluded_recent_ids": [
+    "02"
+  ]
 }

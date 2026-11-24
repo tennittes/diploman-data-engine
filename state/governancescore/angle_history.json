@@ -8,6 +8,12 @@
       "angle_id": "02",
       "family": "baseline_deviations",
       "opening_class": "entity_first"
+    },
+    {
+      "run_date_utc": "2026-11-24",
+      "angle_id": "05",
+      "family": "baseline_deviations",
+      "opening_class": "qualifier_first"
     }
   ]
 }
