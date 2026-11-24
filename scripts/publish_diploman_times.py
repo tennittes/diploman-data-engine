@@ -262,7 +262,7 @@ def build_news_report_html(item, registry):
             f"""
     <div style="display: flex; justify-content: flex-end; margin: 28px 0;">
       <a href="{homepage_url}" target="_top" style="display: inline-flex; align-items: center; justify-content: center; background-color: #ffffff; color: #193731; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-decoration: none; padding: 6px 14px; border-radius: 4px; border: 1px solid #cbd5e1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); white-space: nowrap; transition: all 0.15s ease;">
-        Leave To Homepage →
+        Back To Homepage →
       </a>
     </div>
     """
