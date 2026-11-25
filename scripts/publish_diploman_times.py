@@ -44,6 +44,21 @@ VERTICAL_CONFIG = {
 
 ALLOWED_VERTICALS = set(VERTICAL_CONFIG.keys())
 
+GOVERNOR_ALIASES = {
+    "nwifuru": "Ebonyi",
+    "okpebholo": "Edo",
+    "kefas": "Taraba",
+    "zulum": "Borno",
+    "uzodimma": "Imo",
+    "fintiri": "Adamawa",
+    "bago": "Niger",
+    "adeleke": "Osun",
+    "makinde": "Oyo",
+    "soludo": "Anambra",
+    "sanwo-olu": "Lagos",
+    "wike": "FCT Abuja",
+}
+
 
 def is_allowed_vertical(item):
     if not isinstance(item, dict):
@@ -113,20 +128,31 @@ def replace_iso_dates_in_text(text, fallback_iso_date=None):
     return result
 
 
-def load_governors_registry(search_roots=None):
-    """Loads governors-registry.json from the workspace or any checked-out repo root if present."""
-    candidates = ["governors-registry.json"]
+def _load_registry_file(filename, search_roots=None):
+    candidates = [filename]
     for root in search_roots or []:
-        candidates.append(os.path.join(root, "governors-registry.json"))
+        candidates.append(os.path.join(root, filename))
 
     for registry_path in candidates:
         if os.path.exists(registry_path):
             try:
                 with open(registry_path, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                    loaded = json.load(f)
+                    if isinstance(loaded, dict):
+                        return loaded
             except Exception as e:
                 print(f"Warning: Could not parse {registry_path}: {e}")
     return {}
+
+
+def load_governors_registry(search_roots=None):
+    """Loads governors-registry.json from the workspace or any checked-out repo root if present."""
+    return _load_registry_file("governors-registry.json", search_roots=search_roots)
+
+
+def load_commissioners_registry(search_roots=None):
+    """Loads commissioners-registry.json from the workspace or any checked-out repo root if present."""
+    return _load_registry_file("commissioners-registry.json", search_roots=search_roots)
 
 
 def is_image_url_working(url):
@@ -144,7 +170,7 @@ def is_image_url_working(url):
         return False
 
 
-def extract_state_from_item(item, registry):
+def extract_state_from_item(item, registry, v_key="governancescore"):
     raw_state = item.get("stateName") or item.get("state") or item.get("jurisdiction")
     text_to_check = (item.get("headline") or item.get("title") or "").lower()
 
@@ -154,26 +180,13 @@ def extract_state_from_item(item, registry):
                 return s_name
         return str(raw_state).strip()
 
-    governor_aliases = {
-        "nwifuru": "Ebonyi",
-        "okpebholo": "Edo",
-        "kefas": "Taraba",
-        "zulum": "Borno",
-        "uzodimma": "Imo",
-        "fintiri": "Adamawa",
-        "bago": "Niger",
-        "adeleke": "Osun",
-        "makinde": "Oyo",
-        "soludo": "Anambra",
-        "sanwo-olu": "Lagos",
-        "wike": "FCT Abuja",
-    }
-    for alias, state_name in governor_aliases.items():
-        if alias in text_to_check:
-            return state_name
+    if v_key == "governancescore":
+        for alias, state_name in GOVERNOR_ALIASES.items():
+            if re.search(rf"\b{re.escape(alias)}\b", text_to_check):
+                return state_name
 
-    for s_name in registry.keys():
-        if s_name.lower() in text_to_check:
+    for s_name in sorted(registry.keys(), key=len, reverse=True):
+        if re.search(rf"\b{re.escape(s_name.lower())}\b", text_to_check):
             return s_name
 
     return "Unknown"
@@ -196,10 +209,12 @@ def resolve_vertical_labels(item):
     return labels
 
 
-def build_news_report_html(item, registry):
+def build_news_report_html(item, governors_registry=None, commissioners_registry=None):
     v_key = str(item.get("vertical", "")).strip().lower()
     v_cfg = VERTICAL_CONFIG[v_key]
     run_date = item.get("run_date_utc")
+    governors_registry = governors_registry or {}
+    commissioners_registry = commissioners_registry or {}
 
     html_parts = []
     img_src = ""
@@ -218,9 +233,27 @@ def build_news_report_html(item, registry):
 
     if queue_img_src and is_image_url_working(queue_img_src):
         img_src = queue_img_src
-    elif v_key in ("governancescore", "policingintel") and registry:
-        state_name = extract_state_from_item(item, registry)
-        reg = registry.get(
+    elif v_key == "policingintel" and commissioners_registry:
+        state_name = extract_state_from_item(item, commissioners_registry, v_key=v_key)
+        reg = commissioners_registry.get(
+            state_name,
+            {
+                "executive": "Commissioner of Police",
+                "title": "Commissioner of Police",
+                "src": "",
+                "alt": f"{state_name} State Commissioner of Police",
+                "aria_label": v_cfg["aria_label"],
+            },
+        )
+        img_src = reg.get("src", "")
+        img_alt = replace_iso_dates_in_text(
+            reg.get("alt") or f"{state_name} State Commissioner of Police",
+            run_date,
+        )
+        aria_label = reg.get("aria_label") or v_cfg["aria_label"]
+    elif v_key == "governancescore" and governors_registry:
+        state_name = extract_state_from_item(item, governors_registry, v_key=v_key)
+        reg = governors_registry.get(
             state_name,
             {
                 "executive": "Executive Office",
@@ -381,7 +414,8 @@ def publish_across_repos(
         )
 
     today_utc = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-    registry = load_governors_registry(search_roots=repo_dirs)
+    governors_registry = load_governors_registry(search_roots=repo_dirs)
+    commissioners_registry = load_commissioners_registry(search_roots=repo_dirs)
     service = get_blogger_service()
 
     # Check live blog posts so a vertical never double-publishes on the same UTC date
@@ -463,7 +497,11 @@ def publish_across_repos(
             labels = resolve_vertical_labels(item)
 
             if item.get("type") in ("news_report", "scored_brief") or "lead_narrative" in item:
-                content = build_news_report_html(item, registry)
+                content = build_news_report_html(
+                    item,
+                    governors_registry=governors_registry,
+                    commissioners_registry=commissioners_registry,
+                )
             else:
                 content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
 
