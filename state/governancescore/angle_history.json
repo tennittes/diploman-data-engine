@@ -21,6 +21,14 @@
       "angle_name": "corridor_or_derby_spillover",
       "family": "zonal_tier_league_clusters",
       "opening_class": "process_first"
+    },
+    {
+      "run_date_utc": "2026-11-25",
+      "vertical": "governancescore",
+      "angle_id": "22",
+      "angle_name": "midweek_inflection_point",
+      "family": "temporal_rollover_trajectory",
+      "opening_class": "qualifier_first"
     }
   ]
 }

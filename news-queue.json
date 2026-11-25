@@ -2,6 +2,43 @@
   "newsReports": [
     {
       "type": "scored_brief",
+      "id": "scored-gov-2026-11-25",
+      "run_date_utc": "2026-11-25",
+      "published": false,
+      "target_url": "https://www.diplomantimes.com",
+      "vertical": "governancescore",
+      "source_domain": "https://governancescore.diplomantimes.com/",
+      "angle_id": "22",
+      "angle_name": "midweek_inflection_point",
+      "angle_family": "temporal_rollover_trajectory",
+      "opening_class": "qualifier_first",
+      "headline_skeleton": "Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover",
+      "lede_rule": "Sentence 1 frames the midweek shift ahead of the Thursday rollover window; Sentence 2 names the key movers and exact scores.",
+      "title": "Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover",
+      "summary": "Midweek PSI shifts span -2.2 to +1.5 behind leader Kano (9.1 PSI).",
+      "labels": [
+        "News Report",
+        "Diploman Times",
+        "Governance Score",
+        "Kano",
+        "Angle 22"
+      ],
+      "featured_image": {
+        "src": "",
+        "alt": "Kano Governance Score Telemetry",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Midweek telemetry across all 37 jurisdictions on 2026-11-25 records PSI deltas ranging from -2.2 to +1.5, with Plateau (+1.5) posting the sharpest gain behind Kano (9.1 PSI).",
+      "story_body": [
+        "Leading Policy Signal Index positions across the 37 jurisdictions on 2026-11-25 stand at 1. Kano (9.1 PSI, +1.2), 2. Plateau (8.9 PSI, +1.5), and 3. Gombe (8.7 PSI, +0.1). Kano holds a 0.2-point margin over Plateau in the primary ranking.",
+        "On the State Instability Score side, notable readings include Kano (2.2 SIS, +2.2), Plateau (2.2 SIS, +2.2), and Gombe (2.2 SIS, +2.2), highlighting jurisdictions where secondary risk or instability indicators behave differently from top PSI totals.",
+        "Lower-ranked jurisdictions on the PSI board include Sokoto (6.0 PSI, 0), Ondo (6.0 PSI, 0), and Ogun (6.0 PSI, 0), illustrating the spread between frontrunners and trailing states as of 2026-11-25.",
+        "Regional distribution across geopolitical zones spans NW (7), NC (7), NE (6), SW (6), SE (5), SS (6), capturing broad subnational comparisons without relying on single-location snapshots."
+      ],
+      "queued_at_utc": "2026-11-25T11:19:36.122Z"
+    },
+    {
+      "type": "scored_brief",
       "id": "scored-gov-2026-11-24",
       "run_date_utc": "2026-11-24",
       "published": true,

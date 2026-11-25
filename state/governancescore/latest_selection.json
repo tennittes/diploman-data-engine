@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-24",
+  "run_date_utc": "2026-11-25",
   "vertical": "governancescore",
   "domain": "https://governancescore.diplomantimes.com/",
   "is_thursday_rollover": false,
-  "selected_angle_id": "12",
-  "angle_name": "corridor_or_derby_spillover",
-  "family": "zonal_tier_league_clusters",
-  "opening_class": "process_first",
-  "headline_skeleton": "Cross-Border Infrastructure Push Lifts [State A] and [State B] Policy Scores",
-  "lede_rule": "Sentence 1 names the shared corridor, border, or rival fixture linking the movers; Sentence 2 provides the exact scores or standings impact.",
+  "selected_angle_id": "22",
+  "angle_name": "midweek_inflection_point",
+  "family": "temporal_rollover_trajectory",
+  "opening_class": "qualifier_first",
+  "headline_skeleton": "Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover",
+  "lede_rule": "Sentence 1 frames the midweek shift ahead of the Thursday rollover window; Sentence 2 names the key movers and exact scores.",
   "weak_points_context": {
     "has_divergence": false,
     "top_club": null,
@@ -19,9 +19,11 @@
   },
   "excluded_recent_ids": [
     "02",
-    "05"
+    "05",
+    "12"
   ],
   "excluded_recent_families": [
-    "baseline_deviations"
+    "baseline_deviations",
+    "zonal_tier_league_clusters"
   ]
 }
