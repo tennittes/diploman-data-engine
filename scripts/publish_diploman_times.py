@@ -29,16 +29,19 @@ VERTICAL_CONFIG = {
         "label": "Governance Score",
         "default_alt": "Diploman Times Governance Score Telemetry",
         "aria_label": "Diploman Times Governance Policy Intelligence",
+        "social_cta": "Read the full 37-jurisdiction brief:",
     },
     "policingintel": {
         "label": "Policing Intel",
         "default_alt": "Diploman Times Policing Intel Telemetry",
         "aria_label": "Diploman Times Policing Intelligence",
+        "social_cta": "Read the full 37-jurisdiction brief:",
     },
     "footballtally": {
         "label": "Football Tally",
         "default_alt": "Diploman Times Football Tally Standings",
         "aria_label": "Diploman Times Football Tally Analytics",
+        "social_cta": "Read the full multi-league telemetry brief:",
     },
 }
 
@@ -211,6 +214,38 @@ def resolve_vertical_labels(item):
     if v_cfg["label"] not in labels:
         labels.append(v_cfg["label"])
     return labels
+
+
+def build_social_excerpt(item, share_url=None):
+    """Builds or updates a ready-to-paste social excerpt with the resolved article URL."""
+    v_key = str(item.get("vertical", "")).strip().lower()
+    v_cfg = VERTICAL_CONFIG.get(v_key, {})
+    title = str(item.get("title") or f"Diploman Times {v_cfg.get('label', 'Report')}").strip()
+    summary = str(item.get("summary") or "").strip()
+    target = str(
+        share_url
+        or item.get("url")
+        or item.get("permalink")
+        or item.get("target_url")
+        or DIPLOMAN_TIMES_URL
+    ).strip()
+    cta = v_cfg.get("social_cta") or "Read the full brief:"
+
+    existing = item.get("social_excerpt")
+    if isinstance(existing, str) and existing.strip():
+        updated = re.sub(
+            r"(https?://\S+)\s*$",
+            target,
+            existing.strip(),
+        )
+        if updated != existing.strip():
+            return updated
+        if target not in existing:
+            return f"{existing.strip()}\n\n{cta} {target}"
+        return existing.strip()
+
+    parts = [p for p in (title, summary, f"{cta} {target}") if p]
+    return "\n\n".join(parts)
 
 
 def build_news_report_html(item, governors_registry=None, commissioners_registry=None):
@@ -559,6 +594,9 @@ def publish_across_repos(
                 if post_url:
                     item["url"] = post_url
                     item["permalink"] = post_url
+
+                item["social_excerpt"] = build_social_excerpt(item, share_url=post_url)
+                print(f"[social_excerpt]\n{item['social_excerpt']}\n---")
 
                 time.sleep(5)
 
