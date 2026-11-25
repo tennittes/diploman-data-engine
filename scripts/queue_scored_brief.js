@@ -586,6 +586,24 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   const top3Margin = formatNum(Math.max(0, Number(topScore) - Number(thirdPlace.score ?? topScore)), 1);
   const runnerUpMargin = formatNum(Math.max(0, Number(topScore) - Number(runnerUp.score ?? topScore)), 1);
 
+  const featuredState = ["01", "12", "17", "19", "25"].includes(angleId)
+    ? leadMover.entity
+    : ["02"].includes(angleId)
+    ? dropper.entity
+    : ["03", "06", "08", "18", "20"].includes(angleId)
+    ? secWatchLeader.entity
+    : ["07", "09"].includes(angleId)
+    ? lowSecEntity.entity
+    : ["04", "15"].includes(angleId)
+    ? runnerUp.entity
+    : ["05"].includes(angleId)
+    ? thirdPlace.entity
+    : ["14"].includes(angleId)
+    ? isPolicing
+      ? secWatchLeader.entity
+      : tailOne.entity
+    : topEntity;
+
   let title;
   let summary;
   let leadNarrative;
@@ -851,6 +869,7 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
     : `Subnational comparisons span all 37 jurisdictions nationwide.`;
 
   return {
+    state: featuredState,
     title,
     summary,
     leadNarrative,
@@ -859,12 +878,12 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
       "News Report",
       "Diploman Times",
       verticalTag,
-      topEntity,
+      featuredState,
       `Angle ${angleId}`
     ],
     featuredImage: {
       src: "",
-      alt: `${topEntity} ${verticalTag} Telemetry`,
+      alt: `${featuredState} ${verticalTag} Telemetry`,
       target_url: DIPLOMAN_TIMES_URL
     }
   };
@@ -934,6 +953,7 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
     published: false,
     target_url: DIPLOMAN_TIMES_URL,
     vertical,
+    ...(draft.state ? { state: draft.state } : {}),
     source_domain: selection.domain || DIPLOMAN_TIMES_URL,
     angle_id: angleId,
     angle_name: selection.angle_name || "",
