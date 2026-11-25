@@ -36,14 +36,14 @@ function formatDelta(val) {
 
 function formatNum(val, decimals = 1) {
   const n = Number(val ?? 0);
-  if (!Number.isFinite(n)) return "0";
-  return n.toFixed(decimals).replace(/\.0+$/, "");
+  if (!Number.isFinite(n)) return (0).toFixed(decimals);
+  return n.toFixed(decimals);
 }
 
 function formatList(items, formatter, conjunction = "and") {
   const list = Array.isArray(items) ? items.filter(Boolean) : [];
   if (list.length === 0) return "";
-  const formatted = list.map(formatter);
+  const formatted = list.map((item, idx) => formatter(item, idx));
   if (formatted.length === 1) return formatted[0];
   if (formatted.length === 2) return `${formatted[0]} ${conjunction} ${formatted[1]}`;
   return `${formatted.slice(0, -1).join(", ")}, ${conjunction} ${formatted[formatted.length - 1]}`;
@@ -567,7 +567,24 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   const dropScore = dropper[primaryKey] ?? topScore;
   const secScore = secWatchLeader.score ?? secWatchLeader[secondaryKey] ?? 0;
   const lowSecScore = lowSecEntity[secondaryKey] ?? 0;
-  const top3Margin = formatNum(Math.max(0, Number(topScore) - Number(thirdPlace.score ?? topScore)), 2);
+
+  const topScoreFmt = formatNum(topScore, 1);
+  const runnerUpScoreFmt = formatNum(runnerUp.score ?? topScore, 1);
+  const thirdPlaceScoreFmt = formatNum(thirdPlace.score ?? topScore, 1);
+  const moverScoreFmt = formatNum(moverScore, 1);
+  const dropScoreFmt = formatNum(dropScore, 1);
+  const secScoreFmt = formatNum(secScore, 1);
+  const lowSecScoreFmt = formatNum(lowSecScore, 1);
+  const tailOneScoreFmt = formatNum(tailOne[primaryKey] ?? 0, 1);
+  const tailTwoScoreFmt = formatNum(tailTwo[primaryKey] ?? 0, 1);
+  const tailThreeScoreFmt = formatNum(tailThree[primaryKey] ?? 0, 1);
+  const topZoneLeaderScoreFmt = formatNum(
+    topZoneObj.leader && topZoneObj.leader[primaryKey] != null ? topZoneObj.leader[primaryKey] : topScore,
+    1
+  );
+
+  const top3Margin = formatNum(Math.max(0, Number(topScore) - Number(thirdPlace.score ?? topScore)), 1);
+  const runnerUpMargin = formatNum(Math.max(0, Number(topScore) - Number(runnerUp.score ?? topScore)), 1);
 
   let title;
   let summary;
@@ -576,18 +593,18 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   switch (angleId) {
     case "01": {
       title = isPolicing
-        ? `${leadMover.entity} Command Climbs ${moverDelta} to ${moverScore} SPS as ${topEntity} Leads Federation`
-        : `${leadMover.entity} Posts ${moverDelta} Policy Surge to ${moverScore} PSI as ${topEntity} Holds Overall Lead`;
-      summary = `${leadMover.entity} posted the sharpest ${primaryKey} gain (${moverDelta}) while ${topEntity} held first place at ${topScore} ${primaryKey}.`;
-      leadNarrative = `${leadMover.entity} logged the sharpest single-day ${primaryKey} surge at ${moverDelta} to reach ${moverScore} ${primaryKey} on ${dateStr}, while ${topEntity} maintained the overall ${metricLabel} lead at ${topScore} ${primaryKey}. Daily movements across the 37 jurisdictions spanned ${maxNeg} to ${maxPos}.`;
+        ? `${leadMover.entity} Command Climbs ${moverDelta} to ${moverScoreFmt} SPS as ${topEntity} Leads Federation`
+        : `${leadMover.entity} Posts ${moverDelta} Policy Surge to ${moverScoreFmt} PSI as ${topEntity} Holds Overall Lead`;
+      summary = `${leadMover.entity} posted the sharpest ${primaryKey} gain (${moverDelta}) while ${topEntity} held first place at ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `${leadMover.entity} logged the sharpest single-day ${primaryKey} surge at ${moverDelta} to reach ${moverScoreFmt} ${primaryKey} on ${dateStr}, while ${topEntity} maintained the overall ${metricLabel} lead at ${topScoreFmt} ${primaryKey}. Daily movements across the 37 jurisdictions spanned ${maxNeg} to ${maxPos}.`;
       break;
     }
     case "02": {
       title = isPolicing
-        ? `${dropper.entity} Drops ${dropDelta} to ${dropScore} SPS as Operational Tempo Tests Baseline`
-        : `${dropper.entity} Slips ${dropDelta} to ${dropScore} PSI Below Policy Baseline`;
-      summary = `${dropper.entity} recorded a ${dropDelta} ${primaryKey} pullback while ${topEntity} retained first place on ${topScore} ${primaryKey}.`;
-      leadNarrative = `${dropper.entity} recorded the steepest ${primaryKey} contraction at ${dropDelta} to sit at ${dropScore} ${primaryKey} on ${dateStr}, contrasting with frontrunner ${topEntity} at ${topScore} ${primaryKey}. Federation-wide daily shifts ranged between ${maxNeg} and ${maxPos}.`;
+        ? `${dropper.entity} Drops ${dropDelta} to ${dropScoreFmt} SPS as Operational Tempo Tests Baseline`
+        : `${dropper.entity} Slips ${dropDelta} to ${dropScoreFmt} PSI Below Policy Baseline`;
+      summary = `${dropper.entity} recorded a ${dropDelta} ${primaryKey} pullback while ${topEntity} retained first place on ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `${dropper.entity} recorded the steepest ${primaryKey} contraction at ${dropDelta} to sit at ${dropScoreFmt} ${primaryKey} on ${dateStr}, contrasting with frontrunner ${topEntity} at ${topScoreFmt} ${primaryKey}. Federation-wide daily shifts ranged between ${maxNeg} and ${maxPos}.`;
       break;
     }
     case "03": {
@@ -595,76 +612,76 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
       const f2 = flatStates[1] ? flatStates[1].entity : tailTwo.entity;
       const f3 = flatStates[2] ? flatStates[2].entity : tailThree.entity;
       title = isPolicing
-        ? `Threat Baselines Hold Unchanged at ${secScore} JTI in ${secWatchLeader.entity} and ${secWatchSecond.entity}`
+        ? `Threat Baselines Hold Unchanged at ${secScoreFmt} JTI in ${secWatchLeader.entity} and ${secWatchSecond.entity}`
         : `Policy Output Holds Flat at +0.0 Across ${f1}, ${f2}, and ${f3}`;
       summary = `Zero-delta persistence marked key jurisdictions on ${dateStr} even as ${leadMover.entity} moved ${moverDelta} ${primaryKey}.`;
       leadNarrative = isPolicing
-        ? `Elevated threat baselines held steady at ${secScore} ${secondaryKey} in ${secWatchLeader.entity} alongside ${secWatchSecond.entity} on ${dateStr}, while active enforcement movement lifted ${leadMover.entity} by ${moverDelta} ${primaryKey}.`
-        : `Policy readings held unchanged at +0.0 ${primaryKey} across ${f1}, ${f2}, and ${f3} on ${dateStr}, contrasting with active upward movement in ${leadMover.entity} (${moverDelta} ${primaryKey}) behind leader ${topEntity} (${topScore} ${primaryKey}).`;
+        ? `Elevated threat baselines held steady at ${secScoreFmt} ${secondaryKey} in ${secWatchLeader.entity} alongside ${secWatchSecond.entity} on ${dateStr}, while active enforcement movement lifted ${leadMover.entity} by ${moverDelta} ${primaryKey}.`
+        : `Policy readings held unchanged at +0.0 ${primaryKey} across ${f1}, ${f2}, and ${f3} on ${dateStr}, contrasting with active upward movement in ${leadMover.entity} (${moverDelta} ${primaryKey}) behind leader ${topEntity} (${topScoreFmt} ${primaryKey}).`;
       break;
     }
     case "04": {
       title = isPolicing
-        ? `${runnerUp.entity} Normalizes at ${runnerUp.score} SPS Behind Frontrunner ${topEntity} (${topScore} SPS)`
-        : `${runnerUp.entity} Moderates to ${runnerUp.score} PSI Behind Pace-Setter ${topEntity} (${topScore} PSI)`;
-      summary = `${runnerUp.entity} holds second place at ${runnerUp.score} ${primaryKey} behind ${topEntity} (${topScore} ${primaryKey}).`;
-      leadNarrative = `${runnerUp.entity} settled at ${runnerUp.score} ${primaryKey} in second place across the 37 jurisdictions on ${dateStr}, trailing leader ${topEntity} (${topScore} ${primaryKey}) as federation-wide daily deltas ranged from ${maxNeg} to ${maxPos}.`;
+        ? `${runnerUp.entity} Normalizes at ${runnerUpScoreFmt} SPS Behind Frontrunner ${topEntity} (${topScoreFmt} SPS)`
+        : `${runnerUp.entity} Moderates to ${runnerUpScoreFmt} PSI Behind Pace-Setter ${topEntity} (${topScoreFmt} PSI)`;
+      summary = `${runnerUp.entity} holds second place at ${runnerUpScoreFmt} ${primaryKey} behind ${topEntity} (${topScoreFmt} ${primaryKey}).`;
+      leadNarrative = `${runnerUp.entity} settled at ${runnerUpScoreFmt} ${primaryKey} in second place across the 37 jurisdictions on ${dateStr}, trailing leader ${topEntity} (${topScoreFmt} ${primaryKey}) as federation-wide daily deltas ranged from ${maxNeg} to ${maxPos}.`;
       break;
     }
     case "05": {
       title = isPolicing
-        ? `Steady Tactical Output Pushes ${thirdPlace.entity} to ${thirdPlace.score} SPS in Top-Three Tier`
-        : `Incremental Gains Lift ${thirdPlace.entity} to ${thirdPlace.score} PSI in Subnational Top Three`;
-      summary = `${thirdPlace.entity} anchors the ${primaryKey} podium at ${thirdPlace.score} alongside ${topEntity} and ${runnerUp.entity}.`;
-      leadNarrative = `Sustained session-over-session consistency keeps ${thirdPlace.entity} inside the national ${metricLabel} top three at ${thirdPlace.score} ${primaryKey} on ${dateStr}, behind ${topEntity} (${topScore} ${primaryKey}) and ${runnerUp.entity} (${runnerUp.score} ${primaryKey}).`;
+        ? `Steady Tactical Output Pushes ${thirdPlace.entity} to ${thirdPlaceScoreFmt} SPS in Top-Three Tier`
+        : `Incremental Gains Lift ${thirdPlace.entity} to ${thirdPlaceScoreFmt} PSI in Subnational Top Three`;
+      summary = `${thirdPlace.entity} anchors the ${primaryKey} podium at ${thirdPlaceScoreFmt} alongside ${topEntity} and ${runnerUp.entity}.`;
+      leadNarrative = `Sustained session-over-session consistency keeps ${thirdPlace.entity} inside the national ${metricLabel} top three at ${thirdPlaceScoreFmt} ${primaryKey} on ${dateStr}, behind ${topEntity} (${topScoreFmt} ${primaryKey}) and ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}).`;
       break;
     }
     case "06": {
       title = isPolicing
-        ? `${secWatchLeader.entity} Registers ${secScore} JTI Threat Watch as ${topEntity} Leads on ${topScore} SPS`
-        : `${topEntity} Pairs ${topScore} PSI Lead With Elevated ${secScore} SIS Friction in ${secWatchLeader.entity}`;
-      summary = `${topEntity} leads ${primaryKey} (${topScore}) while ${secWatchLeader.entity} tops ${secondaryKey} watch readings (${secScore}).`;
-      leadNarrative = `Divergence between primary execution and secondary pressure defines the 37-jurisdiction board on ${dateStr}: ${topEntity} leads ${metricLabel} at ${topScore} ${primaryKey}, while ${secWatchLeader.entity} registers the highest ${secLabel} reading at ${secScore} ${secondaryKey}.`;
+        ? `${secWatchLeader.entity} Registers ${secScoreFmt} JTI Threat Watch as ${topEntity} Leads on ${topScoreFmt} SPS`
+        : `${topEntity} Pairs ${topScoreFmt} PSI Lead With Elevated ${secScoreFmt} SIS Friction in ${secWatchLeader.entity}`;
+      summary = `${topEntity} leads ${primaryKey} (${topScoreFmt}) while ${secWatchLeader.entity} tops ${secondaryKey} watch readings (${secScoreFmt}).`;
+      leadNarrative = `Divergence between primary execution and secondary pressure defines the 37-jurisdiction board on ${dateStr}: ${topEntity} leads ${metricLabel} at ${topScoreFmt} ${primaryKey}, while ${secWatchLeader.entity} registers the highest ${secLabel} reading at ${secScoreFmt} ${secondaryKey}.`;
       break;
     }
     case "07": {
       title = isPolicing
-        ? `Quiet Threat Reading (${lowSecScore} JTI) Contrasts With ${primaryKey} Gap in ${lowSecEntity.entity}`
-        : `Low Instability (${lowSecScore} SIS) Contrasts With Sub-Baseline Policy Execution in ${lowSecEntity.entity}`;
-      summary = `${lowSecEntity.entity} records a low ${secondaryKey} reading (${lowSecScore}) despite trailing ${topEntity} (${topScore} ${primaryKey}).`;
-      leadNarrative = `A low ${secLabel} reading of ${lowSecScore} ${secondaryKey} in ${lowSecEntity.entity} contrasts with its primary ${primaryKey} standing on ${dateStr}, illustrating how low surface friction can coexist with moderate ${metricLabel} output behind ${topEntity} (${topScore} ${primaryKey}).`;
+        ? `Quiet Threat Reading (${lowSecScoreFmt} JTI) Contrasts With ${primaryKey} Gap in ${lowSecEntity.entity}`
+        : `Low Instability (${lowSecScoreFmt} SIS) Contrasts With Sub-Baseline Policy Execution in ${lowSecEntity.entity}`;
+      summary = `${lowSecEntity.entity} records a low ${secondaryKey} reading (${lowSecScoreFmt}) despite trailing ${topEntity} (${topScoreFmt} ${primaryKey}).`;
+      leadNarrative = `A low ${secLabel} reading of ${lowSecScoreFmt} ${secondaryKey} in ${lowSecEntity.entity} contrasts with its primary ${primaryKey} standing on ${dateStr}, illustrating how low surface friction can coexist with moderate ${metricLabel} output behind ${topEntity} (${topScoreFmt} ${primaryKey}).`;
       break;
     }
     case "08": {
       title = isPolicing
         ? `Enforcement Tempo Lifts ${leadMover.entity} (${moverDelta} SPS) While ${secWatchLeader.entity} Leads JTI Watch`
         : `Executive Policy Output Lifts ${leadMover.entity} (${moverDelta} PSI) Against ${secWatchLeader.entity} SIS Watch`;
-      summary = `${leadMover.entity} gained ${moverDelta} ${primaryKey} while ${secWatchLeader.entity} led ${secondaryKey} watch readings (${secScore}).`;
-      leadNarrative = `Primary ${metricLabel} gains in ${leadMover.entity} (${moverDelta} to ${moverScore} ${primaryKey}) run alongside elevated ${secLabel} readings in ${secWatchLeader.entity} (${secScore} ${secondaryKey}) on ${dateStr}, highlighting uneven conversion between immediate output and structural stability.`;
+      summary = `${leadMover.entity} gained ${moverDelta} ${primaryKey} while ${secWatchLeader.entity} led ${secondaryKey} watch readings (${secScoreFmt}).`;
+      leadNarrative = `Primary ${metricLabel} gains in ${leadMover.entity} (${moverDelta} to ${moverScoreFmt} ${primaryKey}) run alongside elevated ${secLabel} readings in ${secWatchLeader.entity} (${secScoreFmt} ${secondaryKey}) on ${dateStr}, highlighting uneven conversion between immediate output and structural stability.`;
       break;
     }
     case "09": {
       title = isPolicing
-        ? `Containment Discipline Keeps ${lowSecEntity.entity} at ${lowSecScore} JTI Baseline Across Federation`
-        : `Low Friction Anchors ${lowSecEntity.entity} at ${lowSecScore} SIS as Institutional Stability Holds`;
-      summary = `${lowSecEntity.entity} holds the lowest ${secondaryKey} reading (${lowSecScore}) while ${topEntity} leads ${primaryKey} (${topScore}).`;
-      leadNarrative = `Tight containment discipline keeps ${lowSecEntity.entity} at a federation-low ${lowSecScore} ${secondaryKey} on ${dateStr}, anchoring institutional stability while ${topEntity} paces the primary ${metricLabel} table at ${topScore} ${primaryKey}.`;
+        ? `Containment Discipline Keeps ${lowSecEntity.entity} at ${lowSecScoreFmt} JTI Baseline Across Federation`
+        : `Low Friction Anchors ${lowSecEntity.entity} at ${lowSecScoreFmt} SIS as Institutional Stability Holds`;
+      summary = `${lowSecEntity.entity} holds the lowest ${secondaryKey} reading (${lowSecScoreFmt}) while ${topEntity} leads ${primaryKey} (${topScoreFmt}).`;
+      leadNarrative = `Tight containment discipline keeps ${lowSecEntity.entity} at a federation-low ${lowSecScoreFmt} ${secondaryKey} on ${dateStr}, anchoring institutional stability while ${topEntity} paces the primary ${metricLabel} table at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
     case "10": {
       title = isPolicing
-        ? `${topEntity} Commands Top Tier on Both Enforcement (${topScore} SPS) and Containment`
-        : `${topEntity} Sweeps Top Tier on Both Policy Output (${topScore} PSI) and Stability`;
-      summary = `${topEntity} holds the federation-wide ${primaryKey} lead at ${topScore} ahead of ${runnerUp.entity} (${runnerUp.score}).`;
-      leadNarrative = `${topEntity} commands the top tier across the 37 jurisdictions at ${topScore} ${primaryKey} on ${dateStr}, outpacing runner-up ${runnerUp.entity} (${runnerUp.score} ${primaryKey}) and third-placed ${thirdPlace.entity} (${thirdPlace.score} ${primaryKey}).`;
+        ? `${topEntity} Commands Top Tier on Both Enforcement (${topScoreFmt} SPS) and Containment`
+        : `${topEntity} Sweeps Top Tier on Both Policy Output (${topScoreFmt} PSI) and Stability`;
+      summary = `${topEntity} holds the federation-wide ${primaryKey} lead at ${topScoreFmt} ahead of ${runnerUp.entity} (${runnerUpScoreFmt}).`;
+      leadNarrative = `${topEntity} commands the top tier across the 37 jurisdictions at ${topScoreFmt} ${primaryKey} on ${dateStr}, outpacing runner-up ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}) and third-placed ${thirdPlace.entity} (${thirdPlaceScoreFmt} ${primaryKey}).`;
       break;
     }
     case "11": {
       title = isPolicing
-        ? `${topZoneObj.zone} Commands Lead Regional Telemetry Behind ${topZoneObj.leader.entity} (${topScore} SPS Top)`
+        ? `${topZoneObj.zone} Commands Lead Regional Telemetry Behind ${topZoneObj.leader.entity} (${topZoneLeaderScoreFmt} SPS Top)`
         : `${topZoneObj.zone} States Drive Subnational Policy Gains Behind ${topZoneObj.leader.entity}`;
-      summary = `${topZoneObj.zone} leads geopolitical zone averages while ${topEntity} holds first place at ${topScore} ${primaryKey}.`;
-      leadNarrative = `Geopolitical zone aggregation on ${dateStr} puts ${topZoneObj.zone} at the forefront of subnational ${metricLabel} telemetry, anchored by ${topZoneObj.leader.entity} alongside national frontrunner ${topEntity} (${topScore} ${primaryKey}).`;
+      summary = `${topZoneObj.zone} leads geopolitical zone averages while ${topEntity} holds first place at ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `Geopolitical zone aggregation on ${dateStr} puts ${topZoneObj.zone} at the forefront of subnational ${metricLabel} telemetry, anchored by ${topZoneObj.leader.entity} alongside national frontrunner ${topEntity} (${topScoreFmt} ${primaryKey}).`;
       break;
     }
     case "12": {
@@ -672,103 +689,103 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
         ? `Joint Regional Gains Lift ${leadMover.entity} (${moverDelta}) and ${secondMover.entity} SPS Baselines`
         : `Subnational Momentum Lifts ${leadMover.entity} (${moverDelta}) and ${secondMover.entity} Policy Scores`;
       summary = `${leadMover.entity} (${moverDelta}) and ${secondMover.entity} led upward ${primaryKey} movement on ${dateStr}.`;
-      leadNarrative = `Coordinated upward movement across tracked jurisdictions lifted ${leadMover.entity} (${moverDelta} to ${moverScore} ${primaryKey}) and ${secondMover.entity} on ${dateStr}, reinforcing the upper tier behind ${topEntity} (${topScore} ${primaryKey}).`;
+      leadNarrative = `Coordinated upward movement across tracked jurisdictions lifted ${leadMover.entity} (${moverDelta} to ${moverScoreFmt} ${primaryKey}) and ${secondMover.entity} on ${dateStr}, reinforcing the upper tier behind ${topEntity} (${topScoreFmt} ${primaryKey}).`;
       break;
     }
     case "13": {
       title = isPolicing
-        ? `Three Commands Cluster Within ${top3Margin} SPS Points Behind ${topEntity} (${topScore} SPS)`
-        : `Top-Three Policy Margin Narrows to ${top3Margin} Points Behind ${topEntity} at ${topScore} PSI`;
+        ? `Three Commands Cluster Within ${top3Margin} SPS Points Behind ${topEntity} (${topScoreFmt} SPS)`
+        : `Top-Three Policy Margin Narrows to ${top3Margin} Points Behind ${topEntity} at ${topScoreFmt} PSI`;
       summary = `Only ${top3Margin} ${primaryKey} points separate ${topEntity}, ${runnerUp.entity}, and ${thirdPlace.entity} at the summit.`;
-      leadNarrative = `A ${top3Margin}-point spread separates the top three jurisdictions on the ${metricLabel} board as of ${dateStr}, with ${topEntity} (${topScore} ${primaryKey}) narrowly ahead of ${runnerUp.entity} (${runnerUp.score} ${primaryKey}) and ${thirdPlace.entity} (${thirdPlace.score} ${primaryKey}).`;
+      leadNarrative = `A ${top3Margin}-point spread separates the top three jurisdictions on the ${metricLabel} board as of ${dateStr}, with ${topEntity} (${topScoreFmt} ${primaryKey}) narrowly ahead of ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}) and ${thirdPlace.entity} (${thirdPlaceScoreFmt} ${primaryKey}).`;
       break;
     }
     case "14": {
       title = isPolicing
-        ? `Persistent Threat Readings Keep ${secWatchLeader.entity} (${secScore} JTI) on High Watch`
+        ? `Persistent Threat Readings Keep ${secWatchLeader.entity} (${secScoreFmt} JTI) on High Watch`
         : `${tailOne.entity}, ${tailTwo.entity}, and ${tailThree.entity} Trail Subnational Policy Median on PSI Board`;
-      summary = `${tailOne.entity} (${tailOne[primaryKey]} ${primaryKey}) leads the trailing tier while ${topEntity} holds ${topScore} ${primaryKey}.`;
-      leadNarrative = `Trailing jurisdictions ${tailOne.entity} (${tailOne[primaryKey]} ${primaryKey}), ${tailTwo.entity} (${tailTwo[primaryKey]} ${primaryKey}), and ${tailThree.entity} (${tailThree[primaryKey]} ${primaryKey}) sit at the foot of the 37-jurisdiction board on ${dateStr}, contrasting with leader ${topEntity} at ${topScore} ${primaryKey}.`;
+      summary = `${tailOne.entity} (${tailOneScoreFmt} ${primaryKey}) leads the trailing tier while ${topEntity} holds ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `Trailing jurisdictions ${tailOne.entity} (${tailOneScoreFmt} ${primaryKey}), ${tailTwo.entity} (${tailTwoScoreFmt} ${primaryKey}), and ${tailThree.entity} (${tailThreeScoreFmt} ${primaryKey}) sit at the foot of the 37-jurisdiction board on ${dateStr}, contrasting with leader ${topEntity} at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
     case "15": {
       title = isPolicing
-        ? `${runnerUp.entity} (${runnerUp.score} SPS) Consolidates Top-Three Enforcement Tier Behind ${topEntity}`
-        : `${runnerUp.entity} Consolidates Subnational Top Tier at ${runnerUp.score} PSI Behind ${topEntity}`;
-      summary = `${runnerUp.entity} holds second place at ${runnerUp.score} ${primaryKey} behind ${topEntity} (${topScore} ${primaryKey}).`;
-      leadNarrative = `Sustained performance keeps ${runnerUp.entity} firmly inside the top tier at ${runnerUp.score} ${primaryKey} on ${dateStr}, trailing frontrunner ${topEntity} (${topScore} ${primaryKey}) by ${formatNum(Math.max(0, Number(topScore) - Number(runnerUp.score ?? topScore)), 2)} points.`;
+        ? `${runnerUp.entity} (${runnerUpScoreFmt} SPS) Consolidates Top-Three Enforcement Tier Behind ${topEntity}`
+        : `${runnerUp.entity} Consolidates Subnational Top Tier at ${runnerUpScoreFmt} PSI Behind ${topEntity}`;
+      summary = `${runnerUp.entity} holds second place at ${runnerUpScoreFmt} ${primaryKey} behind ${topEntity} (${topScoreFmt} ${primaryKey}).`;
+      leadNarrative = `Sustained performance keeps ${runnerUp.entity} firmly inside the top tier at ${runnerUpScoreFmt} ${primaryKey} on ${dateStr}, trailing frontrunner ${topEntity} (${topScoreFmt} ${primaryKey}) by ${runnerUpMargin} points.`;
       break;
     }
     case "16": {
       title = isPolicing
-        ? `Operational Readiness Reinforces ${topEntity} Lead at ${topScore} SPS Across 37 Jurisdictions`
-        : `${topEntity} Anchors Subnational Capital & Policy Execution at ${topScore} PSI`;
-      summary = `${topEntity} maintains its ${primaryKey} lead at ${topScore} while ${leadMover.entity} gains ${moverDelta}.`;
-      leadNarrative = `Resource and operational execution keep ${topEntity} at the summit of the ${metricLabel} standings on ${topScore} ${primaryKey} as of ${dateStr}, while ${leadMover.entity} posts the day's strongest upward gain at ${moverDelta} ${primaryKey}.`;
+        ? `Operational Readiness Reinforces ${topEntity} Lead at ${topScoreFmt} SPS Across 37 Jurisdictions`
+        : `${topEntity} Anchors Subnational Capital & Policy Execution at ${topScoreFmt} PSI`;
+      summary = `${topEntity} maintains its ${primaryKey} lead at ${topScoreFmt} while ${leadMover.entity} gains ${moverDelta}.`;
+      leadNarrative = `Resource and operational execution keep ${topEntity} at the summit of the ${metricLabel} standings on ${topScoreFmt} ${primaryKey} as of ${dateStr}, while ${leadMover.entity} posts the day's strongest upward gain at ${moverDelta} ${primaryKey}.`;
       break;
     }
     case "17": {
       title = isPolicing
         ? `Command Tempo Coincides With ${moverDelta} SPS Shift in ${leadMover.entity} Division`
-        : `Executive Policy Shift Moves ${leadMover.entity} by ${moverDelta} to ${moverScore} PSI`;
-      summary = `${leadMover.entity} shifted ${moverDelta} ${primaryKey} to ${moverScore} as ${topEntity} held ${topScore} ${primaryKey}.`;
-      leadNarrative = `Tactical and administrative adjustments coincided with a ${moverDelta} ${primaryKey} shift in ${leadMover.entity} (now ${moverScore} ${primaryKey}) on ${dateStr}, while ${topEntity} retained first place nationwide at ${topScore} ${primaryKey}.`;
+        : `Executive Policy Shift Moves ${leadMover.entity} by ${moverDelta} to ${moverScoreFmt} PSI`;
+      summary = `${leadMover.entity} shifted ${moverDelta} ${primaryKey} to ${moverScoreFmt} as ${topEntity} held ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `Tactical and administrative adjustments coincided with a ${moverDelta} ${primaryKey} shift in ${leadMover.entity} (now ${moverScoreFmt} ${primaryKey}) on ${dateStr}, while ${topEntity} retained first place nationwide at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
     case "18": {
       title = isPolicing
-        ? `Accountability & Throughput Metrics Track ${secWatchLeader.entity} (${secScore} JTI) and ${topEntity}`
-        : `Governance Compliance & Audit Benchmarks Keep ${topEntity} Ahead at ${topScore} PSI`;
-      summary = `${topEntity} (${topScore} ${primaryKey}) and ${secWatchLeader.entity} (${secScore} ${secondaryKey}) anchor compliance telemetry on ${dateStr}.`;
-      leadNarrative = `Institutional accountability and throughput benchmarks across the 37 jurisdictions on ${dateStr} place ${topEntity} first on ${topScore} ${primaryKey}, while ${secWatchLeader.entity} registers ${secScore} ${secondaryKey} on the secondary watch index.`;
+        ? `Accountability & Throughput Metrics Track ${secWatchLeader.entity} (${secScoreFmt} JTI) and ${topEntity}`
+        : `Governance Compliance & Audit Benchmarks Keep ${topEntity} Ahead at ${topScoreFmt} PSI`;
+      summary = `${topEntity} (${topScoreFmt} ${primaryKey}) and ${secWatchLeader.entity} (${secScoreFmt} ${secondaryKey}) anchor compliance telemetry on ${dateStr}.`;
+      leadNarrative = `Institutional accountability and throughput benchmarks across the 37 jurisdictions on ${dateStr} place ${topEntity} first on ${topScoreFmt} ${primaryKey}, while ${secWatchLeader.entity} registers ${secScoreFmt} ${secondaryKey} on the secondary watch index.`;
       break;
     }
     case "19": {
       title = isPolicing
-        ? `Tactical Highs Lift ${leadMover.entity} (${moverDelta}) as ${topEntity} Holds ${topScore} SPS`
-        : `Execution Milestones Lift ${leadMover.entity} by ${moverDelta} to ${moverScore} PSI`;
-      summary = `${leadMover.entity} gained ${moverDelta} ${primaryKey} on concrete execution milestones behind leader ${topEntity} (${topScore}).`;
-      leadNarrative = `Concrete field and administrative execution lifted ${leadMover.entity} by ${moverDelta} to ${moverScore} ${primaryKey} on ${dateStr}, while ${topEntity} remained atop the federation table at ${topScore} ${primaryKey}.`;
+        ? `Tactical Highs Lift ${leadMover.entity} (${moverDelta}) as ${topEntity} Holds ${topScoreFmt} SPS`
+        : `Execution Milestones Lift ${leadMover.entity} by ${moverDelta} to ${moverScoreFmt} PSI`;
+      summary = `${leadMover.entity} gained ${moverDelta} ${primaryKey} on concrete execution milestones behind leader ${topEntity} (${topScoreFmt}).`;
+      leadNarrative = `Concrete field and administrative execution lifted ${leadMover.entity} by ${moverDelta} to ${moverScoreFmt} ${primaryKey} on ${dateStr}, while ${topEntity} remained atop the federation table at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
     case "20": {
       title = isPolicing
-        ? `Security Friction Tests ${secWatchLeader.entity} (${secScore} JTI) While ${topEntity} Leads on ${topScore} SPS`
-        : `Institutional Friction Pushes ${secWatchLeader.entity} to ${secScore} SIS as ${topEntity} Leads PSI`;
-      summary = `${secWatchLeader.entity} leads ${secondaryKey} friction readings (${secScore}) while ${topEntity} tops ${primaryKey} (${topScore}).`;
-      leadNarrative = `Localized friction pushes ${secWatchLeader.entity} to the top of the ${secLabel} watch list at ${secScore} ${secondaryKey} on ${dateStr}, even as ${topEntity} maintains the overall ${metricLabel} lead at ${topScore} ${primaryKey}.`;
+        ? `Security Friction Tests ${secWatchLeader.entity} (${secScoreFmt} JTI) While ${topEntity} Leads on ${topScoreFmt} SPS`
+        : `Institutional Friction Pushes ${secWatchLeader.entity} to ${secScoreFmt} SIS as ${topEntity} Leads PSI`;
+      summary = `${secWatchLeader.entity} leads ${secondaryKey} friction readings (${secScoreFmt}) while ${topEntity} tops ${primaryKey} (${topScoreFmt}).`;
+      leadNarrative = `Localized friction pushes ${secWatchLeader.entity} to the top of the ${secLabel} watch list at ${secScoreFmt} ${secondaryKey} on ${dateStr}, even as ${topEntity} maintains the overall ${metricLabel} lead at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
     case "21": {
       title = isPolicing
-        ? `${topEntity} Rolling Enforcement Trajectory Holds ${topScore} SPS Ahead of Weekly Rollover`
-        : `${topEntity} Rolling Policy Trajectory Holds ${topScore} PSI Ahead of Weekly Rollover`;
-      summary = `${topEntity} sustains its rolling ${primaryKey} lead at ${topScore} ahead of ${runnerUp.entity} (${runnerUp.score}).`;
-      leadNarrative = `Progressive rolling telemetry across the 37 jurisdictions on ${dateStr} keeps ${topEntity} ahead at ${topScore} ${primaryKey}, maintaining momentum over ${runnerUp.entity} (${runnerUp.score} ${primaryKey}).`;
+        ? `${topEntity} Rolling Enforcement Trajectory Holds ${topScoreFmt} SPS Ahead of Weekly Rollover`
+        : `${topEntity} Rolling Policy Trajectory Holds ${topScoreFmt} PSI Ahead of Weekly Rollover`;
+      summary = `${topEntity} sustains its rolling ${primaryKey} lead at ${topScoreFmt} ahead of ${runnerUp.entity} (${runnerUpScoreFmt}).`;
+      leadNarrative = `Progressive rolling telemetry across the 37 jurisdictions on ${dateStr} keeps ${topEntity} ahead at ${topScoreFmt} ${primaryKey}, maintaining momentum over ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}).`;
       break;
     }
     case "22": {
       title = isPolicing
         ? `Midweek Tactical Operations Shift Command Baselines Across ${topZoneObj.zone} Jurisdictions`
         : `Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover`;
-      summary = `Midweek ${primaryKey} shifts span ${maxNeg} to ${maxPos} behind leader ${topEntity} (${topScore} ${primaryKey}).`;
-      leadNarrative = `Midweek telemetry across all 37 jurisdictions on ${dateStr} records ${primaryKey} deltas ranging from ${maxNeg} to ${maxPos}, with ${leadMover.entity} (${moverDelta}) posting the sharpest gain behind ${topEntity} (${topScore} ${primaryKey}).`;
+      summary = `Midweek ${primaryKey} shifts span ${maxNeg} to ${maxPos} behind leader ${topEntity} (${topScoreFmt} ${primaryKey}).`;
+      leadNarrative = `Midweek telemetry across all 37 jurisdictions on ${dateStr} records ${primaryKey} deltas ranging from ${maxNeg} to ${maxPos}, with ${leadMover.entity} (${moverDelta}) posting the sharpest gain behind ${topEntity} (${topScoreFmt} ${primaryKey}).`;
       break;
     }
     case "23": {
       title = isPolicing
-        ? `Weekly Policing Rollover: ${topEntity} Tops 7-Day Enforcement at ${topScore} SPS`
-        : `Weekly Governance Rollover: ${topEntity} Closes Window at ${topScore} PSI as ${lowSecEntity.entity} Leads Stability`;
-      summary = `Thursday weekly rollover confirms ${topEntity} at ${topScore} ${primaryKey} across the 37 jurisdictions.`;
-      leadNarrative = `Closing the Thursday weekly rollover window on ${dateStr}, ${topEntity} finishes atop the 37-jurisdiction ${metricLabel} standings at ${topScore} ${primaryKey}, while ${lowSecEntity.entity} anchors stability at ${lowSecScore} ${secondaryKey}.`;
+        ? `Weekly Policing Rollover: ${topEntity} Tops 7-Day Enforcement at ${topScoreFmt} SPS`
+        : `Weekly Governance Rollover: ${topEntity} Closes Window at ${topScoreFmt} PSI as ${lowSecEntity.entity} Leads Stability`;
+      summary = `Thursday weekly rollover confirms ${topEntity} at ${topScoreFmt} ${primaryKey} across the 37 jurisdictions.`;
+      leadNarrative = `Closing the Thursday weekly rollover window on ${dateStr}, ${topEntity} finishes atop the 37-jurisdiction ${metricLabel} standings at ${topScoreFmt} ${primaryKey}, while ${lowSecEntity.entity} anchors stability at ${lowSecScoreFmt} ${secondaryKey}.`;
       break;
     }
     case "24": {
       title = isPolicing
-        ? `${topEntity} Holds Top Enforcement Ranking at ${topScore} SPS Against ${runnerUp.entity}`
-        : `${topEntity} Extends Subnational Policy Lead at ${topScore} PSI Over ${runnerUp.entity}`;
-      summary = `${topEntity} defends first place on ${topScore} ${primaryKey} ahead of ${runnerUp.entity} (${runnerUp.score} ${primaryKey}).`;
-      leadNarrative = `${topEntity} extends its hold on first place across the 37 jurisdictions at ${topScore} ${primaryKey} on ${dateStr}, keeping runner-up ${runnerUp.entity} (${runnerUp.score} ${primaryKey}) and ${thirdPlace.entity} (${thirdPlace.score} ${primaryKey}) behind.`;
+        ? `${topEntity} Holds Top Enforcement Ranking at ${topScoreFmt} SPS Against ${runnerUp.entity}`
+        : `${topEntity} Extends Subnational Policy Lead at ${topScoreFmt} PSI Over ${runnerUp.entity}`;
+      summary = `${topEntity} defends first place on ${topScoreFmt} ${primaryKey} ahead of ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}).`;
+      leadNarrative = `${topEntity} extends its hold on first place across the 37 jurisdictions at ${topScoreFmt} ${primaryKey} on ${dateStr}, keeping runner-up ${runnerUp.entity} (${runnerUpScoreFmt} ${primaryKey}) and ${thirdPlace.entity} (${thirdPlaceScoreFmt} ${primaryKey}) behind.`;
       break;
     }
     case "25":
@@ -776,8 +793,8 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
       title = isPolicing
         ? `Cumulative Command Telemetry: ${leadMover.entity} Leads ${moverDelta} SPS Gains Behind ${topEntity}`
         : `Cumulative Subnational Telemetry: ${leadMover.entity} Leads ${moverDelta} PSI Gains Behind ${topEntity}`;
-      summary = `${leadMover.entity} leads ${moverDelta} ${primaryKey} gains while ${topEntity} holds ${topScore} ${primaryKey}.`;
-      leadNarrative = `Cumulative subnational telemetry across the 37 jurisdictions as of ${dateStr} highlights ${leadMover.entity} (${moverDelta} ${primaryKey}) for net upward movement while ${topEntity} anchors the overall ${metricLabel} table at ${topScore} ${primaryKey}.`;
+      summary = `${leadMover.entity} leads ${moverDelta} ${primaryKey} gains while ${topEntity} holds ${topScoreFmt} ${primaryKey}.`;
+      leadNarrative = `Cumulative subnational telemetry across the 37 jurisdictions as of ${dateStr} highlights ${leadMover.entity} (${moverDelta} ${primaryKey}) for net upward movement while ${topEntity} anchors the overall ${metricLabel} table at ${topScoreFmt} ${primaryKey}.`;
       break;
     }
   }
@@ -785,20 +802,20 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   const top3Text = primaryTop3.length
     ? formatList(
         primaryTop3,
-        (r, idx) => `${idx + 1}. ${r.entity} (${r.score} ${primaryKey}, ${formatDelta(r.delta)})`
+        (r, idx) => `${idx + 1}. ${r.entity} (${formatNum(r.score, 1)} ${primaryKey}, ${formatDelta(r.delta)})`
       )
-    : `${topEntity} (${topScore} ${primaryKey})`;
+    : `${topEntity} (${topScoreFmt} ${primaryKey})`;
 
   const p1 =
     `Leading ${metricLabel} positions across the 37 jurisdictions on ${dateStr} stand at ${top3Text}. ` +
     (runnerUp
-      ? `${topEntity} holds a ${formatNum(Math.max(0, Number(topScore) - Number(runnerUp.score ?? topScore)), 2)}-point margin over ${runnerUp.entity} in the primary ranking.`
+      ? `${topEntity} holds a ${runnerUpMargin}-point margin over ${runnerUp.entity} in the primary ranking.`
       : `Daily ${primaryKey} readings reflect comparative performance across state commands and administrations.`);
 
   const secText = secondaryTop.length
     ? formatList(
         secondaryTop,
-        (r) => `${r.entity} (${r.score} ${secondaryKey}, ${formatDelta(r.delta)})`
+        (r) => `${r.entity} (${formatNum(r.score, 1)} ${secondaryKey}, ${formatDelta(r.delta)})`
       )
     : "";
 
@@ -810,7 +827,7 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   const trailingText = trailing.length
     ? formatList(
         trailing,
-        (r) => `${r.entity} (${r[primaryKey]} ${primaryKey}, ${formatDelta(r[`${primaryKey}_delta`])})`
+        (r) => `${r.entity} (${formatNum(r[primaryKey], 1)} ${primaryKey}, ${formatDelta(r[`${primaryKey}_delta`])})`
       )
     : "";
 
