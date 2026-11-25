@@ -5,6 +5,7 @@ import textwrap
 import subprocess
 import re
 import urllib.request
+import urllib.error
 import time
 import datetime
 import argparse
@@ -15,6 +16,8 @@ CLIENT_ID = os.environ.get("BLOGGER_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("BLOGGER_CLIENT_SECRET")
 REFRESH_TOKEN = os.environ.get("BLOGGER_REFRESH_TOKEN")
 BLOG_ID = os.environ.get("BLOGGER_BLOG_ID")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 DIPLOMAN_TIMES_URL = "https://www.diplomantimes.com"
 
@@ -246,6 +249,50 @@ def build_social_excerpt(item, share_url=None):
 
     parts = [p for p in (title, summary, f"{cta} {target}") if p]
     return "\n\n".join(parts)
+
+
+def send_telegram_alert(text):
+    """Posts the finalized social excerpt to the configured Telegram channel."""
+    token = str(TELEGRAM_BOT_TOKEN or "").strip()
+    chat_id = str(TELEGRAM_CHAT_ID or "").strip()
+    if not token or not chat_id:
+        print("[telegram] Skipped: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not configured.")
+        return False
+
+    if chat_id.isdigit() and chat_id.startswith("100"):
+        chat_id = f"-{chat_id}"
+
+    api_url = f"https://api.telegram.org/bot{token}/sendMessage"
+    payload = json.dumps(
+        {
+            "chat_id": chat_id,
+            "text": text,
+            "disable_web_page_preview": False,
+        }
+    ).encode("utf-8")
+
+    req = urllib.request.Request(
+        api_url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+            if body.get("ok"):
+                msg_id = body.get("result", {}).get("message_id")
+                print(f"[telegram] Posted excerpt to {chat_id} (message_id={msg_id})")
+                return True
+            print(f"[telegram] API returned non-ok response: {body}")
+            return False
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8", errors="replace")
+        print(f"[telegram] HTTP {e.code} error: {err_body}")
+        return False
+    except Exception as e:
+        print(f"[telegram] Warning: Failed to send Telegram alert: {e}")
+        return False
 
 
 def build_news_report_html(item, governors_registry=None, commissioners_registry=None):
@@ -597,6 +644,9 @@ def publish_across_repos(
 
                 item["social_excerpt"] = build_social_excerpt(item, share_url=post_url)
                 print(f"[social_excerpt]\n{item['social_excerpt']}\n---")
+
+                if not is_draft:
+                    send_telegram_alert(item["social_excerpt"])
 
                 time.sleep(5)
 
