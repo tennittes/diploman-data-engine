@@ -7,6 +7,20 @@ const FOOTBALL_REPO_RAW_BASE = "https://raw.githubusercontent.com/tennittes/dipl
 const FOOTBALL_FALLBACK_BANNER =
   "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEjynaVCtt3sYwWSMmZt6p3IJG5W9t1DwrfmFCawdojeihYVuNN75wZymwVLZ_fx6Ampvi6r7j1xQ1IhAkOcdfl4BrGf6Bs6xi_hkvmR6nHQXbr7KQyHbooyUOXqNW_TrZZiAkz5iSFglPx0irzR23AoBeG0Ren9o1ZV9GlRTNSYJqRcvaBHom2hXhvTM/s1080/Diploman%20Football%20Stats%20Logo.png";
 
+const SOCIAL_EXCERPT_CTA = {
+  governancescore: "Read the full 37-jurisdiction brief:",
+  policingintel: "Read the full 37-jurisdiction brief:",
+  footballtally: "Read the full multi-league telemetry brief:"
+};
+
+function buildSocialExcerpt({ vertical, title, summary, url }) {
+  const cleanTitle = String(title || "").trim();
+  const cleanSummary = String(summary || "").trim();
+  const targetUrl = String(url || DIPLOMAN_TIMES_URL).trim();
+  const cta = SOCIAL_EXCERPT_CTA[vertical] || "Read the full brief:";
+  return [cleanTitle, cleanSummary, `${cta} ${targetUrl}`].filter(Boolean).join("\n\n");
+}
+
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -945,6 +959,12 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
   }
 
   const draft = buildStoryDraft(vertical, selection, metrics, repoRoot);
+  const socialExcerpt = buildSocialExcerpt({
+    vertical,
+    title: draft.title,
+    summary: draft.summary,
+    url: DIPLOMAN_TIMES_URL
+  });
 
   const entry = {
     type: "scored_brief",
@@ -966,6 +986,7 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
       : {}),
     title: draft.title,
     summary: draft.summary,
+    social_excerpt: socialExcerpt,
     labels: draft.labels,
     featured_image: draft.featuredImage,
     lead_narrative: draft.leadNarrative,
@@ -1014,4 +1035,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { queueScoredBrief };
+module.exports = { queueScoredBrief, buildSocialExcerpt };
