@@ -131,7 +131,8 @@ def replace_iso_dates_in_text(text, fallback_iso_date=None):
 def _load_registry_file(filename, search_roots=None):
     candidates = [filename]
     for root in search_roots or []:
-        candidates.append(os.path.join(root, filename))
+        for rel in (filename, os.path.join("config", filename), os.path.join("data", filename)):
+            candidates.append(os.path.join(root, rel))
 
     for registry_path in candidates:
         if os.path.exists(registry_path):
@@ -172,22 +173,25 @@ def is_image_url_working(url):
 
 def extract_state_from_item(item, registry, v_key="governancescore"):
     raw_state = item.get("stateName") or item.get("state") or item.get("jurisdiction")
-    text_to_check = (item.get("headline") or item.get("title") or "").lower()
-
     if raw_state:
         for s_name in registry.keys():
             if s_name.lower() == str(raw_state).strip().lower():
                 return s_name
         return str(raw_state).strip()
 
-    if v_key == "governancescore":
-        for alias, state_name in GOVERNOR_ALIASES.items():
-            if re.search(rf"\b{re.escape(alias)}\b", text_to_check):
-                return state_name
+    title_text = (item.get("headline") or item.get("title") or "").lower()
+    lead_text = (item.get("lead_narrative") or "").lower()
 
-    for s_name in sorted(registry.keys(), key=len, reverse=True):
-        if re.search(rf"\b{re.escape(s_name.lower())}\b", text_to_check):
-            return s_name
+    for search_text in (title_text, lead_text):
+        if not search_text:
+            continue
+        if v_key == "governancescore":
+            for alias, state_name in GOVERNOR_ALIASES.items():
+                if re.search(rf"\b{re.escape(alias)}\b", search_text):
+                    return state_name
+        for s_name in sorted(registry.keys(), key=len, reverse=True):
+            if re.search(rf"\b{re.escape(s_name.lower())}\b", search_text):
+                return s_name
 
     return "Unknown"
 
@@ -251,6 +255,8 @@ def build_news_report_html(item, governors_registry=None, commissioners_registry
             run_date,
         )
         aria_label = reg.get("aria_label") or v_cfg["aria_label"]
+        if not img_src:
+            print(f"[img-debug] vertical={v_key} resolved_state={state_name!r} reg_keys={len(commissioners_registry)}")
     elif v_key == "governancescore" and governors_registry:
         state_name = extract_state_from_item(item, governors_registry, v_key=v_key)
         reg = governors_registry.get(
@@ -268,6 +274,10 @@ def build_news_report_html(item, governors_registry=None, commissioners_registry
             reg.get("alt") or f"{state_name} Executive Office", run_date
         )
         aria_label = reg.get("aria_label") or v_cfg["aria_label"]
+        if not img_src:
+            print(f"[img-debug] vertical={v_key} resolved_state={state_name!r} reg_keys={len(governors_registry)}")
+    elif v_key in ("governancescore", "policingintel"):
+        print(f"[img-debug] vertical={v_key} registry empty (queue_img_src={queue_img_src!r})")
 
     if img_src:
         html_parts.append(
@@ -394,8 +404,15 @@ def commit_and_push_repo(repo_dir, queue_file_path):
             )
             subprocess.run(["git", "-C", repo_dir, "push"], check=True)
             print(f"[git] Pushed queue update to {repo_dir} ({rel_path})")
+        else:
+            print(f"[git] No changes to commit in {repo_dir} ({rel_path})")
     except Exception as e:
         print(f"[git] Warning: Could not push update for {repo_dir}: {e}")
+
+
+def _queued_sort_key(item):
+    ts = str(item.get("queued_at_utc") or item.get("run_date_utc") or "")
+    return ts
 
 
 def publish_across_repos(
@@ -416,6 +433,7 @@ def publish_across_repos(
     today_utc = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     governors_registry = load_governors_registry(search_roots=repo_dirs)
     commissioners_registry = load_commissioners_registry(search_roots=repo_dirs)
+    print(f"[registry] Loaded governors={len(governors_registry)} keys, commissioners={len(commissioners_registry)} keys")
     service = get_blogger_service()
 
     # Check live blog posts so a vertical never double-publishes on the same UTC date
@@ -427,9 +445,11 @@ def publish_across_repos(
             print(f"[guard] {VERTICAL_CONFIG[v_key]['label']} already published on {today_utc} UTC; locking slot.")
 
     total_published = 0
+    cap_logged_verticals = set()
 
     for repo_dir in repo_dirs:
         if not publish_all and total_published >= limit:
+            print(f"[stop] Run limit ({limit}) reached before scanning {repo_dir}.")
             break
 
         if not os.path.isdir(repo_dir):
@@ -462,30 +482,42 @@ def publish_across_repos(
                 v_k = str(entry.get("vertical", "")).strip().lower()
                 vertical_daily_counts[v_k] = max(vertical_daily_counts[v_k], max_per_vertical_daily)
 
-        def matches_target(entry):
-            if not is_allowed_vertical(entry) or entry.get("published", False):
-                return False
-            v_k = str(entry.get("vertical", "")).strip().lower()
-            if requested_vertical != "all" and v_k != requested_vertical:
-                return False
-            return True
+        unpublished_candidates = [
+            entry for entry in items if is_allowed_vertical(entry) and not entry.get("published", False)
+        ]
+        if not unpublished_candidates:
+            print(f"[queue] No unpublished items found in {queue_path}.")
+            continue
+
+        # Sort newest first by queued_at_utc / run_date_utc, preserving reverse list order as tie-breaker
+        indexed_candidates = list(enumerate(reversed(unpublished_candidates)))
+        indexed_candidates.sort(key=lambda pair: (_queued_sort_key(pair[1]), -pair[0]), reverse=True)
+        ordered_candidates = [pair[1] for pair in indexed_candidates]
 
         repo_modified = False
         rate_limited = False
+        matched_any_for_vertical = False
 
-        # Iterate newest-first so if multiple items piled up in a queue, the latest brief wins today's slot
-        for item in reversed(items):
+        for item in ordered_candidates:
             if not publish_all and total_published >= limit:
+                print(f"[stop] Reached run limit ({limit}); remaining unpublished items left in queue.")
                 break
-
-            if not matches_target(item):
-                continue
 
             v_key = str(item.get("vertical", "")).strip().lower()
             v_cfg = VERTICAL_CONFIG[v_key]
 
+            if requested_vertical != "all" and v_key != requested_vertical:
+                continue
+
+            matched_any_for_vertical = True
+
             # Enforce strict 1-post-per-vertical-per-UTC-day cap
             if vertical_daily_counts[v_key] >= max_per_vertical_daily:
+                if is_draft:
+                    if v_key not in cap_logged_verticals:
+                        cap_logged_verticals.add(v_key)
+                        print(f"[guard] Daily cap ({max_per_vertical_daily}) reached for {v_cfg['label']} in draft mode; skipping '{item.get('title')}'")
+                    continue
                 item["published"] = True
                 item["skipped_duplicate_daily"] = True
                 item["published_utc_date"] = today_utc
@@ -538,6 +570,9 @@ def publish_across_repos(
                     rate_limited = True
                     break
                 continue
+
+        if not matched_any_for_vertical and requested_vertical != "all":
+            print(f"[queue] No unpublished items for vertical='{requested_vertical}' in {queue_path}.")
 
         if repo_modified:
             with open(queue_path, "w", encoding="utf-8") as f:
