@@ -22,6 +22,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: diploman-angle-queue-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   extract-select-queue:
     runs-on: ubuntu-latest
@@ -92,6 +96,7 @@ jobs:
           --out "state/${{ steps.run_meta.outputs.vertical }}/latest_selection.json"
 
       - name: 4. Queue scored brief for Diploman Times (news-queue.json)
+        id: queue_step
         run: >
           node scripts/queue_scored_brief.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
@@ -100,6 +105,7 @@ jobs:
           --queue "news-queue.json"
 
       - name: Commit updated summary, angle state, and news-queue.json
+        id: git_push
         run: |
           VERTICAL="${{ steps.run_meta.outputs.vertical }}"
           RUN_DATE="${{ steps.run_meta.outputs.run_date_utc }}"
@@ -113,4 +119,22 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "chore(${VERTICAL}): extract, select angle & queue Diploman Times brief for ${RUN_DATE}"
             git push
+            echo "queued=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "queued=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Trigger Central Publisher for queued vertical
+        if: steps.git_push.outputs.queued == 'true' && env.DISPATCH_PAT != ''
+        env:
+          DISPATCH_PAT: ${{ secrets.DISPATCH_PAT }}
+          VERTICAL: ${{ steps.run_meta.outputs.vertical }}
+        run: |
+          # Replace OWNER/REPO below with the repo that owns publish-all-verticals.yml if different
+          TARGET_REPO="${{ github.repository }}"
+          curl -fsSL -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${DISPATCH_PAT}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${TARGET_REPO}/actions/workflows/publish-all-verticals.yml/dispatches" \
+            -d "{\"ref\":\"main\",\"inputs\":{\"vertical\":\"${VERTICAL}\",\"draft\":false}}"
