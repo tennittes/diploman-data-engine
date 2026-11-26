@@ -15,30 +15,26 @@ on:
         required: true
         default: "governancescore"
       run_date_utc:
-        description: "Optional UTC date override (YYYY-MM-DD); defaults to today UTC"
+        description: "Optional UTC date override (YYYY-MM-DD); defaults to payload or today UTC"
         required: false
         default: ""
 
 permissions:
   contents: write
 
-concurrency:
-  group: diploman-angle-queue-${{ github.repository }}
-  cancel-in-progress: false
-
 jobs:
   extract-select-queue:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
 
-      - name: Resolve vertical, data source, and UTC run date
+      - name: Resolve vertical, data source, and initial UTC run date
         id: run_meta
         run: |
           VERTICAL="${{ github.event.inputs.vertical }}"
@@ -52,7 +48,8 @@ jobs:
             fi
           fi
 
-          RUN_DATE="${{ github.event.inputs.run_date_utc }}"
+          EXPLICIT_DATE="${{ github.event.inputs.run_date_utc }}"
+          RUN_DATE="$EXPLICIT_DATE"
           if [ -z "$RUN_DATE" ]; then
             RUN_DATE=$(date -u +%F)
           fi
@@ -66,37 +63,54 @@ jobs:
           fi
 
           echo "vertical=$VERTICAL" >> "$GITHUB_OUTPUT"
+          echo "explicit_date=$EXPLICIT_DATE" >> "$GITHUB_OUTPUT"
           echo "run_date_utc=$RUN_DATE" >> "$GITHUB_OUTPUT"
           echo "master_file=$MASTER_FILE" >> "$GITHUB_OUTPUT"
 
       - name: 1. Extract daily metrics summary
-        run: >
-          node scripts/extract_summary_from_master.js
-          --vertical "${{ steps.run_meta.outputs.vertical }}"
-          --date "${{ steps.run_meta.outputs.run_date_utc }}"
-          --master "${{ steps.run_meta.outputs.master_file }}"
-          --data-dir "data"
-          --out "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
+        id: extract_meta
+        run: |
+          VERTICAL="${{ steps.run_meta.outputs.vertical }}"
+          SUMMARY_PATH="state/${VERTICAL}/daily_metrics_summary.json"
+
+          node scripts/extract_summary_from_master.js \
+            --vertical "$VERTICAL" \
+            --date "${{ steps.run_meta.outputs.run_date_utc }}" \
+            --master "${{ steps.run_meta.outputs.master_file }}" \
+            --data-dir "data" \
+            --out "$SUMMARY_PATH"
+
+          EFFECTIVE_DATE="${{ steps.run_meta.outputs.explicit_date }}"
+          if [ -z "$EFFECTIVE_DATE" ] && [ -f "$SUMMARY_PATH" ]; then
+            PAYLOAD_DATE=$(node -e 'const fs=require("fs"); const d=JSON.parse(fs.readFileSync(process.argv[1],"utf8")); process.stdout.write(d.run_date_utc || "");' "$SUMMARY_PATH")
+            if [ -n "$PAYLOAD_DATE" ]; then
+              EFFECTIVE_DATE="$PAYLOAD_DATE"
+            fi
+          fi
+          if [ -z "$EFFECTIVE_DATE" ]; then
+            EFFECTIVE_DATE="${{ steps.run_meta.outputs.run_date_utc }}"
+          fi
+
+          echo "effective_date=$EFFECTIVE_DATE" >> "$GITHUB_OUTPUT"
 
       - name: 2. Validate incoming daily metrics
         run: >
           node scripts/validate_inputs.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
-          --date "${{ steps.run_meta.outputs.run_date_utc }}"
+          --date "${{ steps.extract_meta.outputs.effective_date }}"
           --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
 
       - name: 3. Select daily headline angle (25-Angle Matrix)
         run: >
           node scripts/select_angle.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
-          --date "${{ steps.run_meta.outputs.run_date_utc }}"
+          --date "${{ steps.extract_meta.outputs.effective_date }}"
           --angles "config/angles-25-master.json"
           --metrics "state/${{ steps.run_meta.outputs.vertical }}/daily_metrics_summary.json"
           --history "state/${{ steps.run_meta.outputs.vertical }}/angle_history.json"
           --out "state/${{ steps.run_meta.outputs.vertical }}/latest_selection.json"
 
       - name: 4. Queue scored brief for Diploman Times (news-queue.json)
-        id: queue_step
         run: >
           node scripts/queue_scored_brief.js
           --vertical "${{ steps.run_meta.outputs.vertical }}"
@@ -105,10 +119,9 @@ jobs:
           --queue "news-queue.json"
 
       - name: Commit updated summary, angle state, and news-queue.json
-        id: git_push
         run: |
           VERTICAL="${{ steps.run_meta.outputs.vertical }}"
-          RUN_DATE="${{ steps.run_meta.outputs.run_date_utc }}"
+          RUN_DATE="${{ steps.extract_meta.outputs.effective_date }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
@@ -116,25 +129,10 @@ jobs:
             "state/${VERTICAL}/angle_history.json" \
             "state/${VERTICAL}/latest_selection.json" \
             "news-queue.json"
+          if [ "$VERTICAL" = "footballtally" ] && [ -d "assets/cards" ]; then
+            git add "assets/cards"
+          fi
           if ! git diff --staged --quiet; then
             git commit -m "chore(${VERTICAL}): extract, select angle & queue Diploman Times brief for ${RUN_DATE}"
             git push
-            echo "queued=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "queued=false" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Trigger Central Publisher for queued vertical
-        if: steps.git_push.outputs.queued == 'true' && env.DISPATCH_PAT != ''
-        env:
-          DISPATCH_PAT: ${{ secrets.DISPATCH_PAT }}
-          VERTICAL: ${{ steps.run_meta.outputs.vertical }}
-        run: |
-          # Replace OWNER/REPO below with the repo that owns publish-all-verticals.yml if different
-          TARGET_REPO="${{ github.repository }}"
-          curl -fsSL -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${DISPATCH_PAT}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/${TARGET_REPO}/actions/workflows/publish-all-verticals.yml/dispatches" \
-            -d "{\"ref\":\"main\",\"inputs\":{\"vertical\":\"${VERTICAL}\",\"draft\":false}}"
