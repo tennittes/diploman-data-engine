@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-26",
+  "run_date_utc": "2026-11-27",
   "vertical": "governancescore",
   "domain": "https://governancescore.diplomantimes.com/",
-  "is_thursday_rollover": true,
-  "selected_angle_id": "23",
-  "angle_name": "thursday_weekly_rollover_anchor",
-  "family": "temporal_rollover_trajectory",
-  "opening_class": "rollover_first",
-  "headline_skeleton": "Weekly Governance Rollover: [State] Closes Window at [Score] PSI as [State B] Leads Stability",
-  "lede_rule": "Sentence 1 summarizes the 7-day window close or Thursday rollover headline result; Sentence 2 highlights the top performer and key metric divergence.",
+  "is_thursday_rollover": false,
+  "selected_angle_id": "14",
+  "angle_name": "bottom_tier_drag_watch",
+  "family": "zonal_tier_league_clusters",
+  "opening_class": "cluster_first",
+  "headline_skeleton": "[State A], [State B], and [State C] Trail Subnational Policy Median at Foot of PSI Table",
+  "lede_rule": "Sentence 1 identifies the lowest-ranked entities lagging the baseline or median; Sentence 2 notes the score gap and any secondary indicator.",
   "weak_points_context": {
     "has_divergence": false,
     "top_club": null,
@@ -21,10 +21,10 @@
     "02",
     "05",
     "12",
-    "22"
+    "22",
+    "23"
   ],
   "excluded_recent_families": [
-    "zonal_tier_league_clusters",
     "temporal_rollover_trajectory"
   ]
 }

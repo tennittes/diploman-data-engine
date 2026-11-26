@@ -2,6 +2,45 @@
   "newsReports": [
     {
       "type": "scored_brief",
+      "id": "scored-gov-2026-11-27",
+      "run_date_utc": "2026-11-27",
+      "published": false,
+      "target_url": "https://www.diplomantimes.com",
+      "vertical": "governancescore",
+      "state": "Yobe",
+      "source_domain": "https://governancescore.diplomantimes.com/",
+      "angle_id": "14",
+      "angle_name": "bottom_tier_drag_watch",
+      "angle_family": "zonal_tier_league_clusters",
+      "opening_class": "cluster_first",
+      "headline_skeleton": "[State A], [State B], and [State C] Trail Subnational Policy Median at Foot of PSI Table",
+      "lede_rule": "Sentence 1 identifies the lowest-ranked entities lagging the baseline or median; Sentence 2 notes the score gap and any secondary indicator.",
+      "title": "Yobe, Taraba, and Sokoto Trail Subnational Policy Median on PSI Board",
+      "summary": "Yobe (6.0 PSI) leads the trailing tier while Zamfara holds 9.2 PSI.",
+      "social_excerpt": "Yobe, Taraba, and Sokoto Trail Subnational Policy Median on PSI Board\n\nYobe (6.0 PSI) leads the trailing tier while Zamfara holds 9.2 PSI.\n\nRead the full 37-jurisdiction brief: https://www.diplomantimes.com",
+      "labels": [
+        "News Report",
+        "Diploman Times",
+        "Governance Score",
+        "Yobe",
+        "Angle 14"
+      ],
+      "featured_image": {
+        "src": "",
+        "alt": "Yobe Governance Score Telemetry",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Trailing jurisdictions Yobe (6.0 PSI), Taraba (6.0 PSI), and Sokoto (6.0 PSI) sit at the foot of the 37-jurisdiction board on 2026-11-27, contrasting with leader Zamfara at 9.2 PSI.",
+      "story_body": [
+        "Leading Policy Signal Index positions across the 37 jurisdictions on 2026-11-27 stand at 1. Zamfara (9.2 PSI, +2.3), 2. Cross River (9.0 PSI, +0.3), and 3. Lagos (8.9 PSI, -0.2). Zamfara holds a 0.2-point margin over Cross River in the primary ranking.",
+        "On the State Instability Score side, notable readings include Zamfara (2.2 SIS, +2.2), Cross River (2.2 SIS, +2.2), and Lagos (2.2 SIS, +2.2), highlighting jurisdictions where secondary risk or instability indicators behave differently from top PSI totals.",
+        "Lower-ranked jurisdictions on the PSI board include Yobe (6.0 PSI, 0), Taraba (6.0 PSI, 0), and Sokoto (6.0 PSI, 0), illustrating the spread between frontrunners and trailing states as of 2026-11-27.",
+        "Regional distribution across geopolitical zones spans NW (7), SS (6), SW (6), NE (6), NC (7), SE (5), capturing broad subnational comparisons without relying on single-location snapshots."
+      ],
+      "queued_at_utc": "2026-11-26T21:28:42.920Z"
+    },
+    {
+      "type": "scored_brief",
       "id": "scored-gov-2026-11-26",
       "run_date_utc": "2026-11-26",
       "published": true,

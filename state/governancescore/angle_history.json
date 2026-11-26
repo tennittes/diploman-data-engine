@@ -37,6 +37,14 @@
       "angle_name": "thursday_weekly_rollover_anchor",
       "family": "temporal_rollover_trajectory",
       "opening_class": "rollover_first"
+    },
+    {
+      "run_date_utc": "2026-11-27",
+      "vertical": "governancescore",
+      "angle_id": "14",
+      "angle_name": "bottom_tier_drag_watch",
+      "family": "zonal_tier_league_clusters",
+      "opening_class": "cluster_first"
     }
   ]
 }
