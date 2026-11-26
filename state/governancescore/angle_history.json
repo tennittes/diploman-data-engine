@@ -29,6 +29,14 @@
       "angle_name": "midweek_inflection_point",
       "family": "temporal_rollover_trajectory",
       "opening_class": "qualifier_first"
+    },
+    {
+      "run_date_utc": "2026-11-26",
+      "vertical": "governancescore",
+      "angle_id": "23",
+      "angle_name": "thursday_weekly_rollover_anchor",
+      "family": "temporal_rollover_trajectory",
+      "opening_class": "rollover_first"
     }
   ]
 }

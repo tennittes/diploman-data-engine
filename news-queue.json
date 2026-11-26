@@ -2,6 +2,45 @@
   "newsReports": [
     {
       "type": "scored_brief",
+      "id": "scored-gov-2026-11-26",
+      "run_date_utc": "2026-11-26",
+      "published": false,
+      "target_url": "https://www.diplomantimes.com",
+      "vertical": "governancescore",
+      "state": "Lagos",
+      "source_domain": "https://governancescore.diplomantimes.com/",
+      "angle_id": "23",
+      "angle_name": "thursday_weekly_rollover_anchor",
+      "angle_family": "temporal_rollover_trajectory",
+      "opening_class": "rollover_first",
+      "headline_skeleton": "Weekly Governance Rollover: [State] Closes Window at [Score] PSI as [State B] Leads Stability",
+      "lede_rule": "Sentence 1 summarizes the 7-day window close or Thursday rollover headline result; Sentence 2 highlights the top performer and key metric divergence.",
+      "title": "Weekly Governance Rollover: Lagos Closes Window at 9.1 PSI as Lagos Leads Stability",
+      "summary": "Thursday weekly rollover confirms Lagos at 9.1 PSI across the 37 jurisdictions.",
+      "social_excerpt": "Weekly Governance Rollover: Lagos Closes Window at 9.1 PSI as Lagos Leads Stability\n\nThursday weekly rollover confirms Lagos at 9.1 PSI across the 37 jurisdictions.\n\nRead the full 37-jurisdiction brief: https://www.diplomantimes.com",
+      "labels": [
+        "News Report",
+        "Diploman Times",
+        "Governance Score",
+        "Lagos",
+        "Angle 23"
+      ],
+      "featured_image": {
+        "src": "",
+        "alt": "Lagos Governance Score Telemetry",
+        "target_url": "https://www.diplomantimes.com"
+      },
+      "lead_narrative": "Closing the Thursday weekly rollover window on 2026-11-26, Lagos finishes atop the 37-jurisdiction Policy Signal Index standings at 9.1 PSI, while Lagos anchors stability at 2.2 SIS.",
+      "story_body": [
+        "Leading Policy Signal Index positions across the 37 jurisdictions on 2026-11-26 stand at 1. Lagos (9.1 PSI, +0.6), 2. Adamawa (8.9 PSI, +2.6), and 3. Cross River (8.7 PSI, 0). Lagos holds a 0.2-point margin over Adamawa in the primary ranking.",
+        "On the State Instability Score side, notable readings include Lagos (2.2 SIS, +2.2), Adamawa (2.2 SIS, +2.2), and Cross River (2.2 SIS, 0), highlighting jurisdictions where secondary risk or instability indicators behave differently from top PSI totals.",
+        "Lower-ranked jurisdictions on the PSI board include Yobe (6.0 PSI, 0), Taraba (6.0 PSI, 0), and Sokoto (6.0 PSI, 0), illustrating the spread between frontrunners and trailing states as of 2026-11-26.",
+        "Regional distribution across geopolitical zones spans SW (6), NE (6), SS (6), SE (5), NW (7), NC (7), capturing broad subnational comparisons without relying on single-location snapshots."
+      ],
+      "queued_at_utc": "2026-11-26T08:04:10.888Z"
+    },
+    {
+      "type": "scored_brief",
       "id": "scored-gov-2026-11-25",
       "run_date_utc": "2026-11-25",
       "published": true,

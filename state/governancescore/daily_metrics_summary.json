@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-25",
+  "run_date_utc": "2026-11-26",
   "vertical": "governancescore",
   "jurisdiction_count": 37,
-  "top_primary_entity": "Kano",
+  "top_primary_entity": "Lagos",
   "top_primary_score": 9.1,
-  "maxPositiveDelta": 1.5,
-  "maxNegativeDelta": -2.2,
-  "flatTopWatchCount": 0,
+  "maxPositiveDelta": 2.6,
+  "maxNegativeDelta": -1.6,
+  "flatTopWatchCount": 1,
   "hasPostSpikeReversion": false,
   "creepStreakDays": 5,
   "hasPrimarySecondarySplit": false,
@@ -15,7 +15,7 @@
   "hasThroughputGap": false,
   "hasStabilityLead": false,
   "hasDualTopTier": true,
-  "maxZoneClusterCount": 1,
+  "maxZoneClusterCount": 3,
   "hasCorridorOrDerbyDriver": false,
   "isTopMarginTight": false,
   "hasBottomTierDrag": false,
@@ -31,123 +31,78 @@
   "leaders": {
     "primary_top3": [
       {
-        "entity": "Kano",
-        "zone": "NW",
+        "entity": "Lagos",
+        "zone": "SW",
         "score": 9.1,
-        "delta": 1.2
+        "delta": 0.6
       },
       {
-        "entity": "Plateau",
-        "zone": "NC",
-        "score": 8.9,
-        "delta": 1.5
-      },
-      {
-        "entity": "Gombe",
+        "entity": "Adamawa",
         "zone": "NE",
+        "score": 8.9,
+        "delta": 2.6
+      },
+      {
+        "entity": "Cross River",
+        "zone": "SS",
         "score": 8.7,
-        "delta": 0.1
+        "delta": 0
       }
     ],
     "secondary_top3": [
       {
-        "entity": "Kano",
-        "zone": "NW",
+        "entity": "Lagos",
+        "zone": "SW",
         "score": 2.2,
         "delta": 2.2
       },
       {
-        "entity": "Plateau",
-        "zone": "NC",
-        "score": 2.2,
-        "delta": 2.2
-      },
-      {
-        "entity": "Gombe",
+        "entity": "Adamawa",
         "zone": "NE",
         "score": 2.2,
         "delta": 2.2
+      },
+      {
+        "entity": "Cross River",
+        "zone": "SS",
+        "score": 2.2,
+        "delta": 0
       }
     ]
   },
   "jurisdictions": [
     {
-      "entity": "Kano",
-      "zone": "NW",
-      "headline": "Clears ₦37Bn of ₦48Bn Gratuity Backlog with Online Pension App, Launches Anti-Graft Monitoring for 484 Ward Ambulances & Opens TRAN Textile Conference",
-      "PSI": 9.1,
-      "PSI_delta": 1.2,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Plateau",
-      "zone": "NC",
-      "headline": "Launches United Nigeria Airlines Jos–Owerri/Kano Flights, Advances €42M AFD Water Rehabilitation & Deploys HOPE Health Data Tools",
-      "PSI": 8.9,
-      "PSI_delta": 1.5,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Gombe",
-      "zone": "NE",
-      "headline": "Commences Construction of 26 AGILE Secondary Schools Across 3 Senatorial Districts & Develops 2027–2029 M&E Improvement Plan with UNICEF",
-      "PSI": 8.7,
-      "PSI_delta": 0.1,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
       "entity": "Lagos",
       "zone": "SW",
-      "headline": "Schedules Ijegun–Ijagemo Road Commissioning, Launches Night Waste Evacuation with 10+ LAWMA Regions & Convenes LASISMA Retreat",
-      "PSI": 8.5,
-      "PSI_delta": -0.7,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Anambra",
-      "zone": "SE",
-      "headline": "Gov. Soludo Presents ₦893.44Bn 2027 Appropriation Bill ('Solution 2.0') with 77.53% Capital Expenditure",
-      "PSI": 8.3,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Abia",
-      "zone": "SE",
-      "headline": "Gov. Otti Advances PPP Partnership with China Harbour Engineering Company (CHEC) for Proposed Abia Sea Port City",
-      "PSI": 8.1,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Yobe",
-      "zone": "NE",
-      "headline": "Gov. Buni Presents ₦532.27Bn 2027 Budget Proposal ('Consolidation, Sustainability and Inclusive Growth') to State Assembly",
-      "PSI": 7.9,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Enugu",
-      "zone": "SE",
-      "headline": "Gov. Mbah Commences Revitalisation of Dormant State Agro-Industrial Assets Including Sunrise Flour Mills & Vegetable Oil Plants",
-      "PSI": 7.6,
+      "headline": "Reports Over ₦1Tn 2025 Investment Inflow & $50Bn IATF 2027 Target, Readies 280-Bed Ojo General Hospital & Renovates J. Randle Centre",
+      "PSI": 9.1,
       "PSI_delta": 0.6,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
-      "entity": "Borno",
+      "entity": "Adamawa",
       "zone": "NE",
-      "headline": "VP Shettima & Gov. Zulum Commission Reconstructed 180-Metre NEDC Fort (Galtimari) Bridge in Jere LGA",
-      "PSI": 7.5,
+      "headline": "EXCO Approves ₦1.4Bn ADSU Convocation Square, ₦249M GSS Madagali Quarters & 2027–2031 Demographic Roadmap; Partners NCC on Telecom Protection",
+      "PSI": 8.9,
+      "PSI_delta": 2.6,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Cross River",
+      "zone": "SS",
+      "headline": "Inaugurates Petty Traders Grant Committee (₦10k–₦100k), Launches UNICROSS–Zhejiang 3D Printing Training & Delivers ₦2M + Health Cover to Carnival Star",
+      "PSI": 8.7,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Ondo",
+      "zone": "SW",
+      "headline": "Procures & Flags Off Water Treatment Tablets in Ifedore LGA to Curb Schistosomiasis & Issues Statewide Heat Wave Public Health Alert",
+      "PSI": 8.1,
       "PSI_delta": 0,
       "SIS": 2.2,
       "SIS_delta": 0
@@ -155,110 +110,92 @@
     {
       "entity": "Edo",
       "zone": "SS",
-      "headline": "Oil & Gas Ministry Engages Dubril Oil on 2027 Work Programme, Wastewater Compliance & Host Community Trust Projects",
-      "PSI": 7.3,
-      "PSI_delta": -0.3,
+      "headline": "First Lady's Office Flags Off Free Surgeries for 100 Patients in Benin City & EWMB Conducts Benin Sanitation Inspection Tour",
+      "PSI": 7.8,
+      "PSI_delta": 0.5,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
-      "entity": "Bauchi",
+      "entity": "Gombe",
       "zone": "NE",
-      "headline": "Gov. Bala Mohammed Outlines Proposed 2027 'Budget of Consolidation' Prioritising Project Completion, Gratuities & Security",
-      "PSI": 7.2,
-      "PSI_delta": 0,
+      "headline": "Gov. Inuwa Yahaya Visits Lawanti Shooting Victims' Families, Donates ₦10M Support & Pledges Thorough Investigation",
+      "PSI": 7.6,
+      "PSI_delta": -1.1,
       "SIS": 2.2,
-      "SIS_delta": 0
+      "SIS_delta": 2.2
     },
     {
-      "entity": "Katsina",
-      "zone": "NW",
-      "headline": "Gov. Radda Establishes Investigative Committee & Suspends Official Engagements of Emir of Daura Over Assault Allegations",
+      "entity": "Oyo",
+      "zone": "SW",
+      "headline": "Gov. Makinde Advocates Productivity-Led Wealth Creation Over Allocation Dependence at Ibadan Leadership Conference",
+      "PSI": 7.4,
+      "PSI_delta": 0.5,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Abia",
+      "zone": "SE",
+      "headline": "Gov. Otti Administration Uncovers Alleged Plot to Vandalise Campaign Billboards & Offices, Warns of Severe Consequences",
+      "PSI": 7.2,
+      "PSI_delta": -0.9,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Bayelsa",
+      "zone": "SS",
+      "headline": "Gov. Diri Presents Prosthetic Leg, Salary Increase, Business Support & ₦250,000 Grant to Injured Farmer Defender in Ogbia LGA",
       "PSI": 7,
       "PSI_delta": 0,
       "SIS": 2.2,
       "SIS_delta": 0
     },
     {
-      "entity": "Oyo",
-      "zone": "SW",
-      "headline": "Gov. Makinde Calls for Socio-Political Reset at Book Launch, Opens 2026 Pacesetter Fair & Advances 3.79km Akala Road",
-      "PSI": 6.9,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Taraba",
-      "zone": "NE",
-      "headline": "Gov. Kefas Holds Follow-Up Talks with Works Minister Umahi in Abuja to Accelerate Wukari Road, Namnai & Ibi Bridges",
-      "PSI": 6.8,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Delta",
-      "zone": "SS",
-      "headline": "Gov. Oborevwori Visits Uduere Community in Ughelli North, Condemns Killings & Orders Arrest of Perpetrators",
-      "PSI": 6.7,
-      "PSI_delta": -0.4,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
-      "entity": "Rivers",
-      "zone": "SS",
-      "headline": "Gov. Fubara Closes 2026 Batch C Stream II NYSC Camp in Tai LGA, Charges Corps Members on Integrity & Skill Acquisition",
-      "PSI": 6.6,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Kaduna",
-      "zone": "NW",
-      "headline": "Information Commissioner Visits Fire-Damaged FRCN Kaduna Station, Pledges Support & Urges Preventive Fire Upgrades",
-      "PSI": 6.5,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Nasarawa",
-      "zone": "NC",
-      "headline": "Gov. Sule Chairs State Security Council Meeting & Welcomes Newly Deployed Police Commissioner and NSCDC Commandant",
-      "PSI": 6.4,
-      "PSI_delta": 0,
-      "SIS": 2.2,
-      "SIS_delta": 0
-    },
-    {
-      "entity": "Adamawa",
-      "zone": "NE",
-      "headline": "Ministry of Rural Infrastructure Engages Norwegian Refugee Council (NRC) on CDO Capacity Building Partnership",
-      "PSI": 6.3,
-      "PSI_delta": -1.8,
-      "SIS": 2.2,
-      "SIS_delta": 2.2
-    },
-    {
       "entity": "Zamfara",
       "zone": "NW",
-      "headline": "Health Ministry Delegation Participates in 67th National Council on Health to Align State UHC Reforms",
-      "PSI": 6.1,
-      "PSI_delta": -2.2,
+      "headline": "Federal Ministry of Water Resources Honours Zamfara RUWATSAN for Open Defecation Free (ODF) Status in Four LGAs",
+      "PSI": 6.9,
+      "PSI_delta": 0.8,
       "SIS": 2.2,
       "SIS_delta": 2.2
     },
     {
       "entity": "Osun",
       "zone": "SW",
-      "headline": "Gov. Adeleke Hosts Osun Youth Representatives at Pre-Inauguration Dinner on Innovation & Governance Inclusion",
-      "PSI": 6,
+      "headline": "Gov. Adeleke Delivers Pre-Inauguration State Broadcast Pledging Expanded Infrastructure, Social Services & Job Creation",
+      "PSI": 6.8,
+      "PSI_delta": 0.8,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Bauchi",
+      "zone": "NE",
+      "headline": "Gov. Bala Mohammed Hosts Medical Supply Firm Afrimed to Explore Hospital Supply Chain Partnership",
+      "PSI": 6.5,
+      "PSI_delta": -0.7,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
+    },
+    {
+      "entity": "Kebbi",
+      "zone": "NW",
+      "headline": "Kebbi Govt Engages Disqualified Nigerian Army 92 Regular Recruits Applicants & Approves Return Transport Allowance",
+      "PSI": 6.3,
       "PSI_delta": 0,
       "SIS": 2.2,
       "SIS_delta": 0
+    },
+    {
+      "entity": "Enugu",
+      "zone": "SE",
+      "headline": "Ministry of Works & Infrastructure Announces Temporary Single-Lane Closure on Abakaliki Road for Maintenance",
+      "PSI": 6,
+      "PSI_delta": -1.6,
+      "SIS": 2.2,
+      "SIS_delta": 2.2
     },
     {
       "entity": "Akwa Ibom",
@@ -270,8 +207,8 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Bayelsa",
-      "zone": "SS",
+      "entity": "Anambra",
+      "zone": "SE",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,
@@ -288,7 +225,16 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Cross River",
+      "entity": "Borno",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Delta",
       "zone": "SS",
       "headline": "",
       "PSI": 6,
@@ -342,7 +288,25 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Kebbi",
+      "entity": "Kaduna",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Kano",
+      "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Katsina",
       "zone": "NW",
       "headline": "",
       "PSI": 6,
@@ -369,6 +333,15 @@
       "SIS_delta": 0
     },
     {
+      "entity": "Nasarawa",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
       "entity": "Niger",
       "zone": "NC",
       "headline": "",
@@ -387,8 +360,17 @@
       "SIS_delta": 0
     },
     {
-      "entity": "Ondo",
-      "zone": "SW",
+      "entity": "Plateau",
+      "zone": "NC",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Rivers",
+      "zone": "SS",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,
@@ -398,6 +380,24 @@
     {
       "entity": "Sokoto",
       "zone": "NW",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Taraba",
+      "zone": "NE",
+      "headline": "",
+      "PSI": 6,
+      "PSI_delta": 0,
+      "SIS": 2.2,
+      "SIS_delta": 0
+    },
+    {
+      "entity": "Yobe",
+      "zone": "NE",
       "headline": "",
       "PSI": 6,
       "PSI_delta": 0,

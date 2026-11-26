@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "run_date_utc": "2026-11-25",
+  "run_date_utc": "2026-11-26",
   "vertical": "governancescore",
   "domain": "https://governancescore.diplomantimes.com/",
-  "is_thursday_rollover": false,
-  "selected_angle_id": "22",
-  "angle_name": "midweek_inflection_point",
+  "is_thursday_rollover": true,
+  "selected_angle_id": "23",
+  "angle_name": "thursday_weekly_rollover_anchor",
   "family": "temporal_rollover_trajectory",
-  "opening_class": "qualifier_first",
-  "headline_skeleton": "Midweek Policy Filings Reshape Subnational Rankings Ahead of Thursday Rollover",
-  "lede_rule": "Sentence 1 frames the midweek shift ahead of the Thursday rollover window; Sentence 2 names the key movers and exact scores.",
+  "opening_class": "rollover_first",
+  "headline_skeleton": "Weekly Governance Rollover: [State] Closes Window at [Score] PSI as [State B] Leads Stability",
+  "lede_rule": "Sentence 1 summarizes the 7-day window close or Thursday rollover headline result; Sentence 2 highlights the top performer and key metric divergence.",
   "weak_points_context": {
     "has_divergence": false,
     "top_club": null,
@@ -20,10 +20,11 @@
   "excluded_recent_ids": [
     "02",
     "05",
-    "12"
+    "12",
+    "22"
   ],
   "excluded_recent_families": [
-    "baseline_deviations",
-    "zonal_tier_league_clusters"
+    "zonal_tier_league_clusters",
+    "temporal_rollover_trajectory"
   ]
 }
