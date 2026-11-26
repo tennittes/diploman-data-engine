@@ -432,31 +432,41 @@ def build_news_report_html(item, governors_registry=None, commissioners_registry
     return optimize_blogger_images(raw_html)
 
 
-def find_queue_file_in_repo(repo_dir, override_folder=None):
+def _is_item_due(item, today_utc):
+    if not is_allowed_vertical(item) or item.get("published", False):
+        return False
+    item_run_date = str(item.get("run_date_utc") or "").strip()[:10]
+    if item_run_date and item_run_date > today_utc:
+        return False
+    return True
+
+
+def find_queue_file_in_repo(repo_dir, override_folder=None, today_utc=None):
     """Locates the active news-queue.json inside a given repository directory."""
     now = datetime.datetime.now(datetime.timezone.utc)
+    today_str = today_utc or now.strftime("%Y-%m-%d")
     month_key = now.strftime("%b").lower()
     current_month_folder = override_folder or f"{month_key}{now.year}"
     dynamic_target = os.path.join(repo_dir, current_month_folder, "news-queue.json")
     root_target = os.path.join(repo_dir, "news-queue.json")
 
-    def has_unpublished(path):
+    def has_due_unpublished(path):
         try:
             with open(path, "r", encoding="utf-8") as f:
                 content = json.load(f)
                 items = content.get("newsReports", []) if isinstance(content, dict) else content
-                return any(is_allowed_vertical(item) and not item.get("published", False) for item in items)
+                return any(_is_item_due(item, today_str) for item in items)
         except Exception:
             return False
 
-    if os.path.exists(dynamic_target) and has_unpublished(dynamic_target):
+    if os.path.exists(dynamic_target) and has_due_unpublished(dynamic_target):
         return dynamic_target
-    if os.path.exists(root_target) and has_unpublished(root_target):
+    if os.path.exists(root_target) and has_due_unpublished(root_target):
         return root_target
 
     all_queues = sorted(glob.glob(os.path.join(repo_dir, "**", "news-queue.json"), recursive=True), reverse=True)
     for q_path in all_queues:
-        if has_unpublished(q_path):
+        if has_due_unpublished(q_path):
             return q_path
 
     if os.path.exists(root_target):
@@ -493,8 +503,9 @@ def commit_and_push_repo(repo_dir, queue_file_path):
 
 
 def _queued_sort_key(item):
-    ts = str(item.get("queued_at_utc") or item.get("run_date_utc") or "")
-    return ts
+    run_date = str(item.get("run_date_utc") or "").strip()[:10]
+    queued_at = str(item.get("queued_at_utc") or "").strip()
+    return (run_date, queued_at)
 
 
 def publish_across_repos(
@@ -538,7 +549,7 @@ def publish_across_repos(
             print(f"Skipping missing repo directory: {repo_dir}")
             continue
 
-        queue_path = find_queue_file_in_repo(repo_dir, override_folder=target_folder)
+        queue_path = find_queue_file_in_repo(repo_dir, override_folder=target_folder, today_utc=today_utc)
         if not queue_path:
             print(f"No news-queue.json found in {repo_dir}")
             continue
@@ -564,14 +575,29 @@ def publish_across_repos(
                 v_k = str(entry.get("vertical", "")).strip().lower()
                 vertical_daily_counts[v_k] = max(vertical_daily_counts[v_k], max_per_vertical_daily)
 
-        unpublished_candidates = [
-            entry for entry in items if is_allowed_vertical(entry) and not entry.get("published", False)
-        ]
+        unpublished_candidates = []
+        held_future_count = 0
+        for entry in items:
+            if not is_allowed_vertical(entry) or entry.get("published", False):
+                continue
+            item_run_date = str(entry.get("run_date_utc") or "").strip()[:10]
+            if item_run_date and item_run_date > today_utc:
+                held_future_count += 1
+                print(
+                    f"[hold] Holding preloaded {entry.get('vertical')} brief '{entry.get('title')}' "
+                    f"(scheduled for {item_run_date} UTC; current UTC date is {today_utc})."
+                )
+                continue
+            unpublished_candidates.append(entry)
+
         if not unpublished_candidates:
-            print(f"[queue] No unpublished items found in {queue_path}.")
+            if held_future_count:
+                print(f"[queue] {held_future_count} future-dated brief(s) held in {queue_path}; none due on or before {today_utc} UTC.")
+            else:
+                print(f"[queue] No due unpublished items found in {queue_path} for <= {today_utc} UTC.")
             continue
 
-        # Sort newest first by queued_at_utc / run_date_utc, preserving reverse list order as tie-breaker
+        # Sort newest due date first by run_date_utc / queued_at_utc, preserving reverse list order as tie-breaker
         indexed_candidates = list(enumerate(reversed(unpublished_candidates)))
         indexed_candidates.sort(key=lambda pair: (_queued_sort_key(pair[1]), -pair[0]), reverse=True)
         ordered_candidates = [pair[1] for pair in indexed_candidates]
