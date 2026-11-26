@@ -1,11 +1,15 @@
 // scripts/queue_scored_brief.js — Generates Dynamic, Boilerplate-Free Scored Briefs Into news-queue.json
 const fs = require("fs");
 const path = require("path");
+const zlib = require("zlib");
 
 const DIPLOMAN_TIMES_URL = "https://www.diplomantimes.com";
 const FOOTBALL_REPO_RAW_BASE = "https://raw.githubusercontent.com/tennittes/diploman-football-tally/main";
 const FOOTBALL_FALLBACK_BANNER =
   "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEjynaVCtt3sYwWSMmZt6p3IJG5W9t1DwrfmFCawdojeihYVuNN75wZymwVLZ_fx6Ampvi6r7j1xQ1IhAkOcdfl4BrGf6Bs6xi_hkvmR6nHQXbr7KQyHbooyUOXqNW_TrZZiAkz5iSFglPx0irzR23AoBeG0Ren9o1ZV9GlRTNSYJqRcvaBHom2hXhvTM/s1080/Diploman%20Football%20Stats%20Logo.png";
+
+const CARD_WIDTH = 1200;
+const CARD_HEIGHT = 600;
 
 const SOCIAL_EXCERPT_CTA = {
   governancescore: "Read the full 37-jurisdiction brief:",
@@ -31,16 +35,6 @@ function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
 }
 
-function escapeXml(str) {
-  const amp = String.fromCharCode(38);
-  return String(str ?? "")
-    .replace(/\x26/g, `${amp}amp;`)
-    .replace(/\x3c/g, `${amp}lt;`)
-    .replace(/\x3e/g, `${amp}gt;`)
-    .replace(/\x22/g, `${amp}quot;`)
-    .replace(/\x27/g, `${amp}apos;`);
-}
-
 function formatDelta(val) {
   const n = Number(val ?? 0);
   if (!Number.isFinite(n)) return "0";
@@ -63,24 +57,461 @@ function formatList(items, formatter, conjunction = "and") {
   return `${formatted.slice(0, -1).join(", ")}, ${conjunction} ${formatted[formatted.length - 1]}`;
 }
 
+function pickCardVariantIndex(dateStr, angleId) {
+  const dayNum = Number(String(dateStr || "").replace(/-/g, ""));
+  const angleNum = Number(angleId || 1);
+  if (Number.isFinite(dayNum) && dayNum > 0) {
+    return (dayNum + (Number.isFinite(angleNum) ? angleNum : 0)) % 5;
+  }
+  return (Number.isFinite(angleNum) ? angleNum : 0) % 5;
+}
+
+/* ===========================
+   PURE NODE.JS 1200x600 PNG RENDERER (ZERO EXTERNAL DEPENDENCIES)
+   =========================== */
+const CRC_TABLE = (() => {
+  const tbl = new Uint32Array(256);
+  for (let n = 0; n < 256; n++) {
+    let c = n;
+    for (let k = 0; k < 8; k++) {
+      c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+    }
+    tbl[n] = c >>> 0;
+  }
+  return tbl;
+})();
+
+function crc32(buf) {
+  let c = 0xffffffff;
+  for (let i = 0; i < buf.length; i++) {
+    c = CRC_TABLE[(c ^ buf[i]) & 0xff] ^ (c >>> 8);
+  }
+  return (c ^ 0xffffffff) >>> 0;
+}
+
+function makePngChunk(typeStr, dataBuf) {
+  const typeBuf = Buffer.from(typeStr, "ascii");
+  const lenBuf = Buffer.alloc(4);
+  lenBuf.writeUInt32BE(dataBuf.length, 0);
+  const crcInput = Buffer.concat([typeBuf, dataBuf]);
+  const crcBuf = Buffer.alloc(4);
+  crcBuf.writeUInt32BE(crc32(crcInput), 0);
+  return Buffer.concat([lenBuf, typeBuf, dataBuf, crcBuf]);
+}
+
+function parseHexRgba(hex, alpha = 255) {
+  const clean = String(hex || "#0F172A").replace("#", "").trim();
+  const full =
+    clean.length === 3
+      ? clean[0] + clean[0] + clean[1] + clean[1] + clean[2] + clean[2]
+      : clean.padEnd(6, "0").slice(0, 6);
+  return [
+    parseInt(full.slice(0, 2), 16) || 0,
+    parseInt(full.slice(2, 4), 16) || 0,
+    parseInt(full.slice(4, 6), 16) || 0,
+    Math.max(0, Math.min(255, alpha))
+  ];
+}
+
+// 5x7 crisp glyph bitmap table
+const GLYPHS_5X7 = {
+  " ": ["00000", "00000", "00000", "00000", "00000", "00000", "00000"],
+  "!": ["00100", "00100", "00100", "00100", "00100", "00000", "00100"],
+  "\"": ["01010", "01010", "01010", "00000", "00000", "00000", "00000"],
+  "#": ["01010", "11111", "01010", "01010", "11111", "01010", "00000"],
+  "$": ["00100", "01111", "10100", "01110", "00101", "11110", "00100"],
+  "%": ["11001", "11010", "00100", "01000", "10110", "10011", "00000"],
+  "&": ["01100", "10010", "01100", "10101", "10010", "01101", "00000"],
+  "'": ["00100", "00100", "01000", "00000", "00000", "00000", "00000"],
+  "(": ["00010", "00100", "01000", "01000", "01000", "00100", "00010"],
+  ")": ["01000", "00100", "00010", "00010", "00010", "00100", "01000"],
+  "*": ["00000", "10101", "01110", "11111", "01110", "10101", "00000"],
+  "+": ["00000", "00100", "00100", "11111", "00100", "00100", "00000"],
+  ",": ["00000", "00000", "00000", "00000", "00110", "00110", "01100"],
+  "-": ["00000", "00000", "00000", "11111", "00000", "00000", "00000"],
+  ".": ["00000", "00000", "00000", "00000", "00000", "01100", "01100"],
+  "/": ["00001", "00010", "00100", "01000", "10000", "00000", "00000"],
+  "0": ["01110", "10001", "10011", "10101", "11001", "10001", "01110"],
+  "1": ["00100", "01100", "00100", "00100", "00100", "00100", "01110"],
+  "2": ["01110", "10001", "00001", "00110", "01000", "10000", "11111"],
+  "3": ["11110", "00001", "00001", "01110", "00001", "00001", "11110"],
+  "4": ["00010", "00110", "01010", "10010", "11111", "00010", "00010"],
+  "5": ["11111", "10000", "11110", "00001", "00001", "10001", "01110"],
+  "6": ["00110", "01000", "10000", "11110", "10001", "10001", "01110"],
+  "7": ["11111", "00001", "00010", "00100", "01000", "01000", "01000"],
+  "8": ["01110", "10001", "10001", "01110", "10001", "10001", "01110"],
+  "9": ["01110", "10001", "10001", "01111", "00001", "00010", "01100"],
+  ":": ["00000", "01100", "01100", "00000", "01100", "01100", "00000"],
+  ";": ["00000", "01100", "01100", "00000", "01100", "01100", "01000"],
+  "<": ["00010", "00100", "01000", "10000", "01000", "00100", "00010"],
+  "=": ["00000", "00000", "11111", "00000", "11111", "00000", "00000"],
+  ">": ["01000", "00100", "00010", "00001", "00010", "00100", "01000"],
+  "?": ["01110", "10001", "00010", "00100", "00100", "00000", "00100"],
+  "@": ["01110", "10001", "10111", "10101", "10111", "10000", "01110"],
+  "A": ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
+  "B": ["11110", "10001", "10001", "11110", "10001", "10001", "11110"],
+  "C": ["01110", "10001", "10000", "10000", "10000", "10001", "01110"],
+  "D": ["11100", "10010", "10001", "10001", "10001", "10010", "11100"],
+  "E": ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
+  "F": ["11111", "10000", "10000", "11110", "10000", "10000", "10000"],
+  "G": ["01110", "10001", "10000", "10111", "10001", "10001", "01111"],
+  "H": ["10001", "10001", "10001", "11111", "10001", "10001", "10001"],
+  "I": ["01110", "00100", "00100", "00100", "00100", "00100", "01110"],
+  "J": ["00111", "00010", "00010", "00010", "10010", "10010", "01100"],
+  "K": ["10001", "10010", "10100", "11000", "10100", "10010", "10001"],
+  "L": ["10000", "10000", "10000", "10000", "10000", "10000", "11111"],
+  "M": ["10001", "11011", "10101", "10101", "10001", "10001", "10001"],
+  "N": ["10001", "11001", "10101", "10011", "10001", "10001", "10001"],
+  "O": ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+  "P": ["11110", "10001", "10001", "11110", "10000", "10000", "10000"],
+  "Q": ["01110", "10001", "10001", "10001", "10101", "10010", "01101"],
+  "R": ["11110", "10001", "10001", "11110", "10100", "10010", "10001"],
+  "S": ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
+  "T": ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
+  "U": ["10001", "10001", "10001", "10001", "10001", "10001", "01110"],
+  "V": ["10001", "10001", "10001", "10001", "10001", "01010", "00100"],
+  "W": ["10001", "10001", "10001", "10101", "10101", "11011", "10001"],
+  "X": ["10001", "10001", "01010", "00100", "01010", "10001", "10001"],
+  "Y": ["10001", "10001", "01010", "00100", "00100", "00100", "00100"],
+  "Z": ["11111", "00001", "00010", "00100", "01000", "10000", "11111"],
+  "[": ["01110", "01000", "01000", "01000", "01000", "01000", "01110"],
+  "\\": ["10000", "01000", "00100", "00010", "00001", "00000", "00000"],
+  "]": ["01110", "00010", "00010", "00010", "00010", "00010", "01110"],
+  "^": ["00100", "01010", "10001", "00000", "00000", "00000", "00000"],
+  "_": ["00000", "00000", "00000", "00000", "00000", "00000", "11111"],
+  "`": ["01000", "00100", "00010", "00000", "00000", "00000", "00000"],
+  "a": ["00000", "00000", "01110", "00001", "01111", "10001", "01111"],
+  "b": ["10000", "10000", "11110", "10001", "10001", "10001", "11110"],
+  "c": ["00000", "00000", "01110", "10001", "10000", "10001", "01110"],
+  "d": ["00001", "00001", "01111", "10001", "10001", "10001", "01111"],
+  "e": ["00000", "00000", "01110", "10001", "11111", "10000", "01110"],
+  "f": ["00110", "01001", "01000", "11100", "01000", "01000", "01000"],
+  "g": ["00000", "00000", "01111", "10001", "10001", "01111", "00001"],
+  "h": ["10000", "10000", "11110", "10001", "10001", "10001", "10001"],
+  "i": ["00100", "00000", "01100", "00100", "00100", "00100", "01110"],
+  "j": ["00010", "00000", "00110", "00010", "00010", "10010", "01100"],
+  "k": ["10000", "10000", "10010", "10100", "11100", "10010", "10001"],
+  "l": ["01100", "00100", "00100", "00100", "00100", "00100", "01110"],
+  "m": ["00000", "00000", "11010", "10101", "10101", "10001", "10001"],
+  "n": ["00000", "00000", "11110", "10001", "10001", "10001", "10001"],
+  "o": ["00000", "00000", "01110", "10001", "10001", "10001", "01110"],
+  "p": ["00000", "00000", "11110", "10001", "10001", "11110", "10000"],
+  "q": ["00000", "00000", "01111", "10001", "10001", "01111", "00001"],
+  "r": ["00000", "00000", "10110", "11001", "10000", "10000", "10000"],
+  "s": ["00000", "00000", "01111", "10000", "01110", "00001", "11110"],
+  "t": ["01000", "01000", "11110", "01000", "01000", "01001", "00110"],
+  "u": ["00000", "00000", "10001", "10001", "10001", "10011", "01101"],
+  "v": ["00000", "00000", "10001", "10001", "10001", "01010", "00100"],
+  "w": ["00000", "00000", "10001", "10001", "10101", "10101", "01010"],
+  "x": ["00000", "00000", "10001", "01010", "00100", "01010", "10001"],
+  "y": ["00000", "00000", "10001", "10001", "01111", "00001", "01110"],
+  "z": ["00000", "00000", "11111", "00010", "00100", "01000", "11111"],
+  "|": ["00100", "00100", "00100", "00100", "00100", "00100", "00100"]
+};
+
+function sanitizeAsciiText(str) {
+  return String(str ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[•·]/g, "|")
+    .replace(/[—–]/g, "-")
+    .replace(/[^\x20-\x7E]/g, " ");
+}
+
+function createPixelCanvas(width, height) {
+  const buf = Buffer.alloc(width * height * 4, 0);
+
+  function setPixel(x, y, rgba) {
+    const ix = Math.round(x);
+    const iy = Math.round(y);
+    if (ix < 0 || iy < 0 || ix >= width || iy >= height) return;
+    const idx = (iy * width + ix) * 4;
+    const [sr, sg, sb, sa] = rgba;
+    if (sa >= 255) {
+      buf[idx] = sr;
+      buf[idx + 1] = sg;
+      buf[idx + 2] = sb;
+      buf[idx + 3] = 255;
+      return;
+    }
+    const alpha = sa / 255;
+    const inv = 1 - alpha;
+    buf[idx] = Math.round(sr * alpha + buf[idx] * inv);
+    buf[idx + 1] = Math.round(sg * alpha + buf[idx + 1] * inv);
+    buf[idx + 2] = Math.round(sb * alpha + buf[idx + 2] * inv);
+    buf[idx + 3] = Math.max(buf[idx + 3], Math.round(alpha * 255 + buf[idx + 3] * inv));
+  }
+
+  function fillGradientRect(x, y, w, h, topHex, bottomHex) {
+    const c1 = parseHexRgba(topHex, 255);
+    const c2 = parseHexRgba(bottomHex, 255);
+    const x0 = Math.max(0, Math.floor(x));
+    const y0 = Math.max(0, Math.floor(y));
+    const x1 = Math.min(width, Math.ceil(x + w));
+    const y1 = Math.min(height, Math.ceil(y + h));
+    for (let py = y0; py < y1; py++) {
+      const t = h > 1 ? Math.max(0, Math.min(1, (py - y) / (h - 1))) : 0;
+      const r = Math.round(c1[0] + (c2[0] - c1[0]) * t);
+      const g = Math.round(c1[1] + (c2[1] - c1[1]) * t);
+      const b = Math.round(c1[2] + (c2[2] - c1[2]) * t);
+      for (let px = x0; px < x1; px++) {
+        const idx = (py * width + px) * 4;
+        buf[idx] = r;
+        buf[idx + 1] = g;
+        buf[idx + 2] = b;
+        buf[idx + 3] = 255;
+      }
+    }
+  }
+
+  function fillRect(x, y, w, h, hex, alpha = 255) {
+    const rgba = parseHexRgba(hex, alpha);
+    const x0 = Math.max(0, Math.floor(x));
+    const y0 = Math.max(0, Math.floor(y));
+    const x1 = Math.min(width, Math.ceil(x + w));
+    const y1 = Math.min(height, Math.ceil(y + h));
+    for (let py = y0; py < y1; py++) {
+      for (let px = x0; px < x1; px++) {
+        setPixel(px, py, rgba);
+      }
+    }
+  }
+
+  function fillRoundRect(x, y, w, h, radius, hex, alpha = 255) {
+    const r = Math.max(0, Math.min(radius, Math.floor(w / 2), Math.floor(h / 2)));
+    if (r === 0) {
+      fillRect(x, y, w, h, hex, alpha);
+      return;
+    }
+    const rgba = parseHexRgba(hex, alpha);
+    const x0 = Math.max(0, Math.floor(x));
+    const y0 = Math.max(0, Math.floor(y));
+    const x1 = Math.min(width, Math.ceil(x + w));
+    const y1 = Math.min(height, Math.ceil(y + h));
+    const r2 = r * r;
+    const leftEdge = x + r;
+    const rightEdge = x + w - r;
+    const topEdge = y + r;
+    const bottomEdge = y + h - r;
+
+    for (let py = y0; py < y1; py++) {
+      for (let px = x0; px < x1; px++) {
+        let dx = 0;
+        let dy = 0;
+        if (px < leftEdge) dx = leftEdge - px - 0.5;
+        else if (px > rightEdge) dx = px - rightEdge - 0.5;
+        if (py < topEdge) dy = topEdge - py - 0.5;
+        else if (py > bottomEdge) dy = py - bottomEdge - 0.5;
+        if (dx * dx + dy * dy <= r2) {
+          setPixel(px, py, rgba);
+        }
+      }
+    }
+  }
+
+  function strokeRoundRect(x, y, w, h, radius, strokeW, hex, alpha = 255) {
+    const t = Math.max(1, strokeW);
+    fillRoundRect(x, y, w, t, Math.min(radius, t), hex, alpha);
+    fillRoundRect(x, y + h - t, w, t, Math.min(radius, t), hex, alpha);
+    fillRoundRect(x, y, t, h, Math.min(radius, t), hex, alpha);
+    fillRoundRect(x + w - t, y, t, h, Math.min(radius, t), hex, alpha);
+  }
+
+  function fillCircle(cx, cy, radius, hex, alpha = 255) {
+    const rgba = parseHexRgba(hex, alpha);
+    const x0 = Math.max(0, Math.floor(cx - radius));
+    const y0 = Math.max(0, Math.floor(cy - radius));
+    const x1 = Math.min(width, Math.ceil(cx + radius));
+    const y1 = Math.min(height, Math.ceil(cy + radius));
+    const r2 = radius * radius;
+    for (let py = y0; py < y1; py++) {
+      for (let px = x0; px < x1; px++) {
+        const dx = px - cx;
+        const dy = py - cy;
+        if (dx * dx + dy * dy <= r2) {
+          setPixel(px, py, rgba);
+        }
+      }
+    }
+  }
+
+  function measureText(text, scale = 2, letterSpacing = 1) {
+    const clean = sanitizeAsciiText(text);
+    if (!clean.length) return 0;
+    const charStep = (5 + letterSpacing) * scale;
+    return clean.length * charStep - letterSpacing * scale;
+  }
+
+  function drawText(text, x, y, options = {}) {
+    const scale = Math.max(1, Math.round(options.scale || 2));
+    const spacing = options.letterSpacing ?? 1;
+    const hex = options.color || "#FFFFFF";
+    const alpha = options.alpha ?? 255;
+    const align = options.align || "left";
+    const maxWidth = options.maxWidth || 0;
+    const rgba = parseHexRgba(hex, alpha);
+
+    let str = sanitizeAsciiText(text);
+    if (maxWidth > 0 && measureText(str, scale, spacing) > maxWidth) {
+      while (str.length > 1 && measureText(`${str}...`, scale, spacing) > maxWidth) {
+        str = str.slice(0, -1).trimEnd();
+      }
+      str = `${str}...`;
+    }
+
+    const totalW = measureText(str, scale, spacing);
+    let cursorX = x;
+    if (align === "center") cursorX = x - totalW / 2;
+    else if (align === "right") cursorX = x - totalW;
+
+    const charStep = (5 + spacing) * scale;
+    for (let i = 0; i < str.length; i++) {
+      const ch = str[i];
+      const glyph = GLYPHS_5X7[ch] || GLYPHS_5X7[ch.toUpperCase()] || GLYPHS_5X7[" "];
+      const gx0 = cursorX + i * charStep;
+      for (let row = 0; row < 7; row++) {
+        const bits = glyph[row];
+        for (let col = 0; col < 5; col++) {
+          if (bits[col] === "1") {
+            const px0 = gx0 + col * scale;
+            const py0 = y + row * scale;
+            for (let sy = 0; sy < scale; sy++) {
+              for (let sx = 0; sx < scale; sx++) {
+                setPixel(px0 + sx, py0 + sy, rgba);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  function encodePngBuffer() {
+    const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
+    const ihdr = Buffer.alloc(13);
+    ihdr.writeUInt32BE(width, 0);
+    ihdr.writeUInt32BE(height, 4);
+    ihdr[8] = 8; // bit depth
+    ihdr[9] = 6; // RGBA
+    ihdr[10] = 0;
+    ihdr[11] = 0;
+    ihdr[12] = 0;
+
+    const stride = width * 4;
+    const rawScanlines = Buffer.alloc((stride + 1) * height);
+    for (let row = 0; row < height; row++) {
+      const lineStart = row * (stride + 1);
+      rawScanlines[lineStart] = 0; // filter type 0
+      buf.copy(rawScanlines, lineStart + 1, row * stride, (row + 1) * stride);
+    }
+
+    const compressed = zlib.deflateSync(rawScanlines, { level: 6 });
+    return Buffer.concat([
+      signature,
+      makePngChunk("IHDR", ihdr),
+      makePngChunk("IDAT", compressed),
+      makePngChunk("IEND", Buffer.alloc(0))
+    ]);
+  }
+
+  return {
+    fillGradientRect,
+    fillRect,
+    fillRoundRect,
+    strokeRoundRect,
+    fillCircle,
+    measureText,
+    drawText,
+    encodePngBuffer
+  };
+}
+
+function drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor = "#2563EB" }) {
+  c.fillGradientRect(0, 0, CARD_WIDTH, CARD_HEIGHT, "#0F172A", "#172554");
+  c.fillRect(0, 0, CARD_WIDTH, 7, accentColor);
+
+  c.fillRoundRect(56, 26, 268, 28, 4, accentColor);
+  c.drawText("DIPLOMAN FOOTBALL STATS", 190, 36, {
+    color: "#FFFFFF",
+    scale: 2,
+    align: "center"
+  });
+
+  c.fillRoundRect(338, 26, 270, 28, 4, "#1E293B");
+  c.strokeRoundRect(338, 26, 270, 28, 4, 1, "#3B82F6");
+  c.drawText(`${leagueName.toUpperCase()} (${leagueCode})`, 473, 36, {
+    color: "#93C5FD",
+    scale: 2,
+    maxWidth: 254,
+    align: "center"
+  });
+
+  c.drawText(`${dateStr} UTC`, 1144, 36, {
+    color: "#94A3B8",
+    scale: 2,
+    align: "right"
+  });
+
+  c.drawText(focusTag.toUpperCase(), 56, 72, {
+    color: "#60A5FA",
+    scale: 2,
+    maxWidth: 1088
+  });
+
+  c.drawText(headline, 56, 98, {
+    color: "#FFFFFF",
+    scale: 3,
+    maxWidth: 1088
+  });
+}
+
+function drawCardFooterPng(c) {
+  c.fillRect(56, 548, 1088, 2, "#1E293B");
+  c.drawText("PROPRIETARY TWO-HALF TELEMETRY  |  WWW.DIPLOMANTIMES.COM", 56, 566, {
+    color: "#64748B",
+    scale: 2,
+    maxWidth: 1088
+  });
+}
+
 /**
- * Generates a 100% original, copyright-free 1200x675 SVG Telemetry Card
- * plotting DFT (Two-Half) vs STD (Full-Time) points for featured clubs.
+ * Generates one of five distinct 1200x600 PNG Telemetry Card layouts
+ * so consecutive Football Tally briefs stay visually varied.
  */
-function generateFootballTelemetryCardSvg({ dateStr, leagueName, leagueCode, focusTag, headline, rows }) {
+function generateFootballTelemetryCardPng({
+  dateStr,
+  angleId,
+  leagueName,
+  leagueCode,
+  focusTag,
+  headline,
+  rows,
+  otherLeagues = []
+}) {
+  const c = createPixelCanvas(CARD_WIDTH, CARD_HEIGHT);
   const safeRows = (Array.isArray(rows) ? rows : []).slice(0, 5);
-  const maxPts = Math.max(
-    20,
-    ...safeRows.map((r) => Math.max(Number(r.dft_pts || 0), Number(r.std_pts || 0)))
-  );
+  const variant = pickCardVariantIndex(dateStr, angleId);
 
-  const barMaxWidth = 540;
-  const startY = 235;
-  const rowGap = 76;
+  if (variant === 0) {
+    // Variant 0: Horizontal dual-bar DFT vs STD rows + WP badge
+    drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#2563EB" });
 
-  const barsSvg = safeRows
-    .map((r, i) => {
-      const y = startY + i * rowGap;
+    c.fillRect(56, 144, 14, 14, "#2563EB");
+    c.drawText("DFT (Two-Half Pts)", 78, 146, { color: "#CBD5E1", scale: 2 });
+
+    c.fillRect(285, 144, 14, 14, "#10B981");
+    c.drawText("STD (Full-Time Pts)", 307, 146, { color: "#CBD5E1", scale: 2 });
+
+    c.drawText("WP = STD MINUS DFT", 1144, 146, { color: "#94A3B8", scale: 2, align: "right" });
+
+    const maxPts = Math.max(
+      20,
+      ...safeRows.map((r) => Math.max(Number(r.dft_pts || 0), Number(r.std_pts || 0)))
+    );
+    const barMaxWidth = 490;
+
+    safeRows.forEach((r, i) => {
+      const y = 172 + i * 72;
       const dft = Number(r.dft_pts || 0);
       const std = Number(r.std_pts || 0);
       const wp = formatDelta(r.weak_points ?? std - dft);
@@ -88,62 +519,183 @@ function generateFootballTelemetryCardSvg({ dateStr, leagueName, leagueCode, foc
       const stdW = Math.max(12, Math.round((std / maxPts) * barMaxWidth));
       const rank = String(i + 1).padStart(2, "0");
 
-      return `
-      <g transform="translate(64, ${y})">
-        <rect x="0" y="0" width="1072" height="62" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-        <text x="20" y="37" fill="#60A5FA" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="900">${rank}</text>
-        <text x="58" y="37" fill="#F8FAFC" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="19" font-weight="800">${escapeXml(r.club)}</text>
+      c.fillRoundRect(56, y, 1088, 60, 6, "#1E293B");
+      c.strokeRoundRect(56, y, 1088, 60, 6, 1, "#334155");
+      c.drawText(rank, 76, y + 22, { color: "#60A5FA", scale: 2 });
+      c.drawText(r.club, 114, y + 20, { color: "#F8FAFC", scale: 3, maxWidth: 215 });
 
-        <rect x="330" y="13" width="${dftW}" height="15" rx="3" fill="#2563EB"/>
-        <text x="${330 + dftW + 10}" y="25" fill="#93C5FD" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="800">${dft} DFT</text>
+      c.fillRoundRect(342, y + 10, dftW, 15, 3, "#2563EB");
+      c.drawText(`${dft} DFT`, 352 + dftW, y + 12, { color: "#93C5FD", scale: 2 });
 
-        <rect x="330" y="34" width="${stdW}" height="15" rx="3" fill="#10B981"/>
-        <text x="${330 + stdW + 10}" y="46" fill="#6EE7B7" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="800">${std} STD</text>
+      c.fillRoundRect(342, y + 34, stdW, 15, 3, "#10B981");
+      c.drawText(`${std} STD`, 352 + stdW, y + 36, { color: "#6EE7B7", scale: 2 });
 
-        <rect x="955" y="15" width="96" height="32" rx="4" fill="#0F172A" stroke="#3B82F6" stroke-width="1"/>
-        <text x="1003" y="36" text-anchor="middle" fill="#F8FAFC" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="900">${escapeXml(wp)} WP</text>
-      </g>`;
-    })
-    .join("\n");
+      c.fillRoundRect(1022, y + 13, 106, 34, 5, "#0F172A");
+      c.strokeRoundRect(1022, y + 13, 106, 34, 5, 1, "#3B82F6");
+      c.drawText(`${wp} WP`, 1075, y + 24, { color: "#F8FAFC", scale: 2, align: "center" });
+    });
 
-  const shortHeadline =
-    headline.length > 74 ? `${headline.slice(0, 71).replace(/\s+\S*$/, "")}...` : headline;
+    drawCardFooterPng(c);
+  } else if (variant === 1) {
+    // Variant 1: Split two-column layout (Left: Ranked Club Cards, Right: Benchmark Snapshot)
+    drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#0EA5E9" });
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="${escapeXml(headline)}">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#172554"/>
-    </linearGradient>
-  </defs>
+    safeRows.slice(0, 4).forEach((r, i) => {
+      const y = 148 + i * 96;
+      const dft = Number(r.dft_pts || 0);
+      const std = Number(r.std_pts || 0);
+      const wp = formatDelta(r.weak_points ?? std - dft);
 
-  <rect width="1200" height="675" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="1200" height="8" fill="#2563EB"/>
+      c.fillRoundRect(56, y, 650, 84, 8, "#1E293B");
+      c.strokeRoundRect(56, y, 650, 84, 8, 1, "#334155");
+      c.fillCircle(94, y + 42, 18, "#2563EB");
+      c.drawText(String(i + 1), 94, y + 36, { color: "#FFFFFF", scale: 2, align: "center" });
+      c.drawText(r.club, 128, y + 18, { color: "#F8FAFC", scale: 3, maxWidth: 440 });
+      c.drawText(`Two-Half: ${dft} pts | Full-Time: ${std} pts`, 128, y + 52, {
+        color: "#94A3B8",
+        scale: 2,
+        maxWidth: 440
+      });
 
-  <rect x="64" y="42" width="275" height="34" rx="4" fill="#2563EB"/>
-  <text x="201" y="64" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="900" letter-spacing="1.2">DIPLOMAN FOOTBALL STATS</text>
+      c.fillRoundRect(584, y + 24, 106, 36, 5, "#0F172A");
+      c.strokeRoundRect(584, y + 24, 106, 36, 5, 1, "#60A5FA");
+      c.drawText(`${wp} WP`, 637, y + 36, { color: "#93C5FD", scale: 2, align: "center" });
+    });
 
-  <rect x="352" y="42" width="230" height="34" rx="4" fill="#1E293B" stroke="#3B82F6" stroke-width="1"/>
-  <text x="467" y="64" text-anchor="middle" fill="#93C5FD" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="800" letter-spacing="0.8">${escapeXml(leagueName.toUpperCase())} (${escapeXml(leagueCode)})</text>
+    const topClub = safeRows[0] || { club: leagueName, dft_pts: 0, std_pts: 0, weak_points: 0 };
+    c.fillRoundRect(726, 148, 418, 372, 8, "#1E293B");
+    c.strokeRoundRect(726, 148, 418, 372, 8, 1, "#334155");
+    c.drawText("BENCHMARK SNAPSHOT", 746, 170, { color: "#60A5FA", scale: 2 });
+    c.drawText(`${topClub.club} (${Number(topClub.dft_pts || 0)} DFT)`, 746, 198, {
+      color: "#FFFFFF",
+      scale: 2,
+      maxWidth: 380
+    });
 
-  <text x="1136" y="65" text-anchor="end" fill="#94A3B8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="800" letter-spacing="0.6">${escapeXml(dateStr)} UTC</text>
+    safeRows.slice(0, 3).forEach((r, idx) => {
+      const ny = 242 + idx * 84;
+      const wp = formatDelta(r.weak_points ?? Number(r.std_pts || 0) - Number(r.dft_pts || 0));
+      c.fillRoundRect(746, ny, 378, 70, 6, "#0F172A");
+      c.strokeRoundRect(746, ny, 378, 70, 6, 1, "#1E293B");
+      c.drawText(r.club, 762, ny + 14, { color: "#F8FAFC", scale: 2, maxWidth: 346 });
+      c.drawText(`DFT ${Number(r.dft_pts || 0)} | STD ${Number(r.std_pts || 0)} | WP ${wp}`, 762, ny + 40, {
+        color: "#6EE7B7",
+        scale: 2,
+        maxWidth: 346
+      });
+    });
 
-  <text x="64" y="122" fill="#60A5FA" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="900" letter-spacing="1.4">${escapeXml(focusTag.toUpperCase())}</text>
-  <text x="64" y="162" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="27" font-weight="900">${escapeXml(shortHeadline)}</text>
+    drawCardFooterPng(c);
+  } else if (variant === 2) {
+    // Variant 2: Weak Points (WP) & Half-Split Matrix Cards
+    drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#10B981" });
 
-  <rect x="64" y="190" width="14" height="14" rx="2" fill="#2563EB"/>
-  <text x="86" y="202" fill="#CBD5E1" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">DFT (Two-Half Points)</text>
+    safeRows.forEach((r, i) => {
+      const y = 148 + i * 76;
+      const dft = Number(r.dft_pts || 0);
+      const std = Number(r.std_pts || 0);
+      const wpNum = Number(r.weak_points ?? std - dft);
+      const wpText = formatDelta(wpNum);
+      const badgeColor = wpNum > 0 ? "#10B981" : wpNum < 0 ? "#F59E0B" : "#60A5FA";
 
-  <rect x="275" y="190" width="14" height="14" rx="2" fill="#10B981"/>
-  <text x="297" y="202" fill="#CBD5E1" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">STD (Full-Time Points)</text>
+      c.fillRoundRect(56, y, 1088, 64, 6, "#1E293B");
+      c.strokeRoundRect(56, y, 1088, 64, 6, 1, "#334155");
+      c.fillRoundRect(72, y + 14, 42, 36, 4, "#0F172A");
+      c.drawText(`#${i + 1}`, 93, y + 26, { color: "#93C5FD", scale: 2, align: "center" });
+      c.drawText(r.club, 128, y + 20, { color: "#F8FAFC", scale: 3, maxWidth: 420 });
+      c.drawText(`DFT: ${dft} pts`, 565, y + 26, { color: "#93C5FD", scale: 2 });
+      c.drawText(`STD: ${std} pts`, 740, y + 26, { color: "#6EE7B7", scale: 2 });
 
-  <text x="1136" y="202" text-anchor="end" fill="#94A3B8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">WP = STD MINUS DFT DIFFERENTIAL</text>
+      c.fillRoundRect(974, y + 13, 154, 38, 5, "#0F172A");
+      c.strokeRoundRect(974, y + 13, 154, 38, 5, 2, badgeColor);
+      c.drawText(`WP ${wpText}`, 1051, y + 26, { color: badgeColor, scale: 2, align: "center" });
+    });
 
-  ${barsSvg}
+    drawCardFooterPng(c);
+  } else if (variant === 3) {
+    // Variant 3: Two-column club grid + bottom Multi-League DFT Leaders strip
+    drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#3B82F6" });
 
-  <text x="64" y="644" fill="#64748B" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">PROPRIETARY TWO-HALF TELEMETRY • WWW.DIPLOMANTIMES.COM</text>
-</svg>`;
+    safeRows.slice(0, 4).forEach((r, i) => {
+      const col = i % 2;
+      const row = Math.floor(i / 2);
+      const x = 56 + col * 556;
+      const y = 148 + row * 110;
+      const dft = Number(r.dft_pts || 0);
+      const std = Number(r.std_pts || 0);
+      const wp = formatDelta(r.weak_points ?? std - dft);
+
+      c.fillRoundRect(x, y, 532, 98, 8, "#1E293B");
+      c.strokeRoundRect(x, y, 532, 98, 8, 1, "#334155");
+      c.drawText(`RANK 0${i + 1}`, x + 18, y + 14, { color: "#60A5FA", scale: 2 });
+      c.drawText(r.club, x + 18, y + 36, { color: "#F8FAFC", scale: 3, maxWidth: 380 });
+      c.drawText(`Two-Half: ${dft} | Standard: ${std}`, x + 18, y + 70, {
+        color: "#CBD5E1",
+        scale: 2,
+        maxWidth: 380
+      });
+
+      c.fillRoundRect(x + 412, y + 30, 102, 38, 5, "#0F172A");
+      c.strokeRoundRect(x + 412, y + 30, 102, 38, 5, 1, "#3B82F6");
+      c.drawText(`${wp} WP`, x + 463, y + 43, { color: "#FFFFFF", scale: 2, align: "center" });
+    });
+
+    const leagueStripText = (Array.isArray(otherLeagues) ? otherLeagues : [])
+      .slice(0, 4)
+      .map((l) => `${l.code || l.name}: ${l.dft_leader} (${l.dft_leader_pts} DFT)`)
+      .join(" | ");
+
+    c.fillRoundRect(56, 382, 1088, 146, 8, "#1E293B");
+    c.strokeRoundRect(56, 382, 1088, 146, 8, 1, "#334155");
+    c.drawText("MULTI-LEAGUE DFT LEADERS", 78, 404, { color: "#60A5FA", scale: 2 });
+    c.drawText(leagueStripText || `${leagueName} (${leagueCode}) Two-Half Telemetry Active`, 78, 440, {
+      color: "#F8FAFC",
+      scale: 2,
+      maxWidth: 1044
+    });
+    c.drawText("Tracked across two-half points (DFT), full-time points (STD), and Weak Points (WP).", 78, 480, {
+      color: "#94A3B8",
+      scale: 2,
+      maxWidth: 1044
+    });
+
+    drawCardFooterPng(c);
+  } else {
+    // Variant 4: Top 3 KPI callout boxes + compact remaining rows
+    drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#2563EB" });
+
+    safeRows.slice(0, 3).forEach((r, i) => {
+      const bx = 56 + i * 372;
+      const dft = Number(r.dft_pts || 0);
+      const std = Number(r.std_pts || 0);
+      const wp = formatDelta(r.weak_points ?? std - dft);
+
+      c.fillRoundRect(bx, 148, 344, 178, 8, "#1E293B");
+      c.strokeRoundRect(bx, 148, 344, 178, 8, i === 0 ? 2 : 1, i === 0 ? "#60A5FA" : "#334155");
+      c.drawText(`NO. 0${i + 1} IN ${leagueCode}`, bx + 18, 168, { color: "#93C5FD", scale: 2 });
+      c.drawText(r.club, bx + 18, 194, { color: "#FFFFFF", scale: 3, maxWidth: 308 });
+      c.drawText(`${dft} DFT`, bx + 18, 236, { color: "#60A5FA", scale: 3 });
+      c.drawText(`${std} STD`, bx + 180, 240, { color: "#6EE7B7", scale: 2 });
+      c.drawText(`WP Differential: ${wp}`, bx + 18, 286, { color: "#94A3B8", scale: 2, maxWidth: 308 });
+    });
+
+    safeRows.slice(3, 5).forEach((r, idx) => {
+      const ly = 348 + idx * 86;
+      const dft = Number(r.dft_pts || 0);
+      const std = Number(r.std_pts || 0);
+      const wp = formatDelta(r.weak_points ?? std - dft);
+
+      c.fillRoundRect(56, ly, 1088, 72, 6, "#1E293B");
+      c.strokeRoundRect(56, ly, 1088, 72, 6, 1, "#334155");
+      c.drawText(`0${idx + 4}  ${r.club}`, 76, ly + 24, { color: "#F8FAFC", scale: 3, maxWidth: 460 });
+      c.drawText(`${dft} DFT  /  ${std} STD`, 560, ly + 29, { color: "#93C5FD", scale: 2 });
+      c.drawText(`${wp} WP`, 1124, ly + 29, { color: "#6EE7B7", scale: 2, align: "right" });
+    });
+
+    drawCardFooterPng(c);
+  }
+
+  return c.encodePngBuffer();
 }
 
 function buildFootballDraft(selection, metrics, dateStr, repoRoot) {
@@ -453,21 +1005,23 @@ function buildFootballDraft(selection, metrics, dateStr, repoRoot) {
 
   let imageSrc = FOOTBALL_FALLBACK_BANNER;
   try {
-    const relCardPath = path.posix.join("assets", "cards", `ftb-${dateStr}.svg`);
-    const absCardPath = path.join(repoRoot || ".", "assets", "cards", `ftb-${dateStr}.svg`);
-    const svgMarkup = generateFootballTelemetryCardSvg({
+    const relCardPath = path.posix.join("assets", "cards", `ftb-${dateStr}.png`);
+    const absCardPath = path.join(repoRoot || ".", "assets", "cards", `ftb-${dateStr}.png`);
+    const pngBuffer = generateFootballTelemetryCardPng({
       dateStr,
+      angleId,
       leagueName,
       leagueCode,
       focusTag,
       headline: title,
-      rows: chartRows
+      rows: chartRows,
+      otherLeagues
     });
     fs.mkdirSync(path.dirname(absCardPath), { recursive: true });
-    fs.writeFileSync(absCardPath, svgMarkup, "utf8");
+    fs.writeFileSync(absCardPath, pngBuffer);
     imageSrc = `${FOOTBALL_REPO_RAW_BASE}/${relCardPath}`;
   } catch (err) {
-    console.warn(`Warning: Could not write Football telemetry SVG card: ${err.message}`);
+    console.warn(`Warning: Could not write Football telemetry PNG card: ${err.message}`);
   }
 
   return {
@@ -560,7 +1114,6 @@ function buildJurisdictionDraft(vertical, selection, metrics, dateStr) {
   const tailTwo = trailing[1] || tailOne;
   const tailThree = trailing[2] || tailTwo;
 
-  // Compute top geopolitical zone by average primary score
   const zoneStats = {};
   for (const r of jurisdictions) {
     const z = r.zone || "NC";
@@ -918,7 +1471,10 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
   }
   const metrics = loadJson(metricsPath, {});
   const existingQueue = loadJson(queuePath, { newsReports: [] });
-  const repoRoot = path.dirname(path.resolve(queuePath));
+  const resolvedQueueDir = path.dirname(path.resolve(queuePath));
+  const repoRoot = /^[a-z]{3}\d{4}$/i.test(path.basename(resolvedQueueDir))
+    ? path.dirname(resolvedQueueDir)
+    : resolvedQueueDir;
 
   const prefixMap = {
     governancescore: "scored-gov",
