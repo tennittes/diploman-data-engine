@@ -5010,6 +5010,310 @@
           "whyItMatters": "Maintains arterial road quality and issues timely traffic management advisories for Enugu motorists."
         },
         "intent": "Executing preventive arterial road maintenance while minimizing commuter disruption."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "ZAMFARA",
+        "stateName": "Zamfara State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Commissions 1,000 Forest Guards, Proposes ₦10M Per-Ward Security Grants Across 147 Wards, Revives Road Agency ZAROMA & Delivers Crash Relief",
+        "psi": 9.2,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Commissions 1,000 Forest Guards, Proposes ₦10M Per-Ward Security Grants Across 147 Wards, Revives Road Agency ZAROMA & Delivers Crash Relief",
+          "whatHappened": "Gov. Dauda Lawal commissioned 1,000 newly trained Forest Guards across 13 LGAs with logistics support, proposed ₦10 million per ward across all 147 wards for community youth security volunteers while reiterating zero negotiation with bandits, reactivated the Zamfara State Roads Maintenance Agency (ZAROMA) to rehabilitate Takama Road in Gusau, and dispatched Deputy Gov. Mani Malam Mummuni alongside Sen. Abdulaziz Yari (who donated ₦52.5m and 275 grain bags) to deliver cash and food relief to Gummi road crash victims.",
+          "whyItMatters": "Combines grassroots anti-banditry force multiplication and road maintenance revival with major humanitarian relief for bereaved families."
+        },
+        "intent": "Deploying community-anchored anti-banditry forces, reviving road maintenance infrastructure, and delivering emergency crash relief."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "CROSS RIVER",
+        "stateName": "Cross River State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Launches Mastercard-Backed ICT Training for 2,500 Young Women (2,000 Guaranteed Jobs), Inspects ₦165M Obubra PHC & Supports Obudu Quadruplets",
+        "psi": 9.0,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Launches Mastercard-Backed ICT Training for 2,500 Young Women (2,000 Guaranteed Jobs), Inspects ₦165M Obubra PHC & Supports Obudu Quadruplets",
+          "whatHappened": "Cross River signed an MoU for the Mastercard Foundation-backed Technology Talent Service (TTS) programme to train 2,500 young women across all 18 LGAs with 2,000 guaranteed remote jobs (reserving 10% for women with disabilities and 5% for IDPs); Health Commissioner Dr. Henry Egbe Ayuk inspected the new ₦165 million Apiapum Primary Health Centre with staff quarters in Obubra LGA; and First Lady Bishop Eyoawan Otu donated ₦300,000 and household supplies to the Obudu quadruplets.",
+          "whyItMatters": "Pairs guaranteed digital employment for marginalized women with round-the-clock primary healthcare infrastructure and sustained family welfare."
+        },
+        "intent": "Expanding inclusive digital employment, primary healthcare facilities, and targeted maternal-child welfare."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "LAGOS",
+        "stateName": "Lagos State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Graduates 1,200 Up-Skilled Artisans with Tools, Hosts 2,500+ at Lagos Job Fair 2026, Equips PLHIV Entrepreneurs & Trains Teachers on Resilience",
+        "psi": 8.9,
+        "intensity": "OPTIMUM",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Graduates 1,200 Up-Skilled Artisans with Tools, Hosts 2,500+ at Lagos Job Fair 2026, Equips PLHIV Entrepreneurs & Trains Teachers on Resilience",
+          "whatHappened": "Gov. Babajide Sanwo-Olu graduated 1,200 up-skilled tradesmen and artisans with working kits in Ikeja; hosted over 2,500 job seekers at the Lagos Employment Summit 4.0 Job Fair 2026 at UNILAG targeting 250+ verified jobs; empowered People Living with HIV with vocational equipment via LSACA ahead of World AIDS Day; and trained senior secondary teachers on school disaster risk assessment via LASRO.",
+          "whyItMatters": "Reinforces human capital development, vocational entrepreneurship, inclusive economic empowerment, and school safety resilience."
+        },
+        "intent": "Driving vocational upskilling, youth job placement, inclusive PLHIV livelihoods, and school disaster preparedness."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "EDO",
+        "stateName": "Edo State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Flags Off 10.89km Evbareke Market Road & 19 Streets, Launches State-Local Civil Service Council, Trains Principals on Security & Pays Twin Medical Bills",
+        "psi": 8.8,
+        "intensity": "HIGH",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Flags Off 10.89km Evbareke Market Road & 19 Streets, Launches State-Local Civil Service Council, Trains Principals on Security & Pays Twin Medical Bills",
+          "whatHappened": "Gov. Monday Okpebholo flagged off construction of the 10.89km Evbareke Spare Parts Market Road and 19 adjoining streets in Egor LGA; HOS Dr. Anthony Okungbowa unveiled the pioneering State-Local Civil Service Collaborative Council; Gov. Okpebholo charged South-South school principals on campus security while pledging 3,000 new teacher hires; and First Lady's Office Coordinator Mrs. Edesili Anani offset a ₦500,000+ hospital bill for a mother of newborn twins.",
+          "whyItMatters": "Combines major commercial road infrastructure and civil service reform with school security strengthening and maternal healthcare relief."
+        },
+        "intent": "Upgrading commercial road networks, harmonizing state-local civil service delivery, and reinforcing school safety."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "KATSINA",
+        "stateName": "Katsina State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Katsina GDP Expands 11.53% to ₦10.13 Trillion as Gov. Radda Wins National Security Governance Award",
+        "psi": 8.6,
+        "intensity": "HIGH",
+        "momentum": "Accelerating",
+        "impactMatrix": {
+          "headline": "Katsina GDP Expands 11.53% to ₦10.13 Trillion as Gov. Radda Wins National Security Governance Award",
+          "whatHappened": "The Katsina State GDP Report 2024–2025 (compiled with NBS and the World Bank) confirmed nominal economic expansion of 11.53% from ₦9.08 trillion to ₦10.13 trillion driven by services (53.60%), agriculture (₦2.41tn), and manufacturing (₦1.72tn), while Gov. Dikko Umaru Radda was named Governor of the Year on Security by Nigerian NewsDirect for establishing the Community Watch Corps.",
+          "whyItMatters": "Demonstrates measurable macroeconomic diversification alongside national recognition for community-based security reforms."
+        },
+        "intent": "Translating ₦10.13 trillion GDP growth and community security gains into higher household incomes and investment."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "AKWA IBOM",
+        "stateName": "Akwa Ibom State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Eno Advances NSIA–OCP 2.5M MTPA Ammonia & Fertilizer Plant in Ikot Abasi and Plans Creative Village with ISFF",
+        "psi": 8.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Eno Advances NSIA–OCP 2.5M MTPA Ammonia & Fertilizer Plant in Ikot Abasi and Plans Creative Village with ISFF",
+          "whatHappened": "Gov. Umo Eno hosted NSIA MD Aminu Umar-Sadiq and Morocco's OCP Group executives in Uyo to advance construction of an Ikot Abasi industrial complex producing 1.5 million MTPA of ammonia and 1 million MTPA of specialty fertilizers, while also receiving ISFF CEO Chief Lancelot Imasuen to reaffirm plans for a state Creative Village ahead of Christmas Unplugged 4.0.",
+          "whyItMatters": "Positions Akwa Ibom as a major West African fertilizer manufacturing hub while expanding creative tourism infrastructure."
+        },
+        "intent": "Facilitating large-scale industrial fertilizer production and creative economy infrastructure."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "GOMBE",
+        "stateName": "Gombe State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Flags Off 12.7km Tudu Kwaya–Panguru Road, Commissions Billiri West LCDA Secretariat & Validates 3-Year UNICEF M&E Roadmap",
+        "psi": 8.3,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Flags Off 12.7km Tudu Kwaya–Panguru Road, Commissions Billiri West LCDA Secretariat & Validates 3-Year UNICEF M&E Roadmap",
+          "whatHappened": "Gov. Muhammadu Inuwa Yahaya flagged off the 12.7km first section of the Ayaba–Kwaya–Tudu–Kuran Mota–Panguru Road (with 30% contractor mobilization paid), commissioned the solar-powered Billiri West LCDA Secretariat ahead of December 1 LCDA operations, and closed the UNICEF-backed workshop validating Gombe's three-year M&E roadmap.",
+          "whyItMatters": "Extends rural road connectivity beyond 1,120km constructed, operationalizes decentralized LCDA administration, and institutionalizes project M&E."
+        },
+        "intent": "Expanding rural road corridors, operationalizing local council development areas, and embedding M&E accountability."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "NIGER",
+        "stateName": "Niger State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Bago Visits Borgu Clash Victims with ₦148M Relief & Orders Inquiry; Receives Judicial Panel Report on 37 Miners' Deaths",
+        "psi": 8.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Bago Visits Borgu Clash Victims with ₦148M Relief & Orders Inquiry; Receives Judicial Panel Report on 37 Miners' Deaths",
+          "whatHappened": "Gov. Mohammed Umaru Bago visited Borgu Emirate following communal clashes, ordering a thorough investigation and announcing ₦2 million each (₦148m total) plus foodstuffs and building materials for 74 bereaved families, and separately received the three-volume Judicial Commission of Inquiry report on the deaths of 37 artisanal miners in NSCDC custody, pledging full implementation.",
+          "whyItMatters": "Demonstrates decisive rule-of-law accountability alongside substantial humanitarian reconstruction aid for conflict-affected families."
+        },
+        "intent": "Enforcing judicial inquiry recommendations, restoring communal peace in Borgu, and rebuilding affected households."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "ENUGU",
+        "stateName": "Enugu State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Mbah Inspects Marriott-Managed Enugu Five-Star Hotel & Opens 40km Rural Connectivity Dual Carriageway",
+        "psi": 7.9,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Mbah Inspects Marriott-Managed Enugu Five-Star Hotel & Opens 40km Rural Connectivity Dual Carriageway",
+          "whatHappened": "Gov. Peter Mbah conducted an unscheduled inspection of the ongoing Enugu Five-Star Hotel to be managed by Marriott International and opened Phase One of a 40km dual carriageway cutting across Nkanu East, Isi-Uzo, and Udenu LGAs to divert northbound heavy-duty trucks from Enugu metropolis.",
+          "whyItMatters": "Elevates Enugu's international hospitality profile while decongesting urban traffic and linking rural agro-communities."
+        },
+        "intent": "Positioning Enugu as a regional hospitality hub and expanding strategic bypass road corridors."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "JIGAWA",
+        "stateName": "Jigawa State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Namadi Accelerates Tsangaya Education Reform & Almajiri Begging-Free Zone Initiative with 3 Mega Boarding Schools",
+        "psi": 7.6,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Namadi Accelerates Tsangaya Education Reform & Almajiri Begging-Free Zone Initiative with 3 Mega Boarding Schools",
+          "whatHappened": "During a visit to Guiwa Tsangaya Boarding Primary School, Gov. Umar Namadi reaffirmed Jigawa's campaign to eliminate child street begging by integrating Qur'anic, formal, and vocational education across three nearing-completion Mega Tsangaya Schools in Dutse, Ringim, and Kafin-Hausa, supported by 500 J-Tsangaya teachers and NBAIS certification for 277 Alarammomi.",
+          "whyItMatters": "Provides residential education, formal certification, and vocational pathways to eliminate child street begging."
+        },
+        "intent": "Eliminating child street begging through integrated residential Qur'anic, formal, and vocational education."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "ANAMBRA",
+        "stateName": "Anambra State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "VP Shettima & Gov. Soludo Commission Ekwulobia Flyover Complex & Hold Stakeholders Town Hall in Isuofia",
+        "psi": 7.5,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "VP Shettima & Gov. Soludo Commission Ekwulobia Flyover Complex & Hold Stakeholders Town Hall in Isuofia",
+          "whatHappened": "Vice President Kashim Shettima joined Gov. Chukwuma Soludo to commission the Ekwulobia Flyover Complex and Ancillary Structures before holding an interactive town hall meeting in Umueze-Isuofia with Anambra traditional rulers, town union presidents-general, women, and youth leaders.",
+          "whyItMatters": "Delivers major arterial junction infrastructure in Ekwulobia while strengthening grassroots traditional and town-union engagement."
+        },
+        "intent": "Commissioning strategic flyover infrastructure and deepening grassroots stakeholder alignment."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "PLATEAU",
+        "stateName": "Plateau State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Mutfwang Orders Security Action After Deadly Tafi Gani Attack in Bassa LGA as EXCO Mourns Governor's Brother",
+        "psi": 7.1,
+        "intensity": "HIGH",
+        "momentum": "Advancing",
+        "impactMatrix": {
+          "headline": "Gov. Mutfwang Orders Security Action After Deadly Tafi Gani Attack in Bassa LGA as EXCO Mourns Governor's Brother",
+          "whatHappened": "Gov. Caleb Mutfwang directed security operatives to stabilize Tafi Gani community in Miango District, Bassa LGA, following a deadly attack and urged residents against reprisals, while the Plateau State Executive Council issued a condolence message over the passing of the Governor's elder brother, Arc. Morris Molkat Manasseh Mutfwang.",
+          "whyItMatters": "Restores relative calm in Bassa LGA and prevents reprisal escalation through rapid security deployment."
+        },
+        "intent": "Stabilizing Miango District following security attacks and preventing communal reprisals."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "ABIA",
+        "stateName": "Abia State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Ministry of Trade & ACCIMA Open 10-Day Aba International Trade Fair 2026 ('Aba Beyond Borders')",
+        "psi": 6.9,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Ministry of Trade & ACCIMA Open 10-Day Aba International Trade Fair 2026 ('Aba Beyond Borders')",
+          "whatHappened": "The Abia State Ministry of Trade and Commerce, in partnership with the Aba Chamber of Commerce, Industry, Mines and Agriculture (ACCIMA), opened the Aba International Trade Fair 2026 (Nov 27 – Dec 6) at Ogbonnaya Onu Polytechnic, Aba, showcasing local footwear, fashion, agro-products, and renewable energy solutions.",
+          "whyItMatters": "Promotes Aba's indigenous manufacturing clusters and connects MSMEs with regional buyers and investors."
+        },
+        "intent": "Showcasing Aba's indigenous manufacturing, footwear, and agro-industrial competitiveness."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "OYO",
+        "stateName": "Oyo State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Oyo Advances Construction of 12MW Independent Gas Power Plant & 30km 33kV Transmission Line",
+        "psi": 6.8,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Oyo Advances Construction of 12MW Independent Gas Power Plant & 30km 33kV Transmission Line",
+          "whatHappened": "The Oyo State Government reported ongoing construction and installation progress on its 12MW Independent Gas Power Plant alongside a dedicated 30-kilometre, 33kV transmission line.",
+          "whyItMatters": "Strengthens dedicated subnational power generation and distribution reliability for public and commercial facilities."
+        },
+        "intent": "Expanding captive independent power generation and 33kV distribution infrastructure."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "OSUN",
+        "stateName": "Osun State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Adeleke Directs Police to Halt Planned Infiltration by Proscribed NURTW Ahead of Second-Term Inauguration",
+        "psi": 6.6,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Gov. Adeleke Directs Police to Halt Planned Infiltration by Proscribed NURTW Ahead of Second-Term Inauguration",
+          "whatHappened": "Gov. Ademola Adeleke directed the Osun State Commissioner of Police to prevent members of the proscribed National Union of Road Transport Workers (NURTW) from staging an unauthorized gathering at Old Garage, Osogbo, ahead of his Friday second-term inauguration.",
+          "whyItMatters": "Maintains public order and enforces Osun's park management law during inauguration ceremonies."
+        },
+        "intent": "Enforcing motor park regulations and safeguarding public order during inauguration ceremonies."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "BORNO",
+        "stateName": "Borno State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Zulum Mourns Biu–Damaturu Road Crash Victims & Reschedules Southern Borno Zonal Rally to Dec 2",
+        "psi": 6.5,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Gov. Zulum Mourns Biu–Damaturu Road Crash Victims & Reschedules Southern Borno Zonal Rally to Dec 2",
+          "whatHappened": "Gov. Babagana Umara Zulum condoled with Biu Emirate over the deaths of two supporters and injuries to eleven others in a crash along the Biu–Damaturu road, immediately rescheduling the Southern Borno APC Zonal Rally from November 28 to December 2, 2026.",
+          "whyItMatters": "Demonstrates empathetic leadership and prioritizes public safety by postponing mass political mobilization."
+        },
+        "intent": "Honouring road crash victims and adjusting campaign schedules out of respect for bereaved communities."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "RIVERS",
+        "stateName": "Rivers State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Fubara Hosts Rivers Hoopers Basketball Team to Celebrate Historic 7th Consecutive National Title",
+        "psi": 6.3,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Gov. Fubara Hosts Rivers Hoopers Basketball Team to Celebrate Historic 7th Consecutive National Title",
+          "whatHappened": "Gov. Siminalayi Fubara hosted the Rivers Hoopers Basketball Team at Government House, Port Harcourt, to celebrate their historic seventh consecutive Nigerian Basketball Premier League championship ahead of their continental representation.",
+          "whyItMatters": "Reinforces state investment in youth sports excellence and continental athletic representation."
+        },
+        "intent": "Celebrating sports excellence and supporting youth athletic development."
+      },
+      {
+        "dayNumber": 27,
+        "stateKey": "ADAMAWA",
+        "stateName": "Adamawa State",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Deputy Gov. Farauta Bids Farewell to First Batch of 2026 Christian Pilgrims Departing Yola for Israel & Jordan",
+        "psi": 6.2,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Deputy Gov. Farauta Bids Farewell to First Batch of 2026 Christian Pilgrims Departing Yola for Israel & Jordan",
+          "whatHappened": "Deputy Gov. Prof. Kaletapwa George Farauta bade farewell to the first batch of Adamawa Christian pilgrims departing Yola International Airport aboard Alexandria Airlines for Israel and Jordan, urging them to pray for peace and peaceful 2027 elections upon their safe arrival.",
+          "whyItMatters": "Facilitates organized state pilgrimage logistics while promoting interfaith harmony and civic peace."
+        },
+        "intent": "Supporting peaceful religious pilgrimage operations and national unity prayers."
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Nasarawa State",
+        "stateKey": "NASARAWA",
+        "displayDate": "Friday, November 27, 2026",
+        "headline": "Gov. Sule Formally Welcomes Incoming NSCDC State Commandant Bala Bawa Bodinga in Lafia",
+        "psi": 6.0,
+        "intensity": "MODERATE",
+        "momentum": "Steady",
+        "impactMatrix": {
+          "headline": "Gov. Sule Formally Welcomes Incoming NSCDC State Commandant Bala Bawa Bodinga in Lafia",
+          "whatHappened": "Gov. Abdullahi Sule received incoming NSCDC State Commandant Bala Bawa Bodinga alongside outgoing Commandant Brah Samson Umoru in Lafia to ensure smooth security command transition.",
+          "whyItMatters": "Ensures uninterrupted civil defence leadership continuity across Nasarawa State."
+        },
+        "intent": "Maintaining seamless inter-agency security command transition."
       }
   ],
   "globalCodeData_B2": {
@@ -12358,6 +12662,442 @@
             "body": "Enugu Ministry of Works announced a temporary single-lane closure along Abakaliki Road near the Airport Underpass for road maintenance."
           },
           "securityAnalysis": "Enugu State (6.0 PSI / SIS 1.5 / SECURE) maintains safe arterial traffic flow during scheduled road maintenance."
+        }
+      ]
+    },
+    "27": {
+      "date": "2026-11-27",
+      "formattedDate": "November 27, 2026",
+      "metadata": {
+        "compositePsi": 7.5,
+        "activeJurisdictionsCount": 19,
+        "unlistedJurisdictionsCount": 18,
+        "unlistedNote": "The 18 unlisted jurisdictions remained monitored under baseline administrative maintenance during this active reporting cycle.",
+        "methodologyNote": "Scores are calculated based on direct executive action, fiscal allocation, structural reform scope, and grassroots public impact."
+      },
+      "reportTitles": {
+        "headlines": {
+          "title": "Diploman Times • Today’s Governance Intelligence Headlines Editorial for 19 Active Jurisdictions Across Nigeria",
+          "subtitle": "Consolidated Policy Signal Index (PSI) & State Instability Score (SIS) Daily Briefing.",
+          "summary": "Subnational executive velocity on November 27, 2026, recorded a 7.5 net PSI composite average across 19 active jurisdictions, headlined by Zamfara State's commissioning of 1,000 Forest Guards, proposed ₦10m-per-ward security grants, and ZAROMA road agency revival; Cross River State's Mastercard-backed ICT training for 2,500 young women with 2,000 guaranteed jobs and ₦165m Obubra PHC inspection; Lagos State's graduation of 1,200 up-skilled artisans and 2,500-participant Job Fair; Edo State's 10.89km Evbareke Market Road flag-off and pioneering State-Local Civil Service Council; and Katsina State's 11.53% GDP expansion to ₦10.13 trillion."
+        },
+        "security": {
+          "title": "Subnational Risk Profile Highlights Zamfara 1,000 Forest Guards Deployment, Niger Judicial Inquiry Report & Borgu Relief, and Plateau Bassa Security Directive",
+          "summary": "Comprehensive subnational risk assessment evaluating State Instability Scores (SIS), Investment Decision Profiles, and structural capital deployment across Nigeria's economic zones."
+        },
+        "policy": {
+          "title": "Subnational Executive Execution Reaches 7.5 Baseline Across ₦10.13Tn GDP Milestones, 2.5M MTPA Fertilizer JVs, Digital Job Guarantees, and Rural Corridors",
+          "summary": "Nigeria's state leadership demonstrates broad-based execution across 19 jurisdictions spanning community security forces, digital skills guarantees, industrial JVs, and arterial roads."
+        }
+      },
+      "macroAnalysis": {
+        "policy": {
+          "introduction": "Subnational executive governance across Nigeria recorded an active composite Policy Signal Index (PSI) baseline average of 7.5 on November 27, 2026, across 19 active jurisdictions. State governments prioritized community-based security deployment, digital and vocational job creation, agro-industrial and hospitality investments, arterial road corridors, and educational reform.",
+          "emergingPatterns": "Key executive trends emphasize workforce empowerment, industrial capital partnerships, and arterial connectivity—led by Zamfara State's commissioning of 1,000 Forest Guards, proposed ₦10 million per-ward volunteer security support across 147 wards, reactivation of ZAROMA for Gusau road maintenance, and ₦52.5 million plus grain relief for Gummi crash victims; Cross River State's Mastercard-backed Technology Talent Service MoU training 2,500 young women with 2,000 guaranteed remote jobs alongside a ₦165 million Apiapum Primary Health Centre in Obubra; and Lagos State's graduation of 1,200 up-skilled artisans with working kits, the 2,500-participant Lagos Job Fair 2026, LSACA vocational empowerment for PLHIV, and LASRO teacher resilience training. Concurrently, Edo flagged off the 10.89km Evbareke Market Road and 19 adjoining streets while unveiling a State-Local Civil Service Collaborative Council; Katsina reported 11.53% nominal GDP growth to ₦10.13 trillion; Akwa Ibom advanced the NSIA–OCP 2.5 million MTPA ammonia and fertilizer complex in Ikot Abasi; Gombe flagged off the 12.7km Tudu Kwaya–Panguru Road and commissioned Billiri West LCDA Secretariat; Enugu opened Phase One of a 40km rural dual carriageway and inspected its Marriott-managed Five-Star Hotel; Jigawa expanded Tsangaya boarding schools to end child street begging; Anambra commissioned the Ekwulobia Flyover Complex with VP Shettima; Abia opened the 10-day Aba International Trade Fair; and Oyo progressed its 12MW gas power plant.",
+          "strategicOutlook": "Sustaining momentum requires timely equipment and allowance synchronization for Zamfara's 1,000 Forest Guards, seamless remote job placement for Cross River's 2,000 female ICT trainees, financial close on Akwa Ibom's Ikot Abasi fertilizer complex, and steady contractor execution across Edo, Gombe, and Enugu road corridors.",
+          "conclusion": "The subnational governance landscape reflects high-velocity execution across 19 active states, integrating grassroots security forces and job-guaranteed skills training with major industrial and road infrastructure."
+        },
+        "security": {
+          "introduction": "Operational security, judicial accountability, and public-order maintenance benchmarks across active subnational corridors focused on anti-banditry force deployment, judicial inquiry implementation, and communal stabilization on November 27, 2026.",
+          "emergingPatterns": "In Zamfara State, Governor Dauda Lawal commissioned 1,000 trained Forest Guards across 13 LGAs and proposed ₦10 million per-ward security support across 147 wards while maintaining a strict non-negotiation stance with bandits. In Niger State, Governor Mohammed Umaru Bago visited Borgu Emirate after communal clashes, ordering an inquiry and committing ₦2 million each (₦148 million total) plus building materials to 74 bereaved families, while also receiving the three-volume Judicial Commission of Inquiry report into the deaths of 37 artisanal miners in NSCDC custody and pledging full implementation. In Plateau State, Governor Caleb Mutfwang ordered strategic security deployment in Tafi Gani community, Bassa LGA, following a deadly attack and urged against reprisals. Meanwhile, Katsina Governor Dikko Radda won the NewsDirect Governor of the Year Award on Security; Edo Governor Monday Okpebholo charged South-South school principals on campus security; Osun Governor Ademola Adeleke directed police to prevent proscribed NURTW elements from disrupting his second-term inauguration; Borno Governor Babagana Zulum rescheduled the Southern Borno rally to December 2 after a fatal road crash; and Nasarawa Governor Abdullahi Sule welcomed incoming NSCDC Commandant Bala Bawa Bodinga.",
+          "strategicOutlook": "Residents and investors benefit from strengthened community-level security forces in Zamfara and Katsina, judicial transparency in Niger, and proactive public-order enforcement in Osun and Plateau.",
+          "conclusion": "Decisive community security mobilization, judicial accountability, and rapid executive stabilization continue to anchor subnational operating resilience."
+        }
+      },
+      "corridorGroups": [
+        {
+          "groupTitle": "Macroeconomic Expansion, Industrial JVs, Arterial Roads, and Power Infrastructure Corridors",
+          "states": ["Katsina", "Akwa Ibom", "Enugu", "Anambra", "Abia", "Oyo"]
+        },
+        {
+          "groupTitle": "Digital Job Guarantees, Vocational Upskilling, Civil Service Reform, and Tsangaya Education Corridors",
+          "states": ["Cross River", "Lagos", "Edo", "Gombe", "Jigawa", "Rivers"]
+        },
+        {
+          "groupTitle": "Anti-Banditry Forest Guards, Judicial Inquiries, Communal Relief, and Public Order Corridors",
+          "states": ["Zamfara", "Niger", "Plateau", "Osun", "Borno", "Adamawa", "Nasarawa"]
+        }
+      ],
+      "jurisdictions": [
+        {
+          "state": "Zamfara",
+          "governor": "Dauda Lawal",
+          "metrics": {
+            "psiScore": 9.2,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 4.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Commissions 1,000 Forest Guards, Proposes ₦10M Per-Ward Security Grants Across 147 Wards, Revives Road Agency ZAROMA & Delivers Crash Relief",
+          "impactVector": "Gov. Dauda Lawal commissioned 1,000 newly trained Forest Guards across 13 LGAs with logistics support, proposed ₦10 million per ward across all 147 wards for community youth security volunteers while reiterating zero negotiation with bandits, reactivated the Zamfara State Roads Maintenance Agency (ZAROMA) to rehabilitate Takama Road in Gusau, and dispatched Deputy Gov. Mani Malam Mummuni alongside Sen. Abdulaziz Yari (who donated ₦52.5m and 275 grain bags) to deliver cash and food relief to Gummi road crash victims.",
+          "policyBreakdown": {
+            "category": "1,000 Forest Guards, ₦10M Ward Security Plan, ZAROMA Revival & Crash Relief",
+            "body": "Zamfara commissioned 1,000 Forest Guards, proposed ₦10m per ward for security volunteers, revived ZAROMA road maintenance, and delivered Gummi crash relief."
+          },
+          "securityAnalysis": "Zamfara State (9.2 PSI / SIS 4.2 / MONITORED) deploys 1,000 trained Forest Guards and ward-level security funding while enforcing a strict anti-banditry stance."
+        },
+        {
+          "state": "Cross River",
+          "governor": "Bassey Edet Otu",
+          "metrics": {
+            "psiScore": 9.0,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Launches Mastercard-Backed ICT Training for 2,500 Young Women (2,000 Guaranteed Jobs), Inspects ₦165M Obubra PHC & Supports Obudu Quadruplets",
+          "impactVector": "Cross River signed an MoU for the Mastercard Foundation-backed Technology Talent Service (TTS) programme to train 2,500 young women across all 18 LGAs with 2,000 guaranteed remote jobs (reserving 10% for women with disabilities and 5% for IDPs); Health Commissioner Dr. Henry Egbe Ayuk inspected the new ₦165 million Apiapum Primary Health Centre with staff quarters in Obubra LGA; and First Lady Bishop Eyoawan Otu donated ₦300,000 and household supplies to the Obudu quadruplets.",
+          "policyBreakdown": {
+            "category": "2,500-Woman ICT Training (2,000 Jobs), ₦165M Obubra PHC & Family Support",
+            "body": "Cross River launched Mastercard-backed ICT training for 2,500 women with 2,000 guaranteed jobs, inspected the ₦165m Obubra PHC, and aided Obudu quadruplets."
+          },
+          "securityAnalysis": "Cross River State (9.0 PSI / SIS 1.8 / SECURE) strengthens social inclusion by reserving 15% of digital job slots for women with disabilities and IDPs."
+        },
+        {
+          "state": "Lagos",
+          "governor": "Babajide Sanwo-Olu",
+          "metrics": {
+            "psiScore": 8.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 1.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Graduates 1,200 Up-Skilled Artisans with Tools, Hosts 2,500+ at Lagos Job Fair 2026, Equips PLHIV Entrepreneurs & Trains Teachers on Resilience",
+          "impactVector": "Gov. Babajide Sanwo-Olu graduated 1,200 up-skilled tradesmen and artisans with working kits in Ikeja; hosted over 2,500 job seekers at the Lagos Employment Summit 4.0 Job Fair 2026 at UNILAG targeting 250+ verified jobs; empowered People Living with HIV with vocational equipment via LSACA ahead of World AIDS Day; and trained senior secondary teachers on school disaster risk assessment via LASRO.",
+          "policyBreakdown": {
+            "category": "1,200 Artisan Graduation, 2,500-Participant Job Fair & PLHIV Empowerment",
+            "body": "Lagos graduated 1,200 artisans with tools, hosted 2,500+ at Lagos Job Fair 2026, equipped PLHIV entrepreneurs, and trained teachers on disaster resilience."
+          },
+          "securityAnalysis": "Lagos State (8.9 PSI / SIS 1.2 / SECURE) enhances institutional school safety through LASRO disaster risk assessment training for teachers."
+        },
+        {
+          "state": "Edo",
+          "governor": "Monday Okpebholo",
+          "metrics": {
+            "psiScore": 8.8,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 2.2,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Flags Off 10.89km Evbareke Market Road & 19 Streets, Launches State-Local Civil Service Council, Trains Principals on Security & Pays Twin Medical Bills",
+          "impactVector": "Gov. Monday Okpebholo flagged off construction of the 10.89km Evbareke Spare Parts Market Road and 19 adjoining streets in Egor LGA; HOS Dr. Anthony Okungbowa unveiled the pioneering State-Local Civil Service Collaborative Council; Gov. Okpebholo charged South-South school principals on campus security while pledging 3,000 new teacher hires; and First Lady's Office Coordinator Mrs. Edesili Anani offset a ₦500,000+ hospital bill for a mother of newborn twins.",
+          "policyBreakdown": {
+            "category": "10.89km Evbareke Market Road, State-Local Civil Service Council & School Security",
+            "body": "Edo flagged off the 10.89km Evbareke Market Road and 19 streets, unveiled a State-Local Civil Service Council, trained principals on security, and paid twin medical bills."
+          },
+          "securityAnalysis": "Edo State (8.8 PSI / SIS 2.2 / SECURE) strengthens school safety protocols by empowering secondary principals to coordinate with local security agencies."
+        },
+        {
+          "state": "Katsina",
+          "governor": "Dikko Umaru Radda",
+          "metrics": {
+            "psiScore": 8.6,
+            "psiSignalLevel": "OPTIMUM SIGNAL",
+            "psiMomentum": "Accelerating",
+            "sisScore": 4.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Expansion with Optimization"
+          },
+          "headline": "Katsina GDP Expands 11.53% to ₦10.13 Trillion as Gov. Radda Wins National Security Governance Award",
+          "impactVector": "The Katsina State GDP Report 2024–2025 (compiled with NBS and the World Bank) confirmed nominal economic expansion of 11.53% from ₦9.08 trillion to ₦10.13 trillion driven by services (53.60%), agriculture (₦2.41tn), and manufacturing (₦1.72tn), while Gov. Dikko Umaru Radda was named Governor of the Year on Security by Nigerian NewsDirect for establishing the Community Watch Corps.",
+          "policyBreakdown": {
+            "category": "₦10.13 Trillion GDP Milestone (+11.53%) & National Security Award",
+            "body": "Katsina recorded 11.53% GDP growth to ₦10.13 trillion while Gov. Dikko Radda earned the NewsDirect Governor of the Year Award on Security."
+          },
+          "securityAnalysis": "Katsina State (8.6 PSI / SIS 4.1 / MONITORED) receives national recognition for Community Watch Corps and internal security ministry reforms."
+        },
+        {
+          "state": "Akwa Ibom",
+          "governor": "Umo Eno",
+          "metrics": {
+            "psiScore": 8.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.7,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Eno Advances NSIA–OCP 2.5M MTPA Ammonia & Fertilizer Plant in Ikot Abasi and Plans Creative Village with ISFF",
+          "impactVector": "Gov. Umo Eno hosted NSIA MD Aminu Umar-Sadiq and Morocco's OCP Group executives in Uyo to advance construction of an Ikot Abasi industrial complex producing 1.5 million MTPA of ammonia and 1 million MTPA of specialty fertilizers, while also receiving ISFF CEO Chief Lancelot Imasuen to reaffirm plans for a state Creative Village ahead of Christmas Unplugged 4.0.",
+          "policyBreakdown": {
+            "category": "NSIA–OCP 2.5M MTPA Ammonia & Fertilizer Complex & Creative Village",
+            "body": "Akwa Ibom Gov. Umo Eno advanced the NSIA–OCP 2.5 million MTPA ammonia and fertilizer complex in Ikot Abasi and reaffirmed Creative Village plans."
+          },
+          "securityAnalysis": "Akwa Ibom State (8.5 PSI / SIS 1.7 / SECURE) leverages its stable operating climate to attract sovereign and international industrial joint ventures."
+        },
+        {
+          "state": "Gombe",
+          "governor": "Muhammadu Inuwa Yahaya",
+          "metrics": {
+            "psiScore": 8.3,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Flags Off 12.7km Tudu Kwaya–Panguru Road, Commissions Billiri West LCDA Secretariat & Validates 3-Year UNICEF M&E Roadmap",
+          "impactVector": "Gov. Muhammadu Inuwa Yahaya flagged off the 12.7km first section of the Ayaba–Kwaya–Tudu–Kuran Mota–Panguru Road (with 30% contractor mobilization paid), commissioned the solar-powered Billiri West LCDA Secretariat ahead of December 1 LCDA operations, and closed the UNICEF-backed workshop validating Gombe's three-year M&E roadmap.",
+          "policyBreakdown": {
+            "category": "12.7km Tudu Kwaya–Panguru Road, Billiri West LCDA & M&E Roadmap",
+            "body": "Gombe flagged off the 12.7km Tudu Kwaya–Panguru Road, commissioned Billiri West LCDA Secretariat, and validated its 3-year UNICEF M&E plan."
+          },
+          "securityAnalysis": "Gombe State (8.3 PSI / SIS 2.3 / SECURE) deepens grassroots administrative presence across 13 LCDAs and equips facilities with CCTV and solar power."
+        },
+        {
+          "state": "Niger",
+          "governor": "Mohammed Umaru Bago",
+          "metrics": {
+            "psiScore": 8.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 3.0,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Bago Visits Borgu Clash Victims with ₦148M Relief & Orders Inquiry; Receives Judicial Panel Report on 37 Miners' Deaths",
+          "impactVector": "Gov. Mohammed Umaru Bago visited Borgu Emirate following communal clashes, ordering a thorough investigation and announcing ₦2 million each (₦148m total) plus foodstuffs and building materials for 74 bereaved families, and separately received the three-volume Judicial Commission of Inquiry report on the deaths of 37 artisanal miners in NSCDC custody, pledging full implementation.",
+          "policyBreakdown": {
+            "category": "Borgu ₦148M Humanitarian Relief & Judicial Inquiry Report on 37 Miners",
+            "body": "Niger Gov. Bago pledged ₦148m plus building materials for 74 Borgu clash victims' families and received the judicial panel report on 37 miners' deaths."
+          },
+          "securityAnalysis": "Niger State (8.1 PSI / SIS 3.0 / MONITORED) pairs tactical troop deployment in Borgu with judicial accountability over custodial mining fatalities."
+        },
+        {
+          "state": "Enugu",
+          "governor": "Peter Mbah",
+          "metrics": {
+            "psiScore": 7.9,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.5,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Mbah Inspects Marriott-Managed Enugu Five-Star Hotel & Opens 40km Rural Connectivity Dual Carriageway",
+          "impactVector": "Gov. Peter Mbah conducted an unscheduled inspection of the ongoing Enugu Five-Star Hotel to be managed by Marriott International and opened Phase One of a 40km dual carriageway cutting across Nkanu East, Isi-Uzo, and Udenu LGAs to divert northbound heavy-duty trucks from Enugu metropolis.",
+          "policyBreakdown": {
+            "category": "40km Rural Bypass Dual Carriageway & Marriott Five-Star Hotel Inspection",
+            "body": "Enugu Gov. Mbah opened Phase One of a 40km rural dual carriageway bypassing Enugu metropolis and inspected the Marriott-managed Five-Star Hotel."
+          },
+          "securityAnalysis": "Enugu State (7.9 PSI / SIS 1.5 / SECURE) improves urban road safety by diverting northbound heavy-duty haulage onto a 40km rural corridor."
+        },
+        {
+          "state": "Jigawa",
+          "governor": "Umar Namadi",
+          "metrics": {
+            "psiScore": 7.6,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.8,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov. Namadi Accelerates Tsangaya Education Reform & Almajiri Begging-Free Zone Initiative with 3 Mega Boarding Schools",
+          "impactVector": "During a visit to Guiwa Tsangaya Boarding Primary School, Gov. Umar Namadi reaffirmed Jigawa's campaign to eliminate child street begging by integrating Qur'anic, formal, and vocational education across three nearing-completion Mega Tsangaya Schools in Dutse, Ringim, and Kafin-Hausa, supported by 500 J-Tsangaya teachers and NBAIS certification for 277 Alarammomi.",
+          "policyBreakdown": {
+            "category": "Tsangaya Boarding Education Reform & Almajiri Begging-Free Initiative",
+            "body": "Jigawa Gov. Namadi advanced three Mega Tsangaya Boarding Schools, 500 teachers, and NBAIS certification to eliminate child street begging."
+          },
+          "securityAnalysis": "Jigawa State (7.6 PSI / SIS 1.8 / SECURE) reduces long-term youth vulnerability by transitioning street-begging children into residential schools."
+        },
+        {
+          "state": "Anambra",
+          "governor": "Chukwuma Soludo",
+          "metrics": {
+            "psiScore": 7.5,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "VP Shettima & Gov. Soludo Commission Ekwulobia Flyover Complex & Hold Stakeholders Town Hall in Isuofia",
+          "impactVector": "Vice President Kashim Shettima joined Gov. Chukwuma Soludo to commission the Ekwulobia Flyover Complex and Ancillary Structures before holding an interactive town hall meeting in Umueze-Isuofia with Anambra traditional rulers, town union presidents-general, women, and youth leaders.",
+          "policyBreakdown": {
+            "category": "Ekwulobia Flyover Complex Commissioning & Traditional Town Hall",
+            "body": "VP Shettima and Gov. Soludo commissioned the Ekwulobia Flyover Complex and held a town hall with traditional rulers and town unions in Isuofia."
+          },
+          "securityAnalysis": "Anambra State (7.5 PSI / SIS 1.9 / SECURE) strengthens community-level stability through direct dialogue with traditional rulers and town unions."
+        },
+        {
+          "state": "Plateau",
+          "governor": "Caleb Mutfwang",
+          "metrics": {
+            "psiScore": 7.1,
+            "psiSignalLevel": "HIGH SIGNAL",
+            "psiMomentum": "Advancing",
+            "sisScore": 2.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Mutfwang Orders Security Action After Deadly Tafi Gani Attack in Bassa LGA as EXCO Mourns Governor's Brother",
+          "impactVector": "Gov. Caleb Mutfwang directed security operatives to stabilize Tafi Gani community in Miango District, Bassa LGA, following a deadly attack and urged residents against reprisals, while the Plateau State Executive Council issued a condolence message over the passing of the Governor's elder brother, Arc. Morris Molkat Manasseh Mutfwang.",
+          "policyBreakdown": {
+            "category": "Bassa LGA Security Stabilization Directive & Anti-Reprisal Appeal",
+            "body": "Plateau Gov. Mutfwang ordered security action in Tafi Gani, Bassa LGA, after a deadly attack and appealed against reprisals as EXCO mourned his brother."
+          },
+          "securityAnalysis": "Plateau State (7.1 PSI / SIS 2.6 / SECURE) contains communal escalation in Miango District through rapid security deployment and anti-reprisal appeals."
+        },
+        {
+          "state": "Abia",
+          "governor": "Alex Otti",
+          "metrics": {
+            "psiScore": 6.9,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 1.9,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Ministry of Trade & ACCIMA Open 10-Day Aba International Trade Fair 2026 ('Aba Beyond Borders')",
+          "impactVector": "The Abia State Ministry of Trade and Commerce, in partnership with the Aba Chamber of Commerce, Industry, Mines and Agriculture (ACCIMA), opened the Aba International Trade Fair 2026 (Nov 27 – Dec 6) at Ogbonnaya Onu Polytechnic, Aba, showcasing local footwear, fashion, agro-products, and renewable energy solutions.",
+          "policyBreakdown": {
+            "category": "Aba International Trade Fair 2026 ('Aba Beyond Borders')",
+            "body": "Abia Trade Ministry and ACCIMA opened the 10-day Aba International Trade Fair 2026 at Ogbonnaya Onu Polytechnic showcasing local manufacturing."
+          },
+          "securityAnalysis": "Abia State (6.9 PSI / SIS 1.9 / SECURE) supports commercial exhibition activity and industrial networking in Aba."
+        },
+        {
+          "state": "Oyo",
+          "governor": "Seyi Makinde",
+          "metrics": {
+            "psiScore": 6.8,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Oyo Advances Construction of 12MW Independent Gas Power Plant & 30km 33kV Transmission Line",
+          "impactVector": "The Oyo State Government reported ongoing construction and installation progress on its 12MW Independent Gas Power Plant alongside a dedicated 30-kilometre, 33kV transmission line.",
+          "policyBreakdown": {
+            "category": "12MW Independent Gas Power Plant & 30km 33kV Transmission Line",
+            "body": "Oyo progressed construction and installation of its 12MW Independent Gas Power Plant and 30km 33kV transmission line."
+          },
+          "securityAnalysis": "Oyo State (6.8 PSI / SIS 1.6 / SECURE) enhances energy infrastructure resilience for public institutions and commercial corridors."
+        },
+        {
+          "state": "Osun",
+          "governor": "Ademola Adeleke",
+          "metrics": {
+            "psiScore": 6.6,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 1.6,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Growth-Oriented",
+            "investmentDecision": "Growth Beta Opportunity"
+          },
+          "headline": "Gov. Adeleke Directs Police to Halt Planned Infiltration by Proscribed NURTW Ahead of Second-Term Inauguration",
+          "impactVector": "Gov. Ademola Adeleke directed the Osun State Commissioner of Police to prevent members of the proscribed National Union of Road Transport Workers (NURTW) from staging an unauthorized gathering at Old Garage, Osogbo, ahead of his Friday second-term inauguration.",
+          "policyBreakdown": {
+            "category": "Inauguration Public-Order Directive & Park Law Enforcement",
+            "body": "Osun Gov. Adeleke directed the Police Commissioner to halt planned gatherings by proscribed NURTW elements ahead of Friday's inauguration."
+          },
+          "securityAnalysis": "Osun State (6.6 PSI / SIS 1.6 / SECURE) preempts transport-union disruption ahead of second-term inauguration ceremonies in Osogbo."
+        },
+        {
+          "state": "Borno",
+          "governor": "Babagana Umara Zulum",
+          "metrics": {
+            "psiScore": 6.5,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 5.2,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Gov. Zulum Mourns Biu–Damaturu Road Crash Victims & Reschedules Southern Borno Zonal Rally to Dec 2",
+          "impactVector": "Gov. Babagana Umara Zulum condoled with Biu Emirate over the deaths of two supporters and injuries to eleven others in a crash along the Biu–Damaturu road, immediately rescheduling the Southern Borno APC Zonal Rally from November 28 to December 2, 2026.",
+          "policyBreakdown": {
+            "category": "Road Crash Condolences & Campaign Rally Rescheduling",
+            "body": "Borno Gov. Zulum mourned Biu–Damaturu road crash victims and rescheduled the Southern Borno APC Zonal Rally to December 2, 2026."
+          },
+          "securityAnalysis": "Borno State (6.5 PSI / SIS 5.2 / MONITORED) prioritizes public safety and community mourning by postponing large-scale campaign travel."
+        },
+        {
+          "state": "Rivers",
+          "governor": "Siminalayi Fubara",
+          "metrics": {
+            "psiScore": 6.3,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 2.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "High-Alpha",
+            "investmentDecision": "Prime Alpha Opportunity"
+          },
+          "headline": "Gov. Fubara Hosts Rivers Hoopers Basketball Team to Celebrate Historic 7th Consecutive National Title",
+          "impactVector": "Gov. Siminalayi Fubara hosted the Rivers Hoopers Basketball Team at Government House, Port Harcourt, to celebrate their historic seventh consecutive Nigerian Basketball Premier League championship ahead of their continental representation.",
+          "policyBreakdown": {
+            "category": "Sports Development Recognition (Rivers Hoopers 7th Title)",
+            "body": "Rivers Gov. Fubara hosted Rivers Hoopers Basketball Team in celebration of their seventh consecutive Nigerian Basketball Premier League title."
+          },
+          "securityAnalysis": "Rivers State (6.3 PSI / SIS 2.3 / SECURE) promotes positive youth engagement through state-backed championship athletics."
+        },
+        {
+          "state": "Adamawa",
+          "governor": "Ahmadu Umaru Fintiri",
+          "metrics": {
+            "psiScore": 6.2,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 3.1,
+            "sisStatus": "MONITORED",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Value with Stabilization"
+          },
+          "headline": "Deputy Gov. Farauta Bids Farewell to First Batch of 2026 Christian Pilgrims Departing Yola for Israel & Jordan",
+          "impactVector": "Deputy Gov. Prof. Kaletapwa George Farauta bade farewell to the first batch of Adamawa Christian pilgrims departing Yola International Airport aboard Alexandria Airlines for Israel and Jordan, urging them to pray for peace and peaceful 2027 elections upon their safe arrival.",
+          "policyBreakdown": {
+            "category": "2026 Christian Pilgrimage Airlift & National Peace Appeal",
+            "body": "Adamawa Deputy Gov. Farauta bade farewell to the first batch of Christian pilgrims departing Yola for Israel and Jordan."
+          },
+          "securityAnalysis": "Adamawa State (6.2 PSI / SIS 3.1 / MONITORED) executes smooth international pilgrimage airlift logistics from Yola Airport."
+        },
+        {
+          "state": "Nasarawa",
+          "governor": "Abdullahi Sule",
+          "metrics": {
+            "psiScore": 6.0,
+            "psiSignalLevel": "MODERATE SIGNAL",
+            "psiMomentum": "Steady",
+            "sisScore": 2.3,
+            "sisStatus": "SECURE",
+            "alphaProfile": "Defensive-Growth",
+            "investmentDecision": "Emerging Gamma Opportunity"
+          },
+          "headline": "Gov. Sule Formally Welcomes Incoming NSCDC State Commandant Bala Bawa Bodinga in Lafia",
+          "impactVector": "Gov. Abdullahi Sule received incoming NSCDC State Commandant Bala Bawa Bodinga alongside outgoing Commandant Brah Samson Umoru in Lafia to ensure smooth security command transition.",
+          "policyBreakdown": {
+            "category": "NSCDC Command Handover & Security Liaison",
+            "body": "Nasarawa Gov. Sule welcomed incoming NSCDC State Commandant Bala Bawa Bodinga alongside outgoing Commandant Brah Samson Umoru."
+          },
+          "securityAnalysis": "Nasarawa State (6.0 PSI / SIS 2.3 / SECURE) reinforces civil defence command continuity across the state."
         }
       ]
     }
@@ -22194,6 +22934,524 @@
       },
       {
         "dayNumber": 26,
+        "stateName": "Yobe",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 4.5,
+        "focus": "Baseline Fiscal & Public Service Oversight",
+        "dailyBrief": "Sustained routine governance operations across state ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Zamfara",
+        "zone": "North-West",
+        "psi": 9.2,
+        "sis": 4.2,
+        "focus": "1,000 Forest Guards Commissioning, ₦10M Per-Ward Security Plan, ZAROMA Revival & Crash Relief",
+        "dailyBrief": "Gov. Dauda Lawal commissioned 1,000 newly trained Forest Guards across 13 LGAs with logistics support, proposed ₦10 million per ward across all 147 wards for community youth security volunteers while reiterating zero negotiation with bandits, reactivated the Zamfara State Roads Maintenance Agency (ZAROMA) to rehabilitate Takama Road in Gusau, and dispatched Deputy Gov. Mani Malam Mummuni alongside Sen. Abdulaziz Yari (who donated ₦52.5m and 275 grain bags) to deliver cash and food relief to Gummi road crash victims.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Cross River",
+        "zone": "South-South",
+        "psi": 9.0,
+        "sis": 1.8,
+        "focus": "Mastercard-Backed ICT Training for 2,500 Women (2,000 Jobs), ₦165M Obubra PHC & Obudu Quadruplets Aid",
+        "dailyBrief": "Cross River signed an MoU for the Mastercard Foundation-backed Technology Talent Service (TTS) programme to train 2,500 young women across all 18 LGAs with 2,000 guaranteed remote jobs (reserving 10% for women with disabilities and 5% for IDPs); Health Commissioner Dr. Henry Egbe Ayuk inspected the new ₦165 million Apiapum Primary Health Centre with staff quarters in Obubra LGA; and First Lady Bishop Eyoawan Otu donated ₦300,000 and household supplies to the Obudu quadruplets.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Lagos",
+        "zone": "South-West",
+        "psi": 8.9,
+        "sis": 1.2,
+        "focus": "1,200 Up-Skilled Artisan Graduation, 2,500+ Lagos Job Fair 2026, PLHIV Kits & Teacher Resilience",
+        "dailyBrief": "Gov. Babajide Sanwo-Olu graduated 1,200 up-skilled tradesmen and artisans with working kits in Ikeja; hosted over 2,500 job seekers at the Lagos Employment Summit 4.0 Job Fair 2026 at UNILAG targeting 250+ verified jobs; empowered People Living with HIV with vocational equipment via LSACA ahead of World AIDS Day; and trained senior secondary teachers on school disaster risk assessment via LASRO.",
+        "psiSignalLevel": "OPTIMUM SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Edo",
+        "zone": "South-South",
+        "psi": 8.8,
+        "sis": 2.2,
+        "focus": "10.89km Evbareke Market Road Flag-Off, State-Local Civil Service Council, School Security & Twin Bills",
+        "dailyBrief": "Gov. Monday Okpebholo flagged off construction of the 10.89km Evbareke Spare Parts Market Road and 19 adjoining streets in Egor LGA; HOS Dr. Anthony Okungbowa unveiled the pioneering State-Local Civil Service Collaborative Council; Gov. Okpebholo charged South-South school principals on campus security while pledging 3,000 new teacher hires; and First Lady's Office Coordinator Mrs. Edesili Anani offset a ₦500,000+ hospital bill for a mother of newborn twins.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Katsina",
+        "zone": "North-West",
+        "psi": 8.6,
+        "sis": 4.1,
+        "focus": "11.53% GDP Expansion to ₦10.13 Trillion & National Security Governance Award",
+        "dailyBrief": "The Katsina State GDP Report 2024–2025 (compiled with NBS and the World Bank) confirmed nominal economic expansion of 11.53% from ₦9.08 trillion to ₦10.13 trillion driven by services (53.60%), agriculture (₦2.41tn), and manufacturing (₦1.72tn), while Gov. Dikko Umaru Radda was named Governor of the Year on Security by Nigerian NewsDirect for establishing the Community Watch Corps.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Accelerating",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Akwa Ibom",
+        "zone": "South-South",
+        "psi": 8.5,
+        "sis": 1.7,
+        "focus": "NSIA–OCP 2.5M MTPA Ammonia & Fertilizer Plant in Ikot Abasi & Creative Village Plan",
+        "dailyBrief": "Gov. Umo Eno hosted NSIA MD Aminu Umar-Sadiq and Morocco's OCP Group executives in Uyo to advance construction of an Ikot Abasi industrial complex producing 1.5 million MTPA of ammonia and 1 million MTPA of specialty fertilizers, while also receiving ISFF CEO Chief Lancelot Imasuen to reaffirm plans for a state Creative Village ahead of Christmas Unplugged 4.0.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Gombe",
+        "zone": "North-East",
+        "psi": 8.3,
+        "sis": 2.3,
+        "focus": "12.7km Tudu Kwaya–Panguru Road Flag-Off, Billiri West LCDA Secretariat & 3-Year UNICEF M&E Plan",
+        "dailyBrief": "Gov. Muhammadu Inuwa Yahaya flagged off the 12.7km first section of the Ayaba–Kwaya–Tudu–Kuran Mota–Panguru Road (with 30% contractor mobilization paid), commissioned the solar-powered Billiri West LCDA Secretariat ahead of December 1 LCDA operations, and closed the UNICEF-backed workshop validating Gombe's three-year M&E roadmap.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Niger",
+        "zone": "North-Central",
+        "psi": 8.1,
+        "sis": 3.0,
+        "focus": "Borgu Clash ₦148M Relief & Inquiry; Judicial Panel Report on 37 Artisanal Miners' Deaths",
+        "dailyBrief": "Gov. Mohammed Umaru Bago visited Borgu Emirate following communal clashes, ordering a thorough investigation and announcing ₦2 million each (₦148m total) plus foodstuffs and building materials for 74 bereaved families, and separately received the three-volume Judicial Commission of Inquiry report on the deaths of 37 artisanal miners in NSCDC custody, pledging full implementation.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Enugu",
+        "zone": "South-East",
+        "psi": 7.9,
+        "sis": 1.5,
+        "focus": "Marriott-Managed Five-Star Hotel Inspection & 40km Rural Connectivity Dual Carriageway",
+        "dailyBrief": "Gov. Peter Mbah conducted an unscheduled inspection of the ongoing Enugu Five-Star Hotel to be managed by Marriott International and opened Phase One of a 40km dual carriageway cutting across Nkanu East, Isi-Uzo, and Udenu LGAs to divert northbound heavy-duty trucks from Enugu metropolis.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Jigawa",
+        "zone": "North-West",
+        "psi": 7.6,
+        "sis": 1.8,
+        "focus": "Tsangaya Boarding Education Reform & Almajiri Begging-Free Zone Initiative",
+        "dailyBrief": "During a visit to Guiwa Tsangaya Boarding Primary School, Gov. Umar Namadi reaffirmed Jigawa's campaign to eliminate child street begging by integrating Qur'anic, formal, and vocational education across three nearing-completion Mega Tsangaya Schools in Dutse, Ringim, and Kafin-Hausa, supported by 500 J-Tsangaya teachers and NBAIS certification for 277 Alarammomi.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Anambra",
+        "zone": "South-East",
+        "psi": 7.5,
+        "sis": 1.9,
+        "focus": "Ekwulobia Flyover Complex Commissioning with VP Shettima & Isuofia Town Hall",
+        "dailyBrief": "Vice President Kashim Shettima joined Gov. Chukwuma Soludo to commission the Ekwulobia Flyover Complex and Ancillary Structures before holding an interactive town hall meeting in Umueze-Isuofia with Anambra traditional rulers, town union presidents-general, women, and youth leaders.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Plateau",
+        "zone": "North-Central",
+        "psi": 7.1,
+        "sis": 2.6,
+        "focus": "Security Deployment in Tafi Gani (Bassa LGA) & EXCO Condolence Over Governor's Brother",
+        "dailyBrief": "Gov. Caleb Mutfwang directed security operatives to stabilize Tafi Gani community in Miango District, Bassa LGA, following a deadly attack and urged residents against reprisals, while the Plateau State Executive Council issued a condolence message over the passing of the Governor's elder brother, Arc. Morris Molkat Manasseh Mutfwang.",
+        "psiSignalLevel": "HIGH SIGNAL",
+        "psiMomentum": "Advancing",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Abia",
+        "zone": "South-East",
+        "psi": 6.9,
+        "sis": 1.9,
+        "focus": "10-Day Aba International Trade Fair 2026 ('Aba Beyond Borders')",
+        "dailyBrief": "The Abia State Ministry of Trade and Commerce, in partnership with the Aba Chamber of Commerce, Industry, Mines and Agriculture (ACCIMA), opened the Aba International Trade Fair 2026 (Nov 27 – Dec 6) at Ogbonnaya Onu Polytechnic, Aba, showcasing local footwear, fashion, agro-products, and renewable energy solutions.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Oyo",
+        "zone": "South-West",
+        "psi": 6.8,
+        "sis": 1.6,
+        "focus": "12MW Independent Gas Power Plant & 30km 33kV Transmission Line Construction",
+        "dailyBrief": "The Oyo State Government reported ongoing construction and installation progress on its 12MW Independent Gas Power Plant alongside a dedicated 30-kilometre, 33kV transmission line.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Osun",
+        "zone": "South-West",
+        "psi": 6.6,
+        "sis": 1.6,
+        "focus": "Police Directive Against Proscribed NURTW Infiltration Ahead of Inauguration",
+        "dailyBrief": "Gov. Ademola Adeleke directed the Osun State Commissioner of Police to prevent members of the proscribed National Union of Road Transport Workers (NURTW) from staging an unauthorized gathering at Old Garage, Osogbo, ahead of his Friday second-term inauguration.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Borno",
+        "zone": "North-East",
+        "psi": 6.5,
+        "sis": 5.2,
+        "focus": "Biu–Damaturu Road Crash Condolences & Southern Borno Rally Rescheduling to Dec 2",
+        "dailyBrief": "Gov. Babagana Umara Zulum condoled with Biu Emirate over the deaths of two supporters and injuries to eleven others in a crash along the Biu–Damaturu road, immediately rescheduling the Southern Borno APC Zonal Rally from November 28 to December 2, 2026.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Rivers",
+        "zone": "South-South",
+        "psi": 6.3,
+        "sis": 2.3,
+        "focus": "Hosting Rivers Hoopers Basketball Team on Historic 7th Consecutive National Title",
+        "dailyBrief": "Gov. Siminalayi Fubara hosted the Rivers Hoopers Basketball Team at Government House, Port Harcourt, to celebrate their historic seventh consecutive Nigerian Basketball Premier League championship ahead of their continental representation.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Adamawa",
+        "zone": "North-East",
+        "psi": 6.2,
+        "sis": 3.1,
+        "focus": "Farewell to First Batch of 2026 Christian Pilgrims Departing Yola for Israel & Jordan",
+        "dailyBrief": "Deputy Gov. Prof. Kaletapwa George Farauta bade farewell to the first batch of Adamawa Christian pilgrims departing Yola International Airport aboard Alexandria Airlines for Israel and Jordan, urging them to pray for peace and peaceful 2027 elections upon their safe arrival.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Nasarawa",
+        "zone": "North-Central",
+        "psi": 6.0,
+        "sis": 2.3,
+        "focus": "Formal Welcome for Incoming NSCDC State Commandant Bala Bawa Bodinga",
+        "dailyBrief": "Gov. Abdullahi Sule received incoming NSCDC State Commandant Bala Bawa Bodinga alongside outgoing Commandant Brah Samson Umoru in Lafia to ensure smooth security command transition.",
+        "psiSignalLevel": "MODERATE SIGNAL",
+        "psiMomentum": "Steady",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Bauchi",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 2.3,
+        "focus": "Baseline Fiscal & Healthcare Administration",
+        "dailyBrief": "Sustained routine administrative governance across state ministries and healthcare agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Bayelsa",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.8,
+        "focus": "Baseline Marine Safety & Civic Administration",
+        "dailyBrief": "Maintained routine governance operations across state ministries and maritime safety agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Benue",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 3.5,
+        "focus": "Baseline Agricultural & Civil Service Operations",
+        "dailyBrief": "Sustained routine administrative operations across state agricultural and public service agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Delta",
+        "zone": "South-South",
+        "psi": 3.0,
+        "sis": 2.9,
+        "focus": "Baseline Security & Infrastructure Administration",
+        "dailyBrief": "Sustained routine governance operations across state ministries and local security committees.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Ebonyi",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Urban Planning & Healthcare Administration",
+        "dailyBrief": "Sustained routine administrative operations across lands, health, and judicial agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Ekiti",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.5,
+        "focus": "Baseline Agribusiness & Civil Service Administration",
+        "dailyBrief": "Sustained routine governance operations across agriculture and youth empowerment ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "FCT Abuja",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 1.4,
+        "focus": "Baseline Capital Territory Land & Civic Administration",
+        "dailyBrief": "Operated under standard municipal and land administration protocols.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Imo",
+        "zone": "South-East",
+        "psi": 3.0,
+        "sis": 3.4,
+        "focus": "Baseline Aviation & Civic Administration",
+        "dailyBrief": "Sustained routine governance operations across airport and transport agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Kaduna",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 3.7,
+        "focus": "Baseline Township Road & Metropolitan Oversight",
+        "dailyBrief": "Sustained routine administrative functions across state infrastructure and transport agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Expansion with Optimization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Kano",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 2.0,
+        "focus": "Baseline Pension & Primary Healthcare Oversight",
+        "dailyBrief": "Sustained routine administrative operations across health, pension, and commerce ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Kebbi",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 2.7,
+        "focus": "Baseline Women's Enterprise & Civic Administration",
+        "dailyBrief": "Sustained routine administrative operations across state ministries and community programmes.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Emerging Gamma Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Kogi",
+        "zone": "North-Central",
+        "psi": 3.0,
+        "sis": 2.2,
+        "focus": "Baseline Health & Institutional Oversight",
+        "dailyBrief": "Sustained routine administrative operations across state health and civil service ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Kwara",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.6,
+        "focus": "Baseline Youth Sports & Civil Service Oversight",
+        "dailyBrief": "Sustained routine administrative operations across state ministries and youth agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Ogun",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.3,
+        "focus": "Baseline Industrial Park & Infrastructure Oversight",
+        "dailyBrief": "Sustained routine administrative operations across state secretariats and industrial zones.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "High-Alpha",
+        "investmentDecision": "Prime Alpha Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Ondo",
+        "zone": "South-West",
+        "psi": 3.0,
+        "sis": 1.3,
+        "focus": "Baseline Health Insurance & Education Oversight",
+        "dailyBrief": "Sustained routine governance operations across executive agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "SECURE",
+        "alphaProfile": "Growth-Oriented",
+        "investmentDecision": "Growth Beta Opportunity"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Sokoto",
+        "zone": "North-West",
+        "psi": 3.0,
+        "sis": 4.2,
+        "focus": "Baseline Rural Electrification & Health Oversight",
+        "dailyBrief": "Continued routine administrative functions across state ministries.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
+        "stateName": "Taraba",
+        "zone": "North-East",
+        "psi": 3.0,
+        "sis": 3.0,
+        "focus": "Baseline Road Construction & Industrial Oversight",
+        "dailyBrief": "Sustained routine administrative operations across works and security agencies.",
+        "psiSignalLevel": "BASELINE SIGNAL",
+        "psiMomentum": "Stable",
+        "sisStatus": "MONITORED",
+        "alphaProfile": "Defensive-Growth",
+        "investmentDecision": "Value with Stabilization"
+      },
+      {
+        "dayNumber": 27,
         "stateName": "Yobe",
         "zone": "North-East",
         "psi": 3.0,
