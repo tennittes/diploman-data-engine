@@ -4,7 +4,7 @@
       "type": "scored_brief",
       "id": "scored-gov-2026-11-25",
       "run_date_utc": "2026-11-25",
-      "published": false,
+      "published": true,
       "target_url": "https://www.diplomantimes.com",
       "vertical": "governancescore",
       "source_domain": "https://governancescore.diplomantimes.com/",
