@@ -27,6 +27,14 @@ VERTICAL_HOMEPAGE_URLS = {
     "footballtally": f"{DIPLOMAN_TIMES_URL}/",
 }
 
+# Strict publication priority order:
+# 1. Policing Intel (T+0m) -> 2. Governance Score (T+30m) -> 3. Football Tally (T+60m)
+VERTICAL_PUBLISH_ORDER = {
+    "policingintel": 1,
+    "governancescore": 2,
+    "footballtally": 3,
+}
+
 VERTICAL_CONFIG = {
     "governancescore": {
         "label": "Governance Score",
@@ -84,22 +92,45 @@ def get_blogger_service():
     return build("blogger", "v3", credentials=creds)
 
 
-def get_live_published_verticals_for_utc_date(service, target_utc_date):
-    """Queries the latest Blogger posts to find which verticals already published on target_utc_date (YYYY-MM-DD)."""
+def _parse_iso_utc(iso_str):
+    if not iso_str:
+        return None
+    try:
+        clean = str(iso_str).strip()
+        if clean.endswith("Z"):
+            clean = clean[:-1] + "+00:00"
+        dt = datetime.datetime.fromisoformat(clean)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt.astimezone(datetime.timezone.utc)
+    except Exception:
+        return None
+
+
+def get_live_post_state_for_utc_date(service, target_utc_date):
+    """
+    Queries the latest Blogger posts to find:
+      1) Which verticals already published on target_utc_date (YYYY-MM-DD)
+      2) The most recent live post timestamp (datetime in UTC) on target_utc_date
+    """
     already_live = set()
+    latest_published_dt = None
     try:
         res = service.posts().list(blogId=BLOG_ID, maxResults=12, fetchBodies=False).execute()
         for post in res.get("items", []):
             pub_raw = str(post.get("published", ""))
             if not pub_raw.startswith(target_utc_date):
                 continue
+            pub_dt = _parse_iso_utc(pub_raw)
+            if pub_dt and (latest_published_dt is None or pub_dt > latest_published_dt):
+                latest_published_dt = pub_dt
             labels = [str(lbl).strip().lower() for lbl in post.get("labels", [])]
             for v_key, v_cfg in VERTICAL_CONFIG.items():
                 if v_cfg["label"].lower() in labels:
                     already_live.add(v_key)
     except Exception as e:
         print(f"Warning: Could not verify existing live posts via Blogger API: {e}")
-    return already_live
+    return already_live, latest_published_dt
 
 
 def optimize_blogger_images(html_content):
@@ -153,12 +184,10 @@ def _load_registry_file(filename, search_roots=None):
 
 
 def load_governors_registry(search_roots=None):
-    """Loads governors-registry.json from the workspace or any checked-out repo root if present."""
     return _load_registry_file("governors-registry.json", search_roots=search_roots)
 
 
 def load_commissioners_registry(search_roots=None):
-    """Loads commissioners-registry.json from the workspace or any checked-out repo root if present."""
     return _load_registry_file("commissioners-registry.json", search_roots=search_roots)
 
 
@@ -489,8 +518,11 @@ def find_queue_file_in_repo(repo_dir, override_folder=None, today_utc=None):
     return all_queues[0] if all_queues else None
 
 
-def commit_and_push_repo(repo_dir, queue_file_path):
-    """Commits and pushes updated news-queue.json back to its own Git repository."""
+def save_and_push_repo_queue(repo_dir, queue_file_path, data):
+    """Writes updated news-queue.json immediately and pushes back to its Git repository."""
+    with open(queue_file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Updated queue state in {queue_file_path}")
     try:
         rel_path = os.path.relpath(queue_file_path, repo_dir)
         subprocess.run(["git", "-C", repo_dir, "config", "user.name", "github-actions[bot]"], check=True)
@@ -515,10 +547,32 @@ def commit_and_push_repo(repo_dir, queue_file_path):
         print(f"[git] Warning: Could not push update for {repo_dir}: {e}")
 
 
-def _queued_sort_key(item):
+def _global_candidate_sort_key(candidate):
+    """
+    Orders candidates strictly by:
+      1. Vertical priority: policingintel (1) -> governancescore (2) -> footballtally (3)
+      2. Newest schedule date / queued timestamp first
+    """
+    item = candidate["item"]
+    v_key = str(item.get("vertical") or "").strip().lower()
+    priority = VERTICAL_PUBLISH_ORDER.get(v_key, 99)
     run_date = _get_item_schedule_date(item)
     queued_at = str(item.get("queued_at_utc") or item.get("prepared_at_utc") or "").strip()
-    return (run_date, queued_at)
+    return (priority, run_date, queued_at)
+
+
+def _sleep_with_heartbeat(seconds_to_wait, reason_label):
+    """Sleeps in 60-second chunks so GitHub Actions logs show live countdown progress."""
+    remaining = int(round(seconds_to_wait))
+    if remaining <= 0:
+        return
+    print(f"[stagger] Waiting {remaining}s ({remaining / 60:.1f} min) before publishing {reason_label}...")
+    while remaining > 0:
+        step = min(60, remaining)
+        time.sleep(step)
+        remaining -= step
+        if remaining > 0 and remaining % 300 == 0:
+            print(f"[stagger] {remaining // 60} min remaining until {reason_label}...")
 
 
 def publish_across_repos(
@@ -529,6 +583,7 @@ def publish_across_repos(
     vertical="all",
     is_draft=False,
     max_per_vertical_daily=1,
+    stagger_minutes=30,
 ):
     requested_vertical = str(vertical or "all").strip().lower()
     if requested_vertical != "all" and requested_vertical not in ALLOWED_VERTICALS:
@@ -538,7 +593,6 @@ def publish_across_repos(
 
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     today_utc = now_utc.strftime("%Y-%m-%d")
-    now_iso = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     governors_registry = load_governors_registry(search_roots=repo_dirs)
     commissioners_registry = load_commissioners_registry(search_roots=repo_dirs)
@@ -546,21 +600,22 @@ def publish_across_repos(
     service = get_blogger_service()
 
     # Check live blog posts so a vertical never double-publishes on the same UTC date
+    # and retrieve the timestamp of the most recent live post today for dynamic interval pacing.
     vertical_daily_counts = {v: 0 for v in ALLOWED_VERTICALS}
+    last_live_post_dt = None
     if not is_draft:
-        already_live = get_live_published_verticals_for_utc_date(service, today_utc)
+        already_live, last_live_post_dt = get_live_post_state_for_utc_date(service, today_utc)
         for v_key in already_live:
             vertical_daily_counts[v_key] = max_per_vertical_daily
             print(f"[guard] {VERTICAL_CONFIG[v_key]['label']} already published on {today_utc} UTC; locking slot.")
+        if last_live_post_dt:
+            print(f"[stagger] Most recent live post today was at {last_live_post_dt.isoformat()}.")
 
-    total_published = 0
-    cap_logged_verticals = set()
+    # Phase 1: Collect all due candidates across every repository into one unified pool
+    repo_contexts = {}
+    unified_candidates = []
 
     for repo_dir in repo_dirs:
-        if not publish_all and total_published >= limit:
-            print(f"[stop] Run limit ({limit}) reached before scanning {repo_dir}.")
-            break
-
         if not os.path.isdir(repo_dir):
             print(f"Skipping missing repo directory: {repo_dir}")
             continue
@@ -585,15 +640,20 @@ def publish_across_repos(
         else:
             items = []
 
-        # Also check queue metadata for any item already marked published today in UTC
+        repo_contexts[repo_dir] = {
+            "repo_dir": repo_dir,
+            "queue_path": queue_path,
+            "data": data,
+            "modified": False,
+        }
+
         for entry in items:
             if is_allowed_vertical(entry) and entry.get("published") and entry.get("published_utc_date") == today_utc:
                 v_k = str(entry.get("vertical", "")).strip().lower()
                 vertical_daily_counts[v_k] = max(vertical_daily_counts[v_k], max_per_vertical_daily)
 
-        unpublished_candidates = []
         held_future_count = 0
-        for entry in items:
+        for idx, entry in enumerate(items):
             if not is_allowed_vertical(entry) or entry.get("published", False):
                 continue
             if not _is_item_due(entry, today_utc):
@@ -604,120 +664,148 @@ def publish_across_repos(
                     f"(scheduled for {sched_date} UTC; current UTC date is {today_utc})."
                 )
                 continue
-            unpublished_candidates.append(entry)
 
-        if not unpublished_candidates:
-            if held_future_count:
-                print(f"[queue] {held_future_count} future-dated brief(s) held in {queue_path}; none due on or before {today_utc} UTC.")
-            else:
-                print(f"[queue] No due unpublished items found in {queue_path} for <= {today_utc} UTC.")
-            continue
-
-        # Sort newest due date first by run_date_utc / queued_at_utc, preserving reverse list order as tie-breaker
-        indexed_candidates = list(enumerate(reversed(unpublished_candidates)))
-        indexed_candidates.sort(key=lambda pair: (_queued_sort_key(pair[1]), -pair[0]), reverse=True)
-        ordered_candidates = [pair[1] for pair in indexed_candidates]
-
-        repo_modified = False
-        rate_limited = False
-        matched_any_for_vertical = False
-
-        for item in ordered_candidates:
-            if not publish_all and total_published >= limit:
-                print(f"[stop] Reached run limit ({limit}); remaining unpublished items left in queue.")
-                break
-
-            v_key = str(item.get("vertical", "")).strip().lower()
-            v_cfg = VERTICAL_CONFIG[v_key]
-
+            v_key = str(entry.get("vertical", "")).strip().lower()
             if requested_vertical != "all" and v_key != requested_vertical:
                 continue
 
-            matched_any_for_vertical = True
+            unified_candidates.append(
+                {
+                    "repo_dir": repo_dir,
+                    "item": entry,
+                    "list_index": idx,
+                }
+            )
 
-            # Enforce strict 1-post-per-vertical-per-UTC-day cap
-            if vertical_daily_counts[v_key] >= max_per_vertical_daily:
-                if is_draft:
-                    if v_key not in cap_logged_verticals:
-                        cap_logged_verticals.add(v_key)
-                        print(f"[guard] Daily cap ({max_per_vertical_daily}) reached for {v_cfg['label']} in draft mode; skipping '{item.get('title')}'")
-                    continue
-                item["published"] = True
-                item["status"] = "skipped_duplicate_daily"
-                item["skipped_duplicate_daily"] = True
-                item["published_utc_date"] = today_utc
-                repo_modified = True
-                print(f"[guard] Skipped excess {v_cfg['label']} queued item for {today_utc} UTC: '{item.get('title')}'")
-                continue
+        if held_future_count:
+            print(f"[queue] {held_future_count} future-dated brief(s) held in {queue_path} for > {today_utc} UTC.")
 
-            title = item.get("title", f"Diploman Times {v_cfg['label']} Report")
-            labels = resolve_vertical_labels(item)
+    if not unified_candidates:
+        print(f"[queue] No due unpublished items found across checked repos for <= {today_utc} UTC.")
+        return
 
-            if item.get("type") in ("news_report", "scored_brief") or "lead_narrative" in item:
-                content = build_news_report_html(
-                    item,
-                    governors_registry=governors_registry,
-                    commissioners_registry=commissioners_registry,
-                )
-            else:
-                content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
+    # Phase 2: Sort globally across all repos:
+    # 1) policingintel -> 2) governancescore -> 3) footballtally
+    unified_candidates.sort(
+        key=lambda c: (
+            VERTICAL_PUBLISH_ORDER.get(str(c["item"].get("vertical") or "").strip().lower(), 99),
+            -_parse_sort_num(_get_item_schedule_date(c["item"])),
+            c["list_index"],
+        )
+    )
 
-            body = {
-                "kind": "blogger#post",
-                "title": title,
-                "content": content,
-                "labels": labels,
-            }
+    print(
+        "[plan] Ordered publication queue: "
+        + " -> ".join(
+            f"{VERTICAL_CONFIG[str(c['item'].get('vertical')).strip().lower()]['label']} ('{c['item'].get('title')}')"
+            for c in unified_candidates
+        )
+    )
 
-            try:
-                result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=is_draft).execute()
-                post_url = result.get("url")
-                vertical_daily_counts[v_key] += 1
-                total_published += 1
-                repo_modified = True
-                print(f"[{total_published}] [{v_cfg['label']}] Published: '{title}' -> {post_url}")
+    # Phase 3: Publish sequentially with dynamic 30-minute spacing and immediate per-repo commit/push
+    total_published = 0
+    cap_logged_verticals = set()
+    stagger_seconds = max(0, int(stagger_minutes) * 60)
 
-                item["published"] = not is_draft
-                item["status"] = "draft" if is_draft else "published"
-                if not item.get("queued_at_utc"):
-                    item["queued_at_utc"] = now_iso
-                item["published_utc_date"] = today_utc
-                item["blogger_draft"] = bool(is_draft)
-                item["blogger_post_id"] = result.get("id")
-                if post_url:
-                    item["url"] = post_url
-                    item["permalink"] = post_url
-
-                item["social_excerpt"] = build_social_excerpt(item, share_url=post_url)
-                print(f"[social_excerpt]\n{item['social_excerpt']}\n---")
-
-                if not is_draft:
-                    send_telegram_alert(item["social_excerpt"])
-
-                time.sleep(5)
-
-            except Exception as post_err:
-                err_msg = str(post_err)
-                print(f"Warning: Failed to publish '{title}': {err_msg}")
-                if "429" in err_msg or "rateLimitExceeded" in err_msg:
-                    print("Rate limit reached (429). Halting remaining batch execution.")
-                    rate_limited = True
-                    break
-                continue
-
-        if not matched_any_for_vertical and requested_vertical != "all":
-            print(f"[queue] No unpublished items for vertical='{requested_vertical}' in {queue_path}.")
-
-        if repo_modified:
-            with open(queue_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2)
-            print(f"Updated queue state in {queue_path}")
-            commit_and_push_repo(repo_dir, queue_path)
-
-        if rate_limited:
+    for candidate in unified_candidates:
+        if not publish_all and total_published >= limit:
+            print(f"[stop] Reached run limit ({limit}); remaining unpublished items left in queue.")
             break
 
+        repo_dir = candidate["repo_dir"]
+        ctx = repo_contexts[repo_dir]
+        item = candidate["item"]
+        v_key = str(item.get("vertical", "")).strip().lower()
+        v_cfg = VERTICAL_CONFIG[v_key]
+
+        # Enforce strict 1-post-per-vertical-per-UTC-day cap
+        if vertical_daily_counts[v_key] >= max_per_vertical_daily:
+            if is_draft:
+                if v_key not in cap_logged_verticals:
+                    cap_logged_verticals.add(v_key)
+                    print(f"[guard] Daily cap ({max_per_vertical_daily}) reached for {v_cfg['label']} in draft mode; skipping '{item.get('title')}'")
+                continue
+            item["published"] = True
+            item["status"] = "skipped_duplicate_daily"
+            item["skipped_duplicate_daily"] = True
+            item["published_utc_date"] = today_utc
+            save_and_push_repo_queue(repo_dir, ctx["queue_path"], ctx["data"])
+            print(f"[guard] Skipped excess {v_cfg['label']} queued item for {today_utc} UTC: '{item.get('title')}'")
+            continue
+
+        # Dynamic 30-minute stagger enforcement (works both in one batch run and across separate manual commits)
+        if not is_draft and stagger_seconds > 0 and last_live_post_dt is not None:
+            current_dt = datetime.datetime.now(datetime.timezone.utc)
+            elapsed = (current_dt - last_live_post_dt).total_seconds()
+            wait_needed = stagger_seconds - elapsed
+            if wait_needed > 0:
+                _sleep_with_heartbeat(wait_needed, f"{v_cfg['label']} ('{item.get('title')}')")
+
+        title = item.get("title", f"Diploman Times {v_cfg['label']} Report")
+        labels = resolve_vertical_labels(item)
+
+        if item.get("type") in ("news_report", "scored_brief") or "lead_narrative" in item:
+            content = build_news_report_html(
+                item,
+                governors_registry=governors_registry,
+                commissioners_registry=commissioners_registry,
+            )
+        else:
+            content = optimize_blogger_images(item.get("content", "<p>No content provided.</p>"))
+
+        body = {
+            "kind": "blogger#post",
+            "title": title,
+            "content": content,
+            "labels": labels,
+        }
+
+        try:
+            result = service.posts().insert(blogId=BLOG_ID, body=body, isDraft=is_draft).execute()
+            post_url = result.get("url")
+            published_now_dt = datetime.datetime.now(datetime.timezone.utc)
+            published_now_iso = published_now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+            vertical_daily_counts[v_key] += 1
+            total_published += 1
+            last_live_post_dt = published_now_dt
+            print(f"[{total_published}] [{v_cfg['label']}] Published at {published_now_iso}: '{title}' -> {post_url}")
+
+            item["published"] = not is_draft
+            item["status"] = "draft" if is_draft else "published"
+            if not item.get("queued_at_utc"):
+                item["queued_at_utc"] = published_now_iso
+            item["published_utc_date"] = today_utc
+            item["published_at_utc"] = published_now_iso
+            item["blogger_draft"] = bool(is_draft)
+            item["blogger_post_id"] = result.get("id")
+            if post_url:
+                item["url"] = post_url
+                item["permalink"] = post_url
+
+            item["social_excerpt"] = build_social_excerpt(item, share_url=post_url)
+            print(f"[social_excerpt]\n{item['social_excerpt']}\n---")
+
+            if not is_draft:
+                send_telegram_alert(item["social_excerpt"])
+
+            # Push queue state immediately after each vertical publishes so parallel runs stay synced
+            save_and_push_repo_queue(repo_dir, ctx["queue_path"], ctx["data"])
+
+        except Exception as post_err:
+            err_msg = str(post_err)
+            print(f"Warning: Failed to publish '{title}': {err_msg}")
+            if "429" in err_msg or "rateLimitExceeded" in err_msg:
+                print("Rate limit reached (429). Halting remaining batch execution.")
+                break
+            continue
+
     print(f"Done. Total briefs deployed across verticals on {today_utc} UTC: {total_published}")
+
+
+def _parse_sort_num(date_str):
+    digits = re.sub(r"\D", "", str(date_str or ""))
+    return int(digits) if digits else 0
 
 
 if __name__ == "__main__":
@@ -738,6 +826,12 @@ if __name__ == "__main__":
         choices=["all", "governancescore", "policingintel", "footballtally"],
         help="Deploy all three ('all') or one specific vertical",
     )
+    parser.add_argument(
+        "--stagger-minutes",
+        type=int,
+        default=30,
+        help="Minimum minutes between consecutive live posts across verticals (default: 30)",
+    )
     parser.add_argument("--draft", action="store_true", help="Create posts as Blogger drafts instead of live posts")
 
     args = parser.parse_args()
@@ -748,4 +842,5 @@ if __name__ == "__main__":
         target_folder=args.month_folder,
         vertical=args.vertical,
         is_draft=args.draft,
+        stagger_minutes=args.stagger_minutes,
     )
