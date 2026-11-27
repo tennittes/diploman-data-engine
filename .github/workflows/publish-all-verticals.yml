@@ -9,6 +9,10 @@ on:
         description: "Vertical to deploy (all, governancescore, policingintel, footballtally)"
         required: false
         default: "all"
+      stagger_minutes:
+        description: "Minutes between staggered live posts (default: 30)"
+        required: false
+        default: "30"
       draft:
         description: "Publish as Blogger draft instead of live"
         type: boolean
@@ -22,6 +26,7 @@ concurrency:
 jobs:
   publish-diploman-times:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
@@ -66,8 +71,10 @@ jobs:
             DRAFT_FLAG="--draft"
           fi
           VERTICAL="${{ github.event.inputs.vertical || 'all' }}"
+          STAGGER_MIN="${{ github.event.inputs.stagger_minutes || '30' }}"
           python central/scripts/publish_diploman_times.py \
             --repo-dirs central repos/policing repos/football \
             --vertical "$VERTICAL" \
+            --stagger-minutes "$STAGGER_MIN" \
             --limit 6 \
             $DRAFT_FLAG
