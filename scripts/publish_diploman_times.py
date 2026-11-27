@@ -28,13 +28,12 @@ VERTICAL_HOMEPAGE_URLS = {
 }
 
 # Strict publication priority order:
-# 1. Policing Intel (T+0m) -> 2. Governance Score (T+30m) -> 3. Football Tally (T+60m)
+# 1. Football Tally (T+0m) -> 2. Policing Intel (T+30m) -> 3. Governance Score (T+60m)
 VERTICAL_PUBLISH_ORDER = {
-    "policingintel": 1,
-    "governancescore": 2,
-    "footballtally": 3,
+    "footballtally": 1,
+    "policingintel": 2,
+    "governancescore": 3,
 }
-
 VERTICAL_CONFIG = {
     "governancescore": {
         "label": "Governance Score",
@@ -550,16 +549,14 @@ def save_and_push_repo_queue(repo_dir, queue_file_path, data):
 def _global_candidate_sort_key(candidate):
     """
     Orders candidates strictly by:
-      1. Vertical priority: policingintel (1) -> governancescore (2) -> footballtally (3)
-      2. Newest schedule date / queued timestamp first
+      1. Vertical priority: footballtally (1) -> policingintel (2) -> governancescore (3)
+      2. Newest schedule date first, then list_index
     """
     item = candidate["item"]
     v_key = str(item.get("vertical") or "").strip().lower()
     priority = VERTICAL_PUBLISH_ORDER.get(v_key, 99)
     run_date = _get_item_schedule_date(item)
-    queued_at = str(item.get("queued_at_utc") or item.get("prepared_at_utc") or "").strip()
-    return (priority, run_date, queued_at)
-
+    return (priority, -_parse_sort_num(run_date), candidate.get("list_index", 0))
 
 def _sleep_with_heartbeat(seconds_to_wait, reason_label):
     """Sleeps in 60-second chunks so GitHub Actions logs show live countdown progress."""
@@ -685,7 +682,7 @@ def publish_across_repos(
         return
 
     # Phase 2: Sort globally across all repos:
-    # 1) policingintel -> 2) governancescore -> 3) footballtally
+    # 1) footballtally -> 2) policingintel -> 3) governancescore
     unified_candidates.sort(
         key=lambda c: (
             VERTICAL_PUBLISH_ORDER.get(str(c["item"].get("vertical") or "").strip().lower(), 99),
