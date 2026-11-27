@@ -432,11 +432,24 @@ def build_news_report_html(item, governors_registry=None, commissioners_registry
     return optimize_blogger_images(raw_html)
 
 
+def _get_item_schedule_date(item):
+    run_date = str(item.get("run_date_utc") or "").strip()[:10]
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", run_date):
+        return run_date
+    publish_after = str(item.get("publish_after_utc") or "").strip()[:10]
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", publish_after):
+        return publish_after
+    return ""
+
+
 def _is_item_due(item, today_utc):
     if not is_allowed_vertical(item) or item.get("published", False):
         return False
-    item_run_date = str(item.get("run_date_utc") or "").strip()[:10]
-    if item_run_date and item_run_date > today_utc:
+    sched_date = _get_item_schedule_date(item)
+    if sched_date and sched_date > today_utc:
+        return False
+    status = str(item.get("status") or "").strip().lower()
+    if status == "scheduled_future" and not sched_date:
         return False
     return True
 
@@ -503,8 +516,8 @@ def commit_and_push_repo(repo_dir, queue_file_path):
 
 
 def _queued_sort_key(item):
-    run_date = str(item.get("run_date_utc") or "").strip()[:10]
-    queued_at = str(item.get("queued_at_utc") or "").strip()
+    run_date = _get_item_schedule_date(item)
+    queued_at = str(item.get("queued_at_utc") or item.get("prepared_at_utc") or "").strip()
     return (run_date, queued_at)
 
 
@@ -523,7 +536,10 @@ def publish_across_repos(
             f"Unsupported vertical '{vertical}'. Allowed: governancescore, policingintel, footballtally, all"
         )
 
-    today_utc = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    today_utc = now_utc.strftime("%Y-%m-%d")
+    now_iso = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+
     governors_registry = load_governors_registry(search_roots=repo_dirs)
     commissioners_registry = load_commissioners_registry(search_roots=repo_dirs)
     print(f"[registry] Loaded governors={len(governors_registry)} keys, commissioners={len(commissioners_registry)} keys")
@@ -580,12 +596,12 @@ def publish_across_repos(
         for entry in items:
             if not is_allowed_vertical(entry) or entry.get("published", False):
                 continue
-            item_run_date = str(entry.get("run_date_utc") or "").strip()[:10]
-            if item_run_date and item_run_date > today_utc:
+            if not _is_item_due(entry, today_utc):
                 held_future_count += 1
+                sched_date = _get_item_schedule_date(entry) or "unspecified"
                 print(
                     f"[hold] Holding preloaded {entry.get('vertical')} brief '{entry.get('title')}' "
-                    f"(scheduled for {item_run_date} UTC; current UTC date is {today_utc})."
+                    f"(scheduled for {sched_date} UTC; current UTC date is {today_utc})."
                 )
                 continue
             unpublished_candidates.append(entry)
@@ -627,6 +643,7 @@ def publish_across_repos(
                         print(f"[guard] Daily cap ({max_per_vertical_daily}) reached for {v_cfg['label']} in draft mode; skipping '{item.get('title')}'")
                     continue
                 item["published"] = True
+                item["status"] = "skipped_duplicate_daily"
                 item["skipped_duplicate_daily"] = True
                 item["published_utc_date"] = today_utc
                 repo_modified = True
@@ -661,6 +678,9 @@ def publish_across_repos(
                 print(f"[{total_published}] [{v_cfg['label']}] Published: '{title}' -> {post_url}")
 
                 item["published"] = not is_draft
+                item["status"] = "draft" if is_draft else "published"
+                if not item.get("queued_at_utc"):
+                    item["queued_at_utc"] = now_iso
                 item["published_utc_date"] = today_utc
                 item["blogger_draft"] = bool(is_draft)
                 item["blogger_post_id"] = result.get("id")
