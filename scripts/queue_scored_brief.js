@@ -66,6 +66,44 @@ function pickCardVariantIndex(dateStr, angleId) {
   return (Number.isFinite(angleNum) ? angleNum : 0) % 5;
 }
 
+function normalizeUtcDate(dateStr, fallbackDate) {
+  const raw = String(dateStr || "").trim().slice(0, 10);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+  return fallbackDate;
+}
+
+function resolveScheduleFields(runDateUtc, nowIso = new Date().toISOString()) {
+  const todayUtc = nowIso.slice(0, 10);
+  const targetDate = normalizeUtcDate(runDateUtc, todayUtc);
+  const isDue = targetDate <= todayUtc;
+
+  return {
+    run_date_utc: targetDate,
+    status: isDue ? "queued" : "scheduled_future",
+    queued_at_utc: isDue ? nowIso : null,
+    publish_after_utc: `${targetDate}T00:00:00.000Z`,
+    prepared_at_utc: nowIso
+  };
+}
+
+function promoteDueScheduledItems(items, nowIso = new Date().toISOString()) {
+  const todayUtc = nowIso.slice(0, 10);
+  return items.map((item) => {
+    if (!item || item.published === true) return item;
+    const itemRunDate = normalizeUtcDate(item.run_date_utc, todayUtc);
+    const isDue = itemRunDate <= todayUtc;
+    if (isDue && (item.status === "scheduled_future" || !item.queued_at_utc)) {
+      return {
+        ...item,
+        status: "queued",
+        queued_at_utc: nowIso,
+        publish_after_utc: item.publish_after_utc || `${itemRunDate}T00:00:00.000Z`
+      };
+    }
+    return item;
+  });
+}
+
 /* ===========================
    PURE NODE.JS 1200x600 PNG RENDERER (ZERO EXTERNAL DEPENDENCIES)
    =========================== */
@@ -474,10 +512,6 @@ function drawCardFooterPng(c) {
   });
 }
 
-/**
- * Generates one of five distinct 1200x600 PNG Telemetry Card layouts
- * so consecutive Football Tally briefs stay visually varied.
- */
 function generateFootballTelemetryCardPng({
   dateStr,
   angleId,
@@ -493,7 +527,6 @@ function generateFootballTelemetryCardPng({
   const variant = pickCardVariantIndex(dateStr, angleId);
 
   if (variant === 0) {
-    // Variant 0: Horizontal dual-bar DFT vs STD rows + WP badge
     drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#2563EB" });
 
     c.fillRect(56, 144, 14, 14, "#2563EB");
@@ -537,7 +570,6 @@ function generateFootballTelemetryCardPng({
 
     drawCardFooterPng(c);
   } else if (variant === 1) {
-    // Variant 1: Split two-column layout (Left: Ranked Club Cards, Right: Benchmark Snapshot)
     drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#0EA5E9" });
 
     safeRows.slice(0, 4).forEach((r, i) => {
@@ -587,7 +619,6 @@ function generateFootballTelemetryCardPng({
 
     drawCardFooterPng(c);
   } else if (variant === 2) {
-    // Variant 2: Weak Points (WP) & Half-Split Matrix Cards
     drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#10B981" });
 
     safeRows.forEach((r, i) => {
@@ -613,7 +644,6 @@ function generateFootballTelemetryCardPng({
 
     drawCardFooterPng(c);
   } else if (variant === 3) {
-    // Variant 3: Two-column club grid + bottom Multi-League DFT Leaders strip
     drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#3B82F6" });
 
     safeRows.slice(0, 4).forEach((r, i) => {
@@ -661,7 +691,6 @@ function generateFootballTelemetryCardPng({
 
     drawCardFooterPng(c);
   } else {
-    // Variant 4: Top 3 KPI callout boxes + compact remaining rows
     drawCardHeaderPng(c, { dateStr, leagueName, leagueCode, focusTag, headline, accentColor: "#2563EB" });
 
     safeRows.slice(0, 3).forEach((r, i) => {
@@ -1476,17 +1505,20 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
     ? path.dirname(resolvedQueueDir)
     : resolvedQueueDir;
 
+  const nowIso = new Date().toISOString();
+  const todayUtc = nowIso.slice(0, 10);
+
   const prefixMap = {
     governancescore: "scored-gov",
     footballtally: "scored-ftb",
     policingintel: "scored-pol"
   };
   const prefix = prefixMap[vertical] || `scored-${vertical}`;
-  const runDate = selection.run_date_utc || metrics.run_date_utc || new Date().toISOString().slice(0, 10);
+  const runDate = normalizeUtcDate(selection.run_date_utc || metrics.run_date_utc, todayUtc);
   const angleId = selection.selected_angle_id || "01";
   const dailySlotId = `${prefix}-${runDate}`;
 
-  const existingList = Array.isArray(existingQueue)
+  const rawList = Array.isArray(existingQueue)
     ? existingQueue
     : Array.isArray(existingQueue.newsReports)
     ? existingQueue.newsReports
@@ -1494,7 +1526,10 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
     ? existingQueue.items
     : [];
 
-  const alreadyPublishedToday = existingList.find(
+  // Promote any earlier scheduled_future entries whose run_date_utc has now arrived
+  const existingList = promoteDueScheduledItems(rawList, nowIso);
+
+  const alreadyPublishedForDate = existingList.find(
     (item) =>
       item &&
       String(item.vertical || "").toLowerCase() === vertical &&
@@ -1505,16 +1540,17 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
         item.published_utc_date === runDate)
   );
 
-  if (alreadyPublishedToday) {
+  if (alreadyPublishedForDate) {
+    saveJson(queuePath, { newsReports: existingList });
     return {
-      status: "SKIPPED_ALREADY_PUBLISHED_TODAY",
+      status: "SKIPPED_ALREADY_PUBLISHED_FOR_DATE",
       run_date_utc: runDate,
       vertical,
-      existing_id: alreadyPublishedToday.id
+      existing_id: alreadyPublishedForDate.id
     };
   }
 
-  const draft = buildStoryDraft(vertical, selection, metrics, repoRoot);
+  const draft = buildStoryDraft(vertical, { ...selection, run_date_utc: runDate }, metrics, repoRoot);
   const socialExcerpt = buildSocialExcerpt({
     vertical,
     title: draft.title,
@@ -1522,11 +1558,17 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
     url: DIPLOMAN_TIMES_URL
   });
 
+  const scheduleMeta = resolveScheduleFields(runDate, nowIso);
+
   const entry = {
     type: "scored_brief",
     id: dailySlotId,
-    run_date_utc: runDate,
+    run_date_utc: scheduleMeta.run_date_utc,
+    status: scheduleMeta.status,
     published: false,
+    publish_after_utc: scheduleMeta.publish_after_utc,
+    prepared_at_utc: scheduleMeta.prepared_at_utc,
+    queued_at_utc: scheduleMeta.queued_at_utc,
     target_url: DIPLOMAN_TIMES_URL,
     vertical,
     ...(draft.state ? { state: draft.state } : {}),
@@ -1546,8 +1588,7 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
     labels: draft.labels,
     featured_image: draft.featuredImage,
     lead_narrative: draft.leadNarrative,
-    story_body: draft.storyBody,
-    queued_at_utc: new Date().toISOString()
+    story_body: draft.storyBody
   };
 
   const filteredList = existingList.filter((item) => {
@@ -1564,7 +1605,7 @@ function queueScoredBrief({ vertical, selectionPath, metricsPath, queuePath }) {
   saveJson(queuePath, { newsReports: updatedReports });
 
   return {
-    status: "QUEUED",
+    status: scheduleMeta.status === "queued" ? "QUEUED" : "SCHEDULED_FOR_RUN_DATE",
     target_url: DIPLOMAN_TIMES_URL,
     entry
   };
@@ -1591,4 +1632,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { queueScoredBrief, buildSocialExcerpt };
+module.exports = { queueScoredBrief, buildSocialExcerpt, resolveScheduleFields, promoteDueScheduledItems };
